@@ -1,0 +1,32 @@
+Classify the relation between EVIDENCE and CLAIM as SUPPORTS, REFUTES, or NOT ENOUGH INFO.
+
+Use the TWO-WORLD TEST before deciding:
+
+WORLD T: Can every statement asserted in EVIDENCE be true while CLAIM is also true?
+WORLD F: Can every statement asserted in EVIDENCE be true while CLAIM is false?
+
+A possible world is a logically consistent scenario. You may vary facts that the evidence leaves unspecified, but you must never change any asserted fact in the evidence. Consider logical compatibility, not how probable a scenario seems in real life. Do not use outside facts.
+
+For each world:
+- If POSSIBLE, give one brief concrete example that keeps every evidence statement true.
+- If IMPOSSIBLE, identify an explicit logical contradiction with the evidence; inability to imagine a scenario is not itself proof of impossibility.
+- Preserve the difference between what is stated about a claim and whether that claim is actually true.
+
+Make the final classification using these rules:
+- T possible, F impossible => SUPPORTS
+- T impossible, F possible => REFUTES
+- T possible, F possible => NOT ENOUGH INFO
+- If both seem impossible, reconsider your interpretation rather than guessing.
+
+EVIDENCE:
+{evidence}
+
+CLAIM:
+{claim}
+
+End your response in exactly this format:
+CLAIM-TRUE WORLD: POSSIBLE or IMPOSSIBLE
+Reason: <brief reason or example>
+CLAIM-FALSE WORLD: POSSIBLE or IMPOSSIBLE
+Reason: <brief reason or example>
+Verdict: <SUPPORTS | REFUTES | NOT ENOUGH INFO>

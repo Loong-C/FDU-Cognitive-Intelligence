@@ -2,7 +2,8 @@
 
 B 组模型设计与优化仓库。任务是根据英文 `evidence` 判断 `claim`，输出
 `SUPPORTS`、`REFUTES` 或 `NOT ENOUGH INFO`。
-当前已完成仓库初始化和开发集 / 测试集划分，尚未实现模型训练或推理。
+已实现开发集 / 测试集划分，以及本地小模型 A0/B1/C1 提示词对照实验流程。
+本轮只做零训练 pilot 推理，封存测试集。
 
 ## 目录结构
 
@@ -20,6 +21,7 @@ A_B/
 │   ├── references/             # 原有选题文本和课题说明文档
 │   └── data_split.md           # 划分规则、数据使用约定及检查结果
 ├── src/ab_factcheck/            # 可复用 Python 代码
+├── prompts/v1/                 # 冻结的 A0/B1/C1 system/user 模板
 ├── scripts/                    # 命令行入口
 ├── tests/                      # 数据隔离、完整性和可复现性测试
 ├── experiments/                # 实验配置与结果摘要，纳入版本管理
@@ -44,26 +46,48 @@ A_B/
 
 ## 快速开始
 
-需要 Python 3.10 或以上版本，当前划分和测试只使用 Python 标准库，无需安装第三方依赖。
+需要 Python 3.10 或以上版本。原始划分脚本只使用标准库；实验使用 httpx，新增测试使用 pytest。
 在仓库根目录运行：
 
 ```powershell
 # 校验原始文件哈希、冻结划分和统计报告，不修改文件
 python scripts/split_dataset.py --check
 
-# 运行测试
-python -m unittest discover -s tests -v
+# 运行原始划分测试
+python -m unittest discover -s tests -p test_splitting.py -v
 
 # 生成缺失的划分文件；已存在且一致的文件保持不变
 python scripts/split_dataset.py
 ```
 
-后续开发可选择建立本地环境并安装项目：
+建立本地环境并安装实际验证过的依赖版本：
 
 ```powershell
 python -m venv .venv
-.venv\Scripts\python.exe -m pip install -e .
+.venv\Scripts\python.exe -m pip install -r requirements-lock.txt
+.venv\Scripts\python.exe -m pip install --no-deps -e .
+.venv\Scripts\python.exe -m pytest -q
 ```
+
+## 首轮核心实验
+
+配置见 `configs/experiment.json`。保留现有开发集划分，从中按完整组选择挑战集 87 条、
+基础集 60 条作为 pilot。A0 为原始直接分类，B1 为双世界零样本，C1 仅增加一个虚构 NEI 示例。
+每个条件都使用同一份 Qwen3-4B-Instruct-2507 Q4_K_M 权重和统一推理参数，共 441 条 pilot 请求。
+
+```powershell
+.venv\Scripts\python.exe scripts/bootstrap_local.py
+powershell -ExecutionPolicy Bypass -File scripts/start_local_server.ps1
+# 等待 http://127.0.0.1:8081/health 返回正常后运行
+.venv\Scripts\python.exe -m ab_factcheck.cli doctor
+.venv\Scripts\python.exe -m ab_factcheck.cli smoke
+.venv\Scripts\python.exe -m ab_factcheck.cli run --dataset all --arm all
+.venv\Scripts\python.exe -m ab_factcheck.cli report
+```
+
+完整的安装、恢复和统计口径见 [实验说明](experiments/001_two_world_pilot/README.md)。
+原始响应保存在 `outputs/runs/`，报告保存在 `experiments/001_two_world_pilot/reports/`。
+所有模型推理均通过本地 HTTP 服务完成，无需商业 API key。
 
 ## 开发约定
 

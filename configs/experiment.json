@@ -1,0 +1,27 @@
+{
+  "experiment_id": "001_two_world_pilot",
+  "run_id": "pilot_qwen3_4b_q4_v1",
+  "pilot_seed": 20261022,
+  "split_version": "v1",
+  "pilot_dir": "experiments/001_two_world_pilot/pilot",
+  "prompts_dir": "prompts/v1",
+  "output_root": "outputs/runs",
+  "report_root": "experiments/001_two_world_pilot/reports",
+  "model": {
+    "endpoint": "http://127.0.0.1:8081/v1",
+    "backend": "llama.cpp",
+    "backend_release": "b11669",
+    "repository": "bartowski/Qwen_Qwen3-4B-Instruct-2507-GGUF",
+    "revision": "ae44f08e1392f39c0e474af10c3ff8355c8b6688",
+    "file": "outputs/runtime/Qwen_Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+    "sha256": "2fde00ce69dd4899c70d020845e2638353015bba0fdf161b3eb965f2bca4464e",
+    "quantization": "Q4_K_M",
+    "temperature": 0.0,
+    "seed": 42,
+    "max_tokens": 512,
+    "context_tokens": 8192,
+    "timeout_seconds": 180,
+    "network_retries": 2,
+    "stream": false
+  }
+}

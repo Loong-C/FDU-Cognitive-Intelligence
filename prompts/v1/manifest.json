@@ -1,0 +1,14 @@
+{
+  "sha256": {
+    "A0_system.txt": "c516ecfd8606bfe0c49ebacaca69d9afb362b1ab46fcd23ed09c962cda40711e",
+    "A0_user.txt": "89c3011044b9835fa493e16593ffe8d5044364250ac4d5571a108a62d187fa63",
+    "B1_system.txt": "5eacb2bf2ee26f5716f9613a24e47aa6af5c4458e08dac89f3337e95397dd9c3",
+    "B1_user.txt": "117ab71686dd13f9620216d56f5de9ddf07a1513e31bdfd1bc6f628226b3b47b",
+    "C1_example.txt": "9ee17f8e9a74f25a3e98cf25e4df5bbd1618985b025a3b44ff1ff946d686499b",
+    "C1_system.txt": "5eacb2bf2ee26f5716f9613a24e47aa6af5c4458e08dac89f3337e95397dd9c3",
+    "C1_user.txt": "a343313ba73496b53caace8491aaa1f6459c53e4a2ca5dc0d1eda93847b13319"
+  },
+  "source_document": "Stage 3.md",
+  "source_sha256": "a979c1ef18959c9594305ab668dcd1d4bba20e2558a6c159997f13cfb0a113d7",
+  "version": 1
+}

@@ -7,7 +7,18 @@ name = "ab-factcheck"
 version = "0.1.0"
 description = "B-group evidence-based fact-checking experiments and benchmark preparation"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = ["httpx>=0.28,<1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+ab-factcheck = "ab_factcheck.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "--basetemp=outputs/pytest-tmp"
 
 [tool.setuptools.packages.find]
 where = ["src"]

@@ -1,0 +1,11 @@
+ILLUSTRATIVE EXAMPLE (fictional; not a test item):
+EVIDENCE: In a fictional greenhouse, Neris watered the silver fern on Monday.
+CLAIM: Neris watered the silver fern on Tuesday.
+
+CLAIM-TRUE WORLD: POSSIBLE
+Reason: Neris watered the silver fern on both Monday and Tuesday. This does not contradict the evidence.
+CLAIM-FALSE WORLD: POSSIBLE
+Reason: Neris watered the silver fern on Monday but not on Tuesday. This also does not contradict the evidence.
+Verdict: NOT ENOUGH INFO
+
+Now apply the same method to the following new evidence and claim.
