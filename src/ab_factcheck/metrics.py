@@ -39,7 +39,7 @@ def compute_metrics(rows: list[dict]) -> dict:
     tokens = [value for value in tokens if isinstance(value, (int, float))]
     inconsistent = sum(row.get("consistency_status") == "inconsistent" for row in rows)
     world_available = sum(row.get("consistency_status") in ("consistent", "inconsistent", "both_impossible") for row in rows)
-    return {
+    result = {
         "n": n, "valid": valid, "invalid": n - valid, "correct": right,
         "accuracy": ratio(right, n), "valid_only_accuracy": ratio(right, valid),
         "invalid_rate": ratio(n - valid, n), "classes": classes,
@@ -58,6 +58,20 @@ def compute_metrics(rows: list[dict]) -> dict:
         "request_failure_rate": ratio(sum(row.get("status") == "request_failed" for row in rows), n),
         "not_run_count": sum(row.get("status") == "not_run" for row in rows),
     }
+    if any(r.get("output_protocol") == "json_schema_v2" for r in rows):
+        for field in ("json_valid", "fields_valid", "protocol_valid"):
+            count = sum(r.get(field) is True for r in rows)
+            result[field + "_count"] = count
+            result[field + "_rate"] = ratio(count, n)
+        available = sum(r.get("logic_valid") is not None for r in rows)
+        logic_valid = sum(r.get("logic_valid") is True for r in rows)
+        result.update(logic_available_count=available, logic_valid_count=logic_valid,
+                      logic_valid_rate=ratio(logic_valid, available),
+                      truncated_count=sum(r.get("finish_reason") == "length" for r in rows),
+                      reason_quality_flag_count=sum(bool(r.get("reason_quality_flags")) for r in rows),
+                      supports_to_nei=matrix["SUPPORTS"]["NOT ENOUGH INFO"],
+                      refutes_to_nei=matrix["REFUTES"]["NOT ENOUGH INFO"])
+    return result
 
 
 def paired_comparison(before: list[dict], after: list[dict]) -> dict:
@@ -71,6 +85,13 @@ def paired_comparison(before: list[dict], after: list[dict]) -> dict:
             raise ValueError("Paired sample metadata differs")
         if correct(a) != correct(b):
             (improved if correct(b) else harmed).append(sample_id)
-    return {"n": len(left), "improved_ids": improved, "harmed_ids": harmed,
+    transitions = {}
+    if any(r.get("output_protocol") == "json_schema_v2" for r in before):
+        candidates = [i for i, r in left.items() if r["gold_label"] == "NOT ENOUGH INFO" and prediction(r) == "REFUTES"]
+        transitions = {"nei_refuted_before_ids": sorted(candidates),
+                       "nei_refutes_corrected_ids": sorted(i for i in candidates if prediction(right[i]) == "NOT ENOUGH INFO"),
+                       "supports_correct_to_nei_ids": sorted(i for i, r in left.items() if r["gold_label"] == "SUPPORTS" and correct(r) and prediction(right[i]) == "NOT ENOUGH INFO"),
+                       "refutes_correct_to_nei_ids": sorted(i for i, r in left.items() if r["gold_label"] == "REFUTES" and correct(r) and prediction(right[i]) == "NOT ENOUGH INFO")}
+    return {"n": len(left), "improved_ids": improved, "harmed_ids": harmed, **transitions,
             "improved": len(improved), "harmed": len(harmed),
             "accuracy_delta": ratio(len(improved) - len(harmed), len(left))}

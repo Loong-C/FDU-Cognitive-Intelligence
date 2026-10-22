@@ -1,0 +1,25 @@
+{
+  "cause": "b11669 reads response_format.json_schema.schema; outer schema silently degenerates to unconstrained JSON object",
+  "fingerprint_sha256": "bacbea5339bbaa4344761d2775267edcddbd695706f8d2f2d80ea4b853312e6b",
+  "observations": [
+    {
+      "condition": "unconstrained_control",
+      "finish_reason": "stop",
+      "raw_response": "NOT_JSON"
+    },
+    {
+      "condition": "SCHEMA_ONLY_ALPHA",
+      "finish_reason": "stop",
+      "raw_response": "{\n  \"error\": \"Invalid input\"\n}"
+    },
+    {
+      "condition": "SCHEMA_ONLY_BETA",
+      "finish_reason": "stop",
+      "raw_response": "{\n  \"error\": \"Invalid input\"\n}"
+    }
+  ],
+  "passed": false,
+  "probe_path": "outputs/runs/pilot_qwen3_4b_q4_struct_v2_smoke/constraint_probe.json",
+  "run_id": "pilot_qwen3_4b_q4_struct_v2_smoke",
+  "source_snapshot": "outputs/runs/pilot_qwen3_4b_q4_struct_v2_smoke/source_snapshot"
+}

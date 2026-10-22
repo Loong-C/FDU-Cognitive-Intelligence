@@ -4,7 +4,7 @@ import csv
 import io
 import json
 
-from .common import ARMS, DATASETS, LABELS, ROOT, atomic_bytes, atomic_json, file_hash, now, read_jsonl, sha256
+from .common import ARMS, DATASETS, LABELS, ROOT, atomic_bytes, atomic_json, experiment_arms, file_hash, now, read_jsonl, sha256
 from .metrics import compute_metrics, paired_comparison, prediction
 from .pilot import load_pilot
 
@@ -26,6 +26,8 @@ def decimal(value):
 
 
 def report(config: dict) -> dict:
+    arms = experiment_arms(config)
+    structured = config.get("output_protocol") == "json_schema_v2"
     run_directory = ROOT / config["output_root"] / config["run_id"]
     destination = ROOT / config["report_root"] / config["run_id"]
     fingerprint = json.loads((run_directory / "fingerprint.json").read_text(encoding="utf-8"))
@@ -40,7 +42,7 @@ def report(config: dict) -> dict:
         source_hashes[dataset] = file_hash(source)
         expected_rows = {row["id"]: row for row in load_pilot(config, dataset)}
         keys = [(row["arm"], row["id"]) for row in records]
-        expected_keys = {(arm, sample_id) for arm in ARMS for sample_id in expected_rows}
+        expected_keys = {(arm, sample_id) for arm in arms for sample_id in expected_rows}
         if len(keys) != len(set(keys)) or set(keys) != expected_keys:
             raise ValueError(f"Incomplete or duplicate comparison records: {dataset}")
         for row in records:
@@ -51,10 +53,11 @@ def report(config: dict) -> dict:
             original = expected_rows[row["id"]]
             if any(row[key] != original[source_key] for key, source_key in (("gold_label", "label"), ("group", "group"), ("mechanism", "mechanism"))):
                 raise ValueError("Result metadata differs from the frozen pilot")
-        by_arm = {arm: [r for r in records if r["arm"] == arm] for arm in ARMS}
+        by_arm = {arm: [r for r in records if r["arm"] == arm] for arm in arms}
         results = {arm: compute_metrics(rows) for arm, rows in by_arm.items()}
         pairs = {}
-        for before, after in (("A0", "B1"), ("B1", "C1")):
+        comparisons = list(zip(arms, arms[1:])) + ([("A2", "C2")] if structured else [])
+        for before, after in comparisons:
             pair = paired_comparison(by_arm[before], by_arm[after])
             pairs[f"{after}-{before}"] = pair
             left = {r["id"]: r for r in by_arm[before]}
@@ -69,7 +72,7 @@ def report(config: dict) -> dict:
         mechanisms = {}
         for mechanism in sorted({row["mechanism"] for row in records}):
             mechanisms[mechanism] = {}
-            for arm in ARMS:
+            for arm in arms:
                 metric = compute_metrics([r for r in by_arm[arm] if r["mechanism"] == mechanism])
                 mechanisms[mechanism][arm] = metric
                 mechanism_rows.append({"dataset": dataset, "mechanism": mechanism, "arm": arm, "n": metric["n"],
@@ -88,7 +91,7 @@ def report(config: dict) -> dict:
             fields = {k: row.get(k) for k in ("dataset", "arm", "id", "group", "mechanism", "gold_label", "predicted_label", "parse_status", "parse_error", "consistency_status", "finish_reason", "error")}
             if row["parse_status"] != "ok":
                 invalid.append(fields)
-            if row["parse_status"] != "ok" or row.get("consistency_status") in ("inconsistent", "both_impossible") or prediction(row) != row["gold_label"]:
+            if row["parse_status"] != "ok" or row.get("consistency_status") in ("inconsistent", "both_impossible") or prediction(row) != row["gold_label"] or row.get("reason_quality_flags"):
                 review.append({**fields, "claim": expected_rows[row["id"]]["claim"], "evidence": expected_rows[row["id"]]["evidence"],
                                "record_path": (run_directory / "records" / dataset / row["arm"] / f"{sha256(row['id'].encode())}.json").relative_to(ROOT).as_posix(),
                                "review_status": "requires_human_review"})
@@ -112,6 +115,10 @@ def report(config: dict) -> dict:
     csv_file(destination / "metrics_by_mechanism.csv", mechanism_rows, ["dataset", "mechanism", "arm", "n", "accuracy", "nei_n", "nei_recall", "invalid"])
     prediction_rows = [{**row, **{key: row.get("usage", {}).get(key) for key in ("prompt_tokens", "completion_tokens", "total_tokens")}} for row in all_records]
     csv_file(destination / "predictions.csv", prediction_rows, ["run_id", "dataset", "arm", "id", "group", "mechanism", "gold_label", "predicted_label", "status", "parse_status", "parse_error", "claim_true_world", "claim_false_world", "derived_label", "consistency_status", "finish_reason", "latency_seconds", "prompt_tokens", "completion_tokens", "total_tokens", "preflight_prompt_tokens", "completion_request_attempts", "messages_sha256"])
+    if structured:
+        from .reporting_v2 import write_structured_report
+        write_structured_report(config, receipt, all_records, destination)
+        return {"report_directory": str(destination), "record_count": len(all_records), "datasets": datasets}
     lines = ["# 首轮双世界提示词 pilot 实验报告", "", f"运行：`{config['run_id']}`。所有数字由本地模型真实逐题记录计算，未使用封存测试集。", "",
              f"模型：`{config['model']['repository']}`，量化 `{config['model']['quantization']}`，后端 `{config['model']['backend_release']}`。",
              "温度 0、请求种子 42、输出上限 512 tokens、上下文 8192、串行运行。种子不构成 GPU 逐位确定性的保证。", "",

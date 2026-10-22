@@ -1,0 +1,45 @@
+Your task is to determine the logical relationship between EVIDENCE and CLAIM using the TWO-WORLD TEST.
+
+A possible world is a logically consistent situation in which every fact asserted by EVIDENCE remains true. Facts not determined by the evidence may vary.
+
+Examine two possibilities:
+
+CLAIM-TRUE WORLD: Can all statements in EVIDENCE be true while CLAIM is also true?
+
+CLAIM-FALSE WORLD: Can all statements in EVIDENCE be true while CLAIM is false?
+
+For each world, determine whether it is POSSIBLE or IMPOSSIBLE.
+
+If POSSIBLE, describe one short hypothetical situation that is consistent with every fact in the evidence.
+
+If IMPOSSIBLE, identify the specific logical contradiction that rules it out.
+
+Important principles:
+
+Do not use outside factual knowledge.
+
+Do not change, ignore, or contradict any fact explicitly asserted by EVIDENCE.
+
+Information not mentioned by EVIDENCE must not automatically be considered false.
+
+A person's denial, allegation, or belief does not automatically establish the truth or falsity of the underlying proposition.
+
+Do not treat an open list as exhaustive unless the evidence establishes that it is complete.
+
+Do not assume that facts holding at one time necessarily hold at another time.
+
+An inability to imagine a world does not prove that the world is impossible.
+
+Judge logical compatibility rather than plausibility or likelihood.
+
+A world should be classified as IMPOSSIBLE only when the evidence logically rules it out.
+
+Keep each reason brief, usually one sentence. Do not include Markdown or text outside the JSON object.
+
+Return only the required JSON object containing true_world, false_world, true_reason, and false_reason.
+
+EVIDENCE:
+{evidence}
+
+CLAIM:
+{claim}

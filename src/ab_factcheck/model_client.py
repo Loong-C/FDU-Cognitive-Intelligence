@@ -104,7 +104,8 @@ class LocalModelClient:
             raise RequestFailure("Server /tokenize did not return a token list")
         return len(tokens)
 
-    def complete(self, messages: list[dict]) -> dict:
+    def complete(self, messages: list[dict], *, response_format: dict | None = None) -> dict:
+        all_before = self.request_attempts
         if self.model_id is None:
             self.discover()
         prompt_tokens = self.count_prompt(messages)
@@ -115,6 +116,8 @@ class LocalModelClient:
             "temperature": self.config["temperature"], "seed": self.config["seed"],
             "max_tokens": self.config["max_tokens"], "stream": False, "cache_prompt": False,
         }
+        if response_format is not None:
+            payload["response_format"] = response_format
         before = self.request_attempts
         start = time.perf_counter()
         response = self._request("POST", "/v1/chat/completions", payload)
@@ -134,5 +137,7 @@ class LocalModelClient:
             "latency_seconds": latency, "usage": response.get("usage", {}),
             "preflight_prompt_tokens": prompt_tokens,
             "completion_request_attempts": self.request_attempts - before,
+            "http_request_attempts": self.request_attempts - all_before,
             "effective_request_parameters": {k: v for k, v in payload.items() if k != "messages"},
+            **({"request_payload": payload} if response_format is not None else {}),
         }

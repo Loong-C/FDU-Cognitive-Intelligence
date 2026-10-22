@@ -1,0 +1,7 @@
+Fictional example:
+EVIDENCE: In a fictional greenhouse, Neris watered the silver fern on Monday.
+CLAIM: Neris watered the silver fern on Tuesday.
+Expected output:
+{"true_world":"POSSIBLE","false_world":"POSSIBLE","true_reason":"Neris may have watered the fern on both Monday and Tuesday.","false_reason":"Neris may have watered the fern on Monday but not on Tuesday."}
+
+End of example. Apply the same method to the new EVIDENCE and CLAIM below.

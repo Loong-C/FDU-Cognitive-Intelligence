@@ -1,4 +1,4 @@
-"""CLI for the first local, zero-training A0/B1/C1 pilot experiment."""
+"""Versioned local pilot experiments; historical and constrained output protocols."""
 
 import argparse
 import copy
@@ -6,7 +6,8 @@ import json
 from pathlib import Path
 import sys
 
-from .common import ARMS, DATASETS, ROOT, load_config
+from .common import ARMS, STRUCTURED_ARMS, DATASETS, ROOT, experiment_arms, frozen_json, load_config
+from .gates import constraint_probe, verify_smoke
 from .diagnostics import doctor
 from .model_client import LocalModelClient
 from .pilot import load_pilot, prepare
@@ -32,12 +33,16 @@ def main(argv=None) -> int:
     parser.add_argument("command", choices=("prepare", "doctor", "smoke", "run", "report"))
     parser.add_argument("--config", type=Path, default=ROOT / "configs/experiment.json")
     parser.add_argument("--dataset", choices=(*DATASETS, "all"), default="all")
-    parser.add_argument("--arm", choices=(*ARMS, "all"), default="all")
+    parser.add_argument("--arm", choices=(*ARMS, *STRUCTURED_ARMS, "all"), default="all")
     parser.add_argument("--split", choices=("pilot",), default="pilot", help="This stage exposes only the development pilot")
     args = parser.parse_args(argv)
     client = None
     try:
         config = load_config(args.config)
+        structured = config.get("output_protocol") == "json_schema_v2"
+        configured_arms = experiment_arms(config)
+        if args.arm != "all" and args.arm not in configured_arms:
+            raise ValueError("Selected arm does not match the configured protocol")
         if args.command == "prepare":
             print(json.dumps(prepare(config), ensure_ascii=False, indent=2))
             return 0
@@ -57,14 +62,26 @@ def main(argv=None) -> int:
         prompts = PromptSet(ROOT / config["prompts_dir"])
         fingerprint = make_fingerprint(config, prompts, environment["runtime"])
         session = RunSession(ROOT / config["output_root"] / config["run_id"], config, prompts, client, fingerprint)
-        arms = ARMS if args.arm == "all" else (args.arm,)
+        arms = configured_arms if args.arm == "all" else (args.arm,)
         if args.command == "smoke":
+            if structured:
+                session.initialize()
+                constraint_probe(session)
             records = session.run("synthetic", sorted(SMOKE_ROWS, key=lambda row: row["id"]), arms, split="smoke")
             print(f"Smoke: {sum(r['parse_status']=='ok' for r in records)}/{len(records)} parseable; inspect actual responses in the run directory.")
+            if structured and any(r["parse_status"] != "ok" for r in records):
+                raise ValueError("Smoke incomplete or invalid; formal run blocked")
         else:
             datasets = DATASETS if args.dataset == "all" else (args.dataset,)
-            for dataset in datasets:
-                session.run(dataset, load_pilot(config, dataset), arms)
+            if structured:
+                gate = verify_smoke(config, fingerprint, SMOKE_ROWS)
+                frozen_json(session.directory / "smoke_gate.json", gate)
+                for arm in arms:
+                    for dataset in datasets:
+                        session.run(dataset, load_pilot(config, dataset), (arm,))
+            else:
+                for dataset in datasets:
+                    session.run(dataset, load_pilot(config, dataset), arms)
         return 0
     except KeyboardInterrupt:
         print("Interrupted; committed per-item records are preserved. Rerun the same command to resume.", file=sys.stderr)

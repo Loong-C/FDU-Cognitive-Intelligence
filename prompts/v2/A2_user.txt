@@ -1,0 +1,15 @@
+Classify CLAIM using only EVIDENCE.
+
+SUPPORTS: The evidence entails every part of the claim.
+REFUTES: The evidence explicitly contradicts the claim.
+NOT ENOUGH INFO: The evidence neither entails nor contradicts the claim.
+
+Return only one JSON object with exactly two fields: verdict and reason.
+verdict must be SUPPORTS, REFUTES, or NOT ENOUGH INFO.
+Keep reason brief, usually one sentence. Do not include Markdown or text outside the JSON object.
+
+EVIDENCE:
+{evidence}
+
+CLAIM:
+{claim}

@@ -4,7 +4,7 @@ from collections import Counter, defaultdict
 from itertools import combinations
 import json
 
-from .common import DATASETS, LABELS, ROOT, file_hash, frozen_json, read_jsonl, sha256
+from .common import DATASETS, LABELS, ROOT, file_hash, frozen_json, json_bytes, read_jsonl, sha256
 from .splitting import build_artifacts, statistics, write_artifacts
 
 
@@ -34,6 +34,8 @@ def choose_pilot(rows: list[dict], dataset: str, seed: int) -> list[dict]:
 
 
 def prepare(config: dict) -> dict:
+    if config.get("output_protocol") == "json_schema_v2":
+        return reuse_pilot(config)
     split_config = json.loads((ROOT / "configs/data_split.json").read_text(encoding="utf-8"))
     artifacts, _ = build_artifacts(ROOT, split_config)
     write_artifacts(ROOT / split_config["output_dir"], artifacts, check=True)
@@ -66,6 +68,29 @@ def prepare(config: dict) -> dict:
         }
         frozen_json(ROOT / config["pilot_dir"] / f"{dataset}_manifest.json", manifest)
         summary[dataset] = manifest["statistics"]
+    return summary
+
+
+def reuse_pilot(config: dict) -> dict:
+    """Validate the existing frozen selection, without running the sampler again."""
+    summary = {}
+    for dataset in DATASETS:
+        path = ROOT / config["pilot_dir"] / f"{dataset}_manifest.json"
+        reference = config["pilot_reference"][dataset]
+        if file_hash(path) != reference["manifest_sha256"]:
+            raise ValueError("Historical pilot manifest changed")
+        manifest = json.loads(path.read_text(encoding="utf-8"))
+        rows = load_pilot(config, dataset)
+        if len(rows) != reference["n"] or sha256(json_bytes([r["id"] for r in rows])) != reference["ordered_ids_sha256"]:
+            raise ValueError("Historical pilot IDs/order changed")
+        base = ROOT / "data/splits" / config["split_version"] / dataset
+        if file_hash(base / "test.jsonl") != manifest["test_sha256"]:
+            raise ValueError("Sealed holdout file changed")
+        dev = read_jsonl(base / "dev.jsonl")
+        groups = {r["group"] for r in rows}
+        if {r["id"] for r in dev if r["group"] in groups} != {r["id"] for r in rows}:
+            raise ValueError("Partial pilot group")
+        summary[dataset] = statistics(rows)
     return summary
 
 

@@ -13,9 +13,14 @@ class PromptSet:
     def __init__(self, directory):
         self.directory = directory
         manifest = json.loads((directory / "manifest.json").read_text(encoding="utf-8"))
+        self.arms = tuple(manifest.get("arms", ARMS))
+        if self.arms == ("A2", "B2", "C2"):
+            from .structured import response_format_for
+            if manifest.get("response_formats") != {arm: response_format_for(arm) for arm in self.arms}:
+                raise ValueError("Frozen schemas differ from the implemented protocol")
         self.templates = {}
         self.hashes = {}
-        for arm in ARMS:
+        for arm in self.arms:
             parts = {}
             for role in ("system", "user"):
                 name = f"{arm}_{role}.txt"
@@ -24,14 +29,16 @@ class PromptSet:
                 parts[role] = (directory / name).read_text(encoding="utf-8")
             self.templates[arm] = parts
             self.hashes[arm] = sha256(json.dumps(parts, sort_keys=True, ensure_ascii=False).encode())
-        example_path = directory / "C1_example.txt"
-        if file_hash(example_path) != manifest["sha256"]["C1_example.txt"]:
+        before, after = self.arms[1:]
+        example_name = f"{after}_example.txt"
+        example_path = directory / example_name
+        if file_hash(example_path) != manifest["sha256"][example_name]:
             raise ValueError("Frozen example changed")
         example = example_path.read_text(encoding="utf-8")
-        b1, c1 = self.templates["B1"], self.templates["C1"]
+        b1, c1 = self.templates[before], self.templates[after]
         expected = b1["user"].replace("EVIDENCE:\n{evidence}", example + "\nEVIDENCE:\n{evidence}", 1)
         if c1["system"] != b1["system"] or c1["user"] != expected:
-            raise ValueError("C1 must differ from B1 only by the frozen example")
+            raise ValueError(f"{after} must differ from {before} only by the frozen example")
         for parts in self.templates.values():
             if parts["user"].count("{claim}") != 1 or parts["user"].count("{evidence}") != 1:
                 raise ValueError("Prompt requires exactly one occurrence of each data placeholder")

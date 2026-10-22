@@ -1,0 +1,44 @@
+{
+  "execution_order": "arm_then_dataset",
+  "experiment_id": "002_constrained_output",
+  "format_failure_policy": "stop_on_first_protocol_failure",
+  "historical_commit": "8ff873195277f604fe8e957567a8c24fdf4e913b",
+  "historical_run_id": "pilot_qwen3_4b_q4_v1",
+  "model": {
+    "backend": "llama.cpp",
+    "backend_release": "b11669",
+    "context_tokens": 8192,
+    "endpoint": "http://127.0.0.1:8081/v1",
+    "file": "outputs/runtime/Qwen_Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+    "max_tokens": 1024,
+    "network_retries": 2,
+    "quantization": "Q4_K_M",
+    "repository": "bartowski/Qwen_Qwen3-4B-Instruct-2507-GGUF",
+    "revision": "ae44f08e1392f39c0e474af10c3ff8355c8b6688",
+    "seed": 42,
+    "sha256": "2fde00ce69dd4899c70d020845e2638353015bba0fdf161b3eb965f2bca4464e",
+    "stream": false,
+    "temperature": 0.0,
+    "timeout_seconds": 180
+  },
+  "output_protocol": "json_schema_v2",
+  "output_root": "outputs/runs",
+  "pilot_dir": "experiments/001_two_world_pilot/pilot",
+  "pilot_reference": {
+    "basic": {
+      "manifest_sha256": "440c94f8464d54c5e17057e32da5c6b5c87f3f066e8b4f7acaa35ab1d48aebda",
+      "n": 60,
+      "ordered_ids_sha256": "8147edf1a68a151ada2befe6fb141b22be628d3b9975e2f6255099e86ba8ed3e"
+    },
+    "challenge": {
+      "manifest_sha256": "bb6f2da17d115b0250f104ada3b72d8543ad3dae88159ca67c50a57263b28a8d",
+      "n": 87,
+      "ordered_ids_sha256": "afd5ebdabba5f99b0229cf5dd51beacba5c4bb70b00360025a6f0b360cfb8a00"
+    }
+  },
+  "pilot_seed": 20261022,
+  "prompts_dir": "prompts/v2",
+  "report_root": "experiments/002_constrained_output/reports",
+  "run_id": "pilot_qwen3_4b_q4_struct_v2_smoke",
+  "split_version": "v1"
+}

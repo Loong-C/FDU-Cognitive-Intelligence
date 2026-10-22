@@ -1,0 +1,126 @@
+{
+  "arms": [
+    "A2",
+    "B2",
+    "C2"
+  ],
+  "response_formats": {
+    "A2": {
+      "json_schema": {
+        "name": "direct_classification",
+        "schema": {
+          "additionalProperties": false,
+          "properties": {
+            "reason": {
+              "type": "string"
+            },
+            "verdict": {
+              "enum": [
+                "SUPPORTS",
+                "REFUTES",
+                "NOT ENOUGH INFO"
+              ],
+              "type": "string"
+            }
+          },
+          "required": [
+            "verdict",
+            "reason"
+          ],
+          "type": "object"
+        },
+        "strict": true
+      },
+      "type": "json_schema"
+    },
+    "B2": {
+      "json_schema": {
+        "name": "world_classification",
+        "schema": {
+          "additionalProperties": false,
+          "properties": {
+            "false_reason": {
+              "type": "string"
+            },
+            "false_world": {
+              "enum": [
+                "POSSIBLE",
+                "IMPOSSIBLE"
+              ],
+              "type": "string"
+            },
+            "true_reason": {
+              "type": "string"
+            },
+            "true_world": {
+              "enum": [
+                "POSSIBLE",
+                "IMPOSSIBLE"
+              ],
+              "type": "string"
+            }
+          },
+          "required": [
+            "true_world",
+            "false_world",
+            "true_reason",
+            "false_reason"
+          ],
+          "type": "object"
+        },
+        "strict": true
+      },
+      "type": "json_schema"
+    },
+    "C2": {
+      "json_schema": {
+        "name": "world_classification",
+        "schema": {
+          "additionalProperties": false,
+          "properties": {
+            "false_reason": {
+              "type": "string"
+            },
+            "false_world": {
+              "enum": [
+                "POSSIBLE",
+                "IMPOSSIBLE"
+              ],
+              "type": "string"
+            },
+            "true_reason": {
+              "type": "string"
+            },
+            "true_world": {
+              "enum": [
+                "POSSIBLE",
+                "IMPOSSIBLE"
+              ],
+              "type": "string"
+            }
+          },
+          "required": [
+            "true_world",
+            "false_world",
+            "true_reason",
+            "false_reason"
+          ],
+          "type": "object"
+        },
+        "strict": true
+      },
+      "type": "json_schema"
+    }
+  },
+  "sha256": {
+    "A2_system.txt": "953a81ffab63f78e054a9eec8c835b6851702dd1067fdf43cf46db762242e60a",
+    "A2_user.txt": "5416f0589058f55824f0d12d5a26c3ff16190dbf923c47a37dcbe87dec0cddf3",
+    "B2_system.txt": "46219fcab9e406f838be72c4ee993c16bf7bcc978c2378fde24fcb371e2409b9",
+    "B2_user.txt": "69fb68470ffbdeec34ba83d6991833f9d2939e8617eda8d565a32482a9739043",
+    "C2_example.txt": "aca9eac461c6607e9d15acf0fa84cf998d539e763b24049065a506b56a79af43",
+    "C2_system.txt": "46219fcab9e406f838be72c4ee993c16bf7bcc978c2378fde24fcb371e2409b9",
+    "C2_user.txt": "8e6c847fee09368b524cd2283098ac85919546c664a46d8ce0016e7d345914df"
+  },
+  "source": "User-specified round-two protocol, 2026-10-22",
+  "version": 2
+}

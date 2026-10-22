@@ -13,7 +13,12 @@ from .splitting import LABELS, inside, json_bytes, sha256
 
 ROOT = Path(__file__).resolve().parents[2]
 ARMS = ("A0", "B1", "C1")
+STRUCTURED_ARMS = ("A2", "B2", "C2")
 DATASETS = ("challenge", "basic")
+
+
+def experiment_arms(config: dict) -> tuple[str, ...]:
+    return STRUCTURED_ARMS if config.get("output_protocol") == "json_schema_v2" else ARMS
 
 
 def now() -> str:
@@ -41,6 +46,11 @@ def load_config(path: Path | None = None) -> dict:
             raise ValueError(f"Unsafe identifier: {key}")
     for key in ("pilot_dir", "prompts_dir", "output_root", "report_root"):
         inside(ROOT, config[key])
+    if config.get("output_protocol") not in (None, "json_schema_v2"):
+        raise ValueError("Unknown output protocol")
+    if config.get("output_protocol") == "json_schema_v2":
+        if (model["max_tokens"], model["context_tokens"], model["seed"]) != (1024, 8192, 42):
+            raise ValueError("v2 requires max_tokens=1024, context=8192, seed=42")
     return config
 
 
