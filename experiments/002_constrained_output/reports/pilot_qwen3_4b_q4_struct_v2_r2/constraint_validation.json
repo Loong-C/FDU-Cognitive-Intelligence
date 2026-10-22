@@ -1,0 +1,179 @@
+{
+  "passed": true,
+  "probe_sha256": "20f1e784b217d88b33a6bd52a4b7b637e7b756b4edd9139ad81b0ccb5636f91a",
+  "records": [
+    {
+      "condition": "unconstrained_control",
+      "finish_reason": "stop",
+      "raw_response": "NOT_JSON",
+      "request": {
+        "cache_prompt": false,
+        "max_tokens": 1024,
+        "messages": [
+          {
+            "content": "Reply with exactly NOT_JSON and nothing else. Do not output JSON.",
+            "role": "user"
+          }
+        ],
+        "model": "qwen3-4b-instruct-2507-q4-k-m",
+        "seed": 42,
+        "stream": false,
+        "temperature": 0.0
+      }
+    },
+    {
+      "condition": "SCHEMA_ONLY_ALPHA",
+      "finish_reason": "stop",
+      "raw_response": "{\n  \"gate\": \"SCHEMA_ONLY_ALPHA\",\n  \"required_field\": \"PRESENT\"\n}",
+      "request": {
+        "cache_prompt": false,
+        "max_tokens": 1024,
+        "messages": [
+          {
+            "content": "Reply with exactly NOT_JSON and nothing else. Do not output JSON.",
+            "role": "user"
+          }
+        ],
+        "model": "qwen3-4b-instruct-2507-q4-k-m",
+        "response_format": {
+          "json_schema": {
+            "name": "constraint_probe",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "gate": {
+                  "enum": [
+                    "SCHEMA_ONLY_ALPHA"
+                  ],
+                  "type": "string"
+                },
+                "required_field": {
+                  "enum": [
+                    "PRESENT"
+                  ],
+                  "type": "string"
+                }
+              },
+              "required": [
+                "gate",
+                "required_field"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        },
+        "seed": 42,
+        "stream": false,
+        "temperature": 0.0
+      }
+    },
+    {
+      "condition": "SCHEMA_ONLY_BETA",
+      "finish_reason": "stop",
+      "raw_response": "{\n  \"gate\": \"SCHEMA_ONLY_BETA\",\n  \"required_field\": \"PRESENT\"\n}",
+      "request": {
+        "cache_prompt": false,
+        "max_tokens": 1024,
+        "messages": [
+          {
+            "content": "Reply with exactly NOT_JSON and nothing else. Do not output JSON.",
+            "role": "user"
+          }
+        ],
+        "model": "qwen3-4b-instruct-2507-q4-k-m",
+        "response_format": {
+          "json_schema": {
+            "name": "constraint_probe",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "gate": {
+                  "enum": [
+                    "SCHEMA_ONLY_BETA"
+                  ],
+                  "type": "string"
+                },
+                "required_field": {
+                  "enum": [
+                    "PRESENT"
+                  ],
+                  "type": "string"
+                }
+              },
+              "required": [
+                "gate",
+                "required_field"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        },
+        "seed": 42,
+        "stream": false,
+        "temperature": 0.0
+      }
+    },
+    {
+      "condition": "length_unconstrained",
+      "finish_reason": "stop",
+      "raw_response": "{\"reason\":\"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\"}",
+      "request": {
+        "cache_prompt": false,
+        "max_tokens": 1024,
+        "messages": [
+          {
+            "content": "Return exactly this JSON object and nothing else: {\"reason\":\"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\"}",
+            "role": "user"
+          }
+        ],
+        "model": "qwen3-4b-instruct-2507-q4-k-m",
+        "seed": 42,
+        "stream": false,
+        "temperature": 0.0
+      }
+    },
+    {
+      "condition": "length_constrained",
+      "finish_reason": "stop",
+      "raw_response": "{\"reason\":\"xxxxxxxxxxxxxxxx\" }",
+      "request": {
+        "cache_prompt": false,
+        "max_tokens": 1024,
+        "messages": [
+          {
+            "content": "Return exactly this JSON object and nothing else: {\"reason\":\"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\"}",
+            "role": "user"
+          }
+        ],
+        "model": "qwen3-4b-instruct-2507-q4-k-m",
+        "response_format": {
+          "json_schema": {
+            "name": "length_probe",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "reason": {
+                  "maxLength": 16,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "reason"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        },
+        "seed": 42,
+        "stream": false,
+        "temperature": 0.0
+      }
+    }
+  ]
+}

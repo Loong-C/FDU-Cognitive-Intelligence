@@ -1,0 +1,8 @@
+﻿dataset,arm,id,group,mechanism,gold_label,predicted_label,parse_status,parse_error,consistency_status,finish_reason,error
+challenge,C2,e_6f7686136f3a07bc,g_280bf26971e25ba6,UNIQUE,REFUTES,,invalid,INVALID_LOGIC,both_impossible,stop,
+challenge,C2,e_faf3f3b38827b4dd,g_280bf26971e25ba6,UNIQUE,REFUTES,,invalid,INVALID_LOGIC,both_impossible,stop,
+basic,B2,e_1227e8efede9f7c4,g_a1fc0461a34cf1e0,TIMESHIFT,NOT ENOUGH INFO,,invalid,INVALID_LOGIC,both_impossible,stop,
+basic,B2,e_525f6ccc25022ddd,g_a1fc0461a34cf1e0,TIMESHIFT,REFUTES,,invalid,INVALID_LOGIC,both_impossible,stop,
+basic,C2,e_525f6ccc25022ddd,g_a1fc0461a34cf1e0,TIMESHIFT,REFUTES,,invalid,INVALID_LOGIC,both_impossible,stop,
+basic,C2,e_a77314ec81e9e8a5,g_a1fc0461a34cf1e0,TIMESHIFT,NOT ENOUGH INFO,,invalid,INVALID_LOGIC,both_impossible,stop,
+basic,C2,e_da15ceb41d70fcf4,g_a1fc0461a34cf1e0,TIMESHIFT,NOT ENOUGH INFO,,invalid,INVALID_LOGIC,both_impossible,stop,

@@ -1,0 +1,8 @@
+{
+  "stopped_at": "2026-10-22T13:10:02.6903810Z",
+  "pid": 72128,
+  "executable": "outputs/runtime/llama-b11669/llama-server.exe",
+  "port": 8081,
+  "gpu_after": "NVIDIA GeForce RTX 4060 Ti, 8188 MiB, 2360 MiB, 5581 MiB",
+  "reason": "Round-two experiment, full tests, independent audit and completed resume verification passed."
+}

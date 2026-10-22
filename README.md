@@ -92,6 +92,8 @@ powershell -ExecutionPolicy Bypass -File scripts/start_local_server.ps1
 
 首轮已完成 441 条正式推理与 9 条 smoke。实际结果见 [执行结果摘要](experiments/001_two_world_pilot/RESULTS.md) 和 [完整评测报告](experiments/001_two_world_pilot/reports/pilot_qwen3_4b_q4_v1/pilot_report.md)。
 
+第二轮已完成相同 pilot 的 A2/B2/C2 约束 JSON 评测，共 441 条正式请求。新增 Schema 约束、1024-token 预算、世界状态到标签的确定性映射与独立审计，保留第一轮全部历史材料。见 [第二轮结果](experiments/002_constrained_output/RESULTS.md)、[完整报告](experiments/002_constrained_output/reports/pilot_qwen3_4b_q4_struct_v2_r2/pilot_report.md) 和 [运行说明](experiments/002_constrained_output/README.md)。
+
 ## 开发约定
 
 - 原始数据保存在 `data/raw/`，不要手工修改；划分结果通过脚本生成。

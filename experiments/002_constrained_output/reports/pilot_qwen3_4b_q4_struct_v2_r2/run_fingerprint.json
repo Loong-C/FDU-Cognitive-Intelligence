@@ -1,0 +1,226 @@
+{
+  "backend_identity": {
+    "arguments": [
+      "-m",
+      "\"<repo>\\outputs\\runtime\\Qwen_Qwen3-4B-Instruct-2507-Q4_K_M.gguf\"",
+      "--alias",
+      "qwen3-4b-instruct-2507-q4-k-m",
+      "-ngl",
+      "99",
+      "-c",
+      "8192",
+      "-np",
+      "1",
+      "-b",
+      "512",
+      "-ub",
+      "128",
+      "-fa",
+      "on",
+      "--seed",
+      "42",
+      "--temp",
+      "0",
+      "-n",
+      "1024",
+      "--no-context-shift",
+      "--no-cache-prompt",
+      "--host",
+      "127.0.0.1",
+      "--port",
+      "8081",
+      "--no-webui",
+      "--log-timestamps",
+      "-lv",
+      "4"
+    ],
+    "executable_sha256": "6a4635aeb35656153d4bfeeddf761d24ed84aada9c9108d580737cbed465141b",
+    "offload_evidence": [
+      "offloaded 37/37 layers to GPU"
+    ],
+    "version": "version: 0.7.0-dev (build 11669, commit 620d2225c)\nbuilt with Clang 20.1.8 for Windows x86_64"
+  },
+  "chat_template_sha256": "40c21f34cf67d8c760ef72f8ad3ae5afad514299d4b06e91dd9a8d705af7b541",
+  "configuration": {
+    "execution_order": "arm_then_dataset",
+    "experiment_id": "002_constrained_output",
+    "format_failure_policy": "stop_on_first_protocol_failure",
+    "historical_commit": "8ff873195277f604fe8e957567a8c24fdf4e913b",
+    "historical_run_id": "pilot_qwen3_4b_q4_v1",
+    "model": {
+      "backend": "llama.cpp",
+      "backend_release": "b11669",
+      "context_tokens": 8192,
+      "endpoint": "http://127.0.0.1:8081/v1",
+      "file": "outputs/runtime/Qwen_Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+      "max_tokens": 1024,
+      "network_retries": 2,
+      "quantization": "Q4_K_M",
+      "repository": "bartowski/Qwen_Qwen3-4B-Instruct-2507-GGUF",
+      "revision": "ae44f08e1392f39c0e474af10c3ff8355c8b6688",
+      "seed": 42,
+      "sha256": "2fde00ce69dd4899c70d020845e2638353015bba0fdf161b3eb965f2bca4464e",
+      "stream": false,
+      "temperature": 0.0,
+      "timeout_seconds": 180
+    },
+    "output_protocol": "json_schema_v2",
+    "output_root": "outputs/runs",
+    "pilot_dir": "experiments/001_two_world_pilot/pilot",
+    "pilot_reference": {
+      "basic": {
+        "manifest_sha256": "440c94f8464d54c5e17057e32da5c6b5c87f3f066e8b4f7acaa35ab1d48aebda",
+        "n": 60,
+        "ordered_ids_sha256": "8147edf1a68a151ada2befe6fb141b22be628d3b9975e2f6255099e86ba8ed3e"
+      },
+      "challenge": {
+        "manifest_sha256": "bb6f2da17d115b0250f104ada3b72d8543ad3dae88159ca67c50a57263b28a8d",
+        "n": 87,
+        "ordered_ids_sha256": "afd5ebdabba5f99b0229cf5dd51beacba5c4bb70b00360025a6f0b360cfb8a00"
+      }
+    },
+    "pilot_seed": 20261022,
+    "prompts_dir": "prompts/v2",
+    "reason_max_characters": 320,
+    "report_root": "experiments/002_constrained_output/reports",
+    "run_id": "pilot_qwen3_4b_q4_struct_v2_r2",
+    "split_version": "v1"
+  },
+  "context_tokens": 8192,
+  "inference_source_sha256": {
+    "cli.py": "44d2e7ca625db37eb25261f89af35c00c4389187d0a124e0eec67ea40bcda3c6",
+    "common.py": "177fe5ced03543f9b7ef80c7a0ade8c317e71598a4878c36f239bab7e5425da5",
+    "diagnostics.py": "9ae1e23f5f66b822e3e3834804c59efe86ef7381a3c716f39f824937cbe284be",
+    "gates.py": "3cfdb283444414bbec89473c3213f1ce6085652b735e9736398f7087042a8606",
+    "model_client.py": "be798524ebef8e3c0f98e8fcb8a1b8ac6f3a275f6b0042a6d0400b4756ce286d",
+    "parsing.py": "c1a0fd9bb164d03c8ed4c7cbee1424fec7fb9cfa1f2f47ed870786ac23e26585",
+    "pilot.py": "9b0208e02db726cf5e16e44fcb8819bb2270930ed085fd77129d7f495ef3e6a0",
+    "prompts.py": "6da3d49e00d3b4210273e1ecc4e8e75ae2eec95a2d5f0dc32cc33656de678572",
+    "runner.py": "2167ce66696f48391b3433b9a57542744c985b65fa567fb5ac7820b36cb96366",
+    "structured.py": "4d895c4ab0038d30b1ee9accfbfb615a6ff1d5d43d24f9895d555d1900473a6c"
+  },
+  "model_id": "qwen3-4b-instruct-2507-q4-k-m",
+  "model_sha256": "2fde00ce69dd4899c70d020845e2638353015bba0fdf161b3eb965f2bca4464e",
+  "pilot_sha256": {
+    "basic": "440c94f8464d54c5e17057e32da5c6b5c87f3f066e8b4f7acaa35ab1d48aebda",
+    "challenge": "bb6f2da17d115b0250f104ada3b72d8543ad3dae88159ca67c50a57263b28a8d"
+  },
+  "prompts": {
+    "A2": "ab293afe88d62d470bf4aa08f8e5d2eb57a0816edb1f52eadcfbad124e370cb3",
+    "B2": "50a5c55727bf4bc437124c83445e5f8a03a68ba3f03023a4518c82ed32ce2592",
+    "C2": "07eef0e003a65ff54e72713ffd164e3ba8925a153264e5e955442240ae20e647"
+  },
+  "response_formats": {
+    "A2": {
+      "json_schema": {
+        "name": "direct_classification",
+        "schema": {
+          "additionalProperties": false,
+          "properties": {
+            "reason": {
+              "maxLength": 320,
+              "type": "string"
+            },
+            "verdict": {
+              "enum": [
+                "SUPPORTS",
+                "REFUTES",
+                "NOT ENOUGH INFO"
+              ],
+              "type": "string"
+            }
+          },
+          "required": [
+            "verdict",
+            "reason"
+          ],
+          "type": "object"
+        },
+        "strict": true
+      },
+      "type": "json_schema"
+    },
+    "B2": {
+      "json_schema": {
+        "name": "world_classification",
+        "schema": {
+          "additionalProperties": false,
+          "properties": {
+            "false_reason": {
+              "maxLength": 320,
+              "type": "string"
+            },
+            "false_world": {
+              "enum": [
+                "POSSIBLE",
+                "IMPOSSIBLE"
+              ],
+              "type": "string"
+            },
+            "true_reason": {
+              "maxLength": 320,
+              "type": "string"
+            },
+            "true_world": {
+              "enum": [
+                "POSSIBLE",
+                "IMPOSSIBLE"
+              ],
+              "type": "string"
+            }
+          },
+          "required": [
+            "true_world",
+            "false_world",
+            "true_reason",
+            "false_reason"
+          ],
+          "type": "object"
+        },
+        "strict": true
+      },
+      "type": "json_schema"
+    },
+    "C2": {
+      "json_schema": {
+        "name": "world_classification",
+        "schema": {
+          "additionalProperties": false,
+          "properties": {
+            "false_reason": {
+              "maxLength": 320,
+              "type": "string"
+            },
+            "false_world": {
+              "enum": [
+                "POSSIBLE",
+                "IMPOSSIBLE"
+              ],
+              "type": "string"
+            },
+            "true_reason": {
+              "maxLength": 320,
+              "type": "string"
+            },
+            "true_world": {
+              "enum": [
+                "POSSIBLE",
+                "IMPOSSIBLE"
+              ],
+              "type": "string"
+            }
+          },
+          "required": [
+            "true_world",
+            "false_world",
+            "true_reason",
+            "false_reason"
+          ],
+          "type": "object"
+        },
+        "strict": true
+      },
+      "type": "json_schema"
+    }
+  }
+}

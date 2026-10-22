@@ -2,6 +2,8 @@
 
 沿用第一轮模型、数据和运行基础设施，比较 A2 直接分类、B2 双世界规则、C2 双世界规则加一个 NEI 示例。主比较为 B2−A2、C2−B2，另报告 C2−A2 的同题变化。原始数据与第一轮冻结材料不改动。
 
+最终 r2 已实际完成 441 条正式请求，见 [结果与研究结论](RESULTS.md) 和 [自动报告](reports/pilot_qwen3_4b_q4_struct_v2_r2/pilot_report.md)。
+
 ## 冻结设置
 
 - 模型仍为 Qwen3-4B-Instruct-2507 Q4_K_M；本地文件校验 SHA-256 后复用，没有下载新模型。
@@ -36,6 +38,7 @@ powershell -ExecutionPolicy Bypass -File scripts/start_local_server.ps1 -MaxToke
 .venv\Scripts\python.exe -m ab_factcheck.cli smoke --config configs/experiment_v2.json
 .venv\Scripts\python.exe -m ab_factcheck.cli run --config configs/experiment_v2.json
 .venv\Scripts\python.exe -m ab_factcheck.cli report --config configs/experiment_v2.json
+.venv\Scripts\python.exe scripts/audit_structured_run.py
 .venv\Scripts\python.exe -m pytest -q
 ```
 
@@ -50,3 +53,5 @@ powershell -ExecutionPolicy Bypass -File scripts/start_local_server.ps1 -MaxToke
 v1 的文本解析规则保持不变；共享运行器增加 v2 后，推理源文件哈希会改变，因此不能用新版运行器续写旧 v1 运行目录。第一轮完整报告/审计源码保存在 Git 提交 `8ff873195277f604fe8e957567a8c24fdf4e913b`，第一轮实际推理源码对应 `c929550d2caa4fc17eeafb2c5b0f2f8b59f6d5b3`。需要复现旧审计时，在独立检出中使用该提交，并通过本地目录链接或复制提供原始 outputs；不要修改旧指纹以迁就新版代码。
 
 本轮报告、CSV 和审计摘要纳入版本管理；模型、完整请求/响应和运行日志留在被忽略的 outputs。跨版本同时改变了提示词规则、输出协议、预算和标签生成方式，因此不能把跨版本提升全部归因于双世界推理。
+
+`audit_structured_run.py` 从原始响应独立进行 JSON/字段检查、世界映射、混淆矩阵和指标计算，不调用生产解析器或指标函数；逐条核对真实请求、Schema、同序 ID、token 预算、CSV 和原子记录，并验证历史文件与旧 Git 源码的哈希。也核对当前服务日志中的全部生成次数，包含明确保留的失败探针和部分运行；只应在本次服务的专用日志仍可用时运行该计数检查。最终报告仅使用 r2 的 441 条正式输出。
