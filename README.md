@@ -10,7 +10,8 @@ B 组模型设计与优化仓库。任务是根据英文 `evidence` 判断 `clai
 ```text
 A_B/
 ├── configs/
-│   └── data_split.json          # 划分参数、原始数据哈希与输出版本
+│   ├── data_split.json          # 划分参数、原始数据哈希与输出版本
+│   └── experiment.json          # 本地模型与首轮 pilot 的冻结参数
 ├── data/
 │   ├── raw/benchmark_1011/      # 原始数据及原始说明，保持内容不变
 │   └── splits/v1/
@@ -88,6 +89,8 @@ powershell -ExecutionPolicy Bypass -File scripts/start_local_server.ps1
 完整的安装、恢复和统计口径见 [实验说明](experiments/001_two_world_pilot/README.md)。
 原始响应保存在 `outputs/runs/`，报告保存在 `experiments/001_two_world_pilot/reports/`。
 所有模型推理均通过本地 HTTP 服务完成，无需商业 API key。
+
+首轮已完成 441 条正式推理与 9 条 smoke。实际结果见 [执行结果摘要](experiments/001_two_world_pilot/RESULTS.md) 和 [完整评测报告](experiments/001_two_world_pilot/reports/pilot_qwen3_4b_q4_v1/pilot_report.md)。
 
 ## 开发约定
 

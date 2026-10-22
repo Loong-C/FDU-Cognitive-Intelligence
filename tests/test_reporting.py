@@ -39,6 +39,11 @@ def test_report_recomputes_separate_datasets_and_rejects_missing_or_forged_recor
     assert (report_dir / "pilot_report.md").is_file()
     assert (report_dir / "metrics_challenge.csv").is_file()
     assert (report_dir / "metrics_basic.csv").is_file()
+    assert json.loads((report_dir / "configuration.json").read_text(encoding="utf-8")) == config
+    assert file_hash(report_dir / "run_fingerprint.json") == fingerprint
+    review_csv = (report_dir / "review_queue.csv").read_text(encoding="utf-8-sig")
+    assert "record_path" in review_csv
+    assert "MOCK RESPONSE FOR UNIT TEST ONLY" not in review_csv
     original = read_jsonl(run_dir / "basic.jsonl")
     write_jsonl(run_dir / "basic.jsonl", original[:-1])
     with pytest.raises(ValueError, match="Incomplete"):

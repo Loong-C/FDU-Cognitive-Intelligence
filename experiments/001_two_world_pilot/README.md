@@ -2,6 +2,8 @@
 
 目标是在同一份本地开源小模型、相同开发样本和推理参数下，比较直接分类、双世界零样本、双世界单示例三个条件。此次不训练、不引入外部知识，也不运行 SAT/SMT 求解器。
 
+首轮已实际完成，见 [结果摘要](RESULTS.md) 和 [自动评测报告](reports/pilot_qwen3_4b_q4_v1/pilot_report.md)。完整原文保存在本地 `outputs/runs/pilot_qwen3_4b_q4_v1/`。
+
 ## 冻结协议
 
 原始开发集 / 测试集继续使用 `data/splits/v1`，划分种子仍为 42。只从开发集抽取 pilot：挑战集每机制 2 个完整组，基础集每机制 1 个完整组。
@@ -48,6 +50,7 @@ powershell -ExecutionPolicy Bypass -File scripts/start_local_server.ps1
 .venv\Scripts\python.exe -m ab_factcheck.cli smoke
 .venv\Scripts\python.exe -m ab_factcheck.cli run --dataset all --arm all
 .venv\Scripts\python.exe -m ab_factcheck.cli report
+.venv\Scripts\python.exe scripts/audit_pilot_run.py
 .venv\Scripts\python.exe -m pytest -q
 ```
 
@@ -70,6 +73,8 @@ powershell -ExecutionPolicy Bypass -File scripts/start_local_server.ps1
 - `records/`：逐条完整返回；`challenge.jsonl` 和 `basic.jsonl`：统一导出，包含失败记录；smoke 使用单独的 `<run_id>_smoke` 目录。
 
 报告目录为 `experiments/001_two_world_pilot/reports/<run_id>/`，包括 Markdown 报告、分数据集与分机制指标、混淆矩阵、逐题预测、配对变化、无效输出和人工复核队列。
+
+报告目录另存 `configuration.json`、`run_fingerprint.json`。完成报告后运行 `scripts/audit_pilot_run.py`，离线核验记录完整性、同序配对、实际参数、输入 token 预检、混淆矩阵及配对增减；它不再向模型发请求，并保存 `execution_audit.json` 与 `environment_summary.json`。复核队列通过 `record_path` 指向本地完整响应，完整响应不提交到 Git。
 
 严格准确率以全部预定样本为分母，无效输出、截断和请求失败计错。B1/C1 的世界状态缺失或双 IMPOSSIBLE 无效；普通逻辑不一致保留原始 Verdict 计分，另报不一致率。不把推导标签替代原始 Verdict。
 

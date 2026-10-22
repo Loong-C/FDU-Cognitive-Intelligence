@@ -1,0 +1,151 @@
+{
+  "audited_at": "2026-10-22T11:47:58.723802+00:00",
+  "checks": [
+    "frozen raw data and splits",
+    "complete dev-only groups",
+    "frozen inference sources and prompts",
+    "model SHA-256",
+    "identical IDs and order",
+    "atomic records equal JSONL",
+    "rendered input hashes",
+    "effective inference parameters",
+    "context budget and tokenizer",
+    "uncached requests",
+    "complete CSV",
+    "independent confusion matrices and paired changes"
+  ],
+  "completion_attempts": {
+    "1": 450
+  },
+  "conditions": {
+    "basic/A0": {
+      "completion_tokens": 5984,
+      "invalid_reasons": {},
+      "latency_seconds": 73.92855110159144,
+      "prompt_tokens": 12283,
+      "records": 60,
+      "valid": 60
+    },
+    "basic/B1": {
+      "completion_tokens": 16957,
+      "invalid_reasons": {
+        "missing_final_verdict": 21,
+        "truncated": 8
+      },
+      "latency_seconds": 205.45821609953418,
+      "prompt_tokens": 23959,
+      "records": 60,
+      "valid": 31
+    },
+    "basic/C1": {
+      "completion_tokens": 15397,
+      "invalid_reasons": {
+        "missing_world_reason": 1,
+        "truncated": 6
+      },
+      "latency_seconds": 190.0257856012322,
+      "prompt_tokens": 31639,
+      "records": 60,
+      "valid": 53
+    },
+    "challenge/A0": {
+      "completion_tokens": 6888,
+      "invalid_reasons": {},
+      "latency_seconds": 92.4878805000335,
+      "prompt_tokens": 34334,
+      "records": 87,
+      "valid": 87
+    },
+    "challenge/B1": {
+      "completion_tokens": 26216,
+      "invalid_reasons": {
+        "missing_final_verdict": 29,
+        "missing_world_status": 1,
+        "truncated": 13
+      },
+      "latency_seconds": 368.82125280145556,
+      "prompt_tokens": 51253,
+      "records": 87,
+      "valid": 44
+    },
+    "challenge/C1": {
+      "completion_tokens": 21899,
+      "invalid_reasons": {
+        "missing_final_verdict": 6,
+        "missing_world_reason": 2,
+        "truncated": 8
+      },
+      "latency_seconds": 279.07217099750414,
+      "prompt_tokens": 62389,
+      "records": 87,
+      "valid": 71
+    }
+  },
+  "formal_records": 441,
+  "maximum_completion_tokens": 512,
+  "maximum_prompt_tokens": 1034,
+  "observed_arm_start_order": [
+    "challenge/A0",
+    "challenge/B1",
+    "challenge/C1",
+    "basic/A0",
+    "basic/B1",
+    "basic/C1"
+  ],
+  "passed": true,
+  "pilot": {
+    "basic": {
+      "evidence_condition": {
+        "unspecified": 60
+      },
+      "groups": 7,
+      "human_review_status": {
+        "pending": 60
+      },
+      "labels": {
+        "NOT ENOUGH INFO": 23,
+        "REFUTES": 23,
+        "SUPPORTS": 14
+      },
+      "mechanisms": {
+        "BOUND": 16,
+        "FUNCTIONAL": 4,
+        "IMPLICATIVE": 11,
+        "PLACE": 3,
+        "PLAN": 5,
+        "RELDATE": 6,
+        "TIMESHIFT": 15
+      },
+      "rows": 60
+    },
+    "challenge": {
+      "evidence_condition": {
+        "long": 43,
+        "short": 44
+      },
+      "groups": 14,
+      "human_review_status": {
+        "adjudicated": 87
+      },
+      "labels": {
+        "NOT ENOUGH INFO": 40,
+        "REFUTES": 14,
+        "SUPPORTS": 33
+      },
+      "mechanisms": {
+        "AMBIGREF": 10,
+        "DENIAL": 16,
+        "LOOKALIKE": 12,
+        "PRESUP": 12,
+        "SETCLOSE": 12,
+        "TEMPSCOPE": 10,
+        "UNIQUE": 15
+      },
+      "rows": 87
+    }
+  },
+  "request_failures": 0,
+  "run_id": "pilot_qwen3_4b_q4_v1",
+  "smoke_records": 9,
+  "smoke_valid": 8
+}

@@ -1,0 +1,8 @@
+{
+  "stopped_at": "2026-10-22T11:47:03.5372560Z",
+  "pid": 78072,
+  "executable": "outputs/runtime/llama-b11669/llama-server.exe",
+  "port": 8081,
+  "gpu_after": "NVIDIA GeForce RTX 4060 Ti, 8188 MiB, 2895 MiB, 5046 MiB",
+  "reason": "Pilot and verification completed; task-owned model service stopped to release GPU memory."
+}

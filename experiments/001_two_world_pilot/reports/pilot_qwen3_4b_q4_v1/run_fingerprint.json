@@ -1,0 +1,91 @@
+{
+  "backend_identity": {
+    "arguments": [
+      "-m",
+      "\"<repo>\\outputs\\runtime\\Qwen_Qwen3-4B-Instruct-2507-Q4_K_M.gguf\"",
+      "--alias",
+      "qwen3-4b-instruct-2507-q4-k-m",
+      "-ngl",
+      "99",
+      "-c",
+      "8192",
+      "-np",
+      "1",
+      "-b",
+      "512",
+      "-ub",
+      "128",
+      "-fa",
+      "on",
+      "--seed",
+      "42",
+      "--temp",
+      "0",
+      "-n",
+      "512",
+      "--no-context-shift",
+      "--no-cache-prompt",
+      "--host",
+      "127.0.0.1",
+      "--port",
+      "8081",
+      "--no-webui",
+      "--log-timestamps",
+      "-lv",
+      "4"
+    ],
+    "executable_sha256": "6a4635aeb35656153d4bfeeddf761d24ed84aada9c9108d580737cbed465141b",
+    "offload_evidence": [
+      "offloaded 37/37 layers to GPU"
+    ],
+    "version": "version: 0.7.0-dev (build 11669, commit 620d2225c)\nbuilt with Clang 20.1.8 for Windows x86_64"
+  },
+  "chat_template_sha256": "40c21f34cf67d8c760ef72f8ad3ae5afad514299d4b06e91dd9a8d705af7b541",
+  "configuration": {
+    "experiment_id": "001_two_world_pilot",
+    "model": {
+      "backend": "llama.cpp",
+      "backend_release": "b11669",
+      "context_tokens": 8192,
+      "endpoint": "http://127.0.0.1:8081/v1",
+      "file": "outputs/runtime/Qwen_Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+      "max_tokens": 512,
+      "network_retries": 2,
+      "quantization": "Q4_K_M",
+      "repository": "bartowski/Qwen_Qwen3-4B-Instruct-2507-GGUF",
+      "revision": "ae44f08e1392f39c0e474af10c3ff8355c8b6688",
+      "seed": 42,
+      "sha256": "2fde00ce69dd4899c70d020845e2638353015bba0fdf161b3eb965f2bca4464e",
+      "stream": false,
+      "temperature": 0.0,
+      "timeout_seconds": 180
+    },
+    "output_root": "outputs/runs",
+    "pilot_dir": "experiments/001_two_world_pilot/pilot",
+    "pilot_seed": 20261022,
+    "prompts_dir": "prompts/v1",
+    "report_root": "experiments/001_two_world_pilot/reports",
+    "run_id": "pilot_qwen3_4b_q4_v1",
+    "split_version": "v1"
+  },
+  "context_tokens": 8192,
+  "inference_source_sha256": {
+    "common.py": "7deb2ca21337afdf20876e0e53f27ae84bf9f81337b2e5f6d8a6b10bb442e680",
+    "model_client.py": "f68fb25e575505c24797341ed959a0e80f8a29ce56a1a3243a72868883e04af8",
+    "parsing.py": "c1a0fd9bb164d03c8ed4c7cbee1424fec7fb9cfa1f2f47ed870786ac23e26585",
+    "pilot.py": "78f62c5dbf881b6cfba54ccaa7723ec1b29db28b7fe2cd36d9207d35154c7d53",
+    "prompts.py": "89ce33859b861285cdd33421a32887815feba11a2829613ec112dc055dcb2a90",
+    "runner.py": "84908dd815e1ad172dee41764d105bdfa802bec3b122209843447874b895fbc2"
+  },
+  "model_id": "qwen3-4b-instruct-2507-q4-k-m",
+  "model_sha256": "2fde00ce69dd4899c70d020845e2638353015bba0fdf161b3eb965f2bca4464e",
+  "pilot_sha256": {
+    "basic": "440c94f8464d54c5e17057e32da5c6b5c87f3f066e8b4f7acaa35ab1d48aebda",
+    "challenge": "bb6f2da17d115b0250f104ada3b72d8543ad3dae88159ca67c50a57263b28a8d"
+  },
+  "prompts": {
+    "A0": "836099357cc14680180bff6c5755ae0c164287623f031e2b4ad4c6a3b49eb4f3",
+    "B1": "f9bd3571a0167336fe1c26fe622de0efc43fa6dcf8c0fb18a0a40d26cae80d57",
+    "C1": "4aceec595b84a69d7a0773e65ed61cbcbcc845ec275be526f96f47b4317f90f5"
+  }
+}

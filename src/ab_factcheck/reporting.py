@@ -4,7 +4,7 @@ import csv
 import io
 import json
 
-from .common import ARMS, DATASETS, LABELS, ROOT, atomic_bytes, atomic_json, file_hash, now, read_jsonl
+from .common import ARMS, DATASETS, LABELS, ROOT, atomic_bytes, atomic_json, file_hash, now, read_jsonl, sha256
 from .metrics import compute_metrics, paired_comparison, prediction
 from .pilot import load_pilot
 
@@ -90,7 +90,8 @@ def report(config: dict) -> dict:
                 invalid.append(fields)
             if row["parse_status"] != "ok" or row.get("consistency_status") in ("inconsistent", "both_impossible") or prediction(row) != row["gold_label"]:
                 review.append({**fields, "claim": expected_rows[row["id"]]["claim"], "evidence": expected_rows[row["id"]]["evidence"],
-                               "raw_response": row.get("raw_response"), "review_status": "requires_human_review"})
+                               "record_path": (run_directory / "records" / dataset / row["arm"] / f"{sha256(row['id'].encode())}.json").relative_to(ROOT).as_posix(),
+                               "review_status": "requires_human_review"})
         all_records.extend(records)
     arm_starts = {}
     for row in all_records:
@@ -102,12 +103,15 @@ def report(config: dict) -> dict:
                "observed_arm_start_order": observed_order,
                "fingerprint_sha256": fingerprint_sha, "record_count": len(all_records), "datasets": datasets}
     atomic_json(destination / "metrics.json", receipt)
+    atomic_json(destination / "configuration.json", config)
+    atomic_json(destination / "run_fingerprint.json", fingerprint)
     csv_file(destination / "changed_predictions.csv", changed, ["dataset", "comparison", "id", "group", "mechanism", "gold_label", "before", "after", "direction"])
     invalid_fields = ["dataset", "arm", "id", "group", "mechanism", "gold_label", "predicted_label", "parse_status", "parse_error", "consistency_status", "finish_reason", "error"]
     csv_file(destination / "invalid_outputs.csv", invalid, invalid_fields)
-    csv_file(destination / "review_queue.csv", review, invalid_fields + ["claim", "evidence", "raw_response", "review_status"])
+    csv_file(destination / "review_queue.csv", review, invalid_fields + ["claim", "evidence", "record_path", "review_status"])
     csv_file(destination / "metrics_by_mechanism.csv", mechanism_rows, ["dataset", "mechanism", "arm", "n", "accuracy", "nei_n", "nei_recall", "invalid"])
-    csv_file(destination / "predictions.csv", all_records, ["run_id", "dataset", "arm", "id", "group", "mechanism", "gold_label", "predicted_label", "parse_status", "parse_error", "claim_true_world", "claim_false_world", "derived_label", "consistency_status", "finish_reason", "latency_seconds"])
+    prediction_rows = [{**row, **{key: row.get("usage", {}).get(key) for key in ("prompt_tokens", "completion_tokens", "total_tokens")}} for row in all_records]
+    csv_file(destination / "predictions.csv", prediction_rows, ["run_id", "dataset", "arm", "id", "group", "mechanism", "gold_label", "predicted_label", "status", "parse_status", "parse_error", "claim_true_world", "claim_false_world", "derived_label", "consistency_status", "finish_reason", "latency_seconds", "prompt_tokens", "completion_tokens", "total_tokens", "preflight_prompt_tokens", "completion_request_attempts", "messages_sha256"])
     lines = ["# 首轮双世界提示词 pilot 实验报告", "", f"运行：`{config['run_id']}`。所有数字由本地模型真实逐题记录计算，未使用封存测试集。", "",
              f"模型：`{config['model']['repository']}`，量化 `{config['model']['quantization']}`，后端 `{config['model']['backend_release']}`。",
              "温度 0、请求种子 42、输出上限 512 tokens、上下文 8192、串行运行。种子不构成 GPU 逐位确定性的保证。", "",
@@ -142,7 +146,7 @@ def report(config: dict) -> dict:
                 lines.append(f"| {label} | " + " | ".join(str(cells[key]) for key in (*LABELS, "INVALID")) + " |")
         lines.append("")
     lines += ["## 解释与复核", "", "B1−A0 衡量双世界提示词流程的变化，C1−B1 衡量加入单个 NEI 示例后的变化。C1−A0 不能单独归因于双世界方法。", "",
-              "逐题改进和误伤见 changed_predictions.csv；无效输出见 invalid_outputs.csv；错误、格式异常和逻辑不一致的原始证据与响应见 review_queue.csv。该队列尚未由人类裁决，不自动将错误归因为某种语义推理缺陷。", "",
+              "逐题改进和误伤见 changed_predictions.csv；无效输出见 invalid_outputs.csv；错误、格式异常和逻辑不一致的原始证据及本地响应路径见 review_queue.csv。完整响应仅保存在被 Git 忽略的 outputs 目录。该队列尚未由人类裁决，不自动将错误归因为某种语义推理缺陷。", "",
               "是否值得进入 SMT 阶段需要结合配对收益、基础能力损失、额外推理成本和人工复核判断；本轮无论正负结果都保留，不根据 pilot 结果回改本版提示词。", "",
               "## 可复算来源", "", f"原始 JSONL：仓库根目录下 `{config['output_root']}/{config['run_id']}/`。",
               "`metrics.json` 保存来源 JSONL 与运行指纹的 SHA-256；`predictions.csv` 提供逐题可复算摘要；完整环境与响应保存在本地运行目录。", ""]
