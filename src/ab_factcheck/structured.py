@@ -11,11 +11,11 @@ STATES = ("POSSIBLE", "IMPOSSIBLE")
 def schema_for(arm: str) -> dict:
     if arm not in STRUCTURED_ARMS:
         raise ValueError(f"Not a structured arm: {arm}")
-    properties = ({"verdict": {"type": "string", "enum": list(LABELS)}, "reason": {"type": "string"}}
+    properties = ({"verdict": {"type": "string", "enum": list(LABELS)}, "reason": {"type": "string", "maxLength": 320}}
                   if arm == "A2" else {
                       "true_world": {"type": "string", "enum": list(STATES)},
                       "false_world": {"type": "string", "enum": list(STATES)},
-                      "true_reason": {"type": "string"}, "false_reason": {"type": "string"}})
+                      "true_reason": {"type": "string", "maxLength": 320}, "false_reason": {"type": "string", "maxLength": 320}})
     return {"type": "object", "properties": properties, "required": list(properties), "additionalProperties": False}
 
 
@@ -45,6 +45,7 @@ def strict_json(text):
 def matches_schema(value, schema):
     return (isinstance(value, dict) and set(value) == set(schema["required"])
             and all(isinstance(value[key], str) and ("enum" not in spec or value[key] in spec["enum"])
+                    and ("maxLength" not in spec or len(value[key]) <= spec["maxLength"])
                     for key, spec in schema["properties"].items()))
 
 
@@ -76,7 +77,8 @@ def parse_structured(text: str, arm: str, finish_reason: str | None) -> dict:
     result["protocol_valid"] = True
     reasons = ["reason"] if arm == "A2" else ["true_reason", "false_reason"]
     result["reason_quality_flags"] = [f"empty_{key}" for key in reasons if not value[key].strip()]
-    result["reason_quality_status"] = "empty_reason" if result["reason_quality_flags"] else "requires_human_review"
+    result["reason_quality_flags"] += [f"at_length_limit_{key}" for key in reasons if len(value[key]) == schema["properties"][key]["maxLength"]]
+    result["reason_quality_status"] = "flagged_for_review" if result["reason_quality_flags"] else "requires_human_review"
     if arm == "A2":
         result.update(predicted_label=value["verdict"], direct_reason=value["reason"], consistency_status="not_applicable")
     else:

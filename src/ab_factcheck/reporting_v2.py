@@ -38,7 +38,8 @@ def write_structured_report(config, receipt, records, destination):
              "## 实际约束协议", "",
              "当前固定版本实际需要 `response_format = {\"type\":\"json_schema\",\"json_schema\":{\"name\":...,\"strict\":true,\"schema\":...}}`。外层直接放 schema 的首次探针失败，虽然收到 HTTP 200 和合法 JSON，但必填字段与枚举未被约束；已保留失败配置、源码快照和原始响应，没有启动该配置的正式 pilot。", "",
              "依据：[b11669 服务端源码](https://github.com/ggml-org/llama.cpp/blob/b11669/tools/server/server-common.cpp)。成功版本另用运行 ID，先验证无约束输入返回 NOT_JSON，而两个有约束请求必须返回仅在 Schema 中出现的不同枚举值及必填字段；随后 9 条三分类 smoke 全部格式有效。smoke 仅检验运行链路，分类正确性另行记录，不用于优化本轮提示词。", "",
-             "B2/C2 没有 Verdict 字段，最终标签只由世界状态映射；双 IMPOSSIBLE 为 INVALID_LOGIC。不得根据理由关键词或正确答案修复结果。格式完整但理由为空只作理由质量标记，不改变标签；非空理由的语义质量尚待人工复核。", "",
+             "嵌套 Schema 但未限制理由长度的 r1 运行在第 165 条出现 1024-token 截断后停止，完整保留部分结果。最终 r2 在三个条件中统一限制每个理由为 320 字符，并实测 maxLength 有/无约束对照，再从头重跑全部三组；两版结果不混合。", "",
+             "B2/C2 没有 Verdict 字段，最终标签只由世界状态映射；双 IMPOSSIBLE 为 INVALID_LOGIC。不得根据理由关键词或正确答案修复结果。格式完整但理由为空或触及字符上限只作理由质量标记，不改变标签；理由可能被约束提前结束，语义质量尚待人工复核。", "",
              "## 统计口径", "",
              "主要准确率以全部预定样本为分母，无效和失败计错；混淆矩阵含 INVALID 列。JSON、字段、完整协议有效率均以全部预定样本为分母；逻辑组合有效率只在已解析出世界组合的 B2/C2 输出上计算，A2 为 N/A。截断即使恰好留下可解析 JSON 也计无效。有效输出条件准确率有选择偏差，不能代替主要准确率。", "",
              "主要对照为 B2−A2 和 C2−B2；C2−A2 是补充对照。v1→v2 同时改变格式约束、输出预算、提示词规则和最终映射，不单独归因于推理方法。样本小且组内相关，不作显著性或最终泛化断言。基础集原始标签审核状态仍为 pending；自然语言世界判断不是 SAT 证明。", ""]
@@ -55,6 +56,7 @@ def write_structured_report(config, receipt, records, destination):
             m = d["arms"][arm]
             logic = f"{m['logic_valid_count']}/{m['logic_available_count']} ({pct(m['logic_valid_rate'])})" if arm != "A2" else "N/A"
             lines.append(f"| {arm} | {pct(m['json_valid_rate'])} | {pct(m['fields_valid_rate'])} | {pct(m['protocol_valid_rate'])} | {logic} | {m['invalid']} | {m['truncated_count']} | {decimal(m['mean_completion_tokens'])} | {decimal(m['latency_mean_seconds'])} | {m['request_failed_count']} |")
+        lines += ["", "理由达到字符上限的条数：" + "；".join(f"{arm} {d['arms'][arm]['reason_at_length_limit_count']} 条" for arm in arms) + "。这是解释质量标记，与 finish_reason=length 的生成截断分开统计。空理由条数：" + "；".join(f"{arm} {d['arms'][arm]['empty_reason_count']}" for arm in arms) + "。", ""]
         lines += ["", "### 同题配对变化", "", "| 比较 | 准确率差（百分点） | 错→对 | 对→错 | 原 NEI→R 中纠正 / 原条数 | 原正确 S→NEI | 原正确 R→NEI |", "| --- | ---: | ---: | ---: | ---: | ---: | ---: |"]
         for name, pair in d["paired"].items():
             lines.append(f"| {name} | {100*pair['accuracy_delta']:+.2f} | {pair['improved']} | {pair['harmed']} | {len(pair['nei_refutes_corrected_ids'])}/{len(pair['nei_refuted_before_ids'])} | {len(pair['supports_correct_to_nei_ids'])} | {len(pair['refutes_correct_to_nei_ids'])} |")

@@ -1,0 +1,18 @@
+{
+  "cause": "An unbounded reason string repeated self-correction until max_tokens=1024; run stopped on first protocol failure",
+  "failed_keys": [
+    [
+      "challenge",
+      "B2",
+      "e_424df3b7bbdc6212"
+    ]
+  ],
+  "fingerprint_sha256": "e284e8357b35e5ff9b0ad37313b87f7740a9c8ccc8324b351751ecd54aaee6b4",
+  "formal_records": 165,
+  "format_failures": 1,
+  "raw_record_directory": "outputs/runs/pilot_qwen3_4b_q4_struct_v2_r1/records",
+  "run_id": "pilot_qwen3_4b_q4_struct_v2_r1",
+  "source_commit": "dd33bcb",
+  "source_snapshot": "outputs/runs/pilot_qwen3_4b_q4_struct_v2_r1/source_snapshot",
+  "unrun_records": 276
+}

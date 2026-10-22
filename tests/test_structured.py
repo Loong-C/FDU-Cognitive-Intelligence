@@ -161,10 +161,17 @@ def test_constraint_probe_rejects_json_only_and_freezes_failure(tmp_path):
     session = Session()
     with pytest.raises(RuntimeError, match="probe failed"):
         constraint_probe(session)
-    assert session.client.calls == 3
+    assert session.client.calls == 5
     with pytest.raises(ValueError, match="probe failed"):
         constraint_probe(session)
-    assert session.client.calls == 3
+    assert session.client.calls == 5
+
+
+def test_reason_length_bound_is_enforced_and_quality_is_separate():
+    r = parse_structured(json.dumps(world(true_reason="x" * 320)), "B2", "stop")
+    assert r["parse_status"] == "ok" and r["predicted_label"] == "NOT ENOUGH INFO"
+    assert r["reason_quality_flags"] == ["at_length_limit_true_reason"]
+    assert parse_structured(json.dumps(world(true_reason="x" * 321)), "C2", "stop")["parse_error"] == "invalid_fields"
 
 
 def test_smoke_gate_rejects_missing_run(tmp_path, monkeypatch):

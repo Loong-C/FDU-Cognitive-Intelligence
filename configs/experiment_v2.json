@@ -38,7 +38,8 @@
   },
   "pilot_seed": 20261022,
   "prompts_dir": "prompts/v2",
+  "reason_max_characters": 320,
   "report_root": "experiments/002_constrained_output/reports",
-  "run_id": "pilot_qwen3_4b_q4_struct_v2_r1",
+  "run_id": "pilot_qwen3_4b_q4_struct_v2_r2",
   "split_version": "v1"
 }

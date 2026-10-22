@@ -69,6 +69,8 @@ def compute_metrics(rows: list[dict]) -> dict:
                       logic_valid_rate=ratio(logic_valid, available),
                       truncated_count=sum(r.get("finish_reason") == "length" for r in rows),
                       reason_quality_flag_count=sum(bool(r.get("reason_quality_flags")) for r in rows),
+                      reason_at_length_limit_count=sum(any(f.startswith("at_length_limit_") for f in r.get("reason_quality_flags", [])) for r in rows),
+                      empty_reason_count=sum(any(f.startswith("empty_") for f in r.get("reason_quality_flags", [])) for r in rows),
                       supports_to_nei=matrix["SUPPORTS"]["NOT ENOUGH INFO"],
                       refutes_to_nei=matrix["REFUTES"]["NOT ENOUGH INFO"])
     return result

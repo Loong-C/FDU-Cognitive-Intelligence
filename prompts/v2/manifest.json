@@ -12,6 +12,7 @@
           "additionalProperties": false,
           "properties": {
             "reason": {
+              "maxLength": 320,
               "type": "string"
             },
             "verdict": {
@@ -40,6 +41,7 @@
           "additionalProperties": false,
           "properties": {
             "false_reason": {
+              "maxLength": 320,
               "type": "string"
             },
             "false_world": {
@@ -50,6 +52,7 @@
               "type": "string"
             },
             "true_reason": {
+              "maxLength": 320,
               "type": "string"
             },
             "true_world": {
@@ -79,6 +82,7 @@
           "additionalProperties": false,
           "properties": {
             "false_reason": {
+              "maxLength": 320,
               "type": "string"
             },
             "false_world": {
@@ -89,6 +93,7 @@
               "type": "string"
             },
             "true_reason": {
+              "maxLength": 320,
               "type": "string"
             },
             "true_world": {

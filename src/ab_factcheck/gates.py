@@ -35,6 +35,23 @@ def constraint_probe(session):
             valid = False
         passed = passed and valid
         records.append({"condition": sentinel, "valid": valid, "response": response})
+    bounded_messages = [{"role": "user", "content": 'Return exactly this JSON object and nothing else: {"reason":"' + "x" * 100 + '"}'}]
+    length_control = session.client.complete(bounded_messages)
+    length_control["request_payload"] = {"messages": bounded_messages, **length_control["effective_request_parameters"]}
+    length_schema = {"type": "object", "properties": {"reason": {"type": "string", "maxLength": 16}},
+                     "required": ["reason"], "additionalProperties": False}
+    length_result = session.client.complete(bounded_messages, response_format={"type": "json_schema", "json_schema": {
+        "name": "length_probe", "strict": True, "schema": length_schema}})
+    try:
+        long_value = strict_json(length_control["raw_response"])
+        short_value = strict_json(length_result["raw_response"])
+        length_valid = (isinstance(long_value.get("reason"), str) and len(long_value["reason"]) > 16
+                        and matches_schema(short_value, length_schema) and length_result["finish_reason"] == "stop")
+    except (ValueError, AttributeError):
+        length_valid = False
+    passed = passed and length_valid
+    records.extend([{"condition": "length_unconstrained", "response": length_control},
+                    {"condition": "length_constrained", "valid": length_valid, "response": length_result}])
     receipt = {"fingerprint_sha256": session.fingerprint_hash, "passed": passed, "records": records}
     frozen_json(path, receipt)
     if not passed:
