@@ -1,0 +1,1046 @@
+{
+  "algorithm": "mechanism_group_hash_candidates_v1",
+  "configuration": {
+    "candidates": 512,
+    "datasets": {
+      "basic": {
+        "groups": 105,
+        "path": "data/raw/benchmark_1011/基础能力集.jsonl",
+        "rows": 900,
+        "sha256": "d26010080797b5cc964ece2fabd87354f3f043625371f101cc99036285ff950e"
+      },
+      "challenge": {
+        "groups": 143,
+        "path": "data/raw/benchmark_1011/核心挑战集.jsonl",
+        "rows": 885,
+        "sha256": "fc5fdc9048833211eaf1b5f32701062cf0493dc4c0b4ac61cd6dbd059788161f"
+      }
+    },
+    "output_dir": "data/splits/v1",
+    "seed": 42,
+    "test_fraction": 0.2,
+    "version": 1
+  },
+  "datasets": {
+    "basic": {
+      "actual_test_fraction": 0.2,
+      "by_mechanism": {
+        "BOUND": {
+          "dev": {
+            "evidence_condition": {
+              "unspecified": 192
+            },
+            "groups": 12,
+            "human_review_status": {
+              "pending": 192
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 63,
+              "REFUTES": 78,
+              "SUPPORTS": 51
+            },
+            "mechanisms": {
+              "BOUND": 192
+            },
+            "rows": 192
+          },
+          "source": {
+            "evidence_condition": {
+              "unspecified": 240
+            },
+            "groups": 15,
+            "human_review_status": {
+              "pending": 240
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 79,
+              "REFUTES": 95,
+              "SUPPORTS": 66
+            },
+            "mechanisms": {
+              "BOUND": 240
+            },
+            "rows": 240
+          },
+          "test": {
+            "evidence_condition": {
+              "unspecified": 48
+            },
+            "groups": 3,
+            "human_review_status": {
+              "pending": 48
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 16,
+              "REFUTES": 17,
+              "SUPPORTS": 15
+            },
+            "mechanisms": {
+              "BOUND": 48
+            },
+            "rows": 48
+          }
+        },
+        "FUNCTIONAL": {
+          "dev": {
+            "evidence_condition": {
+              "unspecified": 48
+            },
+            "groups": 12,
+            "human_review_status": {
+              "pending": 48
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 12,
+              "REFUTES": 12,
+              "SUPPORTS": 24
+            },
+            "mechanisms": {
+              "FUNCTIONAL": 48
+            },
+            "rows": 48
+          },
+          "source": {
+            "evidence_condition": {
+              "unspecified": 60
+            },
+            "groups": 15,
+            "human_review_status": {
+              "pending": 60
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 15,
+              "REFUTES": 15,
+              "SUPPORTS": 30
+            },
+            "mechanisms": {
+              "FUNCTIONAL": 60
+            },
+            "rows": 60
+          },
+          "test": {
+            "evidence_condition": {
+              "unspecified": 12
+            },
+            "groups": 3,
+            "human_review_status": {
+              "pending": 12
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 3,
+              "REFUTES": 3,
+              "SUPPORTS": 6
+            },
+            "mechanisms": {
+              "FUNCTIONAL": 12
+            },
+            "rows": 12
+          }
+        },
+        "IMPLICATIVE": {
+          "dev": {
+            "evidence_condition": {
+              "unspecified": 132
+            },
+            "groups": 12,
+            "human_review_status": {
+              "pending": 132
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 48,
+              "REFUTES": 36,
+              "SUPPORTS": 48
+            },
+            "mechanisms": {
+              "IMPLICATIVE": 132
+            },
+            "rows": 132
+          },
+          "source": {
+            "evidence_condition": {
+              "unspecified": 165
+            },
+            "groups": 15,
+            "human_review_status": {
+              "pending": 165
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 60,
+              "REFUTES": 45,
+              "SUPPORTS": 60
+            },
+            "mechanisms": {
+              "IMPLICATIVE": 165
+            },
+            "rows": 165
+          },
+          "test": {
+            "evidence_condition": {
+              "unspecified": 33
+            },
+            "groups": 3,
+            "human_review_status": {
+              "pending": 33
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 12,
+              "REFUTES": 9,
+              "SUPPORTS": 12
+            },
+            "mechanisms": {
+              "IMPLICATIVE": 33
+            },
+            "rows": 33
+          }
+        },
+        "PLACE": {
+          "dev": {
+            "evidence_condition": {
+              "unspecified": 36
+            },
+            "groups": 12,
+            "human_review_status": {
+              "pending": 36
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 12,
+              "REFUTES": 0,
+              "SUPPORTS": 24
+            },
+            "mechanisms": {
+              "PLACE": 36
+            },
+            "rows": 36
+          },
+          "source": {
+            "evidence_condition": {
+              "unspecified": 45
+            },
+            "groups": 15,
+            "human_review_status": {
+              "pending": 45
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 15,
+              "REFUTES": 0,
+              "SUPPORTS": 30
+            },
+            "mechanisms": {
+              "PLACE": 45
+            },
+            "rows": 45
+          },
+          "test": {
+            "evidence_condition": {
+              "unspecified": 9
+            },
+            "groups": 3,
+            "human_review_status": {
+              "pending": 9
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 3,
+              "REFUTES": 0,
+              "SUPPORTS": 6
+            },
+            "mechanisms": {
+              "PLACE": 9
+            },
+            "rows": 9
+          }
+        },
+        "PLAN": {
+          "dev": {
+            "evidence_condition": {
+              "unspecified": 60
+            },
+            "groups": 12,
+            "human_review_status": {
+              "pending": 60
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 12,
+              "REFUTES": 24,
+              "SUPPORTS": 24
+            },
+            "mechanisms": {
+              "PLAN": 60
+            },
+            "rows": 60
+          },
+          "source": {
+            "evidence_condition": {
+              "unspecified": 75
+            },
+            "groups": 15,
+            "human_review_status": {
+              "pending": 75
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 15,
+              "REFUTES": 30,
+              "SUPPORTS": 30
+            },
+            "mechanisms": {
+              "PLAN": 75
+            },
+            "rows": 75
+          },
+          "test": {
+            "evidence_condition": {
+              "unspecified": 15
+            },
+            "groups": 3,
+            "human_review_status": {
+              "pending": 15
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 3,
+              "REFUTES": 6,
+              "SUPPORTS": 6
+            },
+            "mechanisms": {
+              "PLAN": 15
+            },
+            "rows": 15
+          }
+        },
+        "RELDATE": {
+          "dev": {
+            "evidence_condition": {
+              "unspecified": 72
+            },
+            "groups": 12,
+            "human_review_status": {
+              "pending": 72
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 24,
+              "REFUTES": 24,
+              "SUPPORTS": 24
+            },
+            "mechanisms": {
+              "RELDATE": 72
+            },
+            "rows": 72
+          },
+          "source": {
+            "evidence_condition": {
+              "unspecified": 90
+            },
+            "groups": 15,
+            "human_review_status": {
+              "pending": 90
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 30,
+              "REFUTES": 30,
+              "SUPPORTS": 30
+            },
+            "mechanisms": {
+              "RELDATE": 90
+            },
+            "rows": 90
+          },
+          "test": {
+            "evidence_condition": {
+              "unspecified": 18
+            },
+            "groups": 3,
+            "human_review_status": {
+              "pending": 18
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 6,
+              "REFUTES": 6,
+              "SUPPORTS": 6
+            },
+            "mechanisms": {
+              "RELDATE": 18
+            },
+            "rows": 18
+          }
+        },
+        "TIMESHIFT": {
+          "dev": {
+            "evidence_condition": {
+              "unspecified": 180
+            },
+            "groups": 12,
+            "human_review_status": {
+              "pending": 180
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 108,
+              "REFUTES": 72,
+              "SUPPORTS": 0
+            },
+            "mechanisms": {
+              "TIMESHIFT": 180
+            },
+            "rows": 180
+          },
+          "source": {
+            "evidence_condition": {
+              "unspecified": 225
+            },
+            "groups": 15,
+            "human_review_status": {
+              "pending": 225
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 135,
+              "REFUTES": 90,
+              "SUPPORTS": 0
+            },
+            "mechanisms": {
+              "TIMESHIFT": 225
+            },
+            "rows": 225
+          },
+          "test": {
+            "evidence_condition": {
+              "unspecified": 45
+            },
+            "groups": 3,
+            "human_review_status": {
+              "pending": 45
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 27,
+              "REFUTES": 18,
+              "SUPPORTS": 0
+            },
+            "mechanisms": {
+              "TIMESHIFT": 45
+            },
+            "rows": 45
+          }
+        }
+      },
+      "checks": {
+        "all_labels_in_both": true,
+        "all_mechanisms_in_both": true,
+        "complete_coverage": true,
+        "no_group_overlap": true,
+        "no_input_pair_overlap": true,
+        "nonempty_splits": true,
+        "unchanged_records": true,
+        "unique_ids": true
+      },
+      "dev": {
+        "evidence_condition": {
+          "unspecified": 720
+        },
+        "groups": 84,
+        "human_review_status": {
+          "pending": 720
+        },
+        "labels": {
+          "NOT ENOUGH INFO": 279,
+          "REFUTES": 246,
+          "SUPPORTS": 195
+        },
+        "mechanisms": {
+          "BOUND": 192,
+          "FUNCTIONAL": 48,
+          "IMPLICATIVE": 132,
+          "PLACE": 36,
+          "PLAN": 60,
+          "RELDATE": 72,
+          "TIMESHIFT": 180
+        },
+        "rows": 720
+      },
+      "shared_values_between_dev_and_test": {
+        "claim": 0,
+        "evidence": 0,
+        "source_title": 0
+      },
+      "source": {
+        "evidence_condition": {
+          "unspecified": 900
+        },
+        "groups": 105,
+        "human_review_status": {
+          "pending": 900
+        },
+        "labels": {
+          "NOT ENOUGH INFO": 349,
+          "REFUTES": 305,
+          "SUPPORTS": 246
+        },
+        "mechanisms": {
+          "BOUND": 240,
+          "FUNCTIONAL": 60,
+          "IMPLICATIVE": 165,
+          "PLACE": 45,
+          "PLAN": 75,
+          "RELDATE": 90,
+          "TIMESHIFT": 225
+        },
+        "rows": 900
+      },
+      "test": {
+        "evidence_condition": {
+          "unspecified": 180
+        },
+        "groups": 21,
+        "human_review_status": {
+          "pending": 180
+        },
+        "labels": {
+          "NOT ENOUGH INFO": 70,
+          "REFUTES": 59,
+          "SUPPORTS": 51
+        },
+        "mechanisms": {
+          "BOUND": 48,
+          "FUNCTIONAL": 12,
+          "IMPLICATIVE": 33,
+          "PLACE": 9,
+          "PLAN": 15,
+          "RELDATE": 18,
+          "TIMESHIFT": 45
+        },
+        "rows": 180
+      }
+    },
+    "challenge": {
+      "actual_test_fraction": 0.20677966101694914,
+      "by_mechanism": {
+        "AMBIGREF": {
+          "dev": {
+            "evidence_condition": {
+              "long": 40,
+              "short": 40
+            },
+            "groups": 16,
+            "human_review_status": {
+              "adjudicated": 80
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 32,
+              "REFUTES": 0,
+              "SUPPORTS": 48
+            },
+            "mechanisms": {
+              "AMBIGREF": 80
+            },
+            "rows": 80
+          },
+          "source": {
+            "evidence_condition": {
+              "long": 45,
+              "short": 55
+            },
+            "groups": 20,
+            "human_review_status": {
+              "adjudicated": 100
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 40,
+              "REFUTES": 0,
+              "SUPPORTS": 60
+            },
+            "mechanisms": {
+              "AMBIGREF": 100
+            },
+            "rows": 100
+          },
+          "test": {
+            "evidence_condition": {
+              "long": 5,
+              "short": 15
+            },
+            "groups": 4,
+            "human_review_status": {
+              "adjudicated": 20
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 8,
+              "REFUTES": 0,
+              "SUPPORTS": 12
+            },
+            "mechanisms": {
+              "AMBIGREF": 20
+            },
+            "rows": 20
+          }
+        },
+        "DENIAL": {
+          "dev": {
+            "evidence_condition": {
+              "long": 80,
+              "short": 72
+            },
+            "groups": 19,
+            "human_review_status": {
+              "adjudicated": 152
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 76,
+              "REFUTES": 38,
+              "SUPPORTS": 38
+            },
+            "mechanisms": {
+              "DENIAL": 152
+            },
+            "rows": 152
+          },
+          "source": {
+            "evidence_condition": {
+              "long": 96,
+              "short": 96
+            },
+            "groups": 24,
+            "human_review_status": {
+              "adjudicated": 192
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 96,
+              "REFUTES": 48,
+              "SUPPORTS": 48
+            },
+            "mechanisms": {
+              "DENIAL": 192
+            },
+            "rows": 192
+          },
+          "test": {
+            "evidence_condition": {
+              "long": 16,
+              "short": 24
+            },
+            "groups": 5,
+            "human_review_status": {
+              "adjudicated": 40
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 20,
+              "REFUTES": 10,
+              "SUPPORTS": 10
+            },
+            "mechanisms": {
+              "DENIAL": 40
+            },
+            "rows": 40
+          }
+        },
+        "LOOKALIKE": {
+          "dev": {
+            "evidence_condition": {
+              "long": 66,
+              "short": 72
+            },
+            "groups": 24,
+            "human_review_status": {
+              "adjudicated": 138
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 70,
+              "REFUTES": 2,
+              "SUPPORTS": 66
+            },
+            "mechanisms": {
+              "LOOKALIKE": 138
+            },
+            "rows": 138
+          },
+          "source": {
+            "evidence_condition": {
+              "long": 84,
+              "short": 90
+            },
+            "groups": 30,
+            "human_review_status": {
+              "adjudicated": 174
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 88,
+              "REFUTES": 2,
+              "SUPPORTS": 84
+            },
+            "mechanisms": {
+              "LOOKALIKE": 174
+            },
+            "rows": 174
+          },
+          "test": {
+            "evidence_condition": {
+              "long": 18,
+              "short": 18
+            },
+            "groups": 6,
+            "human_review_status": {
+              "adjudicated": 36
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 18,
+              "REFUTES": 0,
+              "SUPPORTS": 18
+            },
+            "mechanisms": {
+              "LOOKALIKE": 36
+            },
+            "rows": 36
+          }
+        },
+        "PRESUP": {
+          "dev": {
+            "evidence_condition": {
+              "long": 60,
+              "short": 54
+            },
+            "groups": 20,
+            "human_review_status": {
+              "adjudicated": 114
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 36,
+              "REFUTES": 42,
+              "SUPPORTS": 36
+            },
+            "mechanisms": {
+              "PRESUP": 114
+            },
+            "rows": 114
+          },
+          "source": {
+            "evidence_condition": {
+              "long": 72,
+              "short": 72
+            },
+            "groups": 25,
+            "human_review_status": {
+              "adjudicated": 144
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 46,
+              "REFUTES": 52,
+              "SUPPORTS": 46
+            },
+            "mechanisms": {
+              "PRESUP": 144
+            },
+            "rows": 144
+          },
+          "test": {
+            "evidence_condition": {
+              "long": 12,
+              "short": 18
+            },
+            "groups": 5,
+            "human_review_status": {
+              "adjudicated": 30
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 10,
+              "REFUTES": 10,
+              "SUPPORTS": 10
+            },
+            "mechanisms": {
+              "PRESUP": 30
+            },
+            "rows": 30
+          }
+        },
+        "SETCLOSE": {
+          "dev": {
+            "evidence_condition": {
+              "long": 36,
+              "short": 22
+            },
+            "groups": 10,
+            "human_review_status": {
+              "adjudicated": 58
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 26,
+              "REFUTES": 10,
+              "SUPPORTS": 22
+            },
+            "mechanisms": {
+              "SETCLOSE": 58
+            },
+            "rows": 58
+          },
+          "source": {
+            "evidence_condition": {
+              "long": 42,
+              "short": 34
+            },
+            "groups": 13,
+            "human_review_status": {
+              "adjudicated": 76
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 35,
+              "REFUTES": 13,
+              "SUPPORTS": 28
+            },
+            "mechanisms": {
+              "SETCLOSE": 76
+            },
+            "rows": 76
+          },
+          "test": {
+            "evidence_condition": {
+              "long": 6,
+              "short": 12
+            },
+            "groups": 3,
+            "human_review_status": {
+              "adjudicated": 18
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 9,
+              "REFUTES": 3,
+              "SUPPORTS": 6
+            },
+            "mechanisms": {
+              "SETCLOSE": 18
+            },
+            "rows": 18
+          }
+        },
+        "TEMPSCOPE": {
+          "dev": {
+            "evidence_condition": {
+              "long": 25,
+              "short": 40
+            },
+            "groups": 13,
+            "human_review_status": {
+              "adjudicated": 65
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 39,
+              "REFUTES": 0,
+              "SUPPORTS": 26
+            },
+            "mechanisms": {
+              "TEMPSCOPE": 65
+            },
+            "rows": 65
+          },
+          "source": {
+            "evidence_condition": {
+              "long": 35,
+              "short": 45
+            },
+            "groups": 16,
+            "human_review_status": {
+              "adjudicated": 80
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 48,
+              "REFUTES": 0,
+              "SUPPORTS": 32
+            },
+            "mechanisms": {
+              "TEMPSCOPE": 80
+            },
+            "rows": 80
+          },
+          "test": {
+            "evidence_condition": {
+              "long": 10,
+              "short": 5
+            },
+            "groups": 3,
+            "human_review_status": {
+              "adjudicated": 15
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 9,
+              "REFUTES": 0,
+              "SUPPORTS": 6
+            },
+            "mechanisms": {
+              "TEMPSCOPE": 15
+            },
+            "rows": 15
+          }
+        },
+        "UNIQUE": {
+          "dev": {
+            "evidence_condition": {
+              "long": 47,
+              "short": 48
+            },
+            "groups": 12,
+            "human_review_status": {
+              "adjudicated": 95
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 57,
+              "REFUTES": 3,
+              "SUPPORTS": 35
+            },
+            "mechanisms": {
+              "UNIQUE": 95
+            },
+            "rows": 95
+          },
+          "source": {
+            "evidence_condition": {
+              "long": 63,
+              "short": 56
+            },
+            "groups": 15,
+            "human_review_status": {
+              "adjudicated": 119
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 72,
+              "REFUTES": 3,
+              "SUPPORTS": 44
+            },
+            "mechanisms": {
+              "UNIQUE": 119
+            },
+            "rows": 119
+          },
+          "test": {
+            "evidence_condition": {
+              "long": 16,
+              "short": 8
+            },
+            "groups": 3,
+            "human_review_status": {
+              "adjudicated": 24
+            },
+            "labels": {
+              "NOT ENOUGH INFO": 15,
+              "REFUTES": 0,
+              "SUPPORTS": 9
+            },
+            "mechanisms": {
+              "UNIQUE": 24
+            },
+            "rows": 24
+          }
+        }
+      },
+      "checks": {
+        "all_labels_in_both": true,
+        "all_mechanisms_in_both": true,
+        "complete_coverage": true,
+        "no_group_overlap": true,
+        "no_input_pair_overlap": true,
+        "nonempty_splits": true,
+        "unchanged_records": true,
+        "unique_ids": true
+      },
+      "dev": {
+        "evidence_condition": {
+          "long": 354,
+          "short": 348
+        },
+        "groups": 114,
+        "human_review_status": {
+          "adjudicated": 702
+        },
+        "labels": {
+          "NOT ENOUGH INFO": 336,
+          "REFUTES": 95,
+          "SUPPORTS": 271
+        },
+        "mechanisms": {
+          "AMBIGREF": 80,
+          "DENIAL": 152,
+          "LOOKALIKE": 138,
+          "PRESUP": 114,
+          "SETCLOSE": 58,
+          "TEMPSCOPE": 65,
+          "UNIQUE": 95
+        },
+        "rows": 702
+      },
+      "shared_values_between_dev_and_test": {
+        "claim": 0,
+        "evidence": 0,
+        "source_title": 0
+      },
+      "source": {
+        "evidence_condition": {
+          "long": 437,
+          "short": 448
+        },
+        "groups": 143,
+        "human_review_status": {
+          "adjudicated": 885
+        },
+        "labels": {
+          "NOT ENOUGH INFO": 425,
+          "REFUTES": 118,
+          "SUPPORTS": 342
+        },
+        "mechanisms": {
+          "AMBIGREF": 100,
+          "DENIAL": 192,
+          "LOOKALIKE": 174,
+          "PRESUP": 144,
+          "SETCLOSE": 76,
+          "TEMPSCOPE": 80,
+          "UNIQUE": 119
+        },
+        "rows": 885
+      },
+      "test": {
+        "evidence_condition": {
+          "long": 83,
+          "short": 100
+        },
+        "groups": 29,
+        "human_review_status": {
+          "adjudicated": 183
+        },
+        "labels": {
+          "NOT ENOUGH INFO": 89,
+          "REFUTES": 23,
+          "SUPPORTS": 71
+        },
+        "mechanisms": {
+          "AMBIGREF": 20,
+          "DENIAL": 40,
+          "LOOKALIKE": 36,
+          "PRESUP": 30,
+          "SETCLOSE": 18,
+          "TEMPSCOPE": 15,
+          "UNIQUE": 24
+        },
+        "rows": 183
+      }
+    }
+  },
+  "global_validation": {
+    "checks": {
+      "all_labels_in_both": true,
+      "all_mechanisms_in_both": true,
+      "complete_coverage": true,
+      "no_group_overlap": true,
+      "no_input_pair_overlap": true,
+      "nonempty_splits": true,
+      "unchanged_records": true,
+      "unique_ids": true
+    },
+    "shared_values_between_dev_and_test": {
+      "claim": 0,
+      "evidence": 0,
+      "source_title": 0
+    }
+  },
+  "model_input_fields": [
+    "claim",
+    "evidence"
+  ],
+  "notes": [
+    "Basic and challenge must be evaluated separately; do not combine them into one score.",
+    "Dev is for development and tuning. Freeze test until final evaluation.",
+    "Only claim and evidence are model inputs; labels and management fields are not inputs.",
+    "Basic review status is pending in the original data; it has not been changed or independently adjudicated.",
+    "Checks cover exact/trimmed matches and supplied groups, not semantic similarity or pretraining contamination."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "seed": 42,
+  "test_fraction": 0.2,
+  "candidates": 512,
+  "output_dir": "data/splits/v1",
+  "datasets": {
+    "basic": {
+      "path": "data/raw/benchmark_1011/基础能力集.jsonl",
+      "rows": 900,
+      "groups": 105,
+      "sha256": "d26010080797b5cc964ece2fabd87354f3f043625371f101cc99036285ff950e"
+    },
+    "challenge": {
+      "path": "data/raw/benchmark_1011/核心挑战集.jsonl",
+      "rows": 885,
+      "groups": 143,
+      "sha256": "fc5fdc9048833211eaf1b5f32701062cf0493dc4c0b4ac61cd6dbd059788161f"
+    }
+  }
+}
