@@ -41,6 +41,8 @@ powershell -ExecutionPolicy Bypass -File scripts/start_14b_server.ps1 -ConfigPat
 .venv\Scripts\python.exe -m ab_factcheck.cli smoke --config configs/experiment_14b_v3.json
 .venv\Scripts\python.exe -m ab_factcheck.cli performance --config configs/experiment_14b_v3.json
 .venv\Scripts\python.exe -m ab_factcheck.cli run --config configs/experiment_14b_v3.json
+.venv\Scripts\python.exe scripts/server_14b.py stop --config configs/experiment_14b_v3.json
+# 等待本次watchdog退出并完成遥测落盘后生成最终报告
 .venv\Scripts\python.exe -m ab_factcheck.cli report --config configs/experiment_14b_v3.json
 .venv\Scripts\python.exe scripts/audit_14b_run.py --config configs/experiment_14b_v3.json
 ```

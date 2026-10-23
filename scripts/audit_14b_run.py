@@ -42,6 +42,16 @@ def measure(rows):
     for field in ("json_valid", "fields_valid", "protocol_valid"):
         result[field+"_count"] = sum(r.get(field) is True for r in rows)
         result[field+"_rate"] = result[field+"_count"]/n
+    latencies = [r["latency_seconds"] for r in rows if isinstance(r.get("latency_seconds"), (int,float))]
+    tokens = [r.get("usage",{}).get("completion_tokens") for r in rows]
+    tokens = [v for v in tokens if isinstance(v,(int,float))]
+    available = sum(r.get("logic_valid") is not None for r in rows)
+    logic_valid = sum(r.get("logic_valid") is True for r in rows)
+    result.update(latency_mean_seconds=statistics.mean(latencies) if latencies else None,
+                  latency_median_seconds=statistics.median(latencies) if latencies else None,
+                  mean_completion_tokens=statistics.mean(tokens) if tokens else None,
+                  logic_available_count=available, logic_valid_count=logic_valid,
+                  logic_valid_rate=logic_valid/available if available else None)
     reason_limits = 0
     for row in rows:
         value = row.get("parsed_object")
@@ -150,6 +160,7 @@ def main():
                 require(row["response_json"]["choices"][0]["message"]["content"]==row["raw_response"], "Raw response altered")
                 reasoning_clear(row["response_json"])
                 require(row["usage"]["prompt_tokens"]==row["preflight_prompt_tokens"], "Prompt count differs")
+                require(row["usage"].get("prompt_tokens_details",{}).get("cached_tokens",0)==0,"Prompt cache reused")
                 require(row["preflight_prompt_tokens"]+1024<=config["model"]["context_tokens"], "Input budget overflow")
                 row["audit_prediction"]=independently_parse(row,fmt["json_schema"]["schema"])
             else:
@@ -157,6 +168,8 @@ def main():
                 row["audit_prediction"]="INVALID"
         arms={a:[r for r in rows if r["arm"]==a] for a in ARMS}
         for a in ARMS: compare(metrics["datasets"][dataset]["arms"][a],measure(arms[a]))
+        for mechanism, values in metrics["datasets"][dataset]["mechanisms"].items():
+            for a in ARMS:compare(values[a],measure([r for r in arms[a] if r["mechanism"]==mechanism]))
         compare(metrics["datasets"][dataset]["paired"]["B2-A2"],pair(arms["A2"],arms["B2"]))
         old=read_jsonl(ROOT/"outputs/runs"/config["historical_run_id"]/f"{dataset}.jsonl")
         old_arms={a:[r for r in old if r["arm"]==a] for a in ARMS}
@@ -167,16 +180,44 @@ def main():
         compare(upgrade["comparisons"][dataset]["descriptive_interaction_accuracy_delta"],pairs["B14-A14"]["accuracy_delta"]-pairs["B2-A2"]["accuracy_delta"])
         collected.extend(rows)
     require(len(collected)==294,"Expected 294 formal records")
+    completions=[r["response_json"]["id"] for r in collected if r["status"]=="completed"]
+    require(len(completions)==len(set(completions)),"Repeated completion ID")
+    observed=sorted(collected,key=lambda r:r["created_at"])
+    require([(r["dataset"],r["arm"],r["id"]) for r in observed]==[(r["dataset"],r["arm"],r["id"]) for r in collected],"Formal execution order changed")
     gate=json.loads((run/"technical_gate.json").read_text())
     smoke=run.with_name(run.name+"_smoke")
     require(gate["passed"] and file_hash(smoke/"nonthinking_probe.json")==gate["nonthinking_probe_sha256"],"Nonthinking gate mismatch")
     probe=json.loads((smoke/"nonthinking_probe.json").read_text())
     require(probe["passed"] and probe["disabled_template"]["text"]!=probe["enabled_template"]["text"],"Ignored thinking switch")
     reasoning_clear(probe["response"]["response_json"])
+    smoke_rows=read_jsonl(smoke/"synthetic.jsonl")
+    require(len(smoke_rows)==6 and {(r["arm"],r["id"]) for r in smoke_rows}=={(a,i) for a in ARMS for i in ("smoke_support","smoke_refute","smoke_nei")},"Incomplete synthetic smoke")
+    for row in smoke_rows:
+        reasoning_clear(row["response_json"])
+        independently_parse(row,manifest["response_formats"][row["arm"]]["json_schema"]["schema"])
+        require(row["protocol_valid"],"Smoke protocol failure")
+        require(row["response_json"]["id"] not in completions,"Smoke output reused as formal")
+    constraint=json.loads((smoke/"constraint_probe.json").read_text())
+    require(constraint["passed"] and len(constraint["records"])==5,"Constraint probe incomplete")
+    for item in constraint["records"]:
+        response=item["response"];reasoning_clear(response["response_json"])
+        if item["condition"]=="unconstrained_control":require(response["raw_response"].strip()=="NOT_JSON","Unconstrained control failed")
+        elif item["condition"]=="length_unconstrained":require(len(json_without_duplicates(response["raw_response"])["reason"])>16,"Length control failed")
+        else:
+            schema=response["request_payload"]["response_format"]["json_schema"]["schema"]
+            value=json_without_duplicates(response["raw_response"])
+            require(set(value)==set(schema["required"]),"Probe required fields not constrained")
+            for key,spec in schema["properties"].items():
+                require(isinstance(value[key],str) and ("enum" not in spec or value[key] in spec["enum"]) and len(value[key])<=spec.get("maxLength",float("inf")),"Probe field constraint failed")
     for name in ("disabled_template","enabled_template"):
         require(sha256(probe[name]["text"].encode())==probe[name]["sha256"],"Template digest mismatch")
     require(file_hash(run/"context_preflight.json")==gate["context_preflight_sha256"],"Context receipt changed")
     require(file_hash(run.with_name(run.name+"_performance")/"receipt.json")==gate["performance_receipt_sha256"],"Performance receipt changed")
+    telemetry=Path(env["startup"]["log_directory"])/"resources.jsonl"
+    require(file_hash(telemetry)==upgrade["hardware"]["telemetry_sha256"],"Telemetry changed after report; stop own server then regenerate report")
+    samples=read_jsonl(telemetry)
+    compare(upgrade["hardware"]["sampled_resources"],dict(samples=len(samples),gpu_peak_used_mib=max(s["gpus"][0]["used_mib"] for s in samples),
+            gpu_min_free_mib=min(s["gpus"][0]["free_mib"] for s in samples),minimum_available_ram_gib=min(s["available_ram_bytes"] for s in samples)/1024**3))
     review=list(csv.DictReader((report_dir/"reason_consistency_review.csv").open(encoding="utf-8-sig",newline="")))
     expected_review=[(d,r["id"]) for d in ("challenge","basic") for label in LABELS for r in sorted((r for r in collected if r["dataset"]==d and r["arm"]=="B2" and r["gold_label"]==label),key=lambda r:r["id"])[:3]]
     require([(r["dataset"],r["id"]) for r in review]==expected_review,"Review selection changed")
