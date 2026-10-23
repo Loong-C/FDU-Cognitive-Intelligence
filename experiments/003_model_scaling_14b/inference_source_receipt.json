@@ -1,0 +1,92 @@
+{
+  "run_id": "pilot_qwen3_14b_q4_nonthink_v3_r3",
+  "inference_commit": "44e7bca1532140fff26837ed8f9a3cb39594f34d",
+  "all_sources_match_commit_after_crlf_normalization": true,
+  "files": {
+    "cli.py": {
+      "executed_sha256": "7be2be0b0374157164731e3b5caba4d09608793a78d7486e8a09192fb5c4b58a",
+      "committed_sha256": "7be2be0b0374157164731e3b5caba4d09608793a78d7486e8a09192fb5c4b58a",
+      "byte_identical_to_commit": true,
+      "only_line_endings_differ": false,
+      "executed_crlf_count": 0
+    },
+    "common.py": {
+      "executed_sha256": "221b52864adfb7562a7622f6ea51b287623662dac30f901f9a0b77007598fdfb",
+      "committed_sha256": "221b52864adfb7562a7622f6ea51b287623662dac30f901f9a0b77007598fdfb",
+      "byte_identical_to_commit": true,
+      "only_line_endings_differ": false,
+      "executed_crlf_count": 0
+    },
+    "diagnostics.py": {
+      "executed_sha256": "93d44aa1a8d7ca42061ac6401a86b697af61f51720dc9295065d886f1999f127",
+      "committed_sha256": "93d44aa1a8d7ca42061ac6401a86b697af61f51720dc9295065d886f1999f127",
+      "byte_identical_to_commit": true,
+      "only_line_endings_differ": false,
+      "executed_crlf_count": 0
+    },
+    "gates.py": {
+      "executed_sha256": "4e3bedb42abff6096230952b5553d28462425836c7d251dae0324b8a7cfb9014",
+      "committed_sha256": "4e3bedb42abff6096230952b5553d28462425836c7d251dae0324b8a7cfb9014",
+      "byte_identical_to_commit": true,
+      "only_line_endings_differ": false,
+      "executed_crlf_count": 0
+    },
+    "model_client.py": {
+      "executed_sha256": "eab47004b7bc99842c8b02932a52bf1ccb67ba1114dc10ae187a2fd3aee8e959",
+      "committed_sha256": "eab47004b7bc99842c8b02932a52bf1ccb67ba1114dc10ae187a2fd3aee8e959",
+      "byte_identical_to_commit": true,
+      "only_line_endings_differ": false,
+      "executed_crlf_count": 0
+    },
+    "parsing.py": {
+      "executed_sha256": "c1a0fd9bb164d03c8ed4c7cbee1424fec7fb9cfa1f2f47ed870786ac23e26585",
+      "committed_sha256": "c1a0fd9bb164d03c8ed4c7cbee1424fec7fb9cfa1f2f47ed870786ac23e26585",
+      "byte_identical_to_commit": true,
+      "only_line_endings_differ": false,
+      "executed_crlf_count": 0
+    },
+    "pilot.py": {
+      "executed_sha256": "9b0208e02db726cf5e16e44fcb8819bb2270930ed085fd77129d7f495ef3e6a0",
+      "committed_sha256": "9b0208e02db726cf5e16e44fcb8819bb2270930ed085fd77129d7f495ef3e6a0",
+      "byte_identical_to_commit": true,
+      "only_line_endings_differ": false,
+      "executed_crlf_count": 0
+    },
+    "preflight_v3.py": {
+      "executed_sha256": "9e2ff7b9e04d0af41b69890cbfd6a1bf1a692b443d9b4f8948ec6eae4a742c21",
+      "committed_sha256": "9241f5785dc07add9d0e411dfeff8df557dcfb94de8ce37e0a77cf61a8fd4b80",
+      "byte_identical_to_commit": false,
+      "only_line_endings_differ": true,
+      "executed_crlf_count": 122
+    },
+    "prompts.py": {
+      "executed_sha256": "5c61bc1b7d4d8d5d50c398810c6a6f82d26b30989fcdb994ad192c1b971ea82d",
+      "committed_sha256": "5c61bc1b7d4d8d5d50c398810c6a6f82d26b30989fcdb994ad192c1b971ea82d",
+      "byte_identical_to_commit": true,
+      "only_line_endings_differ": false,
+      "executed_crlf_count": 0
+    },
+    "resources_v3.py": {
+      "executed_sha256": "67580e53f664a08a3ffd313a726063dfb744a72677208906a1f135cfae63fd78",
+      "committed_sha256": "67580e53f664a08a3ffd313a726063dfb744a72677208906a1f135cfae63fd78",
+      "byte_identical_to_commit": true,
+      "only_line_endings_differ": false,
+      "executed_crlf_count": 0
+    },
+    "runner.py": {
+      "executed_sha256": "b6a270c1d4980db2613263d4edba89807f609ed096d5220366193352b14be975",
+      "committed_sha256": "b6a270c1d4980db2613263d4edba89807f609ed096d5220366193352b14be975",
+      "byte_identical_to_commit": true,
+      "only_line_endings_differ": false,
+      "executed_crlf_count": 0
+    },
+    "structured.py": {
+      "executed_sha256": "4d895c4ab0038d30b1ee9accfbfb615a6ff1d5d43d24f9895d555d1900473a6c",
+      "committed_sha256": "4d895c4ab0038d30b1ee9accfbfb615a6ff1d5d43d24f9895d555d1900473a6c",
+      "byte_identical_to_commit": true,
+      "only_line_endings_differ": false,
+      "executed_crlf_count": 0
+    }
+  },
+  "resume_note": "Exact existing-run resume requires the recorded bytes in outputs/runtime/qwen3-14b/inference-source-r3. A fresh checkout uses a new run ID."
+}

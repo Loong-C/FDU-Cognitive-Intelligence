@@ -12,4 +12,4 @@
 
 修改前66项测试通过；本轮增加后88项测试通过。独立历史哈希复核确认1288个旧文件保持原样。这里的独立审计指独立Python进程、独立解析与统计实现，不声称外部人工审计。
 
-推理源码逻辑对应提交44e7bca，运行时精确字节快照保存在`outputs/runtime/qwen3-14b/inference-source-r3/`。部分Windows写入文件使用CRLF，而Git按.gitattributes规范化为LF；fingerprint保存实际执行文件的字节哈希，精确续跑应使用该快照，不能将换行规范化后的文件悄悄接入已存在的运行。新checkout重新运行应使用新的run ID。
+推理源码逻辑对应提交44e7bca，运行时精确字节快照保存在`outputs/runtime/qwen3-14b/inference-source-r3/`。独立逐文件比对确认12个推理文件中只有`preflight_v3.py`的CRLF与Git的LF不同，其他11个逐字节相同；证据见`inference_source_receipt.json`。fingerprint保存实际执行文件的字节哈希，精确续跑应使用该快照，不能将换行规范化后的文件悄悄接入已存在的运行。新checkout重新运行应使用新的run ID。

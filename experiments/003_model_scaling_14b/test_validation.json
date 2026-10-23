@@ -1,0 +1,12 @@
+{
+  "executed_at": "2026-10-23T03:04:50.182718+00:00",
+  "command": ".venv\\Scripts\\python.exe -m pytest -q",
+  "exit_code": 0,
+  "stdout": "........................................................................ [ 81%]\n................                                                         [100%]\n88 passed in 4.85s\n",
+  "stderr": "",
+  "scope": "Repository unit/integration fixtures, not experimental predictions",
+  "sources": {
+    "scripts/audit_14b_run.py": "6565ba42d29b2a968477be4267e3d5ebd0696dd62b5a70a77edba54d85e357d3",
+    "src/ab_factcheck/reporting_v3.py": "d6b91752bbdff83a890f50c2de999a9bc985fb76ac89666a395d27e947daa2eb"
+  }
+}

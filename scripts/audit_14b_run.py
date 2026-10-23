@@ -2,6 +2,7 @@
 
 import argparse
 from collections import Counter
+import copy
 import csv
 import hashlib
 import json
@@ -130,6 +131,12 @@ def main():
         require(file_hash(ROOT/"src/ab_factcheck"/name)==expected, "Inference source changed: "+name)
     env = json.loads((run/"environment.json").read_text(encoding="utf-8"))
     backend = fingerprint["backend_identity"]
+    require(fingerprint["model_id"]==config["model"]["alias"] and fingerprint["model_sha256"]==config["model"]["sha256"], "Wrong fingerprint model identity")
+    require(env["runtime"]["backend_identity"]==backend, "Environment/backend fingerprint mismatch")
+    require(f"offloaded {config['deployment']['gpu_layers']}/41 layers to GPU" in backend["offload_evidence"], "Missing actual partial offload evidence")
+    argv=backend["arguments"]
+    for flag,value in (("-ngl",str(config["deployment"]["gpu_layers"])),("-c",str(config["model"]["context_tokens"])),("-np","1"),("--reasoning","off"),("--reasoning-format",config["model"]["reasoning_format"])):
+        require(flag in argv and argv[argv.index(flag)+1]==value, "Wrong startup option: "+flag)
     exe = Path(env["startup"]["executable"])
     require(file_hash(exe)==backend["executable_sha256"], "Backend executable changed")
     for name, expected in backend["library_sha256"].items():
@@ -152,6 +159,7 @@ def main():
         require(file_hash(run/f"{dataset}.jsonl")==metrics["source_jsonl_sha256"][dataset], "Report source mismatch")
         for row in rows:
             require(row["status"] in ("completed","request_failed"), "Unrun row is not a result")
+            require(row["run_id"]==config["run_id"] and row["dataset"]==dataset and row["model_sha256"]==config["model"]["sha256"], "Wrong record provenance")
             require(row["run_fingerprint_sha256"]==metrics["fingerprint_sha256"], "Record fingerprint mismatch")
             src=source[row["id"]]
             for field,original in (("gold_label","label"),("group","group"),("mechanism","mechanism")):
@@ -162,6 +170,7 @@ def main():
             require(fmt==fingerprint["response_formats"][row["arm"]], "Schema changed")
             if row["status"]=="completed":
                 request=row["request_payload"]
+                require(request["model"]==fingerprint["model_id"], "Wrong requested model")
                 user=(ROOT/config["prompts_dir"]/f"{row['arm']}_user.txt").read_text(encoding="utf-8")
                 user=re.sub(r"\{(claim|evidence)\}", lambda m:src[m[1]], user)
                 messages=[{"role":"system","content":(ROOT/config["prompts_dir"]/f"{row['arm']}_system.txt").read_text(encoding="utf-8")},{"role":"user","content":user}]
@@ -208,6 +217,10 @@ def main():
     require([(r["dataset"],r["arm"],r["id"]) for r in observed]==[(r["dataset"],r["arm"],r["id"]) for r in collected],"Formal execution order changed")
     gate=json.loads((run/"technical_gate.json").read_text(encoding="utf-8"))
     smoke=run.with_name(run.name+"_smoke")
+    for suffix in ("_smoke","_performance"):
+        expected=copy.deepcopy(fingerprint)
+        expected["configuration"]["run_id"]+=suffix
+        require(json.loads((run.with_name(run.name+suffix)/"fingerprint.json").read_text(encoding="utf-8"))==expected,"Probe fingerprint differs: "+suffix)
     require(gate["passed"] and file_hash(smoke/"nonthinking_probe.json")==gate["nonthinking_probe_sha256"],"Nonthinking gate mismatch")
     probe=json.loads((smoke/"nonthinking_probe.json").read_text(encoding="utf-8"))
     require(probe["passed"] and probe["disabled_template"]["text"]!=probe["enabled_template"]["text"],"Ignored thinking switch")
@@ -234,7 +247,23 @@ def main():
     for name in ("disabled_template","enabled_template"):
         require(sha256(probe[name]["text"].encode())==probe[name]["sha256"],"Template digest mismatch")
     require(file_hash(run/"context_preflight.json")==gate["context_preflight_sha256"],"Context receipt changed")
+    context=json.loads((run/"context_preflight.json").read_text(encoding="utf-8"))
+    require(context["passed"] and len(context["records"])==294 and context["configuration_sha256"]==sha256(json_bytes(config)),"Incomplete/mismatched context gate")
     require(file_hash(run.with_name(run.name+"_performance")/"receipt.json")==gate["performance_receipt_sha256"],"Performance receipt changed")
+    performance_dir=run.with_name(run.name+"_performance")
+    perf=json.loads((performance_dir/"receipt.json").read_text(encoding="utf-8"))
+    require(perf["passed"] and perf["records"]==8 and perf["fingerprint_sha256"]==metrics["fingerprint_sha256"],"Performance gate provenance differs")
+    for dataset in ("challenge","basic"):
+        require(file_hash(performance_dir/f"{dataset}.jsonl")==perf["source_sha256"][dataset],"Performance raw records changed")
+        probe_rows=read_jsonl(performance_dir/f"{dataset}.jsonl")
+        ids=sorted(r["id"] for r in collected if r["dataset"]==dataset and r["arm"]=="A2")[:2]
+        require([(r["arm"],r["id"]) for r in probe_rows]==[(a,i) for a in ARMS for i in ids],"Performance selection differs")
+        for row in probe_rows:
+            reasoning_clear(row["response_json"])
+            independently_parse(row,manifest["response_formats"][row["arm"]]["json_schema"]["schema"])
+            require(row["protocol_valid"] and row["response_json"]["id"] not in completions,"Performance output reused or invalid")
+    tuning=ROOT/config["deployment"]["tuning_receipt"]
+    require(file_hash(tuning)==config["deployment"]["tuning_receipt_sha256"],"Offload selection receipt changed")
     telemetry=Path(env["startup"]["log_directory"])/"resources.jsonl"
     require(file_hash(telemetry)==upgrade["hardware"]["telemetry_sha256"],"Telemetry changed after report; stop own server then regenerate report")
     samples=read_jsonl(telemetry)

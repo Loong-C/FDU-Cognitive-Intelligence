@@ -106,6 +106,7 @@ def write_upgrade_report(config, receipt, records, destination):
              f"llama.cpp {config['model']['backend_release']}，context={config['model']['context_tokens']}，max_tokens=1024，temperature=0，seed=42，stream/cache=false，单并发。",
              "", "thinking 在请求和 /apply-template 均显式关闭；原始输出保留，检查 reasoning_content、think 标记及 reasoning_tokens。技术探针与每题证据见 outputs；环境指纹包含实际卸载与 DLL 哈希。",
              "", "这是模型升级比较。4B-Instruct-2507 与 Qwen3-14B 的训练阶段、模板有差异，不能将变化全归因于参数量。组内变体相关：挑战集 14 组、基础集 7 组；本报告仅作探索性描述，不做逐题独立性假设或显著性宣称。",
+             "", "基础能力集60条原始标签的审核状态仍为pending；本轮沿用冻结gold，不更改标签，所有准确率均相对于这套冻结标注。",
              "", "无效、截断、网络失败计错；双 IMPOSSIBLE 仍为逻辑无效。合法 JSON 不代表推理正确。每题一次正式生成，技术测量单独保存。", ""]
     for dataset in DATASETS:
         d = receipt["datasets"][dataset]
@@ -138,7 +139,7 @@ def write_upgrade_report(config, receipt, records, destination):
         for name, p in costs[dataset].items():
             lines.append(f"| {name} | {decimal(p['request_seconds'])} | {decimal(p['latency_p50_seconds'])} | {decimal(p['latency_p95_seconds'])} | {decimal(p['end_to_end_completion_tokens_per_second'])} | {decimal(p['backend_decode_tokens_per_second_mean'])} |")
         lines.append("")
-    lines += ["## 硬件与复核", "", "完整硬件采样摘要及环境记录：`upgrade_comparison.json`。显存为整卡采样值，包含其他应用；采样峰值可能低于瞬时峰值。",
+    lines += ["## 硬件与复核", "", "完整硬件采样摘要及环境记录：`upgrade_comparison.json`。资源范围为同一14B服务会话，包含预检和正式推理；显存为整卡采样值，包含其他应用，采样峰值可能低于瞬时峰值。请求耗时与吞吐来自正式生成API，包含模型处理输入的时间，但不包含部署、doctor和单独的/apply-template预检耗时。4B全GPU与14B混合卸载的成本差异同时受部署方式影响。",
               "", "四个预指定案例的 4B/14B 原始世界状态和理由见 `typical_errors.csv`。固定每数据集每 gold 标签前三个 ID，共 18 个 B14 样本见 `reason_consistency_review.csv`；人工复核状态单独标明，不自动根据 gold 或关键词改判。",
               "", "`metrics.json` 为两组统计，`upgrade_comparison.json` 为跨模型配对和成本，`predictions.csv` 为逐题摘要；独立审计需运行 `scripts/audit_14b_run.py`。报告生成并不等于独立审计通过。", ""]
     atomic_bytes(destination / "pilot_report.md", "\n".join(lines).encode("utf-8"))

@@ -1,0 +1,118 @@
+{
+  "reviewer": "Codex semantic review; not an external human adjudication",
+  "selection": "First three frozen IDs per gold label per dataset; 18 B14 records in total when complete",
+  "status": "assistant_semantic_review_complete; external_human_adjudication_not_performed",
+  "notes": {
+    "e_00a14eca36dfd42e": {
+      "reason_state_contradiction": false,
+      "note": "时间覆盖错误：false_reason假设2020年前卸任，与2015至2023担任主唱的证据冲突。这是无效反例；理由本身声称可行，与POSSIBLE状态一致，不能混记为理由/状态直接自相矛盾。",
+      "dataset": "challenge",
+      "source_record_sha256": "90cca74c7722acdf99c4c07a47339258c230642cd30b52141e55169f8bd92610"
+    },
+    "e_0a33301380112698": {
+      "reason_state_contradiction": false,
+      "note": "正确应用both的合取蕴涵；真实世界POSSIBLE，否定Xabi获胜的世界与明确证据冲突，IMPOSSIBLE。",
+      "dataset": "challenge",
+      "source_record_sha256": "29b3c8080d7c991f6a74b348ee136ebfff9a0e930395fdeac697f63118ec4263"
+    },
+    "e_21fa4d9e39de8649": {
+      "reason_state_contradiction": false,
+      "note": "正确解释second time的先前获奖预设；两个世界状态与理由一致。",
+      "dataset": "challenge",
+      "source_record_sha256": "aa489c67de27740ed5e06a6f89c2ecaabab0ce4dac66cf1ab8aedc9abaeb03c4"
+    },
+    "e_004280643d4a4eb2": {
+      "reason_state_contradiction": true,
+      "note": "true_reason虚构2021年先前获奖，与first win in 2023冲突；false_reason明确说首次2023意味着此前未获奖，且claim为假而证据为真，却把false_world标IMPOSSIBLE，存在方向相反的理由/状态冲突。",
+      "dataset": "challenge",
+      "source_record_sha256": "a04937b7b72cdabf037c73f387751025a297e2ae0fe40eb84e1fbbf0fa23de4d"
+    },
+    "e_2cd512dbfa426c58": {
+      "reason_state_contradiction": false,
+      "note": "最终REFUTES及I/P状态正确；false_reason关于not definitively false in all possible worlds的措辞不严谨，但没有直接否定其标注的false-world可行性。",
+      "dataset": "challenge",
+      "source_record_sha256": "02d1ef624618cc7b84cb66ab85c7c4f6394b6a7141ed639bffd3c88f8baa6528"
+    },
+    "e_3a970cee3909f15e": {
+      "reason_state_contradiction": true,
+      "note": "true_reason忽略first of three，允许先前获奖；false_reason又说证据排除了2023年前获奖，即支持claim为假的世界，却把false_world标IMPOSSIBLE。状态与理由含义冲突。",
+      "dataset": "challenge",
+      "source_record_sha256": "1b474ca854564ae4861e285bde77c70b47e42c41ef371fd450caeade8f442077"
+    },
+    "e_09f65643cf9bd6b1": {
+      "reason_state_contradiction": false,
+      "note": "错误把Elena获胜而未提Xabi当作Xabi不可能获胜，产生NEI→REFUTES。理由不足以支持IMPOSSIBLE，但未出现理由明确承认该世界可行却填IMPOSSIBLE的直接冲突。",
+      "dataset": "challenge",
+      "source_record_sha256": "4f5be63435c172f42666c51f1a26514fc5df466761c5eedbfd4c8538fc57d551"
+    },
+    "e_0b99bc0755ed9285": {
+      "reason_state_contradiction": false,
+      "note": "正确区分local tournament与特定大学锦标赛的名称同一性未确定；P/P两个世界理由相容。",
+      "dataset": "challenge",
+      "source_record_sha256": "fe9007aca72479fea18771eef551c1f0ab6c82e3066bb011d9cb179ebd3fbe7d"
+    },
+    "e_1a880609200d4018": {
+      "reason_state_contradiction": false,
+      "note": "2025仍任职不决定2026；继续任职或不再任职均与证据相容，P/P理由一致。",
+      "dataset": "challenge",
+      "source_record_sha256": "17bed3fd3c6726de72aa04213049ceb7ec74465098534e312ad0691e51f035fb"
+    },
+    "e_365682368482ff06": {
+      "reason_state_contradiction": false,
+      "note": "无效反例：2017+2+4推出2023；false_reason把证据最后一句改写成2023未获奖，却声称所有证据仍真。这是保留证据失败，但理由本身声称世界可行，与POSSIBLE状态没有直接相反的断言。",
+      "dataset": "basic",
+      "source_record_sha256": "5deb3cc21f5168ee0809405314d0b010e85cada32c272520222f496e5e3ecf26"
+    },
+    "e_39c1f3feb0761761": {
+      "reason_state_contradiction": false,
+      "note": "succeeded in winning蕴涵won；P/I正确。false_reason首句把claim与其否定混称，但随后明确说证据真且claim假不可能，世界状态方向一致。",
+      "dataset": "basic",
+      "source_record_sha256": "3f1a150446c5893379d590533c14b9de7ef3cf16af340f20efe5ebbced0fdbbf"
+    },
+    "e_3b9b44a5e17b1f75": {
+      "reason_state_contradiction": false,
+      "note": "证据和claim完全相同，P/I正确。false_reason首句把claim与其否定混称，后句清楚说明证据真而claim假不可能，不构成状态方向相反。",
+      "dataset": "basic",
+      "source_record_sha256": "7b84269d30f36ed2ff67863aaea67323d453dd24b97fccbeed6f6b10680e0056"
+    },
+    "e_15706bbc1df121d5": {
+      "reason_state_contradiction": false,
+      "note": "up to 125010排除more than 125010；I/P及两条理由一致，正确处理含端点上界。",
+      "dataset": "basic",
+      "source_record_sha256": "00b098efceee56ff086a1d6e2669e20df2db0af604fe98a760bfe82d37b711ea"
+    },
+    "e_24772596febed268": {
+      "reason_state_contradiction": false,
+      "note": "only Portland and nowhere else排除Salem；I/P正确。false_reason末尾not mentioned不是主要依据，但此前引用完整排他性约束，理由和状态一致。",
+      "dataset": "basic",
+      "source_record_sha256": "ce608aeefe5347697643abf6eda7e230dc63ae2db1b04d70ff6d9368d8643e13"
+    },
+    "e_3180992e4dc5cc71": {
+      "reason_state_contradiction": false,
+      "note": "fewer than 124990与more than 125010互斥；I/P正确，两个世界理由与状态一致。",
+      "dataset": "basic",
+      "source_record_sha256": "84a2e1ddb6a538ceeac840b69d9a44ef6df8648fe30115312e9f271f4eae9e94"
+    },
+    "e_09a8bae1417a4f20": {
+      "reason_state_contradiction": false,
+      "note": "attempted to win不蕴涵成功或失败；获奖与未获奖两个世界都保留尝试事实，P/P一致。",
+      "dataset": "basic",
+      "source_record_sha256": "3b813a67ec32413b5a0f82cd880fb41389109921c682b794ed08943a2e208bab"
+    },
+    "e_11b9a984df88d017": {
+      "reason_state_contradiction": false,
+      "note": "over 124990允许125000，也允许124991至124999；给出的否定世界满足严格下界，P/P一致。",
+      "dataset": "basic",
+      "source_record_sha256": "0aebdd469e3a1c8b52af6d748e50b7196965467306768c1f1ab9b31005a7ae5d"
+    },
+    "e_1227e8efede9f7c4": {
+      "reason_state_contradiction": false,
+      "note": "证据2019年已达成六个连续年代，不明确此前是否已经达成；两个理由分别允许此前已达成或尚未达成，P/P一致。",
+      "dataset": "basic",
+      "source_record_sha256": "d3f30bd5c8b64fe619bffeca1ac0b0e11a7630b2772097fce5187dbf43c60367"
+    }
+  },
+  "run_id": "pilot_qwen3_14b_q4_nonthink_v3_r3",
+  "fingerprint_sha256": "4ea81d7843d6a21051c27bab2a3034b05ecb15de54743309f3285b591c8b632e",
+  "direct_reason_state_contradictions": 2
+}

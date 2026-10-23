@@ -15,7 +15,17 @@
 
 新权重、下载分块、完整响应、服务日志和遥测均位于被Git忽略的 `outputs/`。原4B模型、启动脚本、configs/experiment.json、configs/experiment_v2.json和历史结果保持原样。
 
-先在仓库根目录执行（现有`.venv`和b11669后端沿用第二轮）：
+以下命令记录本轮实际使用的入口（现有`.venv`和b11669后端沿用第二轮）。本次r3配置已经冻结；同一运行只能恢复，不能再执行`--apply-selection`覆盖它。重新实验或全新checkout应先创建独立配置，再把下文命令中的配置路径换成`configs/experiment_14b_local.json`：
+
+```powershell
+$localConfig = Get-Content configs/experiment_14b_v3.json -Raw -Encoding UTF8 | ConvertFrom-Json
+$localConfig.run_id = 'pilot_qwen3_14b_q4_nonthink_local_' + (Get-Date -Format 'yyyyMMdd_HHmmss')
+$localConfigPath = Join-Path (Get-Location) 'configs/experiment_14b_local.json'
+if (Test-Path -LiteralPath $localConfigPath) { throw 'Local configuration already exists; inspect it before replacing it.' }
+[IO.File]::WriteAllText($localConfigPath, ($localConfig | ConvertTo-Json -Depth 30), [Text.UTF8Encoding]::new($false))
+```
+
+这样新调优证据、指纹和报告不会覆盖已完成的r3。随后执行下载和调优：
 
 ```powershell
 .venv\Scripts\python.exe scripts/bootstrap_14b.py --config configs/experiment_14b_v3.json
@@ -70,6 +80,7 @@ powershell -ExecutionPolicy Bypass -File scripts/start_14b_server.ps1 -ConfigPat
 ```powershell
 .venv\Scripts\python.exe -m pytest -q
 .venv\Scripts\python.exe scripts/audit_14b_run.py --config configs/experiment_14b_v3.json --integrity-only
+.venv\Scripts\python.exe scripts/reaudit_legacy_v2.py
 ```
 
 仅历史哈希检查通过不等于实验完成。真实执行状态、性能结论和限制以本目录`RESULTS.md`及实际报告/审计文件为准。
