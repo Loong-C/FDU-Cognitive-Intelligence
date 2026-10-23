@@ -1,0 +1,7 @@
+{
+  "audit_method": "separate Python process and independent parser/metric implementation; not an external human audit",
+  "audited_at": "2026-10-23T01:46:28.156643+00:00",
+  "experiment_completed": false,
+  "historical_files_unchanged": 1288,
+  "scope": "historical_integrity_only"
+}

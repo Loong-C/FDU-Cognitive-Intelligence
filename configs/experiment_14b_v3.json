@@ -1,0 +1,93 @@
+{
+  "execution_order": "dataset_then_arm",
+  "experiment_id": "003_model_scaling_14b",
+  "format_failure_policy": "record_and_continue",
+  "historical_commit": "daada03952cf051fbeb3a81a34b2c91c0019e139",
+  "historical_run_id": "pilot_qwen3_4b_q4_struct_v2_r2",
+  "model": {
+    "backend": "llama.cpp",
+    "backend_release": "b11669",
+    "context_tokens": 8192,
+    "endpoint": "http://127.0.0.1:8084/v1",
+    "file": "outputs/runtime/qwen3-14b/Qwen3-14B-Q4_K_M.gguf",
+    "max_tokens": 1024,
+    "network_retries": 2,
+    "quantization": "Q4_K_M",
+    "repository": "Qwen/Qwen3-14B-GGUF",
+    "revision": "530227a7d994db8eca5ab5ced2fb692b614357fd",
+    "seed": 42,
+    "sha256": "500a8806e85ee9c83f3ae08420295592451379b4f8cf2d0f41c15dffeb6b81f0",
+    "stream": false,
+    "temperature": 0.0,
+    "timeout_seconds": 600,
+    "base_model": "Qwen/Qwen3-14B",
+    "size_bytes": 9001752960,
+    "alias": "qwen3-14b-q4-k-m-nonthink",
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "reasoning_format": "deepseek",
+    "require_nonthinking": true,
+    "download_url": "https://huggingface.co/Qwen/Qwen3-14B-GGUF/resolve/530227a7d994db8eca5ab5ced2fb692b614357fd/Qwen3-14B-Q4_K_M.gguf"
+  },
+  "output_protocol": "json_schema_v2",
+  "output_root": "outputs/runs",
+  "pilot_dir": "experiments/001_two_world_pilot/pilot",
+  "pilot_reference": {
+    "basic": {
+      "manifest_sha256": "440c94f8464d54c5e17057e32da5c6b5c87f3f066e8b4f7acaa35ab1d48aebda",
+      "n": 60,
+      "ordered_ids_sha256": "8147edf1a68a151ada2befe6fb141b22be628d3b9975e2f6255099e86ba8ed3e"
+    },
+    "challenge": {
+      "manifest_sha256": "bb6f2da17d115b0250f104ada3b72d8543ad3dae88159ca67c50a57263b28a8d",
+      "n": 87,
+      "ordered_ids_sha256": "afd5ebdabba5f99b0229cf5dd51beacba5c4bb70b00360025a6f0b360cfb8a00"
+    }
+  },
+  "pilot_seed": 20261022,
+  "prompts_dir": "prompts/v2",
+  "reason_max_characters": 320,
+  "report_root": "experiments/003_model_scaling_14b/reports",
+  "run_id": "pilot_qwen3_14b_q4_nonthink_v3",
+  "split_version": "v1",
+  "arms": [
+    "A2",
+    "B2"
+  ],
+  "arm_labels": {
+    "A2": "A14",
+    "B2": "B14"
+  },
+  "model_upgrade_v3": true,
+  "historical_report_root": "experiments/002_constrained_output/reports",
+  "deployment": {
+    "startup_file": "outputs/runtime/qwen3-14b/server.json",
+    "backend_executable": "outputs/runtime/llama-b11669/llama-server.exe",
+    "gpu_layers": 16,
+    "candidate_gpu_layers": [
+      12,
+      16,
+      20
+    ],
+    "min_available_ram_gib": 12.5,
+    "min_free_vram_mib": 768,
+    "runtime_min_available_ram_gib": 2.0,
+    "max_page_reads_per_second": 1000,
+    "page_pressure_consecutive_samples": 3,
+    "resource_sample_seconds": 2,
+    "cold_start_policy": "Conservative: full 8.38 GiB model residency + 1.56 GiB F16 KV + scratch and OS reserve. Initial allocation safety threshold; not proof of physical infeasibility.",
+    "tuning_receipt": "outputs/runtime/qwen3-14b/tuning-1792719737656105500/selection.json",
+    "tuning_receipt_sha256": "68f22793ede964e7a198efe09f24afe423bee52683f18d53efb7cab8c68aaa94"
+  },
+  "review": {
+    "per_label_per_dataset": 3,
+    "selection": "first_ids_in_frozen_order_per_gold_label",
+    "typical_ids": [
+      "e_5c7b1b9b012be799",
+      "e_83ecbf82546d00f0",
+      "e_e362e2444350daca",
+      "e_d936aaf07ff8dcd7"
+    ]
+  }
+}

@@ -3,11 +3,38 @@
 from __future__ import annotations
 
 import ipaddress
+import hashlib
+import re
 import socket
 import time
 from urllib.parse import urlsplit
 
 import httpx
+
+
+def nonthinking_check(response: dict) -> dict:
+    """Inspect raw generation; never strip/repair reasoning or the answer."""
+    issues = []
+    for choice in response.get("choices", []):
+        message = choice.get("message", {})
+        for key in ("reasoning_content", "reasoning"):
+            if message.get(key) not in (None, "", []):
+                issues.append(key)
+        content = message.get("content") or ""
+        cleaned = re.sub(r"<think>\s*</think>", "", content, flags=re.I)
+        if re.search(r"</?think\b", cleaned, flags=re.I):
+            issues.append("nonempty_or_unclosed_think")
+    def visit(value):
+        if isinstance(value, dict):
+            for key, item in value.items():
+                if key in ("reasoning_tokens", "thinking_tokens") and item not in (None, 0):
+                    issues.append(key)
+                visit(item)
+        elif isinstance(value, list):
+            for item in value:
+                visit(item)
+    visit(response.get("usage", {}))
+    return {"passed": not issues, "issues": issues, "policy": "inspect_raw_no_stripping_v1"}
 
 
 class RequestFailure(RuntimeError):
@@ -94,11 +121,20 @@ class LocalModelClient:
             raise ValueError("Server did not expose the chat template")
         return {"model_id": self.model_id, "model_metadata": data[0], "props": self.props}
 
-    def count_prompt(self, messages: list[dict]) -> int:
-        formatted = self._request("POST", "/apply-template", {"messages": messages, "add_generation_prompt": True})
+    def template_options(self):
+        return {key: self.config[key] for key in ("chat_template_kwargs", "reasoning_format") if key in self.config}
+
+    def apply_template(self, messages: list[dict]) -> str:
+        formatted = self._request("POST", "/apply-template", {"messages": messages, "add_generation_prompt": True, **self.template_options()})
         prompt = formatted.get("prompt")
         if not isinstance(prompt, str):
             raise RequestFailure("Server /apply-template did not return prompt text")
+        self.last_template_summary = {"sha256": hashlib.sha256(prompt.encode()).hexdigest(), "characters": len(prompt),
+                                      "suffix": prompt[-160:], "options": self.template_options()}
+        return prompt
+
+    def count_prompt(self, messages: list[dict]) -> int:
+        prompt = self.apply_template(messages)
         tokens = self._request("POST", "/tokenize", {"content": prompt, "add_special": True, "parse_special": True}).get("tokens")
         if not isinstance(tokens, list):
             raise RequestFailure("Server /tokenize did not return a token list")
@@ -115,6 +151,7 @@ class LocalModelClient:
             "model": self.model_id, "messages": messages,
             "temperature": self.config["temperature"], "seed": self.config["seed"],
             "max_tokens": self.config["max_tokens"], "stream": False, "cache_prompt": False,
+            **self.template_options(),
         }
         if response_format is not None:
             payload["response_format"] = response_format
@@ -140,4 +177,7 @@ class LocalModelClient:
             "http_request_attempts": self.request_attempts - all_before,
             "effective_request_parameters": {k: v for k, v in payload.items() if k != "messages"},
             **({"request_payload": payload} if response_format is not None else {}),
+            **({"nonthinking_validation": nonthinking_check(response), "applied_template": self.last_template_summary,
+                "prompt_count_matches": actual_tokens == prompt_tokens}
+               if self.config.get("require_nonthinking") else {}),
         }

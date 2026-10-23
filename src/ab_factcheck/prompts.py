@@ -10,7 +10,7 @@ EXAMPLE_CLAIM = "Neris watered the silver fern on Tuesday."
 
 
 class PromptSet:
-    def __init__(self, directory):
+    def __init__(self, directory, arms=None):
         self.directory = directory
         manifest = json.loads((directory / "manifest.json").read_text(encoding="utf-8"))
         self.arms = tuple(manifest.get("arms", ARMS))
@@ -42,6 +42,12 @@ class PromptSet:
         for parts in self.templates.values():
             if parts["user"].count("{claim}") != 1 or parts["user"].count("{evidence}") != 1:
                 raise ValueError("Prompt requires exactly one occurrence of each data placeholder")
+        if arms is not None:
+            if not arms or any(arm not in self.arms for arm in arms):
+                raise ValueError("Requested arm absent from frozen prompt manifest")
+            self.arms = tuple(arms)
+            self.templates = {arm: self.templates[arm] for arm in self.arms}
+            self.hashes = {arm: self.hashes[arm] for arm in self.arms}
 
     def render(self, arm: str, *, claim: str, evidence: str) -> list[dict]:
         values = {"claim": claim, "evidence": evidence}

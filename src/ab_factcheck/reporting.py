@@ -56,7 +56,7 @@ def report(config: dict) -> dict:
         by_arm = {arm: [r for r in records if r["arm"] == arm] for arm in arms}
         results = {arm: compute_metrics(rows) for arm, rows in by_arm.items()}
         pairs = {}
-        comparisons = list(zip(arms, arms[1:])) + ([("A2", "C2")] if structured else [])
+        comparisons = list(zip(arms, arms[1:])) + ([("A2", "C2")] if structured and "C2" in arms else [])
         for before, after in comparisons:
             pair = paired_comparison(by_arm[before], by_arm[after])
             pairs[f"{after}-{before}"] = pair
@@ -116,6 +116,10 @@ def report(config: dict) -> dict:
     prediction_rows = [{**row, **{key: row.get("usage", {}).get(key) for key in ("prompt_tokens", "completion_tokens", "total_tokens")}} for row in all_records]
     csv_file(destination / "predictions.csv", prediction_rows, ["run_id", "dataset", "arm", "id", "group", "mechanism", "gold_label", "predicted_label", "status", "parse_status", "parse_error", "claim_true_world", "claim_false_world", "derived_label", "consistency_status", "finish_reason", "latency_seconds", "prompt_tokens", "completion_tokens", "total_tokens", "preflight_prompt_tokens", "completion_request_attempts", "messages_sha256"])
     if structured:
+        if config.get("model_upgrade_v3") or arms == ("A2", "B2"):
+            from .reporting_v3 import write_upgrade_report
+            write_upgrade_report(config, receipt, all_records, destination)
+            return {"report_directory": str(destination), "record_count": len(all_records), "datasets": datasets}
         from .reporting_v2 import write_structured_report
         write_structured_report(config, receipt, all_records, destination)
         return {"report_directory": str(destination), "record_count": len(all_records), "datasets": datasets}

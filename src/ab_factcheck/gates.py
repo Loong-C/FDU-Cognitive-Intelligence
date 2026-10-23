@@ -52,6 +52,13 @@ def constraint_probe(session):
     passed = passed and length_valid
     records.extend([{"condition": "length_unconstrained", "response": length_control},
                     {"condition": "length_constrained", "valid": length_valid, "response": length_result}])
+    if getattr(session, "config", {}).get("model_upgrade_v3"):
+        from .preflight_v3 import validate_nonthinking_record
+        for record in records:
+            try:
+                validate_nonthinking_record(record["response"], session.config)
+            except ValueError:
+                passed = False
     receipt = {"fingerprint_sha256": session.fingerprint_hash, "passed": passed, "records": records}
     frozen_json(path, receipt)
     if not passed:
@@ -72,18 +79,22 @@ def verify_smoke(config, fingerprint, smoke_rows):
     rows = read_jsonl(directory / "synthetic.jsonl")
     wanted = {(arm, row["id"]) for arm in experiment_arms(config) for row in smoke_rows}
     if len(rows) != len(wanted) or {(r["arm"], r["id"]) for r in rows} != wanted:
-        raise ValueError("Smoke must cover all three labels in all three arms")
+        raise ValueError("Smoke must cover all three labels in every configured arm")
     for row in rows:
         if row["status"] != "completed" or row["run_fingerprint_sha256"] != probe["fingerprint_sha256"]:
             raise ValueError("Smoke request/provenance failure")
         parsed = parse_structured(row["raw_response"], row["arm"], row["finish_reason"])
-        if parsed["parse_status"] != "ok" or any(row.get(k) != v for k, v in parsed.items()):
+        valid = parsed["protocol_valid"] if config.get("model_upgrade_v3") else parsed["parse_status"] == "ok"
+        if not valid or any(row.get(k) != v for k, v in parsed.items()):
             raise ValueError("Smoke contains invalid or modified output")
         if row["request_payload"]["response_format"] != response_format_for(row["arm"]):
             raise ValueError("Smoke did not use the intended schema")
         for key in ("temperature", "seed", "max_tokens", "stream"):
             if row["request_payload"][key] != config["model"][key]:
                 raise ValueError("Smoke used different inference parameters")
+        if config.get("model_upgrade_v3"):
+            from .preflight_v3 import validate_nonthinking_record
+            validate_nonthinking_record(row, config)
         path = directory / "records" / "synthetic" / row["arm"] / f"{sha256(row['id'].encode())}.json"
         if json.loads(path.read_text(encoding="utf-8")) != row:
             raise ValueError("Smoke export differs from its atomic record")

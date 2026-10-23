@@ -30,7 +30,7 @@ SMOKE_ROWS = [
 
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=("prepare", "doctor", "smoke", "run", "report"))
+    parser.add_argument("command", choices=("prepare", "doctor", "smoke", "performance", "run", "report"))
     parser.add_argument("--config", type=Path, default=ROOT / "configs/experiment.json")
     parser.add_argument("--dataset", choices=(*DATASETS, "all"), default="all")
     parser.add_argument("--arm", choices=(*ARMS, *STRUCTURED_ARMS, "all"), default="all")
@@ -59,26 +59,38 @@ def main(argv=None) -> int:
         if args.command == "doctor":
             print(json.dumps({key: environment[key] for key in ("gpu", "backend_version", "pilot")}, ensure_ascii=False, indent=2))
             return 0
-        prompts = PromptSet(ROOT / config["prompts_dir"])
+        prompts = PromptSet(ROOT / config["prompts_dir"], configured_arms)
         fingerprint = make_fingerprint(config, prompts, environment["runtime"])
         session = RunSession(ROOT / config["output_root"] / config["run_id"], config, prompts, client, fingerprint)
         arms = configured_arms if args.arm == "all" else (args.arm,)
+        if args.command == "performance":
+            if not config.get("model_upgrade_v3"):
+                raise ValueError("performance is a separate v3 resource probe")
+            from .preflight_v3 import performance_probe
+            print(json.dumps(performance_probe(config, prompts, client, fingerprint), indent=2))
+            return 0
         if args.command == "smoke":
             if structured:
                 session.initialize()
+                if config.get("model_upgrade_v3"):
+                    from .preflight_v3 import nonthinking_probe
+                    nonthinking_probe(session)
                 constraint_probe(session)
             records = session.run("synthetic", sorted(SMOKE_ROWS, key=lambda row: row["id"]), arms, split="smoke")
             print(f"Smoke: {sum(r['parse_status']=='ok' for r in records)}/{len(records)} parseable; inspect actual responses in the run directory.")
-            if structured and any(r["parse_status"] != "ok" for r in records):
+            if structured and any(not r.get("protocol_valid") if config.get("model_upgrade_v3") else r["parse_status"] != "ok" for r in records):
                 raise ValueError("Smoke incomplete or invalid; formal run blocked")
         else:
             datasets = DATASETS if args.dataset == "all" else (args.dataset,)
             if structured:
                 gate = verify_smoke(config, fingerprint, SMOKE_ROWS)
                 frozen_json(session.directory / "smoke_gate.json", gate)
-                for arm in arms:
-                    for dataset in datasets:
-                        session.run(dataset, load_pilot(config, dataset), (arm,))
+                if config.get("model_upgrade_v3"):
+                    from .preflight_v3 import formal_gate
+                    frozen_json(session.directory / "technical_gate.json", formal_gate(config, fingerprint))
+                order = ((dataset, arm) for dataset in datasets for arm in arms) if config.get("execution_order") == "dataset_then_arm" else ((dataset, arm) for arm in arms for dataset in datasets)
+                for dataset, arm in order:
+                    session.run(dataset, load_pilot(config, dataset), (arm,))
             else:
                 for dataset in datasets:
                     session.run(dataset, load_pilot(config, dataset), arms)

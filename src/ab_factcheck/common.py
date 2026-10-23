@@ -18,7 +18,11 @@ DATASETS = ("challenge", "basic")
 
 
 def experiment_arms(config: dict) -> tuple[str, ...]:
-    return STRUCTURED_ARMS if config.get("output_protocol") == "json_schema_v2" else ARMS
+    default = STRUCTURED_ARMS if config.get("output_protocol") == "json_schema_v2" else ARMS
+    arms = config.get("arms", default)
+    if not isinstance(arms, (list, tuple)) or tuple(arms) not in (default, ("A2", "B2")) or any(a not in default for a in arms):
+        raise ValueError("Arms must preserve the protocol order; supported subset is A2/B2")
+    return tuple(arms)
 
 
 def now() -> str:
@@ -49,8 +53,20 @@ def load_config(path: Path | None = None) -> dict:
     if config.get("output_protocol") not in (None, "json_schema_v2"):
         raise ValueError("Unknown output protocol")
     if config.get("output_protocol") == "json_schema_v2":
-        if (model["max_tokens"], model["context_tokens"], model["seed"]) != (1024, 8192, 42):
+        contexts = (8192, 4096) if config.get("model_upgrade_v3") else (8192,)
+        if (model["max_tokens"], model["seed"]) != (1024, 42) or model["context_tokens"] not in contexts:
             raise ValueError("v2 requires max_tokens=1024, context=8192, seed=42")
+    experiment_arms(config)
+    if config.get("model_upgrade_v3"):
+        if experiment_arms(config) != ("A2", "B2") or config["prompts_dir"] != "prompts/v2":
+            raise ValueError("v3 requires unchanged v2 A2/B2 prompts")
+        if model.get("chat_template_kwargs") != {"enable_thinking": False} or model.get("reasoning_format") != "deepseek" or model.get("require_nonthinking") is not True:
+            raise ValueError("v3 requires explicit nonthinking with reasoning_content visibility")
+        if config.get("execution_order") != "dataset_then_arm":
+            raise ValueError("v3 requires challenge A/B then basic A/B")
+        for key in ("startup_file", "backend_executable"):
+            inside(ROOT, config["deployment"][key])
+        inside(ROOT, model["file"])
     return config
 
 

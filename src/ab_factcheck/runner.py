@@ -19,6 +19,8 @@ def source_hashes(config=None) -> dict:
     )
     if config and config.get("output_protocol") == "json_schema_v2":
         names += ("structured.py", "gates.py", "cli.py", "diagnostics.py")
+    if config and config.get("model_upgrade_v3"):
+        names += ("preflight_v3.py", "resources_v3.py")
     return {name: file_hash(Path(__file__).parent / name) for name in names}
 
 
@@ -82,7 +84,9 @@ class RunSession:
                     previous = json.loads(record_path.read_text(encoding="utf-8")) if record_path.exists() else None
                     if previous and previous.get("run_fingerprint_sha256") != self.fingerprint_hash:
                         raise ValueError("Existing result fingerprint differs")
-                    if self.structured and previous and previous["status"] == "completed" and not previous.get("protocol_valid"):
+                    if self.config.get("model_upgrade_v3") and previous and previous["status"] == "completed" and (not previous.get("nonthinking_validation", {}).get("passed") or not previous.get("prompt_count_matches")):
+                        raise RuntimeError("Prior nonthinking/token-count failure; inspect it before using a new run")
+                    if self.structured and self.config.get("format_failure_policy") != "record_and_continue" and previous and previous["status"] == "completed" and not previous.get("protocol_valid"):
                         raise RuntimeError("Prior protocol failure: inspect it and use a new run if changing the setup")
                     if previous and not previous.get("retryable", False):
                         continue
@@ -115,12 +119,14 @@ class RunSession:
                         record.update(
                             status="request_failed", raw_response=None, predicted_label=None,
                             parse_status="invalid", parse_error="request_failed", consistency_status="unavailable",
-                            error=str(exc), retryable=exc.transient, request_attempts=exc.attempts,
+                            error=str(exc), retryable=exc.transient and not self.config.get("model_upgrade_v3"), request_attempts=exc.attempts,
                             latency_seconds=time.perf_counter() - start, usage={}, finish_reason=None,
                         )
                     record.update(group=row["group"], mechanism=row["mechanism"], gold_label=row["label"])
                     atomic_json(record_path, record)
-                    if self.structured and record["status"] == "completed" and not record["protocol_valid"]:
+                    if self.config.get("model_upgrade_v3") and record["status"] == "completed" and (not record["nonthinking_validation"]["passed"] or not record["prompt_count_matches"]):
+                        raise RuntimeError("Nonthinking/token-count verification failed; raw response preserved")
+                    if self.structured and self.config.get("format_failure_policy") != "record_and_continue" and record["status"] == "completed" and not record["protocol_valid"]:
                         raise RuntimeError(f"Structured protocol failure at {dataset}/{arm}/{row['id']}; saved and stopped without regeneration")
         finally:
             lock_path.unlink(missing_ok=True)
