@@ -66,7 +66,7 @@ def write_upgrade_report(config, receipt, records, destination):
                "interpretation": "Exploratory paired model upgrade, not parameter-count causality; 14 challenge/7 basic groups; no IID significance test."}
     environment_path = ROOT / config["output_root"] / config["run_id"] / "environment.json"
     if environment_path.exists():
-        environment = json.loads(environment_path.read_text())
+        environment = json.loads(environment_path.read_text(encoding="utf-8"))
         telemetry = Path(environment["startup"]["log_directory"]) / "resources.jsonl"
         samples = read_jsonl(telemetry)
         summary["hardware"] = {"environment": environment, "sampled_resources": summarize(samples), "telemetry_sha256": file_hash(telemetry)}

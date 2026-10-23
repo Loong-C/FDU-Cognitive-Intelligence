@@ -42,7 +42,7 @@ def context_preflight(config, prompts, client):
 def nonthinking_probe(session):
     path = session.directory / "nonthinking_probe.json"
     if path.exists():
-        previous = json.loads(path.read_text())
+        previous = json.loads(path.read_text(encoding="utf-8"))
         if previous["fingerprint_sha256"] != session.fingerprint_hash or not previous["passed"]:
             raise ValueError("Prior nonthinking probe failed or setup changed; inspect and use a new run")
         return previous
@@ -99,22 +99,22 @@ def formal_gate(config, fingerprint):
     tuning_path = ROOT / config["deployment"]["tuning_receipt"]
     if file_hash(tuning_path) != config["deployment"]["tuning_receipt_sha256"]:
         raise ValueError("Offload tuning evidence changed")
-    tuning = json.loads(tuning_path.read_text())
+    tuning = json.loads(tuning_path.read_text(encoding="utf-8"))
     if tuning["selected_gpu_layers"] != config["deployment"]["gpu_layers"] or not any(r["passed"] and r["layers"] == config["deployment"]["gpu_layers"] for r in tuning["results"]):
         raise ValueError("No successful measured offload candidate for this configuration")
     base = ROOT / config["output_root"]
     smoke = base / (config["run_id"] + "_smoke")
-    nonthinking = json.loads((smoke / "nonthinking_probe.json").read_text())
+    nonthinking = json.loads((smoke / "nonthinking_probe.json").read_text(encoding="utf-8"))
     if not nonthinking["passed"] or nonthinking["fingerprint_sha256"] != file_hash(smoke / "fingerprint.json"):
         raise ValueError("Missing matching nonthinking verification")
     performance_dir = base / (config["run_id"] + "_performance")
-    perf = json.loads((performance_dir / "receipt.json").read_text())
+    perf = json.loads((performance_dir / "receipt.json").read_text(encoding="utf-8"))
     if not perf["passed"] or perf["fingerprint_sha256"] != sha256(json_bytes(fingerprint)):
         raise ValueError("Missing matching performance probe")
     for dataset, expected in perf["source_sha256"].items():
         if file_hash(performance_dir / f"{dataset}.jsonl") != expected:
             raise ValueError("Performance probe records changed")
-    context = json.loads((base / config["run_id"] / "context_preflight.json").read_text())
+    context = json.loads((base / config["run_id"] / "context_preflight.json").read_text(encoding="utf-8"))
     if not context["passed"] or len(context["records"]) != 294 or context["configuration_sha256"] != sha256(json_bytes(config)):
         raise ValueError("Missing full 294-prompt context preflight")
     return {"passed": True, "nonthinking_probe_sha256": file_hash(smoke / "nonthinking_probe.json"),

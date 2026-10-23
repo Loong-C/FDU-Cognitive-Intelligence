@@ -50,13 +50,13 @@ def main():
             result["launcher"] = {"returncode": launch.returncode, "stdout": launch.stdout, "stderr": launch.stderr}
             if launch.returncode:
                 raise RuntimeError("Candidate startup rejected; see launcher evidence")
-            startup = json.loads((ROOT / trial["deployment"]["startup_file"]).read_text())
+            startup = json.loads((ROOT / trial["deployment"]["startup_file"]).read_text(encoding="utf-8"))
             owned_directory = Path(startup["log_directory"])
             result["startup"] = startup
             client = LocalModelClient(trial["model"])
             for _ in range(150):
                 if (owned_directory / "failure.json").exists():
-                    raise RuntimeError((owned_directory / "failure.json").read_text())
+                    raise RuntimeError((owned_directory / "failure.json").read_text(encoding="utf-8"))
                 try:
                     if client.http.get("/health", timeout=2).status_code == 200:
                         break

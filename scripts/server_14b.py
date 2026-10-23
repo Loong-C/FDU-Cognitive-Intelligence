@@ -87,7 +87,7 @@ def main():
     if args.action == "worker":
         worker(config, args.directory, layers); return
     if args.action == "stop":
-        startup = json.loads(startup_path.read_text())
+        startup = json.loads(startup_path.read_text(encoding="utf-8"))
         directory = Path(startup["log_directory"]).resolve()
         if not directory.is_relative_to((ROOT / "outputs/runtime/qwen3-14b").resolve()):
             raise ValueError("Unexpected server directory")
@@ -128,9 +128,9 @@ def main():
     # Return promptly; doctor/health verifies readiness separately.
     for _ in range(20):
         if (directory / "failure.json").exists():
-            raise RuntimeError((directory / "failure.json").read_text())
+            raise RuntimeError((directory / "failure.json").read_text(encoding="utf-8"))
         if (directory / "startup.json").exists():
-            print((directory / "startup.json").read_text()); return
+            print((directory / "startup.json").read_text(encoding="utf-8")); return
         time.sleep(0.5)
     raise RuntimeError("Watchdog startup did not acknowledge within 10 seconds; inspect logs before retrying")
 

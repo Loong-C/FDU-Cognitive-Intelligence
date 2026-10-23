@@ -95,7 +95,7 @@ def main():
     parser.add_argument("--config", type=Path, default=ROOT/"configs/experiment_14b_v3.json")
     parser.add_argument("--integrity-only", action="store_true")
     args = parser.parse_args(); config = load_config(args.config)
-    baseline = json.loads((ROOT/"experiments/003_model_scaling_14b/historical_baseline.json").read_text())
+    baseline = json.loads((ROOT/"experiments/003_model_scaling_14b/historical_baseline.json").read_text(encoding="utf-8"))
     for name, expected in baseline["sha256"].items():
         require(file_hash(ROOT/name)==expected, "Historical bytes changed: "+name)
     report_dir = ROOT/config["report_root"]/config["run_id"]
@@ -106,29 +106,29 @@ def main():
         atomic_json(ROOT/"experiments/003_model_scaling_14b/integrity_audit.json", receipt)
         print(json.dumps(receipt,indent=2)); return
     run = ROOT/config["output_root"]/config["run_id"]
-    fingerprint = json.loads((run/"fingerprint.json").read_text())
-    metrics = json.loads((report_dir/"metrics.json").read_text())
-    upgrade = json.loads((report_dir/"upgrade_comparison.json").read_text())
+    fingerprint = json.loads((run/"fingerprint.json").read_text(encoding="utf-8"))
+    metrics = json.loads((report_dir/"metrics.json").read_text(encoding="utf-8"))
+    upgrade = json.loads((report_dir/"upgrade_comparison.json").read_text(encoding="utf-8"))
     require(fingerprint["configuration"]==config, "Configuration mismatch")
     require(file_hash(run/"fingerprint.json")==metrics["fingerprint_sha256"], "Report fingerprint mismatch")
     require(file_hash(ROOT/config["model"]["file"])==config["model"]["sha256"], "Model hash mismatch")
     require((ROOT/config["model"]["file"]).stat().st_size==config["model"]["size_bytes"], "Model length mismatch")
     for name, expected in fingerprint["inference_source_sha256"].items():
         require(file_hash(ROOT/"src/ab_factcheck"/name)==expected, "Inference source changed: "+name)
-    env = json.loads((run/"environment.json").read_text())
+    env = json.loads((run/"environment.json").read_text(encoding="utf-8"))
     backend = fingerprint["backend_identity"]
     exe = Path(env["startup"]["executable"])
     require(file_hash(exe)==backend["executable_sha256"], "Backend executable changed")
     for name, expected in backend["library_sha256"].items():
         require(file_hash(exe.parent/name)==expected, "Backend DLL changed")
-    manifest = json.loads((ROOT/config["prompts_dir"]/"manifest.json").read_text())
+    manifest = json.loads((ROOT/config["prompts_dir"]/"manifest.json").read_text(encoding="utf-8"))
     for name, expected in manifest["sha256"].items():
         require(file_hash(ROOT/config["prompts_dir"]/name)==expected, "Frozen prompt changed")
     collected=[]
     for dataset in ("challenge","basic"):
         pilot_manifest = ROOT/config["pilot_dir"]/f"{dataset}_manifest.json"
         require(file_hash(pilot_manifest)==config["pilot_reference"][dataset]["manifest_sha256"], "Pilot changed")
-        pm=json.loads(pilot_manifest.read_text())
+        pm=json.loads(pilot_manifest.read_text(encoding="utf-8"))
         dev=ROOT/"data/splits"/config["split_version"]/dataset/"dev.jsonl"
         require(file_hash(dev)==pm["dev_sha256"], "Dev changed")
         ids=sorted(r["id"] for r in pm["assignments"] if r["is_pilot"])
@@ -144,7 +144,7 @@ def main():
             for field,original in (("gold_label","label"),("group","group"),("mechanism","mechanism")):
                 require(row[field]==src[original], "Metadata mismatch")
             record_path=run/"records"/dataset/row["arm"]/(sha256(row["id"].encode())+".json")
-            require(json.loads(record_path.read_text())==row, "Atomic record/export mismatch")
+            require(json.loads(record_path.read_text(encoding="utf-8"))==row, "Atomic record/export mismatch")
             fmt=manifest["response_formats"][row["arm"]]
             require(fmt==fingerprint["response_formats"][row["arm"]], "Schema changed")
             if row["status"]=="completed":
@@ -184,10 +184,10 @@ def main():
     require(len(completions)==len(set(completions)),"Repeated completion ID")
     observed=sorted(collected,key=lambda r:r["created_at"])
     require([(r["dataset"],r["arm"],r["id"]) for r in observed]==[(r["dataset"],r["arm"],r["id"]) for r in collected],"Formal execution order changed")
-    gate=json.loads((run/"technical_gate.json").read_text())
+    gate=json.loads((run/"technical_gate.json").read_text(encoding="utf-8"))
     smoke=run.with_name(run.name+"_smoke")
     require(gate["passed"] and file_hash(smoke/"nonthinking_probe.json")==gate["nonthinking_probe_sha256"],"Nonthinking gate mismatch")
-    probe=json.loads((smoke/"nonthinking_probe.json").read_text())
+    probe=json.loads((smoke/"nonthinking_probe.json").read_text(encoding="utf-8"))
     require(probe["passed"] and probe["disabled_template"]["text"]!=probe["enabled_template"]["text"],"Ignored thinking switch")
     reasoning_clear(probe["response"]["response_json"])
     smoke_rows=read_jsonl(smoke/"synthetic.jsonl")
@@ -197,7 +197,7 @@ def main():
         independently_parse(row,manifest["response_formats"][row["arm"]]["json_schema"]["schema"])
         require(row["protocol_valid"],"Smoke protocol failure")
         require(row["response_json"]["id"] not in completions,"Smoke output reused as formal")
-    constraint=json.loads((smoke/"constraint_probe.json").read_text())
+    constraint=json.loads((smoke/"constraint_probe.json").read_text(encoding="utf-8"))
     require(constraint["passed"] and len(constraint["records"])==5,"Constraint probe incomplete")
     for item in constraint["records"]:
         response=item["response"];reasoning_clear(response["response_json"])
