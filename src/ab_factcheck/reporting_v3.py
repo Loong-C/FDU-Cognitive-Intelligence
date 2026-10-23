@@ -111,8 +111,9 @@ def write_upgrade_report(config, receipt, records, destination):
         d = receipt["datasets"][dataset]
         lines += [f"## {dataset}", "", "| 条件 | 正确/全部 | 准确率 | 宏 F1 | S召回 | R召回 | NEI召回 | NEI→R | S→NEI | R→NEI |",
                   "|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|"]
-        for a, name in (("A2", "A14"), ("B2", "B14")):
-            m = d["arms"][a]
+        comparison_metrics = [(a, compute_metrics([r for r in history[dataset] if r["arm"] == a])) for a in ("A2", "B2")]
+        comparison_metrics += [(name, d["arms"][a]) for a, name in (("A2", "A14"), ("B2", "B14"))]
+        for name, m in comparison_metrics:
             lines.append(f"| {name} | {m['correct']}/{m['n']} | {pct(m['accuracy'])} | {decimal(m['macro_f1'])} | " + " | ".join(pct(m['classes'][label]['recall']) for label in LABELS) + f" | {m['nei_to_refutes']} | {m['supports_to_nei']} | {m['refutes_to_nei']} |")
         lines += ["", "| 比较 | 准确率差 pp | 错→对 | 对→错 |", "|---|---:|---:|---:|"]
         for name, pair in comparisons[dataset].items():
@@ -123,6 +124,8 @@ def write_upgrade_report(config, receipt, records, destination):
         for a, name in (("A2", "A14"), ("B2", "B14")):
             m = d["arms"][a]
             lines.append(f"| {name} | {pct(m['invalid_rate'])} | {pct(m['fields_valid_rate'])} | {pct(m['protocol_valid_rate'])} | {m['both_impossible_count']} | {m['reason_at_length_limit_count']} | {m['truncated_count']} |")
+        for a, name in (("A2", "A14"), ("B2", "B14")):
+            m = d["arms"][a]
             lines += ["", f"{name} 混淆矩阵（行 gold，列预测）：", "", "| gold | SUPPORTS | REFUTES | NEI | INVALID |", "|---|---:|---:|---:|---:|"]
             for label, cells in m["confusion_matrix"].items():
                 lines.append(f"| {label} | " + " | ".join(str(cells[k]) for k in (*LABELS, "INVALID")) + " |")
