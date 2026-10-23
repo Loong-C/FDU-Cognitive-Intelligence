@@ -1,0 +1,17 @@
+{
+  "audit_method": "separate Python process and independent parser/metric implementation; not an external human audit",
+  "audit_source_sha256": "aea30e434008d183afed3a1c4a864706ad16133c8bdc2dc1cdf6e43958a412cb",
+  "audited_at": "2026-10-23T03:27:52.893227+00:00",
+  "experiment_completed": true,
+  "fingerprint_sha256": "4ea81d7843d6a21051c27bab2a3034b05ecb15de54743309f3285b591c8b632e",
+  "formal_records": 294,
+  "historical_files_unchanged": 1288,
+  "passed": true,
+  "semantic_review_status": {
+    "assistant_reviewed": 18
+  },
+  "source_jsonl_sha256": {
+    "basic": "c7df86b6135ddd83f22e5040f70453e3dc73de65dc25a2545cdc2d649bf40eb9",
+    "challenge": "3dab8324f5c1f6589324f182bf9ef44a1ae88f5c45129ebd252ca31047d98bdf"
+  }
+}

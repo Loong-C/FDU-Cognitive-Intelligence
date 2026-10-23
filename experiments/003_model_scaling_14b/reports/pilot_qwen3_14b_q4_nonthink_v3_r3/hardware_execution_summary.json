@@ -1,0 +1,61 @@
+{
+  "run_id": "pilot_qwen3_14b_q4_nonthink_v3_r3",
+  "formal_records": 294,
+  "formal_api_request_seconds": 4794.453479000833,
+  "formal_completion_tokens": 22818,
+  "first_record_started_at": "2026-10-23T01:59:35.260733+00:00",
+  "last_completion_approximate_at": "2026-10-23T03:19:33.969460+00:00",
+  "formal_wall_seconds_approximate": 4798.708727,
+  "wall_time_note": "Record creation precedes apply-template/tokenize; adding API latency approximates last completion by omitting that final preflight overhead.",
+  "completion_request_attempts": {
+    "1": 294
+  },
+  "resources": {
+    "gpu_min_free_mib": 1019.0,
+    "gpu_peak_used_mib": 6922.0,
+    "minimum_available_ram_gib": 2.4783935546875,
+    "note": "Whole-device sampled peak, includes other applications; not a continuous or process-exclusive peak.",
+    "samples": 1772
+  },
+  "resource_interval_seconds_median": 3.2030000002123415,
+  "resource_interval_seconds_max": 6.217999999877065,
+  "peak_page_reads_per_second": 26058,
+  "minimum_disk_free_gib": 485.03502655029297,
+  "process_measurements": {
+    "samples": 38,
+    "first_sample_at": "2026-10-23T03:00:50.6137717Z",
+    "last_sample_at": "2026-10-23T03:19:21.9439520Z",
+    "peak_sampled_working_set_gib": 14.635688781738281,
+    "maximum_reported_historical_peak_working_set_gib": 14.957416534423828,
+    "peak_sampled_private_gib": 11.963676452636719,
+    "note": "Additional 30-second process sampling began during final basic/B14 arm. Windows PeakWorkingSet is process-lifetime high-water mark as of each sample; this is not a complete continuous process-memory trace."
+  },
+  "buffers_mib_from_startup_log": {
+    "cpu_mapped_model": 5103.23,
+    "gpu_model": 3475.83,
+    "cpu_kv": 800,
+    "gpu_kv": 480,
+    "gpu_compute": 104.79,
+    "cuda_host_compute": 12.0,
+    "cuda_host_output": 0.58
+  },
+  "resource_guard_failure": false,
+  "stop_receipt": {
+    "at": "2026-10-23T03:19:37.479009+00:00",
+    "requested": true,
+    "returncode": null
+  },
+  "source_sha256": {
+    "F:/Personal/Code/A_B/outputs/runtime/qwen3-14b/server-1792719969314796700/resources.jsonl": "d99fd60c2287678359f4a2d75e9c3ba5258ff8dfea888664c25a3dc5392b24d5",
+    "F:/Personal/Code/A_B/outputs/runtime/qwen3-14b/server-1792719969314796700/process_memory_samples.jsonl": "f03db64a1f367d0064aed09ca1e42b8a098f63dc8e847e0cc10eab07f893bfdb",
+    "F:/Personal/Code/A_B/outputs/runtime/qwen3-14b/server-1792719969314796700/stderr.log": "d056a35fb5c89d79d10fd3d958dd85e9b292be549eebcb9a245313a9782e4c48"
+  },
+  "formal_paging": {
+    "samples": 1500,
+    "page_reads_above_1000_samples": 10,
+    "page_reads_above_1000_with_ram_below_4gib_samples": 5,
+    "maximum_consecutive_pressure_samples": 2,
+    "stop_threshold_consecutive_samples": 3,
+    "note": "System-wide sampled counter; individual spikes cannot be attributed to the model process."
+  }
+}

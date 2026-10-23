@@ -94,6 +94,8 @@ powershell -ExecutionPolicy Bypass -File scripts/start_local_server.ps1
 
 第二轮已完成相同 pilot 的 A2/B2/C2 约束 JSON 评测，共 441 条正式请求。新增 Schema 约束、1024-token 预算、世界状态到标签的确定性映射与独立审计，保留第一轮全部历史材料。见 [第二轮结果](experiments/002_constrained_output/RESULTS.md)、[完整报告](experiments/002_constrained_output/reports/pilot_qwen3_4b_q4_struct_v2_r2/pilot_report.md) 和 [运行说明](experiments/002_constrained_output/README.md)。
 
+第三轮已在 RTX 4060 Ti 8GB 与 32GB 内存上完成 Qwen3-14B Q4_K_M 非思考模式的 A14/B14 两组对照，共294次正式生成。采用16/41层CPU/GPU混合卸载，逐字复用第二轮提示词与Schema。挑战集准确率为60.92%/79.31%，基础集为76.67%/80.00%；完整成本、资源限制、错误分析与独立复算见[第三轮结果](experiments/003_model_scaling_14b/RESULTS.md)及[Windows运行说明](experiments/003_model_scaling_14b/README.md)。
+
 ## 开发约定
 
 - 原始数据保存在 `data/raw/`，不要手工修改；划分结果通过脚本生成。

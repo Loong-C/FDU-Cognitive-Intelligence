@@ -209,7 +209,7 @@ def main():
     csv_rows=list(csv.DictReader((report_dir/"predictions.csv").open(encoding="utf-8-sig",newline="")))
     require([(r["dataset"],r["arm"],r["id"]) for r in csv_rows]==[(r["dataset"],r["arm"],r["id"]) for r in collected],"Prediction CSV order/count differs")
     for exported, original in zip(csv_rows,collected):
-        for key in ("gold_label","group","mechanism","predicted_label","parse_status","world_reason_true","world_reason_false","direct_reason"):
+        for key in ("gold_label","group","mechanism","predicted_label","parse_status","claim_true_world","claim_false_world","world_reason_true","world_reason_false","direct_reason"):
             require(exported[key]==str(original.get(key) or ""),"Prediction CSV content differs: "+key)
     completions=[r["response_json"]["id"] for r in collected if r["status"]=="completed"]
     require(len(completions)==len(set(completions)),"Repeated completion ID")
@@ -272,6 +272,15 @@ def main():
     review=list(csv.DictReader((report_dir/"reason_consistency_review.csv").open(encoding="utf-8-sig",newline="")))
     expected_review=[(d,r["id"]) for d in ("challenge","basic") for label in LABELS for r in sorted((r for r in collected if r["dataset"]==d and r["arm"]=="B2" and r["gold_label"]==label),key=lambda r:r["id"])[:3]]
     require([(r["dataset"],r["id"]) for r in review]==expected_review,"Review selection changed")
+    originals={(r["dataset"],r["id"]):r for r in collected if r["arm"]=="B2"}
+    for item in review:
+        original=originals[item["dataset"],item["id"]]
+        for key in ("gold_label","predicted_label","claim_true_world","claim_false_world","world_reason_true","world_reason_false"):
+            require(item[key]==str(original.get(key) or ""),"Review source content differs: "+key)
+        if original["status"]=="completed":
+            template=(ROOT/config["prompts_dir"]/"B2_user.txt").read_text(encoding="utf-8")
+            rendered=re.sub(r"\{(claim|evidence)\}",lambda m:item[m[1]],template)
+            require(rendered==original["request_payload"]["messages"][1]["content"],"Review evidence/claim differs from actual input")
     receipt.update(passed=True,experiment_completed=True,formal_records=len(collected),semantic_review_status=Counter(r["semantic_review_status"] for r in review),
                    fingerprint_sha256=metrics["fingerprint_sha256"],source_jsonl_sha256=metrics["source_jsonl_sha256"],audit_source_sha256=file_hash(Path(__file__)))
     atomic_json(report_dir/"execution_audit.json",receipt)

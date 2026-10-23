@@ -1,0 +1,21 @@
+{
+  "captured_at": "2026-10-23T03:27:15.898359+00:00",
+  "monotonic": 2945369.968,
+  "available_ram_bytes": 20042039296,
+  "total_ram_bytes": 34028761088,
+  "commit_limit_bytes": 68388499456,
+  "commit_available_bytes": 33836052480,
+  "disk_free_bytes": 520910942208,
+  "gpus": [
+    {
+      "index": 0,
+      "name": "NVIDIA GeForce RTX 4060 Ti",
+      "total_mib": 8188.0,
+      "used_mib": 2192.0,
+      "free_mib": 5749.0,
+      "utilization_percent": 18.0,
+      "driver": "581.57"
+    }
+  ],
+  "model_port_8084_closed": true
+}

@@ -1,0 +1,100 @@
+{
+  "audit_and_report_source_sha256": {
+    "scripts/audit_structured_run.py": "e8a83b6610153cdfebb8ca1822627c15630c476110fa03a7547cd1798f8685b8",
+    "src/ab_factcheck/metrics.py": "4e98a81fd7a6a1ed9fb8feaf1ccd735a172fbe7521b6188c526f8226867fc5bb",
+    "src/ab_factcheck/reporting.py": "2c3de7303dcc13a40e4a59dfdad79d5139ebc17e2d04aa0f388486ac3d8ec1ae",
+    "src/ab_factcheck/reporting_v2.py": "a2bc636c5fb25a230ff4d6c4cced873db85d6a400a63017d4e1237c1045c432a"
+  },
+  "audited_at": "2026-10-23T03:20:51.525602+00:00",
+  "conditions": {
+    "basic/A2": {
+      "completion_tokens": 2747,
+      "correct": 42,
+      "max_completion_tokens": 73,
+      "prompt_tokens": 11059,
+      "reason_length_bound_records": 0,
+      "records": 60,
+      "valid": 60
+    },
+    "basic/B2": {
+      "completion_tokens": 8723,
+      "correct": 34,
+      "max_completion_tokens": 231,
+      "prompt_tokens": 24139,
+      "reason_length_bound_records": 13,
+      "records": 60,
+      "valid": 58
+    },
+    "basic/C2": {
+      "completion_tokens": 7388,
+      "correct": 32,
+      "max_completion_tokens": 206,
+      "prompt_tokens": 30739,
+      "reason_length_bound_records": 7,
+      "records": 60,
+      "valid": 57
+    },
+    "challenge/A2": {
+      "completion_tokens": 3703,
+      "correct": 50,
+      "max_completion_tokens": 76,
+      "prompt_tokens": 32548,
+      "reason_length_bound_records": 0,
+      "records": 87,
+      "valid": 87
+    },
+    "challenge/B2": {
+      "completion_tokens": 11545,
+      "correct": 55,
+      "max_completion_tokens": 210,
+      "prompt_tokens": 51514,
+      "reason_length_bound_records": 18,
+      "records": 87,
+      "valid": 87
+    },
+    "challenge/C2": {
+      "completion_tokens": 10041,
+      "correct": 42,
+      "max_completion_tokens": 181,
+      "prompt_tokens": 61084,
+      "reason_length_bound_records": 10,
+      "records": 87,
+      "valid": 85
+    }
+  },
+  "fingerprint_sha256": "d3999ad6a6b4e5d07ec5a88f65d2cdac6cdee62983d86efbc399612ce3bf9f1a",
+  "formal_records": 441,
+  "inference_commit": "2396ab81cfc2be7f6a6c559963335107b67c5118",
+  "maximum_completion_tokens": 231,
+  "maximum_prompt_tokens": 1019,
+  "observed_order": [
+    "challenge/A2",
+    "basic/A2",
+    "challenge/B2",
+    "basic/B2",
+    "challenge/C2",
+    "basic/C2"
+  ],
+  "passed": true,
+  "preserved_historical_files": 504,
+  "preserved_partial_records": 165,
+  "request_attempt_counts": {
+    "1": 441
+  },
+  "run_id": "pilot_qwen3_4b_q4_struct_v2_r2",
+  "server_generation_count": 635,
+  "smoke_gate": {
+    "constraint_probe_sha256": "20f1e784b217d88b33a6bd52a4b7b637e7b756b4edd9139ad81b0ccb5636f91a",
+    "passed": true,
+    "smoke_jsonl_sha256": "4dfc1588d5b9116426c18a724e0edc85b552315a74d4065380a2a1362582e454",
+    "smoke_records": 9
+  },
+  "smoke_records": 9,
+  "source_jsonl_sha256": {
+    "basic": "20c219f1e208665fb6591e2d2cedbe3f64ce706e6267f21848075307e57bb4a9",
+    "challenge": "384b875d6937a37063a4c2faed53a4146bb7c6ef93c7f757e8e783974b66c0cd"
+  },
+  "successful_constraint_probes": 5,
+  "isolated_snapshot_directory": "F:\\Personal\\Code\\A_B\\outputs\\legacy-v2-reaudit-1792725583230327600",
+  "historical_repository_commit": "daada03952cf051fbeb3a81a34b2c91c0019e139"
+}
