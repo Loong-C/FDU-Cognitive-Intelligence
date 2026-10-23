@@ -56,7 +56,11 @@ def nonthinking_probe(session):
     response["request_payload"] = {"messages": messages, **response["effective_request_parameters"]}
     # Qwen3's disabled prefix closes an empty thought before generation. Compare
     # both real rendered templates to catch a silently ignored request kwarg.
-    template_valid = disabled != enabled and "<think>\n\n</think>" in disabled[-160:] and enabled.rstrip().endswith("<think>")
+    # b11669 deepseek parsing moves the enabled <think> into a generation
+    # prefix: /apply-template then ends at assistant\n. The disabled form must
+    # still contain the explicit empty, closed thought before generation.
+    template_valid = (disabled != enabled and disabled.endswith("<think>\n\n</think>\n\n")
+                      and (enabled.endswith("<|im_start|>assistant\n") or enabled.rstrip().endswith("<think>")))
     valid = template_valid and response["nonthinking_validation"]["passed"] and response["prompt_count_matches"] and response["finish_reason"] == "stop"
     result = {"fingerprint_sha256": session.fingerprint_hash, "passed": valid, "template_valid": template_valid,
               "disabled_template": {"text": disabled, "sha256": sha256(disabled.encode())},

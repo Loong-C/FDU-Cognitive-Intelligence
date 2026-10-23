@@ -49,7 +49,7 @@
   "prompts_dir": "prompts/v2",
   "reason_max_characters": 320,
   "report_root": "experiments/003_model_scaling_14b/reports",
-  "run_id": "pilot_qwen3_14b_q4_nonthink_v3",
+  "run_id": "pilot_qwen3_14b_q4_nonthink_v3_r2",
   "split_version": "v1",
   "arms": [
     "A2",
