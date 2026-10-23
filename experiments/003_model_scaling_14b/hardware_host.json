@@ -1,0 +1,17 @@
+{
+  "captured_at": "2026-10-23T02:04:07.3837613Z",
+  "cpu": {
+    "Name": "Intel(R) Core(TM) i7-14700",
+    "NumberOfCores": 20,
+    "NumberOfLogicalProcessors": 28,
+    "MaxClockSpeed": 2100
+  },
+  "os": {
+    "Caption": "Microsoft Windows 11 家庭中文版",
+    "Version": "10.0.26100",
+    "BuildNumber": "26100",
+    "TotalVisibleMemorySize": 33231212,
+    "FreePhysicalMemory": 7506172
+  },
+  "note": "Supplementary host snapshot captured during the real formal run; available memory is a point-in-time observation."
+}

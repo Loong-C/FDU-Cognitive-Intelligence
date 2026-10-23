@@ -5,6 +5,7 @@ from collections import Counter
 import csv
 import hashlib
 import json
+import math
 from pathlib import Path
 import re
 import statistics
@@ -59,6 +60,18 @@ def measure(rows):
             reason_limits += 1
     result["reason_at_length_limit_count"] = reason_limits
     return result
+
+
+def cost(rows):
+    completed=[r for r in rows if r.get("status")=="completed"]
+    times=sorted(r["latency_seconds"] for r in completed)
+    tokens=sum(r.get("usage",{}).get("completion_tokens",0) for r in completed)
+    rates=[r["response_json"]["timings"]["predicted_per_second"] for r in completed if isinstance(r.get("response_json",{}).get("timings",{}).get("predicted_per_second"),(int,float))]
+    return dict(completed_requests=len(completed),request_seconds=sum(times),completion_tokens=tokens,
+                end_to_end_completion_tokens_per_second=tokens/sum(times) if sum(times) else None,
+                backend_decode_tokens_per_second_mean=statistics.mean(rates) if rates else None,
+                latency_p50_seconds=statistics.median(times) if times else None,
+                latency_p95_seconds=times[math.ceil(len(times)*.95)-1] if times else None)
 
 
 def pair(before, after):
@@ -177,9 +190,18 @@ def main():
             for row in old_arms[a]: row["audit_prediction"]=independently_parse(row,manifest["response_formats"][a]["json_schema"]["schema"])
         pairs={"A14-A2":pair(old_arms["A2"],arms["A2"]),"B14-B2":pair(old_arms["B2"],arms["B2"]),"B14-A14":pair(arms["A2"],arms["B2"]),"B2-A2":pair(old_arms["A2"],old_arms["B2"])}
         for name,value in pairs.items():compare(upgrade["comparisons"][dataset][name],value)
+        for name, group in (("A2",old_arms["A2"]),("B2",old_arms["B2"]),("A14",arms["A2"]),("B14",arms["B2"])):
+            compare(upgrade["performance"][dataset][name],cost(group))
         compare(upgrade["comparisons"][dataset]["descriptive_interaction_accuracy_delta"],pairs["B14-A14"]["accuracy_delta"]-pairs["B2-A2"]["accuracy_delta"])
         collected.extend(rows)
     require(len(collected)==294,"Expected 294 formal records")
+    for group in upgrade["groups"]:
+        compare(group,measure([r for r in collected if (r["dataset"],r["arm"],r["group"])==(group["dataset"],group["arm"],group["group"])]))
+    csv_rows=list(csv.DictReader((report_dir/"predictions.csv").open(encoding="utf-8-sig",newline="")))
+    require([(r["dataset"],r["arm"],r["id"]) for r in csv_rows]==[(r["dataset"],r["arm"],r["id"]) for r in collected],"Prediction CSV order/count differs")
+    for exported, original in zip(csv_rows,collected):
+        for key in ("gold_label","group","mechanism","predicted_label","parse_status","world_reason_true","world_reason_false","direct_reason"):
+            require(exported[key]==str(original.get(key) or ""),"Prediction CSV content differs: "+key)
     completions=[r["response_json"]["id"] for r in collected if r["status"]=="completed"]
     require(len(completions)==len(set(completions)),"Repeated completion ID")
     observed=sorted(collected,key=lambda r:r["created_at"])
