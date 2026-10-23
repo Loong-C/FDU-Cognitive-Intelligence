@@ -1,0 +1,42 @@
+{
+  "basic": {
+    "A2": {
+      "completed_requests": 0,
+      "completion_tokens": 0,
+      "prompt_tokens": 0,
+      "request_attempts": 0,
+      "request_seconds": 0,
+      "server_fingerprints": [],
+      "total_tokens": 0
+    },
+    "B2": {
+      "completed_requests": 0,
+      "completion_tokens": 0,
+      "prompt_tokens": 0,
+      "request_attempts": 0,
+      "request_seconds": 0,
+      "server_fingerprints": [],
+      "total_tokens": 0
+    }
+  },
+  "challenge": {
+    "A2": {
+      "completed_requests": 0,
+      "completion_tokens": 0,
+      "prompt_tokens": 0,
+      "request_attempts": 0,
+      "request_seconds": 0,
+      "server_fingerprints": [],
+      "total_tokens": 0
+    },
+    "B2": {
+      "completed_requests": 0,
+      "completion_tokens": 0,
+      "prompt_tokens": 0,
+      "request_attempts": 0,
+      "request_seconds": 0,
+      "server_fingerprints": [],
+      "total_tokens": 0
+    }
+  }
+}

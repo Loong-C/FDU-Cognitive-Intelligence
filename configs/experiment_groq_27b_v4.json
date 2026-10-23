@@ -1,0 +1,63 @@
+{
+  "pilot_dir": "experiments/001_two_world_pilot/pilot",
+  "pilot_reference": {
+    "basic": {
+      "manifest_sha256": "440c94f8464d54c5e17057e32da5c6b5c87f3f066e8b4f7acaa35ab1d48aebda",
+      "n": 60,
+      "ordered_ids_sha256": "8147edf1a68a151ada2befe6fb141b22be628d3b9975e2f6255099e86ba8ed3e"
+    },
+    "challenge": {
+      "manifest_sha256": "bb6f2da17d115b0250f104ada3b72d8543ad3dae88159ca67c50a57263b28a8d",
+      "n": 87,
+      "ordered_ids_sha256": "afd5ebdabba5f99b0229cf5dd51beacba5c4bb70b00360025a6f0b360cfb8a00"
+    }
+  },
+  "pilot_seed": 20261022,
+  "prompts_dir": "prompts/v2",
+  "split_version": "v1",
+  "output_protocol": "json_schema_v2",
+  "arms": [
+    "A2",
+    "B2"
+  ],
+  "review": {
+    "per_label_per_dataset": 3,
+    "selection": "first_ids_in_frozen_order_per_gold_label",
+    "typical_ids": [
+      "e_5c7b1b9b012be799",
+      "e_83ecbf82546d00f0",
+      "e_e362e2444350daca",
+      "e_d936aaf07ff8dcd7"
+    ]
+  },
+  "provider": "groq",
+  "experiment_id": "004_groq_27b",
+  "run_id": "pilot_groq_qwen38_27b_nonthink_v4_r1",
+  "output_root": "outputs/runs",
+  "report_root": "experiments/004_groq_27b/reports",
+  "arm_labels": {
+    "A2": "A27",
+    "B2": "B27"
+  },
+  "base_commit": "a99a5d8",
+  "execution_order": "integration_first_10_challenge_A_B_then_dataset_arm_remaining",
+  "model": {
+    "endpoint": "https://api.groq.com/openai/v1",
+    "model_id": "qwen/qwen3.8-27b",
+    "reasoning_effort": "none",
+    "temperature": 0,
+    "seed": 42,
+    "stream": false,
+    "max_tokens": 1024,
+    "timeout_seconds": 60,
+    "network_retries": 2,
+    "budget": {
+      "tokens_24h": 180000,
+      "requests_24h": 800,
+      "requests_per_minute": 25,
+      "tokens_per_minute": 7000,
+      "min_interval_seconds": 3,
+      "max_wait_seconds": 60
+    }
+  }
+}

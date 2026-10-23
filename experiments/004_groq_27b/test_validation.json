@@ -1,0 +1,7 @@
+{
+  "command": ".venv/Scripts/python.exe -m pytest -q",
+  "exit_code": 0,
+  "stdout": "........................................................................ [ 67%]\n...................................                                      [100%]\n107 passed in 2.48s\n",
+  "stderr": "",
+  "mock_tests_are_not_model_experiment_results": true
+}

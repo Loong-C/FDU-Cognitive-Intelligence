@@ -1,0 +1,78 @@
+{
+  "base_commit": "a99a5d8e806ac87372199d2368715cacaa4fa279",
+  "credential_exact_value_and_pattern_scan_passed": true,
+  "env_local_ignored": true,
+  "env_local_tracked": false,
+  "files_scanned": 26,
+  "formal_completed": 0,
+  "historical_tracked_paths_changed": [],
+  "inference_source_sha256": {
+    "common.py": "221b52864adfb7562a7622f6ea51b287623662dac30f901f9a0b77007598fdfb",
+    "groq_client.py": "918c1a0b4e3367dc18a5564650476fecac7b070502bf3280931878539186288c",
+    "groq_v4.py": "b3900e1c9ae312252006416dcc639cd88ad83cd8b7d33311dab17afa251678ea",
+    "model_client.py": "eab47004b7bc99842c8b02932a52bf1ccb67ba1114dc10ae187a2fd3aee8e959",
+    "parsing.py": "c1a0fd9bb164d03c8ed4c7cbee1424fec7fb9cfa1f2f47ed870786ac23e26585",
+    "pilot.py": "9b0208e02db726cf5e16e44fcb8819bb2270930ed085fd77129d7f495ef3e6a0",
+    "prompts.py": "5c61bc1b7d4d8d5d50c398810c6a6f82d26b30989fcdb994ad192c1b971ea82d",
+    "splitting.py": "32be3ee4dd589c7aa02c0b9c1d459e227ff25870f10ace901e9acf87231ddba1",
+    "structured.py": "4d895c4ab0038d30b1ee9accfbfb615a6ff1d5d43d24f9895d555d1900473a6c"
+  },
+  "pilot_verified": {
+    "basic": {
+      "evidence_condition": {
+        "unspecified": 60
+      },
+      "groups": 7,
+      "human_review_status": {
+        "pending": 60
+      },
+      "labels": {
+        "NOT ENOUGH INFO": 23,
+        "REFUTES": 23,
+        "SUPPORTS": 14
+      },
+      "mechanisms": {
+        "BOUND": 16,
+        "FUNCTIONAL": 4,
+        "IMPLICATIVE": 11,
+        "PLACE": 3,
+        "PLAN": 5,
+        "RELDATE": 6,
+        "TIMESHIFT": 15
+      },
+      "rows": 60
+    },
+    "challenge": {
+      "evidence_condition": {
+        "long": 43,
+        "short": 44
+      },
+      "groups": 14,
+      "human_review_status": {
+        "adjudicated": 87
+      },
+      "labels": {
+        "NOT ENOUGH INFO": 40,
+        "REFUTES": 14,
+        "SUPPORTS": 33
+      },
+      "mechanisms": {
+        "AMBIGREF": 10,
+        "DENIAL": 16,
+        "LOOKALIKE": 12,
+        "PRESUP": 12,
+        "SETCLOSE": 12,
+        "TEMPSCOPE": 10,
+        "UNIQUE": 15
+      },
+      "rows": 87
+    }
+  },
+  "prompt_file_sha256": {
+    "A2_system.txt": "953a81ffab63f78e054a9eec8c835b6851702dd1067fdf43cf46db762242e60a",
+    "A2_user.txt": "5416f0589058f55824f0d12d5a26c3ff16190dbf923c47a37dcbe87dec0cddf3",
+    "B2_system.txt": "46219fcab9e406f838be72c4ee993c16bf7bcc978c2378fde24fcb371e2409b9",
+    "B2_user.txt": "69fb68470ffbdeec34ba83d6991833f9d2939e8617eda8d565a32482a9739043"
+  },
+  "sealed_test_policy": "Only historical hash verified; no test text sent to model"
+}

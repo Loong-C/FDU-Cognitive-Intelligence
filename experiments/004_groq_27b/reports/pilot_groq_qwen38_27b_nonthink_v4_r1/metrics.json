@@ -1,0 +1,370 @@
+{
+  "datasets": {
+    "basic": {
+      "arms": {
+        "A2": {
+          "accuracy": null,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": null,
+              "precision": null,
+              "predicted_count": 0,
+              "recall": null,
+              "support": 23
+            },
+            "REFUTES": {
+              "f1": null,
+              "precision": null,
+              "predicted_count": 0,
+              "recall": null,
+              "support": 23
+            },
+            "SUPPORTS": {
+              "f1": null,
+              "precision": null,
+              "predicted_count": 0,
+              "recall": null,
+              "support": 14
+            }
+          },
+          "completed": 0,
+          "confusion_matrix": null,
+          "correct": 0,
+          "empty_reason_count": 0,
+          "fields_valid_count": 0,
+          "fields_valid_rate": 0.0,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "interpretation": "Incomplete; missing items are not model inferences. No full-run score is reported.",
+          "invalid": 60,
+          "invalid_rate": 1.0,
+          "json_valid_count": 0,
+          "json_valid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "logic_available_count": 0,
+          "logic_valid_count": 0,
+          "logic_valid_rate": null,
+          "macro_f1": null,
+          "mean_completion_tokens": null,
+          "measured_complete": false,
+          "missing": 60,
+          "n": 60,
+          "nei_to_refutes": null,
+          "nei_to_refutes_rate": null,
+          "not_run_count": 60,
+          "protocol_valid_count": 0,
+          "protocol_valid_rate": 0.0,
+          "reason_at_length_limit_count": 0,
+          "reason_quality_flag_count": 0,
+          "refutes_to_nei": null,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "strict_accuracy_lower_bound": 0.0,
+          "strict_confusion_lower_bound": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 23,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 23,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 14,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            }
+          },
+          "supports_to_nei": null,
+          "truncated_count": 0,
+          "valid": 0,
+          "valid_only_accuracy": null
+        },
+        "B2": {
+          "accuracy": null,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": null,
+              "precision": null,
+              "predicted_count": 0,
+              "recall": null,
+              "support": 23
+            },
+            "REFUTES": {
+              "f1": null,
+              "precision": null,
+              "predicted_count": 0,
+              "recall": null,
+              "support": 23
+            },
+            "SUPPORTS": {
+              "f1": null,
+              "precision": null,
+              "predicted_count": 0,
+              "recall": null,
+              "support": 14
+            }
+          },
+          "completed": 0,
+          "confusion_matrix": null,
+          "correct": 0,
+          "empty_reason_count": 0,
+          "fields_valid_count": 0,
+          "fields_valid_rate": 0.0,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "interpretation": "Incomplete; missing items are not model inferences. No full-run score is reported.",
+          "invalid": 60,
+          "invalid_rate": 1.0,
+          "json_valid_count": 0,
+          "json_valid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "logic_available_count": 0,
+          "logic_valid_count": 0,
+          "logic_valid_rate": null,
+          "macro_f1": null,
+          "mean_completion_tokens": null,
+          "measured_complete": false,
+          "missing": 60,
+          "n": 60,
+          "nei_to_refutes": null,
+          "nei_to_refutes_rate": null,
+          "not_run_count": 60,
+          "protocol_valid_count": 0,
+          "protocol_valid_rate": 0.0,
+          "reason_at_length_limit_count": 0,
+          "reason_quality_flag_count": 0,
+          "refutes_to_nei": null,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "strict_accuracy_lower_bound": 0.0,
+          "strict_confusion_lower_bound": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 23,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 23,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 14,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            }
+          },
+          "supports_to_nei": null,
+          "truncated_count": 0,
+          "valid": 0,
+          "valid_only_accuracy": null
+        }
+      },
+      "mechanisms": {},
+      "paired": {}
+    },
+    "challenge": {
+      "arms": {
+        "A2": {
+          "accuracy": null,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": null,
+              "precision": null,
+              "predicted_count": 0,
+              "recall": null,
+              "support": 40
+            },
+            "REFUTES": {
+              "f1": null,
+              "precision": null,
+              "predicted_count": 0,
+              "recall": null,
+              "support": 14
+            },
+            "SUPPORTS": {
+              "f1": null,
+              "precision": null,
+              "predicted_count": 0,
+              "recall": null,
+              "support": 33
+            }
+          },
+          "completed": 0,
+          "confusion_matrix": null,
+          "correct": 0,
+          "empty_reason_count": 0,
+          "fields_valid_count": 0,
+          "fields_valid_rate": 0.0,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "interpretation": "Incomplete; missing items are not model inferences. No full-run score is reported.",
+          "invalid": 87,
+          "invalid_rate": 1.0,
+          "json_valid_count": 0,
+          "json_valid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "logic_available_count": 0,
+          "logic_valid_count": 0,
+          "logic_valid_rate": null,
+          "macro_f1": null,
+          "mean_completion_tokens": null,
+          "measured_complete": false,
+          "missing": 87,
+          "n": 87,
+          "nei_to_refutes": null,
+          "nei_to_refutes_rate": null,
+          "not_run_count": 87,
+          "protocol_valid_count": 0,
+          "protocol_valid_rate": 0.0,
+          "reason_at_length_limit_count": 0,
+          "reason_quality_flag_count": 0,
+          "refutes_to_nei": null,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "strict_accuracy_lower_bound": 0.0,
+          "strict_confusion_lower_bound": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 40,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 14,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 33,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            }
+          },
+          "supports_to_nei": null,
+          "truncated_count": 0,
+          "valid": 0,
+          "valid_only_accuracy": null
+        },
+        "B2": {
+          "accuracy": null,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": null,
+              "precision": null,
+              "predicted_count": 0,
+              "recall": null,
+              "support": 40
+            },
+            "REFUTES": {
+              "f1": null,
+              "precision": null,
+              "predicted_count": 0,
+              "recall": null,
+              "support": 14
+            },
+            "SUPPORTS": {
+              "f1": null,
+              "precision": null,
+              "predicted_count": 0,
+              "recall": null,
+              "support": 33
+            }
+          },
+          "completed": 0,
+          "confusion_matrix": null,
+          "correct": 0,
+          "empty_reason_count": 0,
+          "fields_valid_count": 0,
+          "fields_valid_rate": 0.0,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "interpretation": "Incomplete; missing items are not model inferences. No full-run score is reported.",
+          "invalid": 87,
+          "invalid_rate": 1.0,
+          "json_valid_count": 0,
+          "json_valid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "logic_available_count": 0,
+          "logic_valid_count": 0,
+          "logic_valid_rate": null,
+          "macro_f1": null,
+          "mean_completion_tokens": null,
+          "measured_complete": false,
+          "missing": 87,
+          "n": 87,
+          "nei_to_refutes": null,
+          "nei_to_refutes_rate": null,
+          "not_run_count": 87,
+          "protocol_valid_count": 0,
+          "protocol_valid_rate": 0.0,
+          "reason_at_length_limit_count": 0,
+          "reason_quality_flag_count": 0,
+          "refutes_to_nei": null,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "strict_accuracy_lower_bound": 0.0,
+          "strict_confusion_lower_bound": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 40,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 14,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 33,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            }
+          },
+          "supports_to_nei": null,
+          "truncated_count": 0,
+          "valid": 0,
+          "valid_only_accuracy": null
+        }
+      },
+      "mechanisms": {},
+      "paired": {}
+    }
+  },
+  "expected_record_count": 294,
+  "fingerprint_sha256": "c73bfa57e89c4678c14bb31ee8ac1d5c8efc00be7ca7b91381649d74484e7880",
+  "generated_at": "2026-10-23T08:31:00.666599+00:00",
+  "record_count": 0,
+  "run_id": "pilot_groq_qwen38_27b_nonthink_v4_r1",
+  "source_jsonl_sha256": {
+    "basic": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "challenge": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "status": "blocked_or_partial"
+}

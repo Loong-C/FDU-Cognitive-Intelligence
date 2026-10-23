@@ -1,0 +1,10 @@
+{
+  "14B": {
+    "metrics_sha256": "171887fee9782f782cf05b3dcb7ab9b42df6c2b9c342f7bb22cad2cde1324b4d",
+    "predictions_sha256": "d2fa737a118cd2a028d679f634bfa92bc732bed9766289532755ef3816318759"
+  },
+  "4B": {
+    "metrics_sha256": "feadadf4ff3230311a9d06a3bd4fda6b7e112827cb895c47aced9fea444a4ba3",
+    "predictions_sha256": "11645902f2db9d37848c7ae531c40a8d0018be2f57e6da3a7c2fc868804fb9c6"
+  }
+}
