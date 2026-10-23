@@ -1,0 +1,46 @@
+{
+  "source": "outputs\\runtime\\qwen3-14b\\tuning-1792719737656105500\\selection.json",
+  "selected_gpu_layers": 16,
+  "trials": [
+    {
+      "layers": 12,
+      "passed": true,
+      "error": null,
+      "records": 6,
+      "gpu_min_free_mib": 2048.0,
+      "gpu_peak_used_mib": 5893.0,
+      "minimum_available_ram_gib": 6.538623809814453,
+      "latency_seconds": [
+        7.180900699924678,
+        7.568878899794072,
+        8.529825999867171,
+        17.37266380013898,
+        17.548542900010943,
+        17.559081200044602
+      ]
+    },
+    {
+      "layers": 16,
+      "passed": true,
+      "error": null,
+      "records": 6,
+      "gpu_min_free_mib": 1202.0,
+      "gpu_peak_used_mib": 6739.0,
+      "minimum_available_ram_gib": 6.978527069091797,
+      "latency_seconds": [
+        7.358319899998605,
+        6.454200000036508,
+        7.1990725002251565,
+        14.55644359998405,
+        16.034394999966025,
+        19.59680279996246
+      ]
+    },
+    {
+      "layers": 20,
+      "passed": false,
+      "error": "RuntimeError: Estimated GPU allocation 5604 MiB leaves insufficient dedicated VRAM reserve",
+      "records": 0
+    }
+  ]
+}
