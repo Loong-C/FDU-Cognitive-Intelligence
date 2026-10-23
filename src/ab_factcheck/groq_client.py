@@ -9,6 +9,8 @@ import os
 from pathlib import Path
 import re
 import time
+from urllib.request import getproxies
+from urllib.parse import urlsplit
 
 import httpx
 
@@ -94,8 +96,17 @@ class GroqModelClient:
         self.config, self.model_id = config, MODEL
         self.ledger_path = Path(ledger_path)
         self.clock, self.sleeper = clock, sleeper
+        proxy = None
+        if config.get("proxy_mode", "direct") == "system":
+            proxy = getproxies().get("https")
+            if not proxy:
+                raise GroqStop("System HTTPS proxy requested but not configured")
+            if urlsplit(proxy).scheme not in ("http", "https"):
+                raise GroqStop("System HTTPS proxy must use HTTP(S) CONNECT")
+        elif config.get("proxy_mode", "direct") != "direct":
+            raise GroqStop("Unknown proxy mode")
         self.http = httpx.Client(base_url=ENDPOINT + "/", timeout=config["timeout_seconds"],
-                                 trust_env=False, follow_redirects=False, transport=transport)
+                                 trust_env=False, follow_redirects=False, transport=transport, proxy=proxy)
 
     def close(self):
         self.http.close()

@@ -1,0 +1,250 @@
+{
+  "comparisons": {
+    "basic": {
+      "A2_27B-minus-14B": {
+        "accuracy_delta": 0.2,
+        "harmed": 2,
+        "harmed_ids": [
+          "e_1227e8efede9f7c4",
+          "e_e0eedba28d73f867"
+        ],
+        "improved": 14,
+        "improved_ids": [
+          "e_09a8bae1417a4f20",
+          "e_11b9a984df88d017",
+          "e_6246903a45fc7697",
+          "e_7912437587e2751e",
+          "e_7c9f639cafd71207",
+          "e_a0ab0362e619fa1d",
+          "e_a5a65692e8e02715",
+          "e_ac54cf8df9a71e1d",
+          "e_b0e52f1bc67d3df4",
+          "e_bf4a26d6d8bc9b8b",
+          "e_c6188ee8eb4413bc",
+          "e_e0e5472029d1ae85",
+          "e_e362e2444350daca",
+          "e_f1cacf2987c97a4c"
+        ],
+        "n": 60
+      },
+      "A2_27B-minus-4B": {
+        "accuracy_delta": 0.26666666666666666,
+        "harmed": 1,
+        "harmed_ids": [
+          "e_e0eedba28d73f867"
+        ],
+        "improved": 17,
+        "improved_ids": [
+          "e_09a8bae1417a4f20",
+          "e_11b9a984df88d017",
+          "e_2f21467cf26904a2",
+          "e_365682368482ff06",
+          "e_6246903a45fc7697",
+          "e_6d206b732b0cdb1e",
+          "e_7912437587e2751e",
+          "e_7c9f639cafd71207",
+          "e_9b76c1198c316ff3",
+          "e_a0ab0362e619fa1d",
+          "e_ac54cf8df9a71e1d",
+          "e_c3b48b7d768d3312",
+          "e_c6188ee8eb4413bc",
+          "e_e0e5472029d1ae85",
+          "e_e300ad2fe2e1ed40",
+          "e_e362e2444350daca",
+          "e_f1cacf2987c97a4c"
+        ],
+        "n": 60
+      },
+      "B2_27B-minus-14B": {
+        "accuracy_delta": -0.25,
+        "harmed": 18,
+        "harmed_ids": [
+          "e_09a8bae1417a4f20",
+          "e_1227e8efede9f7c4",
+          "e_15706bbc1df121d5",
+          "e_24772596febed268",
+          "e_3180992e4dc5cc71",
+          "e_3d4f7ce54915053e",
+          "e_45998c37ef8ecd4b",
+          "e_55cce00b4dc89efa",
+          "e_56640da51848a401",
+          "e_618e50b9debaee5b",
+          "e_78d54b4c7a7bf96b",
+          "e_8729e33f73b370ee",
+          "e_99c22b39e7917e14",
+          "e_a6557ea58a40babf",
+          "e_a77314ec81e9e8a5",
+          "e_b4ee153f9872253e",
+          "e_e0eedba28d73f867",
+          "e_fe905d40d68d4252"
+        ],
+        "improved": 3,
+        "improved_ids": [
+          "e_365682368482ff06",
+          "e_7912437587e2751e",
+          "e_a0ab0362e619fa1d"
+        ],
+        "n": 60
+      },
+      "B2_27B-minus-4B": {
+        "accuracy_delta": -0.016666666666666666,
+        "harmed": 7,
+        "harmed_ids": [
+          "e_09a8bae1417a4f20",
+          "e_3d4f7ce54915053e",
+          "e_56640da51848a401",
+          "e_a6557ea58a40babf",
+          "e_a77314ec81e9e8a5",
+          "e_b4ee153f9872253e",
+          "e_e0eedba28d73f867"
+        ],
+        "improved": 6,
+        "improved_ids": [
+          "e_365682368482ff06",
+          "e_39c1f3feb0761761",
+          "e_5c7b1b9b012be799",
+          "e_76d7c2c52ff65593",
+          "e_a0ab0362e619fa1d",
+          "e_f1b6e462cf577d5d"
+        ],
+        "n": 60
+      }
+    },
+    "challenge": {
+      "A2_27B-minus-14B": {
+        "accuracy_delta": 0.034482758620689655,
+        "harmed": 5,
+        "harmed_ids": [
+          "e_424df3b7bbdc6212",
+          "e_6f7686136f3a07bc",
+          "e_74c76c23811f29ed",
+          "e_a44c6c8f2649db9c",
+          "e_faf3f3b38827b4dd"
+        ],
+        "improved": 8,
+        "improved_ids": [
+          "e_004280643d4a4eb2",
+          "e_0b99bc0755ed9285",
+          "e_5ff5c26795797690",
+          "e_6351e47caf759da0",
+          "e_da1582a4b6c4cb5f",
+          "e_e15dc4a5a1d2550f",
+          "e_e905979ccfc384a6",
+          "e_f0ae8e2b37b3cbf8"
+        ],
+        "n": 87
+      },
+      "A2_27B-minus-4B": {
+        "accuracy_delta": 0.06896551724137931,
+        "harmed": 7,
+        "harmed_ids": [
+          "e_2cbbfdf565111b42",
+          "e_35e3f2d652cb1d0f",
+          "e_6f7686136f3a07bc",
+          "e_945d0c80b30f8d80",
+          "e_94c2607221633a04",
+          "e_a44c6c8f2649db9c",
+          "e_faf3f3b38827b4dd"
+        ],
+        "improved": 13,
+        "improved_ids": [
+          "e_0b99bc0755ed9285",
+          "e_2be44ed3b153f4be",
+          "e_3a970cee3909f15e",
+          "e_46fdba5f2357b670",
+          "e_5ff5c26795797690",
+          "e_6351e47caf759da0",
+          "e_8880bd49ca9558a2",
+          "e_a007c6cea280fe4a",
+          "e_b4a4140ac225b5e3",
+          "e_d936aaf07ff8dcd7",
+          "e_e15dc4a5a1d2550f",
+          "e_e905979ccfc384a6",
+          "e_f0ae8e2b37b3cbf8"
+        ],
+        "n": 87
+      },
+      "B2_27B-minus-14B": {
+        "accuracy_delta": -0.19540229885057472,
+        "harmed": 23,
+        "harmed_ids": [
+          "e_0b99bc0755ed9285",
+          "e_2cbbfdf565111b42",
+          "e_2cd512dbfa426c58",
+          "e_35e3f2d652cb1d0f",
+          "e_483443534f796aa7",
+          "e_489582639dc73f31",
+          "e_4fce433c09a10bb0",
+          "e_6f7686136f3a07bc",
+          "e_7b4a24477a9638f5",
+          "e_7c5e52bb810fa7cf",
+          "e_94c23c647561db9c",
+          "e_9a212ca125f7e9e3",
+          "e_a44c6c8f2649db9c",
+          "e_b1fe2cf76100e187",
+          "e_c10db2a80a9ade33",
+          "e_cc3af062078c4186",
+          "e_cf8c0e904c4c89fc",
+          "e_d936aaf07ff8dcd7",
+          "e_db7285db72d5d287",
+          "e_e15dc4a5a1d2550f",
+          "e_eed7d302822a4057",
+          "e_f5473083450b8be7",
+          "e_faf3f3b38827b4dd"
+        ],
+        "improved": 6,
+        "improved_ids": [
+          "e_00a14eca36dfd42e",
+          "e_6351e47caf759da0",
+          "e_a998553999c171f1",
+          "e_b41d74a8dde64c51",
+          "e_b4a4140ac225b5e3",
+          "e_e905979ccfc384a6"
+        ],
+        "n": 87
+      },
+      "B2_27B-minus-4B": {
+        "accuracy_delta": -0.034482758620689655,
+        "harmed": 17,
+        "harmed_ids": [
+          "e_2cbbfdf565111b42",
+          "e_2cd512dbfa426c58",
+          "e_35e3f2d652cb1d0f",
+          "e_483443534f796aa7",
+          "e_4fce433c09a10bb0",
+          "e_5e75a556b29f5796",
+          "e_6f7686136f3a07bc",
+          "e_706d84094abd7a7a",
+          "e_7b4a24477a9638f5",
+          "e_94c23c647561db9c",
+          "e_94c2607221633a04",
+          "e_988bc16f8651f33c",
+          "e_a44c6c8f2649db9c",
+          "e_b1fe2cf76100e187",
+          "e_cc3af062078c4186",
+          "e_eee96ede2cff1084",
+          "e_faf3f3b38827b4dd"
+        ],
+        "improved": 14,
+        "improved_ids": [
+          "e_00a14eca36dfd42e",
+          "e_328ff7dcfd327bdd",
+          "e_3bfcca54c8fb5d21",
+          "e_5d8f0d08e09e67da",
+          "e_5dbfd36b0d725c30",
+          "e_5ff5c26795797690",
+          "e_6351e47caf759da0",
+          "e_83ecbf82546d00f0",
+          "e_8e449f93ba989009",
+          "e_a998553999c171f1",
+          "e_b90f4a5d02995dfc",
+          "e_e905979ccfc384a6",
+          "e_f07ba201eb9f1ded",
+          "e_f432529fc9062507"
+        ],
+        "n": 87
+      }
+    }
+  },
+  "interpretation": "Descriptive only: generations, training, quantization and backend differ; no parameter-count causality."
+}

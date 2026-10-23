@@ -1,14 +1,16 @@
 {
   "base_commit": "a99a5d8e806ac87372199d2368715cacaa4fa279",
-  "credential_exact_value_and_pattern_scan_passed": true,
+  "credential_scan_passed": true,
   "env_local_ignored": true,
   "env_local_tracked": false,
-  "files_scanned": 26,
-  "formal_completed": 0,
+  "external_human_review_performed": false,
+  "files_scanned": 56,
+  "fingerprint_sha256": "b9548609f8a9a9b03fb41e49b99fdc17b2a26a3e784bc418a41d5ed067e51a71",
+  "formal_completed": 294,
   "historical_tracked_paths_changed": [],
   "inference_source_sha256": {
     "common.py": "221b52864adfb7562a7622f6ea51b287623662dac30f901f9a0b77007598fdfb",
-    "groq_client.py": "918c1a0b4e3367dc18a5564650476fecac7b070502bf3280931878539186288c",
+    "groq_client.py": "7ba9622c335842bcc4d47935b3d20dd9e961bf9cd0c6b4c5769fe71c5f3f2254",
     "groq_v4.py": "b3900e1c9ae312252006416dcc639cd88ad83cd8b7d33311dab17afa251678ea",
     "model_client.py": "eab47004b7bc99842c8b02932a52bf1ccb67ba1114dc10ae187a2fd3aee8e959",
     "parsing.py": "c1a0fd9bb164d03c8ed4c7cbee1424fec7fb9cfa1f2f47ed870786ac23e26585",
@@ -74,5 +76,7 @@
     "B2_system.txt": "46219fcab9e406f838be72c4ee993c16bf7bcc978c2378fde24fcb371e2409b9",
     "B2_user.txt": "69fb68470ffbdeec34ba83d6991833f9d2939e8617eda8d565a32482a9739043"
   },
-  "sealed_test_policy": "Only historical hash verified; no test text sent to model"
+  "run_id": "pilot_groq_qwen38_27b_nonthink_v4_r2",
+  "semantic_review_fixed_count": 18,
+  "semantic_review_typical_count": 4
 }

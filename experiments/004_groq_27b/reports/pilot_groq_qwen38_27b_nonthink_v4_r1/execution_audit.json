@@ -8,7 +8,7 @@
     "smoke": false,
     "technical": false
   },
-  "generated_at": "2026-10-23T08:31:00.647899+00:00",
+  "generated_at": "2026-10-23T11:14:11.715653+00:00",
   "independent_parse_checked": 0,
   "interpretation": "Integrity is not proof that a blocked or partial model experiment completed.",
   "run_id": "pilot_groq_qwen38_27b_nonthink_v4_r1"

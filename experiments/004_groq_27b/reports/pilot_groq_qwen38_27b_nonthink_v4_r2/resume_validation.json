@@ -1,0 +1,8 @@
+{
+  "atomic_record_bytes_unchanged": true,
+  "completed_records_reused": 294,
+  "network_calls": 0,
+  "passed": true,
+  "quota_ledger_unchanged": true,
+  "run_id": "pilot_groq_qwen38_27b_nonthink_v4_r2"
+}

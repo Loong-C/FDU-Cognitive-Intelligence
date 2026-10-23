@@ -5,10 +5,10 @@
 
 ## 实际状态
 
-2026-10-23 首个真实技术请求返回 HTTP 403 / Forbidden。程序立即停止，无自动重试。
-技术探针尚未通过，6 次 smoke 未完成，正式实验 **0/294**。没有真实27B推理结果。
-见 [详细报告](reports/pilot_groq_qwen38_27b_nonthink_v4_r1/pilot_report.md) 和
-[脱敏诊断](reports/pilot_groq_qwen38_27b_nonthink_v4_r1/api_diagnostics.json)。
+2026-10-23 r2已完成 **294/294** 个真实正式回答；5次技术探针、6次smoke及20次dev接入均通过。
+参见[最终结论](RESULTS.md)、[详细报告](reports/pilot_groq_qwen38_27b_nonthink_v4_r2/pilot_report.md)
+和[执行日志](EXECUTION_LOG.md)。两次直连403保留在r1；采用用户已有系统HTTPS代理后，在新r2完成实验。
+没有更改系统代理设置或记录代理地址。109项测试与独立统计审计通过。
 
 用户已确认 Free Plan，并授权从已有 `.env.local` 加载密钥。该文件仍为本地明文文件，
 受到 `.gitignore` 与本地 Git exclude 双重排除，不纳入提交。默认从进程 `GROQ_API_KEY` 读取；
@@ -16,9 +16,9 @@
 
 ## 恢复顺序
 
-先检查 Groq 项目模型权限、密钥和当前网络能否访问 Groq。403 响应未指出具体原因，
-不能据此判定密钥无效、地区限制或模型不可用。不要把密钥发到聊天中。
-免费套餐由用户确认；程序不能通过 API 限速头验证账户计费状态。
+r2已完成，同配置再次运行会复用全部回答。新实验应使用新run ID；不得覆盖或挑选旧结果。
+如发生403，先检查Groq项目权限、密钥与网络。原403没有指出具体原因，不能据此判定密钥无效或地区限制。
+免费套餐由用户确认；程序不能通过限速头验证账户计费状态。
 
 在仓库根目录 PowerShell 执行：
 
@@ -30,6 +30,7 @@
 .venv\Scripts\python.exe -m ab_factcheck.groq_v4 run --free-plan-confirmed --env-local
 .venv\Scripts\python.exe -m ab_factcheck.groq_v4 report
 .venv\Scripts\python.exe -m ab_factcheck.groq_v4 audit
+.venv\Scripts\python.exe scripts/audit_groq_run.py
 ```
 
 如果进程环境已有密钥，去掉 `--env-local`。`doctor` 只做离线验证，不调用本地模型、GPU或Groq。
@@ -38,8 +39,8 @@
 后续跳过已保存的回答。正式剩余顺序为 challenge A/B，然后 basic A/B，各臂内部保持历史顺序。
 
 `run` 重验已有技术门槛和 smoke 文件，不重复已有成功请求。任意推理配置、提示词或推理源码
-变化都会导致指纹拒绝；必须建立新 run ID 并保留旧版本。当前失败的 r1 尚无成功回答，
-仅修复账户/网络权限、不改配置或代码时可沿用 r1。
+变化都会导致指纹拒绝；必须建立新run ID并保留旧版本。r1旧源码见ca7d79b及本地精确字节快照；
+r1配置保存在configs/experiment_groq_27b_v4_r1.json，不能用已变化的r2源码直接续跑r1。
 
 ## 保护与限制
 
@@ -59,5 +60,5 @@
   自动审计只复算结构和统计，不代替语义审查。
 
 `outputs/` 中完整本地记录不提交；脱敏诊断、配置、哈希、统计和报告进入
-`experiments/004_groq_27b/`。目前没有成功响应可供脱敏导出。完成后报告器可输出完整
-`api_records.jsonl`，提交前仍须检查模型文本中的敏感信息。
+`experiments/004_groq_27b/`。r2已导出全部脱敏`api_records.jsonl`和`technical_evidence.json`，
+包含冻结开发输入、模型原文、usage、时间和匿名请求ID；不含密钥或认证头。

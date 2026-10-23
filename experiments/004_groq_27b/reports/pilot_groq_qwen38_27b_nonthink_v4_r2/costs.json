@@ -1,0 +1,86 @@
+{
+  "basic": {
+    "A2": {
+      "completed_requests": 60,
+      "completion_tokens": 2922,
+      "latency_definition": "client wall time includes quota waits, backoff, network and provider processing",
+      "prompt_tokens": 11867,
+      "provider_processing_seconds": 7.054089602,
+      "request_attempts": 60,
+      "request_seconds": 214.8880705833435,
+      "server_fingerprint_counts": {
+        "fp_21e59ac2de": 21,
+        "fp_424cb89518": 19,
+        "fp_a1293f40b5": 20
+      },
+      "server_fingerprints": [
+        "fp_21e59ac2de",
+        "fp_424cb89518",
+        "fp_a1293f40b5"
+      ],
+      "total_tokens": 14789
+    },
+    "B2": {
+      "completed_requests": 60,
+      "completion_tokens": 7029,
+      "latency_definition": "client wall time includes quota waits, backoff, network and provider processing",
+      "prompt_tokens": 25727,
+      "provider_processing_seconds": 16.387205881,
+      "request_attempts": 60,
+      "request_seconds": 644.225127696991,
+      "server_fingerprint_counts": {
+        "fp_21e59ac2de": 36,
+        "fp_424cb89518": 10,
+        "fp_a1293f40b5": 14
+      },
+      "server_fingerprints": [
+        "fp_21e59ac2de",
+        "fp_424cb89518",
+        "fp_a1293f40b5"
+      ],
+      "total_tokens": 32756
+    }
+  },
+  "challenge": {
+    "A2": {
+      "completed_requests": 87,
+      "completion_tokens": 3722,
+      "latency_definition": "client wall time includes quota waits, backoff, network and provider processing",
+      "prompt_tokens": 33678,
+      "provider_processing_seconds": 10.277510765,
+      "request_attempts": 88,
+      "request_seconds": 824.0224199295044,
+      "server_fingerprint_counts": {
+        "fp_21e59ac2de": 30,
+        "fp_424cb89518": 24,
+        "fp_a1293f40b5": 33
+      },
+      "server_fingerprints": [
+        "fp_21e59ac2de",
+        "fp_424cb89518",
+        "fp_a1293f40b5"
+      ],
+      "total_tokens": 37400
+    },
+    "B2": {
+      "completed_requests": 87,
+      "completion_tokens": 9620,
+      "latency_definition": "client wall time includes quota waits, backoff, network and provider processing",
+      "prompt_tokens": 53775,
+      "provider_processing_seconds": 23.468410795,
+      "request_attempts": 89,
+      "request_seconds": 2019.2315423488617,
+      "server_fingerprint_counts": {
+        "fp_21e59ac2de": 43,
+        "fp_424cb89518": 18,
+        "fp_a1293f40b5": 26
+      },
+      "server_fingerprints": [
+        "fp_21e59ac2de",
+        "fp_424cb89518",
+        "fp_a1293f40b5"
+      ],
+      "total_tokens": 63395
+    }
+  }
+}

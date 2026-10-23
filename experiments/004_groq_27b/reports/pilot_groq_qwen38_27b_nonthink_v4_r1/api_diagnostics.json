@@ -13,15 +13,29 @@
       "server_error_type": null,
       "status": "http_error",
       "timestamp": 1792743689.7182555
+    },
+    {
+      "charged_tokens": 1831,
+      "diagnostic": "Forbidden",
+      "http_status": 403,
+      "rate_limits": {},
+      "request_id_sha256": null,
+      "request_sha256": "b01337a253571ca6ad96e6583a172f33b1ff0ee297e35b4f072bc7a50d9a95f6",
+      "requested_at": "2026-10-23T11:13:35.335201+00:00",
+      "reservation_tokens": 1831,
+      "responded_at": "2026-10-23T11:13:35.682927+00:00",
+      "server_error_type": null,
+      "status": "http_error",
+      "timestamp": 1792754015.3352013
     }
   ],
   "billing_verified": false,
-  "budget_reserved_or_actual_tokens": 1831,
+  "budget_reserved_or_actual_tokens": 3662,
   "completed_formal": 0,
   "expected_formal": 294,
   "free_plan_confirmation": "User confirmed Free Plan in chat on 2026-10-23; not an API billing attestation",
   "http_status_counts": {
-    "403": 1
+    "403": 2
   },
   "successful_usage_tokens": 0
 }

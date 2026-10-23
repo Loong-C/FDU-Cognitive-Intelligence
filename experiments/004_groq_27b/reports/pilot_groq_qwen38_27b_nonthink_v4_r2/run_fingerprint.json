@@ -1,0 +1,170 @@
+{
+  "chat_template_sha256": null,
+  "configuration": {
+    "arm_labels": {
+      "A2": "A27",
+      "B2": "B27"
+    },
+    "arms": [
+      "A2",
+      "B2"
+    ],
+    "base_commit": "a99a5d8",
+    "execution_order": "integration_first_10_challenge_A_B_then_dataset_arm_remaining",
+    "experiment_id": "004_groq_27b",
+    "model": {
+      "budget": {
+        "max_wait_seconds": 60,
+        "min_interval_seconds": 3,
+        "requests_24h": 800,
+        "requests_per_minute": 25,
+        "tokens_24h": 180000,
+        "tokens_per_minute": 7000
+      },
+      "endpoint": "https://api.groq.com/openai/v1",
+      "max_tokens": 1024,
+      "model_id": "qwen/qwen3.8-27b",
+      "network_retries": 2,
+      "proxy_mode": "system",
+      "reasoning_effort": "none",
+      "seed": 42,
+      "stream": false,
+      "temperature": 0,
+      "timeout_seconds": 60
+    },
+    "output_protocol": "json_schema_v2",
+    "output_root": "outputs/runs",
+    "pilot_dir": "experiments/001_two_world_pilot/pilot",
+    "pilot_reference": {
+      "basic": {
+        "manifest_sha256": "440c94f8464d54c5e17057e32da5c6b5c87f3f066e8b4f7acaa35ab1d48aebda",
+        "n": 60,
+        "ordered_ids_sha256": "8147edf1a68a151ada2befe6fb141b22be628d3b9975e2f6255099e86ba8ed3e"
+      },
+      "challenge": {
+        "manifest_sha256": "bb6f2da17d115b0250f104ada3b72d8543ad3dae88159ca67c50a57263b28a8d",
+        "n": 87,
+        "ordered_ids_sha256": "afd5ebdabba5f99b0229cf5dd51beacba5c4bb70b00360025a6f0b360cfb8a00"
+      }
+    },
+    "pilot_seed": 20261022,
+    "prompts_dir": "prompts/v2",
+    "provider": "groq",
+    "report_root": "experiments/004_groq_27b/reports",
+    "review": {
+      "per_label_per_dataset": 3,
+      "selection": "first_ids_in_frozen_order_per_gold_label",
+      "typical_ids": [
+        "e_5c7b1b9b012be799",
+        "e_83ecbf82546d00f0",
+        "e_e362e2444350daca",
+        "e_d936aaf07ff8dcd7"
+      ]
+    },
+    "run_id": "pilot_groq_qwen38_27b_nonthink_v4_r2",
+    "split_version": "v1"
+  },
+  "endpoint": "https://api.groq.com/openai/v1",
+  "gpu_offload": null,
+  "inference_source_sha256": {
+    "common.py": "221b52864adfb7562a7622f6ea51b287623662dac30f901f9a0b77007598fdfb",
+    "groq_client.py": "7ba9622c335842bcc4d47935b3d20dd9e961bf9cd0c6b4c5769fe71c5f3f2254",
+    "groq_v4.py": "b3900e1c9ae312252006416dcc639cd88ad83cd8b7d33311dab17afa251678ea",
+    "model_client.py": "eab47004b7bc99842c8b02932a52bf1ccb67ba1114dc10ae187a2fd3aee8e959",
+    "parsing.py": "c1a0fd9bb164d03c8ed4c7cbee1424fec7fb9cfa1f2f47ed870786ac23e26585",
+    "pilot.py": "9b0208e02db726cf5e16e44fcb8819bb2270930ed085fd77129d7f495ef3e6a0",
+    "prompts.py": "5c61bc1b7d4d8d5d50c398810c6a6f82d26b30989fcdb994ad192c1b971ea82d",
+    "splitting.py": "32be3ee4dd589c7aa02c0b9c1d459e227ff25870f10ace901e9acf87231ddba1",
+    "structured.py": "4d895c4ab0038d30b1ee9accfbfb615a6ff1d5d43d24f9895d555d1900473a6c"
+  },
+  "local_metrics_status": "N/A: hosted provider does not expose weights, template, tokenizer or GPU identity",
+  "model_id": "qwen/qwen3.8-27b",
+  "model_sha256": null,
+  "pilot_sha256": {
+    "basic": "440c94f8464d54c5e17057e32da5c6b5c87f3f066e8b4f7acaa35ab1d48aebda",
+    "challenge": "bb6f2da17d115b0250f104ada3b72d8543ad3dae88159ca67c50a57263b28a8d"
+  },
+  "prompt_file_sha256": {
+    "A2_system.txt": "953a81ffab63f78e054a9eec8c835b6851702dd1067fdf43cf46db762242e60a",
+    "A2_user.txt": "5416f0589058f55824f0d12d5a26c3ff16190dbf923c47a37dcbe87dec0cddf3",
+    "B2_system.txt": "46219fcab9e406f838be72c4ee993c16bf7bcc978c2378fde24fcb371e2409b9",
+    "B2_user.txt": "69fb68470ffbdeec34ba83d6991833f9d2939e8617eda8d565a32482a9739043"
+  },
+  "prompts": {
+    "A2": "ab293afe88d62d470bf4aa08f8e5d2eb57a0816edb1f52eadcfbad124e370cb3",
+    "B2": "50a5c55727bf4bc437124c83445e5f8a03a68ba3f03023a4518c82ed32ce2592"
+  },
+  "provider": "groq",
+  "response_formats": {
+    "A2": {
+      "json_schema": {
+        "name": "direct_classification",
+        "schema": {
+          "additionalProperties": false,
+          "properties": {
+            "reason": {
+              "maxLength": 320,
+              "type": "string"
+            },
+            "verdict": {
+              "enum": [
+                "SUPPORTS",
+                "REFUTES",
+                "NOT ENOUGH INFO"
+              ],
+              "type": "string"
+            }
+          },
+          "required": [
+            "verdict",
+            "reason"
+          ],
+          "type": "object"
+        },
+        "strict": true
+      },
+      "type": "json_schema"
+    },
+    "B2": {
+      "json_schema": {
+        "name": "world_classification",
+        "schema": {
+          "additionalProperties": false,
+          "properties": {
+            "false_reason": {
+              "maxLength": 320,
+              "type": "string"
+            },
+            "false_world": {
+              "enum": [
+                "POSSIBLE",
+                "IMPOSSIBLE"
+              ],
+              "type": "string"
+            },
+            "true_reason": {
+              "maxLength": 320,
+              "type": "string"
+            },
+            "true_world": {
+              "enum": [
+                "POSSIBLE",
+                "IMPOSSIBLE"
+              ],
+              "type": "string"
+            }
+          },
+          "required": [
+            "true_world",
+            "false_world",
+            "true_reason",
+            "false_reason"
+          ],
+          "type": "object"
+        },
+        "strict": true
+      },
+      "type": "json_schema"
+    }
+  }
+}

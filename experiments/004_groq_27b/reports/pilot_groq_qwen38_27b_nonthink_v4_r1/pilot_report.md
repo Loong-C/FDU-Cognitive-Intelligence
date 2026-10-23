@@ -10,7 +10,7 @@
 
 请求固定模型 `qwen/qwen3.8-27b`，`reasoning_effort=none`、temperature=0、seed=42、stream=false、max_completion_tokens=1024；严格JSON Schema保留maxLength=320。API接受seed也不代表逐位确定性，是否实际生效不可独立证明。
 
-已记录HTTP状态：`{"403": 1}`。已收到的usage记录合计token=0；保守预留/实际记账=1831。没有usage记录时实际用量未知；预留token不是服务端用量或账单。
+已记录HTTP状态：`{"403": 2}`。已收到的usage记录合计token=0；保守预留/实际记账=3662。没有usage记录时实际用量未知；预留token不是服务端用量或账单。
 
 用户已确认Free Plan。参考上限30 RPM、8000 TPM、1000 RPD、200000 TPD；本地采用25 RPM、7000 TPM、800次/滚动24h、180000 token/滚动24h。服务端响应头只显示RPD/TPM，不能证明免费套餐或剩余TPD；没有升级套餐、没有换模型、没有授权收费请求。
 

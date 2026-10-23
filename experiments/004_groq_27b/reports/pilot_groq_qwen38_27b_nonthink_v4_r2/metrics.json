@@ -1,0 +1,2751 @@
+{
+  "datasets": {
+    "basic": {
+      "arms": {
+        "A2": {
+          "accuracy": 0.9666666666666667,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.9545454545454546,
+              "precision": 1.0,
+              "predicted_count": 21,
+              "recall": 0.9130434782608695,
+              "support": 23
+            },
+            "REFUTES": {
+              "f1": 0.9583333333333334,
+              "precision": 0.92,
+              "predicted_count": 25,
+              "recall": 1.0,
+              "support": 23
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 14,
+              "recall": 1.0,
+              "support": 14
+            }
+          },
+          "completed": 60,
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 21,
+              "REFUTES": 2,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 23,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 14
+            }
+          },
+          "correct": 58,
+          "empty_reason_count": 0,
+          "fields_valid_count": 60,
+          "fields_valid_rate": 1.0,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "json_valid_count": 60,
+          "json_valid_rate": 1.0,
+          "latency_mean_seconds": 3.581467843055725,
+          "latency_median_seconds": 2.9704591035842896,
+          "logic_available_count": 0,
+          "logic_valid_count": 0,
+          "logic_valid_rate": null,
+          "macro_f1": 0.970959595959596,
+          "mean_completion_tokens": 48.7,
+          "measured_complete": true,
+          "missing": 0,
+          "n": 60,
+          "nei_to_refutes": 2,
+          "nei_to_refutes_rate": 0.08695652173913043,
+          "not_run_count": 0,
+          "protocol_valid_count": 60,
+          "protocol_valid_rate": 1.0,
+          "reason_at_length_limit_count": 0,
+          "reason_quality_flag_count": 0,
+          "refutes_to_nei": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "supports_to_nei": 0,
+          "truncated_count": 0,
+          "valid": 60,
+          "valid_only_accuracy": 0.9666666666666667
+        },
+        "B2": {
+          "accuracy": 0.55,
+          "both_impossible_count": 19,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.9047619047619048,
+              "precision": 1.0,
+              "predicted_count": 19,
+              "recall": 0.8260869565217391,
+              "support": 23
+            },
+            "REFUTES": {
+              "f1": 0.0,
+              "precision": 0.0,
+              "predicted_count": 0,
+              "recall": 0.0,
+              "support": 23
+            },
+            "SUPPORTS": {
+              "f1": 0.7777777777777778,
+              "precision": 0.6363636363636364,
+              "predicted_count": 22,
+              "recall": 1.0,
+              "support": 14
+            }
+          },
+          "completed": 60,
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 19,
+              "REFUTES": 0,
+              "SUPPORTS": 4
+            },
+            "REFUTES": {
+              "INVALID": 19,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 4
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 14
+            }
+          },
+          "correct": 33,
+          "empty_reason_count": 0,
+          "fields_valid_count": 60,
+          "fields_valid_rate": 1.0,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": 0.0,
+          "invalid": 19,
+          "invalid_rate": 0.31666666666666665,
+          "json_valid_count": 60,
+          "json_valid_rate": 1.0,
+          "latency_mean_seconds": 10.737085461616516,
+          "latency_median_seconds": 5.623827219009399,
+          "logic_available_count": 60,
+          "logic_valid_count": 41,
+          "logic_valid_rate": 0.6833333333333333,
+          "macro_f1": 0.5608465608465608,
+          "mean_completion_tokens": 117.15,
+          "measured_complete": true,
+          "missing": 0,
+          "n": 60,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "protocol_valid_count": 60,
+          "protocol_valid_rate": 1.0,
+          "reason_at_length_limit_count": 7,
+          "reason_quality_flag_count": 7,
+          "refutes_to_nei": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "supports_to_nei": 0,
+          "truncated_count": 0,
+          "valid": 41,
+          "valid_only_accuracy": 0.8048780487804879
+        }
+      },
+      "mechanisms": {
+        "BOUND": {
+          "A2": {
+            "accuracy": 1.0,
+            "both_impossible_count": 0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 5,
+                "recall": 1.0,
+                "support": 5
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 9,
+                "recall": 1.0,
+                "support": 9
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 2,
+                "recall": 1.0,
+                "support": 2
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 5,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 9,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 2
+              }
+            },
+            "correct": 16,
+            "empty_reason_count": 0,
+            "fields_valid_count": 16,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": null,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "json_valid_count": 16,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 2.7880009561777115,
+            "latency_median_seconds": 2.822502613067627,
+            "logic_available_count": 0,
+            "logic_valid_count": 0,
+            "logic_valid_rate": null,
+            "macro_f1": 1.0,
+            "mean_completion_tokens": 52.9375,
+            "n": 16,
+            "nei_to_refutes": 0,
+            "nei_to_refutes_rate": 0.0,
+            "not_run_count": 0,
+            "protocol_valid_count": 16,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 0,
+            "reason_quality_flag_count": 0,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 16,
+            "valid_only_accuracy": 1.0
+          },
+          "B2": {
+            "accuracy": 0.4375,
+            "both_impossible_count": 9,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 5,
+                "recall": 1.0,
+                "support": 5
+              },
+              "REFUTES": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "predicted_count": 0,
+                "recall": 0.0,
+                "support": 9
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 2,
+                "recall": 1.0,
+                "support": 2
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 5,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 9,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 2
+              }
+            },
+            "correct": 7,
+            "empty_reason_count": 0,
+            "fields_valid_count": 16,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": 0.0,
+            "invalid": 9,
+            "invalid_rate": 0.5625,
+            "json_valid_count": 16,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 7.096465229988098,
+            "latency_median_seconds": 5.523640871047974,
+            "logic_available_count": 16,
+            "logic_valid_count": 7,
+            "logic_valid_rate": 0.4375,
+            "macro_f1": 0.6666666666666666,
+            "mean_completion_tokens": 121.375,
+            "n": 16,
+            "nei_to_refutes": 0,
+            "nei_to_refutes_rate": 0.0,
+            "not_run_count": 0,
+            "protocol_valid_count": 16,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 2,
+            "reason_quality_flag_count": 2,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 7,
+            "valid_only_accuracy": 1.0
+          }
+        },
+        "FUNCTIONAL": {
+          "A2": {
+            "accuracy": 1.0,
+            "both_impossible_count": 0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 1,
+                "recall": 1.0,
+                "support": 1
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 1,
+                "recall": 1.0,
+                "support": 1
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 2,
+                "recall": 1.0,
+                "support": 2
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 1,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 2
+              }
+            },
+            "correct": 4,
+            "empty_reason_count": 0,
+            "fields_valid_count": 4,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": null,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "json_valid_count": 4,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 2.7747665643692017,
+            "latency_median_seconds": 2.731556534767151,
+            "logic_available_count": 0,
+            "logic_valid_count": 0,
+            "logic_valid_rate": null,
+            "macro_f1": 1.0,
+            "mean_completion_tokens": 37.25,
+            "n": 4,
+            "nei_to_refutes": 0,
+            "nei_to_refutes_rate": 0.0,
+            "not_run_count": 0,
+            "protocol_valid_count": 4,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 0,
+            "reason_quality_flag_count": 0,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 4,
+            "valid_only_accuracy": 1.0
+          },
+          "B2": {
+            "accuracy": 0.75,
+            "both_impossible_count": 1,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 1,
+                "recall": 1.0,
+                "support": 1
+              },
+              "REFUTES": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "predicted_count": 0,
+                "recall": 0.0,
+                "support": 1
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 2,
+                "recall": 1.0,
+                "support": 2
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 1,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 2
+              }
+            },
+            "correct": 3,
+            "empty_reason_count": 0,
+            "fields_valid_count": 4,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": 0.0,
+            "invalid": 1,
+            "invalid_rate": 0.25,
+            "json_valid_count": 4,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 11.319396197795868,
+            "latency_median_seconds": 4.811906695365906,
+            "logic_available_count": 4,
+            "logic_valid_count": 3,
+            "logic_valid_rate": 0.75,
+            "macro_f1": 0.6666666666666666,
+            "mean_completion_tokens": 80,
+            "n": 4,
+            "nei_to_refutes": 0,
+            "nei_to_refutes_rate": 0.0,
+            "not_run_count": 0,
+            "protocol_valid_count": 4,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 0,
+            "reason_quality_flag_count": 0,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 3,
+            "valid_only_accuracy": 1.0
+          }
+        },
+        "IMPLICATIVE": {
+          "A2": {
+            "accuracy": 1.0,
+            "both_impossible_count": 0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 4,
+                "recall": 1.0,
+                "support": 4
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 3,
+                "recall": 1.0,
+                "support": 3
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 4,
+                "recall": 1.0,
+                "support": 4
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 4,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 3,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 4
+              }
+            },
+            "correct": 11,
+            "empty_reason_count": 0,
+            "fields_valid_count": 11,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": null,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "json_valid_count": 11,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 2.914269122210416,
+            "latency_median_seconds": 2.9581546783447266,
+            "logic_available_count": 0,
+            "logic_valid_count": 0,
+            "logic_valid_rate": null,
+            "macro_f1": 1.0,
+            "mean_completion_tokens": 42.45454545454545,
+            "n": 11,
+            "nei_to_refutes": 0,
+            "nei_to_refutes_rate": 0.0,
+            "not_run_count": 0,
+            "protocol_valid_count": 11,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 0,
+            "reason_quality_flag_count": 0,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 11,
+            "valid_only_accuracy": 1.0
+          },
+          "B2": {
+            "accuracy": 0.6363636363636364,
+            "both_impossible_count": 3,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.8571428571428571,
+                "precision": 1.0,
+                "predicted_count": 3,
+                "recall": 0.75,
+                "support": 4
+              },
+              "REFUTES": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "predicted_count": 0,
+                "recall": 0.0,
+                "support": 3
+              },
+              "SUPPORTS": {
+                "f1": 0.8888888888888888,
+                "precision": 0.8,
+                "predicted_count": 5,
+                "recall": 1.0,
+                "support": 4
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 3,
+                "REFUTES": 0,
+                "SUPPORTS": 1
+              },
+              "REFUTES": {
+                "INVALID": 3,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 4
+              }
+            },
+            "correct": 7,
+            "empty_reason_count": 0,
+            "fields_valid_count": 11,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": 0.0,
+            "invalid": 3,
+            "invalid_rate": 0.2727272727272727,
+            "json_valid_count": 11,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 11.03937088359486,
+            "latency_median_seconds": 2.955232858657837,
+            "logic_available_count": 11,
+            "logic_valid_count": 8,
+            "logic_valid_rate": 0.7272727272727273,
+            "macro_f1": 0.582010582010582,
+            "mean_completion_tokens": 99.9090909090909,
+            "n": 11,
+            "nei_to_refutes": 0,
+            "nei_to_refutes_rate": 0.0,
+            "not_run_count": 0,
+            "protocol_valid_count": 11,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 0,
+            "reason_quality_flag_count": 0,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 8,
+            "valid_only_accuracy": 0.875
+          }
+        },
+        "PLACE": {
+          "A2": {
+            "accuracy": 1.0,
+            "both_impossible_count": 0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 1,
+                "recall": 1.0,
+                "support": 1
+              },
+              "REFUTES": {
+                "f1": null,
+                "precision": 0.0,
+                "predicted_count": 0,
+                "recall": null,
+                "support": 0
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 2,
+                "recall": 1.0,
+                "support": 2
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 2
+              }
+            },
+            "correct": 3,
+            "empty_reason_count": 0,
+            "fields_valid_count": 3,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": null,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "json_valid_count": 3,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 2.912780523300171,
+            "latency_median_seconds": 2.957282066345215,
+            "logic_available_count": 0,
+            "logic_valid_count": 0,
+            "logic_valid_rate": null,
+            "macro_f1": 1.0,
+            "mean_completion_tokens": 39,
+            "n": 3,
+            "nei_to_refutes": 0,
+            "nei_to_refutes_rate": 0.0,
+            "not_run_count": 0,
+            "protocol_valid_count": 3,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 0,
+            "reason_quality_flag_count": 0,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 3,
+            "valid_only_accuracy": 1.0
+          },
+          "B2": {
+            "accuracy": 1.0,
+            "both_impossible_count": 0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 1,
+                "recall": 1.0,
+                "support": 1
+              },
+              "REFUTES": {
+                "f1": null,
+                "precision": 0.0,
+                "predicted_count": 0,
+                "recall": null,
+                "support": 0
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 2,
+                "recall": 1.0,
+                "support": 2
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 2
+              }
+            },
+            "correct": 3,
+            "empty_reason_count": 0,
+            "fields_valid_count": 3,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": null,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "json_valid_count": 3,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 3.1300076643625894,
+            "latency_median_seconds": 2.88736891746521,
+            "logic_available_count": 3,
+            "logic_valid_count": 3,
+            "logic_valid_rate": 1.0,
+            "macro_f1": 1.0,
+            "mean_completion_tokens": 86.33333333333333,
+            "n": 3,
+            "nei_to_refutes": 0,
+            "nei_to_refutes_rate": 0.0,
+            "not_run_count": 0,
+            "protocol_valid_count": 3,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 0,
+            "reason_quality_flag_count": 0,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 3,
+            "valid_only_accuracy": 1.0
+          }
+        },
+        "PLAN": {
+          "A2": {
+            "accuracy": 1.0,
+            "both_impossible_count": 0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 1,
+                "recall": 1.0,
+                "support": 1
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 2,
+                "recall": 1.0,
+                "support": 2
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 2,
+                "recall": 1.0,
+                "support": 2
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 2,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 2
+              }
+            },
+            "correct": 5,
+            "empty_reason_count": 0,
+            "fields_valid_count": 5,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": null,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "json_valid_count": 5,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 6.979173707962036,
+            "latency_median_seconds": 3.134376049041748,
+            "logic_available_count": 0,
+            "logic_valid_count": 0,
+            "logic_valid_rate": null,
+            "macro_f1": 1.0,
+            "mean_completion_tokens": 43.4,
+            "n": 5,
+            "nei_to_refutes": 0,
+            "nei_to_refutes_rate": 0.0,
+            "not_run_count": 0,
+            "protocol_valid_count": 5,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 0,
+            "reason_quality_flag_count": 0,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 5,
+            "valid_only_accuracy": 1.0
+          },
+          "B2": {
+            "accuracy": 0.6,
+            "both_impossible_count": 1,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 1,
+                "recall": 1.0,
+                "support": 1
+              },
+              "REFUTES": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "predicted_count": 0,
+                "recall": 0.0,
+                "support": 2
+              },
+              "SUPPORTS": {
+                "f1": 0.8,
+                "precision": 0.6666666666666666,
+                "predicted_count": 3,
+                "recall": 1.0,
+                "support": 2
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 1,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 1
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 2
+              }
+            },
+            "correct": 3,
+            "empty_reason_count": 0,
+            "fields_valid_count": 5,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": 0.0,
+            "invalid": 1,
+            "invalid_rate": 0.2,
+            "json_valid_count": 5,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 13.596492195129395,
+            "latency_median_seconds": 9.31019377708435,
+            "logic_available_count": 5,
+            "logic_valid_count": 4,
+            "logic_valid_rate": 0.8,
+            "macro_f1": 0.6,
+            "mean_completion_tokens": 110.4,
+            "n": 5,
+            "nei_to_refutes": 0,
+            "nei_to_refutes_rate": 0.0,
+            "not_run_count": 0,
+            "protocol_valid_count": 5,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 1,
+            "reason_quality_flag_count": 1,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 4,
+            "valid_only_accuracy": 0.75
+          }
+        },
+        "RELDATE": {
+          "A2": {
+            "accuracy": 1.0,
+            "both_impossible_count": 0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 2,
+                "recall": 1.0,
+                "support": 2
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 2,
+                "recall": 1.0,
+                "support": 2
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 2,
+                "recall": 1.0,
+                "support": 2
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 2,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 2,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 2
+              }
+            },
+            "correct": 6,
+            "empty_reason_count": 0,
+            "fields_valid_count": 6,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": null,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "json_valid_count": 6,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 3.1116047700246177,
+            "latency_median_seconds": 3.0935157537460327,
+            "logic_available_count": 0,
+            "logic_valid_count": 0,
+            "logic_valid_rate": null,
+            "macro_f1": 1.0,
+            "mean_completion_tokens": 64,
+            "n": 6,
+            "nei_to_refutes": 0,
+            "nei_to_refutes_rate": 0.0,
+            "not_run_count": 0,
+            "protocol_valid_count": 6,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 0,
+            "reason_quality_flag_count": 0,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 6,
+            "valid_only_accuracy": 1.0
+          },
+          "B2": {
+            "accuracy": 0.6666666666666666,
+            "both_impossible_count": 1,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 2,
+                "recall": 1.0,
+                "support": 2
+              },
+              "REFUTES": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "predicted_count": 0,
+                "recall": 0.0,
+                "support": 2
+              },
+              "SUPPORTS": {
+                "f1": 0.8,
+                "precision": 0.6666666666666666,
+                "predicted_count": 3,
+                "recall": 1.0,
+                "support": 2
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 2,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 1,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 1
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 2
+              }
+            },
+            "correct": 4,
+            "empty_reason_count": 0,
+            "fields_valid_count": 6,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": 0.0,
+            "invalid": 1,
+            "invalid_rate": 0.16666666666666666,
+            "json_valid_count": 6,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 19.546722292900085,
+            "latency_median_seconds": 21.471471309661865,
+            "logic_available_count": 6,
+            "logic_valid_count": 5,
+            "logic_valid_rate": 0.8333333333333334,
+            "macro_f1": 0.6,
+            "mean_completion_tokens": 141.83333333333334,
+            "n": 6,
+            "nei_to_refutes": 0,
+            "nei_to_refutes_rate": 0.0,
+            "not_run_count": 0,
+            "protocol_valid_count": 6,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 0,
+            "reason_quality_flag_count": 0,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 5,
+            "valid_only_accuracy": 0.8
+          }
+        },
+        "TIMESHIFT": {
+          "A2": {
+            "accuracy": 0.8666666666666667,
+            "both_impossible_count": 0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.875,
+                "precision": 1.0,
+                "predicted_count": 7,
+                "recall": 0.7777777777777778,
+                "support": 9
+              },
+              "REFUTES": {
+                "f1": 0.8571428571428571,
+                "precision": 0.75,
+                "predicted_count": 8,
+                "recall": 1.0,
+                "support": 6
+              },
+              "SUPPORTS": {
+                "f1": null,
+                "precision": 0.0,
+                "predicted_count": 0,
+                "recall": null,
+                "support": 0
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 7,
+                "REFUTES": 2,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 6,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              }
+            },
+            "correct": 13,
+            "empty_reason_count": 0,
+            "fields_valid_count": 15,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": null,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "json_valid_count": 15,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 4.32134599685669,
+            "latency_median_seconds": 3.1156842708587646,
+            "logic_available_count": 0,
+            "logic_valid_count": 0,
+            "logic_valid_rate": null,
+            "macro_f1": 0.8660714285714286,
+            "mean_completion_tokens": 49.4,
+            "n": 15,
+            "nei_to_refutes": 2,
+            "nei_to_refutes_rate": 0.2222222222222222,
+            "not_run_count": 0,
+            "protocol_valid_count": 15,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 0,
+            "reason_quality_flag_count": 0,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 15,
+            "valid_only_accuracy": 0.8666666666666667
+          },
+          "B2": {
+            "accuracy": 0.4,
+            "both_impossible_count": 4,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.8,
+                "precision": 1.0,
+                "predicted_count": 6,
+                "recall": 0.6666666666666666,
+                "support": 9
+              },
+              "REFUTES": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "predicted_count": 0,
+                "recall": 0.0,
+                "support": 6
+              },
+              "SUPPORTS": {
+                "f1": null,
+                "precision": 0.0,
+                "predicted_count": 5,
+                "recall": null,
+                "support": 0
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 6,
+                "REFUTES": 0,
+                "SUPPORTS": 3
+              },
+              "REFUTES": {
+                "INVALID": 4,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 2
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              }
+            },
+            "correct": 6,
+            "empty_reason_count": 0,
+            "fields_valid_count": 15,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": 0.0,
+            "invalid": 4,
+            "invalid_rate": 0.26666666666666666,
+            "json_valid_count": 15,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 11.287880118687948,
+            "latency_median_seconds": 9.443466186523438,
+            "logic_available_count": 15,
+            "logic_valid_count": 11,
+            "logic_valid_rate": 0.7333333333333333,
+            "macro_f1": 0.4,
+            "mean_completion_tokens": 133.73333333333332,
+            "n": 15,
+            "nei_to_refutes": 0,
+            "nei_to_refutes_rate": 0.0,
+            "not_run_count": 0,
+            "protocol_valid_count": 15,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 4,
+            "reason_quality_flag_count": 4,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 11,
+            "valid_only_accuracy": 0.5454545454545454
+          }
+        }
+      },
+      "paired": {
+        "B2-A2": {
+          "accuracy_delta": -0.4166666666666667,
+          "harmed": 25,
+          "harmed_ids": [
+            "e_09a8bae1417a4f20",
+            "e_15706bbc1df121d5",
+            "e_24772596febed268",
+            "e_3180992e4dc5cc71",
+            "e_3862694a46dd8bff",
+            "e_3d4f7ce54915053e",
+            "e_45998c37ef8ecd4b",
+            "e_525f6ccc25022ddd",
+            "e_55cce00b4dc89efa",
+            "e_56640da51848a401",
+            "e_618e50b9debaee5b",
+            "e_78d54b4c7a7bf96b",
+            "e_8729e33f73b370ee",
+            "e_99c22b39e7917e14",
+            "e_9b76c1198c316ff3",
+            "e_a5a65692e8e02715",
+            "e_a6557ea58a40babf",
+            "e_a77314ec81e9e8a5",
+            "e_ac54cf8df9a71e1d",
+            "e_b0e52f1bc67d3df4",
+            "e_b4ee153f9872253e",
+            "e_ccc0c1b2ff2f62f8",
+            "e_e0e5472029d1ae85",
+            "e_e362e2444350daca",
+            "e_fe905d40d68d4252"
+          ],
+          "improved": 0,
+          "improved_ids": [],
+          "n": 60,
+          "nei_refuted_before_ids": [
+            "e_1227e8efede9f7c4",
+            "e_e0eedba28d73f867"
+          ],
+          "nei_refutes_corrected_ids": [],
+          "refutes_correct_to_nei_ids": [],
+          "supports_correct_to_nei_ids": []
+        }
+      }
+    },
+    "challenge": {
+      "arms": {
+        "A2": {
+          "accuracy": 0.6436781609195402,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.4642857142857143,
+              "precision": 0.8125,
+              "predicted_count": 16,
+              "recall": 0.325,
+              "support": 40
+            },
+            "REFUTES": {
+              "f1": 0.4444444444444444,
+              "precision": 0.3,
+              "predicted_count": 40,
+              "recall": 0.8571428571428571,
+              "support": 14
+            },
+            "SUPPORTS": {
+              "f1": 0.96875,
+              "precision": 1.0,
+              "predicted_count": 31,
+              "recall": 0.9393939393939394,
+              "support": 33
+            }
+          },
+          "completed": 87,
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 13,
+              "REFUTES": 27,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 2,
+              "REFUTES": 12,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 1,
+              "REFUTES": 1,
+              "SUPPORTS": 31
+            }
+          },
+          "correct": 56,
+          "empty_reason_count": 0,
+          "fields_valid_count": 87,
+          "fields_valid_rate": 1.0,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "json_valid_count": 87,
+          "json_valid_rate": 1.0,
+          "latency_mean_seconds": 9.471522068155222,
+          "latency_median_seconds": 3.0212905406951904,
+          "logic_available_count": 0,
+          "logic_valid_count": 0,
+          "logic_valid_rate": null,
+          "macro_f1": 0.6258267195767195,
+          "mean_completion_tokens": 42.7816091954023,
+          "measured_complete": true,
+          "missing": 0,
+          "n": 87,
+          "nei_to_refutes": 27,
+          "nei_to_refutes_rate": 0.675,
+          "not_run_count": 0,
+          "protocol_valid_count": 87,
+          "protocol_valid_rate": 1.0,
+          "reason_at_length_limit_count": 0,
+          "reason_quality_flag_count": 0,
+          "refutes_to_nei": 2,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "supports_to_nei": 1,
+          "truncated_count": 0,
+          "valid": 87,
+          "valid_only_accuracy": 0.6436781609195402
+        },
+        "B2": {
+          "accuracy": 0.5977011494252874,
+          "both_impossible_count": 6,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.6451612903225806,
+              "precision": 0.9090909090909091,
+              "predicted_count": 22,
+              "recall": 0.5,
+              "support": 40
+            },
+            "REFUTES": {
+              "f1": 0.0,
+              "precision": 0.0,
+              "predicted_count": 1,
+              "recall": 0.0,
+              "support": 14
+            },
+            "SUPPORTS": {
+              "f1": 0.7032967032967034,
+              "precision": 0.5517241379310345,
+              "predicted_count": 58,
+              "recall": 0.9696969696969697,
+              "support": 33
+            }
+          },
+          "completed": 87,
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 2,
+              "NOT ENOUGH INFO": 20,
+              "REFUTES": 1,
+              "SUPPORTS": 17
+            },
+            "REFUTES": {
+              "INVALID": 4,
+              "NOT ENOUGH INFO": 1,
+              "REFUTES": 0,
+              "SUPPORTS": 9
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 1,
+              "REFUTES": 0,
+              "SUPPORTS": 32
+            }
+          },
+          "correct": 52,
+          "empty_reason_count": 0,
+          "fields_valid_count": 87,
+          "fields_valid_rate": 1.0,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": 0.0,
+          "invalid": 6,
+          "invalid_rate": 0.06896551724137931,
+          "json_valid_count": 87,
+          "json_valid_rate": 1.0,
+          "latency_mean_seconds": 23.209557958032892,
+          "latency_median_seconds": 3.208451509475708,
+          "logic_available_count": 87,
+          "logic_valid_count": 81,
+          "logic_valid_rate": 0.9310344827586207,
+          "macro_f1": 0.4494859978730947,
+          "mean_completion_tokens": 110.57471264367815,
+          "measured_complete": true,
+          "missing": 0,
+          "n": 87,
+          "nei_to_refutes": 1,
+          "nei_to_refutes_rate": 0.025,
+          "not_run_count": 0,
+          "protocol_valid_count": 87,
+          "protocol_valid_rate": 1.0,
+          "reason_at_length_limit_count": 10,
+          "reason_quality_flag_count": 10,
+          "refutes_to_nei": 1,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "supports_to_nei": 1,
+          "truncated_count": 0,
+          "valid": 81,
+          "valid_only_accuracy": 0.6419753086419753
+        }
+      },
+      "mechanisms": {
+        "AMBIGREF": {
+          "A2": {
+            "accuracy": 0.6,
+            "both_impossible_count": 0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "predicted_count": 0,
+                "recall": 0.0,
+                "support": 4
+              },
+              "REFUTES": {
+                "f1": null,
+                "precision": 0.0,
+                "predicted_count": 4,
+                "recall": null,
+                "support": 0
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 6,
+                "recall": 1.0,
+                "support": 6
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 4,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 6
+              }
+            },
+            "correct": 6,
+            "empty_reason_count": 0,
+            "fields_valid_count": 10,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": null,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "json_valid_count": 10,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 5.8235852241516115,
+            "latency_median_seconds": 2.890517473220825,
+            "logic_available_count": 0,
+            "logic_valid_count": 0,
+            "logic_valid_rate": null,
+            "macro_f1": 0.5,
+            "mean_completion_tokens": 35.4,
+            "n": 10,
+            "nei_to_refutes": 4,
+            "nei_to_refutes_rate": 1.0,
+            "not_run_count": 0,
+            "protocol_valid_count": 10,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 0,
+            "reason_quality_flag_count": 0,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 10,
+            "valid_only_accuracy": 0.6
+          },
+          "B2": {
+            "accuracy": 1.0,
+            "both_impossible_count": 0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 4,
+                "recall": 1.0,
+                "support": 4
+              },
+              "REFUTES": {
+                "f1": null,
+                "precision": 0.0,
+                "predicted_count": 0,
+                "recall": null,
+                "support": 0
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 6,
+                "recall": 1.0,
+                "support": 6
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 4,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 6
+              }
+            },
+            "correct": 10,
+            "empty_reason_count": 0,
+            "fields_valid_count": 10,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": null,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "json_valid_count": 10,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 7.418743896484375,
+            "latency_median_seconds": 2.53764545917511,
+            "logic_available_count": 10,
+            "logic_valid_count": 10,
+            "logic_valid_rate": 1.0,
+            "macro_f1": 1.0,
+            "mean_completion_tokens": 96,
+            "n": 10,
+            "nei_to_refutes": 0,
+            "nei_to_refutes_rate": 0.0,
+            "not_run_count": 0,
+            "protocol_valid_count": 10,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 0,
+            "reason_quality_flag_count": 0,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 10,
+            "valid_only_accuracy": 1.0
+          }
+        },
+        "DENIAL": {
+          "A2": {
+            "accuracy": 0.625,
+            "both_impossible_count": 0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.4,
+                "precision": 1.0,
+                "predicted_count": 2,
+                "recall": 0.25,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 0.5714285714285714,
+                "precision": 0.4,
+                "predicted_count": 10,
+                "recall": 1.0,
+                "support": 4
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 4,
+                "recall": 1.0,
+                "support": 4
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 2,
+                "REFUTES": 6,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 4,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 4
+              }
+            },
+            "correct": 10,
+            "empty_reason_count": 0,
+            "fields_valid_count": 16,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": null,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "json_valid_count": 16,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 15.463232383131981,
+            "latency_median_seconds": 3.3000038862228394,
+            "logic_available_count": 0,
+            "logic_valid_count": 0,
+            "logic_valid_rate": null,
+            "macro_f1": 0.6571428571428571,
+            "mean_completion_tokens": 44.5,
+            "n": 16,
+            "nei_to_refutes": 6,
+            "nei_to_refutes_rate": 0.75,
+            "not_run_count": 0,
+            "protocol_valid_count": 16,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 0,
+            "reason_quality_flag_count": 0,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 16,
+            "valid_only_accuracy": 0.625
+          },
+          "B2": {
+            "accuracy": 0.4375,
+            "both_impossible_count": 2,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.5454545454545454,
+                "precision": 1.0,
+                "predicted_count": 3,
+                "recall": 0.375,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "predicted_count": 0,
+                "recall": 0.0,
+                "support": 4
+              },
+              "SUPPORTS": {
+                "f1": 0.5333333333333333,
+                "precision": 0.36363636363636365,
+                "predicted_count": 11,
+                "recall": 1.0,
+                "support": 4
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 3,
+                "REFUTES": 0,
+                "SUPPORTS": 5
+              },
+              "REFUTES": {
+                "INVALID": 2,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 2
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 4
+              }
+            },
+            "correct": 7,
+            "empty_reason_count": 0,
+            "fields_valid_count": 16,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": 0.0,
+            "invalid": 2,
+            "invalid_rate": 0.125,
+            "json_valid_count": 16,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 37.03315506875515,
+            "latency_median_seconds": 54.81816649436951,
+            "logic_available_count": 16,
+            "logic_valid_count": 14,
+            "logic_valid_rate": 0.875,
+            "macro_f1": 0.3595959595959596,
+            "mean_completion_tokens": 111.5,
+            "n": 16,
+            "nei_to_refutes": 0,
+            "nei_to_refutes_rate": 0.0,
+            "not_run_count": 0,
+            "protocol_valid_count": 16,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 1,
+            "reason_quality_flag_count": 1,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 14,
+            "valid_only_accuracy": 0.5
+          }
+        },
+        "LOOKALIKE": {
+          "A2": {
+            "accuracy": 0.5833333333333334,
+            "both_impossible_count": 0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.3333333333333333,
+                "precision": 1.0,
+                "predicted_count": 1,
+                "recall": 0.2,
+                "support": 5
+              },
+              "REFUTES": {
+                "f1": 0.2857142857142857,
+                "precision": 0.16666666666666666,
+                "predicted_count": 6,
+                "recall": 1.0,
+                "support": 1
+              },
+              "SUPPORTS": {
+                "f1": 0.9090909090909091,
+                "precision": 1.0,
+                "predicted_count": 5,
+                "recall": 0.8333333333333334,
+                "support": 6
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
+                "REFUTES": 4,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 1,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 1,
+                "SUPPORTS": 5
+              }
+            },
+            "correct": 7,
+            "empty_reason_count": 0,
+            "fields_valid_count": 12,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": null,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "json_valid_count": 12,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 2.8928622802098594,
+            "latency_median_seconds": 2.9430453777313232,
+            "logic_available_count": 0,
+            "logic_valid_count": 0,
+            "logic_valid_rate": null,
+            "macro_f1": 0.5093795093795094,
+            "mean_completion_tokens": 39.25,
+            "n": 12,
+            "nei_to_refutes": 4,
+            "nei_to_refutes_rate": 0.8,
+            "not_run_count": 0,
+            "protocol_valid_count": 12,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 0,
+            "reason_quality_flag_count": 0,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 12,
+            "valid_only_accuracy": 0.5833333333333334
+          },
+          "B2": {
+            "accuracy": 0.6666666666666666,
+            "both_impossible_count": 0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.5714285714285714,
+                "precision": 1.0,
+                "predicted_count": 2,
+                "recall": 0.4,
+                "support": 5
+              },
+              "REFUTES": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "predicted_count": 1,
+                "recall": 0.0,
+                "support": 1
+              },
+              "SUPPORTS": {
+                "f1": 0.8,
+                "precision": 0.6666666666666666,
+                "predicted_count": 9,
+                "recall": 1.0,
+                "support": 6
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 2,
+                "REFUTES": 1,
+                "SUPPORTS": 2
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 1
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 6
+              }
+            },
+            "correct": 8,
+            "empty_reason_count": 0,
+            "fields_valid_count": 12,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": null,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "json_valid_count": 12,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 7.622211476167043,
+            "latency_median_seconds": 2.5643895864486694,
+            "logic_available_count": 12,
+            "logic_valid_count": 12,
+            "logic_valid_rate": 1.0,
+            "macro_f1": 0.45714285714285713,
+            "mean_completion_tokens": 104.83333333333333,
+            "n": 12,
+            "nei_to_refutes": 1,
+            "nei_to_refutes_rate": 0.2,
+            "not_run_count": 0,
+            "protocol_valid_count": 12,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 1,
+            "reason_quality_flag_count": 1,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 12,
+            "valid_only_accuracy": 0.6666666666666666
+          }
+        },
+        "PRESUP": {
+          "A2": {
+            "accuracy": 0.5833333333333334,
+            "both_impossible_count": 0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "predicted_count": 1,
+                "recall": 0.0,
+                "support": 4
+              },
+              "REFUTES": {
+                "f1": 0.6666666666666666,
+                "precision": 0.5,
+                "predicted_count": 8,
+                "recall": 1.0,
+                "support": 4
+              },
+              "SUPPORTS": {
+                "f1": 0.8571428571428571,
+                "precision": 1.0,
+                "predicted_count": 3,
+                "recall": 0.75,
+                "support": 4
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 4,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 4,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
+                "REFUTES": 0,
+                "SUPPORTS": 3
+              }
+            },
+            "correct": 7,
+            "empty_reason_count": 0,
+            "fields_valid_count": 12,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": null,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "json_valid_count": 12,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 2.953492303689321,
+            "latency_median_seconds": 3.03352689743042,
+            "logic_available_count": 0,
+            "logic_valid_count": 0,
+            "logic_valid_rate": null,
+            "macro_f1": 0.5079365079365079,
+            "mean_completion_tokens": 48.666666666666664,
+            "n": 12,
+            "nei_to_refutes": 4,
+            "nei_to_refutes_rate": 1.0,
+            "not_run_count": 0,
+            "protocol_valid_count": 12,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 0,
+            "reason_quality_flag_count": 0,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 1,
+            "truncated_count": 0,
+            "valid": 12,
+            "valid_only_accuracy": 0.5833333333333334
+          },
+          "B2": {
+            "accuracy": 0.5,
+            "both_impossible_count": 3,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.6666666666666666,
+                "precision": 1.0,
+                "predicted_count": 2,
+                "recall": 0.5,
+                "support": 4
+              },
+              "REFUTES": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "predicted_count": 0,
+                "recall": 0.0,
+                "support": 4
+              },
+              "SUPPORTS": {
+                "f1": 0.7272727272727273,
+                "precision": 0.5714285714285714,
+                "predicted_count": 7,
+                "recall": 1.0,
+                "support": 4
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 1,
+                "NOT ENOUGH INFO": 2,
+                "REFUTES": 0,
+                "SUPPORTS": 1
+              },
+              "REFUTES": {
+                "INVALID": 2,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 2
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 4
+              }
+            },
+            "correct": 6,
+            "empty_reason_count": 0,
+            "fields_valid_count": 12,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": 0.0,
+            "invalid": 3,
+            "invalid_rate": 0.25,
+            "json_valid_count": 12,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 21.43684907754262,
+            "latency_median_seconds": 3.240538239479065,
+            "logic_available_count": 12,
+            "logic_valid_count": 9,
+            "logic_valid_rate": 0.75,
+            "macro_f1": 0.46464646464646464,
+            "mean_completion_tokens": 123.91666666666667,
+            "n": 12,
+            "nei_to_refutes": 0,
+            "nei_to_refutes_rate": 0.0,
+            "not_run_count": 0,
+            "protocol_valid_count": 12,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 1,
+            "reason_quality_flag_count": 1,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 9,
+            "valid_only_accuracy": 0.6666666666666666
+          }
+        },
+        "SETCLOSE": {
+          "A2": {
+            "accuracy": 0.8333333333333334,
+            "both_impossible_count": 0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.8,
+                "precision": 1.0,
+                "predicted_count": 4,
+                "recall": 0.6666666666666666,
+                "support": 6
+              },
+              "REFUTES": {
+                "f1": 0.6666666666666666,
+                "precision": 0.5,
+                "predicted_count": 4,
+                "recall": 1.0,
+                "support": 2
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 4,
+                "recall": 1.0,
+                "support": 4
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 4,
+                "REFUTES": 2,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 2,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 4
+              }
+            },
+            "correct": 10,
+            "empty_reason_count": 0,
+            "fields_valid_count": 12,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": null,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "json_valid_count": 12,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 9.115389426549276,
+            "latency_median_seconds": 3.0623795986175537,
+            "logic_available_count": 0,
+            "logic_valid_count": 0,
+            "logic_valid_rate": null,
+            "macro_f1": 0.8222222222222222,
+            "mean_completion_tokens": 37.666666666666664,
+            "n": 12,
+            "nei_to_refutes": 2,
+            "nei_to_refutes_rate": 0.3333333333333333,
+            "not_run_count": 0,
+            "protocol_valid_count": 12,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 0,
+            "reason_quality_flag_count": 0,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 12,
+            "valid_only_accuracy": 0.8333333333333334
+          },
+          "B2": {
+            "accuracy": 0.5833333333333334,
+            "both_impossible_count": 0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.6666666666666666,
+                "precision": 1.0,
+                "predicted_count": 3,
+                "recall": 0.5,
+                "support": 6
+              },
+              "REFUTES": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "predicted_count": 0,
+                "recall": 0.0,
+                "support": 2
+              },
+              "SUPPORTS": {
+                "f1": 0.6153846153846154,
+                "precision": 0.4444444444444444,
+                "predicted_count": 9,
+                "recall": 1.0,
+                "support": 4
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 3,
+                "REFUTES": 0,
+                "SUPPORTS": 3
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 2
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 4
+              }
+            },
+            "correct": 7,
+            "empty_reason_count": 0,
+            "fields_valid_count": 12,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": null,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "json_valid_count": 12,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 16.45531020561854,
+            "latency_median_seconds": 2.961959481239319,
+            "logic_available_count": 12,
+            "logic_valid_count": 12,
+            "logic_valid_rate": 1.0,
+            "macro_f1": 0.42735042735042733,
+            "mean_completion_tokens": 93.75,
+            "n": 12,
+            "nei_to_refutes": 0,
+            "nei_to_refutes_rate": 0.0,
+            "not_run_count": 0,
+            "protocol_valid_count": 12,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 0,
+            "reason_quality_flag_count": 0,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 12,
+            "valid_only_accuracy": 0.5833333333333334
+          }
+        },
+        "TEMPSCOPE": {
+          "A2": {
+            "accuracy": 0.8,
+            "both_impossible_count": 0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.8,
+                "precision": 1.0,
+                "predicted_count": 4,
+                "recall": 0.6666666666666666,
+                "support": 6
+              },
+              "REFUTES": {
+                "f1": null,
+                "precision": 0.0,
+                "predicted_count": 2,
+                "recall": null,
+                "support": 0
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 4,
+                "recall": 1.0,
+                "support": 4
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 4,
+                "REFUTES": 2,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 4
+              }
+            },
+            "correct": 8,
+            "empty_reason_count": 0,
+            "fields_valid_count": 10,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": null,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "json_valid_count": 10,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 2.8962646961212157,
+            "latency_median_seconds": 2.954888701438904,
+            "logic_available_count": 0,
+            "logic_valid_count": 0,
+            "logic_valid_rate": null,
+            "macro_f1": 0.9,
+            "mean_completion_tokens": 49.2,
+            "n": 10,
+            "nei_to_refutes": 2,
+            "nei_to_refutes_rate": 0.3333333333333333,
+            "not_run_count": 0,
+            "protocol_valid_count": 10,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 0,
+            "reason_quality_flag_count": 0,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 10,
+            "valid_only_accuracy": 0.8
+          },
+          "B2": {
+            "accuracy": 0.8,
+            "both_impossible_count": 0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.8,
+                "precision": 1.0,
+                "predicted_count": 4,
+                "recall": 0.6666666666666666,
+                "support": 6
+              },
+              "REFUTES": {
+                "f1": null,
+                "precision": 0.0,
+                "predicted_count": 0,
+                "recall": null,
+                "support": 0
+              },
+              "SUPPORTS": {
+                "f1": 0.8,
+                "precision": 0.6666666666666666,
+                "predicted_count": 6,
+                "recall": 1.0,
+                "support": 4
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 4,
+                "REFUTES": 0,
+                "SUPPORTS": 2
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 4
+              }
+            },
+            "correct": 8,
+            "empty_reason_count": 0,
+            "fields_valid_count": 10,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": null,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "json_valid_count": 10,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 3.2011138439178466,
+            "latency_median_seconds": 2.9652576446533203,
+            "logic_available_count": 10,
+            "logic_valid_count": 10,
+            "logic_valid_rate": 1.0,
+            "macro_f1": 0.8,
+            "mean_completion_tokens": 110.7,
+            "n": 10,
+            "nei_to_refutes": 0,
+            "nei_to_refutes_rate": 0.0,
+            "not_run_count": 0,
+            "protocol_valid_count": 10,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 1,
+            "reason_quality_flag_count": 1,
+            "refutes_to_nei": 0,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 10,
+            "valid_only_accuracy": 0.8
+          }
+        },
+        "UNIQUE": {
+          "A2": {
+            "accuracy": 0.5333333333333333,
+            "both_impossible_count": 0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.36363636363636365,
+                "precision": 0.5,
+                "predicted_count": 4,
+                "recall": 0.2857142857142857,
+                "support": 7
+              },
+              "REFUTES": {
+                "f1": 0.2222222222222222,
+                "precision": 0.16666666666666666,
+                "predicted_count": 6,
+                "recall": 0.3333333333333333,
+                "support": 3
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "predicted_count": 5,
+                "recall": 1.0,
+                "support": 5
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 2,
+                "REFUTES": 5,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 2,
+                "REFUTES": 1,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 5
+              }
+            },
+            "correct": 8,
+            "empty_reason_count": 0,
+            "fields_valid_count": 15,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": null,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "json_valid_count": 15,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 20.6580849647522,
+            "latency_median_seconds": 11.634665727615356,
+            "logic_available_count": 0,
+            "logic_valid_count": 0,
+            "logic_valid_rate": null,
+            "macro_f1": 0.5286195286195287,
+            "mean_completion_tokens": 43.8,
+            "n": 15,
+            "nei_to_refutes": 5,
+            "nei_to_refutes_rate": 0.7142857142857143,
+            "not_run_count": 0,
+            "protocol_valid_count": 15,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 0,
+            "reason_quality_flag_count": 0,
+            "refutes_to_nei": 2,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 0,
+            "truncated_count": 0,
+            "valid": 15,
+            "valid_only_accuracy": 0.5333333333333333
+          },
+          "B2": {
+            "accuracy": 0.4,
+            "both_impossible_count": 1,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.36363636363636365,
+                "precision": 0.5,
+                "predicted_count": 4,
+                "recall": 0.2857142857142857,
+                "support": 7
+              },
+              "REFUTES": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "predicted_count": 0,
+                "recall": 0.0,
+                "support": 3
+              },
+              "SUPPORTS": {
+                "f1": 0.5333333333333333,
+                "precision": 0.4,
+                "predicted_count": 10,
+                "recall": 0.8,
+                "support": 5
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 1,
+                "NOT ENOUGH INFO": 2,
+                "REFUTES": 0,
+                "SUPPORTS": 4
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
+                "REFUTES": 0,
+                "SUPPORTS": 2
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
+                "REFUTES": 0,
+                "SUPPORTS": 4
+              }
+            },
+            "correct": 6,
+            "empty_reason_count": 0,
+            "fields_valid_count": 15,
+            "fields_valid_rate": 1.0,
+            "inconsistent_count": 0,
+            "inconsistent_rate_all": 0.0,
+            "inconsistent_rate_world_available": 0.0,
+            "invalid": 1,
+            "invalid_rate": 0.06666666666666667,
+            "json_valid_count": 15,
+            "json_valid_rate": 1.0,
+            "latency_mean_seconds": 51.62200231552124,
+            "latency_median_seconds": 59.31051588058472,
+            "logic_available_count": 15,
+            "logic_valid_count": 14,
+            "logic_valid_rate": 0.9333333333333333,
+            "macro_f1": 0.298989898989899,
+            "mean_completion_tokens": 126.6,
+            "n": 15,
+            "nei_to_refutes": 0,
+            "nei_to_refutes_rate": 0.0,
+            "not_run_count": 0,
+            "protocol_valid_count": 15,
+            "protocol_valid_rate": 1.0,
+            "reason_at_length_limit_count": 6,
+            "reason_quality_flag_count": 6,
+            "refutes_to_nei": 1,
+            "request_failed_count": 0,
+            "request_failure_rate": 0.0,
+            "supports_to_nei": 1,
+            "truncated_count": 0,
+            "valid": 14,
+            "valid_only_accuracy": 0.42857142857142855
+          }
+        }
+      },
+      "paired": {
+        "B2-A2": {
+          "accuracy_delta": -0.04597701149425287,
+          "harmed": 15,
+          "harmed_ids": [
+            "e_004280643d4a4eb2",
+            "e_0b99bc0755ed9285",
+            "e_2cd512dbfa426c58",
+            "e_3a970cee3909f15e",
+            "e_483443534f796aa7",
+            "e_489582639dc73f31",
+            "e_4fce433c09a10bb0",
+            "e_7b4a24477a9638f5",
+            "e_7c5e52bb810fa7cf",
+            "e_94c23c647561db9c",
+            "e_9a212ca125f7e9e3",
+            "e_c10db2a80a9ade33",
+            "e_d936aaf07ff8dcd7",
+            "e_e15dc4a5a1d2550f",
+            "e_f5473083450b8be7"
+          ],
+          "improved": 11,
+          "improved_ids": [
+            "e_424df3b7bbdc6212",
+            "e_5180ab053b57aa01",
+            "e_663ebd18786806c0",
+            "e_6ceee2e7cd1574c4",
+            "e_74c76c23811f29ed",
+            "e_92c4cc41776af441",
+            "e_945d0c80b30f8d80",
+            "e_9fa52d862e3a2851",
+            "e_a998553999c171f1",
+            "e_b41d74a8dde64c51",
+            "e_b80a07f422511e6d"
+          ],
+          "n": 87,
+          "nei_refuted_before_ids": [
+            "e_09f65643cf9bd6b1",
+            "e_2cbbfdf565111b42",
+            "e_35e3f2d652cb1d0f",
+            "e_4b7b7b0051423a7d",
+            "e_5180ab053b57aa01",
+            "e_5e75a556b29f5796",
+            "e_663ebd18786806c0",
+            "e_6ceee2e7cd1574c4",
+            "e_706d84094abd7a7a",
+            "e_74c76c23811f29ed",
+            "e_92c4cc41776af441",
+            "e_945d0c80b30f8d80",
+            "e_94c2607221633a04",
+            "e_988bc16f8651f33c",
+            "e_9fa52d862e3a2851",
+            "e_a44c6c8f2649db9c",
+            "e_b1fe2cf76100e187",
+            "e_b41d74a8dde64c51",
+            "e_b80a07f422511e6d",
+            "e_cc3af062078c4186",
+            "e_cf8c0e904c4c89fc",
+            "e_d80392b191846330",
+            "e_db7285db72d5d287",
+            "e_e4d322f586379996",
+            "e_eed7d302822a4057",
+            "e_eee96ede2cff1084",
+            "e_fa3ec049e7b66a2a"
+          ],
+          "nei_refutes_corrected_ids": [
+            "e_5180ab053b57aa01",
+            "e_663ebd18786806c0",
+            "e_6ceee2e7cd1574c4",
+            "e_74c76c23811f29ed",
+            "e_92c4cc41776af441",
+            "e_945d0c80b30f8d80",
+            "e_9fa52d862e3a2851",
+            "e_b41d74a8dde64c51",
+            "e_b80a07f422511e6d"
+          ],
+          "refutes_correct_to_nei_ids": [],
+          "supports_correct_to_nei_ids": [
+            "e_483443534f796aa7"
+          ]
+        }
+      }
+    }
+  },
+  "expected_record_count": 294,
+  "fingerprint_sha256": "b9548609f8a9a9b03fb41e49b99fdc17b2a26a3e784bc418a41d5ed067e51a71",
+  "generated_at": "2026-10-23T12:31:02.775374+00:00",
+  "record_count": 294,
+  "run_id": "pilot_groq_qwen38_27b_nonthink_v4_r2",
+  "source_jsonl_sha256": {
+    "basic": "4b9ab189e7fb8aa256f5312451d27f6bfdaa4087ed26ea84dd41725d6b5cc1f9",
+    "challenge": "135b7837729b7c9304d3a1c31d42b4251c08082a6a8fcb31f20389ecf6eca457"
+  },
+  "status": "formal_complete"
+}

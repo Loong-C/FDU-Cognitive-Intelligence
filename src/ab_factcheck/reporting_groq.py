@@ -149,8 +149,11 @@ def audit(exp):
 def costs(rows):
     return {"completed_requests": len(rows), "request_attempts": sum(r["completion_request_attempts"] for r in rows),
             "request_seconds": sum(r["latency_seconds"] for r in rows),
+            "provider_processing_seconds": sum(r["usage"].get("total_time", 0) for r in rows),
+            "latency_definition": "client wall time includes quota waits, backoff, network and provider processing",
             **{k: sum(r["usage"].get(k, 0) for r in rows) for k in ("prompt_tokens", "completion_tokens", "total_tokens")},
-            "server_fingerprints": sorted({r.get("system_fingerprint") for r in rows if r.get("system_fingerprint")})}
+            "server_fingerprints": sorted({r.get("system_fingerprint") for r in rows if r.get("system_fingerprint")}),
+            "server_fingerprint_counts": dict(Counter(str(r.get("system_fingerprint")) for r in rows))}
 
 
 def report(exp):
@@ -211,8 +214,10 @@ def report(exp):
                         m = compute_metrics([r for r in by_arm[a] if r[field] == value])
                         target.append({"dataset": d, field: value, "arm": a, **m})
                         if field == "mechanism": datasets[d]["mechanisms"].setdefault(value, {})[a] = m
-        csv_file(dest / f"metrics_{d}.csv", [{"arm": a, **m} for a, m in arms.items()],
-                 ["arm", "n", "completed", "missing", "correct", "accuracy", "macro_f1", "invalid", "not_run_count", "nei_to_refutes", "supports_to_nei", "refutes_to_nei"])
+        flat_metrics = [{"arm": a, **{k: v for k, v in m.items() if not isinstance(v, dict)},
+                         **{f"{label}_{k}": v for label, values in m["classes"].items() for k, v in values.items()}}
+                        for a, m in arms.items()]
+        csv_file(dest / f"metrics_{d}.csv", flat_metrics, list(flat_metrics[0]))
     receipt = {"run_id": exp.config["run_id"], "generated_at": now(), "status": "formal_complete" if complete else "blocked_or_partial",
                "record_count": len(records), "expected_record_count": 294, "fingerprint_sha256": exp.fp_hash, "datasets": datasets,
                "source_jsonl_sha256": {d: file_hash(exp.directory / f"{d}.jsonl") for d in DATASETS}}
@@ -220,14 +225,30 @@ def report(exp):
     atomic_json(dest / "configuration.json", exp.config)
     atomic_json(dest / "run_fingerprint.json", exp.fp)
     atomic_json(dest / "api_diagnostics.json", api)
+    atomic_json(dest / "technical_evidence.json", {
+        "gates": {n: read_optional(exp.directory / f"{n}_gate.json") for n in ("technical", "smoke", "integration")},
+        "technical": {p.name: read_optional(p) for p in sorted((exp.directory / "technical").glob("*.json"))},
+        "smoke": {p.name: read_optional(p) for p in sorted((exp.directory / "smoke").glob("*.json"))}})
     atomic_json(dest / "costs.json", {d: {a: costs([r for r in records if r["dataset"] == d and r["arm"] == a]) for a in ARMS} for d in DATASETS})
     atomic_json(dest / "history_provenance.json", {name: {"metrics_sha256": file_hash(p / "metrics.json"), "predictions_sha256": file_hash(p / "predictions.csv")} for name, p in HISTORY.items()})
-    fields = ["dataset", "arm", "id", "group", "mechanism", "gold_label", "predicted_label", "status", "parse_status", "parse_error", "protocol_valid", "logic_valid",
+    comparisons = {}
+    if complete:
+        for d in DATASETS:
+            comparisons[d] = {}
+            for model in ("4B", "14B"):
+                for a in ARMS:
+                    old = [r for r in history_predictions[model] if r["dataset"] == d and r["arm"] == a]
+                    new = [r for r in records if r["dataset"] == d and r["arm"] == a]
+                    comparisons[d][f"{a}_27B-minus-{model}"] = paired_comparison(old, new)
+    atomic_json(dest / "upgrade_comparison.json", {"comparisons": comparisons,
+        "interpretation": "Descriptive only: generations, training, quantization and backend differ; no parameter-count causality."})
+    fields = ["dataset", "arm", "display_arm", "id", "group", "mechanism", "gold_label", "predicted_label", "status", "parse_status", "parse_error", "protocol_valid", "logic_valid",
               "claim_true_world", "claim_false_world", "world_reason_true", "world_reason_false", "direct_reason", "finish_reason", "latency_seconds", "prompt_tokens", "completion_tokens", "total_tokens"]
-    csv_file(dest / "predictions.csv", [{**r, **r["usage"]} for r in records], fields)
+    csv_file(dest / "predictions.csv", [{**r, **r["usage"], "display_arm": exp.config["arm_labels"][r["arm"]]} for r in records], fields)
     csv_file(dest / "changed_predictions.csv", changes, ["dataset", "id", "group", "mechanism", "gold_label", "before", "after", "direction"])
     for name, rows, key in (("metrics_by_group", groups, "group"), ("metrics_by_mechanism", mechanisms, "mechanism")):
-        csv_file(dest / (name + ".csv"), rows, ["dataset", key, "arm", "n", "correct", "accuracy", "macro_f1", "invalid", "nei_to_refutes", "supports_to_nei", "refutes_to_nei"])
+        flat = [{**r, **{label + "_recall": values["recall"] for label, values in r["classes"].items()}} for r in rows]
+        csv_file(dest / (name + ".csv"), flat, ["dataset", key, "arm", "n", "correct", "accuracy", "macro_f1", "invalid", "nei_to_refutes", "supports_to_nei", "refutes_to_nei", *[l + "_recall" for l in LABELS]])
     # Only these fictional/dev outputs are exported. No credentials or request headers are present.
     write_jsonl(dest / "api_records.jsonl", records)
     typical = []
@@ -278,6 +299,19 @@ def report(exp):
                 m = datasets[d]["arms"][a]
                 lines += ["", f"{a} 混淆矩阵（行gold，列预测）：", "", "| gold | SUPPORTS | REFUTES | NEI | INVALID |", "|---|---:|---:|---:|---:|"]
                 for l, cells in m["confusion_matrix"].items(): lines.append(f"| {l} | " + " | ".join(str(cells[x]) for x in (*LABELS, "INVALID")) + " |")
+            lines += ["", "| 条件 | 字段有效率 | 协议有效率 | 逻辑组合有效率 | 双IMPOSSIBLE | 理由达320字符 | 截断 |", "|---|---:|---:|---:|---:|---:|---:|"]
+            for a in ARMS:
+                m = datasets[d]["arms"][a]
+                lines.append(f"| {exp.config['arm_labels'][a]} | {pct(m['fields_valid_rate'])} | {pct(m['protocol_valid_rate'])} | {pct(m['logic_valid_rate'])} | {m['both_impossible_count']} | {m['reason_at_length_limit_count']} | {m['truncated_count']} |")
+            lines += ["", "| 机制 | 关联group | A27正确/全部 | B27正确/全部 |", "|---|---|---:|---:|"]
+            for mechanism, values in datasets[d]["mechanisms"].items():
+                names = sorted({r['group'] for r in exp.rows[d] if r['mechanism'] == mechanism})
+                lines.append(f"| {mechanism} | {', '.join(names)} | {values['A2']['correct']}/{values['A2']['n']} | {values['B2']['correct']}/{values['B2']['n']} |")
+            lines += ["", "| 条件 | 完成/HTTP尝试 | 输入token | 输出token | 总token | 客户端累计秒（含节流） | 服务端处理秒 |", "|---|---:|---:|---:|---:|---:|---:|"]
+            for a in ARMS:
+                c = costs([r for r in records if r['dataset'] == d and r['arm'] == a])
+                lines.append(f"| {exp.config['arm_labels'][a]} | {c['completed_requests']}/{c['request_attempts']} | {c['prompt_tokens']} | {c['completion_tokens']} | {c['total_tokens']} | {decimal(c['request_seconds'])} | {decimal(c['provider_processing_seconds'])} |")
+            lines += ["", "跨模型配对错→对/对→错清单见upgrade_comparison.json；分组准确率见metrics_by_group.csv。"]
     lines += ["", "## 验收问题与证据边界", "",
         "1. **真正关闭thinking？** 请求显式none；只有成功返回后才能检查reasoning字段/think标记及reasoning_tokens。未收到回答时无法实测确认。缺少reasoning token字段仅表示未暴露，不能证明内部实现。",
         "2. **结构化输出稳定？** 必须先通过无约束NOT_JSON对照、A/B独立Schema枚举哨兵、400字符对照与320上限约束，再通过6次独立虚构smoke。HTTP 200或合法JSON不足以通过。门槛结果见execution_audit.json；尚未通过不得宣称稳定。",
@@ -286,7 +320,7 @@ def report(exp):
         "5. **成本及免费额度？** costs.json按数据/方法记录真实usage和请求耗时，api_diagnostics.json另列技术请求和失败预算预留。未返回usage的请求，实际token与账单均未知；不能写成已验证零费用。",
         "6. **与A组Q8_0严格比较还缺什么？** 需要相同模型版本/权重来源与可核对量化、相同数据顺序/提示词/Schema/解码预算/非思考设置，以及独立确认的运行环境和完整逐题记录。Groq不公开权重SHA、tokenizer/chat template及硬件，不能宣称与本地Q8_0严格受控等价。",
         "", "4B/14B/27B属于不同模型代际、量化与后端；历史比较仅描述，不把差异归因于参数规模。14/7个group内样本相关，不假设逐题独立或宣称统计显著。basic冻结gold仍为pending审核，本轮不修改历史数据。",
-        "", "本地模型SHA、GPU卸载、DLL、/apply-template与精确预分词指标均N/A。API接受的请求参数、返回模型ID、服务端fingerprint和usage才是远程证据。",
+        "", "本地模型SHA、GPU卸载、DLL、/apply-template与精确预分词指标均N/A。API接受的请求参数、返回模型ID、服务端fingerprint和usage才是远程证据。各方法fingerprint分布见costs.json；同一模型ID可能出现多个后端fingerprint，seed=42并不保证跨后端逐位可复现。",
         "", "## 官方资料", "", "[模型](https://console.groq.com/docs/model/qwen/qwen3.8-27b)、[API参数](https://console.groq.com/docs/api-reference)、[JSON Schema](https://console.groq.com/docs/structured-outputs)、[限速与响应头](https://console.groq.com/docs/rate-limits)。查询于2026-10-23，真实探针结果优先。", ""]
     atomic_bytes(dest / "pilot_report.md", "\n".join(lines).encode("utf-8"))
     print(f"Report written: {dest}; completed {len(records)}/294")

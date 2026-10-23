@@ -1,0 +1,27 @@
+{
+  "artifact_integrity_passed": true,
+  "distinct_formal_http_attempts": 297,
+  "fingerprint_sha256": "b9548609f8a9a9b03fb41e49b99fdc17b2a26a3e784bc418a41d5ed067e51a71",
+  "formal_complete": true,
+  "formal_records": 294,
+  "gates": {
+    "integration": true,
+    "smoke": true,
+    "technical": true
+  },
+  "generated_at": "2026-10-23T12:31:03.314672+00:00",
+  "independent_metric_groups_checked": [
+    "challenge/A2",
+    "challenge/B2",
+    "basic/A2",
+    "basic/B2"
+  ],
+  "independent_parse_checked": 294,
+  "independent_preflight_checks": [
+    "adversarial_schema_and_length_controls",
+    "six_smoke_records"
+  ],
+  "independent_statistics_passed": true,
+  "interpretation": "Integrity is not proof that a blocked or partial model experiment completed.",
+  "run_id": "pilot_groq_qwen38_27b_nonthink_v4_r2"
+}

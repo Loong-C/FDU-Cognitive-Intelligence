@@ -1,0 +1,24 @@
+{
+  "attempt_count_all_runs": 311,
+  "billing_independently_verified": false,
+  "free_plan_user_confirmed": true,
+  "http_status_counts": {
+    "200": 305,
+    "403": 2,
+    "503": 4
+  },
+  "local_budget": {
+    "max_wait_seconds": 60,
+    "min_interval_seconds": 3,
+    "requests_24h": 800,
+    "requests_per_minute": 25,
+    "tokens_24h": 180000,
+    "tokens_per_minute": 7000
+  },
+  "quota_ledger_sha256": "e9bfc1ba0f743e4ca4bf97d31b445fa9871e02b25077d7a839f833ebb47d8962",
+  "reserved_or_actual_tokens": 167639,
+  "successful_responses": 305,
+  "successful_usage_tokens": 150855,
+  "unknown_failure_reservations": 16784,
+  "within_local_budget": true
+}

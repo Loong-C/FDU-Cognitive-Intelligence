@@ -30,7 +30,8 @@ def config():
 def make(tmp_path, monkeypatch, config, handler, clock=None):
     monkeypatch.setenv('GROQ_API_KEY', 'unit-test-secret-not-real')
     clock = clock or Clock()
-    return GroqModelClient(config['model'], tmp_path / 'quota.json', free_plan_confirmed=True,
+    model = {**config['model'], 'proxy_mode': 'direct'}
+    return GroqModelClient(model, tmp_path / 'quota.json', free_plan_confirmed=True,
         transport=httpx.MockTransport(handler), clock=clock, sleeper=clock.sleep)
 
 
@@ -136,6 +137,24 @@ def test_duration():
     assert duration('bad')==0
 
 
+def test_explicit_system_proxy_is_not_logged(tmp_path, monkeypatch, config):
+    import ab_factcheck.groq_client as module
+    monkeypatch.setenv('GROQ_API_KEY', 'unit-test-secret-not-real')
+    monkeypatch.setattr(module, 'getproxies', lambda: {'https':'http://user:password@127.0.0.1:9999'})
+    captured = {}
+    class FakeClient:
+        def __init__(self, **kwargs): captured.update(kwargs)
+        def close(self): pass
+    monkeypatch.setattr(module.httpx, 'Client', FakeClient)
+    model = {**config['model'], 'proxy_mode':'system'}
+    c=GroqModelClient(model,tmp_path/'quota.json',free_plan_confirmed=True)
+    assert captured['proxy']=='http://user:password@127.0.0.1:9999'
+    assert captured['trust_env'] is False and captured['follow_redirects'] is False
+    assert 'password' not in json.dumps(c.config)
+    monkeypatch.setattr(module, 'getproxies', lambda: {})
+    with pytest.raises(GroqStop): GroqModelClient(model,tmp_path/'quota.json',free_plan_confirmed=True)
+
+
 def test_rolling_budget_resets_after_24h(tmp_path, monkeypatch, config):
     config['model']['budget']['requests_24h']=1
     clock=Clock()
@@ -185,3 +204,37 @@ def test_blocked_report_never_presents_complete_scores(tmp_path, config):
         for a in ('A2','B2'):
             assert receipt['datasets'][d]['arms'][a]['accuracy'] is None
             assert receipt['datasets'][d]['arms'][a]['completed']==0
+
+
+def test_full_mock_pipeline_report_and_resume(tmp_path, monkeypatch, config, capsys):
+    """Offline HTTP fixture only, confined to pytest temp; never experimental output."""
+    from ab_factcheck.reporting_groq import report
+    def handler(req):
+        payload=json.loads(req.content)
+        fmt=payload.get('response_format')
+        if fmt is None:
+            content='NOT_JSON'
+        else:
+            schema=fmt['json_schema']['schema']
+            obj={}
+            for key,spec in schema['properties'].items():
+                if 'enum' in spec:
+                    obj[key]=spec['enum'][0]
+                elif schema['required']==['reason']:
+                    obj[key]='a'*min(400,spec.get('maxLength',400))
+                else:
+                    obj[key]='Offline test fixture'
+            content=json.dumps(obj)
+        return httpx.Response(200,json=body(content))
+    config=copy.deepcopy(config)
+    config['report_root']=str((tmp_path/'reports').relative_to(ROOT))
+    c=make(tmp_path,monkeypatch,config,handler)
+    e=Experiment(config,c); e.directory=tmp_path/'run'; e.initialize()
+    e.run();e.export()
+    receipt=report(e)
+    assert receipt['record_count']==294 and receipt['status']=='formal_complete'
+    assert receipt['datasets']['basic']['arms']['A2']['n']==60
+    count=len(c.ledger()['attempts'])
+    assert count==305
+    e.run();e.export()
+    assert len(c.ledger()['attempts'])==count

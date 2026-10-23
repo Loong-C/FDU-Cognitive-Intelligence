@@ -1,0 +1,175 @@
+{
+  "additional_notes": {
+    "e_5c7b1b9b012be799": {
+      "dataset": "basic",
+      "invalid_counterexample": false,
+      "note": "肯定证据明确说居住过Salem；P/I和两个理由一致，保持14B对此预指定题的正确判断。",
+      "reason_state_contradiction": false,
+      "selection": "prespecified_typical",
+      "source_record_sha256": "3aeaf2967df7443c604fe36efd82f31e50d4103474711ade4ac60737371fd7e8"
+    },
+    "e_83ecbf82546d00f0": {
+      "dataset": "challenge",
+      "invalid_counterexample": false,
+      "note": "正确使用2023–2027覆盖2026，P/I及理由一致，保持14B对该预指定题的正确判断。",
+      "reason_state_contradiction": false,
+      "selection": "prespecified_typical",
+      "source_record_sha256": "d3bedf11bb2be6fc18fe237e71adea38a8b6761ff068d3f61ae66d91c3ae3092"
+    },
+    "e_d936aaf07ff8dcd7": {
+      "dataset": "challenge",
+      "invalid_counterexample": true,
+      "note": "证据明确说Kriti Sanon's cousin并使用the family，true_reason却通过假定Sanon不属于该家庭来允许获奖，改变关系/范围；false_reason又正确承认Sanon是家庭成员且被only one排除，却填假世界IMPOSSIBLE。P/I误判SUPPORTS，较14B正确I/P退步。true_reason达320字符并在Kriti is处中断。",
+      "reason_state_contradiction": true,
+      "selection": "prespecified_typical",
+      "source_record_sha256": "2704216e20dafc87a13baa4e625bb33fad5ca85c540459c2dbcca623bff95e25"
+    },
+    "e_e362e2444350daca": {
+      "dataset": "basic",
+      "invalid_counterexample": false,
+      "note": "两条理由均正确指出124999不等于125000，没有沿用14B的四舍五入假设；但false_world仍标IMPOSSIBLE，产生I/I和INVALID_LOGIC。数值推理局部改善，最终分类仍错，不能称该案例被解决。",
+      "reason_state_contradiction": true,
+      "selection": "prespecified_typical",
+      "source_record_sha256": "7c45ea5510e026167e04ffe7ba125ac6d19c0996a5c39403da8a64989bf84945"
+    }
+  },
+  "comparison_14b_direct_contradictions": 2,
+  "direct_reason_state_contradictions": 10,
+  "fingerprint_sha256": "b9548609f8a9a9b03fb41e49b99fdc17b2a26a3e784bc418a41d5ed067e51a71",
+  "fixed_review_count": 18,
+  "notes": {
+    "e_004280643d4a4eb2": {
+      "dataset": "challenge",
+      "invalid_counterexample": true,
+      "note": "两个理由都在支持2023年前没有获奖：true_reason实际上描述claim为假的世界，却用于POSSIBLE真世界；false_reason正确指出first win排除此前获奖，却将假世界标IMPOSSIBLE。P/I导出错误SUPPORTS，世界方向混淆未随27B消失。",
+      "reason_state_contradiction": true,
+      "source_record_sha256": "3418fb254a2253728b43b2dcbdd5e6cf37b21dab798c139f7cff19d8e710c56b"
+    },
+    "e_00a14eca36dfd42e": {
+      "dataset": "challenge",
+      "invalid_counterexample": false,
+      "note": "正确识别2015–2023包含2020；否定世界与区间证据冲突，P/I。纠正14B以提前卸任构造的无效反例。",
+      "reason_state_contradiction": false,
+      "source_record_sha256": "08398580f5b0ba6fb969d6404469049227ec64de50b61b2a73545f0e7f86016a"
+    },
+    "e_09a8bae1417a4f20": {
+      "dataset": "basic",
+      "invalid_counterexample": false,
+      "note": "true_reason正确允许attempted后成功；false_reason却把attempted误当失败蕴涵，且该理由即使成立也是支持claim为假，却填false_world=IMPOSSIBLE。P/I误判SUPPORTS，既有蕴涵误读也有方向冲突。",
+      "reason_state_contradiction": true,
+      "source_record_sha256": "c17cd390b0d31e3125a265039000d65df748c0af071a64770aaf9d14d25aba0d"
+    },
+    "e_09f65643cf9bd6b1": {
+      "dataset": "challenge",
+      "invalid_counterexample": false,
+      "note": "true_reason正确允许Xabi也获奖；false_reason自行增加唯一获胜者假设并声称与claim矛盾，该理由实际支持claim为假，却把false_world标IMPOSSIBLE，导致NEI→SUPPORTS。既有无依据唯一性假设，也有理由/状态方向冲突。",
+      "reason_state_contradiction": true,
+      "source_record_sha256": "8ac869d9b7c36a14db95d300559d4b2e3e23fabcf8cba03dacc97ac0130f2503"
+    },
+    "e_0a33301380112698": {
+      "dataset": "challenge",
+      "invalid_counterexample": false,
+      "note": "正确使用both的合取蕴涵；两个理由与P/I状态一致。",
+      "reason_state_contradiction": false,
+      "source_record_sha256": "59e70a6d6be12ef5e78459fc06374d0d7fe21222337b0a176a395df8dcde8327"
+    },
+    "e_0b99bc0755ed9285": {
+      "dataset": "challenge",
+      "invalid_counterexample": false,
+      "note": "true_reason正确允许local tournament等于指定大学赛事；false_reason由未证实推到claim为假，却填IMPOSSIBLE假世界，P/I误判SUPPORTS。false_reason恰达320字符并在strict e处结束，属于字符约束下不完整理由，不能与max_tokens截断混为一谈。",
+      "reason_state_contradiction": true,
+      "source_record_sha256": "89d12ce1fc85e5b4bef71fd0d72cbaa7301d770fe16b4f0b307db59940aaa3f5"
+    },
+    "e_11b9a984df88d017": {
+      "dataset": "basic",
+      "invalid_counterexample": true,
+      "note": "P/P和NEI标签正确，但true_reason给124991/125001（claim为假），false_reason举125000（claim为真），两个世界的具体说明对调。因为两种世界本来均可行，不计入直接POSSIBLE/IMPOSSIBLE方向矛盾；单列目标条件不匹配的世界说明。",
+      "reason_state_contradiction": false,
+      "source_record_sha256": "1dc6e689f3de453842d843756684f3dc64b591ef71d436c7c5a691a9346a29a5",
+      "witness_reasons_swapped": true
+    },
+    "e_1227e8efede9f7c4": {
+      "dataset": "basic",
+      "invalid_counterexample": true,
+      "note": "true_reason把before 2019放宽为up to that point，未证明严格早于2019的目标条件，理由达320字符中断；false_reason又把2019报告成就过度理解为首次完成，声称此前不可能，实际支持claim为假却标false_world=IMPOSSIBLE。P/I错误SUPPORTS。",
+      "reason_state_contradiction": true,
+      "source_record_sha256": "42774c62ed2687db96d296683d4fffbc25e4ced70d2b52abafc141d34626e519"
+    },
+    "e_15706bbc1df121d5": {
+      "dataset": "basic",
+      "invalid_counterexample": false,
+      "note": "两个理由都正确指出up to 125010与more than 125010冲突；true_world=IMPOSSIBLE正确，但这恰好允许claim为假的世界，false_world仍填IMPOSSIBLE，双IMPOSSIBLE计错。数值比较本身正确，错误在世界方向。",
+      "reason_state_contradiction": true,
+      "source_record_sha256": "d34eb64a2fd91f720db3f55d0e7fa100c6a73e7585d4fca763128f8a42b00c2c"
+    },
+    "e_1a880609200d4018": {
+      "dataset": "challenge",
+      "invalid_counterexample": false,
+      "note": "2025仍任职不决定2026；续任与卸任都保留原证据，P/P及理由一致。",
+      "reason_state_contradiction": false,
+      "source_record_sha256": "6fc8fe056a8d1886e1f802488e066e3484cee9c4522734d6eeae04d269cb8b20"
+    },
+    "e_21fa4d9e39de8649": {
+      "dataset": "challenge",
+      "invalid_counterexample": false,
+      "note": "second time蕴涵此前一次获奖；P/I及理由一致。",
+      "reason_state_contradiction": false,
+      "source_record_sha256": "38d29833e8b0994a45c0b6365cefa3a0ac43c853a5c357f71f5fbc2e3b790a78"
+    },
+    "e_24772596febed268": {
+      "dataset": "basic",
+      "invalid_counterexample": false,
+      "note": "only Portland and nowhere else排除Salem；两个理由都确认claim为假，却把false_world标IMPOSSIBLE，产生INVALID_LOGIC。该题与预指定的肯定Salem题不同。",
+      "reason_state_contradiction": true,
+      "source_record_sha256": "da7d02ec1544dc0bf9e27a9a3017ed5a4f4fa140c807daa21fc23868878c620c"
+    },
+    "e_2cd512dbfa426c58": {
+      "dataset": "challenge",
+      "invalid_counterexample": true,
+      "note": "true_reason把disproven重新解释为调查状态而非事件被证伪，允许事件仍发生，未按证据的明确否定保留事实，且理由达320字符后中断；false_reason明确说事件不可能为真，却将假世界标IMPOSSIBLE。P/I错误SUPPORTS，与14B此题正确I/P相比退步。",
+      "reason_state_contradiction": true,
+      "source_record_sha256": "c3a733da373c461b94d38172306550d0d8edcb40500a22d47a87558fbcea9463"
+    },
+    "e_3180992e4dc5cc71": {
+      "dataset": "basic",
+      "invalid_counterexample": false,
+      "note": "两条理由逐字相同，均说明fewer than 124990不可能more than 125010；这支持I/P而非模型给出的I/I。双IMPOSSIBLE计错，未从正确不等式理由修复标签。",
+      "reason_state_contradiction": true,
+      "source_record_sha256": "088b4f7e7784fb2a56f9a1650b15b642fb8fad0691cdfbe772edd4594140e8b9"
+    },
+    "e_365682368482ff06": {
+      "dataset": "basic",
+      "invalid_counterexample": false,
+      "note": "2017+2+4=2023及P/I正确，纠正14B修改最后一句事实的无效反例。但false_reason最后称2023证据contradicts相同的2023 claim，内部措辞自相矛盾。核心日期链正确；将该末句错误单列，不计入明确的世界状态方向冲突。",
+      "reason_internal_error": true,
+      "reason_state_contradiction": false,
+      "source_record_sha256": "549d5d22676bf83938de0c22067ad3251de236c9318226fbf8f8a7097d277664"
+    },
+    "e_39c1f3feb0761761": {
+      "dataset": "basic",
+      "invalid_counterexample": false,
+      "note": "succeeded in winning蕴涵won，P/I及两条理由一致。仅按给定合成证据判断，不是对现实获奖事实的断言。",
+      "reason_state_contradiction": false,
+      "source_record_sha256": "9a62d899d30a88d32ee793470cb4ded3e97c55b2164a9d50f3e0b16ff8c990a3"
+    },
+    "e_3a970cee3909f15e": {
+      "dataset": "challenge",
+      "invalid_counterexample": false,
+      "note": "两个理由均正确解释first of three排除2023年前获奖；true_world=IMPOSSIBLE正确，false_world=IMPOSSIBLE却与其理由支持claim为假直接冲突。双IMPOSSIBLE按INVALID_LOGIC计错，没有根据正确理由修复预测。",
+      "reason_state_contradiction": true,
+      "source_record_sha256": "d37aef613eb95b3184231324d610de944f031a99963f8118be9eae90c6db9426"
+    },
+    "e_3b9b44a5e17b1f75": {
+      "dataset": "basic",
+      "invalid_counterexample": false,
+      "note": "claim与证据逐字相同，明确说明假世界不可能；P/I及理由正确。",
+      "reason_state_contradiction": false,
+      "source_record_sha256": "fccc41be6e908bcabee48f8458a6d5370d836a3e80e97a7f5a13a2c7ba8aa1e7"
+    }
+  },
+  "reviewer": "Codex assistant semantic review; not external human adjudication",
+  "rubric": "Direct contradiction requires a reason that asserts the opposite feasibility/truth direction of its named world; internal wording errors and swapped witnesses with P/P are reported separately.",
+  "run_id": "pilot_groq_qwen38_27b_nonthink_v4_r2",
+  "selection": "Same first three frozen IDs per gold label per dataset as round three; additional cases explicitly identified separately",
+  "status": "fixed_18_and_four_typical_assistant_review_complete; external_human_review_not_performed"
+}

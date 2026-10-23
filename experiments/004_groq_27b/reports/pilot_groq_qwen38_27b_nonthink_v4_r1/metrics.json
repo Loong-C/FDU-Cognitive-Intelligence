@@ -359,7 +359,7 @@
   },
   "expected_record_count": 294,
   "fingerprint_sha256": "c73bfa57e89c4678c14bb31ee8ac1d5c8efc00be7ca7b91381649d74484e7880",
-  "generated_at": "2026-10-23T08:31:00.666599+00:00",
+  "generated_at": "2026-10-23T11:14:11.763704+00:00",
   "record_count": 0,
   "run_id": "pilot_groq_qwen38_27b_nonthink_v4_r1",
   "source_jsonl_sha256": {
