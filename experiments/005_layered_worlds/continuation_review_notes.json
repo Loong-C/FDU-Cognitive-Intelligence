@@ -1,0 +1,403 @@
+{
+  "external_human_review": false,
+  "notes": [
+    {
+      "dataset": "basic",
+      "final_effect": "UNRESOLVED_BRANCH counted wrong; A27 is correct",
+      "finding": "Generator F changes the meaning of appeared into guest appearances; verifier F identifies the candidate defect but misses the required priority that identical E/C entails the whole claim.",
+      "generator_issue": "unauthorized semantic redefinition",
+      "id": "e_70b7b6465b23cd81",
+      "raw_sha256": {
+        "baseline_A27.json": "895318c38af4bfd5469cf84d25b70ae79257c5f85f001400a154b9429211500f",
+        "generate_F.json": "cdd3f608928bc1db93804461549880727da86ff3485a61f8d8e5d30c025ec014",
+        "generate_T.json": "72dc899d4344a8dc1428b377fb72c5adb56246f9492e2b52a39389ba361ad56c",
+        "verdict.json": "feb0c2e746699ed78c676f35e111253ef546d16efd8e1684ec9ae8f7447bdeb3",
+        "verify_F.json": "60396b35e3bd0f9093c702bb0ca82b8a4f7d76b3b719f9a61f59c1f186c952b3",
+        "verify_T.json": "9993471d564cacc1b9ed344a3edadcac74d9255fdc1c347869a6eb6031566765"
+      },
+      "reason_status": "F reason and target description hit character limits",
+      "review_type": "assistant semantic review",
+      "verifier_issue": "CANDIDATE_INVALID instead of target-level contradiction"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "SUPPORTS correct in both arms",
+      "finding": "Generator F tries to redefine National Book Award and adds an unfinished extraneous tail. Verifier F correctly uses the original evidence and excludes the false target independently of this defect.",
+      "generator_issue": "unauthorized semantic redefinition and extraneous text",
+      "id": "e_2090f9c3609cbd3c",
+      "raw_sha256": {
+        "baseline_A27.json": "046afcdba9ca6b5d45f7550b6a948b976acef6a7d9ed3196d08df7607aa5f30f",
+        "generate_F.json": "f9877ce976c6e83863381656f82055a4786d500f42a81f1de5d39e68de92bfb0",
+        "generate_T.json": "357b8c15061d5c7e43daaa6b17a2c2056cb6895205eae4dd180a325b4374dbbc",
+        "verdict.json": "159d4187b316fc695b64ebc839572c686d3c6667e773c1da7cbfb0377018f201",
+        "verify_F.json": "c9aeb907633f45e02b6fb7024daf1721ee44310d7e318d2375fcaf1ec95622e2",
+        "verify_T.json": "2c6fb542a2608b0901732729c3299f3c3c8f3fcf2831081a4643a42f540dcb2c"
+      },
+      "reason_status": "verifier reasons are not complete explanations at the character cap",
+      "review_type": "assistant semantic review",
+      "verifier_issue": "none identified in the state direction"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "UNRESOLVED_BRANCH; A27 correct",
+      "finding": "E says both Clint and Frank won. F verifier notices the candidate contradicts both, but calls it CANDIDATE_INVALID instead of prioritizing that E entails the whole claim.",
+      "generator_issue": "contradictory attempted false target",
+      "id": "e_2eaa05ca9a45a036",
+      "raw_sha256": {
+        "baseline_A27.json": "8a4daf4eb8a0bf21403e2c9bd0525bd905656603e7b9c803928202ba82997b60",
+        "generate_F.json": "cc4279ac75672d4f80425999b6c9477c0fb4acff8963e63e2ff05d719f3b3642",
+        "generate_T.json": "bf54aef2b4e8fcfb97670db4b04e102101ee1d0cd99d1d47611292ba53dd31b5",
+        "verdict.json": "faac87f35929e16a22dc6e52b459bc9aafa713fc4ab20bc77788ec49a43ac2c6",
+        "verify_F.json": "6485ab2782ad0bfb1095c213f7f98d6bfc9f82ff39d084bec3c63345cb026547",
+        "verify_T.json": "f7c9d74613f236ed138ceca5724832728f1e5d6aa1c35fca1c1cce96d09121a4"
+      },
+      "review_type": "assistant semantic review",
+      "verifier_issue": "missed target-level contradiction despite an explicit both quantifier"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "V5 correct NEI; A27 incorrect REFUTES",
+      "finding": "Frank winning does not exclude Clint also winning. V5 preserves Frank winning in both candidates and varies Clint; both witnesses are valid. A27 incorrectly treats a different named winner as excluding Clint.",
+      "generator_issue": "none identified",
+      "id": "e_603240b9be921883",
+      "raw_sha256": {
+        "baseline_A27.json": "08a1ed085b7ab23f9f50258790708526b9c0991d6be8ab1797f8a24c36cd8c44",
+        "generate_F.json": "d50cd36f625bac55ad5bdf8165fb8a6a9ee12f1f06732a7ba0d93606d4412fa9",
+        "generate_T.json": "09d1cc6cd090765f0a7a811ead3a48afe0d30000f7c83a3ab52c48c1beb21371",
+        "verdict.json": "369dd83abaa4cef28f952b6d41d6491f6de24f41ccbaaa71405fea4d58a4e8a9",
+        "verify_F.json": "1e9da4773d30f5a603547db72650695b41af4c4e79ce04c32fe69a22c61e950a",
+        "verify_T.json": "2e80114463104c55d54d51565335282dc62d2b837b626037fe2860276cdb0055"
+      },
+      "review_type": "assistant semantic review",
+      "verifier_issue": "none identified"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "V5 correct NEI; A27 incorrect REFUTES",
+      "finding": "She identifies Sarah as a winner but does not exclude Clint. V5 varies Clint while keeping Sarah winning. A27 again treats a mentioned winner as an exclusive winner.",
+      "generator_issue": "none identified",
+      "id": "e_885e050dfe8b58af",
+      "raw_sha256": {
+        "baseline_A27.json": "3f15c21ba59eb566f4246f30093ba6ddb8bd955e5e518560d0662d9ec076a287",
+        "generate_F.json": "7f7bb04408d704f7fcad1b4e1bcf31f545437a58077146c91331276cca70b938",
+        "generate_T.json": "627338a152ec89446ce4e1ab5195cb6555bc1a9bf9252c43030dc8558f2112fa",
+        "verdict.json": "359a1e0a841c4bae2c517b5d5d5967a249fb660a5b06087159f2e7ebc68e9499",
+        "verify_F.json": "8baad2d793cf0823288a61d452654248f19c56a2cbc04531b3d3099eff13cabf",
+        "verify_T.json": "4b1fae8a0fd7422d5f6a972c0985f77c8584babc1a6847831e03825f793d8f8f"
+      },
+      "review_type": "assistant semantic review",
+      "verifier_issue": "none identified"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "V5 UNRESOLVED_BRANCH is wrong; A27 NEI is correct",
+      "finding": "The editor declining comment is compatible with the donation actually occurring. Candidate T preserves the speech act and other evidence while realizing the target. T verifier rejects it merely because the report is unconfirmed, confusing epistemic uncertainty with incompatibility of a possible witness.",
+      "generator_issue": "F adds an unnecessary hospital alternative, but no contradiction with E was identified; T preserves E",
+      "id": "e_0d3c98953a903e54",
+      "raw_sha256": {
+        "baseline_A27.json": "33d667916d4c9d1d57c76b08fb43d51eed78a138edd087587fdea2c1bd204476",
+        "generate_F.json": "50cc72f50aab68153856c518e6596fc61b81318b788621f29efde89030be7160",
+        "generate_T.json": "d6a974b61a3ed50ee1d8c4a22d7a085308e9a4bcf0bc18d4318c1b5253bc3d6b",
+        "verdict.json": "bae6d7bf445349db3409a9d2bbf1a30b586dbaa97a62ecd080bf6ace9907b513",
+        "verify_F.json": "d00ca264ab9aabacf0fd4d7b72c73221109c0d738aa6b7605e38b7c7890dc605",
+        "verify_T.json": "df29de09db871cca95ef673318108af744ad508c87c362f0306e52fac7dbc40b"
+      },
+      "review_type": "assistant semantic review",
+      "verifier_issue": "false CANDIDATE_INVALID for a coherent true witness"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "UNRESOLVED_CONTRADICTION counted wrong; A27 correctly REFUTES",
+      "finding": "E says an investigation showed the donation reports false. Verifier F cites this same falsity yet emits TARGET_CONTRADICTS_EVIDENCE, which would require E to entail the whole positive claim. This reverses the false-branch meaning and reproduces a v4-like both-infeasible failure.",
+      "generator_issue": "No conflict identified: F explicitly says no donation, preserves the editor denial and the investigation finding.",
+      "id": "e_277810da62cf3491",
+      "raw_sha256": {
+        "baseline_A27.json": "51a56151628a0a41a996df5618f4692dfb7efaa602f62ee65923bf6703522278",
+        "generate_F.json": "3de57e8c2433deded5a5dc90192779f7d44001b31dc7c9f7fa9991125ac4d242",
+        "generate_T.json": "96881f8478e33bd7acf5c6ac68424e4847b1199c56b8f78b3182a533cb8f2a1b",
+        "verdict.json": "50115f9b59489319d2432ab677dd5c0cef8f99be943ac8b9210dc3b5efb6cb9f",
+        "verify_F.json": "d8c70d243f548d9ffcae1c641d0786f7a8495b7d1c048eedb7c59716f1c7eb22",
+        "verify_T.json": "20868b9304c62d7d796c7855342206ed7e5d80a667fb94c4348b73780beb1c25"
+      },
+      "review_type": "assistant semantic review",
+      "verifier_issue": "false-branch direction inversion; evidence proves not-C rather than C"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "Both methods incorrectly REFUTES a gold NEI sample",
+      "finding": "The editor disputed the donation reports. This attributed stance does not logically establish that the donation did not occur. The true candidate retains the stance while realizing the donation. Verifier T treats primary-source credibility or reporting context as a logical contradiction; A27 makes the same attribution-to-fact error.",
+      "generator_issue": "candidate may have character-limited trailing narrative; this cannot prove target-level impossibility",
+      "id": "e_2a9bfaf8427227ea",
+      "raw_sha256": {
+        "baseline_A27.json": "2c23217efb2329e75153c8792521c27e6d4fb98c373196a4b876e53210543ceb",
+        "generate_F.json": "7b03f7c45ad42f7d039cfd35930fac351a0c04eea7fe3ea96ea93d48e210cc63",
+        "generate_T.json": "9aa4b2ec31a7a1e43a174d7079f6b32e1396163eda66de36ee69a42885083016",
+        "verdict.json": "1f84239b6f3dd4722c461f9938f81f10b5e1ee53dfd35637d2bb6ab88636bb6d",
+        "verify_F.json": "a95ea61269220c90b1767ae5e9f003162dab43ba7179fa1b4fe954f4c5e83e62",
+        "verify_T.json": "036b0316749107c20e103ac8dc10e4ae8c12e462cd2362988865442cff3e4d7f"
+      },
+      "review_type": "assistant semantic review",
+      "verifier_issue": "false TARGET_CONTRADICTS_EVIDENCE from an attributed denial/dispute"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "Both methods incorrectly REFUTES a gold NEI sample",
+      "finding": "The editor dismissed as baseless the donation reports. This attributed stance does not logically establish that the donation did not occur. The true candidate retains the stance while realizing the donation. Verifier T treats primary-source credibility or reporting context as a logical contradiction; A27 makes the same attribution-to-fact error.",
+      "generator_issue": "candidate may have character-limited trailing narrative; this cannot prove target-level impossibility",
+      "id": "e_b30e3a12162be36f",
+      "raw_sha256": {
+        "baseline_A27.json": "0c5fb5bb495e4d93b8d56b809aa9ad0069f5e5fa99d44a3a27d185362c0bec19",
+        "generate_F.json": "11cb96df2f6ed4eceeae51569bf80d58ee774d237c2927864c6b624a09186ffc",
+        "generate_T.json": "9d1a5ad5653014b9ecb2cd56861facbc40592ae716b0ed062decbe09d02b3b56",
+        "verdict.json": "ea92a48bde9f514b7057e3396b8befb4437c3a31cf277d7cce8d21be4b0284cd",
+        "verify_F.json": "b85bac486c4fb1b951dfce3573ef53d496af1f6638b8b215cf59667d696a142d",
+        "verify_T.json": "5c9ebb4695c13bf6079ee526e151a6288c68a91870756f842bf3097039cb9b14"
+      },
+      "review_type": "assistant semantic review",
+      "verifier_issue": "false TARGET_CONTRADICTS_EVIDENCE from an attributed denial/dispute"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "Both methods incorrectly REFUTES a gold NEI sample",
+      "finding": "The editor flatly denied the donation reports. This attributed stance does not logically establish that the donation did not occur. The true candidate retains the stance while realizing the donation. Verifier T treats primary-source credibility or reporting context as a logical contradiction; A27 makes the same attribution-to-fact error.",
+      "generator_issue": "candidate may have character-limited trailing narrative; this cannot prove target-level impossibility",
+      "id": "e_cbeb7f13d036e5d1",
+      "raw_sha256": {
+        "baseline_A27.json": "7b49381f311d86bccb11f98e408eaf6ba90e5321b699ff651677459d8256b781",
+        "generate_F.json": "32e7e818c71f11b1eaf2a28fd9e73555d2025e6839ed2c6f392271623acdf4b5",
+        "generate_T.json": "86011596bc0eb90923bb091ff3dcb254e3e21a151be366449b7bb725a475e0d0",
+        "verdict.json": "c1f526f5fd70b436e9e1ea4fa9c1675f212be739aa852e11feb68428ecd2cf25",
+        "verify_F.json": "11dd105cc7d25334c0555010ebffcb3fa51cfa573ef185b1420a5d4fe4ccb3f0",
+        "verify_T.json": "cfe12458d02a440db34f2dd76b4f47a72736199572274046abaaa891dd632d73"
+      },
+      "review_type": "assistant semantic review",
+      "verifier_issue": "false TARGET_CONTRADICTS_EVIDENCE from an attributed denial/dispute"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "V5 UNRESOLVED_BRANCH; A27 SUPPORTS correct",
+      "finding": "False candidate only repeats the opening biography and never establishes no donation. The false verifier notices this candidate defect, but under the frozen gold/prompt interpretation the editor confirmation establishes C, so target-level contradiction should have priority.",
+      "generator_issue": "incomplete false witness; visible text ends before the donation assertion",
+      "id": "e_ce8f5835e7f9c9ed",
+      "raw_sha256": {
+        "baseline_A27.json": "8ad7f25db782e324ea89f1c818447d64a5391a0d5b9522995ad3837f9b8bc659",
+        "generate_F.json": "9d686ab0fdf77668980ded53ac785daf88047b6e31ed3e1d4d67d837d86ffc6f",
+        "generate_T.json": "9bf56e32ee09999c5dd13bc0ad670f8c7cd676f5160d8c27233f2bafb77b88b7",
+        "verdict.json": "2d9e93539c034f0564de13869d70a4f54682897cc619221d4a08c10c6179bfe3",
+        "verify_F.json": "95c840bd43b9fc7943468b0bc1f05d22e07c76beb471d3266a276730f8330069",
+        "verify_T.json": "b26575cfb4653cfcea09b3389645263c5da3a7ea7ac6cf8d08ec15c82ced6fd8"
+      },
+      "reason_status": "verifier reasons reach the frozen 240-character cap; do not treat partial text as a complete proof",
+      "review_type": "assistant semantic review",
+      "verifier_issue": "CANDIDATE_INVALID instead of evidence-based false-target exclusion"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "V5 UNRESOLVED_BRANCH; A27 SUPPORTS correct",
+      "finding": "False constructor changes later confirmed it into later confirmed nonoccurrence and invents a Tokyo donation. False verifier catches evidence alteration but returns candidate invalid rather than target contradiction.",
+      "generator_issue": "rewrites evidence confirmation into its opposite",
+      "id": "e_f93444e40f27af24",
+      "raw_sha256": {
+        "baseline_A27.json": "7b744efbb5e1866f5298ce14707038aa9653308dcdaf5ec8a46088d9e38f0e44",
+        "generate_F.json": "6be26dcc4eeb0200eb00a6b44d967cf4b64e2041e6a86db2ef84ee0ce5e98904",
+        "generate_T.json": "c63557628e29fda27b9fc2618edd8762b8e9cbe3bc9edd5d38090c38ae806f85",
+        "verdict.json": "d9ee99b4d95cd243f1b8d01c9f81bd0a03bd38d8644580f369e96ee8fdf19658",
+        "verify_F.json": "dd577903f6ba757e0937601aed27df1582b9a56d327fa1e2521df665a871e0fa",
+        "verify_T.json": "99e210c5a4ab6eaa71ec22e32ff2a71301e6c18dace676ba55780c802054a3ad"
+      },
+      "reason_status": "verifier reasons reach the frozen 240-character cap; do not treat partial text as a complete proof",
+      "review_type": "assistant semantic review",
+      "verifier_issue": "wrong decision priority on an entailed claim"
+    },
+    {
+      "dataset": "basic",
+      "final_effect": "V5 NOT ENOUGH INFO wrong; A27 SUPPORTS correct",
+      "finding": "E says did not fail to win. False candidate instead says nominated but another series won. False verifier labels this witness valid and explains only that the candidate makes C false, missing compatibility with the original double negation.",
+      "generator_issue": "false candidate contradicts the original double negation",
+      "id": "e_39adee2bc1e67cdb",
+      "raw_sha256": {
+        "baseline_A27.json": "0d76166de1a76cd25737e71aad823229e05a8b646b1506898bf27530c26f75a0",
+        "generate_F.json": "34092c1d10cd9c575f9b22ca4673fc0dcc8c37e9ee4a2065ebd5cf7b1340ad58",
+        "generate_T.json": "89e14785fcb85c6200b5040ccaa3b663e401b43599241a334d89605ab4b6cc06",
+        "verdict.json": "91f63bfb54fabd26777c493fb7efe34304d016bd2a08eb141b5c7da1227216a8",
+        "verify_F.json": "63935dca142b4a357d64705be29e12e8368935c8a96383a0af1bbd504f10751b",
+        "verify_T.json": "bc77b66d7a48cf2c1225c36a6d5f0e100fb505df34090b1013ff22a34f4b20d3"
+      },
+      "reason_status": "verifier reasons reach the frozen 240-character cap; do not treat partial text as a complete proof",
+      "review_type": "assistant semantic review",
+      "verifier_issue": "WITNESS_VALID on an evidence-inconsistent false witness"
+    },
+    {
+      "dataset": "basic",
+      "final_effect": "V5 NOT ENOUGH INFO wrong; A27 SUPPORTS correct",
+      "finding": "E says was forced to win. F invents subsequent revocation and changes never won into no longer holds the award. Verifier F accepts this temporal substitution; later revocation does not erase the original winning event.",
+      "generator_issue": "invented later event changes claim time scope",
+      "id": "e_997cb104a6c51234",
+      "raw_sha256": {
+        "baseline_A27.json": "a511540d1c338845ab4c7fc776d563e98df7e16236f94d3cc5c595e18cf2fe26",
+        "generate_F.json": "580d56ec75fd7a82efb300df08915306055ab1404b29344ff0563284945b2ddd",
+        "generate_T.json": "868c0449e8d6da2e9445ceff7647ac30c2f35f2db6e85b75c98a0aecb82c1399",
+        "verdict.json": "c13d17478598317f6200c336441ca7f7fafe4e2067aab0052f387faefdb44ce2",
+        "verify_F.json": "27fb46c540cd58c6993d965ddda3d3f5fc0f124dd4aff7d68eb39c72c9ec2748",
+        "verify_T.json": "b4c22583ce11f00c3bd2849fc7688f2e230c877d277fc28ebde42684c215f82d"
+      },
+      "review_type": "assistant semantic review",
+      "verifier_issue": "WITNESS_VALID without falsifying original historical winning claim"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "Both arms wrongly REFUTES",
+      "finding": "Evidence says John is the only family winner but does not establish Ross is in that family. True verifier assumes same-family membership from the name and declares target contradiction. A true witness can place Ross outside the quantified family without changing any stated relation; original frozen gold is NEI.",
+      "generator_issue": "T candidate adds Ulbricht-family wording; F chooses explicit membership, which is compatible as a false witness",
+      "id": "e_5476ea915f2e530d",
+      "raw_sha256": {
+        "baseline_A27.json": "f1f9d3485e1af60db5212ecca7fedb66f640de96cb10902012f63a2979fff96c",
+        "generate_F.json": "c9283b542a17fe02e9296a00941ed7432816263cddc785215fdf60d9bcf47ef4",
+        "generate_T.json": "343cb22d365e24dd70d65da331ebfddeff7453e0af3f60e3775822257c8ecd66",
+        "verdict.json": "5bf176e363e4e25573b468a9bbf55c48748ff7f2b83d9d672a9caf87faaf71bc",
+        "verify_F.json": "e88374d731327988d96327792b1902524592174f26d4ee4eaf514fc1cea2d41d",
+        "verify_T.json": "57c959a03219edd4d2eb0eca6fceaac1ab7a7e657e5aecbd6bfa86b0522d7a76"
+      },
+      "review_type": "assistant semantic review",
+      "verifier_issue": "unlicensed family-membership assumption makes an open target appear impossible"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "V5 NOT ENOUGH INFO and A27 REFUTES both wrong",
+      "finding": "Like Ross, John won presupposes Ross won under frozen dataset semantics. T verifier recognizes this. F verifier reason also acknowledges it implies Ross won, yet accepts a false candidate that says Ross did not win. This is evidence/reason versus state inconsistency.",
+      "generator_issue": "false candidate contradicts comparison presupposition",
+      "id": "e_7cfed97b4436ae8f",
+      "raw_sha256": {
+        "baseline_A27.json": "fc2369b04711b59d52364ef85236034f06e3caf6385e826de5bf767fcfbc5762",
+        "generate_F.json": "5e476993bf012996b78f4c0f83ed3a428f359eb99f927b4fe07bd02ee8176ac7",
+        "generate_T.json": "346b40f6bd6809363e4dfd9ecd0e27a0d6c468ac5ca2d064f0fbdd213935ca6a",
+        "verdict.json": "e50caac7b539fe260e738e1d11d721bf4a7b6b6be932c879ff7ddb5d945950bc",
+        "verify_F.json": "22ce7493d1b87526860dde3d2e984872a542b6769aa15be18e24be9d608ce036",
+        "verify_T.json": "d355839fe6cb8cd1dc5601f0f90c25404a80fc4e512535c262521013af6cfcbc"
+      },
+      "review_type": "assistant semantic review",
+      "verifier_issue": "WITNESS_VALID despite reason acknowledging E implies C"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "V5 UNRESOLVED_BRANCH; A27 SUPPORTS correct",
+      "finding": "Original E says Ross did the same as John, who won Reporting. False constructor changes the award to Fiction. False verifier explicitly says E entails Reporting but chooses CANDIDATE_INVALID instead of target contradiction.",
+      "generator_issue": "changes award category from original anaphora",
+      "id": "e_ba0c7235dd5fc3bc",
+      "raw_sha256": {
+        "baseline_A27.json": "0fd847f5cc3415ff9edc18d8053ec33ee52e63208724f0f6898508533caa400f",
+        "generate_F.json": "1027b2fad98f8c57f563ddd6617d3db45798c62c41bd2b7da8794485797d3396",
+        "generate_T.json": "3783e114804e467b0a86a8ed85d7837dd6c7e31632ba6ac0f4b3394876b08489",
+        "verdict.json": "dfea2e8727113d6fe74c870121b976fc0c877374efec43c498e7cf38f3dfebb6",
+        "verify_F.json": "70f3618bed9268782d2f44f7b69648b024a760b5954311171940b72976f59a67",
+        "verify_T.json": "3aca21c75abb7b612b3463df874e037f26fbb9695d944756b04d39521719fd4a"
+      },
+      "review_type": "assistant semantic review",
+      "verifier_issue": "reason entails C but decision misses target-level priority"
+    },
+    {
+      "dataset": "basic",
+      "final_effect": "V5 UNRESOLVED_BRANCH; A27 correct",
+      "finding": "E explicitly says Scottsdale, Arizona. False candidate states born there but not in that city. F catches inconsistency but does not prioritize original E entailing the complete claim.",
+      "generator_issue": "incoherent city negation",
+      "id": "e_f413a59ea39d9650",
+      "raw_sha256": {
+        "baseline_A27.json": "30a7fb3c81af71da888dc43b9c2e7cae528fa0054ccd07951f1203f8f242ec9d",
+        "generate_F.json": "ddc78f0cd67b9cf280e1feb23a91014b826fdb967ded4852b81c470137f549c1",
+        "generate_T.json": "ccc1a534ffa19a667c9f59c430465c7140de8e40aff9d2214017ffbd045e8fa0",
+        "verdict.json": "8a6ba0b38f686085f38940ae1fc0513b58398462107a504c80057dd14a73b23e",
+        "verify_F.json": "796ad65d15c296a26d897c3f68abf007f45cd6154889f7fd8cffb52230bc55b8",
+        "verify_T.json": "1df4e7379aea7ca15d0a26fc834e599fb7a60268a58c903ca16a5589e0b7fe7e"
+      },
+      "review_type": "assistant semantic review",
+      "verifier_issue": "candidate invalid instead of target contradiction"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "V5 UNRESOLVED_BRANCH; A27 REFUTES correct",
+      "finding": "E says first won in 1957, C says won before 1957. T constructor repeats biography and omits target; T verifier chooses candidate invalid despite E excluding target. F constructor also negates winning in 1957, an unnecessary contradiction; F verifier correctly marks that candidate invalid rather than treating the legitimate no-prior-win target impossible.",
+      "generator_issue": "T omits target; F over-negates the time boundary and changes E",
+      "id": "e_30dd6de6f0d68233",
+      "raw_sha256": {
+        "baseline_A27.json": "5284c7d784c921af4d93dd238a0263c12a6e61d2e0c79ff9635bb2b767a86c4c",
+        "generate_F.json": "d4d0b7d1c6f202ceb8362b604d93a2d0044a3cd4733c73d9a235da230e74151f",
+        "generate_T.json": "ea236b15a02d59cc84670aec06b293b4d926decb800e0a8cc1dcd0ab5c11ee2a",
+        "verdict.json": "487b7cc084d2efc71e2ad8be9d3d195741918fcd9e5e8e8e61aa98791d10fe56",
+        "verify_F.json": "5b1940165eaed3fd67f36b4fc4da4427c3bc46547e665f17d5eb16636ee77fb6",
+        "verify_T.json": "05196f842eaf91d663c59f2cd9c5b14a34907e93598db5bd041ad6dcce204651"
+      },
+      "review_type": "assistant semantic review",
+      "verifier_issue": "T misses target-priority; F candidate-invalid decision is justified"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "V5 UNRESOLVED_BRANCH and A27 REFUTES both wrong against NEI",
+      "finding": "A 1957 win alone does not exclude earlier wins. T candidate copies biography and omits the required earlier win, so T candidate-invalid is appropriate and does not establish target impossibility. F gives a 1957 win rather than an explicit no-earlier-win witness; its validity is less clear than a fully specified counterexample. Baseline wrongly treats 1957 as excluding all earlier awards.",
+      "generator_issue": "T omits target despite finish_reason stop; F counterexample under-specified",
+      "id": "e_570d201c0593fa2a",
+      "raw_sha256": {
+        "baseline_A27.json": "913a328c9d0b8987c74fbbd2381defb80d9b6c458b947e4a7bb44e6cf82f83b9",
+        "generate_F.json": "e0d37a443d7368af542105ffe2c7e2311bab422d368a7fb8bc7d485f176661cb",
+        "generate_T.json": "e58d48b9284abdd9db6c3f18df71ad001146f06f83fcf71b5410d22a180efa6f",
+        "verdict.json": "2df5f2a083550e7e86a81ce27afd38749e37f8c0cfeb2851d482bb9bcb308541",
+        "verify_F.json": "306840be2615be258b4db2f16246392b99de45aacab5d832f4d700cd4dabaefb",
+        "verify_T.json": "ecd1440712d1ff70008dd868440eafd7272aa13d2f7fea268d338fe20a6846d3"
+      },
+      "review_type": "assistant semantic review",
+      "verifier_issue": "T correctly isolates candidate failure; F explanation risks treating a dated win as exclusive"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "V5 UNRESOLVED_BRANCH; A27 REFUTES correct",
+      "finding": "First of three wins in 1957 excludes any earlier win. T repeats the same incomplete biography as previous PRESUP variants and omits target. T verifier chooses candidate invalid instead of target contradiction, with internally confused partial reason. F candidate and verifier correctly preserve first-in-1957 and no-prior-win.",
+      "generator_issue": "T omits task-specific award assertion while copying biography",
+      "id": "e_66aac7fa7c48a00a",
+      "raw_sha256": {
+        "baseline_A27.json": "18b357545399bd835c0d9e24e64888be0d8ab8dea9256cea32496f5203b51474",
+        "generate_F.json": "cdc6453f2597d1efec631c9a7f34f88ee606903a8e184dbb7963463bd06bbbaf",
+        "generate_T.json": "c337253ee9aac0287c30dcc24f88928c8187299aa2eee7f11c4b7c5ebbd94ab2",
+        "verdict.json": "e67ac301d2de9091839fdb8fefa6f449f0421050cb5fc0d7af1c30f8abe81241",
+        "verify_F.json": "218fb53e2038b321a5efc0fb51cb5050fb8968869cd4f135a84931601f190599",
+        "verify_T.json": "181556b3b2d48c1e3df6c9fd0173332ed62a3d566517a92a01c6fbce040616f6"
+      },
+      "review_type": "assistant semantic review",
+      "verifier_issue": "T wrong target-priority with contradictory incomplete reason; F correct"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "V5 UNRESOLVED_BRANCH; A27 SUPPORTS correct",
+      "finding": "Second win in 1957 implies an earlier win under frozen semantics. T copies unrelated biography and stops before any award assertion; verifier marks that incomplete candidate invalid. F correctly excludes the false target using second-time presupposition. One unknown branch prevents classification despite the correct F decision.",
+      "generator_issue": "T fails to describe the required target; F unnecessarily also negates the 1957 event",
+      "id": "e_d5b21a51414873e5",
+      "raw_sha256": {
+        "baseline_A27.json": "2067ffe8dfb9e3e8fcd56ca441992675c4bbc080aeaa82ea5dca2a2730025862",
+        "generate_F.json": "85d77c9cc2b7d68351521b8870b3a3a1280544d70e90f6d6932008fdff316fb3",
+        "generate_T.json": "ab2ac1afec774392a19edc2297b60051438af4e4604a278bcf4ff3e95e0e0d08",
+        "verdict.json": "dc382d2ef4f95367a05cc1d6ef8cc2276b032980f13d90de7f64cda62897eb29",
+        "verify_F.json": "c772714ce5ff35286b0d160bd8e1a7368d841b65fb58557baa027b816fd14337",
+        "verify_T.json": "5a08c9e3ab8a4219def9dd681e5348a4447cf2764666798c911d80cba3a9026d"
+      },
+      "review_type": "assistant semantic review",
+      "verifier_issue": "F target direction correct; T treats target omission as candidate invalid"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "V5 UNRESOLVED_BRANCH and A27 REFUTES both wrong",
+      "finding": "Still modifies Senate tenure, not repeated prize winning. A dated 1957 win leaves earlier wins open. T candidate only describes the 1957 win and omits the required prior win. T decision candidate-invalid fits that omission, but its reason incorrectly declares C false from E. F again lacks explicit exclusion of prior wins and its reason overstates dated-event evidence.",
+      "generator_issue": "T does not realize earlier-win target; F under-specified no-prior-win witness",
+      "id": "e_f45a62a896640a71",
+      "raw_sha256": {
+        "baseline_A27.json": "122a89ca871bda2f58bbc2489adb4b80e82122a8f3d0a305a08e69441d3921bd",
+        "generate_F.json": "ad639b39216b55e95c534838448ba0180cf1953f0cde2823acab0063338f00bd",
+        "generate_T.json": "4fb49cf8e6805036b7e14193a274037cea7b6a244c01b816d05319e73481c4ee",
+        "verdict.json": "699aa45d2798ccb44e81e6775422dfa4bc10275ff393eae316b9ec1c903d0c3a",
+        "verify_F.json": "3e16c64d6c611eea5ced4bc87b329473782165622737a95262f4cdb3f7e05450",
+        "verify_T.json": "c4058ae8c9aefcf85cb7034ff61526bdee5b9943f3cd10916d754d82fe325159"
+      },
+      "review_type": "assistant semantic review",
+      "verifier_issue": "reasons wrongly infer absence of earlier win from 1957 event; T label does not make its reason sound"
+    }
+  ],
+  "selection": "all currently observed arm disagreements, plus the first challenge example; deterministic broad review queue is also retained",
+  "updated_at": "2026-10-24T10:33:00.899739+00:00"
+}

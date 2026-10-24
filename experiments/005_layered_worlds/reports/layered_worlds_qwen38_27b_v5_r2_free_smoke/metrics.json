@@ -1,0 +1,1475 @@
+{
+  "ambiguous_inflight": [],
+  "baseline_completed": 0,
+  "continuation_accounting": {
+    "combined_lineage_cost_fields_include_parent_usage": true,
+    "new_responses": 26,
+    "new_successful_tokens": 15653,
+    "reused_responses": 22,
+    "reused_tokens_not_charged_again": 9800
+  },
+  "datasets": {
+    "synthetic": {
+      "A27": {
+        "accuracy_all_scheduled": 0.0,
+        "classes": {
+          "NOT ENOUGH INFO": {
+            "f1": 0.0,
+            "precision": 0,
+            "recall": 0.0,
+            "support": 5
+          },
+          "REFUTES": {
+            "f1": 0.0,
+            "precision": 0,
+            "recall": 0.0,
+            "support": 3
+          },
+          "SUPPORTS": {
+            "f1": 0.0,
+            "precision": 0,
+            "recall": 0.0,
+            "support": 2
+          }
+        },
+        "completed": 0,
+        "conditional_accuracy": null,
+        "confusion_matrix": {
+          "NOT ENOUGH INFO": {
+            "INVALID": 5,
+            "NOT ENOUGH INFO": 0,
+            "REFUTES": 0,
+            "SUPPORTS": 0
+          },
+          "REFUTES": {
+            "INVALID": 3,
+            "NOT ENOUGH INFO": 0,
+            "REFUTES": 0,
+            "SUPPORTS": 0
+          },
+          "SUPPORTS": {
+            "INVALID": 2,
+            "NOT ENOUGH INFO": 0,
+            "REFUTES": 0,
+            "SUPPORTS": 0
+          }
+        },
+        "correct": 0,
+        "coverage": 0.0,
+        "macro_f1": 0.0,
+        "nei_to_refutes": 0,
+        "not_run_by_gold": {
+          "NOT ENOUGH INFO": 5,
+          "REFUTES": 3,
+          "SUPPORTS": 2
+        },
+        "refutes_to_nei": 0,
+        "scheduled": 10,
+        "supports_to_nei": 0,
+        "unresolved_by_gold": {},
+        "valid": 0
+      },
+      "V5": {
+        "accuracy_all_scheduled": 1.0,
+        "classes": {
+          "NOT ENOUGH INFO": {
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "support": 5
+          },
+          "REFUTES": {
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "support": 3
+          },
+          "SUPPORTS": {
+            "f1": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "support": 2
+          }
+        },
+        "completed": 10,
+        "conditional_accuracy": 1.0,
+        "confusion_matrix": {
+          "NOT ENOUGH INFO": {
+            "INVALID": 0,
+            "NOT ENOUGH INFO": 5,
+            "REFUTES": 0,
+            "SUPPORTS": 0
+          },
+          "REFUTES": {
+            "INVALID": 0,
+            "NOT ENOUGH INFO": 0,
+            "REFUTES": 3,
+            "SUPPORTS": 0
+          },
+          "SUPPORTS": {
+            "INVALID": 0,
+            "NOT ENOUGH INFO": 0,
+            "REFUTES": 0,
+            "SUPPORTS": 2
+          }
+        },
+        "correct": 10,
+        "coverage": 1.0,
+        "macro_f1": 1.0,
+        "nei_to_refutes": 0,
+        "not_run_by_gold": {},
+        "refutes_to_nei": 0,
+        "scheduled": 10,
+        "supports_to_nei": 0,
+        "unresolved_by_gold": {},
+        "valid": 10
+      },
+      "by_group": {
+        "synthetic_n_attempt": {
+          "A27": {
+            "accuracy_all_scheduled": 0.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.0,
+                "precision": 0,
+                "recall": 0.0,
+                "support": 1
+              },
+              "REFUTES": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "SUPPORTS": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              }
+            },
+            "completed": 0,
+            "conditional_accuracy": null,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 1,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              }
+            },
+            "correct": 0,
+            "coverage": 0.0,
+            "macro_f1": 0.0,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {
+              "NOT ENOUGH INFO": 1
+            },
+            "refutes_to_nei": 0,
+            "scheduled": 1,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 0
+          },
+          "V5": {
+            "accuracy_all_scheduled": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 1
+              },
+              "REFUTES": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "SUPPORTS": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              }
+            },
+            "completed": 1,
+            "conditional_accuracy": 1.0,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              }
+            },
+            "correct": 1,
+            "coverage": 1.0,
+            "macro_f1": 0.3333333333333333,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {},
+            "refutes_to_nei": 0,
+            "scheduled": 1,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 1
+          }
+        },
+        "synthetic_n_conjunction": {
+          "A27": {
+            "accuracy_all_scheduled": 0.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.0,
+                "precision": 0,
+                "recall": 0.0,
+                "support": 1
+              },
+              "REFUTES": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "SUPPORTS": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              }
+            },
+            "completed": 0,
+            "conditional_accuracy": null,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 1,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              }
+            },
+            "correct": 0,
+            "coverage": 0.0,
+            "macro_f1": 0.0,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {
+              "NOT ENOUGH INFO": 1
+            },
+            "refutes_to_nei": 0,
+            "scheduled": 1,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 0
+          },
+          "V5": {
+            "accuracy_all_scheduled": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 1
+              },
+              "REFUTES": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "SUPPORTS": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              }
+            },
+            "completed": 1,
+            "conditional_accuracy": 1.0,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              }
+            },
+            "correct": 1,
+            "coverage": 1.0,
+            "macro_f1": 0.3333333333333333,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {},
+            "refutes_to_nei": 0,
+            "scheduled": 1,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 1
+          }
+        },
+        "synthetic_n_denial": {
+          "A27": {
+            "accuracy_all_scheduled": 0.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.0,
+                "precision": 0,
+                "recall": 0.0,
+                "support": 1
+              },
+              "REFUTES": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "SUPPORTS": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              }
+            },
+            "completed": 0,
+            "conditional_accuracy": null,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 1,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              }
+            },
+            "correct": 0,
+            "coverage": 0.0,
+            "macro_f1": 0.0,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {
+              "NOT ENOUGH INFO": 1
+            },
+            "refutes_to_nei": 0,
+            "scheduled": 1,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 0
+          },
+          "V5": {
+            "accuracy_all_scheduled": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 1
+              },
+              "REFUTES": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "SUPPORTS": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              }
+            },
+            "completed": 1,
+            "conditional_accuracy": 1.0,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              }
+            },
+            "correct": 1,
+            "coverage": 1.0,
+            "macro_f1": 0.3333333333333333,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {},
+            "refutes_to_nei": 0,
+            "scheduled": 1,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 1
+          }
+        },
+        "synthetic_n_openlist": {
+          "A27": {
+            "accuracy_all_scheduled": 0.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.0,
+                "precision": 0,
+                "recall": 0.0,
+                "support": 1
+              },
+              "REFUTES": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "SUPPORTS": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              }
+            },
+            "completed": 0,
+            "conditional_accuracy": null,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 1,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              }
+            },
+            "correct": 0,
+            "coverage": 0.0,
+            "macro_f1": 0.0,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {
+              "NOT ENOUGH INFO": 1
+            },
+            "refutes_to_nei": 0,
+            "scheduled": 1,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 0
+          },
+          "V5": {
+            "accuracy_all_scheduled": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 1
+              },
+              "REFUTES": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "SUPPORTS": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              }
+            },
+            "completed": 1,
+            "conditional_accuracy": 1.0,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              }
+            },
+            "correct": 1,
+            "coverage": 1.0,
+            "macro_f1": 0.3333333333333333,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {},
+            "refutes_to_nei": 0,
+            "scheduled": 1,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 1
+          }
+        },
+        "synthetic_n_water": {
+          "A27": {
+            "accuracy_all_scheduled": 0.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.0,
+                "precision": 0,
+                "recall": 0.0,
+                "support": 1
+              },
+              "REFUTES": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "SUPPORTS": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              }
+            },
+            "completed": 0,
+            "conditional_accuracy": null,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 1,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              }
+            },
+            "correct": 0,
+            "coverage": 0.0,
+            "macro_f1": 0.0,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {
+              "NOT ENOUGH INFO": 1
+            },
+            "refutes_to_nei": 0,
+            "scheduled": 1,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 0
+          },
+          "V5": {
+            "accuracy_all_scheduled": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 1
+              },
+              "REFUTES": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "SUPPORTS": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              }
+            },
+            "completed": 1,
+            "conditional_accuracy": 1.0,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              }
+            },
+            "correct": 1,
+            "coverage": 1.0,
+            "macro_f1": 0.3333333333333333,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {},
+            "refutes_to_nei": 0,
+            "scheduled": 1,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 1
+          }
+        },
+        "synthetic_r_birth": {
+          "A27": {
+            "accuracy_all_scheduled": 0.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "REFUTES": {
+                "f1": 0.0,
+                "precision": 0,
+                "recall": 0.0,
+                "support": 1
+              },
+              "SUPPORTS": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              }
+            },
+            "completed": 0,
+            "conditional_accuracy": null,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 1,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              }
+            },
+            "correct": 0,
+            "coverage": 0.0,
+            "macro_f1": 0.0,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {
+              "REFUTES": 1
+            },
+            "refutes_to_nei": 0,
+            "scheduled": 1,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 0
+          },
+          "V5": {
+            "accuracy_all_scheduled": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 1
+              },
+              "SUPPORTS": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              }
+            },
+            "completed": 1,
+            "conditional_accuracy": 1.0,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 1,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              }
+            },
+            "correct": 1,
+            "coverage": 1.0,
+            "macro_f1": 0.3333333333333333,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {},
+            "refutes_to_nei": 0,
+            "scheduled": 1,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 1
+          }
+        },
+        "synthetic_r_number": {
+          "A27": {
+            "accuracy_all_scheduled": 0.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "REFUTES": {
+                "f1": 0.0,
+                "precision": 0,
+                "recall": 0.0,
+                "support": 1
+              },
+              "SUPPORTS": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              }
+            },
+            "completed": 0,
+            "conditional_accuracy": null,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 1,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              }
+            },
+            "correct": 0,
+            "coverage": 0.0,
+            "macro_f1": 0.0,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {
+              "REFUTES": 1
+            },
+            "refutes_to_nei": 0,
+            "scheduled": 1,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 0
+          },
+          "V5": {
+            "accuracy_all_scheduled": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 1
+              },
+              "SUPPORTS": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              }
+            },
+            "completed": 1,
+            "conditional_accuracy": 1.0,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 1,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              }
+            },
+            "correct": 1,
+            "coverage": 1.0,
+            "macro_f1": 0.3333333333333333,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {},
+            "refutes_to_nei": 0,
+            "scheduled": 1,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 1
+          }
+        },
+        "synthetic_r_only": {
+          "A27": {
+            "accuracy_all_scheduled": 0.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "REFUTES": {
+                "f1": 0.0,
+                "precision": 0,
+                "recall": 0.0,
+                "support": 1
+              },
+              "SUPPORTS": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              }
+            },
+            "completed": 0,
+            "conditional_accuracy": null,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 1,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              }
+            },
+            "correct": 0,
+            "coverage": 0.0,
+            "macro_f1": 0.0,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {
+              "REFUTES": 1
+            },
+            "refutes_to_nei": 0,
+            "scheduled": 1,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 0
+          },
+          "V5": {
+            "accuracy_all_scheduled": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 1
+              },
+              "SUPPORTS": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              }
+            },
+            "completed": 1,
+            "conditional_accuracy": 1.0,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 1,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              }
+            },
+            "correct": 1,
+            "coverage": 1.0,
+            "macro_f1": 0.3333333333333333,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {},
+            "refutes_to_nei": 0,
+            "scheduled": 1,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 1
+          }
+        },
+        "synthetic_s_equal": {
+          "A27": {
+            "accuracy_all_scheduled": 0.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "REFUTES": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "SUPPORTS": {
+                "f1": 0.0,
+                "precision": 0,
+                "recall": 0.0,
+                "support": 1
+              }
+            },
+            "completed": 0,
+            "conditional_accuracy": null,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 1,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              }
+            },
+            "correct": 0,
+            "coverage": 0.0,
+            "macro_f1": 0.0,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {
+              "SUPPORTS": 1
+            },
+            "refutes_to_nei": 0,
+            "scheduled": 1,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 0
+          },
+          "V5": {
+            "accuracy_all_scheduled": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "REFUTES": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 1
+              }
+            },
+            "completed": 1,
+            "conditional_accuracy": 1.0,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 1
+              }
+            },
+            "correct": 1,
+            "coverage": 1.0,
+            "macro_f1": 0.3333333333333333,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {},
+            "refutes_to_nei": 0,
+            "scheduled": 1,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 1
+          }
+        },
+        "synthetic_s_interval": {
+          "A27": {
+            "accuracy_all_scheduled": 0.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "REFUTES": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "SUPPORTS": {
+                "f1": 0.0,
+                "precision": 0,
+                "recall": 0.0,
+                "support": 1
+              }
+            },
+            "completed": 0,
+            "conditional_accuracy": null,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 1,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              }
+            },
+            "correct": 0,
+            "coverage": 0.0,
+            "macro_f1": 0.0,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {
+              "SUPPORTS": 1
+            },
+            "refutes_to_nei": 0,
+            "scheduled": 1,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 0
+          },
+          "V5": {
+            "accuracy_all_scheduled": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "REFUTES": {
+                "f1": 0,
+                "precision": 0,
+                "recall": null,
+                "support": 0
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 1
+              }
+            },
+            "completed": 1,
+            "conditional_accuracy": 1.0,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 1
+              }
+            },
+            "correct": 1,
+            "coverage": 1.0,
+            "macro_f1": 0.3333333333333333,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {},
+            "refutes_to_nei": 0,
+            "scheduled": 1,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 1
+          }
+        }
+      },
+      "by_mechanism": {
+        "synthetic": {
+          "A27": {
+            "accuracy_all_scheduled": 0.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.0,
+                "precision": 0,
+                "recall": 0.0,
+                "support": 5
+              },
+              "REFUTES": {
+                "f1": 0.0,
+                "precision": 0,
+                "recall": 0.0,
+                "support": 3
+              },
+              "SUPPORTS": {
+                "f1": 0.0,
+                "precision": 0,
+                "recall": 0.0,
+                "support": 2
+              }
+            },
+            "completed": 0,
+            "conditional_accuracy": null,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 5,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 3,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 2,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              }
+            },
+            "correct": 0,
+            "coverage": 0.0,
+            "macro_f1": 0.0,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {
+              "NOT ENOUGH INFO": 5,
+              "REFUTES": 3,
+              "SUPPORTS": 2
+            },
+            "refutes_to_nei": 0,
+            "scheduled": 10,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 0
+          },
+          "V5": {
+            "accuracy_all_scheduled": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 5
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 3
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 2
+              }
+            },
+            "completed": 10,
+            "conditional_accuracy": 1.0,
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 5,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 3,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 2
+              }
+            },
+            "correct": 10,
+            "coverage": 1.0,
+            "macro_f1": 1.0,
+            "nei_to_refutes": 0,
+            "not_run_by_gold": {},
+            "refutes_to_nei": 0,
+            "scheduled": 10,
+            "supports_to_nei": 0,
+            "unresolved_by_gold": {},
+            "valid": 10
+          }
+        }
+      },
+      "decision_pairs": {
+        "('TARGET_CONTRADICTS_EVIDENCE', 'WITNESS_VALID')": 3,
+        "('WITNESS_VALID', 'TARGET_CONTRADICTS_EVIDENCE')": 2,
+        "('WITNESS_VALID', 'WITNESS_VALID')": 5
+      },
+      "paired": {
+        "complete_pair_subset_is_not_full_evaluation": true,
+        "complete_pairs": 0,
+        "delta_on_complete_pairs": null,
+        "harmed_ids": [],
+        "improved_ids": [],
+        "scheduled": 10
+      }
+    }
+  },
+  "estimates_are_not_formal_satisfiability_proofs": true,
+  "failures": [],
+  "generated_at": "2026-10-24T09:45:19.646001+00:00",
+  "no_formal_metrics_claimed_when_unrun": true,
+  "phase": "smoke",
+  "planned_items": 10,
+  "received_responses_all_phases": 48,
+  "run_id": "layered_worlds_qwen38_27b_v5_r2_free",
+  "stage_costs": {
+    "baseline_A27": {
+      "client_seconds_including_throttle": 0,
+      "completion_tokens": 0,
+      "decisions": {},
+      "length_limit_hits": 0,
+      "prompt_tokens": 0,
+      "protocol_valid": 0,
+      "received": 0,
+      "schema_valid": 0
+    },
+    "generate_F": {
+      "client_seconds_including_throttle": 28.83525061607361,
+      "completion_tokens": 584,
+      "decisions": {
+        "null": 10
+      },
+      "length_limit_hits": 0,
+      "prompt_tokens": 4201,
+      "protocol_valid": 10,
+      "received": 10,
+      "schema_valid": 10
+    },
+    "generate_T": {
+      "client_seconds_including_throttle": 27.256243467330933,
+      "completion_tokens": 475,
+      "decisions": {
+        "null": 10
+      },
+      "length_limit_hits": 0,
+      "prompt_tokens": 3571,
+      "protocol_valid": 10,
+      "received": 10,
+      "schema_valid": 10
+    },
+    "verify_F": {
+      "client_seconds_including_throttle": 422.2330813407898,
+      "completion_tokens": 862,
+      "decisions": {
+        "TARGET_CONTRADICTS_EVIDENCE": 2,
+        "WITNESS_VALID": 8
+      },
+      "length_limit_hits": 10,
+      "prompt_tokens": 6855,
+      "protocol_valid": 10,
+      "received": 10,
+      "schema_valid": 10
+    },
+    "verify_T": {
+      "client_seconds_including_throttle": 69.00652432441711,
+      "completion_tokens": 844,
+      "decisions": {
+        "TARGET_CONTRADICTS_EVIDENCE": 3,
+        "WITNESS_VALID": 7
+      },
+      "length_limit_hits": 8,
+      "prompt_tokens": 6266,
+      "protocol_valid": 10,
+      "received": 10,
+      "schema_valid": 10
+    }
+  },
+  "state": "complete",
+  "successful_usage_all_phases": 25453,
+  "v5_completed": 10
+}

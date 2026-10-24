@@ -1,0 +1,553 @@
+{
+  "groups": [
+    {
+      "dataset": "basic",
+      "findings": "States correctly distinguish identity entailment, conjunction entailment, explicit nowhere-else exclusion, and an open relation that permits another club. Incompatible false candidates are correctly rejected at target level for the two SUPPORTS items. Reason character limits still prevent claiming complete proof text.",
+      "mechanism": "FUNCTIONAL",
+      "reviewed_ids": [
+        "e_2ae7b35c4bdf7f99",
+        "e_53e2fcc1c898c4fe",
+        "e_757bb5eff85022e0",
+        "e_954b8047d2b58bdf"
+      ],
+      "scope": "all four constructors/verifiers for each of the four completed items",
+      "source_sha256": {
+        "e_2ae7b35c4bdf7f99": {
+          "baseline_A27.json": "06e072f06e5d631fd40ceea9c25c2968171658c04ed28d85d3c792c374930a67",
+          "generate_F.json": "7e18f237326d6594f26671d2ab739befe5b29f0da85ac971a5846d12b7296fe9",
+          "generate_T.json": "612e9ea89a4e1b504f8f51db6f1754e0cd9b8bb9115511ca9d91ca4c974dfa85",
+          "verdict.json": "8e8e4a4ea4927e8d70cb707e96e93bd79b41fd872149d196afd6bea8ff9abe7e",
+          "verify_F.json": "fe5b0b7a52f589546bd34fa5ee270ceea3b1cc52ed4893bb6754683bd26f7da0",
+          "verify_T.json": "bff32559c45cac2b4f14721c6824a98f293aef17fa0dc528be29b09a24fc111f"
+        },
+        "e_53e2fcc1c898c4fe": {
+          "baseline_A27.json": "e8cf877e6c08aa1661983214c9b5e2c56528e216f6932d383fc9d390533cfec4",
+          "generate_F.json": "1e7a864b2d91aaaacd8d88593ba947d0e5bdf2cdd872b43bd09265212328ee1a",
+          "generate_T.json": "56421dbcd96429795cd28e5805b7e7a94cc7e23b9c0d643794cb22af8e7eb744",
+          "verdict.json": "afd1d7f9fb8736648df8632c8971a39d832d943edc33dfab564a70a6d0503404",
+          "verify_F.json": "54546e42825185ba373d7209da2d5482df6d9942bf4d050d7b210d3d3de311a6",
+          "verify_T.json": "fba785bf120f7761d90e3b297a4871a697d2c2cec59b3fdce1e85968c3e9959c"
+        },
+        "e_757bb5eff85022e0": {
+          "baseline_A27.json": "dba590a094a759d8ca3ccd9004961236bd88c1e8eb5db43c640b736e0b77488e",
+          "generate_F.json": "4e6691440272c13c1ddf80d37ace95266448de4f4f816308eedc636b53e7e7e6",
+          "generate_T.json": "645b245099388c2e08392593b8ff0007d6a60835d9b362675cf5f28a4e7f1fcc",
+          "verdict.json": "def12540be04c33ffea2b9ae4215b0be643a4d9daa00938ac3e2e26a791d87b0",
+          "verify_F.json": "46a5dc539ef9990ae7bb2ac50649bd7e2d442cf24857a7eac5a517b8bbdc8e0c",
+          "verify_T.json": "bb467a645070c43d942731143b989b2fd7f650b0a3e119c628bb10f7ae00f24e"
+        },
+        "e_954b8047d2b58bdf": {
+          "baseline_A27.json": "85473445c792413167c71f635196371269fee0c86a80c7b45302b857a62949cb",
+          "generate_F.json": "838db50d054e8a11c1a663db0bc379a30118424a506970c28816f57d3d942e53",
+          "generate_T.json": "800d65c18f0554f9cd9fdfbf1e14cd0819a11605ce5045322503d5358a28e648",
+          "verdict.json": "9c7466ebd713bfa6fd57388c57325c4ab597d5ad997378ca9e38d780f816c906",
+          "verify_F.json": "26b02ae30cb95e3f654d660f7c0cb6f66ef632e5de01817f9df25837d62525ec",
+          "verify_T.json": "89969b358a676d01a53d1eb26242e6d120f527be2332cbe9a61819cdd266a965"
+        }
+      }
+    },
+    {
+      "dataset": "basic",
+      "findings": "All nine REFUTES items have correct true-target exclusion and valid false witnesses; six NEI items use distinct concrete counts consistent with the bounds. The identical E/C SUPPORTS item fails because F redefines appeared and F verifier selects candidate invalid rather than target contradiction. Inclusive-between follows frozen dataset semantics. A contradictory true candidate is allowed when the target conflicts with E, so it is not by itself counted as generator failure. Some generator text also narrates consistency/contradiction despite the no-evaluation instruction, and some text ends mid-sentence below the schema maximum. No label repair performed.",
+      "mechanism": "BOUND",
+      "reviewed_ids": [
+        "e_20c3575307e9a440",
+        "e_282ab23e7e573683",
+        "e_5c205ae561a0ad11",
+        "e_6bdfd31798e654b3",
+        "e_70b7b6465b23cd81",
+        "e_70edff6451b7ce18",
+        "e_7381f5b396acaeaa",
+        "e_8d0990d4546c6418",
+        "e_c56e12523fe2b8a5",
+        "e_ce7457cccf204fd5",
+        "e_d693a44a5249db2d",
+        "e_e01e420f6b6f073c",
+        "e_e5970b57194a5223",
+        "e_ee956cf60c148d4d",
+        "e_f61bfaa7df780b92",
+        "e_fb5c1a15504fa0eb"
+      ],
+      "scope": "all four roles for all 16 completed items",
+      "source_sha256": {
+        "e_20c3575307e9a440": {
+          "baseline_A27.json": "2d26b289cf187d62c362582c704c7e2b9deefc7b05029539925e3712d06e91f6",
+          "generate_F.json": "71f30661f019a5e7d33fab67ef0d424c2fd2eab0c003c606b72c95ece8515a00",
+          "generate_T.json": "957c222df36bba7fd635b53a7f06680dea3e8c36e1890b0e0d677f88b4de965e",
+          "verdict.json": "8b03defd34cf0821702cd63d19b12f98b9f9c8307a7d693f6b0c0b0fe5460e1a",
+          "verify_F.json": "bc15a234a94300f08af30a33450957b84ee4a9430c14c2c027adb1634cc7f937",
+          "verify_T.json": "493b815693b26480de538ff60af8a1392c0aa0b6afcbb4ed4171cfab76186e68"
+        },
+        "e_282ab23e7e573683": {
+          "baseline_A27.json": "c5e73e8a2920ce91571daef9809ca5182e7aa187491676a169572c7a76d1f8c6",
+          "generate_F.json": "ef2ef4ef58490728f18b75ad27982551e753fd282c3dc54f464615b7152e15ef",
+          "generate_T.json": "25c714319ca1293188a458e0b8291375ac3c9be366e32f3c779ab7c3e182dad5",
+          "verdict.json": "6c9e440275bba625d92109c0b4e886842be68ad09904d890e05e3a3a08d7699f",
+          "verify_F.json": "b0473219757c9f8cd2350748795b0e557dd69ec0ca3f99d710aac6c162ca53dd",
+          "verify_T.json": "1eb8f6984facf4274d1e9e53d0edd5e7c8c1d23e6a635dfc616595df824f5a46"
+        },
+        "e_5c205ae561a0ad11": {
+          "baseline_A27.json": "4f8049645a68ec41232d8116a5a1c5c76232624d5e1260d447b47965f3e5e06d",
+          "generate_F.json": "2fed201f24e9fb6b4080defab28c45cb1325a229515c04fbc34c8c2b8579a087",
+          "generate_T.json": "6e169dabcaba879ae523e77f44590e97788c43e87799a7ef7b666bbd6a533e33",
+          "verdict.json": "6ab95b36fc834fed39100cac83d42df0e21227fe0795d832a2e16ae9b72fe817",
+          "verify_F.json": "8066b3900b93642d61cf31f62bd6b8f4dbd3154dec57d3f00d7f90a8c5eb429c",
+          "verify_T.json": "636538131abe54f16a685881b9049e02d463b25deeebc39adb04a10b33a3dd36"
+        },
+        "e_6bdfd31798e654b3": {
+          "baseline_A27.json": "ae45dbc420a879f671a19465583e4257637350a0bab4c448bb0ac734a84b55dd",
+          "generate_F.json": "7136bb28c15b30f3a0d8cc6dd78105a401ed4b2033faf0c15787e5034e5f2b02",
+          "generate_T.json": "99dd9fb61f2c556b9b6e354cc3276b640ead5e3819d1356736b93b8a25686e3b",
+          "verdict.json": "7e068e1971dcc84a6fb3b1eba59f6fbbabf2d6ca8415f346c8b68eb379ba3eee",
+          "verify_F.json": "d2e253465b064cd9aa7c3dd13ada3376eea33b44c8c0ec0398fb909ede5b917f",
+          "verify_T.json": "f9fbea2cfb59c56798dde71ecb253ecc0366d0dbe70c2de18c3a787e27386637"
+        },
+        "e_70b7b6465b23cd81": {
+          "baseline_A27.json": "895318c38af4bfd5469cf84d25b70ae79257c5f85f001400a154b9429211500f",
+          "generate_F.json": "cdd3f608928bc1db93804461549880727da86ff3485a61f8d8e5d30c025ec014",
+          "generate_T.json": "72dc899d4344a8dc1428b377fb72c5adb56246f9492e2b52a39389ba361ad56c",
+          "verdict.json": "feb0c2e746699ed78c676f35e111253ef546d16efd8e1684ec9ae8f7447bdeb3",
+          "verify_F.json": "60396b35e3bd0f9093c702bb0ca82b8a4f7d76b3b719f9a61f59c1f186c952b3",
+          "verify_T.json": "9993471d564cacc1b9ed344a3edadcac74d9255fdc1c347869a6eb6031566765"
+        },
+        "e_70edff6451b7ce18": {
+          "baseline_A27.json": "17dbf6e4f6a1a8ff3e9b71b10919a2f348079a3e0a3d62af77ef4f9cb7bf396f",
+          "generate_F.json": "52ca236760e8534ead32df75675b6628b45704173fd4670c59401242e17a1cd6",
+          "generate_T.json": "19922b97de4a67b001865ec183ac74d689253293cddd11a798b109fe9568eef2",
+          "verdict.json": "bfff339e91f8e304aa6c4903681750b49a4f593005c1cbb53d108002cded4699",
+          "verify_F.json": "6e19012f2f0ea1786c09b678928368b2a160f01aaf39783f6f965d25bd48e307",
+          "verify_T.json": "18020d2247449aa8648255c3eb962d4cb60caf340e4aefbe9d7a8143c01f9bfd"
+        },
+        "e_7381f5b396acaeaa": {
+          "baseline_A27.json": "e3ac1984abc9d9f0e6373763b31845603948b06bea882a6a161c778a14a806c7",
+          "generate_F.json": "916d573d9da5d9c7397a40e1be485435fd605e0cb3a06b3acc6e1c6476a486ab",
+          "generate_T.json": "9f7147bafdc335db5741f77becd0673a99d0bc2d4c30184225c6151df29fd04d",
+          "verdict.json": "6d241945033d79069c9063596b1d398ec891a595c5fd938a95e5e0973b9d98d0",
+          "verify_F.json": "91edb1c2ce7ae2318c01e48064c386bc7b8c6a2f4f17c82c9494086f28ee6c1b",
+          "verify_T.json": "cd39277c483002ac328233b47712e91f706e6322f781503db110bb82ad90f390"
+        },
+        "e_8d0990d4546c6418": {
+          "baseline_A27.json": "1d90b95911400eb910b2d960e05560b1799f5ee76d7aa461c87cc66c52a5b5aa",
+          "generate_F.json": "52f318ddfbb381d99421ba5a2978036d888df615b6e2c7a8087c44de89e21be4",
+          "generate_T.json": "c507ad30387eaa0d1d537691654beb75598f4e766cbb27c4e48585f1fcd25958",
+          "verdict.json": "b953ee70158421834624711edc8302ae7ad1560529e1bc7ce1c3abac1a3856c9",
+          "verify_F.json": "6931e52c7e6fed396e46b37bae6fb93d263f8cc9dc8b776c31592deb4ffd1118",
+          "verify_T.json": "3cf3fc9b394f33219bdb2dd260f6aefd4ce56625112cee27c9877d410fca24c5"
+        },
+        "e_c56e12523fe2b8a5": {
+          "baseline_A27.json": "e246a4b6641e307917c20d4e8970c2a19d2cf7c011b3b2d343bec35a2a17804f",
+          "generate_F.json": "88673a4d4e39a16e3b8babb2cfb06378a5f665d3c4e49f76c4ed148f94bc2699",
+          "generate_T.json": "c2f38bd4384d636fd10ffcf72c0115d602a55ecc2bc3861529d9399882fc9b39",
+          "verdict.json": "4ed2ae86eeeb603a4a5dcbf0ef2ea7c0a0877869c3413a2c2568f003c56d9eba",
+          "verify_F.json": "9c8014c3660b04a1414bbbbac22b5720359d4e964c22877c05fa8a47b4c91172",
+          "verify_T.json": "cbb5d06e9ba44614eae3741f41ef33b4f67253623ba69acb3df97274bb62a07d"
+        },
+        "e_ce7457cccf204fd5": {
+          "baseline_A27.json": "90392fb3c16f72fa09c2239326c7426750e5792ed4e5ea7baa1f3e5b6fad97b0",
+          "generate_F.json": "e0b65cb968e71b7e7af68b8b940cb98fecfe8fc80c25a8901e72d129a2fc12ad",
+          "generate_T.json": "bfe7ab073c390350a4dcc2f1d0e0f1618a67592e1e23f550cc302c0c87a6f558",
+          "verdict.json": "8f0d184e1c1d6c708ce39f8e705beb91d4baa13e518cfc3ca9113ed25fff9114",
+          "verify_F.json": "dd7f54df0f0b074f7d6dc2341e8a98b33b0afeea6d19d9a0b0f3b1020e9b5d44",
+          "verify_T.json": "665ceebaa335ed036c4513422f8907b81d9ec5b36d88826891eea609593e8ec0"
+        },
+        "e_d693a44a5249db2d": {
+          "baseline_A27.json": "c69b2a7a5a15b1e68d79c5451062acc290fff52e7a54fc7677c73bbb495ad1ba",
+          "generate_F.json": "2c3b52ec386e329b667bde2ab05167d3716a144c57b0618e26f2916a70a5610d",
+          "generate_T.json": "17c87e6be6181a167eea9c5248d3891d3cdf3142cc4340982377ebb95661336e",
+          "verdict.json": "6465f7814c8bf96f241c5f72591f52997bab92a83e8a427f99dcb50ce8848189",
+          "verify_F.json": "8ecb67d4fb20edc246d51a339b1671629ee9a92e059a9827b3ff56c54334ce66",
+          "verify_T.json": "7bada428dbb8907f3c83ddc5beb9a16db605cd7fc173980f93313641dcd3ccf1"
+        },
+        "e_e01e420f6b6f073c": {
+          "baseline_A27.json": "06bd6d8dd7fd0ad1f8eb8d99f8a0fe2b02430b7fff56377162afba6f5180e48d",
+          "generate_F.json": "d1acd7ece8f050458db0568b44c318acdd57b7b39bfacef3d45f4ffa069e9d85",
+          "generate_T.json": "317a4dc0eb03ba7d24f4ac0a5bd158dc179a21315d86bab41c0fc424864ac202",
+          "verdict.json": "728e0286fe0b66a494b53aa4817d625f228f179777e482019bacfde81e366684",
+          "verify_F.json": "7385260bfbec9a76efc8e802838fd2e7e7b2d24b14a3e5f4aca26b0e5083f489",
+          "verify_T.json": "d505cd14b475c5095916a8d2f9aecce376e9afd2d68500ed4ee561c4e307e02b"
+        },
+        "e_e5970b57194a5223": {
+          "baseline_A27.json": "e485f1d43293bcb50a627c839d8a8353edc3bb044aa25f840a381e9f95999b6d",
+          "generate_F.json": "78408d064ea4f448243dd5a0cbc050e54ee7e5d1d966c86da83f3801aae293f5",
+          "generate_T.json": "4ccf7d0181dedbc62e3860d12cba7994b500d52cf5164f4cc04a840218f1bf8a",
+          "verdict.json": "cc3341ed84b0f8eecb1433d79e5449a6a9428084487a466cbb05ed129847a4fd",
+          "verify_F.json": "68b7b40cc2a881ef61210878a2f08563094073e0c6872faebd31fe6b8e7b74b7",
+          "verify_T.json": "d05934dc7e8b3e62da0c605e2e8d593d2be13e20cd6fff0f6a31c04bfcafe6c6"
+        },
+        "e_ee956cf60c148d4d": {
+          "baseline_A27.json": "48323cc5e8a1d7a676415ae133148b3c5616a21c7a31a6a6a493f2c44cec7df8",
+          "generate_F.json": "cfab32919eebb1364ba86a16f78a956274daa67ac079a9f6bdeeedd4227617d3",
+          "generate_T.json": "6b42edbe15c1298d9946498688624a4a90d08dc81ac0230dc73b648d21618b13",
+          "verdict.json": "a9d008db55032366e321b40d72c9abf31fa86b530f7cc823e5c9ae446c107c58",
+          "verify_F.json": "28245721d0c4392b2c4f72d189c252c3a2afce1c5e8f8bfb32aecf4b179b02c1",
+          "verify_T.json": "8892872538e97e7160b63a8bc6e34f7e31c9ddbc0ae75908ca2cbf1181bd7a5d"
+        },
+        "e_f61bfaa7df780b92": {
+          "baseline_A27.json": "e2c8bc05e42490826b0f43cce0c1ae60b7fe7bea674729f0c094b8c3c368b68f",
+          "generate_F.json": "e6e6376d79bd8e3940f104c10c70b0de6964b1dd0503c68e89a65c0204cf899c",
+          "generate_T.json": "d9fecd75255a2f09d9884bf80ae78de427bcb9c33a724fd6cdb5c0789e705860",
+          "verdict.json": "63c780939c4491d7bd37fa140efcab9b629306b4419bccb8bfdd175db63eecdb",
+          "verify_F.json": "91d7ec4dfce3209903750c55fa02e85ce486a3c17dd5c3c86370c68ea5875de1",
+          "verify_T.json": "01625f13ad57a77e34579fb89571ba6c9501a1fa8f164afa811f4f744c36ebe0"
+        },
+        "e_fb5c1a15504fa0eb": {
+          "baseline_A27.json": "1840d7baf273d1319fa3caf030e4656c244d3e6a9d5db93d01c0d79b68221b2f",
+          "generate_F.json": "7d6d5180fd3bce560b448de161131860d815255f04d77cf2d17590bfc8107771",
+          "generate_T.json": "800ea644d68da8f185dec59944c0a303371db6380d4eb975317f337a0a13c1bd",
+          "verdict.json": "a6ef0f5f4a88ef34e8e7960b2a1eb450e16bba23a7a172336e82a70483070d32",
+          "verify_F.json": "3b5f7a6ee792b050dbf277dbe354515794d2f5cd23bb82844a4534e449d3a0d7",
+          "verify_T.json": "71940ea6c762989a1d3d467601fed42d34e9041d7f14f49b927b98d9ef2c6487"
+        }
+      }
+    },
+    {
+      "dataset": "basic",
+      "findings": "All 11 items reviewed. Attempted/planned/offered/expected retain open outcomes; unable/not-manage/refused follow frozen gold REFUTES. Wrong double-negation and later-revocation witnesses are accepted on not-fail and forced, causing two SUPPORTS to NEI errors. For went-on and succeeded, F invents a different award instance, but verifier correctly rejects the false target using original E. The refused/forced wording is unnatural and original basic human review remains pending; results are against frozen gold, not new human adjudication.",
+      "mechanism": "IMPLICATIVE",
+      "reviewed_ids": [
+        "e_0644dfaf3a1f2f82",
+        "e_2293555407050dde",
+        "e_26cfabd347083698",
+        "e_2d14da4a719694f2",
+        "e_2f945afd5c3353cf",
+        "e_372f63672138b030",
+        "e_39adee2bc1e67cdb",
+        "e_4083ff4f7f138c73",
+        "e_574189be24859afc",
+        "e_997cb104a6c51234",
+        "e_b39e60d447c89dc2"
+      ],
+      "scope": "all four roles for every item in this completed group",
+      "source_sha256": {
+        "e_0644dfaf3a1f2f82": {
+          "baseline_A27.json": "e2650d3a7e265825a0ed2c2ca8c0d49d36d06fb053adee5e8ee7a9a7f46fdb29",
+          "generate_F.json": "1181d1e9a123dde11e51aa8fea61c96921c2616e00eebd547b7dceeb721931d8",
+          "generate_T.json": "3c4c54751865ce474cc46e7ae78c3f6c791d95a93b777debe9929c2241df38b4",
+          "verdict.json": "2644b34fb5248e17846334fb3e186f6d58cf4c44bd2cfc79e96700f6465befca",
+          "verify_F.json": "f54b6fdeed890cc0b71626f13090ad6ca459b29fc2da7e0f4414c396569a0772",
+          "verify_T.json": "32cc10a25d664c9650b48d854898522e06ec168abb27585f7d7326874531f405"
+        },
+        "e_2293555407050dde": {
+          "baseline_A27.json": "c638a64667769789987e226dbe30bab86222add0a1e983fc8648d3d1e6d87658",
+          "generate_F.json": "e880067ecfa6a4963c38572fab5912f33398f3ad2e103e28d3897382c843af47",
+          "generate_T.json": "2ea4cef7f806c336963283466afa8735eaee23a1170979b336e42f1886292a3f",
+          "verdict.json": "834d9a584970e88666818a9a504fe56fc0f6e454aca589a2f690a46e2696a245",
+          "verify_F.json": "8b3284897c4e2aa1cff382f89491c34d5074d7103b85722d1dee8923bbd721ab",
+          "verify_T.json": "2ce68d85e5c34df3eb75dbb55e419678dcf4c5549b76f4b505ac666de10b7b5b"
+        },
+        "e_26cfabd347083698": {
+          "baseline_A27.json": "b5530cbbe7ac687c100a9ec647981e3172f5977070a081cb6ee9e763742bc398",
+          "generate_F.json": "7f2fdd660b0408f61a599e63c010a32d600f7456f8e255b7a7b988824da29e39",
+          "generate_T.json": "6f0f185629ca336e1fb4b900a11226289c2dc6b9189a225b402ad3405b59bfa9",
+          "verdict.json": "f9f7d90361e4d4f87677bfb5722acef7f26938057ee6597598619fba26520909",
+          "verify_F.json": "26f09dea1920717732980b562ef88c81ec1098d53b650577f95415cc28c4373e",
+          "verify_T.json": "00f5944ae2bcb7b8b88b70c13bc5a168fdd28fbb4b6d27fc85f911e26fac0352"
+        },
+        "e_2d14da4a719694f2": {
+          "baseline_A27.json": "a68787e627ac28b2176866a6e7205cf460684ed73ac73eeb3a57248b2a4f835e",
+          "generate_F.json": "6ef6c10ecbcad34ef8a2cc7185ba85b6df6b4ec5d36d348f8e39579452d76499",
+          "generate_T.json": "52cf15467616e4cc781a1c9e9512b23a8945b2a616fb67bd538cd5491ae5b1bb",
+          "verdict.json": "94a46dfe21112aceb1936e261f2c68172289836b685a8549267c689954e1779c",
+          "verify_F.json": "164be4acd5a6c93a4cf631b76ae8a40e14787232b5fcdfb7fa0032a90c8010f5",
+          "verify_T.json": "d2dc9f0ae5ac12e2e294557e09de84f216c983a04b784e1e7252c980f16311b8"
+        },
+        "e_2f945afd5c3353cf": {
+          "baseline_A27.json": "e55a39109851b27afbfe981a2ce7edeab9cdb5511305dd3dd130a0f306143919",
+          "generate_F.json": "d3cbeff81c2beb847bbca09da83bf8cb2822a7f8490b63a26ab544f0ba1f3e85",
+          "generate_T.json": "f7a6da6e48f060ff5d916e4a165a3822698699cf7ee21d2e46ca22584b9a0cb0",
+          "verdict.json": "01e1fbb3ca8ebcc01a129abfa65635e5bee188abe29bee2c427b9b2eb506d781",
+          "verify_F.json": "3e3fdc230e9c879089f931e346dce90dead102915af73974e6795ac5a59ac1c2",
+          "verify_T.json": "68e410670dc1ea59f8c09622e3024bf363ffcfe931950f6211c6f5ca695192bf"
+        },
+        "e_372f63672138b030": {
+          "baseline_A27.json": "93e0061102e2607c0ce0d9e710a2104d2c91f13874a95c1ff7f970feb4fc5207",
+          "generate_F.json": "23b402e8a814f5c1ff326285a41040d1668ff8716b401d5ab3e8338fa9c81ee3",
+          "generate_T.json": "60777f6ac316baf0298300954eaf2a7121f2bf3ea57f4a3cf271a6c7ee460ba3",
+          "verdict.json": "7aaac0efa52520f4c8e2958eaefa13e39cdfa3cce1e160f64e532daf9d5983db",
+          "verify_F.json": "a876eaa5019a60f77aef3901be7b141e2f071be7ee86096cd8968c236c603877",
+          "verify_T.json": "1ef70ea89d9adbaad889c8920e3b440ccb2ccd51a2995b6d6e9f42288c93f70a"
+        },
+        "e_39adee2bc1e67cdb": {
+          "baseline_A27.json": "0d76166de1a76cd25737e71aad823229e05a8b646b1506898bf27530c26f75a0",
+          "generate_F.json": "34092c1d10cd9c575f9b22ca4673fc0dcc8c37e9ee4a2065ebd5cf7b1340ad58",
+          "generate_T.json": "89e14785fcb85c6200b5040ccaa3b663e401b43599241a334d89605ab4b6cc06",
+          "verdict.json": "91f63bfb54fabd26777c493fb7efe34304d016bd2a08eb141b5c7da1227216a8",
+          "verify_F.json": "63935dca142b4a357d64705be29e12e8368935c8a96383a0af1bbd504f10751b",
+          "verify_T.json": "bc77b66d7a48cf2c1225c36a6d5f0e100fb505df34090b1013ff22a34f4b20d3"
+        },
+        "e_4083ff4f7f138c73": {
+          "baseline_A27.json": "a0f1305768e90b479c93508278d6d1d6f634c99c7a02fdc9c420db83060fdd3d",
+          "generate_F.json": "1a5c5136316b08ca7cde9785a69d3394b1c00a18a347a72e46e55334d1feb75d",
+          "generate_T.json": "d28b4d0da94ad7d459e7849827f6f32bf84481c70eab9937aff241e700d9b6d4",
+          "verdict.json": "a2d49d1e060f53dc1a15b9cdca8cf626a9ed1ea3eb7274b592a610be106c09a4",
+          "verify_F.json": "877512e8c435e927a46850cf4a6abcd7890bb151879f7353a3bb9f54c796ff62",
+          "verify_T.json": "947ba1e6e3545c7a57ecaf40e63f9e8db76a651c72bd87578e0e7d106d44f936"
+        },
+        "e_574189be24859afc": {
+          "baseline_A27.json": "a4b5517c7d2f78faa91a8cdf1ed0df3bf2cb7151e5541bb42cdfcb7485914fc0",
+          "generate_F.json": "b79c655df998c0294f6d7427175021df6fbdbd095cd957254e8433a22e707528",
+          "generate_T.json": "4a7d8f21ef476d97ffe29e84106be02d021948777eba06c01f43fb2a2b2e931e",
+          "verdict.json": "adc29fe01e6437d6c898388a8121098fe908c32d84d26c893db0e23631e850f2",
+          "verify_F.json": "6466b10c86b5c9f90a59ea001a2c0ec7ea70b3d1fcd52e396b9b54b599851ff4",
+          "verify_T.json": "33a007567e05e139cc5f31a374b065a9525ef707381026bfe3fe9ce6a3f654dc"
+        },
+        "e_997cb104a6c51234": {
+          "baseline_A27.json": "a511540d1c338845ab4c7fc776d563e98df7e16236f94d3cc5c595e18cf2fe26",
+          "generate_F.json": "580d56ec75fd7a82efb300df08915306055ab1404b29344ff0563284945b2ddd",
+          "generate_T.json": "868c0449e8d6da2e9445ceff7647ac30c2f35f2db6e85b75c98a0aecb82c1399",
+          "verdict.json": "c13d17478598317f6200c336441ca7f7fafe4e2067aab0052f387faefdb44ce2",
+          "verify_F.json": "27fb46c540cd58c6993d965ddda3d3f5fc0f124dd4aff7d68eb39c72c9ec2748",
+          "verify_T.json": "b4c22583ce11f00c3bd2849fc7688f2e230c877d277fc28ebde42684c215f82d"
+        },
+        "e_b39e60d447c89dc2": {
+          "baseline_A27.json": "8229f8a5970a70f7c688de7caf9a1b2a3ab7090389de479d30f2247909658178",
+          "generate_F.json": "bc6165b2d28b4a8d6353f27a4acd52653dc7788d59e093be225aa8904b3db656",
+          "generate_T.json": "c329f7f686924184c469f0a7ec290feafe4c19c41b9541384ad5a7b78094537d",
+          "verdict.json": "d4e851f06f22ee852a0797a3a189239f1583bc08b70e9c76e4f8d47952d8741d",
+          "verify_F.json": "6b95dd8dd20ceff5b91f284be5a3ba512d90056671daf685b779cccfacf9f699",
+          "verify_T.json": "11a74152f79b15aa7c2e3a78b353aec28a747ac6bb8ed1d82375f2ff804993cb"
+        }
+      }
+    },
+    {
+      "dataset": "challenge",
+      "findings": "Cousin and first-winner cases preserve open alternatives; both case correctly excludes false target. Family-only imports unstated Ross membership; Like Ross accepts an inconsistent false witness even after recognizing its presupposition; did-the-same chooses candidate invalid despite acknowledging evidence entailment. Three of six V5 labels are wrong; separate detailed notes retain these cases.",
+      "mechanism": "LOOKALIKE",
+      "reviewed_ids": [
+        "e_2dbce7cf4bee3b89",
+        "e_315d514161a8fcbd",
+        "e_430b77f476a0cd71",
+        "e_5476ea915f2e530d",
+        "e_7cfed97b4436ae8f",
+        "e_ba0c7235dd5fc3bc"
+      ],
+      "scope": "all four roles and direct baseline for all six items",
+      "source_sha256": {
+        "e_2dbce7cf4bee3b89": {
+          "baseline_A27.json": "6f509f884d50a0001873c7302a847cb05514449e51a9d2f57d935a27ad636d00",
+          "generate_F.json": "46ffcc366c57be92e9e70824e54c82b6def52311684cf250620b272264925195",
+          "generate_T.json": "b39ec17c2ec607a8761c75f3a8df83ef42839ef65dc2c6565f3e95445e593dfe",
+          "verdict.json": "dfcd1a45456dd71e219fbcda0104bba4fc024beffde2d846c93cd8cc2c1e5118",
+          "verify_F.json": "b29eeec205bf83e13f6faeca808f711a5488ea0e8340cc95b31bcee1ba4f4e6d",
+          "verify_T.json": "79755fce1637b9fab89b8fb68328542384b0a5a6008b3d621bacebbaeabd8360"
+        },
+        "e_315d514161a8fcbd": {
+          "baseline_A27.json": "8ff40a1d192f916c7a700cb92d8599e22af3cea6825cba21120af145e83a5292",
+          "generate_F.json": "455adbb844cb6ebb0fdd9db5ece5f4652bdd1b7e29380e9cd8c04672150af581",
+          "generate_T.json": "5dbd38eda019e3055dd965a02517e4548bc61da4d1656933232cd8ecb975611a",
+          "verdict.json": "c27c61f2b45bc12415dfbaf5d601b90dbc4d229cb96c4362966dd75d6d3fcf11",
+          "verify_F.json": "d014896b67313a6234509215bfde3c72766ea50a76cb27824b894f79e4a3a6a0",
+          "verify_T.json": "2ca40791729a3cdcd96c8a4237ff2a6cc61a6fab505d3c952424e34ac614c237"
+        },
+        "e_430b77f476a0cd71": {
+          "baseline_A27.json": "c5097c5a093027b48a163e8757efa25c37e4d03f9de121b06bef21d006f186df",
+          "generate_F.json": "4575ac2ad7fee44a9841ca6869b70701b5996ed8da9d92bf3b57819c2ffad608",
+          "generate_T.json": "d09e4eff582bc1a87b7d052c4b8f9b1efceb66b0bbc7967bde567cfe44cec4df",
+          "verdict.json": "8d7f26398f054083beed4f59792fcafd89eea38efb9f4be295f02e17db9349c8",
+          "verify_F.json": "3308fc3bf33e3f67ece6549d45973883b3f6fd999502546bb455ebe1931d2619",
+          "verify_T.json": "976306c7e922bf80a764a19cd1a95acd4c106e0030fc8fa1a7b2e5248455bee0"
+        },
+        "e_5476ea915f2e530d": {
+          "baseline_A27.json": "f1f9d3485e1af60db5212ecca7fedb66f640de96cb10902012f63a2979fff96c",
+          "generate_F.json": "c9283b542a17fe02e9296a00941ed7432816263cddc785215fdf60d9bcf47ef4",
+          "generate_T.json": "343cb22d365e24dd70d65da331ebfddeff7453e0af3f60e3775822257c8ecd66",
+          "verdict.json": "5bf176e363e4e25573b468a9bbf55c48748ff7f2b83d9d672a9caf87faaf71bc",
+          "verify_F.json": "e88374d731327988d96327792b1902524592174f26d4ee4eaf514fc1cea2d41d",
+          "verify_T.json": "57c959a03219edd4d2eb0eca6fceaac1ab7a7e657e5aecbd6bfa86b0522d7a76"
+        },
+        "e_7cfed97b4436ae8f": {
+          "baseline_A27.json": "fc2369b04711b59d52364ef85236034f06e3caf6385e826de5bf767fcfbc5762",
+          "generate_F.json": "5e476993bf012996b78f4c0f83ed3a428f359eb99f927b4fe07bd02ee8176ac7",
+          "generate_T.json": "346b40f6bd6809363e4dfd9ecd0e27a0d6c468ac5ca2d064f0fbdd213935ca6a",
+          "verdict.json": "e50caac7b539fe260e738e1d11d721bf4a7b6b6be932c879ff7ddb5d945950bc",
+          "verify_F.json": "22ce7493d1b87526860dde3d2e984872a542b6769aa15be18e24be9d608ce036",
+          "verify_T.json": "d355839fe6cb8cd1dc5601f0f90c25404a80fc4e512535c262521013af6cfcbc"
+        },
+        "e_ba0c7235dd5fc3bc": {
+          "baseline_A27.json": "0fd847f5cc3415ff9edc18d8053ec33ee52e63208724f0f6898508533caa400f",
+          "generate_F.json": "1027b2fad98f8c57f563ddd6617d3db45798c62c41bd2b7da8794485797d3396",
+          "generate_T.json": "3783e114804e467b0a86a8ed85d7837dd6c7e31632ba6ac0f4b3394876b08489",
+          "verdict.json": "dfea2e8727113d6fe74c870121b976fc0c877374efec43c498e7cf38f3dfebb6",
+          "verify_F.json": "70f3618bed9268782d2f44f7b69648b024a760b5954311171940b72976f59a67",
+          "verify_T.json": "3aca21c75abb7b612b3463df874e037f26fbb9695d944756b04d39521719fd4a"
+        }
+      }
+    },
+    {
+      "dataset": "basic",
+      "findings": "All three reviewed. Identical E/C excludes F correctly despite an invented different-person interpretation. Arizona alone supports two candidate cities, both valid, though geographic elaboration goes beyond literal E and is not a formal proof. Scottsdale, Arizona fails due to wrong candidate-vs-target priority. Two of three V5 labels correct; A27 three.",
+      "mechanism": "PLACE",
+      "reviewed_ids": [
+        "e_36d0e599604c3c03",
+        "e_463e471189086b06",
+        "e_f413a59ea39d9650"
+      ],
+      "scope": "all four roles and direct baseline for every completed item in the group",
+      "source_sha256": {
+        "e_36d0e599604c3c03": {
+          "baseline_A27.json": "a44650c7d8047ce831da4c78e74f1820bede397c83775ed5babe2e4427ff088e",
+          "generate_F.json": "ee65994ff5a6b951be438fb2b911d28382cf58c9d7dcf7a793ae75723cab1c05",
+          "generate_T.json": "a2fda22c8dbbad724705a438dc67c528ba66ca11afbeb5ee8b28c4025f8ab072",
+          "verdict.json": "66dbe24178abc09f7dcc6fc73d8018fb901c39fb4ccd6ad6734fc8bd53b0e9e1",
+          "verify_F.json": "d35de5db7d87399bc9fc5edc753343c088f503f62d3a5455383ff389db9e59eb",
+          "verify_T.json": "289bc00ede5a4c57cd7ad8cdcdb18d43dd3baf573a8f0997cda0b3584b65805b"
+        },
+        "e_463e471189086b06": {
+          "baseline_A27.json": "f73fe367f17817bd4ee9adc6f73a42af8b34bc147958af200fcb0029c46a4296",
+          "generate_F.json": "21489f0417b46ce8e7bf7de5f95051e025fb519c4fb6b6c309053a8aef1bfb2d",
+          "generate_T.json": "48384ea8936966727ab90485090e0d78ec1f930633cb861c74a5e3cd5d65c813",
+          "verdict.json": "cd1e65cc9d9d7a75b235cb4df69c48f4e5c5ba8969b98737b30f7058b0167897",
+          "verify_F.json": "02283e5209cb6a8b02fa55de43725729349ed1d1ae4f30ccf4e267ee739a27e9",
+          "verify_T.json": "86ea701b46f73ff95c4f03d1829446da4158a0947461fde817e1fba467c06fb6"
+        },
+        "e_f413a59ea39d9650": {
+          "baseline_A27.json": "30a7fb3c81af71da888dc43b9c2e7cae528fa0054ccd07951f1203f8f242ec9d",
+          "generate_F.json": "ddc78f0cd67b9cf280e1feb23a91014b826fdb967ded4852b81c470137f549c1",
+          "generate_T.json": "ccc1a534ffa19a667c9f59c430465c7140de8e40aff9d2214017ffbd045e8fa0",
+          "verdict.json": "8a6ba0b38f686085f38940ae1fc0513b58398462107a504c80057dd14a73b23e",
+          "verify_F.json": "796ad65d15c296a26d897c3f68abf007f45cd6154889f7fd8cffb52230bc55b8",
+          "verify_T.json": "1df4e7379aea7ca15d0a26fc834e599fb7a60268a58c903ca16a5589e0b7fe7e"
+        }
+      }
+    },
+    {
+      "dataset": "challenge",
+      "findings": "All five reviewed. Named Clint and he with sister cases correctly entail C. Both-winners case fails due to target-priority error. Frank-only and Sarah/she cases preserve open outcomes for Clint and correct the baseline false exclusion. Four of five V5 labels correct; A27 three.",
+      "mechanism": "AMBIGREF",
+      "reviewed_ids": [
+        "e_2090f9c3609cbd3c",
+        "e_2eaa05ca9a45a036",
+        "e_603240b9be921883",
+        "e_885e050dfe8b58af",
+        "e_a304493272589ded"
+      ],
+      "scope": "all four roles and direct baseline for every completed item in the group",
+      "source_sha256": {
+        "e_2090f9c3609cbd3c": {
+          "baseline_A27.json": "046afcdba9ca6b5d45f7550b6a948b976acef6a7d9ed3196d08df7607aa5f30f",
+          "generate_F.json": "f9877ce976c6e83863381656f82055a4786d500f42a81f1de5d39e68de92bfb0",
+          "generate_T.json": "357b8c15061d5c7e43daaa6b17a2c2056cb6895205eae4dd180a325b4374dbbc",
+          "verdict.json": "159d4187b316fc695b64ebc839572c686d3c6667e773c1da7cbfb0377018f201",
+          "verify_F.json": "c9aeb907633f45e02b6fb7024daf1721ee44310d7e318d2375fcaf1ec95622e2",
+          "verify_T.json": "2c6fb542a2608b0901732729c3299f3c3c8f3fcf2831081a4643a42f540dcb2c"
+        },
+        "e_2eaa05ca9a45a036": {
+          "baseline_A27.json": "8a4daf4eb8a0bf21403e2c9bd0525bd905656603e7b9c803928202ba82997b60",
+          "generate_F.json": "cc4279ac75672d4f80425999b6c9477c0fb4acff8963e63e2ff05d719f3b3642",
+          "generate_T.json": "bf54aef2b4e8fcfb97670db4b04e102101ee1d0cd99d1d47611292ba53dd31b5",
+          "verdict.json": "faac87f35929e16a22dc6e52b459bc9aafa713fc4ab20bc77788ec49a43ac2c6",
+          "verify_F.json": "6485ab2782ad0bfb1095c213f7f98d6bfc9f82ff39d084bec3c63345cb026547",
+          "verify_T.json": "f7c9d74613f236ed138ceca5724832728f1e5d6aa1c35fca1c1cce96d09121a4"
+        },
+        "e_603240b9be921883": {
+          "baseline_A27.json": "08a1ed085b7ab23f9f50258790708526b9c0991d6be8ab1797f8a24c36cd8c44",
+          "generate_F.json": "d50cd36f625bac55ad5bdf8165fb8a6a9ee12f1f06732a7ba0d93606d4412fa9",
+          "generate_T.json": "09d1cc6cd090765f0a7a811ead3a48afe0d30000f7c83a3ab52c48c1beb21371",
+          "verdict.json": "369dd83abaa4cef28f952b6d41d6491f6de24f41ccbaaa71405fea4d58a4e8a9",
+          "verify_F.json": "1e9da4773d30f5a603547db72650695b41af4c4e79ce04c32fe69a22c61e950a",
+          "verify_T.json": "2e80114463104c55d54d51565335282dc62d2b837b626037fe2860276cdb0055"
+        },
+        "e_885e050dfe8b58af": {
+          "baseline_A27.json": "3f15c21ba59eb566f4246f30093ba6ddb8bd955e5e518560d0662d9ec076a287",
+          "generate_F.json": "7f7bb04408d704f7fcad1b4e1bcf31f545437a58077146c91331276cca70b938",
+          "generate_T.json": "627338a152ec89446ce4e1ab5195cb6555bc1a9bf9252c43030dc8558f2112fa",
+          "verdict.json": "359a1e0a841c4bae2c517b5d5d5967a249fb660a5b06087159f2e7ebc68e9499",
+          "verify_F.json": "8baad2d793cf0823288a61d452654248f19c56a2cbc04531b3d3099eff13cabf",
+          "verify_T.json": "4b1fae8a0fd7422d5f6a972c0985f77c8584babc1a6847831e03825f793d8f8f"
+        },
+        "e_a304493272589ded": {
+          "baseline_A27.json": "783822c9fc321576fa580a6949ca631c730dc1ed10d12d8732d6b284f460d580",
+          "generate_F.json": "fd2d91f6a9141c6fdb14117d8984365fbef97871bf65de2d1935120301f57543",
+          "generate_T.json": "e2b9742adda473fda84339597c162836bda8c7d61195ade6b11e54a987059292",
+          "verdict.json": "83735f8b7d7cd5930e23fd4264018028abef8fec4d4d433250620b20b9558b35",
+          "verify_F.json": "08aff76294b799f3961f35aa68bb15f5ffa6d5e6f01b653e245a846d6c06dc81",
+          "verify_T.json": "050274e05d84be5e210ee837f80c4d04535b57595bff056219dbd0e2c8a038a4"
+        }
+      }
+    },
+    {
+      "dataset": "challenge",
+      "findings": "All eight reviewed. Independent investigation proving false is correctly REFUTES in one variant; the denied-and-false variant yields double target contradictions through F direction inversion. Declined-comment gets an invalid T witness despite compatibility. Three attributed negative stances are wrongly treated as fact exclusions. Confirmed and denied-then-confirmed have invalid-candidate/target-priority errors. V5 one correct, A27 five. Do not attribute differences solely to length.",
+      "mechanism": "DENIAL",
+      "reviewed_ids": [
+        "e_072e61b1f738c059",
+        "e_0d3c98953a903e54",
+        "e_277810da62cf3491",
+        "e_2a9bfaf8427227ea",
+        "e_b30e3a12162be36f",
+        "e_cbeb7f13d036e5d1",
+        "e_ce8f5835e7f9c9ed",
+        "e_f93444e40f27af24"
+      ],
+      "scope": "all four roles and direct baseline for every completed item in the group",
+      "source_sha256": {
+        "e_072e61b1f738c059": {
+          "baseline_A27.json": "07ba30034d76ae453d2a924a796d4f525380c8696a00f41b419896e2de036e1d",
+          "generate_F.json": "8a3032fd1cdb504c916f173b067e5a4e99776cb5dd528ec8212b9454fcc9a881",
+          "generate_T.json": "85730244bd2d9a5e7798f1154d1f131fc2a27c602848eb3d9b47be29f5f978bd",
+          "verdict.json": "62ec39fbd0f899af8bb1fd604342ce61fdcc602dbf881a3f126aa2c9af019538",
+          "verify_F.json": "3910198988b97049564829319b050ce7998d9b8706bc3a75cc17f3fe24d6250a",
+          "verify_T.json": "6ca1c193f4e4f1152185c5818fdb339b04d9f5bc767443e1c6f4930cbf320eae"
+        },
+        "e_0d3c98953a903e54": {
+          "baseline_A27.json": "33d667916d4c9d1d57c76b08fb43d51eed78a138edd087587fdea2c1bd204476",
+          "generate_F.json": "50cc72f50aab68153856c518e6596fc61b81318b788621f29efde89030be7160",
+          "generate_T.json": "d6a974b61a3ed50ee1d8c4a22d7a085308e9a4bcf0bc18d4318c1b5253bc3d6b",
+          "verdict.json": "bae6d7bf445349db3409a9d2bbf1a30b586dbaa97a62ecd080bf6ace9907b513",
+          "verify_F.json": "d00ca264ab9aabacf0fd4d7b72c73221109c0d738aa6b7605e38b7c7890dc605",
+          "verify_T.json": "df29de09db871cca95ef673318108af744ad508c87c362f0306e52fac7dbc40b"
+        },
+        "e_277810da62cf3491": {
+          "baseline_A27.json": "51a56151628a0a41a996df5618f4692dfb7efaa602f62ee65923bf6703522278",
+          "generate_F.json": "3de57e8c2433deded5a5dc90192779f7d44001b31dc7c9f7fa9991125ac4d242",
+          "generate_T.json": "96881f8478e33bd7acf5c6ac68424e4847b1199c56b8f78b3182a533cb8f2a1b",
+          "verdict.json": "50115f9b59489319d2432ab677dd5c0cef8f99be943ac8b9210dc3b5efb6cb9f",
+          "verify_F.json": "d8c70d243f548d9ffcae1c641d0786f7a8495b7d1c048eedb7c59716f1c7eb22",
+          "verify_T.json": "20868b9304c62d7d796c7855342206ed7e5d80a667fb94c4348b73780beb1c25"
+        },
+        "e_2a9bfaf8427227ea": {
+          "baseline_A27.json": "2c23217efb2329e75153c8792521c27e6d4fb98c373196a4b876e53210543ceb",
+          "generate_F.json": "7b03f7c45ad42f7d039cfd35930fac351a0c04eea7fe3ea96ea93d48e210cc63",
+          "generate_T.json": "9aa4b2ec31a7a1e43a174d7079f6b32e1396163eda66de36ee69a42885083016",
+          "verdict.json": "1f84239b6f3dd4722c461f9938f81f10b5e1ee53dfd35637d2bb6ab88636bb6d",
+          "verify_F.json": "a95ea61269220c90b1767ae5e9f003162dab43ba7179fa1b4fe954f4c5e83e62",
+          "verify_T.json": "036b0316749107c20e103ac8dc10e4ae8c12e462cd2362988865442cff3e4d7f"
+        },
+        "e_b30e3a12162be36f": {
+          "baseline_A27.json": "0c5fb5bb495e4d93b8d56b809aa9ad0069f5e5fa99d44a3a27d185362c0bec19",
+          "generate_F.json": "11cb96df2f6ed4eceeae51569bf80d58ee774d237c2927864c6b624a09186ffc",
+          "generate_T.json": "9d1a5ad5653014b9ecb2cd56861facbc40592ae716b0ed062decbe09d02b3b56",
+          "verdict.json": "ea92a48bde9f514b7057e3396b8befb4437c3a31cf277d7cce8d21be4b0284cd",
+          "verify_F.json": "b85bac486c4fb1b951dfce3573ef53d496af1f6638b8b215cf59667d696a142d",
+          "verify_T.json": "5c9ebb4695c13bf6079ee526e151a6288c68a91870756f842bf3097039cb9b14"
+        },
+        "e_cbeb7f13d036e5d1": {
+          "baseline_A27.json": "7b49381f311d86bccb11f98e408eaf6ba90e5321b699ff651677459d8256b781",
+          "generate_F.json": "32e7e818c71f11b1eaf2a28fd9e73555d2025e6839ed2c6f392271623acdf4b5",
+          "generate_T.json": "86011596bc0eb90923bb091ff3dcb254e3e21a151be366449b7bb725a475e0d0",
+          "verdict.json": "c1f526f5fd70b436e9e1ea4fa9c1675f212be739aa852e11feb68428ecd2cf25",
+          "verify_F.json": "11dd105cc7d25334c0555010ebffcb3fa51cfa573ef185b1420a5d4fe4ccb3f0",
+          "verify_T.json": "cfe12458d02a440db34f2dd76b4f47a72736199572274046abaaa891dd632d73"
+        },
+        "e_ce8f5835e7f9c9ed": {
+          "baseline_A27.json": "8ad7f25db782e324ea89f1c818447d64a5391a0d5b9522995ad3837f9b8bc659",
+          "generate_F.json": "9d686ab0fdf77668980ded53ac785daf88047b6e31ed3e1d4d67d837d86ffc6f",
+          "generate_T.json": "9bf56e32ee09999c5dd13bc0ad670f8c7cd676f5160d8c27233f2bafb77b88b7",
+          "verdict.json": "2d9e93539c034f0564de13869d70a4f54682897cc619221d4a08c10c6179bfe3",
+          "verify_F.json": "95c840bd43b9fc7943468b0bc1f05d22e07c76beb471d3266a276730f8330069",
+          "verify_T.json": "b26575cfb4653cfcea09b3389645263c5da3a7ea7ac6cf8d08ec15c82ced6fd8"
+        },
+        "e_f93444e40f27af24": {
+          "baseline_A27.json": "7b744efbb5e1866f5298ce14707038aa9653308dcdaf5ec8a46088d9e38f0e44",
+          "generate_F.json": "6be26dcc4eeb0200eb00a6b44d967cf4b64e2041e6a86db2ef84ee0ce5e98904",
+          "generate_T.json": "c63557628e29fda27b9fc2618edd8762b8e9cbe3bc9edd5d38090c38ae806f85",
+          "verdict.json": "d9ee99b4d95cd243f1b8d01c9f81bd0a03bd38d8644580f369e96ee8fdf19658",
+          "verify_F.json": "dd577903f6ba757e0937601aed27df1582b9a56d327fa1e2521df665a871e0fa",
+          "verify_T.json": "99e210c5a4ab6eaa71ec22e32ff2a71301e6c18dace676ba55780c802054a3ad"
+        }
+      }
+    }
+  ],
+  "reviewer": "assistant; not external human",
+  "updated_at": "2026-10-24T10:57:39.044576+00:00"
+}

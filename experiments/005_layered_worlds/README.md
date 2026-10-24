@@ -1,5 +1,13 @@
 # v5: two constructors, two independent verifiers, deterministic adjudication
 
+**Current continuation:** the user subsequently authorized using the available Free
+Plan quota until the provider limit. Use the separate [r2 continuation workflow](CONTINUATION.md)
+and its CLI. The [real r2 continuation results](CONTINUATION_RESULTS.md) document the
+provider TPD stop after 58 complete pairs, including the unfavorable comparison
+against A27. Full tables and remaining nodes are in [the derived statistics](continuation_tables.md).
+The r1 results/configuration below remain the historical first run;
+do not resume r1 and r2 concurrently, because r2 already reuses r1's received answers.
+
 Based on `codex/groq-27b-v4` at `5425613d937148f862e3583caddafef5603d5546`.
 The eight English templates and two schemas are copied byte-for-byte from the supplied
 task package. Their original SHA-256 manifest is checked before any request. Four roles

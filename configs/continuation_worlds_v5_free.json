@@ -1,0 +1,14 @@
+{
+  "run_id": "layered_worlds_qwen38_27b_v5_r2_free",
+  "parent_config": "configs/experiment_worlds_v5.json",
+  "parent_run_id": "layered_worlds_qwen38_27b_v5_r1",
+  "authorization": "User requested continuing until available free quota is exhausted; no paid service authorized.",
+  "quota_policy": "provider_enforced_free",
+  "local_rolling_daily_stop": false,
+  "free_reference_limits": {"requests_per_day": 1000, "tokens_per_day": 200000, "requests_per_minute": 30, "tokens_per_minute": 8000},
+  "throttle": {"requests_per_minute": 25, "tokens_per_minute": 7000, "min_interval_seconds": 3, "max_wait_seconds": 60},
+  "max_new_attempts_per_execution": 1000,
+  "stop_on": ["experiment_complete", "provider_long_quota_reset", "protocol_failure", "ambiguous_transport", "terminal_http_error"],
+  "never_upgrade_plan_or_change_endpoint": true,
+  "reuse_received_parent_responses": true
+}
