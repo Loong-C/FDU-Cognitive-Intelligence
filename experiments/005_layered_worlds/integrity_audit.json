@@ -1,0 +1,44 @@
+{
+  "audit_type": "independent code path, same assistant; not external human semantic verification",
+  "checked_records": [
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/static/bad_candidate_open_target.json",
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/static/target_contradiction.json",
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/technical/control.json",
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/technical/length_constrained.json",
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/technical/length_control.json",
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/technical/sentinel_A27.json",
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/technical/sentinel_generator_true.json",
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/technical/sentinel_verifier_true.json",
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/records/6d64651629c95c4d9483080c1c315d413f53b3438525e3f9a0a102ff8e0aed7b/generate_F.json",
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/records/6d64651629c95c4d9483080c1c315d413f53b3438525e3f9a0a102ff8e0aed7b/generate_T.json",
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/records/abf9a155b3b24decefc0537e83c3d73dbb32ad7239dcbce28251d9eafa4ae59a/generate_F.json",
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/records/abf9a155b3b24decefc0537e83c3d73dbb32ad7239dcbce28251d9eafa4ae59a/generate_T.json",
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/records/abf9a155b3b24decefc0537e83c3d73dbb32ad7239dcbce28251d9eafa4ae59a/verify_F.json",
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/records/abf9a155b3b24decefc0537e83c3d73dbb32ad7239dcbce28251d9eafa4ae59a/verify_T.json",
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/records/de58fdb0aa8fd20cdd26430c2d541963b3ccc550306dcd7b56f78f0935fe387d/generate_F.json",
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/records/de58fdb0aa8fd20cdd26430c2d541963b3ccc550306dcd7b56f78f0935fe387d/generate_T.json",
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/records/de58fdb0aa8fd20cdd26430c2d541963b3ccc550306dcd7b56f78f0935fe387d/verify_F.json",
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/records/de58fdb0aa8fd20cdd26430c2d541963b3ccc550306dcd7b56f78f0935fe387d/verify_T.json",
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/records/ed0ac0e794f6635606bfb4f6fa29aba547f72163e44c356992db082ae7ab4b7d/generate_F.json",
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/records/ed0ac0e794f6635606bfb4f6fa29aba547f72163e44c356992db082ae7ab4b7d/generate_T.json",
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/records/ed0ac0e794f6635606bfb4f6fa29aba547f72163e44c356992db082ae7ab4b7d/verify_F.json",
+    "outputs/runs/layered_worlds_qwen38_27b_v5_r1_smoke/records/ed0ac0e794f6635606bfb4f6fa29aba547f72163e44c356992db082ae7ab4b7d/verify_T.json"
+  ],
+  "checked_response_records": 22,
+  "coverage": {
+    "fresh": {
+      "four_call_completed": 0,
+      "initialized": true,
+      "planned": 104
+    },
+    "smoke": {
+      "four_call_completed": 3,
+      "initialized": true,
+      "planned": 10
+    }
+  },
+  "errors": [],
+  "historical_files_preserved": 2050,
+  "historical_ledger_entries_preserved": 311,
+  "passed": true
+}

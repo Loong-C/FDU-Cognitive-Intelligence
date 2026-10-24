@@ -1,0 +1,15 @@
+ORIGINAL EVIDENCE (authoritative):
+{evidence}
+
+ORIGINAL CLAIM (authoritative):
+{claim}
+
+TARGET FOR THIS REVIEW: The ENTIRE original CLAIM is FALSE. A valid candidate must satisfy ALL original evidence while making the whole original claim false.
+
+UNTRUSTED GENERATOR'S TARGET DESCRIPTION (check that it really negates the whole original claim):
+{target_condition}
+
+UNTRUSTED CANDIDATE SCENARIO (check against evidence and target):
+{candidate_world}
+
+Do not determine whether a 'false world is false'. Determine whether the actual candidate is a consistent witness of EVIDENCE + the entire CLAIM not holding. If not, distinguish candidate mistakes from a contradiction between EVIDENCE and this target itself. Do not use any other branch or its possible result. Return only JSON: decision, reason, evidence_anchor.

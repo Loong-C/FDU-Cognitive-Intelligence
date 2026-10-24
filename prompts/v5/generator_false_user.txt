@@ -1,0 +1,11 @@
+EVIDENCE (all its asserted facts remain fixed):
+{evidence}
+
+CLAIM:
+{claim}
+
+Target for THIS task: the whole CLAIM IS FALSE, while all EVIDENCE assertions are true.
+
+In target_condition, give one precise way for the ENTIRE claim to be false (not merely an unrelated fact). In candidate_world, describe one short attempted scenario that keeps all evidence constraints and realizes this target. If the target conflicts with evidence, do not conceal the contradiction. Do not evaluate whether the world is possible.
+
+Return only JSON: target_condition, candidate_world.

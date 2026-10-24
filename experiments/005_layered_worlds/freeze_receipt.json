@@ -1,0 +1,11 @@
+{
+  "base_commit": "5425613d937148f862e3583caddafef5603d5546",
+  "frozen_at": "2026-10-24T09:04:08.865691+00:00",
+  "manifest_sha256": "a2a33153be2f24a82bb9597e32ee15adc89e61b3f4e1c1eb24531684a74be246",
+  "offline_full_synthetic_workflow_verified": true,
+  "real_smoke_status_at_selection": "in_progress; technical gate complete; no formal request sent",
+  "scheduled_formal_model_calls": 520,
+  "scheduled_pairs": 104,
+  "selection_timing_note": "Frozen after code/tests/offline synthetic validation and initial real static gates; remaining real smoke must complete before formal inference",
+  "tests_passed": 153
+}

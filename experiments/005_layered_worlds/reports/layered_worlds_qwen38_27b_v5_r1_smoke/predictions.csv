@@ -1,0 +1,11 @@
+﻿dataset,id,group,mechanism,gold,A27,V5,T,F,generate_T,generate_F,verify_T,verify_F
+synthetic,synthetic_s_equal,synthetic_s_equal,synthetic,SUPPORTS,,SUPPORTS,WITNESS_VALID,TARGET_CONTRADICTS_EVIDENCE,valid,valid,valid,valid
+synthetic,synthetic_r_birth,synthetic_r_birth,synthetic,REFUTES,,REFUTES,TARGET_CONTRADICTS_EVIDENCE,WITNESS_VALID,valid,valid,valid,valid
+synthetic,synthetic_n_water,synthetic_n_water,synthetic,NOT ENOUGH INFO,,NOT ENOUGH INFO,WITNESS_VALID,WITNESS_VALID,valid,valid,valid,valid
+synthetic,synthetic_n_openlist,synthetic_n_openlist,synthetic,NOT ENOUGH INFO,,,,,valid,valid,,
+synthetic,synthetic_n_denial,synthetic_n_denial,synthetic,NOT ENOUGH INFO,,,,,,,,
+synthetic,synthetic_r_only,synthetic_r_only,synthetic,REFUTES,,,,,,,,
+synthetic,synthetic_s_interval,synthetic_s_interval,synthetic,SUPPORTS,,,,,,,,
+synthetic,synthetic_n_attempt,synthetic_n_attempt,synthetic,NOT ENOUGH INFO,,,,,,,,
+synthetic,synthetic_n_conjunction,synthetic_n_conjunction,synthetic,NOT ENOUGH INFO,,,,,,,,
+synthetic,synthetic_r_number,synthetic_r_number,synthetic,REFUTES,,,,,,,,

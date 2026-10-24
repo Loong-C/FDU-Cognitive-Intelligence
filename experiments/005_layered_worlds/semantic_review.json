@@ -1,0 +1,60 @@
+{
+  "external_human_review": false,
+  "not_a_population_error_rate": true,
+  "ordinary_cases": [
+    {
+      "candidate_review": "T repeats the fixed evidence. F exposes the impossible conjunction of the exact evidence and its negation; this is permitted for an incompatible target.",
+      "direction_error_observed": false,
+      "id": "synthetic_s_equal",
+      "record_sha256": {
+        "generate_F.json": "32653dbe45bd763ceb0ae1c5c63f2606568868e1eb9a74d5fd1d613817a035c4",
+        "generate_T.json": "b70e741b434b48a8b075ef8a8d31fc28ccf91604e4de391b1f38ac1fbe474198",
+        "verdict.json": "844490bb9ddf09a1f69294f7096d60efdf25a642562cc98345cb2c9c7786464e",
+        "verify_F.json": "5f54569490959fb5d1d8bf586870820228d8c403c0b7631397fde2f0056aa509",
+        "verify_T.json": "519bec442306f08b87f42c4878cc136cdaf5d1e97c3a90e3aca849a8e52070b9"
+      },
+      "verification_review": "T witness and F target contradiction are correctly oriented. F reason reaches the character cap and is not a complete explanation."
+    },
+    {
+      "candidate_review": "T visibly preserves the incompatible 2010 / before-2000 constraints. F keeps 2010 and makes the original claim false.",
+      "direction_error_observed": false,
+      "id": "synthetic_r_birth",
+      "record_sha256": {
+        "generate_F.json": "3d9734bd52f076f69bce1d7e9db6cd7ff5aaefbf34b0891ab8d1fba47c0aa714",
+        "generate_T.json": "30fa5c1599699247791018173bbe893641b968c57778d64bde817418f441722a",
+        "verdict.json": "14781bf18024a468b00938e060e7f420683afe8cbe1d90763e27238c400da856",
+        "verify_F.json": "a3531143a2d5986d3ac3783bcf9d70044e47c0e051be545da630fa5785317fe8",
+        "verify_T.json": "f8148b35b51199917370cbd0aa814a7da983e8d8a0c39368860ab68e0c36f677"
+      },
+      "verification_review": "T correctly rejects the target from E/C; F correctly accepts the counterexample. No false-claim / impossible-false-world inversion is observed. F explanation ends at the character cap."
+    },
+    {
+      "candidate_review": "Both preserve Wednesday watering; T adds Thursday watering and F adds its negation, both consistent with E.",
+      "direction_error_observed": false,
+      "id": "synthetic_n_water",
+      "record_sha256": {
+        "generate_F.json": "6fb1453877b866e3fe0411020beebd98df8505902a464bfcd39eaa2687b3fc3d",
+        "generate_T.json": "72b815c1b5ccf5e94dec754dcff36e13a2b6f411a25e1cd6796bd944b4d9c6d2",
+        "verdict.json": "03fd40e91cbfbf0418c5ebf9514cd15b60c28ba4f9591028f8e45298a829b524",
+        "verify_F.json": "dc49bb2503635bc2775f82e499bcaaa13bb1a11c5734eb31b61f3f93e1f56c5b",
+        "verify_T.json": "41a31f82b05b5e39d1decd3e91399ddfd60bc1145ceb542ed8cb87c49a82b218"
+      },
+      "verification_review": "Both are correctly accepted. Both reasons are cut off at the schema character ceiling; no complete justification is claimed."
+    },
+    {
+      "candidate_review": "T includes Uma, Bo and Ivo; F includes Uma and Bo but excludes Ivo. Choosing a concrete three-person witness does not imply that the original open list is closed.",
+      "direction_error_observed": null,
+      "id": "synthetic_n_openlist",
+      "record_sha256": {
+        "generate_F.json": "5f4d22493f4bda31d97af860ceb0c672d0436d036b59aac9878cf6a038305662",
+        "generate_T.json": "b66f8d134a1f0816cd1396d88cef3cc3e0517af185ae4d6c7ea0203292a722c3"
+      },
+      "verification_review": "Not run. No verifier judgment or final label is inferred."
+    }
+  ],
+  "reviewed_at": "2026-10-24T09:14:05.000425+00:00",
+  "reviewer": "assistant",
+  "selection": "all received ordinary synthetic candidate/verification nodes and both static verifier gates",
+  "static_review_source": "static_gate_results.json",
+  "unreviewed_cases": "Six synthetic examples have no responses; fresh dev has no responses"
+}

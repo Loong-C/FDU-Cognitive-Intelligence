@@ -1,0 +1,28 @@
+{
+  "command": ".venv/Scripts/python.exe -m pytest -q",
+  "coverage": [
+    "all 16 decision pairs",
+    "four-role context isolation",
+    "metadata rejection",
+    "brace and Unicode injection",
+    "long input preservation",
+    "all four verifier enums",
+    "schema/empty/duplicate JSON rejection",
+    "character limit versus token truncation",
+    "HTTP 403/429/503",
+    "bounded transient retries",
+    "ambiguous timeout and crash markers",
+    "quota pause/resume",
+    "zero-call cached replay",
+    "frozen prompt tampering",
+    "fresh complete-group selection",
+    "all-planned metrics and paired missingness"
+  ],
+  "elapsed_seconds": 23.41,
+  "executed_at": "2026-10-24T09:05:43.726750+00:00",
+  "failed": 0,
+  "new_v5_test_cases": 44,
+  "offline_fixture_http_attempts_full_synthetic": 48,
+  "offline_fixtures_are_not_real_experiment_results": true,
+  "passed": 153
+}

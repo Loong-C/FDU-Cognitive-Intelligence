@@ -1,0 +1,48 @@
+{
+  "generator": {
+    "type": "object",
+    "properties": {
+      "target_condition": {
+        "type": "string",
+        "maxLength": 260
+      },
+      "candidate_world": {
+        "type": "string",
+        "maxLength": 520
+      }
+    },
+    "required": [
+      "target_condition",
+      "candidate_world"
+    ],
+    "additionalProperties": false
+  },
+  "verifier": {
+    "type": "object",
+    "properties": {
+      "decision": {
+        "type": "string",
+        "enum": [
+          "WITNESS_VALID",
+          "TARGET_CONTRADICTS_EVIDENCE",
+          "CANDIDATE_INVALID",
+          "UNDETERMINED"
+        ]
+      },
+      "reason": {
+        "type": "string",
+        "maxLength": 240
+      },
+      "evidence_anchor": {
+        "type": "string",
+        "maxLength": 180
+      }
+    },
+    "required": [
+      "decision",
+      "reason",
+      "evidence_anchor"
+    ],
+    "additionalProperties": false
+  }
+}

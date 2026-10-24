@@ -1,0 +1,30 @@
+{
+  "passed": false,
+  "results": [
+    {
+      "actual": "TARGET_CONTRADICTS_EVIDENCE",
+      "correct": false,
+      "evidence_anchor": "Mira watered Wednesday.",
+      "expected": "CANDIDATE_INVALID",
+      "id": "bad_candidate_open_target",
+      "quality_flags": [
+        "REASON_LIMIT_HIT:reason"
+      ],
+      "raw_sha256": "20a260d67ad66d22acc789570d8dfbb3026678d82d5847b1416002ed605c2f51",
+      "reason": "The original evidence states 'Mira watered Wednesday.' The original claim states 'Mira watered Thursday.' The target requires the entire claim to be true. However, the candidate scenario explicitly states 'Mira did NOT water Wednesday,' and"
+    },
+    {
+      "actual": "TARGET_CONTRADICTS_EVIDENCE",
+      "correct": true,
+      "evidence_anchor": "Elin was born in 2010.",
+      "expected": "TARGET_CONTRADICTS_EVIDENCE",
+      "id": "target_contradiction",
+      "quality_flags": [
+        "REASON_LIMIT_HIT:reason"
+      ],
+      "raw_sha256": "40495bf05986761c7402524290f55084c18624283630fe5a9ebef601dfd4c1f5",
+      "reason": "The evidence states Elin was born in 2010. The claim states Elin was born before 2000. Since 2010 is not before 2000, the claim is logically incompatible with the evidence. Therefore, the target (that the entire claim is true) contradicts a"
+    }
+  ],
+  "reviewer": "assistant semantic review; not independent human adjudication"
+}

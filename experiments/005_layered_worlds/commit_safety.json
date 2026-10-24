@@ -1,0 +1,10 @@
+{
+  "actual_key_findings": 0,
+  "checked_at": "2026-10-24T09:15:06.361627+00:00",
+  "credential_file_ignored": true,
+  "credential_file_tracked": false,
+  "frozen_template_index_hashes_match_attachment": true,
+  "ignored_raw_or_secret_paths_staged": 0,
+  "inference_source_index_hashes_match_run_fingerprints": true,
+  "staged_files_checked": 46
+}

@@ -1,0 +1,21 @@
+{
+  "after_attempts": 333,
+  "before_attempts": 333,
+  "checked_at": "2026-10-24T09:07:42.713009+00:00",
+  "checks": [
+    {
+      "command": "smoke",
+      "exit_code": 2,
+      "http_attempts_after": 333,
+      "output": "synthetic saved synthetic_s_equal\nsynthetic saved synthetic_r_birth\nsynthetic saved synthetic_n_water\nSTOP: Local rolling-24h free budget reached; records preserved; resume later"
+    },
+    {
+      "command": "run",
+      "exit_code": 2,
+      "http_attempts_after": 333,
+      "output": "synthetic saved synthetic_s_equal\nsynthetic saved synthetic_r_birth\nsynthetic saved synthetic_n_water\nSTOP: Missing recorded completion"
+    }
+  ],
+  "no_new_http_attempts": true,
+  "successful_records_unchanged": true
+}

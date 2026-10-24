@@ -1,0 +1,42 @@
+{
+  "billing_verified": false,
+  "blocked_next_reservation": 4508,
+  "historical_attempts": 311,
+  "last_historical_expiry_utc": "2026-10-24T12:20:34.131058+00:00",
+  "last_response_at": "2026-10-24T09:05:30.679304+00:00",
+  "last_response_rate_headers": {
+    "x-ratelimit-limit-requests": "1000",
+    "x-ratelimit-limit-tokens": "8000",
+    "x-ratelimit-remaining-requests": "978",
+    "x-ratelimit-remaining-tokens": "7082",
+    "x-ratelimit-reset-requests": "31m40.8s",
+    "x-ratelimit-reset-tokens": "7.74s"
+  },
+  "local_cap_tokens": 180000,
+  "local_remaining_tokens": 4392,
+  "measured_at": "2026-10-24T09:09:16.708343+00:00",
+  "network_failures_this_run": 0,
+  "new_attempts": 22,
+  "new_successful_responses": 22,
+  "new_usage": {
+    "completion_tokens": 1360,
+    "prompt_tokens": 8440,
+    "total_tokens": 9800
+  },
+  "nonthinking_checks_passed": 22,
+  "oldest_recent_expiry_utc": "2026-10-24T11:13:35.335201+00:00",
+  "provider_model_ids": {
+    "qwen/qwen3.8-27b": 22
+  },
+  "recent_historical_charged_tokens": 165808,
+  "recent_total_charged_tokens": 175608,
+  "run_id": "layered_worlds_qwen38_27b_v5_r1",
+  "shared_ledger_sha256": "dea82f073200225ca36ae4298578659aaaeae1d3448abe68def862b80eca68ae",
+  "started_at": "2026-10-24T09:02:02.681268+00:00",
+  "system_fingerprints": {
+    "fp_21e59ac2de": 7,
+    "fp_424cb89518": 8,
+    "fp_a1293f40b5": 7
+  },
+  "would_exceed_cap_by": 116
+}

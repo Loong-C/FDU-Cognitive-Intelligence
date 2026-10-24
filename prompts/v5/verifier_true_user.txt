@@ -1,0 +1,15 @@
+ORIGINAL EVIDENCE (authoritative):
+{evidence}
+
+ORIGINAL CLAIM (authoritative):
+{claim}
+
+TARGET FOR THIS REVIEW: The ENTIRE original CLAIM is TRUE.
+
+UNTRUSTED GENERATOR'S TARGET DESCRIPTION (check against original claim):
+{target_condition}
+
+UNTRUSTED CANDIDATE SCENARIO (check against evidence and target):
+{candidate_world}
+
+Decide whether this candidate is a coherent witness of EVIDENCE + whole CLAIM true. If not, distinguish a flaw limited to this candidate from a genuine contradiction between EVIDENCE and the target itself. Do not use any other branch or its possible result. Return only JSON: decision, reason, evidence_anchor.

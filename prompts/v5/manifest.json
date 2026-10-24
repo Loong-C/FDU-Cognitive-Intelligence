@@ -1,0 +1,21 @@
+{
+  "version": "v5.0",
+  "experimental_design": "two independent constructor calls, two independent verifier calls, deterministic mapping",
+  "templates": {
+    "generator_false_user.txt": "1ea60fca091c79a8e4f91fa2421a881f5745345426c49ec950cbf5c8f9ac4c5a",
+    "generator_true_system.txt": "ecef94448d4e6e33a57a87c1e97e70e7dd8f931dc03b25527dad28c9c4d01718",
+    "verifier_false_system.txt": "67177c895c9b2b49dc6511b636f6f1de8a5a83ec8ea25df7374b66f71d94609f",
+    "generator_false_system.txt": "37f3868323be44b6a820c67e5306825cd9e32b217c695ddf5b7d8d2ffd42722f",
+    "verifier_true_system.txt": "fb75693e40bb2051d70274789d81831110333e1ed937a2a35c6fbe52dfc3fdc7",
+    "verifier_true_user.txt": "453991f5f006005246f00db8722838be272f57ab47c79dba8b2fd5ad0106e279",
+    "generator_true_user.txt": "c472110b11c84fa2edd396c7e208e990ceceee1a33e2ee95e173ac8b3b83494c",
+    "verifier_false_user.txt": "7dff1de107af783b03c0551d5a9cadd868c9a28f09579cf5818425b6b75d4fe4"
+  },
+  "schemas_sha256": "158866e07f3265668d32f54dae2a6863534531de49a19dcb08e79b7fd0c86e95",
+  "schema_choice": {
+    "generator_true": "generator",
+    "generator_false": "generator",
+    "verifier_true": "verifier",
+    "verifier_false": "verifier"
+  }
+}
