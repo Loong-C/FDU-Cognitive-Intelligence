@@ -1,0 +1,12 @@
+{
+  "command": ".venv/Scripts/python.exe -m ab_factcheck.worlds_v5_continuation continue --env-local --free-plan-confirmed",
+  "exit_code": 0,
+  "formal_successful_tokens_cumulative": 341157,
+  "fresh_baseline_completed": 104,
+  "fresh_v5_completed": 104,
+  "inference_source_prompts_schemas_manifest_unchanged": true,
+  "recorded_at": "2026-10-26T02:08:09.497927+00:00",
+  "semantic_regeneration_requests": 0,
+  "status": "completed full frozen batch; no further inference requested",
+  "successful_fresh_responses_cumulative": 520
+}

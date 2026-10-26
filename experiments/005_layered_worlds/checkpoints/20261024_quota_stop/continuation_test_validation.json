@@ -1,0 +1,10 @@
+{
+  "command": ".venv/Scripts/python.exe -m pytest -q",
+  "elapsed_seconds": 23.93,
+  "executed_at": "2026-10-24T09:42:43.866795+00:00",
+  "failed": 0,
+  "new_continuation_test_cases": 9,
+  "offline_only": true,
+  "passed": 162,
+  "preserved_original_tests": 153
+}

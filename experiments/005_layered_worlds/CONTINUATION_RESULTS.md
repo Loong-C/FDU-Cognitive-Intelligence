@@ -1,3 +1,5 @@
+> 历史报告：以下保留2026-10-24的部分实验结论，附件链接固定指向当日归档。最新续跑结果见 [2026-10-26报告](RESUMPTION_20261026_RESULTS.md)。
+
 # V5 免费额度续跑：真实配对实验报告
 
 2026-10-24 已实际运行至 Groq 返回 **TPD 日 token 限额 429**，不是再次停在本地保守额度线。共完成58/104道正式配对题；新架构在这些题上38/58正确，直接分类49/58正确。**没有总体收益，仍存在世界方向颠倒、证据改写与验证优先级错误。** 这是未完成的开发集实验，不能声称全部104题已跑完。
@@ -20,7 +22,7 @@
 
 10道虚构题最终分类10/10正确，但静态验证器仅1/2正确：“周三没浇水但周四浇水”的坏候选仍被误判为目标与证据矛盾，而正确状态是仅候选不合法。出生2010与出生于2000前的目标冲突正确识别。因此完整三分类 smoke 通过不证明验证器掌握了候选错误与目标无解的区别。
 
-真实技术哨兵验证结构/枚举/长度约束；合法 JSON 本身不是强制 Schema 生效的唯一证据。静态与合成的22个验证器响应中，20个 reason 达到240字符，不能当作完整证明。有的候选还改写时间区间或增加无关事实，最终分类正确不代表构造器完全遵守提示词。见 [smoke 审阅](continuation_smoke_review.json)。
+真实技术哨兵验证结构/枚举/长度约束；合法 JSON 本身不是强制 Schema 生效的唯一证据。静态与合成的22个验证器响应中，20个 reason 达到240字符，不能当作完整证明。有的候选还改写时间区间或增加无关事实，最终分类正确不代表构造器完全遵守提示词。见 [smoke 审阅](checkpoints/20261024_quota_stop/continuation_smoke_review.json)。
 
 ## 配对结果
 
@@ -47,7 +49,7 @@ V5纠正2题、误伤13题，净少对11题，配对子集准确率下降18.97�
 
 在相同58题中，V5的S/R/NEI召回分别为8/18=44.44%、14/17=82.35%、16/23=69.57%；A27分别为17/18=94.44%、17/17=100%、15/23=65.22%。V5将NEI→R从8降到4，但其中并非都变正确：有错误转为未决；S→NEI从0增到3，S/R/NEI未决分别7/3/3。两者R→NEI均为0。
 
-全部 basic/challenge 各类 precision/recall/F1、含INVALID的混淆矩阵、机制/group、每节点成本、状态对和未运行数见 [统计表](continuation_tables.md)、[可复算JSON](continuation_summary.json)；正式 [逐题预测](reports/layered_worlds_qwen38_27b_v5_r2_free_fresh/predictions.csv)、[节点凭据](reports/layered_worlds_qwen38_27b_v5_r2_free_fresh/node_receipts.jsonl) 和 [审阅队列](reports/layered_worlds_qwen38_27b_v5_r2_free_fresh/semantic_review_queue.csv) 可回溯原始哈希。每个机制仅选一个group，不能将组内变体当独立复制。
+全部 basic/challenge 各类 precision/recall/F1、含INVALID的混淆矩阵、机制/group、每节点成本、状态对和未运行数见 [统计表](checkpoints/20261024_quota_stop/continuation_tables.md)、[可复算JSON](checkpoints/20261024_quota_stop/continuation_summary.json)；正式 [逐题预测](checkpoints/20261024_quota_stop/reports/layered_worlds_qwen38_27b_v5_r2_free_fresh/predictions.csv)、[节点凭据](checkpoints/20261024_quota_stop/reports/layered_worlds_qwen38_27b_v5_r2_free_fresh/node_receipts.jsonl) 和 [审阅队列](checkpoints/20261024_quota_stop/reports/layered_worlds_qwen38_27b_v5_r2_free_fresh/semantic_review_queue.csv) 可回溯原始哈希。每个机制仅选一个group，不能将组内变体当独立复制。
 
 完整组结果：BOUND 16题 A27/V5=16/15；FUNCTIONAL 4题=4/4；IMPLICATIVE 11题=11/9；PLACE 3题=3/2；AMBIGREF 5题=3/4；DENIAL 8题=5/1；LOOKALIKE 6题=4/3。PRESUP只完成5/6道配对，A27/V5=3/0；最后一题仅完成前三个请求。PLAN、RELDATE、TIMESHIFT、SETCLOSE、TEMPSCOPE、UNIQUE未运行，不填入虚构结果。
 
@@ -67,7 +69,7 @@ V5纠正2题、误伤13题，净少对11题，配对子集准确率下降18.97�
 
 **REFUTES不再全部失败，但也没有全面恢复。** `e_603240b9be921883` 与 `e_885e050dfe8b58af` 中，另一人获奖不排除 Clint 同样获奖。V5 保持已知赢家，分别构造 Clint 获奖和未获奖，两分支均有效，纠正了 A27 的 NEI→REFUTES。数值边界组能区分严格不等式、精确数值与开放区间；其中9道 REFUTES 均正确。已完成basic的13道R均正确，而challenge仅1/4正确，另3道成为未决；全部预定R的口径为14/28，尚有11道R没跑。新旧样本不同，不能拿新组成绩与旧 pilot 的0/37作配对因果比较，更不能据局部恢复宣称所有 REFUTES 问题解决。
 
-全部58道已完成配对题的四角色输出均由助手审阅，包含所有已完成的 TARGET_CONTRADICTS_EVIDENCE、CANDIDATE_INVALID 和各标签成功案例；未对失败题重生成。未完成题不冒充已完成的语义审阅。详见 [逐条问题](continuation_review_notes.json) 与 [整组审阅](continuation_group_reviews.json)，包含文件哈希。自动 Schema 审计检查协议与完整性，不负责证明自然语言逻辑正确，也不是外部人类审核。
+全部58道已完成配对题的四角色输出均由助手审阅，包含所有已完成的 TARGET_CONTRADICTS_EVIDENCE、CANDIDATE_INVALID 和各标签成功案例；未对失败题重生成。未完成题不冒充已完成的语义审阅。详见 [逐条问题](checkpoints/20261024_quota_stop/continuation_review_notes.json) 与 [整组审阅](checkpoints/20261024_quota_stop/continuation_group_reviews.json)，包含文件哈希。自动 Schema 审计检查协议与完整性，不负责证明自然语言逻辑正确，也不是外部人类审核。
 
 “构造失败率”需要明确口径：正式116个验证节点中，CANDIDATE_INVALID为13/116=11.21%（T为6/58，F为7/58），它是模型报告的候选失败比例，不是独立真实错误率。WITNESS_VALID为74次、TARGET_CONTRADICTS_EVIDENCE为29次、UNDETERMINED为0次。语义审阅已经发现CI既可能正确识别候选缺陷，也可能错过更高优先级的目标矛盾；反过来WV也会放过坏候选。目标本来矛盾时，按任务要求同时写出冲突约束不算构造器违规；不将所有被拒候选都记作构造失败。
 
@@ -85,18 +87,18 @@ V5纠正2题、误伤13题，净少对11题，配对子集准确率下降18.97�
 
 Groq响应头的requests对应日请求额度、tokens对应分钟额度；此前并不提供组织级日token剩余，本次由明确TPD错误得到该时刻的用量。新增累计usage超过200000并不等于同一服务端窗口已计费超额；本地累计、保守预留与服务端当刻used不能混用，本实验不能独立重建其额度恢复/计量细节。没有账单接口，因此不独立宣称零费用。
 
-续跑策略见 [CONTINUATION.md](CONTINUATION.md)。完成节点精确缓存复用；真正无响应的 inflight 不会无审计重发；429/5xx 有界处理，长限额等待保留进度停止。用户对额度策略的后续明确授权优先于附件建议的180000 token提前停止线，账本与历史响应从未清零。
+续跑策略见 [CONTINUATION.md](checkpoints/20261024_quota_stop/CONTINUATION.md)。完成节点精确缓存复用；真正无响应的 inflight 不会无审计重发；429/5xx 有界处理，长限额等待保留进度停止。用户对额度策略的后续明确授权优先于附件建议的180000 token提前停止线，账本与历史响应从未清零。
 
 本次优先完成主方法及同批 A27；没有运行旧 B27 fresh 对照或省略生成器的消融，不能据本次结果分离“构造具体世界”和“拆分两个验证器”各自的因果贡献。
 
 ## 工程与独立审计
 
-续跑前完整162项测试通过（原153项及新增9项），覆盖真实调用外的状态映射、接口隔离、占位符注入、配额策略、缓存谱系、歧义失败及重复运行行为。测试中的伪网络只验证工程，不计入实验成绩。见 [测试凭据](continuation_test_validation.json)。
+续跑前完整162项测试通过（原153项及新增9项），覆盖真实调用外的状态映射、接口隔离、占位符注入、配额策略、缓存谱系、歧义失败及重复运行行为。测试中的伪网络只验证工程，不计入实验成绩。见 [测试凭据](checkpoints/20261024_quota_stop/continuation_test_validation.json)。
 
-独立代码路径的 [完整性及统计审计](continuation_audit.json) 已通过，核查341个响应记录（新增319+复用22）、冻结源文件、原始2050个历史文件、原账本前311条及续跑前333条、31个r1原始文件、精确请求/分支依赖、复用谱系与新增成本，并独立重算各数据集混淆矩阵、召回和宏F1。58题审阅对应的原始哈希均匹配，无未审阅的已完成题。
+独立代码路径的 [完整性及统计审计](checkpoints/20261024_quota_stop/continuation_audit.json) 已通过，核查341个响应记录（新增319+复用22）、冻结源文件、原始2050个历史文件、原账本前311条及续跑前333条、31个r1原始文件、精确请求/分支依赖、复用谱系与新增成本，并独立重算各数据集混淆矩阵、召回和宏F1。58题审阅对应的原始哈希均匹配，无未审阅的已完成题。
 
-[零调用缓存验证](continuation_cache_validation.json) 使用client=None重走smoke门槛和58道正式配对，确认416个运行文件与完整账本哈希均不变，停在第一个缺失节点；新增HTTP请求为0。API Key不进入源码、配置、报告或Git。
+[零调用缓存验证](checkpoints/20261024_quota_stop/continuation_cache_validation.json) 使用client=None重走smoke门槛和58道正式配对，确认416个运行文件与完整账本哈希均不变，停在第一个缺失节点；新增HTTP请求为0。API Key不进入源码、配置、报告或Git。
 
-[提交前密钥扫描](continuation_secret_scan.json) 检查724个非忽略文件及r1/r2原始运行文件，实际密钥值与凭据模式均无命中；`.env.local`仍被忽略且未跟踪。扫描凭据不保存密钥值或密钥哈希。
+[提交前密钥扫描](checkpoints/20261024_quota_stop/continuation_secret_scan.json) 检查724个非忽略文件及r1/r2原始运行文件，实际密钥值与凭据模式均无命中；`.env.local`仍被忽略且未跟踪。扫描凭据不保存密钥值或密钥哈希。
 
 全部341个响应实际model_id匹配，非思考可观察检查通过，未发现provider验证异常；服务端不暴露内部推理计算，不能独立证明内部思考token为零。托管system_fingerprint有4种，分布见统计表；固定seed和模型名称不保证后端逐位固定，也不等于本地量化权重身份可验证。

@@ -1,0 +1,227 @@
+{
+  "cases": [
+    {
+      "false_decision": "TARGET_CONTRADICTS_EVIDENCE",
+      "gold": "SUPPORTS",
+      "id": "synthetic_s_equal",
+      "label": "SUPPORTS",
+      "quality_flags": {
+        "verify_F": [
+          "REASON_LIMIT_HIT:reason"
+        ]
+      },
+      "raw_record_sha256": {
+        "generate_F": "7e44e876c55cb679beb27f4b26725e411023baeccd5f9ffc43ff8c9c73e5bfb1",
+        "generate_T": "a6bde0b0a0d9ea5facdcd8b1feb80327f048b111e90e8e0b28912741a0f1e802",
+        "verify_F": "d3f276ca6514785acfe633ed5e569c549d63bdc974268de72cf4f03ff4e1e3c2",
+        "verify_T": "f2d40ba14164198dc53bcd0baa629d425df8a70b0b2f691798b3269ef5762806"
+      },
+      "review_note": "Original assistant review retained in semantic_review.json; no new model response.",
+      "true_decision": "WITNESS_VALID"
+    },
+    {
+      "false_decision": "WITNESS_VALID",
+      "gold": "REFUTES",
+      "id": "synthetic_r_birth",
+      "label": "REFUTES",
+      "quality_flags": {
+        "verify_F": [
+          "REASON_LIMIT_HIT:reason"
+        ]
+      },
+      "raw_record_sha256": {
+        "generate_F": "3adb7310991d78dc94151ac0ba1ffea75c5cfaaefa6f3ffc109e66ad6176ec73",
+        "generate_T": "72c0279cecd1002ba3cef7e5b5d25bc45f36e5260e446a6db9f005bd40df2071",
+        "verify_F": "d8cd0eecbdbd21eb8dd27df766b6d305fa2bed5eb7b1762233e46d0b659318bf",
+        "verify_T": "0f1e548e28ea4f4579df7fa25957bafe2549b86dd9f163414b78c52f2057656f"
+      },
+      "review_note": "Original assistant review retained in semantic_review.json; no new model response.",
+      "true_decision": "TARGET_CONTRADICTS_EVIDENCE"
+    },
+    {
+      "false_decision": "WITNESS_VALID",
+      "gold": "NOT ENOUGH INFO",
+      "id": "synthetic_n_water",
+      "label": "NOT ENOUGH INFO",
+      "quality_flags": {
+        "verify_F": [
+          "REASON_LIMIT_HIT:reason"
+        ],
+        "verify_T": [
+          "REASON_LIMIT_HIT:reason"
+        ]
+      },
+      "raw_record_sha256": {
+        "generate_F": "b68b772d86b51407db6db7c1fdc291045156b821135cb334634c2796860bda11",
+        "generate_T": "12d92a1666b0ce1b3d98bbb8c8881a58923cb0ada7cdece56a364372f09ff8da",
+        "verify_F": "4d187c40d62312fc41d0693ee21cf3b4b679c81a4289646799a0a17905ca5c8b",
+        "verify_T": "7ea808d2554962e3af2673830eeac2f4a32138a9629e042d62ed9b753670570d"
+      },
+      "review_note": "Original assistant review retained in semantic_review.json; no new model response.",
+      "true_decision": "WITNESS_VALID"
+    },
+    {
+      "false_decision": "WITNESS_VALID",
+      "gold": "NOT ENOUGH INFO",
+      "id": "synthetic_n_openlist",
+      "label": "NOT ENOUGH INFO",
+      "quality_flags": {
+        "verify_F": [
+          "REASON_LIMIT_HIT:reason"
+        ],
+        "verify_T": [
+          "REASON_LIMIT_HIT:reason"
+        ]
+      },
+      "raw_record_sha256": {
+        "generate_F": "872df84ff5380c2dfdb21a4e67b3336951baa204f0801a47506fc13c6a20b2cf",
+        "generate_T": "e002701e1ef2766835b667f141b4a1f5b18a2d15621c1399cde49a66333d3e27",
+        "verify_F": "b32481e618fefc4dc96e7ddf73bc00884b04bd104b23e2d09d5f8ff26bbc3239",
+        "verify_T": "04c8a276c1d21ad6a5545140f6c715518277e9070d141b879ba21f9ba3af8f53"
+      },
+      "review_note": "Both candidates preserve the attendees explicitly included by E; Ivo can be present or absent. Both verifier decisions are correctly oriented.",
+      "true_decision": "WITNESS_VALID"
+    },
+    {
+      "false_decision": "WITNESS_VALID",
+      "gold": "NOT ENOUGH INFO",
+      "id": "synthetic_n_denial",
+      "label": "NOT ENOUGH INFO",
+      "quality_flags": {
+        "verify_F": [
+          "REASON_LIMIT_HIT:reason"
+        ],
+        "verify_T": [
+          "REASON_LIMIT_HIT:reason"
+        ]
+      },
+      "raw_record_sha256": {
+        "generate_F": "2b5dab4c205774731ca9c1bc6e3be04af7dfeafc22ebade1f68d21cdd8bee747",
+        "generate_T": "0f0aaf602570a1bbd07c5115ecaf395a7fc7a388712fedd3c9d2847ba8a148de",
+        "verify_F": "09459b4957fe171f302634f4a4f32e57ff8abdbc9f8961704892657ea223d5c5",
+        "verify_T": "0eabc9c9e48c42409b80966207eb55b0573e35911487103db64f7c021575a30e"
+      },
+      "review_note": "Both candidates retain the representative denial as attributed speech. Underlying receipt can still be true or false. Both verifier decisions correctly distinguish speech from fact.",
+      "true_decision": "WITNESS_VALID"
+    },
+    {
+      "false_decision": "WITNESS_VALID",
+      "gold": "REFUTES",
+      "id": "synthetic_r_only",
+      "label": "REFUTES",
+      "quality_flags": {
+        "verify_F": [
+          "REASON_LIMIT_HIT:reason"
+        ],
+        "verify_T": [
+          "REASON_LIMIT_HIT:reason"
+        ]
+      },
+      "raw_record_sha256": {
+        "generate_F": "4d709ae8d12f06c624e6dd127f01ba5ba1c97d491155ef543674e9d381cbc367",
+        "generate_T": "e64bccd665fcfbe7efc89a7e45879ee524b50ff0fc276c5a33cb0605ee4adfe2",
+        "verify_F": "b4aa4a0e75111235cecbdc319f4460541da38f96fe948161905aad76d8964dc8",
+        "verify_T": "528b660ca2d53d17419a5eda3f3e2083cf90d03c93e8163e66954ad4c3bce825"
+      },
+      "review_note": "The true candidate retains the exclusivity/identity conflict; T rejects the target itself. F preserves the sole winner and excludes the distinct Vela; F correctly accepts.",
+      "true_decision": "TARGET_CONTRADICTS_EVIDENCE"
+    },
+    {
+      "false_decision": "TARGET_CONTRADICTS_EVIDENCE",
+      "gold": "SUPPORTS",
+      "id": "synthetic_s_interval",
+      "label": "SUPPORTS",
+      "quality_flags": {
+        "verify_F": [
+          "REASON_LIMIT_HIT:reason"
+        ],
+        "verify_T": [
+          "REASON_LIMIT_HIT:reason"
+        ]
+      },
+      "raw_record_sha256": {
+        "generate_F": "b7e5a77fe9da947a7bb45efd5c803a289129d3b994d78f8c56cfebc3c6d2adc4",
+        "generate_T": "4ef251c1cc9017fd8bfefa7eacd0832d9cc75e296b16d3893ca8c54adce1f075",
+        "verify_F": "52cf57270f9dbf1ba10151a1fa790f361ef269d4d8ebe7caa1313f494f493c60",
+        "verify_T": "107e8f7e9df27c0917acf2b47576164313618bd7189e4bd984f09bb9d976b1c5"
+      },
+      "review_note": "The F constructor introduces a 2020 gap despite the explicit continuous interval. F verifier correctly derives the impossibility from original E/C. A correct final label does not establish constructor compliance with the no-invented-exceptions instruction.",
+      "true_decision": "WITNESS_VALID"
+    },
+    {
+      "false_decision": "WITNESS_VALID",
+      "gold": "NOT ENOUGH INFO",
+      "id": "synthetic_n_attempt",
+      "label": "NOT ENOUGH INFO",
+      "quality_flags": {
+        "verify_F": [
+          "REASON_LIMIT_HIT:reason"
+        ],
+        "verify_T": [
+          "REASON_LIMIT_HIT:reason"
+        ]
+      },
+      "raw_record_sha256": {
+        "generate_F": "e4b48235c3e280bdd1e19170e2df01e86d5abea7841e45f4e1b60ffeb00c714d",
+        "generate_T": "ab9ab59057e114f86e934e149cbe3ebc2075db9cae41250c4e316275044d0b43",
+        "verify_F": "1bf9522ac3f53441142f2e108acd2acadf5b9889e509fb83359a4ce2d365680c",
+        "verify_T": "7f852d29d4b9b8205c1cb7649e4bb9cdb0e63b95dd8e06054a0da8f08eded0dd"
+      },
+      "review_note": "Attempting is compatible with succeeding or failing. Both candidates realize those alternatives; both verifier states are correct. One explanation contains a mixed-language malformed fragment at its character cap.",
+      "true_decision": "WITNESS_VALID"
+    },
+    {
+      "false_decision": "WITNESS_VALID",
+      "gold": "NOT ENOUGH INFO",
+      "id": "synthetic_n_conjunction",
+      "label": "NOT ENOUGH INFO",
+      "quality_flags": {
+        "verify_F": [
+          "REASON_LIMIT_HIT:reason"
+        ],
+        "verify_T": [
+          "REASON_LIMIT_HIT:reason"
+        ]
+      },
+      "raw_record_sha256": {
+        "generate_F": "4e4ce7facdee8a7a4b125d8ce65e222d1165b9c2d3f101fd88cd12b7ce6e0b8b",
+        "generate_T": "6d04028c716fb9a5f227650fb41ba407f6d1943be4a6d4d0155057f565ffc9fa",
+        "verify_F": "82876ba3876ffa1b69ac0bb49492511b99433498c25b0c60e26ce28735c4ff88",
+        "verify_T": "74560573800e9d1919c97c8410bf08284625a510d3d5e3e488dbccef3aef67ee"
+      },
+      "review_note": "F preserves Wednesday and negates Thursday; this is sufficient to negate the whole conjunction. T includes both days. Both witnesses are correctly accepted.",
+      "true_decision": "WITNESS_VALID"
+    },
+    {
+      "false_decision": "WITNESS_VALID",
+      "gold": "REFUTES",
+      "id": "synthetic_r_number",
+      "label": "REFUTES",
+      "quality_flags": {
+        "verify_F": [
+          "REASON_LIMIT_HIT:reason"
+        ],
+        "verify_T": [
+          "REASON_LIMIT_HIT:reason"
+        ]
+      },
+      "raw_record_sha256": {
+        "generate_F": "5d7772d0ed8572dfbc82a7a504b5dc6511f7c79f319d23175c38d02683af30ea",
+        "generate_T": "5a5a4533a61d175084d7a9485aa9366e29fcbd02016d7eb1f9504d3191350c28",
+        "verify_F": "642a3672e2600ff19b8465d9dbefb13c8182974d155a84bba7a94be9333b7622",
+        "verify_T": "75a6709175fbbe11055accb0fe2d665a0c60a7dd19615fe2f1afa1e508bd6e72"
+      },
+      "review_note": "T exposes the exact 199 versus 200 conflict and is correctly rejected at target level; F preserves 199 and is correctly accepted as a counterexample. Both verifier reasons hit the character cap.",
+      "true_decision": "TARGET_CONTRADICTS_EVIDENCE"
+    }
+  ],
+  "reviewed_at": "2026-10-24T09:48:26.227717+00:00",
+  "reviewer": "assistant; not external human adjudication",
+  "static_correct": 1,
+  "static_failure_preserved_from_r1": true,
+  "static_total": 2,
+  "synthetic_correct": 10,
+  "synthetic_total": 10,
+  "verifier_reason_limit_hits": 20,
+  "verifier_responses": 22
+}

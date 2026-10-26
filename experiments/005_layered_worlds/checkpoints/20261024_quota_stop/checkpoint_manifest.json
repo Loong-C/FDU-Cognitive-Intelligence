@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-10-26T01:03:41.362469+00:00",
+  "ledger_prefix_attempts": 654,
+  "origin_commit": "a2970f972e244d621efcafe87e75d7827e43892e",
+  "raw_and_ledger_archived_locally": true,
+  "raw_files_count": 416,
+  "report_files_sha256": {
+    "CONTINUATION.md": "123c36ccf01d5899db02ede3d1dc6c61cce4786a4012faaec0550bc301d848fa",
+    "CONTINUATION_RESULTS.md": "a63d6b8726b78073d8f8f849bf7a23ecf6743272e04e93e39a14f93ad16ebc66",
+    "README.md": "8bb3adb94133e69caeb8d4117b02562f0c163e927d932db12c83fa7be886f8bd",
+    "continuation_audit.json": "c7e870fd77b3ff165c6be4f21e34f0746b020ca1adb3e038d76b2ff76a158007",
+    "continuation_cache_validation.json": "55376cd37d3c2b3b85bb87c4990f41a44a61f07a877c1a73bdd84a871cf8af65",
+    "continuation_group_reviews.json": "73b27802ba59a0af6da08a2c8fc1c32d3c8dd11138c687c19075a4ada7d246fd",
+    "continuation_review_notes.json": "c13659312bb3b070f67c01707c286a90c98be351b548187c7a1e2357e49c3e8f",
+    "continuation_secret_scan.json": "a40fef263e2c5410b383e3e50e477ae03a20eac6de1bb52ec21e498b0ac91edf",
+    "continuation_smoke_review.json": "8a55662b1c5e28630eff324b88a06ccf20fc34332343423c60e0c11fcdff4bc6",
+    "continuation_summary.json": "e3f585d4592c99b0f65deaec4f2a529b9acfe44f63486d52fc1d2cfae39cd8f2",
+    "continuation_tables.md": "7ddf26e51bfbd58c59e1c8c95df6dba9d2f731f9a5fe2c5cf31c10133939b759",
+    "continuation_test_validation.json": "db4610880dbb547a728b6d7a60b066be3ff40f8c7e0156967e6e04f99b04967d",
+    "reports/layered_worlds_qwen38_27b_v5_r2_free_fresh/metrics.json": "5e6a99fba2f61fb1efe5b36a8520273cff309c88baf3ae0a32993c4c9773c46c",
+    "reports/layered_worlds_qwen38_27b_v5_r2_free_fresh/node_receipts.jsonl": "deb76d6c5c42838e7b1e37f0c48a8ee949cd3cfbac0385c4d48e9fe22d4e56de",
+    "reports/layered_worlds_qwen38_27b_v5_r2_free_fresh/predictions.csv": "bb4b6c8de2bb7fbce9127c5350bc4d3a9102e9db376e8a0bed774cd77f5e4fc3",
+    "reports/layered_worlds_qwen38_27b_v5_r2_free_fresh/run_fingerprint.json": "53f8e4c0127ae64696456de11a652663ac2d85c4410b65b34826338a63cfefa1",
+    "reports/layered_worlds_qwen38_27b_v5_r2_free_fresh/semantic_review_queue.csv": "a460a00e37b6e7787d0c85c44a4b67b9a518b199aac36d2c479bb4d932a0db8d",
+    "reports/layered_worlds_qwen38_27b_v5_r2_free_smoke/metrics.json": "eac4f0e06bef511626a694b18179c2db58a7787f560854241ba31d7cf52fcf3a",
+    "reports/layered_worlds_qwen38_27b_v5_r2_free_smoke/node_receipts.jsonl": "422f5e3b60d9877334d2fec5e85a8f5b44c9f2f1703358287d971e7bb69e563f",
+    "reports/layered_worlds_qwen38_27b_v5_r2_free_smoke/predictions.csv": "fdf4ee7aaced6023059ec9b94207a36b9a6ac02c1a205990c17264f2082ab3b4",
+    "reports/layered_worlds_qwen38_27b_v5_r2_free_smoke/run_fingerprint.json": "4559d0876a8c378d7ca94cd86321cef4bacb49714720604ca8c4b2161b2567e1",
+    "reports/layered_worlds_qwen38_27b_v5_r2_free_smoke/semantic_review_queue.csv": "2e6aa37443f6ef3cd6885f96df686911dd7db8a16fb3b69bc4bccd129ea0f626"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "config": {
+    "base_commit": "5425613d937148f862e3583caddafef5603d5546",
+    "continuation_policy": {
+      "authorization": "User requested continuing until available free quota is exhausted; no paid service authorized.",
+      "free_reference_limits": {
+        "requests_per_day": 1000,
+        "requests_per_minute": 30,
+        "tokens_per_day": 200000,
+        "tokens_per_minute": 8000
+      },
+      "local_rolling_daily_stop": false,
+      "max_new_attempts_per_execution": 1000,
+      "never_upgrade_plan_or_change_endpoint": true,
+      "parent_config": "configs/experiment_worlds_v5.json",
+      "parent_run_id": "layered_worlds_qwen38_27b_v5_r1",
+      "quota_policy": "provider_enforced_free",
+      "reuse_received_parent_responses": true,
+      "run_id": "layered_worlds_qwen38_27b_v5_r2_free",
+      "stop_on": [
+        "experiment_complete",
+        "provider_long_quota_reset",
+        "protocol_failure",
+        "ambiguous_transport",
+        "terminal_http_error"
+      ],
+      "throttle": {
+        "max_wait_seconds": 60,
+        "min_interval_seconds": 3,
+        "requests_per_minute": 25,
+        "tokens_per_minute": 7000
+      }
+    },
+    "limits": {
+      "baseline": 1024,
+      "constructor": 384,
+      "probe": 384,
+      "verifier": 384
+    },
+    "manifest": "experiments/005_layered_worlds/fresh_dev_v5.json",
+    "model": {
+      "budget": {
+        "max_wait_seconds": 60,
+        "min_interval_seconds": 3,
+        "requests_24h": 1000,
+        "requests_per_minute": 25,
+        "tokens_24h": 200000,
+        "tokens_per_minute": 7000
+      },
+      "endpoint": "https://api.groq.com/openai/v1",
+      "max_tokens": 1024,
+      "model_id": "qwen/qwen3.8-27b",
+      "network_retries": 2,
+      "proxy_mode": "system",
+      "reasoning_effort": "none",
+      "seed": 42,
+      "stream": false,
+      "temperature": 0,
+      "timeout_seconds": 60
+    },
+    "prompts_dir": "prompts/v5",
+    "run_id": "layered_worlds_qwen38_27b_v5_r2_free"
+  },
+  "continuation_source_sha256": {
+    "src/ab_factcheck/worlds_v5_continuation.py": "f20ebe7fed2202913d7f59d8a6d9ea53bf3d6a9f71a05c29113348eea6f121ae"
+  },
+  "direct_prompt_sha256": "ab293afe88d62d470bf4aa08f8e5d2eb57a0816edb1f52eadcfbad124e370cb3",
+  "direct_response_format": {
+    "json_schema": {
+      "name": "direct_classification",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "reason": {
+            "maxLength": 320,
+            "type": "string"
+          },
+          "verdict": {
+            "enum": [
+              "SUPPORTS",
+              "REFUTES",
+              "NOT ENOUGH INFO"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "verdict",
+          "reason"
+        ],
+        "type": "object"
+      },
+      "strict": true
+    },
+    "type": "json_schema"
+  },
+  "hosted_model_identity_limit": "Provider weights and internal computation are not independently observable",
+  "model_weights_sha256": null,
+  "parent_fingerprint_sha256": "7abd863269a8ece6ea2420674fae374fb58343e729ce4139673af9bcd2f41fb5",
+  "phase": "smoke",
+  "prompts": {
+    "experimental_design": "two independent constructor calls, two independent verifier calls, deterministic mapping",
+    "schema_choice": {
+      "generator_false": "generator",
+      "generator_true": "generator",
+      "verifier_false": "verifier",
+      "verifier_true": "verifier"
+    },
+    "schemas_sha256": "158866e07f3265668d32f54dae2a6863534531de49a19dcb08e79b7fd0c86e95",
+    "templates": {
+      "generator_false_system.txt": "37f3868323be44b6a820c67e5306825cd9e32b217c695ddf5b7d8d2ffd42722f",
+      "generator_false_user.txt": "1ea60fca091c79a8e4f91fa2421a881f5745345426c49ec950cbf5c8f9ac4c5a",
+      "generator_true_system.txt": "ecef94448d4e6e33a57a87c1e97e70e7dd8f931dc03b25527dad28c9c4d01718",
+      "generator_true_user.txt": "c472110b11c84fa2edd396c7e208e990ceceee1a33e2ee95e173ac8b3b83494c",
+      "verifier_false_system.txt": "67177c895c9b2b49dc6511b636f6f1de8a5a83ec8ea25df7374b66f71d94609f",
+      "verifier_false_user.txt": "7dff1de107af783b03c0551d5a9cadd868c9a28f09579cf5818425b6b75d4fe4",
+      "verifier_true_system.txt": "fb75693e40bb2051d70274789d81831110333e1ed937a2a35c6fbe52dfc3fdc7",
+      "verifier_true_user.txt": "453991f5f006005246f00db8722838be272f57ab47c79dba8b2fd5ad0106e279"
+    },
+    "version": "v5.0"
+  },
+  "source_sha256": {
+    "src/ab_factcheck/cli_worlds_v5.py": "6c132d43633f3e0d19c9b2848c854ef8291da304b3b6819f4318e05dd6a6086d",
+    "src/ab_factcheck/common.py": "221b52864adfb7562a7622f6ea51b287623662dac30f901f9a0b77007598fdfb",
+    "src/ab_factcheck/groq_client.py": "7ba9622c335842bcc4d47935b3d20dd9e961bf9cd0c6b4c5769fe71c5f3f2254",
+    "src/ab_factcheck/model_client.py": "eab47004b7bc99842c8b02932a52bf1ccb67ba1114dc10ae187a2fd3aee8e959",
+    "src/ab_factcheck/prompts.py": "5c61bc1b7d4d8d5d50c398810c6a6f82d26b30989fcdb994ad192c1b971ea82d",
+    "src/ab_factcheck/splitting.py": "32be3ee4dd589c7aa02c0b9c1d459e227ff25870f10ace901e9acf87231ddba1",
+    "src/ab_factcheck/structured.py": "4d895c4ab0038d30b1ee9accfbfb615a6ff1d5d43d24f9895d555d1900473a6c",
+    "src/ab_factcheck/worlds_v5/__init__.py": "c73bcf23c4bbefaabdf84a005df29f79d4f24d5048a1249465ad391a4fbda1d0",
+    "src/ab_factcheck/worlds_v5/adjudicator.py": "bb5b82cdfc2cc1568aae1710c55bc8c9c29fb0ba70de42e4bc13ca20c3f74711",
+    "src/ab_factcheck/worlds_v5/client.py": "a52d1986e4c58731cdb39725a88003199ccdf0ff20a904700468ad6dd5458ac9",
+    "src/ab_factcheck/worlds_v5/constructor.py": "23fd9fb853940a090190a54fbe5018e1765b768c24cb0ac2116f13a8c3ae605e",
+    "src/ab_factcheck/worlds_v5/evaluation.py": "a191f5fe63c69241b3119c8131c6cf1a751a3a5e2b88eabfcba2c050685b2e95",
+    "src/ab_factcheck/worlds_v5/experiment.py": "d700aa33da32e7fbc1f9d6a35186ca8e38737ca8bc44b1b8c6379d49046ce025",
+    "src/ab_factcheck/worlds_v5/models.py": "35cb55641d455680ff0eda459c0c1098766f49d5b7246b4972be5713b19b7ddb",
+    "src/ab_factcheck/worlds_v5/orchestrator.py": "516d23a5afb7adcf5381f13bd510a24d84dc52bc3aab397a3486b0063884c565",
+    "src/ab_factcheck/worlds_v5/prompts.py": "71015051840f2bfae7a26c9d3f4b0b652866e28e7d10010e0d431853196eb9fd",
+    "src/ab_factcheck/worlds_v5/selection.py": "699bcc54949d3d281ddabcf6632be89a6d92fc1bf9c7e1fc5a325536eedff873",
+    "src/ab_factcheck/worlds_v5/verifier.py": "4668ba90cc13214bfff950c3c39ea0be4602077c4835ac74860d3763591bfc74"
+  },
+  "static_cases_sha256": "1e3ceb1f3f0abc91070733b8b2b21dce41bc5e08abc0b65b6ad4a6953c16b6c1",
+  "synthetic_sha256": "4fb565cf3b57b93872649026bca689efb32f72f372c5f2f5a948793e89f14849"
+}

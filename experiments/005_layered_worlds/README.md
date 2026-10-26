@@ -1,10 +1,12 @@
 # v5: two constructors, two independent verifiers, deterministic adjudication
 
-**Current continuation:** the user subsequently authorized using the available Free
-Plan quota until the provider limit. Use the separate [r2 continuation workflow](CONTINUATION.md)
-and its CLI. The [real r2 continuation results](CONTINUATION_RESULTS.md) document the
-provider TPD stop after 58 complete pairs, including the unfavorable comparison
-against A27. Full tables and remaining nodes are in [the derived statistics](continuation_tables.md).
+**Completed on 2026-10-26:** all 104 frozen fresh-dev pairs now have their four V5
+responses and separate A27 control. V5 scores 69/104 (66.35%); A27 scores 90/104
+(86.54%). See the [complete real experiment report](RESUMPTION_20261026_RESULTS.md),
+[full tables](continuation_tables.md), and [resumption audit](resumption_20261026_audit.json).
+The exact [2026-10-24 checkpoint](checkpoints/20261024_quota_stop/CONTINUATION_RESULTS.md)
+preserves the earlier 58-pair TPD stop. The [r2 continuation workflow](CONTINUATION.md)
+remains available for reproduction; all scheduled inference is complete.
 The r1 results/configuration below remain the historical first run;
 do not resume r1 and r2 concurrently, because r2 already reuses r1's received answers.
 

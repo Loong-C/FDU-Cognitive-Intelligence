@@ -546,8 +546,538 @@
           "verify_T.json": "99e210c5a4ab6eaa71ec22e32ff2a71301e6c18dace676ba55780c802054a3ad"
         }
       }
+    },
+    {
+      "dataset": "basic",
+      "findings": "All five completed items reviewed on 2026-10-26. Both methods are correct on all five frozen labels. Two actual releases entail C and F is correctly target-infeasible; two alternative/delayed release facts exclude C and admit F; a bare schedule permits both outcomes. Candidate conflicts on impossible targets are kept visible rather than treated as evidence of sound construction. Character-limited reasons remain partial explanations.",
+      "mechanism": "PLAN",
+      "reviewed_ids": [
+        "e_1aa34bf68bfc42ed",
+        "e_1d5e9a598edc90c3",
+        "e_5e2008adbf51bbdf",
+        "e_9898be7289002e78",
+        "e_b6ece19357bae6f2"
+      ],
+      "scope": "all four roles and direct baseline for every item in the complete group",
+      "source_sha256": {
+        "e_1aa34bf68bfc42ed": {
+          "baseline_A27.json": "a74499bc9e0f34614584f1b072a25b5b38c58508c12a8c3202e8f375f3320b12",
+          "generate_F.json": "f9a3105150ffe4a27852cd2fc8b87bae2b86bb0a9cd1328c645f843fee01ba08",
+          "generate_T.json": "9ebb5617b6f67ed24a7868f8f62483b17f57ddddc9b47d3760b47e2cf248066f",
+          "verdict.json": "348b910329d24ec9c5681b46bbe5265a438198dbe2bfe5075a27f3beec78728b",
+          "verify_F.json": "281a686dc37691282a045fcce5cb8371881161747341817ced2ea11bcb1d55a4",
+          "verify_T.json": "988cf123d9657df5445ae65362293d9ad35cd16eb3e24c41c3000ec9577529dc"
+        },
+        "e_1d5e9a598edc90c3": {
+          "baseline_A27.json": "4959e1dda2277033db3beb503f6166764cc4658633f19625ffd3b79a3c4c88b6",
+          "generate_F.json": "e4653a5f323ad96b23cc51ddfc7a3c0e30b15ef86edcc407e0ccda040a511ca7",
+          "generate_T.json": "c281d60bf834cf0aca6b1b2fc33f8e3a1cf3a3f73ef01a0895fa0e4ba146e391",
+          "verdict.json": "7380004f1c697bc61a658cfc6eee531ecc4c3d13b47a8526f8d4e9808cb4a540",
+          "verify_F.json": "3906e6d186d9b76ee2f99d7422708213c2a1ef1ab058a3b4bd4d5eaf26bf6deb",
+          "verify_T.json": "b95d03852111d604390d3adff6d27fab20c357bbacb0b50747cac9bff474b9df"
+        },
+        "e_5e2008adbf51bbdf": {
+          "baseline_A27.json": "3b00c7887facb64d152c31b1f6f7f245b20c342621e07098ba89a19f8923bd46",
+          "generate_F.json": "779f960c9656b72b7afd8c9b31d06d96ed560dbae9f82c28f1772e7279367d8b",
+          "generate_T.json": "435c86bf5f58a7d0332c6994243ab377975a74b4741e4ae5b612501a1942f588",
+          "verdict.json": "27fb0bfc9c0cc64b3b91336d505f6fa7345f8739398f5aa14e0dc64044a4a51e",
+          "verify_F.json": "adc13c97b3f19be212528cadc401a142de031cb94de61373a7c341198d557b09",
+          "verify_T.json": "dd445bb9d4309dcc1d34b73e0169548293cc8b61e817e0e119d966e1e6c563c7"
+        },
+        "e_9898be7289002e78": {
+          "baseline_A27.json": "eea17f9213e537d07ed43fc07f18f649efb6819b79fafd59b381d5a5a8e0cd73",
+          "generate_F.json": "88d3582656cefce8a7b76da2df4acf34edbe296aa4338651918cb17c6d349fba",
+          "generate_T.json": "f12a54f35f232b1aa04834fc758e29fd993d974b8a3d3bf400f7857147788319",
+          "verdict.json": "0f178da577a827f1d1fb93223cb7fda0b485d15a5b65e6c59836d1ed016a693c",
+          "verify_F.json": "e2b23091b0ec72635d1700dab3ef67dbdf0f1501691e52136c9d7788d791586d",
+          "verify_T.json": "1e755c8ac9b62453c33ac496e5cd1c19fe480c9e2f37f8f9d1cf5aef0f3df03e"
+        },
+        "e_b6ece19357bae6f2": {
+          "baseline_A27.json": "2d7f645ab936c8dc4f27dbf476459754db77be724cb09b852d09373e2a4fee27",
+          "generate_F.json": "0c45c054bc4aa12b40dba6b2c0aec1f1adac706237fefea3598207addf925392",
+          "generate_T.json": "7acd7e0b635f6f7dd58e5b4ec69bf51be7437c7fa749ad9b0c298b1783e8e800",
+          "verdict.json": "b86e474f77c6f9983091a0087a930a9d19d6a6d16adad9b113c113c30fa5966c",
+          "verify_F.json": "39ec380b98787f1611e585f4d76b93bcdf67d2369a53d5270cfa5210b6e175e1",
+          "verify_T.json": "da89e9bb42533b4abd55f370f54b5431afebf59bbe0d0110c331f8c0e24e9c10"
+        }
+      }
+    },
+    {
+      "dataset": "challenge",
+      "findings": "All six completed items reviewed, with five on 2026-10-24 and the again item completed on 2026-10-26. Every V5 outcome is UNRESOLVED_BRANCH, A27 is correct on three. T constructors omit the required earlier award, usually copying a cut-off biography. Original first-win/first-of-three exclusions are missed by T decision priority, while plain/still do not exclude earlier wins despite misleading reasons. F candidates sometimes negate the fixed 1957 event, and second-time/again evidence is inconsistently prioritized. The again item alone spans dates, using its original A27 and constructors.",
+      "mechanism": "PRESUP",
+      "reviewed_ids": [
+        "e_30dd6de6f0d68233",
+        "e_570d201c0593fa2a",
+        "e_66aac7fa7c48a00a",
+        "e_d5b21a51414873e5",
+        "e_f45a62a896640a71",
+        "e_f491d220d45d65f8"
+      ],
+      "scope": "all four roles and direct baseline for every item in the complete group",
+      "source_sha256": {
+        "e_30dd6de6f0d68233": {
+          "baseline_A27.json": "5284c7d784c921af4d93dd238a0263c12a6e61d2e0c79ff9635bb2b767a86c4c",
+          "generate_F.json": "d4d0b7d1c6f202ceb8362b604d93a2d0044a3cd4733c73d9a235da230e74151f",
+          "generate_T.json": "ea236b15a02d59cc84670aec06b293b4d926decb800e0a8cc1dcd0ab5c11ee2a",
+          "verdict.json": "487b7cc084d2efc71e2ad8be9d3d195741918fcd9e5e8e8e61aa98791d10fe56",
+          "verify_F.json": "5b1940165eaed3fd67f36b4fc4da4427c3bc46547e665f17d5eb16636ee77fb6",
+          "verify_T.json": "05196f842eaf91d663c59f2cd9c5b14a34907e93598db5bd041ad6dcce204651"
+        },
+        "e_570d201c0593fa2a": {
+          "baseline_A27.json": "913a328c9d0b8987c74fbbd2381defb80d9b6c458b947e4a7bb44e6cf82f83b9",
+          "generate_F.json": "e0d37a443d7368af542105ffe2c7e2311bab422d368a7fb8bc7d485f176661cb",
+          "generate_T.json": "e58d48b9284abdd9db6c3f18df71ad001146f06f83fcf71b5410d22a180efa6f",
+          "verdict.json": "2df5f2a083550e7e86a81ce27afd38749e37f8c0cfeb2851d482bb9bcb308541",
+          "verify_F.json": "306840be2615be258b4db2f16246392b99de45aacab5d832f4d700cd4dabaefb",
+          "verify_T.json": "ecd1440712d1ff70008dd868440eafd7272aa13d2f7fea268d338fe20a6846d3"
+        },
+        "e_66aac7fa7c48a00a": {
+          "baseline_A27.json": "18b357545399bd835c0d9e24e64888be0d8ab8dea9256cea32496f5203b51474",
+          "generate_F.json": "cdc6453f2597d1efec631c9a7f34f88ee606903a8e184dbb7963463bd06bbbaf",
+          "generate_T.json": "c337253ee9aac0287c30dcc24f88928c8187299aa2eee7f11c4b7c5ebbd94ab2",
+          "verdict.json": "e67ac301d2de9091839fdb8fefa6f449f0421050cb5fc0d7af1c30f8abe81241",
+          "verify_F.json": "218fb53e2038b321a5efc0fb51cb5050fb8968869cd4f135a84931601f190599",
+          "verify_T.json": "181556b3b2d48c1e3df6c9fd0173332ed62a3d566517a92a01c6fbce040616f6"
+        },
+        "e_d5b21a51414873e5": {
+          "baseline_A27.json": "2067ffe8dfb9e3e8fcd56ca441992675c4bbc080aeaa82ea5dca2a2730025862",
+          "generate_F.json": "85d77c9cc2b7d68351521b8870b3a3a1280544d70e90f6d6932008fdff316fb3",
+          "generate_T.json": "ab2ac1afec774392a19edc2297b60051438af4e4604a278bcf4ff3e95e0e0d08",
+          "verdict.json": "dc382d2ef4f95367a05cc1d6ef8cc2276b032980f13d90de7f64cda62897eb29",
+          "verify_F.json": "c772714ce5ff35286b0d160bd8e1a7368d841b65fb58557baa027b816fd14337",
+          "verify_T.json": "5a08c9e3ab8a4219def9dd681e5348a4447cf2764666798c911d80cba3a9026d"
+        },
+        "e_f45a62a896640a71": {
+          "baseline_A27.json": "122a89ca871bda2f58bbc2489adb4b80e82122a8f3d0a305a08e69441d3921bd",
+          "generate_F.json": "ad639b39216b55e95c534838448ba0180cf1953f0cde2823acab0063338f00bd",
+          "generate_T.json": "4fb49cf8e6805036b7e14193a274037cea7b6a244c01b816d05319e73481c4ee",
+          "verdict.json": "699aa45d2798ccb44e81e6775422dfa4bc10275ff393eae316b9ec1c903d0c3a",
+          "verify_F.json": "3e16c64d6c611eea5ced4bc87b329473782165622737a95262f4cdb3f7e05450",
+          "verify_T.json": "c4058ae8c9aefcf85cb7034ff61526bdee5b9943f3cd10916d754d82fe325159"
+        },
+        "e_f491d220d45d65f8": {
+          "baseline_A27.json": "251a5bf19636e99a07b0bc60d10d4cd2d68fac3b25bd06f933c2dd4d5e161b5b",
+          "generate_F.json": "fcdbb21421d6fbe59446ab0ed2feeaf5ee58d1dc05490134ee6257c2bfa25a46",
+          "generate_T.json": "d8f5f795abdd8cafe5bd4ea56249a58fa8e14543c00fb5ac63bf235af41b2cc0",
+          "verdict.json": "3b52683820c2d8d65763957e281b12b5b22fe51e20e6161807de339bb9e9689c",
+          "verify_F.json": "cb729538aaec1bc3c89b404fbbc00e5897720cf3a49e7cfb56e2c8cb3095dec3",
+          "verify_T.errors.json": "76deb7fcf5e361d36fda96a6711bcd88140c67b1a2cd726f0bb625a5eaf0b397",
+          "verify_T.json": "3d69fc593406be5d48b7867c3555da80d554181d783f636c2ccb741336d09111"
+        }
+      }
+    },
+    {
+      "dataset": "challenge",
+      "findings": "Both methods correct on all six. Unnamed third child, open included-list, and two children with a particular ex-wife allow Esme to be present or absent. Explicit membership entails C; exactly two named children excludes C under frozen distinct-name semantics. F generator still invents a different Esme identity in one SUPPORTS item, correctly rejected at target level. T rewrites exactly-two into three in the REFUTES item rather than retaining both conflicting constraints, but verifier uses original E correctly. F fictional/unrelated elaborations are unnecessary, so correct labels do not establish full generator adherence.",
+      "mechanism": "SETCLOSE",
+      "reviewed_ids": [
+        "e_57cc7e55b870a11d",
+        "e_767248fc886d475e",
+        "e_7673e7b9bb55dbd1",
+        "e_bd4d2ea463c51490",
+        "e_fa37197d8de0f941",
+        "e_ff46ccd2b543179a"
+      ],
+      "scope": "all four roles and direct baseline for all six items on 2026-10-26",
+      "source_sha256": {
+        "e_57cc7e55b870a11d": {
+          "baseline_A27.json": "25b4c6d0ac9c4fb0d40ce5c67d0b51b719a2667ad8aef81a84971e64d4171dda",
+          "generate_F.json": "914ed2b68cb051c45c080d7a3c0e7eef5bde86981a5b134f05cf3701e49d575c",
+          "generate_T.json": "73f55c759aa2c2cdb10f19a9bc3fdde3b3cbc5b34d6d64e5667c87a7a247dbb1",
+          "verdict.json": "98095d1b4b885a46513f0496a74170e75499449e8581e1249e3ae64d4eba7280",
+          "verify_F.json": "7f51674d667e38cd617aa0f83ceb16392be5112f82896d0e5765fc3d1c7e5795",
+          "verify_T.json": "fbc7e833591d8a9068be153096a2045250ff4044d7cdea26163db45af520672d"
+        },
+        "e_767248fc886d475e": {
+          "baseline_A27.json": "3ad6a49b2cdc2404d0124e0a0b11afe140e8866d00f7800e601934558e83100a",
+          "generate_F.json": "7e6838074ac950de0cd2ec21aca5a0741bbb7114c6864ea4bf771fa7bdd0eeb6",
+          "generate_T.json": "4da9ac84d762af6e18304552b17d2763d82d8a7f4f1a3ae5ad9c1c3e8cdda781",
+          "verdict.json": "fbb973d5f821602b5dffb57bb576a819867457d61e6896db55d5410668ea2b1a",
+          "verify_F.json": "dcf5940b6c6167975b9a029df7b2f87af12e7bae317c5760ccf4ca75f136b93c",
+          "verify_T.json": "b701ea27b7d6f6485124504089109c2cc78c86e62452513de94a16df4b7a2df6"
+        },
+        "e_7673e7b9bb55dbd1": {
+          "baseline_A27.json": "8c46478e450b6216678df7fea8981b6a055ba388af2e651d7086ece0c70755d0",
+          "generate_F.json": "ad253905a9fd5498ac9cfc805e05c737a2dda325dcd994ac23f6ccd70826b094",
+          "generate_T.json": "323c5571abe25278ea8e1e02920a8db37cc94bde2255d7f06c26354ee15f03d4",
+          "verdict.json": "a70e7993598c62d73dc35e27da9d8e773d062006aa2a0047c57f57da830d357c",
+          "verify_F.json": "f6376b087595a99a8ccc958d854d30ea9279a2bcffe60c8eca12b0f1b64435d9",
+          "verify_T.json": "ee5aade8b74e57b8d358a3bb30deafa47bdc95bf485e238e449551252a9beea5"
+        },
+        "e_bd4d2ea463c51490": {
+          "baseline_A27.json": "651add59481901ddee894f9da78020021876972e08d59071a0876257c1d75c43",
+          "generate_F.json": "590f4fc0579eb8ad10a47f92978dd16e77bfc951b54ef5d96ce93d830bec76c0",
+          "generate_T.json": "d0a06bcc997a53b817f2d117a8a60bbcbca9a874523f35be660037d271060784",
+          "verdict.json": "044dd12ce86e8c0a86a46fda8881e042c2a9ed000bc782693a69f8202fcdbaf5",
+          "verify_F.json": "53e8d0fab7b869d8c46ff1c262e84a7a73d2457158741564c8a313ed9d32c3c1",
+          "verify_T.json": "d73bbcfab9279dd76f4681dcc2f8c79b8e93aa0d924a419fc77d87b556da567f"
+        },
+        "e_fa37197d8de0f941": {
+          "baseline_A27.json": "21b8e60e525782f9fea30ed62d10c62c5cce8c3f665ab493d1d829bb699e07f2",
+          "generate_F.json": "e172a80985a82b1089a20947389a859252bc1be7569bdb0740e30e581e798cf1",
+          "generate_T.json": "c9469df46e08fc3c91712525679b12d5c05dfd9bcb5f2699ff7f145bd2a49c39",
+          "verdict.json": "961892df16dc6d492cd074444838b2bb033224a6ae645205429f3c609aa6e9da",
+          "verify_F.json": "3f3f6b061abc6b677cf3c1309c15cc1d9332d52dd1baf12d05c92b652d895172",
+          "verify_T.json": "096326cbae6518b8365cafc75ea19edd391842ee50fb8545a578e7266bc37b3d"
+        },
+        "e_ff46ccd2b543179a": {
+          "baseline_A27.json": "dcc7a3076479c35382a9d4df12591ca925df6580cb944f0eb8ff12ba305eff33",
+          "generate_F.json": "3d561c11d883d54ed11c106f72dafe8e03a7891e1b201c5700573b1c468a8e84",
+          "generate_T.json": "588d9f9034704c44bfb60bf0faa7cbef5e117bfddb8683220fc6af03621a86ab",
+          "verdict.json": "f7b7d5434053acbc6b22359cf412acf3e77f7548ed83720422099eb53047da0b",
+          "verify_F.json": "8417c13288d128bcbdce4e0a24264c8622c553b6091808b9cbaee216b25fa148",
+          "verify_T.json": "e4474914ddbb2bd5bd32ac68589a64ce69c10917aa03b2e74f271d3753aee885"
+        }
+      }
+    },
+    {
+      "dataset": "basic",
+      "findings": "A27 6/6, V5 2/6; only the two NEI cases classify correctly. Exact +5, exact +6 and within-four cases show correct arithmetic but wrong candidate-vs-target priority. Explicit 2030 case also has T corrupting premiere/release years and verifier accepting it. In the some-years NEI case, F chooses 2026 after 2025, a one-year gap that is less faithful to the plural wording than a 2027 counterexample; label correctness is not a complete witness-quality guarantee.",
+      "mechanism": "RELDATE",
+      "reviewed_ids": [
+        "e_03bb120c097f1b21",
+        "e_2e9bd765dc03c432",
+        "e_61734f75811ce5e8",
+        "e_ae77a7b800003d77",
+        "e_d21e5a21fe8e7091",
+        "e_fa99cf6f5a330685"
+      ],
+      "scope": "all four roles and direct baseline for all six items on 2026-10-26",
+      "source_sha256": {
+        "e_03bb120c097f1b21": {
+          "baseline_A27.json": "500ae465014c592a1f04df44c48da5aabef78fcfcae8fd77a8d459083e270bdd",
+          "generate_F.json": "0035d2f6d6b95777f965216aab48334ea12b10628395e7cd38827c0e45e3f081",
+          "generate_T.json": "f9d70465ab7f5923784f082ca840aba9cf36e2e39005673fce03f1722e29321e",
+          "verdict.json": "252eb48f65909f68dbee473d4e1bda48e816561884d225d9f26d76e4974753ba",
+          "verify_F.json": "b319acfdac12d15983dbe314d01b667c9488a1c760107b4ac98f11c602412295",
+          "verify_T.json": "58407185e7031e97c934402a644496d3513f679c8f8a3edfbf5a1f9217ec05a6"
+        },
+        "e_2e9bd765dc03c432": {
+          "baseline_A27.json": "2743279dbaf38e2d686b69686e9daf660aecf76ba9607be501ec88e9c1987ca1",
+          "generate_F.json": "668aca9c4528a599c5c4f0bdd27fae77b2231a83f232bc493a8397c6d03360b5",
+          "generate_T.json": "c733c73b7728f0325c5d16a34809f36cca8106e7992cd3837adcacb11f9cddd0",
+          "verdict.json": "ee48735e47c9cf2562ef887bd7b3f3e9280511cab5aa9720686b16b3c974d9c0",
+          "verify_F.json": "e8701c8404e3dfab1125a81f56ace6b088d79535d6f6b0c72426be9589846526",
+          "verify_T.json": "12e9405fe5343c70c126ba2b6c2527010522c7e0ab489439d70b57b0ab5ecc17"
+        },
+        "e_61734f75811ce5e8": {
+          "baseline_A27.json": "e1c80e23c02adb2b32aca8e7fabdedc2106a5a257ea1207fee08a73cd66c8780",
+          "generate_F.json": "5b9b8df89afb43d5fb55918f2d1f56b53469138554d8486a2d63871ead8a4d82",
+          "generate_T.json": "500011ca0316baf115bd00ca254e55c9862bcc962e7ef0450257ef7fd52f478b",
+          "verdict.json": "9ec66eb14247ba191a08a243c364dc1c1d96127a7c4a7aaab75a70a82f0b381b",
+          "verify_F.json": "0ff9c7900dcacaad80b6764f8d4f95dfec81aa0013c218f157efd5dd1ef6969f",
+          "verify_T.json": "b8a54bbe5bbcb556ff22dac77abf47f929463aeaef0850539e54cbf56ce3233f"
+        },
+        "e_ae77a7b800003d77": {
+          "baseline_A27.json": "38ec05a9eb84dc7a32781b16d9401bda9ab5eed61159b38bcc410527de266db5",
+          "generate_F.json": "ed2ab327d08c211ef162072184e3287d605fa15c406ed1ddd74c43b34afc26f4",
+          "generate_T.json": "eb3145b10881f05eaa231d75c82e0123699912af4cdf02f4018481de45a47bd6",
+          "verdict.json": "64fcd3c2a6dfa6398b3e9934938937153f077318eac8d4e645d21ad83e5ba21f",
+          "verify_F.json": "d08f6ef0bc87c07798224a9222c114ba9a31241c662c98327f77e2424430da86",
+          "verify_T.json": "55ad7d8631186367ca3be22672f08259f926a178f82667582ddf384edbb071fd"
+        },
+        "e_d21e5a21fe8e7091": {
+          "baseline_A27.json": "f122693dd7de6902fe4d83e858a7613493ffca0199f050c13d2a872957cb2bdb",
+          "generate_F.json": "606bc2a03e0049eca778b48a4f5cf4e4146a6c1b77b86288e454facb18432d00",
+          "generate_T.json": "51a521615cef1c4c8c50fcf38a99fbaa45efe5c90c88b2248f74069978c01161",
+          "verdict.json": "041ed93a0f4231f0f05c840e7d2b58379d54dc62cf769d1cd367cbe3b1d98f48",
+          "verify_F.json": "d2943027c4fab2519d986b794f5fc198b0d31a6422938b4b4ae1f07f1becb055",
+          "verify_T.json": "0e425046ff85d768d3675c2ba44bcd7865d8f118c9984ecd8b933f0ddd6c6ed5"
+        },
+        "e_fa99cf6f5a330685": {
+          "baseline_A27.json": "855902dac39abfaeb8b69a63067db339623a255028e507c73c482a758ea176ce",
+          "generate_F.json": "000d8c0392903cadfa4b050966b2fd5e382b8480eae80f57dbb7b3508ad17b83",
+          "generate_T.json": "63ab5e140243503a318538419daad710c603f07f37d76ddb7352d3fb8b2e22be",
+          "verdict.json": "380546abfe410d8967754682634bf2d2b1ddb0b19a651114849c4f6f6c05d1e4",
+          "verify_F.json": "f2afe6c5a631d5913446950d031279abdbcd3555dfdaaeaeec1e0574d7fde50e",
+          "verify_T.json": "cc4ab87f59a23a2b766f4898236b2df9a272cf1ff5422d5dca29614e09393d6f"
+        }
+      }
+    },
+    {
+      "dataset": "challenge",
+      "findings": "A27 4/5, V5 3/5. Continuous 2014-2025 and explicit 2024-2025 return correctly force the 2024 target; as-of-2023 leaves it open. First term ending 2023 is wrongly treated as excluding a later term by both methods; T reason acknowledges the possible second term but rejects it. Appointment-only case is additionally harmed in V5 when T verifier imports an unsupported departure date from outside the supplied E.",
+      "mechanism": "TEMPSCOPE",
+      "reviewed_ids": [
+        "e_084fcc346279c258",
+        "e_3f9d45d2e8195dcc",
+        "e_7e511c5ad0a9a1a7",
+        "e_87260368ec001e36",
+        "e_e6a13dd07dea569a"
+      ],
+      "scope": "all four roles and direct baseline for all five items on 2026-10-26",
+      "source_sha256": {
+        "e_084fcc346279c258": {
+          "baseline_A27.json": "6b5b1debe280f56bef644fb41d906acde45263100e5bea7bca2b97be2cd245c3",
+          "generate_F.json": "ea901fc97dc877aab22862b151300a41d3dd9c9add96156073eb8a2d651b93dc",
+          "generate_T.json": "1ad8bfb8e3c70faa1563ac2f3fc7a33e9e77a6b717c3427274ece0f7159ff6ff",
+          "verdict.json": "d33c3197a5887fb4a807e5219af5b4f20aee2cde2c0c51d4d3cae1c3147e5591",
+          "verify_F.json": "cf61fdc3e839af2f8985ca72e5a58d3dea7bf5ce927fe37c011f12594358d254",
+          "verify_T.json": "c751851fc4cf61db860964162c43b10de3a27c2fc05538ffcfc1b347d26d190a"
+        },
+        "e_3f9d45d2e8195dcc": {
+          "baseline_A27.json": "568550824006908e979f5f05973c50c7ab43f3e52699f4e39ab0f8fefc5fa9b5",
+          "generate_F.json": "4278e34178b090872dff7a4ac71caded0c0991f90dcf52c993d1797f4df83ec4",
+          "generate_T.json": "072eea07770706e440c88a2ed964fa823653baef8e303839a68b113543a13ff8",
+          "verdict.json": "127ef49c2b881338af3f3b615baac75d7ff3658aa29827c532fdef7c47ad89a0",
+          "verify_F.json": "4e57c7ef3962cc793d21c3a85b9dfe5d52c257c32e27419c3dbb14e22cb80359",
+          "verify_T.json": "b8d60f123c4723536286f44f7bbd0f0f5ad1566b85b7cb619865eaddc4bacd9f"
+        },
+        "e_7e511c5ad0a9a1a7": {
+          "baseline_A27.json": "1683d43fdb983a8e4d5bd2d6bba1141b026dc303c92feac11f6f5acc05306a93",
+          "generate_F.json": "77215db63c6a6c8e06404cb789e056e86b483079340a182b62f5827915f04f56",
+          "generate_T.json": "6909273b1b76a1ab6de21f4f6e1bc0c03f1c6809d3c8bc98948beb9ecf718fe8",
+          "verdict.json": "2d6062e023ce1e7cf57efdf11fcbce5f61c4a9a61d71abe18423d15f4de4258c",
+          "verify_F.json": "d5210000ca73706ad6148a5871887b072cab22698ff4bdef3abc649d7e8f313f",
+          "verify_T.json": "a11f6e5f00c3c2da57f8f39ac56613adc286652b9b6b15d301bf61a4d96c78d2"
+        },
+        "e_87260368ec001e36": {
+          "baseline_A27.json": "95052fee8e5dd6c2eee9f78151e58a43786dd240d1c3a023fc30260caae21f8f",
+          "generate_F.json": "480415121b6031bfaf15eb1a756f6c7a9cf8efc47bd9dec55fc36688d595504f",
+          "generate_T.json": "a1504cac9e14a8ad8c6f3a83d211d377d2648a63d5dcfa3185a024a3b9a81938",
+          "verdict.json": "7604271ec082fd6d2c24d4916d2a42d2e4a78e1182df8b0d0b6c0669a9f6bf5c",
+          "verify_F.json": "4368eee4c16f99500bf5de37e2825a29b082992537182718aa3fd76bf46d2725",
+          "verify_T.json": "baccf9e75b4d014e3ba16adda8d116423e29de9d8b7df52767344f1b4de1dd5f"
+        },
+        "e_e6a13dd07dea569a": {
+          "baseline_A27.json": "0ca6a6ddff7fe6e1002c5abcece3173d15e86e4655d1e2849780b51caffc6fd7",
+          "generate_F.json": "bcd652aa0bed5e78370105f676e5c5e873933d3f46575cce840a086b007bceed",
+          "generate_T.json": "1470c16a52921b74f60391a4aa07c07083eeb41439a4ef1ff4d1920e96de8cd9",
+          "verdict.json": "f44bc9913f32aef19cef964a6bfccd18621d439fcbacd5bbb8e67952044ab531",
+          "verify_F.json": "279ccc60346170725a9d89092a361c50c91cf601724e21e585ec6b7ab8533bc0",
+          "verify_T.json": "35c4d87ee9eebfc83a4823dedd90dad4d6176e0d3b9fb0df79a02683adc99a2e"
+        }
+      }
+    },
+    {
+      "dataset": "basic",
+      "findings": "A27 15/15, V5 14/15. First-time, only-time, ordinary occurrence, second-time and as-of counts are generally distinguished through explicit earlier/later/count witnesses. The total-two-by-2025 item fails because T verifier rewrites the global total into an unstated as-of bound and accepts a third launch, causing R to NEI. Correct answers also contain unnecessary hypothetical shutdown, end-of-time, or minor-update elaborations, which are compatible additions rather than evidence facts; they should not be treated as factual claims about OpenAI.",
+      "mechanism": "TIMESHIFT",
+      "reviewed_ids": [
+        "e_09254c9bafc7a778",
+        "e_1b5545dc522fe5d1",
+        "e_1e21cf4ff26b7ee5",
+        "e_3402be2e651699ac",
+        "e_347d3d2672c4d264",
+        "e_38bd03deafd14b94",
+        "e_5168c838b174d5d5",
+        "e_55840366860b06b6",
+        "e_75adc05427a868d7",
+        "e_7c99cc392cf59564",
+        "e_83e310b0e9220ae0",
+        "e_8b768e47d00148c4",
+        "e_daf072e6c16eeac3",
+        "e_e3780ad8d355d749",
+        "e_f6d564cafa5dfe4c"
+      ],
+      "scope": "all four roles and direct baseline for all 15 items on 2026-10-26",
+      "source_sha256": {
+        "e_09254c9bafc7a778": {
+          "baseline_A27.json": "445dfcf0005d6e5af23f9916943a235272263dd57778afc1c1addc76163691f8",
+          "generate_F.json": "e71db31fd6b2c8a6e94897a34edb61789680a157ce0e9b136a123b896f0a13ac",
+          "generate_T.json": "72221f9381a5857071abb3910f02026363c31e48db36eb94fab4fdde14ddd919",
+          "verdict.json": "70556d324a79724074b310c791b2d143cde0bf9cafcdd2c7202704e1fff027da",
+          "verify_F.json": "64f0e6893a0406bfd61ae458df0620b14b153fc4837b8632c70218613fc4c4aa",
+          "verify_T.json": "2fc9c70b5148b9e041df22c8b96ce27805c735d32e57d6a440134bdb98eee2ce"
+        },
+        "e_1b5545dc522fe5d1": {
+          "baseline_A27.json": "ef4ae1926669b3f5feb682933a6687f0b1910448fb2f76550675b5f105fb9f23",
+          "generate_F.json": "e216c2bce6ca21a3d6db0d4a1733f8250b650467915b244fc1cb723496fd9ba2",
+          "generate_T.json": "be64d32bef3c45ad1eef6e80bf15bbda516055b2a2c7fc5ec885328e81626434",
+          "verdict.json": "5c4e636ddfdddcb48fe4279c6d22f889a2e6528fc5480053cb2ecfc851feb7cb",
+          "verify_F.json": "a5497bd11b5f7102c96fbc42f2b80d95bf89e54fbec67cc0cf946522ed858c5e",
+          "verify_T.json": "2642089fbc34e3908c3fb918813179a731bb30357def3ce8b2c44da6d7993b49"
+        },
+        "e_1e21cf4ff26b7ee5": {
+          "baseline_A27.json": "7f41b574a9e22a4776cc1460d6029a44e0115d83d764d44cd861457f079b5b06",
+          "generate_F.json": "7099013403959cd5fef0b08e0b8f3d6f98c6461395720fd16ff9b144ee309fe1",
+          "generate_T.json": "e701c1f905d4256cfd0e1198ad342a57b6fdaa5a3d6f82cf3a5e0da97aca25f5",
+          "verdict.json": "2993f1731389009444c52282099257ec04cf145e7d0967c0e5479c5987d27b19",
+          "verify_F.json": "cc851709b50cd2b9550c63983b37251582001a1142fc7d4be5ee70e7d90b7683",
+          "verify_T.json": "10f232d70f1ebfc20732b47cd5244e01531a7d4cb240666ff34f140254fb3274"
+        },
+        "e_3402be2e651699ac": {
+          "baseline_A27.json": "0870154db6d1f9491d261304e4136e9764db783aa31563644d816d5f1c4115ba",
+          "generate_F.json": "842f31d379c91b5aa3b6e8b5f4a44cdc231afc3294604cac71d83d37fc4555c2",
+          "generate_T.json": "bd38425a4e808d3b4d10f7644ef9c5819cdf31ccf944c06363d1c7b01bc75998",
+          "verdict.json": "2e4a2efac1e324cba4754c61c55ed82cc7ae0dea21d0c6ffb345eb9d64955f9e",
+          "verify_F.json": "601177c7b6c57870911a62265d813403966e422aeeba98b566ed46a89dca3e16",
+          "verify_T.json": "9ccaf1e4546f57bb8ce04b2ba663109cc38fe4ed3fd13191b60645a58f0e7a75"
+        },
+        "e_347d3d2672c4d264": {
+          "baseline_A27.json": "97a7608ab97935263ec0356e6dfe6a8b7d75e45d61c089ab6d078ab51e1dc92f",
+          "generate_F.json": "1d7c2ce5a57ad160b69c780768f17ee5ef9c229451b1205ec4c96ceeb0081981",
+          "generate_T.json": "6fc33f5d16a77354b9d72d8c196cb609823ac8340f4fc0665ece11d5656b0dc5",
+          "verdict.json": "5220116348c92f464c126636c6120b6c529ef19ec092c1df71151ddb294feac7",
+          "verify_F.json": "c38da3affb3d691eb1c6e3231c1b34f7079eab20278ccccf9126d1a0ade12a55",
+          "verify_T.json": "184b4a2f443c648b13003975e1f78b17f96ccd5f2b7604ce3f3eacb1b112e7f5"
+        },
+        "e_38bd03deafd14b94": {
+          "baseline_A27.json": "8b6197831759e0dcd9edb397577651437a8e7f9848b22511c4e1666160646862",
+          "generate_F.json": "0b80ab14c9f3265ecdd32733b741e1e3393458960cc03d765967196d44929b6b",
+          "generate_T.json": "0773efa9cf4e0af338e2bbd062c0f2f8223e71c5d14f214cc5d9129730f50b13",
+          "verdict.json": "7da85a7c21df6f8ef4bc33ea828b7d1ab41dad9ddc87dd6fc3cba8f8eb9f87f4",
+          "verify_F.json": "6fa3dba29b5fc1aef3a0d46ad14ba33116ef1a7177f38ff4a51db93f158f82ba",
+          "verify_T.json": "9d370496ebb9f7c7fb579213ed5cfef7cb1f16823129ecb944cc866226bb81f8"
+        },
+        "e_5168c838b174d5d5": {
+          "baseline_A27.json": "6fa3bffd1c7df381b57f3eeb855b6e2245470cc409bc6ddf88a3e13d8808dc92",
+          "generate_F.json": "b73827d5aeb7de870e2b6154847e42f3101b1054d220bbdae65b7c6acc265878",
+          "generate_T.json": "c7fb499bc77fcac583a10e97df4b1794f61d84a94734ab51ba5fadb015cff030",
+          "verdict.json": "218ed983050037b1049aaeaad0d6be66cc638218a736755c6edb2fecfd09360c",
+          "verify_F.json": "e43e72066d7090e58be996c214610273a15d430ac0721e736605352bac5b6693",
+          "verify_T.json": "9c158fa62865fefbae61e381871dd89e15f9c1020414e356d4fe6100fcf4c266"
+        },
+        "e_55840366860b06b6": {
+          "baseline_A27.json": "9883fa8eee6a1211c3018423e1a44e6710afc0d5be9ad873b8da4f143988ae87",
+          "generate_F.json": "9a546c81707a6343f3e7e89047f87140608eecd0384c4765ce284c4cf736a35a",
+          "generate_T.json": "dbc232164187195e7ae7445f573164007f278dbaeb60868e0d3b9caf1ea65ff3",
+          "verdict.json": "371615d1337d7c3d866715ac66a6cdd60d343c7ef83e18edb37613f7d3569b6d",
+          "verify_F.json": "52026b3853f064ee1e6d43842965211b9db3e8e11c38ff34a6e6569a9e4b3eea",
+          "verify_T.json": "2b97ca70f7772c52cf75196c97093f259d17d7257453d12a270e4fc80c7e9ec0"
+        },
+        "e_75adc05427a868d7": {
+          "baseline_A27.json": "5f4eaee1defbbd7f8596fe7e1ad8e5988e9c8c7ee1c2833714855395dfb222b2",
+          "generate_F.json": "df7dd8e79241c658a12f61aed57d959c01a9f0f306343868de2542259abc07fb",
+          "generate_T.json": "fa04ef31eb48c2fafeda5633ed2a9e585e3506049b59a3ee42962314eb833c31",
+          "verdict.json": "7612afb18e20c8ff22fa5f2209a88335a4c212a393113fd68cae95c9b1b98514",
+          "verify_F.json": "e1d6c79226df67eba2d97d117e26340572f5c11b5abaf1836089e65e1a605642",
+          "verify_T.json": "6299246e0d5c1a670a03c2226347c83315353b9ebf55149e4c8f90c3c23d7ebf"
+        },
+        "e_7c99cc392cf59564": {
+          "baseline_A27.json": "d0e019c9a1b6582bd064afe065d84abf610668a84a1d8450c2084fd3973e04ed",
+          "generate_F.json": "45474ba321a7b5f9a4f5fd32336857081d900a658319a8c305c3180dbbe5cf47",
+          "generate_T.json": "555f13d6759030d646b573e49cb447cfb548ce80c4666de81409c77f3f57b777",
+          "verdict.json": "edf44228f41692aaeeadc31d9cb409946267fc85db859222d43fbe6ca0aa7e2c",
+          "verify_F.json": "b03d7b06ebd9af16a3228764c6f58f1c77b47affa60cd9e3f58a73650e7e0670",
+          "verify_T.json": "969fb95d618efc9004dc77936a0c9199a806ae54dac3591ee559a58b77cda625"
+        },
+        "e_83e310b0e9220ae0": {
+          "baseline_A27.json": "d74c27b3728b36f0b8610427270ad5704cd09d7b574b31af01ec3aa779aab2c6",
+          "generate_F.json": "4034cb4f4cbf9f98c3e0ea5099ac413ddfdc160466c20d99229d01cb309dfb85",
+          "generate_T.json": "bd570dc232ab68f26acbd8e33478cdee4893a8a0ff2aafabca5a130ee4feaf68",
+          "verdict.json": "a7d0ed116749b139f68e4148edc810fd9020014b75a59ada4f096c29e546daad",
+          "verify_F.json": "21a7185789e5946261f31859b4f59bf781aeed24cb6b0d49fb6e987db75abc9a",
+          "verify_T.json": "6ba083a834fa4dc5dde936e73bc910f48314b071427202649c82482119c88f2d"
+        },
+        "e_8b768e47d00148c4": {
+          "baseline_A27.json": "f51e01800254399b158858aaf57c28b91f9f5137f9d8ba2204e47ad71899a652",
+          "generate_F.json": "4f17fcb58787920ae211478b9a3cf9dfe33ced50a094240e7f0e3aa73f89a3f5",
+          "generate_T.json": "b86915aeaf0e47f326b1b0d5e64a1b725fd7cb0d270ef3671735c1175d04a3b1",
+          "verdict.json": "a5df4a155e3d5061e64f4724f38b698010a3e22c2177482fdad9fdbab9f4ccf5",
+          "verify_F.json": "835a833315236993efc73b5375878e49f8489cc852de30ea0781a4d54a440f7e",
+          "verify_T.json": "deab3ec0cdc9ecd42f2570e3d6420f8c87249922971c0a75a617a7c9d8f0f6a5"
+        },
+        "e_daf072e6c16eeac3": {
+          "baseline_A27.json": "fa0dded838f1f477f242e08ea8c3e929da4b1f953209d0b8b4a210e482dae595",
+          "generate_F.json": "805ec5c5d6212d219a148df389337fb0e19849fe2b33bf441a2b493215ff6968",
+          "generate_T.json": "aeff8f15284a0b473b9e91793ccc131290b091ce14c43966aeaaf8482f035bd0",
+          "verdict.json": "ec4dcf73332e3e826efaebbf73195f97375e10548212ac26f3c35720a66a02c9",
+          "verify_F.json": "207fb603ce0e301288f5c8596df7e3cff4ab0a2b37adab6fb9877b29c32f93bb",
+          "verify_T.json": "a47cd12432503e97253d8078c5b5a86fa765ac4b0d14c87a75e7708ccc87b0d4"
+        },
+        "e_e3780ad8d355d749": {
+          "baseline_A27.json": "d615d18c89c117841b047fe9f4e3ba71b014afcb8df1fd049bbe946f87af6e7e",
+          "generate_F.json": "ddbcacc37191af0ba12388cd685098b0a21738777202e8106ce36ef8fc67b763",
+          "generate_T.json": "3c9755124c394797d9e02ef25a3a40240e91e35ce67cd6d6b24e2c4459674d42",
+          "verdict.json": "004b396e4dde6caa5dbfe7a59876d76bd0212e2d68dfdbe13073e06a5d591c41",
+          "verify_F.json": "cfb08ec2d53a63015e9aa4111ce772dc3eaf3511191f998d9a0f51a5fd13638b",
+          "verify_T.json": "73bf74b0582574aada5b9e49a1e5a403605cca04fb096cd51bcd445d64503396"
+        },
+        "e_f6d564cafa5dfe4c": {
+          "baseline_A27.json": "2cfb500128e5bb209d7eb14e6b2c49104b79b8dfb2765c6b4d86c3aa4a708472",
+          "generate_F.json": "78153def80fd3e4b1344cea10c329b0bf8b923202ea1419b4f4a1f077cc4ddf9",
+          "generate_T.json": "55a376c095549097af74462fe3b825698d68f98132d4f76787c8c240c3ad20d5",
+          "verdict.json": "d6fbf4fef267b098fdf7e3ab9caec3bc85660095e30bcead0df461dd9f7fb028",
+          "verify_F.json": "43b89240509af7d277d8fd82a29ce4d715a10f895be2d3c4f2f2fefda5866a03",
+          "verify_T.json": "66c8ace3cebaf292e0d61af12776c815431cd19d38b00bb2a4631f4a72515485"
+        }
+      }
+    },
+    {
+      "dataset": "challenge",
+      "findings": "A27 5/8, V5 1/8 with seven unresolved. Six T worlds omit the award target while copying background. The other failed T witness includes both distinct award facts, yet its verifier invents a conflict/exclusivity. False branches show unauthorized identity or award-scope substitutions on entailed claims, sometimes caught as candidate invalid instead of target contradiction. The explicit both case has correct verifier decisions but is still unresolved because the T candidate is incomplete. The single V5-correct NEI item preserves Alex winning one award while varying Sam receiving a different title. A27 makes three REFUTES errors on open award claims, including one invented 2010 award date. This group contains both construction incompleteness and independent semantic mistakes; the observed output-length cluster alone does not explain them all.",
+      "mechanism": "UNIQUE",
+      "reviewed_ids": [
+        "e_1d10cf8cbcad55a7",
+        "e_3784950c2fe518e0",
+        "e_9ae6898045213bc7",
+        "e_b0ba3c99c467e965",
+        "e_bd1c8bcfcd92794d",
+        "e_c817244b687d90e1",
+        "e_d437b15761f6e20b",
+        "e_e6098b3030399dd2"
+      ],
+      "scope": "all four roles and direct baseline for all 8 items on 2026-10-26",
+      "source_sha256": {
+        "e_1d10cf8cbcad55a7": {
+          "baseline_A27.json": "1194eef9dedfd2069c48c7bdc568d49da25b92d13c43674722a0d5ee80b065cb",
+          "generate_F.json": "9f99150666dcd939a0085375f493f75078ed30863f9cab995b5e1c90c70c75d3",
+          "generate_T.json": "d080a62391dde31a631ca7587bebb165a3e9ce725517a7cb1d8560ca89876631",
+          "verdict.json": "bacbb81f035f1ca49453759cea794fd3b51c28d5882f9e877b2b8c9e74197495",
+          "verify_F.json": "ef38cdcb064032e3e1f24b54c56c024436ffa0f674c2dffa3142792a57228252",
+          "verify_T.json": "684559add11a8b86d123651253c188a25469001bfdcefb5a0a888b83e023e740"
+        },
+        "e_3784950c2fe518e0": {
+          "baseline_A27.json": "c0b19a058b112c685bc408e4ee4a821bdf78212bd45727cd49eabd180eacc384",
+          "generate_F.json": "acfc18841f450a6ce7050f6bc5bc8c9705f97b4946de09c1e06613a055a949f4",
+          "generate_T.json": "9a194b463cd2772d154edbaac3b79d2f733f09b93a6e6e824e3d83dffbd1d72d",
+          "verdict.json": "d56dc8c2a70c5ec583a79ace50c6861fc72e2080a9153eea4a54ce59a14a78b6",
+          "verify_F.json": "d8ad30d87e27d0f62dd01e95255bbde9632ced9cf58da2740dddf92717359f24",
+          "verify_T.json": "624553f8e5f38aa6cc05a8c25453a21b0e01caf2dddddae48913cf9d3fb9b160"
+        },
+        "e_9ae6898045213bc7": {
+          "baseline_A27.json": "97e997316dcabbf8a9d19d88a6fbb35748b81594a4de513b90e0a6e605da9f8d",
+          "generate_F.json": "d119d0d03aa41578b32c0e666bec448241bb797de425435456b696a663737cbb",
+          "generate_T.json": "57cb650517c78587810b5bdaa152fff2f692aac508e9e15989504116090b30aa",
+          "verdict.json": "c2c423e0522c63ad3ee527f9be64326881b123e3a03a25af8a3e29dc300861d6",
+          "verify_F.json": "d26de89b52666fe18522381f95314bebea8d057576b86070dc99de05ca386d34",
+          "verify_T.json": "c3785ef566794290e3e90c3a84f2429cfd4f03f054b706aaa116b9a70227d400"
+        },
+        "e_b0ba3c99c467e965": {
+          "baseline_A27.json": "487ba97af609416b7d7d2512e265aef88940dc2339028a3dd7e887c804c76df3",
+          "generate_F.json": "d064027312fd39a41ed28569d5790d4ce564740dce8fbb5b804823f8e8264df8",
+          "generate_T.json": "9a1a08e8b2bb6ef637508f3c07548c050dc46b5f0a18de8d04414ef96d809fe2",
+          "verdict.json": "6eb798a56079b75d7b1e749741ef5a08a392fea61559e276e89ff637272fcb2f",
+          "verify_F.json": "f088812b0c4c495dc9e77c308449bc5e0d9bca5cd3873d4816eebb555ff3e65b",
+          "verify_T.json": "7352893be0b96f7137087a86b1112cb501389d50fa98e84835686b27387a36c5"
+        },
+        "e_bd1c8bcfcd92794d": {
+          "baseline_A27.json": "5b3023f99760599f63807d2105c0f44a603ebd8f37ceec0f793acab5a2044470",
+          "generate_F.json": "a994392b85304d39fe51538a5fab62ead2e7ac8be082a925e5fcbc71f4bd8c3a",
+          "generate_T.json": "42d9164cee8459530ef43f01ebc7e55c1940b14eedb81deb82259607c9f6ef68",
+          "verdict.json": "066678f749c071851db9530884beb85afbf08be865b3b60b5e9e3441feaa4964",
+          "verify_F.json": "6bbdf6c5b85549858f1595ccb2dab7857b83d26e45cd57f59a8ca2ca284f2fe0",
+          "verify_T.json": "492e37cb7f9c5f2aa0e9edd450c45b43cf39d2a7192cf865033dca0a757ccde5"
+        },
+        "e_c817244b687d90e1": {
+          "baseline_A27.json": "e60d5f1e58130144531bf03a2a1e304f66e59b3cab7a8eb9d8f420faaf54daab",
+          "generate_F.json": "2abfc09bec10c47ad7a7a44c7c3aa582bcd83bbb2d5648a12774debc0ad72274",
+          "generate_T.json": "3c72b65e2ca537b18b1960894d04b395803a8e1beef062416828c78e3f9b8130",
+          "verdict.json": "50a43f49d45448d5dfdb3630a805ebdf7b3de80088e6841b8eb6a4493e15714e",
+          "verify_F.json": "46feff87f5ae5c8844880c2eb46a184f3e5ab9a35c66f20ae1a117cc18cf0e7f",
+          "verify_T.json": "378960fc6f88636188507bd398730715e06dadb46516e5368a5e33cb8944fc7f"
+        },
+        "e_d437b15761f6e20b": {
+          "baseline_A27.json": "92b59b9c2510aa1d3ed7772d7f1042081afce93d009bdf89f97e4f26e9e78c2f",
+          "generate_F.json": "40103dd5379b14a4ba77ce36abe6f7856977ee5e54da82b0d2f81e8c115b5028",
+          "generate_T.json": "c9debe3b0107ac31be3f274dd05d629bd9388c0f2037157f76c9c54f2bb0b5a0",
+          "verdict.json": "6e17bb01ac9af5d0ef7ce38039db58fcee5979381d44cdeddb118c18843e13b5",
+          "verify_F.json": "530c0ac18b6f3f20017be538447d25434a3f2876b98d9952dd97f7f8ec5bae4d",
+          "verify_T.json": "e20286ddcf267797c6d75530d1075f13688bea9d7400dc889206c1a195e47f49"
+        },
+        "e_e6098b3030399dd2": {
+          "baseline_A27.json": "6a3096122a08563c18d9a9342a04af516f67d9fa956e993216364862a74082a9",
+          "generate_F.json": "234f83a00e5e33d84847d3b80a9a6374bafa59f286815267c0f074566f25b04c",
+          "generate_T.json": "d18faa5857c634a2a01de57e202c229d04cc07a60c7937d9eb294b9b7d0025b5",
+          "verdict.json": "2caacaec794498c1dc5a9179b9756a999ee46475e637b991827b95e7acfe71da",
+          "verify_F.json": "de92ce1fb1985223356a87e779e4982b0c71efdeb83eec8f04fef48a44a9b260",
+          "verify_T.json": "eed030d1f875b82ee146be51ae13b23b87a09f86299f15be53db407c76e3bc39"
+        }
+      }
     }
   ],
   "reviewer": "assistant; not external human",
-  "updated_at": "2026-10-24T10:57:39.044576+00:00"
+  "updated_at": "2026-10-26T02:08:09.246843+00:00"
 }

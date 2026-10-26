@@ -1401,7 +1401,7 @@
   },
   "estimates_are_not_formal_satisfiability_proofs": true,
   "failures": [],
-  "generated_at": "2026-10-24T09:45:19.646001+00:00",
+  "generated_at": "2026-10-26T01:04:01.792754+00:00",
   "no_formal_metrics_claimed_when_unrun": true,
   "phase": "smoke",
   "planned_items": 10,

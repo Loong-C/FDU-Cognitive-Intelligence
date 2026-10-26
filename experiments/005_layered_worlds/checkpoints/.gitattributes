@@ -1,0 +1,2 @@
+# Historical snapshots must retain their original bytes, including line endings.
+20261024_quota_stop/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

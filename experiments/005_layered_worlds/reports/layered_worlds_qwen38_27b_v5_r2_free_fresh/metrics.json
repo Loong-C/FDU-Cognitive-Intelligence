@@ -1,203 +1,192 @@
 {
   "ambiguous_inflight": [],
-  "baseline_completed": 59,
+  "baseline_completed": 104,
   "continuation_accounting": {
     "combined_lineage_cost_fields_include_parent_usage": true,
-    "new_responses": 293,
-    "new_successful_tokens": 191719,
+    "new_responses": 520,
+    "new_successful_tokens": 341157,
     "reused_responses": 0,
     "reused_tokens_not_charged_again": 0
   },
   "datasets": {
     "basic": {
       "A27": {
-        "accuracy_all_scheduled": 0.5666666666666667,
+        "accuracy_all_scheduled": 1.0,
         "classes": {
           "NOT ENOUGH INFO": {
-            "f1": 0.6666666666666666,
+            "f1": 1.0,
             "precision": 1.0,
-            "recall": 0.5,
+            "recall": 1.0,
             "support": 24
           },
           "REFUTES": {
-            "f1": 0.7222222222222222,
+            "f1": 1.0,
             "precision": 1.0,
-            "recall": 0.5652173913043478,
+            "recall": 1.0,
             "support": 23
           },
           "SUPPORTS": {
-            "f1": 0.8181818181818182,
+            "f1": 1.0,
             "precision": 1.0,
-            "recall": 0.6923076923076923,
+            "recall": 1.0,
             "support": 13
           }
         },
-        "completed": 34,
+        "completed": 60,
         "conditional_accuracy": 1.0,
         "confusion_matrix": {
           "NOT ENOUGH INFO": {
-            "INVALID": 12,
-            "NOT ENOUGH INFO": 12,
+            "INVALID": 0,
+            "NOT ENOUGH INFO": 24,
             "REFUTES": 0,
             "SUPPORTS": 0
           },
           "REFUTES": {
-            "INVALID": 10,
+            "INVALID": 0,
             "NOT ENOUGH INFO": 0,
-            "REFUTES": 13,
+            "REFUTES": 23,
             "SUPPORTS": 0
           },
           "SUPPORTS": {
-            "INVALID": 4,
+            "INVALID": 0,
             "NOT ENOUGH INFO": 0,
             "REFUTES": 0,
-            "SUPPORTS": 9
+            "SUPPORTS": 13
           }
         },
-        "correct": 34,
-        "coverage": 0.5666666666666667,
-        "macro_f1": 0.7356902356902357,
+        "correct": 60,
+        "coverage": 1.0,
+        "macro_f1": 1.0,
         "nei_to_refutes": 0,
-        "not_run_by_gold": {
-          "NOT ENOUGH INFO": 12,
-          "REFUTES": 10,
-          "SUPPORTS": 4
-        },
+        "not_run_by_gold": {},
         "refutes_to_nei": 0,
         "scheduled": 60,
         "supports_to_nei": 0,
         "unresolved_by_gold": {},
-        "valid": 34
+        "valid": 60
       },
       "V5": {
-        "accuracy_all_scheduled": 0.5,
+        "accuracy_all_scheduled": 0.85,
         "classes": {
           "NOT ENOUGH INFO": {
-            "f1": 0.631578947368421,
-            "precision": 0.8571428571428571,
-            "recall": 0.5,
+            "f1": 0.9411764705882353,
+            "precision": 0.8888888888888888,
+            "recall": 1.0,
             "support": 24
           },
           "REFUTES": {
-            "f1": 0.7222222222222222,
+            "f1": 0.9302325581395349,
             "precision": 1.0,
-            "recall": 0.5652173913043478,
+            "recall": 0.8695652173913043,
             "support": 23
           },
           "SUPPORTS": {
-            "f1": 0.5555555555555556,
+            "f1": 0.7,
             "precision": 1.0,
-            "recall": 0.38461538461538464,
+            "recall": 0.5384615384615384,
             "support": 13
           }
         },
-        "completed": 34,
-        "conditional_accuracy": 0.9375,
+        "completed": 60,
+        "conditional_accuracy": 0.9444444444444444,
         "confusion_matrix": {
           "NOT ENOUGH INFO": {
-            "INVALID": 12,
-            "NOT ENOUGH INFO": 12,
+            "INVALID": 0,
+            "NOT ENOUGH INFO": 24,
             "REFUTES": 0,
             "SUPPORTS": 0
           },
           "REFUTES": {
-            "INVALID": 10,
-            "NOT ENOUGH INFO": 0,
-            "REFUTES": 13,
+            "INVALID": 2,
+            "NOT ENOUGH INFO": 1,
+            "REFUTES": 20,
             "SUPPORTS": 0
           },
           "SUPPORTS": {
-            "INVALID": 6,
+            "INVALID": 4,
             "NOT ENOUGH INFO": 2,
             "REFUTES": 0,
-            "SUPPORTS": 5
+            "SUPPORTS": 7
           }
         },
-        "correct": 30,
-        "coverage": 0.5333333333333333,
-        "macro_f1": 0.6364522417153996,
+        "correct": 51,
+        "coverage": 0.9,
+        "macro_f1": 0.8571363429092567,
         "nei_to_refutes": 0,
-        "not_run_by_gold": {
-          "NOT ENOUGH INFO": 12,
-          "REFUTES": 10,
-          "SUPPORTS": 4
-        },
-        "refutes_to_nei": 0,
+        "not_run_by_gold": {},
+        "refutes_to_nei": 1,
         "scheduled": 60,
         "supports_to_nei": 2,
         "unresolved_by_gold": {
-          "SUPPORTS": 2
+          "REFUTES": 2,
+          "SUPPORTS": 4
         },
-        "valid": 32
+        "valid": 54
       },
       "by_group": {
         "g_12e0067f8de17ee6": {
           "A27": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 1.0,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               },
               "REFUTES": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               },
               "SUPPORTS": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 6,
+            "conditional_accuracy": 1.0,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 2,
-                "NOT ENOUGH INFO": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 2,
                 "REFUTES": 0,
                 "SUPPORTS": 0
               },
               "REFUTES": {
-                "INVALID": 2,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
-                "REFUTES": 0,
+                "REFUTES": 2,
                 "SUPPORTS": 0
               },
               "SUPPORTS": {
-                "INVALID": 2,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
                 "REFUTES": 0,
-                "SUPPORTS": 0
+                "SUPPORTS": 2
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
+            "correct": 6,
+            "coverage": 1.0,
+            "macro_f1": 1.0,
             "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 2,
-              "REFUTES": 2,
-              "SUPPORTS": 2
-            },
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 6,
             "supports_to_nei": 0,
             "unresolved_by_gold": {},
-            "valid": 0
+            "valid": 6
           },
           "V5": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 0.3333333333333333,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               },
               "REFUTES": {
@@ -213,12 +202,12 @@
                 "support": 2
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 6,
+            "conditional_accuracy": 1.0,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 2,
-                "NOT ENOUGH INFO": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 2,
                 "REFUTES": 0,
                 "SUPPORTS": 0
               },
@@ -235,36 +224,35 @@
                 "SUPPORTS": 0
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
+            "correct": 2,
+            "coverage": 0.3333333333333333,
+            "macro_f1": 0.3333333333333333,
             "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 2,
-              "REFUTES": 2,
-              "SUPPORTS": 2
-            },
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 6,
             "supports_to_nei": 0,
-            "unresolved_by_gold": {},
-            "valid": 0
+            "unresolved_by_gold": {
+              "REFUTES": 2,
+              "SUPPORTS": 2
+            },
+            "valid": 2
           }
         },
         "g_1c41e6ca0b24cdc3": {
           "A27": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 1.0,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 9
               },
               "REFUTES": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 6
               },
               "SUPPORTS": {
@@ -274,19 +262,19 @@
                 "support": 0
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 15,
+            "conditional_accuracy": 1.0,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 9,
-                "NOT ENOUGH INFO": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 9,
                 "REFUTES": 0,
                 "SUPPORTS": 0
               },
               "REFUTES": {
-                "INVALID": 6,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
-                "REFUTES": 0,
+                "REFUTES": 6,
                 "SUPPORTS": 0
               },
               "SUPPORTS": {
@@ -296,33 +284,30 @@
                 "SUPPORTS": 0
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
+            "correct": 15,
+            "coverage": 1.0,
+            "macro_f1": 0.6666666666666666,
             "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 9,
-              "REFUTES": 6
-            },
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 15,
             "supports_to_nei": 0,
             "unresolved_by_gold": {},
-            "valid": 0
+            "valid": 15
           },
           "V5": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 0.9333333333333333,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 0.9473684210526315,
+                "precision": 0.9,
+                "recall": 1.0,
                 "support": 9
               },
               "REFUTES": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 0.9090909090909091,
+                "precision": 1.0,
+                "recall": 0.8333333333333334,
                 "support": 6
               },
               "SUPPORTS": {
@@ -332,19 +317,19 @@
                 "support": 0
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 15,
+            "conditional_accuracy": 0.9333333333333333,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 9,
-                "NOT ENOUGH INFO": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 9,
                 "REFUTES": 0,
                 "SUPPORTS": 0
               },
               "REFUTES": {
-                "INVALID": 6,
-                "NOT ENOUGH INFO": 0,
-                "REFUTES": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
+                "REFUTES": 5,
                 "SUPPORTS": 0
               },
               "SUPPORTS": {
@@ -354,19 +339,16 @@
                 "SUPPORTS": 0
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
+            "correct": 14,
+            "coverage": 1.0,
+            "macro_f1": 0.6188197767145135,
             "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 9,
-              "REFUTES": 6
-            },
-            "refutes_to_nei": 0,
+            "not_run_by_gold": {},
+            "refutes_to_nei": 1,
             "scheduled": 15,
             "supports_to_nei": 0,
             "unresolved_by_gold": {},
-            "valid": 0
+            "valid": 15
           }
         },
         "g_3de67df163064b7b": {
@@ -709,122 +691,114 @@
         },
         "g_c028121037aa9d69": {
           "A27": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 1.0,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 1
               },
               "REFUTES": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               },
               "SUPPORTS": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 5,
+            "conditional_accuracy": 1.0,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 1,
-                "NOT ENOUGH INFO": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
                 "REFUTES": 0,
                 "SUPPORTS": 0
               },
               "REFUTES": {
-                "INVALID": 2,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
-                "REFUTES": 0,
+                "REFUTES": 2,
                 "SUPPORTS": 0
               },
               "SUPPORTS": {
-                "INVALID": 2,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
                 "REFUTES": 0,
-                "SUPPORTS": 0
+                "SUPPORTS": 2
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
+            "correct": 5,
+            "coverage": 1.0,
+            "macro_f1": 1.0,
             "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 1,
-              "REFUTES": 2,
-              "SUPPORTS": 2
-            },
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 5,
             "supports_to_nei": 0,
             "unresolved_by_gold": {},
-            "valid": 0
+            "valid": 5
           },
           "V5": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 1.0,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 1
               },
               "REFUTES": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               },
               "SUPPORTS": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 5,
+            "conditional_accuracy": 1.0,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 1,
-                "NOT ENOUGH INFO": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
                 "REFUTES": 0,
                 "SUPPORTS": 0
               },
               "REFUTES": {
-                "INVALID": 2,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
-                "REFUTES": 0,
+                "REFUTES": 2,
                 "SUPPORTS": 0
               },
               "SUPPORTS": {
-                "INVALID": 2,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
                 "REFUTES": 0,
-                "SUPPORTS": 0
+                "SUPPORTS": 2
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
+            "correct": 5,
+            "coverage": 1.0,
+            "macro_f1": 1.0,
             "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 1,
-              "REFUTES": 2,
-              "SUPPORTS": 2
-            },
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 5,
             "supports_to_nei": 0,
             "unresolved_by_gold": {},
-            "valid": 0
+            "valid": 5
           }
         },
         "g_e26e5d6db3b5626f": {
@@ -1397,191 +1371,179 @@
         },
         "PLAN": {
           "A27": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 1.0,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 1
               },
               "REFUTES": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               },
               "SUPPORTS": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 5,
+            "conditional_accuracy": 1.0,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 1,
-                "NOT ENOUGH INFO": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
                 "REFUTES": 0,
                 "SUPPORTS": 0
               },
               "REFUTES": {
-                "INVALID": 2,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
-                "REFUTES": 0,
+                "REFUTES": 2,
                 "SUPPORTS": 0
               },
               "SUPPORTS": {
-                "INVALID": 2,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
                 "REFUTES": 0,
-                "SUPPORTS": 0
+                "SUPPORTS": 2
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
+            "correct": 5,
+            "coverage": 1.0,
+            "macro_f1": 1.0,
             "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 1,
-              "REFUTES": 2,
-              "SUPPORTS": 2
-            },
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 5,
             "supports_to_nei": 0,
             "unresolved_by_gold": {},
-            "valid": 0
+            "valid": 5
           },
           "V5": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 1.0,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 1
               },
               "REFUTES": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               },
               "SUPPORTS": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 5,
+            "conditional_accuracy": 1.0,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 1,
-                "NOT ENOUGH INFO": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
                 "REFUTES": 0,
                 "SUPPORTS": 0
               },
               "REFUTES": {
-                "INVALID": 2,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
-                "REFUTES": 0,
+                "REFUTES": 2,
                 "SUPPORTS": 0
               },
               "SUPPORTS": {
-                "INVALID": 2,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
                 "REFUTES": 0,
-                "SUPPORTS": 0
+                "SUPPORTS": 2
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
+            "correct": 5,
+            "coverage": 1.0,
+            "macro_f1": 1.0,
             "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 1,
-              "REFUTES": 2,
-              "SUPPORTS": 2
-            },
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 5,
             "supports_to_nei": 0,
             "unresolved_by_gold": {},
-            "valid": 0
+            "valid": 5
           }
         },
         "RELDATE": {
           "A27": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 1.0,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               },
               "REFUTES": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               },
               "SUPPORTS": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 6,
+            "conditional_accuracy": 1.0,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 2,
-                "NOT ENOUGH INFO": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 2,
                 "REFUTES": 0,
                 "SUPPORTS": 0
               },
               "REFUTES": {
-                "INVALID": 2,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
-                "REFUTES": 0,
+                "REFUTES": 2,
                 "SUPPORTS": 0
               },
               "SUPPORTS": {
-                "INVALID": 2,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
                 "REFUTES": 0,
-                "SUPPORTS": 0
+                "SUPPORTS": 2
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
+            "correct": 6,
+            "coverage": 1.0,
+            "macro_f1": 1.0,
             "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 2,
-              "REFUTES": 2,
-              "SUPPORTS": 2
-            },
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 6,
             "supports_to_nei": 0,
             "unresolved_by_gold": {},
-            "valid": 0
+            "valid": 6
           },
           "V5": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 0.3333333333333333,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               },
               "REFUTES": {
@@ -1597,12 +1559,12 @@
                 "support": 2
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 6,
+            "conditional_accuracy": 1.0,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 2,
-                "NOT ENOUGH INFO": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 2,
                 "REFUTES": 0,
                 "SUPPORTS": 0
               },
@@ -1619,36 +1581,35 @@
                 "SUPPORTS": 0
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
+            "correct": 2,
+            "coverage": 0.3333333333333333,
+            "macro_f1": 0.3333333333333333,
             "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 2,
-              "REFUTES": 2,
-              "SUPPORTS": 2
-            },
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 6,
             "supports_to_nei": 0,
-            "unresolved_by_gold": {},
-            "valid": 0
+            "unresolved_by_gold": {
+              "REFUTES": 2,
+              "SUPPORTS": 2
+            },
+            "valid": 2
           }
         },
         "TIMESHIFT": {
           "A27": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 1.0,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 9
               },
               "REFUTES": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 6
               },
               "SUPPORTS": {
@@ -1658,19 +1619,19 @@
                 "support": 0
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 15,
+            "conditional_accuracy": 1.0,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 9,
-                "NOT ENOUGH INFO": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 9,
                 "REFUTES": 0,
                 "SUPPORTS": 0
               },
               "REFUTES": {
-                "INVALID": 6,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
-                "REFUTES": 0,
+                "REFUTES": 6,
                 "SUPPORTS": 0
               },
               "SUPPORTS": {
@@ -1680,33 +1641,30 @@
                 "SUPPORTS": 0
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
+            "correct": 15,
+            "coverage": 1.0,
+            "macro_f1": 0.6666666666666666,
             "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 9,
-              "REFUTES": 6
-            },
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 15,
             "supports_to_nei": 0,
             "unresolved_by_gold": {},
-            "valid": 0
+            "valid": 15
           },
           "V5": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 0.9333333333333333,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 0.9473684210526315,
+                "precision": 0.9,
+                "recall": 1.0,
                 "support": 9
               },
               "REFUTES": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 0.9090909090909091,
+                "precision": 1.0,
+                "recall": 0.8333333333333334,
                 "support": 6
               },
               "SUPPORTS": {
@@ -1716,19 +1674,19 @@
                 "support": 0
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 15,
+            "conditional_accuracy": 0.9333333333333333,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 9,
-                "NOT ENOUGH INFO": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 9,
                 "REFUTES": 0,
                 "SUPPORTS": 0
               },
               "REFUTES": {
-                "INVALID": 6,
-                "NOT ENOUGH INFO": 0,
-                "REFUTES": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
+                "REFUTES": 5,
                 "SUPPORTS": 0
               },
               "SUPPORTS": {
@@ -1738,38 +1696,40 @@
                 "SUPPORTS": 0
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
+            "correct": 14,
+            "coverage": 1.0,
+            "macro_f1": 0.6188197767145135,
             "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 9,
-              "REFUTES": 6
-            },
-            "refutes_to_nei": 0,
+            "not_run_by_gold": {},
+            "refutes_to_nei": 1,
             "scheduled": 15,
             "supports_to_nei": 0,
             "unresolved_by_gold": {},
-            "valid": 0
+            "valid": 15
           }
         }
       },
       "decision_pairs": {
-        "('TARGET_CONTRADICTS_EVIDENCE', 'WITNESS_VALID')": 13,
-        "('WITNESS_VALID', 'CANDIDATE_INVALID')": 2,
-        "('WITNESS_VALID', 'TARGET_CONTRADICTS_EVIDENCE')": 5,
-        "('WITNESS_VALID', 'WITNESS_VALID')": 14,
-        "(None, None)": 26
+        "('CANDIDATE_INVALID', 'WITNESS_VALID')": 2,
+        "('TARGET_CONTRADICTS_EVIDENCE', 'WITNESS_VALID')": 20,
+        "('WITNESS_VALID', 'CANDIDATE_INVALID')": 4,
+        "('WITNESS_VALID', 'TARGET_CONTRADICTS_EVIDENCE')": 7,
+        "('WITNESS_VALID', 'WITNESS_VALID')": 27
       },
       "paired": {
-        "complete_pair_subset_is_not_full_evaluation": true,
-        "complete_pairs": 34,
-        "delta_on_complete_pairs": -0.11764705882352941,
+        "complete_pair_subset_is_not_full_evaluation": false,
+        "complete_pairs": 60,
+        "delta_on_complete_pairs": -0.15,
         "harmed_ids": [
           "e_70b7b6465b23cd81",
           "e_39adee2bc1e67cdb",
           "e_997cb104a6c51234",
-          "e_f413a59ea39d9650"
+          "e_f413a59ea39d9650",
+          "e_61734f75811ce5e8",
+          "e_ae77a7b800003d77",
+          "e_d21e5a21fe8e7091",
+          "e_fa99cf6f5a330685",
+          "e_8b768e47d00148c4"
         ],
         "improved_ids": [],
         "scheduled": 60
@@ -1777,126 +1737,118 @@
     },
     "challenge": {
       "A27": {
-        "accuracy_all_scheduled": 0.3409090909090909,
+        "accuracy_all_scheduled": 0.6818181818181818,
         "classes": {
           "NOT ENOUGH INFO": {
-            "f1": 0.23076923076923078,
-            "precision": 0.75,
-            "recall": 0.13636363636363635,
+            "f1": 0.6060606060606061,
+            "precision": 0.9090909090909091,
+            "recall": 0.45454545454545453,
             "support": 22
           },
           "REFUTES": {
-            "f1": 0.4444444444444444,
-            "precision": 0.3076923076923077,
-            "recall": 0.8,
+            "f1": 0.43478260869565216,
+            "precision": 0.2777777777777778,
+            "recall": 1.0,
             "support": 5
           },
           "SUPPORTS": {
-            "f1": 0.64,
+            "f1": 0.9375,
             "precision": 1.0,
-            "recall": 0.47058823529411764,
+            "recall": 0.8823529411764706,
             "support": 17
           }
         },
-        "completed": 25,
-        "conditional_accuracy": 0.6,
+        "completed": 44,
+        "conditional_accuracy": 0.6818181818181818,
         "confusion_matrix": {
           "NOT ENOUGH INFO": {
-            "INVALID": 11,
-            "NOT ENOUGH INFO": 3,
-            "REFUTES": 8,
+            "INVALID": 0,
+            "NOT ENOUGH INFO": 10,
+            "REFUTES": 12,
             "SUPPORTS": 0
           },
           "REFUTES": {
-            "INVALID": 1,
+            "INVALID": 0,
             "NOT ENOUGH INFO": 0,
-            "REFUTES": 4,
+            "REFUTES": 5,
             "SUPPORTS": 0
           },
           "SUPPORTS": {
-            "INVALID": 7,
+            "INVALID": 0,
             "NOT ENOUGH INFO": 1,
             "REFUTES": 1,
-            "SUPPORTS": 8
+            "SUPPORTS": 15
           }
         },
-        "correct": 15,
-        "coverage": 0.5681818181818182,
-        "macro_f1": 0.4384045584045584,
-        "nei_to_refutes": 8,
-        "not_run_by_gold": {
-          "NOT ENOUGH INFO": 11,
-          "REFUTES": 1,
-          "SUPPORTS": 7
-        },
+        "correct": 30,
+        "coverage": 1.0,
+        "macro_f1": 0.6594477382520861,
+        "nei_to_refutes": 12,
+        "not_run_by_gold": {},
         "refutes_to_nei": 0,
         "scheduled": 44,
         "supports_to_nei": 1,
         "unresolved_by_gold": {},
-        "valid": 25
+        "valid": 44
       },
       "V5": {
-        "accuracy_all_scheduled": 0.18181818181818182,
+        "accuracy_all_scheduled": 0.4090909090909091,
         "classes": {
           "NOT ENOUGH INFO": {
-            "f1": 0.2962962962962963,
-            "precision": 0.8,
-            "recall": 0.18181818181818182,
+            "f1": 0.5625,
+            "precision": 0.9,
+            "recall": 0.4090909090909091,
             "support": 22
           },
           "REFUTES": {
-            "f1": 0.2,
-            "precision": 0.2,
-            "recall": 0.2,
+            "f1": 0.3333333333333333,
+            "precision": 0.2857142857142857,
+            "recall": 0.4,
             "support": 5
           },
           "SUPPORTS": {
-            "f1": 0.3,
+            "f1": 0.5833333333333334,
             "precision": 1.0,
-            "recall": 0.17647058823529413,
+            "recall": 0.4117647058823529,
             "support": 17
           }
         },
-        "completed": 24,
-        "conditional_accuracy": 0.6153846153846154,
+        "completed": 44,
+        "conditional_accuracy": 0.75,
         "confusion_matrix": {
           "NOT ENOUGH INFO": {
-            "INVALID": 14,
-            "NOT ENOUGH INFO": 4,
-            "REFUTES": 4,
+            "INVALID": 8,
+            "NOT ENOUGH INFO": 9,
+            "REFUTES": 5,
             "SUPPORTS": 0
           },
           "REFUTES": {
-            "INVALID": 4,
+            "INVALID": 3,
             "NOT ENOUGH INFO": 0,
-            "REFUTES": 1,
+            "REFUTES": 2,
             "SUPPORTS": 0
           },
           "SUPPORTS": {
-            "INVALID": 13,
+            "INVALID": 9,
             "NOT ENOUGH INFO": 1,
             "REFUTES": 0,
-            "SUPPORTS": 3
+            "SUPPORTS": 7
           }
         },
-        "correct": 8,
-        "coverage": 0.29545454545454547,
-        "macro_f1": 0.2654320987654321,
-        "nei_to_refutes": 4,
-        "not_run_by_gold": {
-          "NOT ENOUGH INFO": 11,
-          "REFUTES": 1,
-          "SUPPORTS": 8
-        },
+        "correct": 18,
+        "coverage": 0.5454545454545454,
+        "macro_f1": 0.4930555555555556,
+        "nei_to_refutes": 5,
+        "not_run_by_gold": {},
         "refutes_to_nei": 0,
         "scheduled": 44,
         "supports_to_nei": 1,
         "unresolved_by_gold": {
-          "NOT ENOUGH INFO": 3,
+          "NOT ENOUGH INFO": 8,
           "REFUTES": 3,
-          "SUPPORTS": 5
+          "SUPPORTS": 9
         },
-        "valid": 13
+        "valid": 24
       },
       "by_group": {
         "g_21a040f0577262ef": {
@@ -1977,7 +1929,7 @@
                 "support": 2
               }
             },
-            "completed": 5,
+            "completed": 6,
             "conditional_accuracy": null,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
@@ -2003,138 +1955,128 @@
             "coverage": 0.0,
             "macro_f1": 0.0,
             "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "SUPPORTS": 1
-            },
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 6,
             "supports_to_nei": 0,
             "unresolved_by_gold": {
               "NOT ENOUGH INFO": 2,
               "REFUTES": 2,
-              "SUPPORTS": 1
+              "SUPPORTS": 2
             },
             "valid": 0
           }
         },
         "g_300777675f747c85": {
           "A27": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 1.0,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 3
               },
               "REFUTES": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 1
               },
               "SUPPORTS": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 6,
+            "conditional_accuracy": 1.0,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 3,
-                "NOT ENOUGH INFO": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 3,
                 "REFUTES": 0,
                 "SUPPORTS": 0
               },
               "REFUTES": {
-                "INVALID": 1,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
-                "REFUTES": 0,
+                "REFUTES": 1,
                 "SUPPORTS": 0
               },
               "SUPPORTS": {
-                "INVALID": 2,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
                 "REFUTES": 0,
-                "SUPPORTS": 0
+                "SUPPORTS": 2
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
+            "correct": 6,
+            "coverage": 1.0,
+            "macro_f1": 1.0,
             "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 3,
-              "REFUTES": 1,
-              "SUPPORTS": 2
-            },
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 6,
             "supports_to_nei": 0,
             "unresolved_by_gold": {},
-            "valid": 0
+            "valid": 6
           },
           "V5": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 1.0,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 3
               },
               "REFUTES": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 1
               },
               "SUPPORTS": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 6,
+            "conditional_accuracy": 1.0,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 3,
-                "NOT ENOUGH INFO": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 3,
                 "REFUTES": 0,
                 "SUPPORTS": 0
               },
               "REFUTES": {
-                "INVALID": 1,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
-                "REFUTES": 0,
+                "REFUTES": 1,
                 "SUPPORTS": 0
               },
               "SUPPORTS": {
-                "INVALID": 2,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
                 "REFUTES": 0,
-                "SUPPORTS": 0
+                "SUPPORTS": 2
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
+            "correct": 6,
+            "coverage": 1.0,
+            "macro_f1": 1.0,
             "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 3,
-              "REFUTES": 1,
-              "SUPPORTS": 2
-            },
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 6,
             "supports_to_nei": 0,
             "unresolved_by_gold": {},
-            "valid": 0
+            "valid": 6
           }
         },
         "g_3b8f9bb9621efceb": {
@@ -2483,34 +2425,34 @@
         },
         "g_abdd085764da8b87": {
           "A27": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 0.8,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 0.8,
+                "precision": 1.0,
+                "recall": 0.6666666666666666,
                 "support": 3
               },
               "REFUTES": {
-                "f1": 0,
-                "precision": 0,
+                "f1": 0.0,
+                "precision": 0.0,
                 "recall": null,
                 "support": 0
               },
               "SUPPORTS": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 5,
+            "conditional_accuracy": 0.8,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 3,
-                "NOT ENOUGH INFO": 0,
-                "REFUTES": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 2,
+                "REFUTES": 1,
                 "SUPPORTS": 0
               },
               "REFUTES": {
@@ -2520,55 +2462,52 @@
                 "SUPPORTS": 0
               },
               "SUPPORTS": {
-                "INVALID": 2,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
                 "REFUTES": 0,
-                "SUPPORTS": 0
+                "SUPPORTS": 2
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
-            "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 3,
-              "SUPPORTS": 2
-            },
+            "correct": 4,
+            "coverage": 1.0,
+            "macro_f1": 0.6,
+            "nei_to_refutes": 1,
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 5,
             "supports_to_nei": 0,
             "unresolved_by_gold": {},
-            "valid": 0
+            "valid": 5
           },
           "V5": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 0.6,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 0.5,
+                "precision": 1.0,
+                "recall": 0.3333333333333333,
                 "support": 3
               },
               "REFUTES": {
-                "f1": 0,
-                "precision": 0,
+                "f1": 0.0,
+                "precision": 0.0,
                 "recall": null,
                 "support": 0
               },
               "SUPPORTS": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 5,
+            "conditional_accuracy": 0.75,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 3,
-                "NOT ENOUGH INFO": 0,
-                "REFUTES": 0,
+                "INVALID": 1,
+                "NOT ENOUGH INFO": 1,
+                "REFUTES": 1,
                 "SUPPORTS": 0
               },
               "REFUTES": {
@@ -2578,57 +2517,56 @@
                 "SUPPORTS": 0
               },
               "SUPPORTS": {
-                "INVALID": 2,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
                 "REFUTES": 0,
-                "SUPPORTS": 0
+                "SUPPORTS": 2
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
-            "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 3,
-              "SUPPORTS": 2
-            },
+            "correct": 3,
+            "coverage": 0.8,
+            "macro_f1": 0.5,
+            "nei_to_refutes": 1,
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 5,
             "supports_to_nei": 0,
-            "unresolved_by_gold": {},
-            "valid": 0
+            "unresolved_by_gold": {
+              "NOT ENOUGH INFO": 1
+            },
+            "valid": 4
           }
         },
         "g_eee6bfb6e0ddbde9": {
           "A27": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 0.625,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 0.5714285714285714,
+                "precision": 1.0,
+                "recall": 0.4,
                 "support": 5
               },
               "REFUTES": {
-                "f1": 0,
-                "precision": 0,
+                "f1": 0.0,
+                "precision": 0.0,
                 "recall": null,
                 "support": 0
               },
               "SUPPORTS": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 3
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 8,
+            "conditional_accuracy": 0.625,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 5,
-                "NOT ENOUGH INFO": 0,
-                "REFUTES": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 2,
+                "REFUTES": 3,
                 "SUPPORTS": 0
               },
               "REFUTES": {
@@ -2638,33 +2576,30 @@
                 "SUPPORTS": 0
               },
               "SUPPORTS": {
-                "INVALID": 3,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
                 "REFUTES": 0,
-                "SUPPORTS": 0
+                "SUPPORTS": 3
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
-            "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 5,
-              "SUPPORTS": 3
-            },
+            "correct": 5,
+            "coverage": 1.0,
+            "macro_f1": 0.5238095238095238,
+            "nei_to_refutes": 3,
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 8,
             "supports_to_nei": 0,
             "unresolved_by_gold": {},
-            "valid": 0
+            "valid": 8
           },
           "V5": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 0.125,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 0.3333333333333333,
+                "precision": 1.0,
+                "recall": 0.2,
                 "support": 5
               },
               "REFUTES": {
@@ -2680,12 +2615,12 @@
                 "support": 3
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 8,
+            "conditional_accuracy": 1.0,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 5,
-                "NOT ENOUGH INFO": 0,
+                "INVALID": 4,
+                "NOT ENOUGH INFO": 1,
                 "REFUTES": 0,
                 "SUPPORTS": 0
               },
@@ -2702,19 +2637,19 @@
                 "SUPPORTS": 0
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
+            "correct": 1,
+            "coverage": 0.125,
+            "macro_f1": 0.1111111111111111,
             "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 5,
-              "SUPPORTS": 3
-            },
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 8,
             "supports_to_nei": 0,
-            "unresolved_by_gold": {},
-            "valid": 0
+            "unresolved_by_gold": {
+              "NOT ENOUGH INFO": 4,
+              "SUPPORTS": 3
+            },
+            "valid": 1
           }
         }
       },
@@ -3141,7 +3076,7 @@
                 "support": 2
               }
             },
-            "completed": 5,
+            "completed": 6,
             "conditional_accuracy": null,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
@@ -3167,170 +3102,160 @@
             "coverage": 0.0,
             "macro_f1": 0.0,
             "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "SUPPORTS": 1
-            },
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 6,
             "supports_to_nei": 0,
             "unresolved_by_gold": {
               "NOT ENOUGH INFO": 2,
               "REFUTES": 2,
-              "SUPPORTS": 1
+              "SUPPORTS": 2
             },
             "valid": 0
           }
         },
         "SETCLOSE": {
           "A27": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 1.0,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 3
               },
               "REFUTES": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 1
               },
               "SUPPORTS": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 6,
+            "conditional_accuracy": 1.0,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 3,
-                "NOT ENOUGH INFO": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 3,
                 "REFUTES": 0,
                 "SUPPORTS": 0
               },
               "REFUTES": {
-                "INVALID": 1,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
-                "REFUTES": 0,
+                "REFUTES": 1,
                 "SUPPORTS": 0
               },
               "SUPPORTS": {
-                "INVALID": 2,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
                 "REFUTES": 0,
-                "SUPPORTS": 0
+                "SUPPORTS": 2
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
+            "correct": 6,
+            "coverage": 1.0,
+            "macro_f1": 1.0,
             "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 3,
-              "REFUTES": 1,
-              "SUPPORTS": 2
-            },
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 6,
             "supports_to_nei": 0,
             "unresolved_by_gold": {},
-            "valid": 0
+            "valid": 6
           },
           "V5": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 1.0,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 3
               },
               "REFUTES": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 1
               },
               "SUPPORTS": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 6,
+            "conditional_accuracy": 1.0,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 3,
-                "NOT ENOUGH INFO": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 3,
                 "REFUTES": 0,
                 "SUPPORTS": 0
               },
               "REFUTES": {
-                "INVALID": 1,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
-                "REFUTES": 0,
+                "REFUTES": 1,
                 "SUPPORTS": 0
               },
               "SUPPORTS": {
-                "INVALID": 2,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
                 "REFUTES": 0,
-                "SUPPORTS": 0
+                "SUPPORTS": 2
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
+            "correct": 6,
+            "coverage": 1.0,
+            "macro_f1": 1.0,
             "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 3,
-              "REFUTES": 1,
-              "SUPPORTS": 2
-            },
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 6,
             "supports_to_nei": 0,
             "unresolved_by_gold": {},
-            "valid": 0
+            "valid": 6
           }
         },
         "TEMPSCOPE": {
           "A27": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 0.8,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 0.8,
+                "precision": 1.0,
+                "recall": 0.6666666666666666,
                 "support": 3
               },
               "REFUTES": {
-                "f1": 0,
-                "precision": 0,
+                "f1": 0.0,
+                "precision": 0.0,
                 "recall": null,
                 "support": 0
               },
               "SUPPORTS": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 5,
+            "conditional_accuracy": 0.8,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 3,
-                "NOT ENOUGH INFO": 0,
-                "REFUTES": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 2,
+                "REFUTES": 1,
                 "SUPPORTS": 0
               },
               "REFUTES": {
@@ -3340,55 +3265,52 @@
                 "SUPPORTS": 0
               },
               "SUPPORTS": {
-                "INVALID": 2,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
                 "REFUTES": 0,
-                "SUPPORTS": 0
+                "SUPPORTS": 2
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
-            "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 3,
-              "SUPPORTS": 2
-            },
+            "correct": 4,
+            "coverage": 1.0,
+            "macro_f1": 0.6,
+            "nei_to_refutes": 1,
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 5,
             "supports_to_nei": 0,
             "unresolved_by_gold": {},
-            "valid": 0
+            "valid": 5
           },
           "V5": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 0.6,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 0.5,
+                "precision": 1.0,
+                "recall": 0.3333333333333333,
                 "support": 3
               },
               "REFUTES": {
-                "f1": 0,
-                "precision": 0,
+                "f1": 0.0,
+                "precision": 0.0,
                 "recall": null,
                 "support": 0
               },
               "SUPPORTS": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 2
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 5,
+            "conditional_accuracy": 0.75,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 3,
-                "NOT ENOUGH INFO": 0,
-                "REFUTES": 0,
+                "INVALID": 1,
+                "NOT ENOUGH INFO": 1,
+                "REFUTES": 1,
                 "SUPPORTS": 0
               },
               "REFUTES": {
@@ -3398,57 +3320,56 @@
                 "SUPPORTS": 0
               },
               "SUPPORTS": {
-                "INVALID": 2,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
                 "REFUTES": 0,
-                "SUPPORTS": 0
+                "SUPPORTS": 2
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
-            "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 3,
-              "SUPPORTS": 2
-            },
+            "correct": 3,
+            "coverage": 0.8,
+            "macro_f1": 0.5,
+            "nei_to_refutes": 1,
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 5,
             "supports_to_nei": 0,
-            "unresolved_by_gold": {},
-            "valid": 0
+            "unresolved_by_gold": {
+              "NOT ENOUGH INFO": 1
+            },
+            "valid": 4
           }
         },
         "UNIQUE": {
           "A27": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 0.625,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 0.5714285714285714,
+                "precision": 1.0,
+                "recall": 0.4,
                 "support": 5
               },
               "REFUTES": {
-                "f1": 0,
-                "precision": 0,
+                "f1": 0.0,
+                "precision": 0.0,
                 "recall": null,
                 "support": 0
               },
               "SUPPORTS": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
                 "support": 3
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 8,
+            "conditional_accuracy": 0.625,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 5,
-                "NOT ENOUGH INFO": 0,
-                "REFUTES": 0,
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 2,
+                "REFUTES": 3,
                 "SUPPORTS": 0
               },
               "REFUTES": {
@@ -3458,33 +3379,30 @@
                 "SUPPORTS": 0
               },
               "SUPPORTS": {
-                "INVALID": 3,
+                "INVALID": 0,
                 "NOT ENOUGH INFO": 0,
                 "REFUTES": 0,
-                "SUPPORTS": 0
+                "SUPPORTS": 3
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
-            "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 5,
-              "SUPPORTS": 3
-            },
+            "correct": 5,
+            "coverage": 1.0,
+            "macro_f1": 0.5238095238095238,
+            "nei_to_refutes": 3,
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 8,
             "supports_to_nei": 0,
             "unresolved_by_gold": {},
-            "valid": 0
+            "valid": 8
           },
           "V5": {
-            "accuracy_all_scheduled": 0.0,
+            "accuracy_all_scheduled": 0.125,
             "classes": {
               "NOT ENOUGH INFO": {
-                "f1": 0.0,
-                "precision": 0,
-                "recall": 0.0,
+                "f1": 0.3333333333333333,
+                "precision": 1.0,
+                "recall": 0.2,
                 "support": 5
               },
               "REFUTES": {
@@ -3500,12 +3418,12 @@
                 "support": 3
               }
             },
-            "completed": 0,
-            "conditional_accuracy": null,
+            "completed": 8,
+            "conditional_accuracy": 1.0,
             "confusion_matrix": {
               "NOT ENOUGH INFO": {
-                "INVALID": 5,
-                "NOT ENOUGH INFO": 0,
+                "INVALID": 4,
+                "NOT ENOUGH INFO": 1,
                 "REFUTES": 0,
                 "SUPPORTS": 0
               },
@@ -3522,37 +3440,36 @@
                 "SUPPORTS": 0
               }
             },
-            "correct": 0,
-            "coverage": 0.0,
-            "macro_f1": 0.0,
+            "correct": 1,
+            "coverage": 0.125,
+            "macro_f1": 0.1111111111111111,
             "nei_to_refutes": 0,
-            "not_run_by_gold": {
-              "NOT ENOUGH INFO": 5,
-              "SUPPORTS": 3
-            },
+            "not_run_by_gold": {},
             "refutes_to_nei": 0,
             "scheduled": 8,
             "supports_to_nei": 0,
-            "unresolved_by_gold": {},
-            "valid": 0
+            "unresolved_by_gold": {
+              "NOT ENOUGH INFO": 4,
+              "SUPPORTS": 3
+            },
+            "valid": 1
           }
         }
       },
       "decision_pairs": {
-        "('CANDIDATE_INVALID', 'CANDIDATE_INVALID')": 1,
-        "('CANDIDATE_INVALID', 'TARGET_CONTRADICTS_EVIDENCE')": 1,
-        "('CANDIDATE_INVALID', 'WITNESS_VALID')": 4,
+        "('CANDIDATE_INVALID', 'CANDIDATE_INVALID')": 5,
+        "('CANDIDATE_INVALID', 'TARGET_CONTRADICTS_EVIDENCE')": 2,
+        "('CANDIDATE_INVALID', 'WITNESS_VALID')": 8,
         "('TARGET_CONTRADICTS_EVIDENCE', 'TARGET_CONTRADICTS_EVIDENCE')": 1,
-        "('TARGET_CONTRADICTS_EVIDENCE', 'WITNESS_VALID')": 5,
+        "('TARGET_CONTRADICTS_EVIDENCE', 'WITNESS_VALID')": 7,
         "('WITNESS_VALID', 'CANDIDATE_INVALID')": 4,
-        "('WITNESS_VALID', 'TARGET_CONTRADICTS_EVIDENCE')": 3,
-        "('WITNESS_VALID', 'WITNESS_VALID')": 5,
-        "(None, None)": 20
+        "('WITNESS_VALID', 'TARGET_CONTRADICTS_EVIDENCE')": 7,
+        "('WITNESS_VALID', 'WITNESS_VALID')": 10
       },
       "paired": {
-        "complete_pair_subset_is_not_full_evaluation": true,
-        "complete_pairs": 24,
-        "delta_on_complete_pairs": -0.2916666666666667,
+        "complete_pair_subset_is_not_full_evaluation": false,
+        "complete_pairs": 44,
+        "delta_on_complete_pairs": -0.2727272727272727,
         "harmed_ids": [
           "e_2eaa05ca9a45a036",
           "e_0d3c98953a903e54",
@@ -3562,7 +3479,12 @@
           "e_ba0c7235dd5fc3bc",
           "e_30dd6de6f0d68233",
           "e_66aac7fa7c48a00a",
-          "e_d5b21a51414873e5"
+          "e_d5b21a51414873e5",
+          "e_e6a13dd07dea569a",
+          "e_9ae6898045213bc7",
+          "e_bd1c8bcfcd92794d",
+          "e_c817244b687d90e1",
+          "e_e6098b3030399dd2"
         ],
         "improved_ids": [
           "e_603240b9be921883",
@@ -3623,79 +3545,79 @@
       "path": "outputs/runs/layered_worlds_qwen38_27b_v5_r2_free_fresh/records/18d4d854c3ad74bc8f2275925107da959e9f143c56db4257902767dca578e369/verify_T.errors.json"
     }
   ],
-  "generated_at": "2026-10-24T11:17:55.088928+00:00",
+  "generated_at": "2026-10-26T02:07:06.209667+00:00",
   "no_formal_metrics_claimed_when_unrun": true,
   "phase": "fresh",
   "planned_items": 104,
-  "received_responses_all_phases": 293,
+  "received_responses_all_phases": 520,
   "run_id": "layered_worlds_qwen38_27b_v5_r2_free",
   "stage_costs": {
     "baseline_A27": {
-      "client_seconds_including_throttle": 154.8275043964386,
-      "completion_tokens": 2513,
+      "client_seconds_including_throttle": 329.9329843521118,
+      "completion_tokens": 4687,
       "decisions": {
-        "null": 59
+        "null": 104
       },
       "length_limit_hits": 0,
-      "prompt_tokens": 17524,
-      "protocol_valid": 59,
-      "received": 59,
-      "schema_valid": 59
+      "prompt_tokens": 29996,
+      "protocol_valid": 104,
+      "received": 104,
+      "schema_valid": 104
     },
     "generate_F": {
-      "client_seconds_including_throttle": 922.668788433075,
-      "completion_tokens": 4232,
+      "client_seconds_including_throttle": 1072.0668830871582,
+      "completion_tokens": 8252,
       "decisions": {
-        "null": 59
+        "null": 104
       },
-      "length_limit_hits": 1,
-      "prompt_tokens": 32038,
-      "protocol_valid": 59,
-      "received": 59,
-      "schema_valid": 59
+      "length_limit_hits": 2,
+      "prompt_tokens": 55580,
+      "protocol_valid": 104,
+      "received": 104,
+      "schema_valid": 104
     },
     "generate_T": {
-      "client_seconds_including_throttle": 561.9872105121613,
-      "completion_tokens": 4488,
+      "client_seconds_including_throttle": 1119.3535177707672,
+      "completion_tokens": 8039,
       "decisions": {
-        "null": 59
+        "null": 104
       },
       "length_limit_hits": 0,
-      "prompt_tokens": 28321,
-      "protocol_valid": 59,
-      "received": 59,
-      "schema_valid": 59
+      "prompt_tokens": 49028,
+      "protocol_valid": 104,
+      "received": 104,
+      "schema_valid": 104
     },
     "verify_F": {
-      "client_seconds_including_throttle": 2175.7583208084106,
-      "completion_tokens": 5456,
+      "client_seconds_including_throttle": 3033.09756731987,
+      "completion_tokens": 10088,
       "decisions": {
-        "CANDIDATE_INVALID": 7,
-        "TARGET_CONTRADICTS_EVIDENCE": 10,
-        "WITNESS_VALID": 41
+        "CANDIDATE_INVALID": 13,
+        "TARGET_CONTRADICTS_EVIDENCE": 17,
+        "WITNESS_VALID": 74
       },
-      "length_limit_hits": 55,
-      "prompt_tokens": 47141,
-      "protocol_valid": 58,
-      "received": 58,
-      "schema_valid": 58
+      "length_limit_hits": 101,
+      "prompt_tokens": 85339,
+      "protocol_valid": 104,
+      "received": 104,
+      "schema_valid": 104
     },
     "verify_T": {
-      "client_seconds_including_throttle": 1674.6841735839844,
-      "completion_tokens": 5384,
+      "client_seconds_including_throttle": 3712.37779545784,
+      "completion_tokens": 10019,
       "decisions": {
-        "CANDIDATE_INVALID": 6,
-        "TARGET_CONTRADICTS_EVIDENCE": 19,
-        "WITNESS_VALID": 33
+        "CANDIDATE_INVALID": 17,
+        "TARGET_CONTRADICTS_EVIDENCE": 28,
+        "WITNESS_VALID": 59
       },
-      "length_limit_hits": 53,
-      "prompt_tokens": 44622,
-      "protocol_valid": 58,
-      "received": 58,
-      "schema_valid": 58
+      "length_limit_hits": 96,
+      "prompt_tokens": 80129,
+      "protocol_valid": 104,
+      "received": 104,
+      "schema_valid": 104
     }
   },
-  "state": "partial_or_blocked",
-  "successful_usage_all_phases": 191719,
-  "v5_completed": 58
+  "state": "complete",
+  "successful_usage_all_phases": 341157,
+  "v5_completed": 104
 }

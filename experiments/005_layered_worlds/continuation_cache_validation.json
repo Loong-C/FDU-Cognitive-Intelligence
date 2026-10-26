@@ -1,11 +1,11 @@
 {
   "api_client": null,
-  "cached_fresh_pairs_rechecked": 58,
+  "cached_fresh_pairs_rechecked": 104,
   "cached_smoke_gate_rechecked": true,
   "new_http_requests": 0,
   "passed": true,
-  "quota_ledger_sha256_unchanged": "48194819a388ca664b005b67366cf303abcc3986b59517ef06fbe1c007030201",
-  "raw_files_unchanged": 416,
-  "stop_at_first_missing_or_blocked_node": "Missing recorded completion",
-  "time": "2026-10-24T11:19:39.187620+00:00"
+  "quota_ledger_sha256_unchanged": "4fe11dd834ab3ae281bdb9528fa42eede3a64310df840319beeef93fe5f1ddde",
+  "raw_files_unchanged": 689,
+  "stop_at_first_missing_or_blocked_node": null,
+  "time": "2026-10-26T02:08:41.918274+00:00"
 }

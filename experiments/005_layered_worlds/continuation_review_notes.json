@@ -396,8 +396,265 @@
       },
       "review_type": "assistant semantic review",
       "verifier_issue": "reasons wrongly infer absence of earlier win from 1957 event; T label does not make its reason sound"
+    },
+    {
+      "cross_date_completion": "A27 and constructors on 2026-10-24; both verifiers on 2026-10-26; unchanged prompts, parameters and candidates",
+      "dataset": "challenge",
+      "final_effect": "V5 UNRESOLVED_BRANCH and A27 NOT ENOUGH INFO both wrong against SUPPORTS",
+      "finding": "Evidence says won again in 1957, which presupposes an earlier win under frozen semantics. T constructor only repeats biography, so its target is omitted. F invents no win in 1957 and a contradictory prior/first-win story. Both verifiers acknowledge the prior-win presupposition but output CANDIDATE_INVALID; F misses the required target-contradiction priority. The 2026-10-24 baseline also misses again and predicts NEI.",
+      "generator_issue": "T omits target; F changes the fixed 1957 award and self-contradicts",
+      "id": "e_f491d220d45d65f8",
+      "raw_sha256": {
+        "baseline_A27.json": "251a5bf19636e99a07b0bc60d10d4cd2d68fac3b25bd06f933c2dd4d5e161b5b",
+        "generate_F.json": "fcdbb21421d6fbe59446ab0ed2feeaf5ee58d1dc05490134ee6257c2bfa25a46",
+        "generate_T.json": "d8f5f795abdd8cafe5bd4ea56249a58fa8e14543c00fb5ac63bf235af41b2cc0",
+        "verdict.json": "3b52683820c2d8d65763957e281b12b5b22fe51e20e6161807de339bb9e9689c",
+        "verify_F.json": "cb729538aaec1bc3c89b404fbbc00e5897720cf3a49e7cfb56e2c8cb3095dec3",
+        "verify_T.errors.json": "76deb7fcf5e361d36fda96a6711bcd88140c67b1a2cd726f0bb625a5eaf0b397",
+        "verify_T.json": "3d69fc593406be5d48b7867c3555da80d554181d783f636c2ccb741336d09111"
+      },
+      "review_type": "assistant semantic review on 2026-10-26",
+      "verifier_issue": "F acknowledges E entails C but selects candidate invalid; T flags incomplete witness"
+    },
+    {
+      "dataset": "basic",
+      "final_effect": "V5 UNRESOLVED_BRANCH; A27 correct",
+      "finding": "2022 + 3 + 5 gives 2030, so E entails C. False target description says not 2030 but false world says 2030. Verifier F correctly computes 2030 yet chooses candidate invalid rather than prioritizing target contradiction.",
+      "generator_issue": "F world fails its own negated target",
+      "id": "e_61734f75811ce5e8",
+      "raw_sha256": {
+        "baseline_A27.json": "e1c80e23c02adb2b32aca8e7fabdedc2106a5a257ea1207fee08a73cd66c8780",
+        "generate_F.json": "5b9b8df89afb43d5fb55918f2d1f56b53469138554d8486a2d63871ead8a4d82",
+        "generate_T.json": "500011ca0316baf115bd00ca254e55c9862bcc962e7ef0450257ef7fd52f478b",
+        "verdict.json": "9ec66eb14247ba191a08a243c364dc1c1d96127a7c4a7aaab75a70a82f0b381b",
+        "verify_F.json": "0ff9c7900dcacaad80b6764f8d4f95dfec81aa0013c218f157efd5dd1ef6969f",
+        "verify_T.json": "b8a54bbe5bbcb556ff22dac77abf47f929463aeaef0850539e54cbf56ce3233f"
+      },
+      "review_type": "assistant semantic review on 2026-10-26",
+      "verifier_issue": "F target-priority error despite correct arithmetic"
+    },
+    {
+      "dataset": "basic",
+      "final_effect": "V5 UNRESOLVED_BRANCH; A27 correct",
+      "finding": "2022 + 3 + 6 gives 2031, excluding C=2030. T target says 2030 but its candidate only says 2031. T verifier correctly computes 2031 but selects candidate invalid instead of target contradiction. F witness and direction are correct.",
+      "generator_issue": "T world fails its own true target",
+      "id": "e_ae77a7b800003d77",
+      "raw_sha256": {
+        "baseline_A27.json": "38ec05a9eb84dc7a32781b16d9401bda9ab5eed61159b38bcc410527de266db5",
+        "generate_F.json": "ed2ab327d08c211ef162072184e3287d605fa15c406ed1ddd74c43b34afc26f4",
+        "generate_T.json": "eb3145b10881f05eaa231d75c82e0123699912af4cdf02f4018481de45a47bd6",
+        "verdict.json": "64fcd3c2a6dfa6398b3e9934938937153f077318eac8d4e645d21ad83e5ba21f",
+        "verify_F.json": "d08f6ef0bc87c07798224a9222c114ba9a31241c662c98327f77e2424430da86",
+        "verify_T.json": "55ad7d8631186367ca3be22672f08259f926a178f82667582ddf384edbb071fd"
+      },
+      "review_type": "assistant semantic review on 2026-10-26",
+      "verifier_issue": "T target-priority error despite correct arithmetic"
+    },
+    {
+      "dataset": "basic",
+      "final_effect": "V5 UNRESOLVED_BRANCH; A27 correct",
+      "finding": "E fixes prequel 2030, theatrical release 2025 and premiere 2022. T candidate instead says theatrical 2022 and premiere 2019. T verifier accepts it while its partial reason exposes inconsistent arithmetic. F merely repeats E and fails to negate C, then F verifier chooses candidate invalid even though E explicitly entails C.",
+      "generator_issue": "T corrupts two required years; F fails the negated target",
+      "id": "e_d21e5a21fe8e7091",
+      "raw_sha256": {
+        "baseline_A27.json": "f122693dd7de6902fe4d83e858a7613493ffca0199f050c13d2a872957cb2bdb",
+        "generate_F.json": "606bc2a03e0049eca778b48a4f5cf4e4146a6c1b77b86288e454facb18432d00",
+        "generate_T.json": "51a521615cef1c4c8c50fcf38a99fbaa45efe5c90c88b2248f74069978c01161",
+        "verdict.json": "041ed93a0f4231f0f05c840e7d2b58379d54dc62cf769d1cd367cbe3b1d98f48",
+        "verify_F.json": "d2943027c4fab2519d986b794f5fc198b0d31a6422938b4b4ae1f07f1becb055",
+        "verify_T.json": "0e425046ff85d768d3675c2ba44bcd7865d8f118c9984ecd8b933f0ddd6c6ed5"
+      },
+      "review_type": "assistant semantic review on 2026-10-26",
+      "verifier_issue": "T accepts an evidence-inconsistent witness; F misses target priority"
+    },
+    {
+      "dataset": "basic",
+      "final_effect": "V5 UNRESOLVED_BRANCH; A27 correct",
+      "finding": "E entails prequel by 2029 from 2022 + 3 + within 4. T retains that bound but adds 2030. T verifier recognizes the contradiction with the original target yet selects candidate invalid instead of target contradiction. F uses 2029 correctly.",
+      "generator_issue": "T presents an impossible target alongside original constraints, which is allowed as an attempted candidate",
+      "id": "e_fa99cf6f5a330685",
+      "raw_sha256": {
+        "baseline_A27.json": "855902dac39abfaeb8b69a63067db339623a255028e507c73c482a758ea176ce",
+        "generate_F.json": "000d8c0392903cadfa4b050966b2fd5e382b8480eae80f57dbb7b3508ad17b83",
+        "generate_T.json": "63ab5e140243503a318538419daad710c603f07f37d76ddb7352d3fb8b2e22be",
+        "verdict.json": "380546abfe410d8967754682634bf2d2b1ddb0b19a651114849c4f6f6c05d1e4",
+        "verify_F.json": "f2afe6c5a631d5913446950d031279abdbcd3555dfdaaeaeec1e0574d7fde50e",
+        "verify_T.json": "cc4ab87f59a23a2b766f4898236b2df9a272cf1ff5422d5dca29614e09393d6f"
+      },
+      "review_type": "assistant semantic review on 2026-10-26",
+      "verifier_issue": "T wrongly treats an original target contradiction as a candidate-only flaw"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "Both V5 and A27 wrongly REFUTES for gold NEI",
+      "finding": "A first term ending in 2023 does not exclude a later term in 2024. T candidate preserves that first term and adds 2024 service. T verifier even acknowledges a second term is theoretically possible, but outputs TARGET_CONTRADICTS_EVIDENCE. F candidate is a valid alternative; both alternatives should remain feasible.",
+      "generator_issue": "none identified in the candidate target scope",
+      "id": "e_87260368ec001e36",
+      "raw_sha256": {
+        "baseline_A27.json": "95052fee8e5dd6c2eee9f78151e58a43786dd240d1c3a023fc30260caae21f8f",
+        "generate_F.json": "480415121b6031bfaf15eb1a756f6c7a9cf8efc47bd9dec55fc36688d595504f",
+        "generate_T.json": "a1504cac9e14a8ad8c6f3a83d211d377d2648a63d5dcfa3185a024a3b9a81938",
+        "verdict.json": "7604271ec082fd6d2c24d4916d2a42d2e4a78e1182df8b0d0b6c0669a9f6bf5c",
+        "verify_F.json": "4368eee4c16f99500bf5de37e2825a29b082992537182718aa3fd76bf46d2725",
+        "verify_T.json": "baccf9e75b4d014e3ba16adda8d116423e29de9d8b7df52767344f1b4de1dd5f"
+      },
+      "review_type": "assistant semantic review on 2026-10-26",
+      "verifier_issue": "T closes the timeline despite explicit first-term wording; reason admits the alternative that its state excludes"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "V5 UNRESOLVED_BRANCH; A27 NEI correct",
+      "finding": "E only says appointed in 2014. T continuation through 2024 and F resignation before 2024 are both consistent possible worlds. T verifier rejects the T world using a claimed November 2023 departure, which is absent from E. No retrieval or external fact was supplied; the verifier itself introduced this unsupported biographical assertion. Its real-world truth is not needed or asserted by this review.",
+      "generator_issue": "none identified in the logical possible-world target",
+      "id": "e_e6a13dd07dea569a",
+      "raw_sha256": {
+        "baseline_A27.json": "0ca6a6ddff7fe6e1002c5abcece3173d15e86e4655d1e2849780b51caffc6fd7",
+        "generate_F.json": "bcd652aa0bed5e78370105f676e5c5e873933d3f46575cce840a086b007bceed",
+        "generate_T.json": "1470c16a52921b74f60391a4aa07c07083eeb41439a4ef1ff4d1920e96de8cd9",
+        "verdict.json": "f44bc9913f32aef19cef964a6bfccd18621d439fcbacd5bbb8e67952044ab531",
+        "verify_F.json": "279ccc60346170725a9d89092a361c50c91cf601724e21e585ec6b7ab8533bc0",
+        "verify_T.json": "35c4d87ee9eebfc83a4823dedd90dad4d6176e0d3b9fb0df79a02683adc99a2e"
+      },
+      "review_type": "assistant semantic review on 2026-10-26",
+      "verifier_issue": "external biographical assertion overrides original evidence and open-world compatibility"
+    },
+    {
+      "dataset": "basic",
+      "final_effect": "V5 NOT ENOUGH INFO wrong; A27 REFUTES correct",
+      "finding": "Under the frozen gold interpretation, two launches in total with latest in 2023 excludes a total of three by 2025. T keeps the global total but adds a third launch in 2024. T verifier silently changes two in total into two before 2024, accepts the candidate and treats a global bound as a time-local count.",
+      "generator_issue": "incompatible attempted target keeps total two and adds a third event",
+      "id": "e_8b768e47d00148c4",
+      "raw_sha256": {
+        "baseline_A27.json": "f51e01800254399b158858aaf57c28b91f9f5137f9d8ba2204e47ad71899a652",
+        "generate_F.json": "4f17fcb58787920ae211478b9a3cf9dfe33ced50a094240e7f0e3aa73f89a3f5",
+        "generate_T.json": "b86915aeaf0e47f326b1b0d5e64a1b725fd7cb0d270ef3671735c1175d04a3b1",
+        "verdict.json": "a5df4a155e3d5061e64f4724f38b698010a3e22c2177482fdad9fdbab9f4ccf5",
+        "verify_F.json": "835a833315236993efc73b5375878e49f8489cc852de30ea0781a4d54a440f7e",
+        "verify_T.json": "deab3ec0cdc9ecd42f2570e3d6420f8c87249922971c0a75a617a7c9d8f0f6a5"
+      },
+      "review_type": "assistant semantic review on 2026-10-26",
+      "verifier_issue": "WITNESS_VALID after weakening total into an unstated as-of scope"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "V5 UNRESOLVED_BRANCH and A27 REFUTES both wrong against NEI",
+      "finding": "T only copies background and omits Sam winning. Alex winning alone leaves Sam open; baseline wrongly excludes Sam. F explicitly chooses Sam not winning, a compatible witness, but its reason wrongly treats the named winner as logically excluding another.",
+      "generator_issue": "T omits target at a 368-character world ending",
+      "id": "e_1d10cf8cbcad55a7",
+      "raw_sha256": {
+        "baseline_A27.json": "1194eef9dedfd2069c48c7bdc568d49da25b92d13c43674722a0d5ee80b065cb",
+        "generate_F.json": "9f99150666dcd939a0085375f493f75078ed30863f9cab995b5e1c90c70c75d3",
+        "generate_T.json": "d080a62391dde31a631ca7587bebb165a3e9ce725517a7cb1d8560ca89876631",
+        "verdict.json": "bacbb81f035f1ca49453759cea794fd3b51c28d5882f9e877b2b8c9e74197495",
+        "verify_F.json": "ef38cdcb064032e3e1f24b54c56c024436ffa0f674c2dffa3142792a57228252",
+        "verify_T.json": "684559add11a8b86d123651253c188a25469001bfdcefb5a0a888b83e023e740"
+      },
+      "review_type": "assistant semantic review on 2026-10-26",
+      "verifier_issue": "T flags incomplete candidate; F explanation overstates exclusivity although its explicit negative witness is compatible"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "V5 UNRESOLVED_BRANCH and A27 REFUTES both wrong against NEI",
+      "finding": "T includes both Alex winning Young Entrepreneur and Sam winning a regional innovation award while retaining their shared firm; the award/person assertions can coexist. T verifier nevertheless calls this contradictory, conflating a named award winner with exclusion of Sam and of other regional awards. Unfinished unrelated background at the end does not justify that stated exclusion reason.",
+      "generator_issue": "T includes relevant target and evidence but has an unfinished extra background tail",
+      "id": "e_3784950c2fe518e0",
+      "raw_sha256": {
+        "baseline_A27.json": "c0b19a058b112c685bc408e4ee4a821bdf78212bd45727cd49eabd180eacc384",
+        "generate_F.json": "acfc18841f450a6ce7050f6bc5bc8c9705f97b4946de09c1e06613a055a949f4",
+        "generate_T.json": "9a194b463cd2772d154edbaac3b79d2f733f09b93a6e6e824e3d83dffbd1d72d",
+        "verdict.json": "d56dc8c2a70c5ec583a79ace50c6861fc72e2080a9153eea4a54ce59a14a78b6",
+        "verify_F.json": "d8ad30d87e27d0f62dd01e95255bbde9632ced9cf58da2740dddf92717359f24",
+        "verify_T.json": "624553f8e5f38aa6cc05a8c25453a21b0e01caf2dddddae48913cf9d3fb9b160"
+      },
+      "review_type": "assistant semantic review on 2026-10-26",
+      "verifier_issue": "T candidate-invalid reason asserts an unsupported exclusion; F witness of no Sam award is compatible"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "V5 UNRESOLVED_BRANCH; A27 SUPPORTS correct",
+      "finding": "Original evidence introduces Sam Altman and Alex, then says Sam won the award in 2021. T omits the award while copying background. F attempts to reinterpret Sam as a different person and leaves unfinished alternatives in its target description. F verifier catches the identity change but chooses candidate invalid instead of the required evidence-based false-target exclusion.",
+      "generator_issue": "T omits target; F changes identity and other claim scope",
+      "id": "e_9ae6898045213bc7",
+      "raw_sha256": {
+        "baseline_A27.json": "97e997316dcabbf8a9d19d88a6fbb35748b81594a4de513b90e0a6e605da9f8d",
+        "generate_F.json": "d119d0d03aa41578b32c0e666bec448241bb797de425435456b696a663737cbb",
+        "generate_T.json": "57cb650517c78587810b5bdaa152fff2f692aac508e9e15989504116090b30aa",
+        "verdict.json": "c2c423e0522c63ad3ee527f9be64326881b123e3a03a25af8a3e29dc300861d6",
+        "verify_F.json": "d26de89b52666fe18522381f95314bebea8d057576b86070dc99de05ca386d34",
+        "verify_T.json": "c3785ef566794290e3e90c3a84f2429cfd4f03f054b706aaa116b9a70227d400"
+      },
+      "review_type": "assistant semantic review on 2026-10-26",
+      "verifier_issue": "F wrong candidate-vs-target priority for the contextually named subject"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "V5 UNRESOLVED_BRANCH; A27 SUPPORTS correct",
+      "finding": "E introduces Sam Altman and his brother Alex, then states Sam became the 2021 regional Young Entrepreneur of the Year. T only copies the opening background. F tries to preserve the award statement by changing the identity of Sam. T correctly reports its candidate incomplete, but F selects candidate invalid instead of the evidence-based false-target exclusion.",
+      "generator_issue": "T omits the award target; F invents a different person named Sam",
+      "id": "e_bd1c8bcfcd92794d",
+      "raw_sha256": {
+        "baseline_A27.json": "5b3023f99760599f63807d2105c0f44a603ebd8f37ceec0f793acab5a2044470",
+        "generate_F.json": "a994392b85304d39fe51538a5fab62ead2e7ac8be082a925e5fcbc71f4bd8c3a",
+        "generate_T.json": "42d9164cee8459530ef43f01ebc7e55c1940b14eedb81deb82259607c9f6ef68",
+        "verdict.json": "066678f749c071851db9530884beb85afbf08be865b3b60b5e9e3441feaa4964",
+        "verify_F.json": "6bbdf6c5b85549858f1595ccb2dab7857b83d26e45cd57f59a8ca2ca284f2fe0",
+        "verify_T.json": "492e37cb7f9c5f2aa0e9edd450c45b43cf39d2a7192cf865033dca0a757ccde5"
+      },
+      "review_type": "assistant semantic review on 2026-10-26",
+      "verifier_issue": "F catches identity substitution but misses target-level contradiction priority"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "V5 UNRESOLVED_BRANCH; A27 SUPPORTS correct",
+      "finding": "E explicitly says both Sam and Alex won. F verifier correctly prioritizes evidence-based entailment and excludes the false target. T verifier correctly refuses to certify an unfinished background-only candidate. The deterministic mapping therefore remains unresolved even though the false branch is correct. This is a construction completeness failure, not a false-branch inversion.",
+      "generator_issue": "T copies background and omits target; F changes winning into winning alone or redefines shared ownership",
+      "id": "e_c817244b687d90e1",
+      "raw_sha256": {
+        "baseline_A27.json": "e60d5f1e58130144531bf03a2a1e304f66e59b3cab7a8eb9d8f420faaf54daab",
+        "generate_F.json": "2abfc09bec10c47ad7a7a44c7c3aa582bcd83bbb2d5648a12774debc0ad72274",
+        "generate_T.json": "3c72b65e2ca537b18b1960894d04b395803a8e1beef062416828c78e3f9b8130",
+        "verdict.json": "50a43f49d45448d5dfdb3630a805ebdf7b3de80088e6841b8eb6a4493e15714e",
+        "verify_F.json": "46feff87f5ae5c8844880c2eb46a184f3e5ab9a35c66f20ae1a117cc18cf0e7f",
+        "verify_T.json": "378960fc6f88636188507bd398730715e06dadb46516e5368a5e33cb8944fc7f"
+      },
+      "review_type": "assistant semantic review on 2026-10-26",
+      "verifier_issue": "No incorrect decision identified here: T candidate invalid, F target contradiction"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "V5 UNRESOLVED_BRANCH and A27 REFUTES both wrong on NEI",
+      "finding": "E says Sam won a regional innovation award in 2021; it does not specify the Young Entrepreneur of the Year title or exclude it. A27 incorrectly moves the award to the firm founding year 2010 and returns REFUTES. V5 returns unknown from both incomplete candidates. Neither method resolves this open award-type distinction correctly.",
+      "generator_issue": "T omits award target; F begins a compatible alternate named award but leaves the recipient sentence unfinished",
+      "id": "e_d437b15761f6e20b",
+      "raw_sha256": {
+        "baseline_A27.json": "92b59b9c2510aa1d3ed7772d7f1042081afce93d009bdf89f97e4f26e9e78c2f",
+        "generate_F.json": "40103dd5379b14a4ba77ce36abe6f7856977ee5e54da82b0d2f81e8c115b5028",
+        "generate_T.json": "c9debe3b0107ac31be3f274dd05d629bd9388c0f2037157f76c9c54f2bb0b5a0",
+        "verdict.json": "6e17bb01ac9af5d0ef7ce38039db58fcee5979381d44cdeddb118c18843e13b5",
+        "verify_F.json": "530c0ac18b6f3f20017be538447d25434a3f2876b98d9952dd97f7f8ec5bae4d",
+        "verify_T.json": "e20286ddcf267797c6d75530d1075f13688bea9d7400dc889206c1a195e47f49"
+      },
+      "review_type": "assistant semantic review on 2026-10-26",
+      "verifier_issue": "Candidate incompleteness is observed on both sides; no target-level exclusion is warranted for gold NEI"
+    },
+    {
+      "dataset": "challenge",
+      "final_effect": "V5 UNRESOLVED_BRANCH; A27 NOT ENOUGH INFO correct",
+      "finding": "Original E allows both the specific award and a different award. F gives a compatible joint award interpretation and states Sam lacks the claimed individual title. T fails to give the required positive witness. The deterministic mapper remains unresolved even though F is feasible. No semantic repair was applied.",
+      "generator_issue": "T preserves only a background prefix and omits the target award; F constructs a distinct joint award with an unfinished trailing title",
+      "id": "e_e6098b3030399dd2",
+      "raw_sha256": {
+        "baseline_A27.json": "6a3096122a08563c18d9a9342a04af516f67d9fa956e993216364862a74082a9",
+        "generate_F.json": "234f83a00e5e33d84847d3b80a9a6374bafa59f286815267c0f074566f25b04c",
+        "generate_T.json": "d18faa5857c634a2a01de57e202c229d04cc07a60c7937d9eb294b9b7d0025b5",
+        "verdict.json": "2caacaec794498c1dc5a9179b9756a999ee46475e637b991827b95e7acfe71da",
+        "verify_F.json": "de92ce1fb1985223356a87e779e4982b0c71efdeb83eec8f04fef48a44a9b260",
+        "verify_T.json": "eed030d1f875b82ee146be51ae13b23b87a09f86299f15be53db407c76e3bc39"
+      },
+      "review_type": "assistant semantic review on 2026-10-26",
+      "verifier_issue": "T invalid is justified by omitted target; F recognizes that an unspecified regional award need not be this specific title"
     }
   ],
   "selection": "all currently observed arm disagreements, plus the first challenge example; deterministic broad review queue is also retained",
-  "updated_at": "2026-10-24T10:33:00.899739+00:00"
+  "updated_at": "2026-10-26T02:08:09.118899+00:00"
 }
