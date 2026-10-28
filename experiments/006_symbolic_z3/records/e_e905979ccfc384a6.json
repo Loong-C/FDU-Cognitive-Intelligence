@@ -1,0 +1,556 @@
+{
+  "completion": {
+    "actual_model_id": "qwen/qwen3.8-27b",
+    "attempts": [
+      {
+        "charged_tokens": 1142,
+        "continuation_policy_sha256": "aa6469e2c44d1670364d8ad86f7a0718a59725cbf5d7f92723a42835503a313d",
+        "http_status": 200,
+        "quota_policy": "provider_enforced_free",
+        "rate_limits": {
+          "x-ratelimit-limit-requests": "1000",
+          "x-ratelimit-limit-tokens": "8000",
+          "x-ratelimit-remaining-requests": "989",
+          "x-ratelimit-remaining-tokens": "6801",
+          "x-ratelimit-reset-requests": "15m50.4s",
+          "x-ratelimit-reset-tokens": "8.992s"
+        },
+        "request_id_sha256": "1cc2e1ad9e42385174d3baff5c9a882d73ecbc9ddb404678c3488a72417b09dc",
+        "request_sha256": "86f0109cb674d735de873a55f8fe76d230793567a9fb4ac8755675d6e6c4d988",
+        "requested_at": "2026-10-28T00:27:58.520507+00:00",
+        "reservation_tokens": 13528,
+        "responded_at": "2026-10-28T00:28:00.216595+00:00",
+        "status": "received",
+        "timestamp": 1793147278.520507,
+        "usage": {
+          "completion_time": 0.742880653,
+          "completion_tokens": 347,
+          "prompt_time": 0.068718227,
+          "prompt_tokens": 795,
+          "queue_time": 0.073790181,
+          "total_time": 0.81159888,
+          "total_tokens": 1142
+        }
+      }
+    ],
+    "finish_reason": "stop",
+    "latency_seconds": 60.194889307022095,
+    "nonthinking_validation": {
+      "issues": [],
+      "passed": true,
+      "policy": "inspect_raw_no_stripping_v1"
+    },
+    "provider_validation_issues": [],
+    "raw_non_json_body": null,
+    "raw_response": "{\"claim\": {\"formula\": {\"args\": [{\"name\": \"kiran_rao\", \"op\": \"const\"}], \"name\": \"won_grammy_best_new_age_album\", \"op\": \"pred\"}}, \"evidence\": [{\"formula\": {\"args\": [{\"name\": \"kiran_rao\", \"op\": \"const\"}, {\"name\": \"sanjay_rao\", \"op\": \"const\"}], \"name\": \"ne\", \"op\": \"pred\"}, \"source_quote\": \"Like Kiran Rao, Sanjay Rao won a Grammy Award for Best New Age Album.\"}, {\"formula\": {\"args\": [{\"name\": \"kiran_rao\", \"op\": \"const\"}], \"name\": \"won_grammy_best_new_age_album\", \"op\": \"pred\"}, \"source_quote\": \"Like Kiran Rao, Sanjay Rao won a Grammy Award for Best New Age Album.\"}, {\"formula\": {\"args\": [{\"name\": \"sanjay_rao\", \"op\": \"const\"}], \"name\": \"won_grammy_best_new_age_album\", \"op\": \"pred\"}, \"source_quote\": \"Like Kiran Rao, Sanjay Rao won a Grammy Award for Best New Age Album.\"}], \"notes\": [], \"status\": \"OK\", \"symbols\": {\"constants\": [{\"aliases\": [\"Kiran Rao\"], \"name\": \"kiran_rao\", \"type\": \"Person\"}, {\"aliases\": [\"Sanjay Rao\"], \"name\": \"sanjay_rao\", \"type\": \"Person\"}], \"functions\": [], \"predicates\": [{\"arg_types\": [\"Person\"], \"name\": \"won_grammy_best_new_age_album\"}]}}",
+    "request_payload": {
+      "max_completion_tokens": 4096,
+      "messages": [
+        {
+          "content": "You are a semantic formalizer, not a fact checker. Translate the supplied EVIDENCE and CLAIM into a small typed logical JSON AST that follows the provided schema.\n\nRepresent only facts and constraints supported by the source text. Formalize the claim separately from the evidence; never infer the answer label. Preserve negation scope, quantifiers, uniqueness, dates, exact quantities, identities, presuppositions, and attribution. An allegation or denial is a fact about a report or speaker, not automatically a fact about the reported event. Do not assume unnamed people or events are absent. Do not merge distinct awards or events merely because their descriptions are similar.\n\nUse explicit existential variables for indefinite noun phrases; use universal constraints only when the text warrants exclusivity. Keep all necessary facts relevant to the claim, and attach an exact evidence quote to each evidence formula. If the intended meaning cannot be represented faithfully with the available operators, return status UNSUPPORTED. Do not use external biographical facts.\n\nReturn only the schema-conforming JSON object. Do not produce a verdict, a world narrative, Python, or Z3 code.\n\nDSL v6 specification (fixed for all inputs):\nTypes are case-sensitive names inferred from declarations; Int is the integer sort. Other names are uninterpreted nonempty entity sorts (e.g. Person, Award, Event, Place, Proposition). Bool is reserved. Use integer literals, not Int constants. Functions have declared argument types and return Int; use single-valued attributes for birth years, event years and event counts. Predicates return truth values. Declare every symbol used by evidence or claim.\nConstants have canonical names, types and alias strings referring to that SAME entity. An alias must not collide with another declaration. Different constant names do NOT automatically imply inequality: explicitly use ne with a source quote for textually distinct people/entities. Do not add global unique-name or closed-domain assumptions. A claim-only entity has no evidence facts unless warranted by the evidence.\nTerms: const/var have name; int has value; fun has name and args; add/sub have left and right integer terms. Formulas: pred has name and term args; not has arg; and/or have at least two formula args; implies has left/right formulas; eq/ne/lt/le/gt/ge compare left/right terms; exists/forall have variables (name,type) and body. Variables must be bound, and nested quantifiers must use fresh names. Existential witnesses in separate formulas are independent. All evidence formulas are conjoined. Quantifiers range over open sorts, never just declared constants. A source_quote must be an exact, nonempty, contiguous substring of EVIDENCE; it is provenance, not executable logic.\nRepresent allegations/denials as predicates about speakers and Proposition entities, without asserting or negating the reported event unless evidence independently warrants it. Represent uncertain reference by disjunction over warranted alternatives. An exhaustive list needs a universally quantified restriction; an open list does not. Only/unique constraints need their full person, award, event and time scope. Again/first/second need prior-occurrence or no-earlier-occurrence constraints when relevant. Keep appointment intervals separate from event years. Claim formulas must preserve the same relations and scopes used in evidence.\nFor UNSUPPORTED use empty constants, predicates, functions and evidence arrays, null claim, and explanatory notes. For OK supply nonempty evidence and a claim formula. Notes are explanatory only and cannot repair missing formulas. Do not put a verdict in any field.\n",
+          "role": "system"
+        },
+        {
+          "content": "EVIDENCE:\nLike Kiran Rao, Sanjay Rao won a Grammy Award for Best New Age Album.\n\nCLAIM:\nKiran Rao won a Grammy Award for Best New Age Album.\n\nTranslate these into the predefined logical JSON AST. Preserve the original meaning and include only relevant evidence constraints. Output JSON only.\n",
+          "role": "user"
+        }
+      ],
+      "model": "qwen/qwen3.8-27b",
+      "reasoning_effort": "none",
+      "response_format": {
+        "json_schema": {
+          "name": "semantic_ast_v6",
+          "schema": {
+            "$defs": {
+              "formula": {
+                "anyOf": [
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "args": {
+                        "items": {
+                          "$ref": "#/$defs/term"
+                        },
+                        "minItems": 0,
+                        "type": "array"
+                      },
+                      "name": {
+                        "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                        "type": "string"
+                      },
+                      "op": {
+                        "enum": [
+                          "pred"
+                        ],
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "name",
+                      "args"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "arg": {
+                        "$ref": "#/$defs/formula"
+                      },
+                      "op": {
+                        "enum": [
+                          "not"
+                        ],
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "arg"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "args": {
+                        "items": {
+                          "$ref": "#/$defs/formula"
+                        },
+                        "minItems": 2,
+                        "type": "array"
+                      },
+                      "op": {
+                        "enum": [
+                          "and",
+                          "or"
+                        ],
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "args"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "left": {
+                        "$ref": "#/$defs/formula"
+                      },
+                      "op": {
+                        "enum": [
+                          "implies"
+                        ],
+                        "type": "string"
+                      },
+                      "right": {
+                        "$ref": "#/$defs/formula"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "left",
+                      "right"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "left": {
+                        "$ref": "#/$defs/term"
+                      },
+                      "op": {
+                        "enum": [
+                          "eq",
+                          "ne",
+                          "lt",
+                          "le",
+                          "gt",
+                          "ge"
+                        ],
+                        "type": "string"
+                      },
+                      "right": {
+                        "$ref": "#/$defs/term"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "left",
+                      "right"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "body": {
+                        "$ref": "#/$defs/formula"
+                      },
+                      "op": {
+                        "enum": [
+                          "exists",
+                          "forall"
+                        ],
+                        "type": "string"
+                      },
+                      "variables": {
+                        "items": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "name": {
+                              "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                              "type": "string"
+                            },
+                            "type": {
+                              "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "name",
+                            "type"
+                          ],
+                          "type": "object"
+                        },
+                        "minItems": 1,
+                        "type": "array"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "variables",
+                      "body"
+                    ],
+                    "type": "object"
+                  }
+                ]
+              },
+              "term": {
+                "anyOf": [
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "name": {
+                        "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                        "type": "string"
+                      },
+                      "op": {
+                        "enum": [
+                          "const",
+                          "var"
+                        ],
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "name"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "op": {
+                        "enum": [
+                          "int"
+                        ],
+                        "type": "string"
+                      },
+                      "value": {
+                        "type": "integer"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "value"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "left": {
+                        "$ref": "#/$defs/term"
+                      },
+                      "op": {
+                        "enum": [
+                          "add",
+                          "sub"
+                        ],
+                        "type": "string"
+                      },
+                      "right": {
+                        "$ref": "#/$defs/term"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "left",
+                      "right"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "args": {
+                        "items": {
+                          "$ref": "#/$defs/term"
+                        },
+                        "minItems": 0,
+                        "type": "array"
+                      },
+                      "name": {
+                        "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                        "type": "string"
+                      },
+                      "op": {
+                        "enum": [
+                          "fun"
+                        ],
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "name",
+                      "args"
+                    ],
+                    "type": "object"
+                  }
+                ]
+              }
+            },
+            "additionalProperties": false,
+            "properties": {
+              "claim": {
+                "anyOf": [
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "formula": {
+                        "$ref": "#/$defs/formula"
+                      }
+                    },
+                    "required": [
+                      "formula"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "evidence": {
+                "items": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "formula": {
+                      "$ref": "#/$defs/formula"
+                    },
+                    "source_quote": {
+                      "minLength": 1,
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "source_quote",
+                    "formula"
+                  ],
+                  "type": "object"
+                },
+                "minItems": 0,
+                "type": "array"
+              },
+              "notes": {
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 0,
+                "type": "array"
+              },
+              "status": {
+                "enum": [
+                  "OK",
+                  "UNSUPPORTED"
+                ],
+                "type": "string"
+              },
+              "symbols": {
+                "additionalProperties": false,
+                "properties": {
+                  "constants": {
+                    "items": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "aliases": {
+                          "items": {
+                            "type": "string"
+                          },
+                          "minItems": 0,
+                          "type": "array"
+                        },
+                        "name": {
+                          "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                          "type": "string"
+                        },
+                        "type": {
+                          "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "type",
+                        "aliases"
+                      ],
+                      "type": "object"
+                    },
+                    "minItems": 0,
+                    "type": "array"
+                  },
+                  "functions": {
+                    "items": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "arg_types": {
+                          "items": {
+                            "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                            "type": "string"
+                          },
+                          "minItems": 0,
+                          "type": "array"
+                        },
+                        "name": {
+                          "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                          "type": "string"
+                        },
+                        "return_type": {
+                          "enum": [
+                            "Int"
+                          ],
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "arg_types",
+                        "return_type"
+                      ],
+                      "type": "object"
+                    },
+                    "minItems": 0,
+                    "type": "array"
+                  },
+                  "predicates": {
+                    "items": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "arg_types": {
+                          "items": {
+                            "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                            "type": "string"
+                          },
+                          "minItems": 0,
+                          "type": "array"
+                        },
+                        "name": {
+                          "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "arg_types"
+                      ],
+                      "type": "object"
+                    },
+                    "minItems": 0,
+                    "type": "array"
+                  }
+                },
+                "required": [
+                  "constants",
+                  "predicates",
+                  "functions"
+                ],
+                "type": "object"
+              }
+            },
+            "required": [
+              "status",
+              "symbols",
+              "evidence",
+              "claim",
+              "notes"
+            ],
+            "type": "object"
+          },
+          "strict": true
+        },
+        "type": "json_schema"
+      },
+      "seed": 42,
+      "stream": false,
+      "temperature": 0
+    },
+    "requested_at": "2026-10-28T00:27:58.520507+00:00",
+    "responded_at": "2026-10-28T00:28:00.216595+00:00",
+    "response_id_sha256": "977b75bfd1a9d7a9f5906849ac7aa51b4fb4ef9c788f26c21926265b3f4f840c",
+    "response_json": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"claim\": {\"formula\": {\"args\": [{\"name\": \"kiran_rao\", \"op\": \"const\"}], \"name\": \"won_grammy_best_new_age_album\", \"op\": \"pred\"}}, \"evidence\": [{\"formula\": {\"args\": [{\"name\": \"kiran_rao\", \"op\": \"const\"}, {\"name\": \"sanjay_rao\", \"op\": \"const\"}], \"name\": \"ne\", \"op\": \"pred\"}, \"source_quote\": \"Like Kiran Rao, Sanjay Rao won a Grammy Award for Best New Age Album.\"}, {\"formula\": {\"args\": [{\"name\": \"kiran_rao\", \"op\": \"const\"}], \"name\": \"won_grammy_best_new_age_album\", \"op\": \"pred\"}, \"source_quote\": \"Like Kiran Rao, Sanjay Rao won a Grammy Award for Best New Age Album.\"}, {\"formula\": {\"args\": [{\"name\": \"sanjay_rao\", \"op\": \"const\"}], \"name\": \"won_grammy_best_new_age_album\", \"op\": \"pred\"}, \"source_quote\": \"Like Kiran Rao, Sanjay Rao won a Grammy Award for Best New Age Album.\"}], \"notes\": [], \"status\": \"OK\", \"symbols\": {\"constants\": [{\"aliases\": [\"Kiran Rao\"], \"name\": \"kiran_rao\", \"type\": \"Person\"}, {\"aliases\": [\"Sanjay Rao\"], \"name\": \"sanjay_rao\", \"type\": \"Person\"}], \"functions\": [], \"predicates\": [{\"arg_types\": [\"Person\"], \"name\": \"won_grammy_best_new_age_album\"}]}}",
+            "role": "assistant"
+          }
+        }
+      ],
+      "created": 1793147280,
+      "model": "qwen/qwen3.8-27b",
+      "object": "chat.completion",
+      "response_id_sha256": "977b75bfd1a9d7a9f5906849ac7aa51b4fb4ef9c788f26c21926265b3f4f840c",
+      "service_tier": "on_demand",
+      "system_fingerprint": "fp_4560dae850",
+      "usage": {
+        "completion_time": 0.742880653,
+        "completion_tokens": 347,
+        "prompt_time": 0.068718227,
+        "prompt_tokens": 795,
+        "queue_time": 0.073790181,
+        "total_time": 0.81159888,
+        "total_tokens": 1142
+      },
+      "usage_breakdown": null,
+      "x_groq": {
+        "id": "req_01m5zyg5r7emrv0e3dzzr3bx14",
+        "seed": 42
+      }
+    },
+    "system_fingerprint": "fp_4560dae850",
+    "usage": {
+      "completion_time": 0.742880653,
+      "completion_tokens": 347,
+      "prompt_time": 0.068718227,
+      "prompt_tokens": 795,
+      "queue_time": 0.073790181,
+      "total_time": 0.81159888,
+      "total_tokens": 1142
+    }
+  },
+  "completion_sha256": "300ca4113b998f87185d315b04221eb94f339adbdf5d352123773ca4ffdc6b62",
+  "id": "e_e905979ccfc384a6",
+  "input_sha256": "63de777103cb3a1111f31b97541668bab6a9a78ab85685a1270cdef01930d87e",
+  "request_sha256": "70c96c7b1a5494afb16599146874349ffa0341236c12505400db3b7691200c48"
+}

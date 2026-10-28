@@ -1,0 +1,556 @@
+{
+  "completion": {
+    "actual_model_id": "qwen/qwen3.8-27b",
+    "attempts": [
+      {
+        "charged_tokens": 1290,
+        "continuation_policy_sha256": "aa6469e2c44d1670364d8ad86f7a0718a59725cbf5d7f92723a42835503a313d",
+        "http_status": 200,
+        "quota_policy": "provider_enforced_free",
+        "rate_limits": {
+          "x-ratelimit-limit-requests": "1000",
+          "x-ratelimit-limit-tokens": "8000",
+          "x-ratelimit-remaining-requests": "988",
+          "x-ratelimit-remaining-tokens": "6785",
+          "x-ratelimit-reset-requests": "17m16.8s",
+          "x-ratelimit-reset-tokens": "9.112s"
+        },
+        "request_id_sha256": "c9887a724d7e4112aaa1716c2d86ae17b7bf49ca7f785d9158cc88ebf9c18858",
+        "request_sha256": "affe72145b7b27c93e72c5087f2fe318a9dc6a47f72995f1f7645c8a3561c5c8",
+        "requested_at": "2026-10-28T00:28:58.622002+00:00",
+        "reservation_tokens": 13591,
+        "responded_at": "2026-10-28T00:29:00.633601+00:00",
+        "status": "received",
+        "timestamp": 1793147338.6220021,
+        "usage": {
+          "completion_time": 0.991650675,
+          "completion_tokens": 479,
+          "prompt_time": 0.057634345,
+          "prompt_tokens": 811,
+          "queue_time": 0.073241903,
+          "total_time": 1.04928502,
+          "total_tokens": 1290
+        }
+      }
+    ],
+    "finish_reason": "stop",
+    "latency_seconds": 60.38939332962036,
+    "nonthinking_validation": {
+      "issues": [],
+      "passed": true,
+      "policy": "inspect_raw_no_stripping_v1"
+    },
+    "provider_validation_issues": [],
+    "raw_non_json_body": null,
+    "raw_response": "{\"claim\": {\"formula\": {\"body\": {\"args\": [{\"name\": \"jenna_ortega\", \"op\": \"const\"}, {\"name\": \"mtv_movie_award_best_performance_horror_film\", \"op\": \"const\"}, {\"op\": \"int\", \"value\": 2023}], \"name\": \"won_before\", \"op\": \"pred\"}, \"op\": \"exists\", \"variables\": [{\"name\": \"y\", \"type\": \"Int\"}]}}, \"evidence\": [{\"formula\": {\"args\": [{\"name\": \"jenna_ortega\", \"op\": \"const\"}, {\"name\": \"mtv_movie_award_best_performance_horror_film\", \"op\": \"const\"}, {\"op\": \"int\", \"value\": 2023}], \"name\": \"won\", \"op\": \"pred\"}, \"source_quote\": \"Jenna Ortega won the MTV Movie Award for Best Performance in a Horror Film once more in 2023.\"}, {\"formula\": {\"args\": [{\"name\": \"jenna_ortega\", \"op\": \"const\"}, {\"name\": \"mtv_movie_award_best_performance_horror_film\", \"op\": \"const\"}, {\"op\": \"int\", \"value\": 2023}], \"name\": \"won_before\", \"op\": \"pred\"}, \"source_quote\": \"once more in 2023\"}], \"notes\": [\"The phrase 'once more' in the evidence implies a prior occurrence, which is formalized as the predicate 'won_before' for the year 2023.\", \"The claim asserts that such a prior occurrence existed, which is directly supported by the evidence's implication.\"], \"status\": \"OK\", \"symbols\": {\"constants\": [{\"aliases\": [\"Jenna Ortega\"], \"name\": \"jenna_ortega\", \"type\": \"Person\"}, {\"aliases\": [\"MTV Movie Award for Best Performance in a Horror Film\"], \"name\": \"mtv_movie_award_best_performance_horror_film\", \"type\": \"Award\"}], \"functions\": [], \"predicates\": [{\"arg_types\": [\"Person\", \"Award\", \"Int\"], \"name\": \"won\"}, {\"arg_types\": [\"Person\", \"Award\", \"Int\"], \"name\": \"won_before\"}]}}",
+    "request_payload": {
+      "max_completion_tokens": 4096,
+      "messages": [
+        {
+          "content": "You are a semantic formalizer, not a fact checker. Translate the supplied EVIDENCE and CLAIM into a small typed logical JSON AST that follows the provided schema.\n\nRepresent only facts and constraints supported by the source text. Formalize the claim separately from the evidence; never infer the answer label. Preserve negation scope, quantifiers, uniqueness, dates, exact quantities, identities, presuppositions, and attribution. An allegation or denial is a fact about a report or speaker, not automatically a fact about the reported event. Do not assume unnamed people or events are absent. Do not merge distinct awards or events merely because their descriptions are similar.\n\nUse explicit existential variables for indefinite noun phrases; use universal constraints only when the text warrants exclusivity. Keep all necessary facts relevant to the claim, and attach an exact evidence quote to each evidence formula. If the intended meaning cannot be represented faithfully with the available operators, return status UNSUPPORTED. Do not use external biographical facts.\n\nReturn only the schema-conforming JSON object. Do not produce a verdict, a world narrative, Python, or Z3 code.\n\nDSL v6 specification (fixed for all inputs):\nTypes are case-sensitive names inferred from declarations; Int is the integer sort. Other names are uninterpreted nonempty entity sorts (e.g. Person, Award, Event, Place, Proposition). Bool is reserved. Use integer literals, not Int constants. Functions have declared argument types and return Int; use single-valued attributes for birth years, event years and event counts. Predicates return truth values. Declare every symbol used by evidence or claim.\nConstants have canonical names, types and alias strings referring to that SAME entity. An alias must not collide with another declaration. Different constant names do NOT automatically imply inequality: explicitly use ne with a source quote for textually distinct people/entities. Do not add global unique-name or closed-domain assumptions. A claim-only entity has no evidence facts unless warranted by the evidence.\nTerms: const/var have name; int has value; fun has name and args; add/sub have left and right integer terms. Formulas: pred has name and term args; not has arg; and/or have at least two formula args; implies has left/right formulas; eq/ne/lt/le/gt/ge compare left/right terms; exists/forall have variables (name,type) and body. Variables must be bound, and nested quantifiers must use fresh names. Existential witnesses in separate formulas are independent. All evidence formulas are conjoined. Quantifiers range over open sorts, never just declared constants. A source_quote must be an exact, nonempty, contiguous substring of EVIDENCE; it is provenance, not executable logic.\nRepresent allegations/denials as predicates about speakers and Proposition entities, without asserting or negating the reported event unless evidence independently warrants it. Represent uncertain reference by disjunction over warranted alternatives. An exhaustive list needs a universally quantified restriction; an open list does not. Only/unique constraints need their full person, award, event and time scope. Again/first/second need prior-occurrence or no-earlier-occurrence constraints when relevant. Keep appointment intervals separate from event years. Claim formulas must preserve the same relations and scopes used in evidence.\nFor UNSUPPORTED use empty constants, predicates, functions and evidence arrays, null claim, and explanatory notes. For OK supply nonempty evidence and a claim formula. Notes are explanatory only and cannot repair missing formulas. Do not put a verdict in any field.\n",
+          "role": "system"
+        },
+        {
+          "content": "EVIDENCE:\nJenna Ortega won the MTV Movie Award for Best Performance in a Horror Film once more in 2023.\n\nCLAIM:\nJenna Ortega had won the MTV Movie Award for Best Performance in a Horror Film before 2023.\n\nTranslate these into the predefined logical JSON AST. Preserve the original meaning and include only relevant evidence constraints. Output JSON only.\n",
+          "role": "user"
+        }
+      ],
+      "model": "qwen/qwen3.8-27b",
+      "reasoning_effort": "none",
+      "response_format": {
+        "json_schema": {
+          "name": "semantic_ast_v6",
+          "schema": {
+            "$defs": {
+              "formula": {
+                "anyOf": [
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "args": {
+                        "items": {
+                          "$ref": "#/$defs/term"
+                        },
+                        "minItems": 0,
+                        "type": "array"
+                      },
+                      "name": {
+                        "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                        "type": "string"
+                      },
+                      "op": {
+                        "enum": [
+                          "pred"
+                        ],
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "name",
+                      "args"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "arg": {
+                        "$ref": "#/$defs/formula"
+                      },
+                      "op": {
+                        "enum": [
+                          "not"
+                        ],
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "arg"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "args": {
+                        "items": {
+                          "$ref": "#/$defs/formula"
+                        },
+                        "minItems": 2,
+                        "type": "array"
+                      },
+                      "op": {
+                        "enum": [
+                          "and",
+                          "or"
+                        ],
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "args"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "left": {
+                        "$ref": "#/$defs/formula"
+                      },
+                      "op": {
+                        "enum": [
+                          "implies"
+                        ],
+                        "type": "string"
+                      },
+                      "right": {
+                        "$ref": "#/$defs/formula"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "left",
+                      "right"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "left": {
+                        "$ref": "#/$defs/term"
+                      },
+                      "op": {
+                        "enum": [
+                          "eq",
+                          "ne",
+                          "lt",
+                          "le",
+                          "gt",
+                          "ge"
+                        ],
+                        "type": "string"
+                      },
+                      "right": {
+                        "$ref": "#/$defs/term"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "left",
+                      "right"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "body": {
+                        "$ref": "#/$defs/formula"
+                      },
+                      "op": {
+                        "enum": [
+                          "exists",
+                          "forall"
+                        ],
+                        "type": "string"
+                      },
+                      "variables": {
+                        "items": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "name": {
+                              "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                              "type": "string"
+                            },
+                            "type": {
+                              "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "name",
+                            "type"
+                          ],
+                          "type": "object"
+                        },
+                        "minItems": 1,
+                        "type": "array"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "variables",
+                      "body"
+                    ],
+                    "type": "object"
+                  }
+                ]
+              },
+              "term": {
+                "anyOf": [
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "name": {
+                        "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                        "type": "string"
+                      },
+                      "op": {
+                        "enum": [
+                          "const",
+                          "var"
+                        ],
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "name"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "op": {
+                        "enum": [
+                          "int"
+                        ],
+                        "type": "string"
+                      },
+                      "value": {
+                        "type": "integer"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "value"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "left": {
+                        "$ref": "#/$defs/term"
+                      },
+                      "op": {
+                        "enum": [
+                          "add",
+                          "sub"
+                        ],
+                        "type": "string"
+                      },
+                      "right": {
+                        "$ref": "#/$defs/term"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "left",
+                      "right"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "args": {
+                        "items": {
+                          "$ref": "#/$defs/term"
+                        },
+                        "minItems": 0,
+                        "type": "array"
+                      },
+                      "name": {
+                        "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                        "type": "string"
+                      },
+                      "op": {
+                        "enum": [
+                          "fun"
+                        ],
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "name",
+                      "args"
+                    ],
+                    "type": "object"
+                  }
+                ]
+              }
+            },
+            "additionalProperties": false,
+            "properties": {
+              "claim": {
+                "anyOf": [
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "formula": {
+                        "$ref": "#/$defs/formula"
+                      }
+                    },
+                    "required": [
+                      "formula"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "evidence": {
+                "items": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "formula": {
+                      "$ref": "#/$defs/formula"
+                    },
+                    "source_quote": {
+                      "minLength": 1,
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "source_quote",
+                    "formula"
+                  ],
+                  "type": "object"
+                },
+                "minItems": 0,
+                "type": "array"
+              },
+              "notes": {
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 0,
+                "type": "array"
+              },
+              "status": {
+                "enum": [
+                  "OK",
+                  "UNSUPPORTED"
+                ],
+                "type": "string"
+              },
+              "symbols": {
+                "additionalProperties": false,
+                "properties": {
+                  "constants": {
+                    "items": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "aliases": {
+                          "items": {
+                            "type": "string"
+                          },
+                          "minItems": 0,
+                          "type": "array"
+                        },
+                        "name": {
+                          "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                          "type": "string"
+                        },
+                        "type": {
+                          "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "type",
+                        "aliases"
+                      ],
+                      "type": "object"
+                    },
+                    "minItems": 0,
+                    "type": "array"
+                  },
+                  "functions": {
+                    "items": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "arg_types": {
+                          "items": {
+                            "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                            "type": "string"
+                          },
+                          "minItems": 0,
+                          "type": "array"
+                        },
+                        "name": {
+                          "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                          "type": "string"
+                        },
+                        "return_type": {
+                          "enum": [
+                            "Int"
+                          ],
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "arg_types",
+                        "return_type"
+                      ],
+                      "type": "object"
+                    },
+                    "minItems": 0,
+                    "type": "array"
+                  },
+                  "predicates": {
+                    "items": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "arg_types": {
+                          "items": {
+                            "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                            "type": "string"
+                          },
+                          "minItems": 0,
+                          "type": "array"
+                        },
+                        "name": {
+                          "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "arg_types"
+                      ],
+                      "type": "object"
+                    },
+                    "minItems": 0,
+                    "type": "array"
+                  }
+                },
+                "required": [
+                  "constants",
+                  "predicates",
+                  "functions"
+                ],
+                "type": "object"
+              }
+            },
+            "required": [
+              "status",
+              "symbols",
+              "evidence",
+              "claim",
+              "notes"
+            ],
+            "type": "object"
+          },
+          "strict": true
+        },
+        "type": "json_schema"
+      },
+      "seed": 42,
+      "stream": false,
+      "temperature": 0
+    },
+    "requested_at": "2026-10-28T00:28:58.622002+00:00",
+    "responded_at": "2026-10-28T00:29:00.633601+00:00",
+    "response_id_sha256": "6b1a0d17e42477d1de33b993110a46e9d42a1ebf51f368a319c59fec35a909e9",
+    "response_json": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"claim\": {\"formula\": {\"body\": {\"args\": [{\"name\": \"jenna_ortega\", \"op\": \"const\"}, {\"name\": \"mtv_movie_award_best_performance_horror_film\", \"op\": \"const\"}, {\"op\": \"int\", \"value\": 2023}], \"name\": \"won_before\", \"op\": \"pred\"}, \"op\": \"exists\", \"variables\": [{\"name\": \"y\", \"type\": \"Int\"}]}}, \"evidence\": [{\"formula\": {\"args\": [{\"name\": \"jenna_ortega\", \"op\": \"const\"}, {\"name\": \"mtv_movie_award_best_performance_horror_film\", \"op\": \"const\"}, {\"op\": \"int\", \"value\": 2023}], \"name\": \"won\", \"op\": \"pred\"}, \"source_quote\": \"Jenna Ortega won the MTV Movie Award for Best Performance in a Horror Film once more in 2023.\"}, {\"formula\": {\"args\": [{\"name\": \"jenna_ortega\", \"op\": \"const\"}, {\"name\": \"mtv_movie_award_best_performance_horror_film\", \"op\": \"const\"}, {\"op\": \"int\", \"value\": 2023}], \"name\": \"won_before\", \"op\": \"pred\"}, \"source_quote\": \"once more in 2023\"}], \"notes\": [\"The phrase 'once more' in the evidence implies a prior occurrence, which is formalized as the predicate 'won_before' for the year 2023.\", \"The claim asserts that such a prior occurrence existed, which is directly supported by the evidence's implication.\"], \"status\": \"OK\", \"symbols\": {\"constants\": [{\"aliases\": [\"Jenna Ortega\"], \"name\": \"jenna_ortega\", \"type\": \"Person\"}, {\"aliases\": [\"MTV Movie Award for Best Performance in a Horror Film\"], \"name\": \"mtv_movie_award_best_performance_horror_film\", \"type\": \"Award\"}], \"functions\": [], \"predicates\": [{\"arg_types\": [\"Person\", \"Award\", \"Int\"], \"name\": \"won\"}, {\"arg_types\": [\"Person\", \"Award\", \"Int\"], \"name\": \"won_before\"}]}}",
+            "role": "assistant"
+          }
+        }
+      ],
+      "created": 1793147340,
+      "model": "qwen/qwen3.8-27b",
+      "object": "chat.completion",
+      "response_id_sha256": "6b1a0d17e42477d1de33b993110a46e9d42a1ebf51f368a319c59fec35a909e9",
+      "service_tier": "on_demand",
+      "system_fingerprint": "fp_a1293f40b5",
+      "usage": {
+        "completion_time": 0.991650675,
+        "completion_tokens": 479,
+        "prompt_time": 0.057634345,
+        "prompt_tokens": 811,
+        "queue_time": 0.073241903,
+        "total_time": 1.04928502,
+        "total_tokens": 1290
+      },
+      "usage_breakdown": null,
+      "x_groq": {
+        "id": "req_01m5zyj0g7erkbpg4258ybs0hs",
+        "seed": 42
+      }
+    },
+    "system_fingerprint": "fp_a1293f40b5",
+    "usage": {
+      "completion_time": 0.991650675,
+      "completion_tokens": 479,
+      "prompt_time": 0.057634345,
+      "prompt_tokens": 811,
+      "queue_time": 0.073241903,
+      "total_time": 1.04928502,
+      "total_tokens": 1290
+    }
+  },
+  "completion_sha256": "073dffdbe5a05646e09a10cb996c01f40cb91c70233b9115a6d61855e68df9f0",
+  "id": "e_b90f4a5d02995dfc",
+  "input_sha256": "bddf8b25a9f8cd36b2a2ac01217fad7ff5b09940d3c98bd83e73c021c8717ad7",
+  "request_sha256": "6e30218d0516238af98534e38905e9cdea7344c0cc505e56a70ff3382791490f"
+}

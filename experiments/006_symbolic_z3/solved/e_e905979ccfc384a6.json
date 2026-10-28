@@ -1,0 +1,99 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "kiran_rao",
+            "op": "const"
+          }
+        ],
+        "name": "won_grammy_best_new_age_album",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "kiran_rao",
+              "op": "const"
+            },
+            {
+              "name": "sanjay_rao",
+              "op": "const"
+            }
+          ],
+          "name": "ne",
+          "op": "pred"
+        },
+        "source_quote": "Like Kiran Rao, Sanjay Rao won a Grammy Award for Best New Age Album."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "kiran_rao",
+              "op": "const"
+            }
+          ],
+          "name": "won_grammy_best_new_age_album",
+          "op": "pred"
+        },
+        "source_quote": "Like Kiran Rao, Sanjay Rao won a Grammy Award for Best New Age Album."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "sanjay_rao",
+              "op": "const"
+            }
+          ],
+          "name": "won_grammy_best_new_age_album",
+          "op": "pred"
+        },
+        "source_quote": "Like Kiran Rao, Sanjay Rao won a Grammy Award for Best New Age Album."
+      }
+    ],
+    "notes": [],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Kiran Rao"
+          ],
+          "name": "kiran_rao",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "Sanjay Rao"
+          ],
+          "name": "sanjay_rao",
+          "type": "Person"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person"
+          ],
+          "name": "won_grammy_best_new_age_album"
+        }
+      ]
+    }
+  },
+  "constraints": null,
+  "label": "UNSUPPORTED",
+  "reason": "InvalidAST: undeclared symbol: ne",
+  "sat_e": null,
+  "sat_e_c": null,
+  "sat_e_not_c": null,
+  "solve_seconds": 0.0010422002524137497,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

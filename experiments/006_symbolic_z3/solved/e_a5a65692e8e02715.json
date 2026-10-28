@@ -1,0 +1,123 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "patrickMahomes",
+            "op": "const"
+          },
+          {
+            "op": "int",
+            "value": 2023
+          }
+        ],
+        "name": "reclaimedMvpAward",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "patrickMahomes",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 2017
+            }
+          ],
+          "name": "draftedYear",
+          "op": "pred"
+        },
+        "source_quote": "In 2017, Patrick Mahomes was drafted by the Chiefs."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "patrickMahomes",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 2019
+            }
+          ],
+          "name": "firstSuperBowlYear",
+          "op": "pred"
+        },
+        "source_quote": "Two years later, he won his first Super Bowl."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "patrickMahomes",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 2022
+            }
+          ],
+          "name": "reclaimedMvpYear",
+          "op": "pred"
+        },
+        "source_quote": "Within three years of that, he reclaimed the MVP award."
+      }
+    ],
+    "notes": [
+      "The evidence states the MVP was reclaimed 'Within three years of that' (referring to the 2019 Super Bowl). This implies the year is in the range [2020, 2022].",
+      "The claim asserts the year is 2023.",
+      "2023 is not within three years of 2019 (2019 + 3 = 2022). Therefore, the claim contradicts the evidence constraints."
+    ],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Patrick Mahomes"
+          ],
+          "name": "patrickMahomes",
+          "type": "Person"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Int"
+          ],
+          "name": "draftedYear"
+        },
+        {
+          "arg_types": [
+            "Person",
+            "Int"
+          ],
+          "name": "firstSuperBowlYear"
+        },
+        {
+          "arg_types": [
+            "Person",
+            "Int"
+          ],
+          "name": "reclaimedMvpYear"
+        }
+      ]
+    }
+  },
+  "constraints": null,
+  "label": "UNSUPPORTED",
+  "reason": "InvalidAST: undeclared symbol: reclaimedMvpAward",
+  "sat_e": null,
+  "sat_e_c": null,
+  "sat_e_not_c": null,
+  "solve_seconds": 0.0016096001490950584,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

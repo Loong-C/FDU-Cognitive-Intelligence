@@ -1,0 +1,16 @@
+{
+  "constraints": {
+    "claim": "(predicates_Sibling entity_Timothee entity_Gabriel)",
+    "evidence": [
+      "(exists ((bound_third type_Person))\n  (let ((a!1 (forall ((bound_x type_Person))\n               (=> (predicates_Sibling entity_Timothee bound_x)\n                   (or (= bound_x entity_Pauline)\n                       (= bound_x entity_Alex)\n                       (= bound_x bound_third))))))\n    (and (predicates_Sibling entity_Timothee entity_Pauline)\n         (predicates_Sibling entity_Timothee entity_Alex)\n         (predicates_Sibling entity_Timothee bound_third)\n         (distinct entity_Pauline entity_Alex)\n         (distinct entity_Pauline bound_third)\n         (distinct entity_Alex bound_third)\n         (distinct entity_Timothee entity_Pauline)\n         (distinct entity_Timothee entity_Alex)\n         (distinct entity_Timothee bound_third)\n         a!1)))"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.014321499969810247,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

@@ -1,0 +1,18 @@
+{
+  "constraints": {
+    "claim": "(predicates_BornIn entity_Romelu entity_Antwerp)",
+    "evidence": [
+      "(predicates_BornIn entity_Romelu entity_Antwerp)",
+      "(predicates_LocatedIn entity_Antwerp entity_Belgium)",
+      "(predicates_BornIn entity_Romelu entity_Belgium)"
+    ]
+  },
+  "label": "SUPPORTS",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "unsat",
+  "solve_seconds": 0.0026664002798497677,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

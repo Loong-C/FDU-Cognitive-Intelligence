@@ -1,0 +1,145 @@
+{
+  "claim": {
+    "formula": {
+      "left": {
+        "args": [
+          {
+            "name": "Patrick",
+            "op": "const"
+          }
+        ],
+        "name": "DescribedMVPReclaimYear",
+        "op": "fun"
+      },
+      "op": "eq",
+      "right": {
+        "op": "int",
+        "value": 2023
+      }
+    }
+  },
+  "evidence": [
+    {
+      "formula": {
+        "args": [
+          {
+            "left": {
+              "args": [
+                {
+                  "name": "Patrick",
+                  "op": "const"
+                }
+              ],
+              "name": "DescribedMVPReclaimYear",
+              "op": "fun"
+            },
+            "op": "eq",
+            "right": {
+              "op": "int",
+              "value": 2023
+            }
+          },
+          {
+            "left": {
+              "args": [
+                {
+                  "name": "Patrick",
+                  "op": "const"
+                }
+              ],
+              "name": "FirstSuperBowlYear",
+              "op": "fun"
+            },
+            "op": "eq",
+            "right": {
+              "left": {
+                "args": [
+                  {
+                    "name": "Patrick",
+                    "op": "const"
+                  }
+                ],
+                "name": "DescribedMVPReclaimYear",
+                "op": "fun"
+              },
+              "op": "sub",
+              "right": {
+                "op": "int",
+                "value": 4
+              }
+            }
+          },
+          {
+            "left": {
+              "args": [
+                {
+                  "name": "Patrick",
+                  "op": "const"
+                }
+              ],
+              "name": "DraftYear",
+              "op": "fun"
+            },
+            "op": "eq",
+            "right": {
+              "left": {
+                "args": [
+                  {
+                    "name": "Patrick",
+                    "op": "const"
+                  }
+                ],
+                "name": "DescribedMVPReclaimYear",
+                "op": "fun"
+              },
+              "op": "sub",
+              "right": {
+                "op": "int",
+                "value": 6
+              }
+            }
+          }
+        ],
+        "op": "and"
+      },
+      "source_quote": "In 2023, Patrick Mahomes reclaimed the MVP award, four years after he won his first Super Bowl and six years after he was drafted by the Chiefs."
+    }
+  ],
+  "notes": [
+    "The claim refers to the described reclaim event, not a hypothetical additional reclaim. Prior MVP holding is background to reclaim and does not fix its year."
+  ],
+  "status": "OK",
+  "symbols": {
+    "constants": [
+      {
+        "aliases": [],
+        "name": "Patrick",
+        "type": "Person"
+      }
+    ],
+    "functions": [
+      {
+        "arg_types": [
+          "Person"
+        ],
+        "name": "DraftYear",
+        "return_type": "Int"
+      },
+      {
+        "arg_types": [
+          "Person"
+        ],
+        "name": "FirstSuperBowlYear",
+        "return_type": "Int"
+      },
+      {
+        "arg_types": [
+          "Person"
+        ],
+        "name": "DescribedMVPReclaimYear",
+        "return_type": "Int"
+      }
+    ],
+    "predicates": []
+  }
+}

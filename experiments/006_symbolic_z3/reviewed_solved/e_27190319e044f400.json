@@ -1,0 +1,16 @@
+{
+  "constraints": {
+    "claim": "(predicates_Sibling entity_Timothee entity_Gabriel)",
+    "evidence": [
+      "(and (predicates_Sibling entity_Timothee entity_Pauline)\n     (predicates_Sibling entity_Timothee entity_Alex)\n     (predicates_Sibling entity_Timothee entity_Gabriel)\n     (distinct entity_Timothee entity_Pauline)\n     (distinct entity_Timothee entity_Alex)\n     (distinct entity_Timothee entity_Gabriel)\n     (distinct entity_Pauline entity_Alex)\n     (distinct entity_Pauline entity_Gabriel)\n     (distinct entity_Alex entity_Gabriel))"
+    ]
+  },
+  "label": "SUPPORTS",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "unsat",
+  "solve_seconds": 0.007661399897187948,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

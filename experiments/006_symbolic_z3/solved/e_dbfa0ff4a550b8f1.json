@@ -1,0 +1,83 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "kjh_jesperson",
+            "op": "const"
+          },
+          {
+            "name": "seattle",
+            "op": "const"
+          }
+        ],
+        "name": "bornIn",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "kjh_jesperson",
+              "op": "const"
+            },
+            {
+              "name": "seattle",
+              "op": "const"
+            }
+          ],
+          "name": "bornIn",
+          "op": "pred"
+        },
+        "source_quote": "Keith Hunter Jesperson was born in Seattle."
+      }
+    ],
+    "notes": [],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Keith Hunter Jesperson"
+          ],
+          "name": "kjh_jesperson",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "Seattle"
+          ],
+          "name": "seattle",
+          "type": "Place"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Place"
+          ],
+          "name": "bornIn"
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "claim": "(predicates_bornIn entity_kjh_jesperson entity_seattle)",
+    "evidence": [
+      "(predicates_bornIn entity_kjh_jesperson entity_seattle)"
+    ]
+  },
+  "label": "SUPPORTS",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "unsat",
+  "solve_seconds": 0.002348099835216999,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

@@ -1,0 +1,275 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "sam",
+            "op": "const"
+          },
+          {
+            "name": "charlie_kirk",
+            "op": "const"
+          }
+        ],
+        "name": "childOf",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "john",
+              "op": "const"
+            },
+            {
+              "name": "charlie_kirk",
+              "op": "const"
+            }
+          ],
+          "name": "childOf",
+          "op": "pred"
+        },
+        "source_quote": "Charlie Kirk's three children are John, Sam and Mary."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "sam",
+              "op": "const"
+            },
+            {
+              "name": "charlie_kirk",
+              "op": "const"
+            }
+          ],
+          "name": "childOf",
+          "op": "pred"
+        },
+        "source_quote": "Charlie Kirk's three children are John, Sam and Mary."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "mary",
+              "op": "const"
+            },
+            {
+              "name": "charlie_kirk",
+              "op": "const"
+            }
+          ],
+          "name": "childOf",
+          "op": "pred"
+        },
+        "source_quote": "Charlie Kirk's three children are John, Sam and Mary."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "args": [
+                {
+                  "name": "charlie_kirk",
+                  "op": "const"
+                }
+              ],
+              "name": "childCount",
+              "op": "fun"
+            },
+            {
+              "op": "int",
+              "value": 3
+            }
+          ],
+          "name": "eq",
+          "op": "pred"
+        },
+        "source_quote": "Charlie Kirk's three children are John, Sam and Mary."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "john",
+              "op": "const"
+            },
+            {
+              "name": "sam",
+              "op": "const"
+            }
+          ],
+          "name": "ne",
+          "op": "pred"
+        },
+        "source_quote": "Charlie Kirk's three children are John, Sam and Mary."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "john",
+              "op": "const"
+            },
+            {
+              "name": "mary",
+              "op": "const"
+            }
+          ],
+          "name": "ne",
+          "op": "pred"
+        },
+        "source_quote": "Charlie Kirk's three children are John, Sam and Mary."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "sam",
+              "op": "const"
+            },
+            {
+              "name": "mary",
+              "op": "const"
+            }
+          ],
+          "name": "ne",
+          "op": "pred"
+        },
+        "source_quote": "Charlie Kirk's three children are John, Sam and Mary."
+      },
+      {
+        "formula": {
+          "body": {
+            "args": [
+              {
+                "args": [
+                  {
+                    "name": "c",
+                    "op": "var"
+                  },
+                  {
+                    "name": "charlie_kirk",
+                    "op": "const"
+                  }
+                ],
+                "name": "childOf",
+                "op": "pred"
+              },
+              {
+                "args": [
+                  {
+                    "args": [
+                      {
+                        "name": "c",
+                        "op": "var"
+                      }
+                    ],
+                    "name": "eq",
+                    "op": "pred"
+                  },
+                  {
+                    "args": [
+                      {
+                        "name": "john",
+                        "op": "const"
+                      },
+                      {
+                        "name": "sam",
+                        "op": "const"
+                      },
+                      {
+                        "name": "mary",
+                        "op": "const"
+                      }
+                    ],
+                    "name": "or",
+                    "op": "pred"
+                  }
+                ],
+                "op": "or"
+              }
+            ],
+            "op": "or"
+          },
+          "op": "forall",
+          "variables": [
+            {
+              "name": "c",
+              "type": "Person"
+            }
+          ]
+        },
+        "source_quote": "Charlie Kirk's three children are John, Sam and Mary."
+      }
+    ],
+    "notes": [
+      "The evidence explicitly lists John, Sam, and Mary as the three children of Charlie Kirk.",
+      "The claim that Sam is one of Charlie Kirk's children is directly supported by the evidence."
+    ],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Charlie Kirk"
+          ],
+          "name": "charlie_kirk",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "John"
+          ],
+          "name": "john",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "Sam"
+          ],
+          "name": "sam",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "Mary"
+          ],
+          "name": "mary",
+          "type": "Person"
+        }
+      ],
+      "functions": [
+        {
+          "arg_types": [
+            "Person"
+          ],
+          "name": "childCount",
+          "return_type": "Int"
+        }
+      ],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Person"
+          ],
+          "name": "childOf"
+        }
+      ]
+    }
+  },
+  "constraints": null,
+  "label": "UNSUPPORTED",
+  "reason": "InvalidAST: undeclared symbol: eq",
+  "sat_e": null,
+  "sat_e_c": null,
+  "sat_e_not_c": null,
+  "solve_seconds": 0.004659899976104498,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

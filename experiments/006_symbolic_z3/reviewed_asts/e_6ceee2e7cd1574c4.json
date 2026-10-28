@@ -1,0 +1,142 @@
+{
+  "claim": {
+    "formula": {
+      "body": {
+        "args": [
+          {
+            "args": [
+              {
+                "name": "ca",
+                "op": "var"
+              }
+            ],
+            "name": "AwardKind",
+            "op": "pred"
+          },
+          {
+            "args": [
+              {
+                "name": "Donald",
+                "op": "const"
+              },
+              {
+                "name": "ca",
+                "op": "var"
+              },
+              {
+                "op": "int",
+                "value": 2010
+              }
+            ],
+            "name": "Won",
+            "op": "pred"
+          }
+        ],
+        "op": "and"
+      },
+      "op": "exists",
+      "variables": [
+        {
+          "name": "ca",
+          "type": "Award"
+        }
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "formula": {
+        "left": {
+          "name": "Donald",
+          "op": "const"
+        },
+        "op": "ne",
+        "right": {
+          "name": "Darnell",
+          "op": "const"
+        }
+      },
+      "source_quote": "Donald Glover and his brother Darnell Glover attended a community college in Chicago in 2005. In 2010, Darnell Glover won a regional theater award."
+    },
+    {
+      "formula": {
+        "body": {
+          "args": [
+            {
+              "args": [
+                {
+                  "name": "ea",
+                  "op": "var"
+                }
+              ],
+              "name": "AwardKind",
+              "op": "pred"
+            },
+            {
+              "args": [
+                {
+                  "name": "Darnell",
+                  "op": "const"
+                },
+                {
+                  "name": "ea",
+                  "op": "var"
+                },
+                {
+                  "op": "int",
+                  "value": 2010
+                }
+              ],
+              "name": "Won",
+              "op": "pred"
+            }
+          ],
+          "op": "and"
+        },
+        "op": "exists",
+        "variables": [
+          {
+            "name": "ea",
+            "type": "Award"
+          }
+        ]
+      },
+      "source_quote": "Donald Glover and his brother Darnell Glover attended a community college in Chicago in 2005. In 2010, Darnell Glover won a regional theater award."
+    }
+  ],
+  "notes": [
+    "Award witnesses are independent; the other person's success adds no negative fact about the claimant."
+  ],
+  "status": "OK",
+  "symbols": {
+    "constants": [
+      {
+        "aliases": [],
+        "name": "Donald",
+        "type": "Person"
+      },
+      {
+        "aliases": [],
+        "name": "Darnell",
+        "type": "Person"
+      }
+    ],
+    "functions": [],
+    "predicates": [
+      {
+        "arg_types": [
+          "Person",
+          "Award",
+          "Int"
+        ],
+        "name": "Won"
+      },
+      {
+        "arg_types": [
+          "Award"
+        ],
+        "name": "AwardKind"
+      }
+    ]
+  }
+}

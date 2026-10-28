@@ -1,0 +1,121 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "donald_glover",
+            "op": "const"
+          },
+          {
+            "name": "year_2010",
+            "op": "const"
+          }
+        ],
+        "name": "won_regional_theater_award",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "donald_glover",
+              "op": "const"
+            },
+            {
+              "name": "darnell_glover",
+              "op": "const"
+            },
+            {
+              "name": "year_2005",
+              "op": "const"
+            }
+          ],
+          "name": "attended_community_college_in_chicago",
+          "op": "pred"
+        },
+        "source_quote": "Donald Glover and his brother Darnell Glover attended a community college in Chicago in 2005."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "darnell_glover",
+              "op": "const"
+            },
+            {
+              "name": "year_2010",
+              "op": "const"
+            }
+          ],
+          "name": "won_regional_theater_award",
+          "op": "pred"
+        },
+        "source_quote": "In 2010, Darnell Glover won a regional theater award."
+      }
+    ],
+    "notes": [],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Donald Glover"
+          ],
+          "name": "donald_glover",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "Darnell Glover"
+          ],
+          "name": "darnell_glover",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "2005"
+          ],
+          "name": "year_2005",
+          "type": "Int"
+        },
+        {
+          "aliases": [
+            "2010"
+          ],
+          "name": "year_2010",
+          "type": "Int"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Person",
+            "Int"
+          ],
+          "name": "attended_community_college_in_chicago"
+        },
+        {
+          "arg_types": [
+            "Person",
+            "Int"
+          ],
+          "name": "won_regional_theater_award"
+        }
+      ]
+    }
+  },
+  "constraints": null,
+  "label": "UNSUPPORTED",
+  "reason": "InvalidAST: use integer literals or integer attributes, not Int entity constants",
+  "sat_e": null,
+  "sat_e_c": null,
+  "sat_e_not_c": null,
+  "solve_seconds": 0.005123700015246868,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

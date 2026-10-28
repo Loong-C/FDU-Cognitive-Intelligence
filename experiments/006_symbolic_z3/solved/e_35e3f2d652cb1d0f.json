@@ -1,0 +1,103 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "kriti_sanon",
+            "op": "const"
+          }
+        ],
+        "name": "wonNationalTableTennisChampionship",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "kriti_sanon",
+              "op": "const"
+            },
+            {
+              "name": "kriti_malhotra",
+              "op": "const"
+            }
+          ],
+          "name": "cousinOf",
+          "op": "pred"
+        },
+        "source_quote": "Kriti Sanon's cousin, Kriti Malhotra"
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "kriti_malhotra",
+              "op": "const"
+            }
+          ],
+          "name": "wonNationalTableTennisChampionship",
+          "op": "pred"
+        },
+        "source_quote": "Kriti Malhotra, Kriti Sanon's cousin, won a national table tennis championship."
+      }
+    ],
+    "notes": [
+      "The evidence attributes the championship win to Kriti Malhotra, who is identified as Kriti Sanon's cousin.",
+      "The claim attributes the win to Kriti Sanon.",
+      "The evidence does not support the claim that Kriti Sanon won the championship."
+    ],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Kriti Sanon"
+          ],
+          "name": "kriti_sanon",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "Kriti Malhotra"
+          ],
+          "name": "kriti_malhotra",
+          "type": "Person"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Person"
+          ],
+          "name": "cousinOf"
+        },
+        {
+          "arg_types": [
+            "Person"
+          ],
+          "name": "wonNationalTableTennisChampionship"
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "claim": "(predicates_wonNationalTableTennisChampionship entity_kriti_sanon)",
+    "evidence": [
+      "(predicates_cousinOf entity_kriti_sanon entity_kriti_malhotra)",
+      "(predicates_wonNationalTableTennisChampionship entity_kriti_malhotra)"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.0024870000779628754,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

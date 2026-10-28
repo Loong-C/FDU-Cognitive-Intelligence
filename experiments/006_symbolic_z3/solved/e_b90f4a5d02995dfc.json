@@ -1,0 +1,134 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "body": {
+          "args": [
+            {
+              "name": "jenna_ortega",
+              "op": "const"
+            },
+            {
+              "name": "mtv_movie_award_best_performance_horror_film",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 2023
+            }
+          ],
+          "name": "won_before",
+          "op": "pred"
+        },
+        "op": "exists",
+        "variables": [
+          {
+            "name": "y",
+            "type": "Int"
+          }
+        ]
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "jenna_ortega",
+              "op": "const"
+            },
+            {
+              "name": "mtv_movie_award_best_performance_horror_film",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 2023
+            }
+          ],
+          "name": "won",
+          "op": "pred"
+        },
+        "source_quote": "Jenna Ortega won the MTV Movie Award for Best Performance in a Horror Film once more in 2023."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "jenna_ortega",
+              "op": "const"
+            },
+            {
+              "name": "mtv_movie_award_best_performance_horror_film",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 2023
+            }
+          ],
+          "name": "won_before",
+          "op": "pred"
+        },
+        "source_quote": "once more in 2023"
+      }
+    ],
+    "notes": [
+      "The phrase 'once more' in the evidence implies a prior occurrence, which is formalized as the predicate 'won_before' for the year 2023.",
+      "The claim asserts that such a prior occurrence existed, which is directly supported by the evidence's implication."
+    ],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Jenna Ortega"
+          ],
+          "name": "jenna_ortega",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "MTV Movie Award for Best Performance in a Horror Film"
+          ],
+          "name": "mtv_movie_award_best_performance_horror_film",
+          "type": "Award"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Award",
+            "Int"
+          ],
+          "name": "won"
+        },
+        {
+          "arg_types": [
+            "Person",
+            "Award",
+            "Int"
+          ],
+          "name": "won_before"
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "claim": "(exists ((bound_y Int))\n  (predicates_won_before\n    entity_jenna_ortega\n    entity_mtv_movie_award_best_performance_horror_film\n    2023))",
+    "evidence": [
+      "(predicates_won entity_jenna_ortega\n                entity_mtv_movie_award_best_performance_horror_film\n                2023)",
+      "(predicates_won_before\n  entity_jenna_ortega\n  entity_mtv_movie_award_best_performance_horror_film\n  2023)"
+    ]
+  },
+  "label": "SUPPORTS",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "unsat",
+  "solve_seconds": 0.00487559987232089,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

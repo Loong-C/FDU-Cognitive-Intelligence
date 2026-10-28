@@ -1,0 +1,125 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "oasis",
+            "op": "const"
+          },
+          {
+            "name": "knebworth_1996",
+            "op": "const"
+          },
+          {
+            "op": "int",
+            "value": 125000
+          }
+        ],
+        "name": "drewAudience",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "oasis",
+              "op": "const"
+            },
+            {
+              "name": "knebworth_1996",
+              "op": "const"
+            },
+            {
+              "name": "audience_size",
+              "op": "var"
+            }
+          ],
+          "name": "drewAudience",
+          "op": "pred"
+        },
+        "source_quote": "Oasis drew an audience of between 124990 and 125010 people to their 1996 Knebworth concert."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "audience_size",
+              "op": "var"
+            },
+            {
+              "op": "int",
+              "value": 124990
+            }
+          ],
+          "name": "ge",
+          "op": "pred"
+        },
+        "source_quote": "between 124990 and 125010"
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "audience_size",
+              "op": "var"
+            },
+            {
+              "op": "int",
+              "value": 125010
+            }
+          ],
+          "name": "le",
+          "op": "pred"
+        },
+        "source_quote": "between 124990 and 125010"
+      }
+    ],
+    "notes": [
+      "The evidence states the audience size is in the range [124990, 125010].",
+      "The claim asserts the audience size is exactly 125000.",
+      "125000 is within the range [124990, 125010], so the claim is consistent with the evidence, but the evidence does not uniquely determine the value to be 125000. However, the task is to formalize, not verify. The formalization captures the specific value in the claim and the range in the evidence."
+    ],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Oasis"
+          ],
+          "name": "oasis",
+          "type": "Band"
+        },
+        {
+          "aliases": [
+            "1996 Knebworth concert"
+          ],
+          "name": "knebworth_1996",
+          "type": "Concert"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Band",
+            "Concert",
+            "Int"
+          ],
+          "name": "drewAudience"
+        }
+      ]
+    }
+  },
+  "constraints": null,
+  "label": "UNSUPPORTED",
+  "reason": "InvalidAST: unbound variable",
+  "sat_e": null,
+  "sat_e_c": null,
+  "sat_e_not_c": null,
+  "solve_seconds": 0.0015589999966323376,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

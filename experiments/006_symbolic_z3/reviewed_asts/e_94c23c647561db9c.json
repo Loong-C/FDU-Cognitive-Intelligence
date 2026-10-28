@@ -1,0 +1,104 @@
+{
+  "claim": {
+    "formula": {
+      "args": [
+        {
+          "name": "ReportedProposition",
+          "op": "const"
+        }
+      ],
+      "name": "Holds",
+      "op": "pred"
+    }
+  },
+  "evidence": [
+    {
+      "formula": {
+        "args": [
+          {
+            "args": [
+              {
+                "name": "ReportedProposition",
+                "op": "const"
+              }
+            ],
+            "name": "Reported",
+            "op": "pred"
+          },
+          {
+            "args": [
+              {
+                "name": "Speaker",
+                "op": "const"
+              },
+              {
+                "name": "ReportedProposition",
+                "op": "const"
+              }
+            ],
+            "name": "Denied",
+            "op": "pred"
+          }
+        ],
+        "op": "and"
+      },
+      "source_quote": "Its former secretary general denied that the International Olympic Committee had secretly negotiated a sponsorship deal with a fast-food chain in 2005, and an investigation later showed the reports to be false"
+    },
+    {
+      "formula": {
+        "arg": {
+          "args": [
+            {
+              "name": "ReportedProposition",
+              "op": "const"
+            }
+          ],
+          "name": "Holds",
+          "op": "pred"
+        },
+        "op": "not"
+      },
+      "source_quote": "an investigation later showed the reports to be false"
+    }
+  ],
+  "notes": [
+    "ReportedProposition denotes exactly the complete event description in the claim; attribution does not imply its truth value."
+  ],
+  "status": "OK",
+  "symbols": {
+    "constants": [
+      {
+        "aliases": [],
+        "name": "Speaker",
+        "type": "Person"
+      },
+      {
+        "aliases": [],
+        "name": "ReportedProposition",
+        "type": "Proposition"
+      }
+    ],
+    "functions": [],
+    "predicates": [
+      {
+        "arg_types": [
+          "Proposition"
+        ],
+        "name": "Holds"
+      },
+      {
+        "arg_types": [
+          "Proposition"
+        ],
+        "name": "Reported"
+      },
+      {
+        "arg_types": [
+          "Person",
+          "Proposition"
+        ],
+        "name": "Denied"
+      }
+    ]
+  }
+}

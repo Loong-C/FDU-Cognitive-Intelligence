@@ -1,0 +1,108 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "kiran_rao",
+            "op": "const"
+          },
+          {
+            "name": "grammy_best_new_age_album",
+            "op": "const"
+          }
+        ],
+        "name": "wonAward",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "kiran_rao",
+              "op": "const"
+            },
+            {
+              "name": "grammy_best_new_age_album",
+              "op": "const"
+            }
+          ],
+          "name": "wonAward",
+          "op": "pred"
+        },
+        "source_quote": "Both Kiran Rao and Sanjay Rao won a Grammy Award for Best New Age Album."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "sanjay_rao",
+              "op": "const"
+            },
+            {
+              "name": "grammy_best_new_age_album",
+              "op": "const"
+            }
+          ],
+          "name": "wonAward",
+          "op": "pred"
+        },
+        "source_quote": "Both Kiran Rao and Sanjay Rao won a Grammy Award for Best New Age Album."
+      }
+    ],
+    "notes": [],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Kiran Rao"
+          ],
+          "name": "kiran_rao",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "Sanjay Rao"
+          ],
+          "name": "sanjay_rao",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "Grammy Award for Best New Age Album"
+          ],
+          "name": "grammy_best_new_age_album",
+          "type": "Award"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Award"
+          ],
+          "name": "wonAward"
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "claim": "(predicates_wonAward entity_kiran_rao entity_grammy_best_new_age_album)",
+    "evidence": [
+      "(predicates_wonAward entity_kiran_rao entity_grammy_best_new_age_album)",
+      "(predicates_wonAward entity_sanjay_rao entity_grammy_best_new_age_album)"
+    ]
+  },
+  "label": "SUPPORTS",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "unsat",
+  "solve_seconds": 0.0025153998285531998,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

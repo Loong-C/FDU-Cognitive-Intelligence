@@ -1,0 +1,150 @@
+{
+  "claim": {
+    "formula": {
+      "body": {
+        "args": [
+          {
+            "args": [
+              {
+                "name": "Tim",
+                "op": "const"
+              },
+              {
+                "name": "claimEvent",
+                "op": "var"
+              }
+            ],
+            "name": "AwardWin",
+            "op": "pred"
+          },
+          {
+            "left": {
+              "args": [
+                {
+                  "name": "claimEvent",
+                  "op": "var"
+                }
+              ],
+              "name": "Time",
+              "op": "fun"
+            },
+            "op": "lt",
+            "right": {
+              "op": "int",
+              "value": 20230000
+            }
+          }
+        ],
+        "op": "and"
+      },
+      "op": "exists",
+      "variables": [
+        {
+          "name": "claimEvent",
+          "type": "Event"
+        }
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "formula": {
+        "body": {
+          "args": [
+            {
+              "args": [
+                {
+                  "name": "Tim",
+                  "op": "const"
+                },
+                {
+                  "name": "current",
+                  "op": "var"
+                }
+              ],
+              "name": "AwardWin",
+              "op": "pred"
+            },
+            {
+              "args": [
+                {
+                  "left": {
+                    "args": [
+                      {
+                        "name": "current",
+                        "op": "var"
+                      }
+                    ],
+                    "name": "Time",
+                    "op": "fun"
+                  },
+                  "op": "ge",
+                  "right": {
+                    "op": "int",
+                    "value": 20230000
+                  }
+                },
+                {
+                  "left": {
+                    "args": [
+                      {
+                        "name": "current",
+                        "op": "var"
+                      }
+                    ],
+                    "name": "Time",
+                    "op": "fun"
+                  },
+                  "op": "lt",
+                  "right": {
+                    "op": "int",
+                    "value": 20240000
+                  }
+                }
+              ],
+              "op": "and"
+            }
+          ],
+          "op": "and"
+        },
+        "op": "exists",
+        "variables": [
+          {
+            "name": "current",
+            "type": "Event"
+          }
+        ]
+      },
+      "source_quote": "Tim Burton won the Academy Award for Best Animated Feature in 2023."
+    }
+  ],
+  "notes": [],
+  "status": "OK",
+  "symbols": {
+    "constants": [
+      {
+        "aliases": [],
+        "name": "Tim",
+        "type": "Person"
+      }
+    ],
+    "functions": [
+      {
+        "arg_types": [
+          "Event"
+        ],
+        "name": "Time",
+        "return_type": "Int"
+      }
+    ],
+    "predicates": [
+      {
+        "arg_types": [
+          "Person",
+          "Event"
+        ],
+        "name": "AwardWin"
+      }
+    ]
+  }
+}

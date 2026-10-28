@@ -96,6 +96,8 @@ powershell -ExecutionPolicy Bypass -File scripts/start_local_server.ps1
 
 第三轮已在 RTX 4060 Ti 8GB 与 32GB 内存上完成 Qwen3-14B Q4_K_M 非思考模式的 A14/B14 两组对照，共294次正式生成。采用16/41层CPU/GPU混合卸载，逐字复用第二轮提示词与Schema。挑战集准确率为60.92%/79.31%，基础集为76.67%/80.00%；完整成本、资源限制、错误分析与独立复算见[第三轮结果](experiments/003_model_scaling_14b/RESULTS.md)及[Windows运行说明](experiments/003_model_scaling_14b/README.md)。
 
+第六轮新增一次语义形式化 → JSON AST 校验 → Z3 三分类的独立实验，使用第四轮历史 dev pilot 中冻结的 42 题，并逐题保存语义复核与独立修正 AST。见[第六轮说明](experiments/006_symbolic_z3/README.md)、[结果](experiments/006_symbolic_z3/RESULTS.md)与[错误分析](experiments/006_symbolic_z3/ANALYSIS.md)。
+
 ## 开发约定
 
 - 原始数据保存在 `data/raw/`，不要手工修改；划分结果通过脚本生成。

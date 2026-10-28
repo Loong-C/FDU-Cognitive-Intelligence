@@ -1,0 +1,19 @@
+{
+  "constraints": {
+    "claim": "(= 2023 (functions_DescribedMVPReclaimYear entity_Patrick))",
+    "evidence": [
+      "(= 2017 (functions_DraftYear entity_Patrick))",
+      "(= (functions_FirstSuperBowlYear entity_Patrick)\n   (+ (functions_DraftYear entity_Patrick) 2))",
+      "(> (functions_DescribedMVPReclaimYear entity_Patrick)\n   (functions_FirstSuperBowlYear entity_Patrick))",
+      "(<= (functions_DescribedMVPReclaimYear entity_Patrick)\n    (+ (functions_FirstSuperBowlYear entity_Patrick) 3))"
+    ]
+  },
+  "label": "REFUTES",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "unsat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.010331099852919579,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

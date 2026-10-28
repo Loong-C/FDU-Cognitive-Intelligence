@@ -1,0 +1,144 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "billGates",
+            "op": "const"
+          },
+          {
+            "name": "nationalBookAward",
+            "op": "const"
+          },
+          {
+            "op": "int",
+            "value": 1998
+          }
+        ],
+        "name": "wonAward",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "billGates",
+              "op": "const"
+            },
+            {
+              "name": "robertGates",
+              "op": "const"
+            },
+            {
+              "name": "chicago",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 1992
+            }
+          ],
+          "name": "movedTo",
+          "op": "pred"
+        },
+        "source_quote": "Bill Gates and his brother Robert Gates moved to Chicago in 1992."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "robertGates",
+              "op": "const"
+            },
+            {
+              "name": "nationalBookAward",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 1998
+            }
+          ],
+          "name": "wonAward",
+          "op": "pred"
+        },
+        "source_quote": "In 1998, Robert Gates won a National Book Award."
+      }
+    ],
+    "notes": [
+      "The evidence states that Robert Gates won the award, not Bill Gates.",
+      "The claim asserts Bill Gates won the award, which is not supported by the evidence."
+    ],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Bill Gates"
+          ],
+          "name": "billGates",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "Robert Gates"
+          ],
+          "name": "robertGates",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "Chicago"
+          ],
+          "name": "chicago",
+          "type": "Place"
+        },
+        {
+          "aliases": [
+            "National Book Award"
+          ],
+          "name": "nationalBookAward",
+          "type": "Award"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Person",
+            "Place",
+            "Int"
+          ],
+          "name": "movedTo"
+        },
+        {
+          "arg_types": [
+            "Person",
+            "Award",
+            "Int"
+          ],
+          "name": "wonAward"
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "claim": "(predicates_wonAward entity_billGates entity_nationalBookAward 1998)",
+    "evidence": [
+      "(predicates_movedTo entity_billGates entity_robertGates entity_chicago 1992)",
+      "(predicates_wonAward entity_robertGates entity_nationalBookAward 1998)"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.005430400371551514,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

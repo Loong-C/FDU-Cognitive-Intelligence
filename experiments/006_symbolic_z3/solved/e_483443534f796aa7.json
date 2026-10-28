@@ -1,0 +1,77 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "vladimir_lenin",
+            "op": "const"
+          },
+          {
+            "op": "int",
+            "value": 1887
+          }
+        ],
+        "name": "wonLocalChessTournament",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "vladimir_lenin",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 1887
+            }
+          ],
+          "name": "wonLocalChessTournament",
+          "op": "pred"
+        },
+        "source_quote": "In 1887, Vladimir won a local chess tournament."
+      }
+    ],
+    "notes": [],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Vladimir Lenin",
+            "Vladimir"
+          ],
+          "name": "vladimir_lenin",
+          "type": "Person"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Int"
+          ],
+          "name": "wonLocalChessTournament"
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "claim": "(predicates_wonLocalChessTournament entity_vladimir_lenin 1887)",
+    "evidence": [
+      "(predicates_wonLocalChessTournament entity_vladimir_lenin 1887)"
+    ]
+  },
+  "label": "SUPPORTS",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "unsat",
+  "solve_seconds": 0.0027481000870466232,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

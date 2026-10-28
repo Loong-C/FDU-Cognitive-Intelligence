@@ -1,0 +1,66 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "teddy_swims",
+            "op": "const"
+          },
+          {
+            "name": "the_swims",
+            "op": "const"
+          },
+          {
+            "op": "int",
+            "value": 2020
+          }
+        ],
+        "name": "isLeadSingerOf",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "teddy_swims",
+              "op": "const"
+            },
+            {
+              "name": "the_swims",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 2018
+            }
+          ],
+          "name": "isLeadSingerOf",
+          "op": "pred"
+        },
+        "source_quote": "Teddy Swims was still serving as lead singer of The Swims in 2018."
+      }
+    ],
+    "notes": [
+      "The evidence establishes the role in 2018 but does not provide information about the role in 2020.",
+      "The claim asserts the role in 2020, which is not supported by the provided evidence."
+    ],
+    "status": "UNSUPPORTED",
+    "symbols": {
+      "constants": [],
+      "functions": [],
+      "predicates": []
+    }
+  },
+  "constraints": null,
+  "label": "UNSUPPORTED",
+  "reason": "InvalidAST: UNSUPPORTED requires empty symbols/evidence and null claim",
+  "sat_e": null,
+  "sat_e_c": null,
+  "sat_e_not_c": null,
+  "solve_seconds": 0.000861000269651413,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

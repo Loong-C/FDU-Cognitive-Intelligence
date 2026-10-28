@@ -1,0 +1,556 @@
+{
+  "completion": {
+    "actual_model_id": "qwen/qwen3.8-27b",
+    "attempts": [
+      {
+        "charged_tokens": 1287,
+        "continuation_policy_sha256": "aa6469e2c44d1670364d8ad86f7a0718a59725cbf5d7f92723a42835503a313d",
+        "http_status": 200,
+        "quota_policy": "provider_enforced_free",
+        "rate_limits": {
+          "x-ratelimit-limit-requests": "1000",
+          "x-ratelimit-limit-tokens": "8000",
+          "x-ratelimit-remaining-requests": "983",
+          "x-ratelimit-remaining-tokens": "5915",
+          "x-ratelimit-reset-requests": "24m28.8s",
+          "x-ratelimit-reset-tokens": "15.637s"
+        },
+        "request_id_sha256": "f552e237e3949529b7360c0e492ccba2623a4b5b71d9662b349516cab922bda7",
+        "request_sha256": "5224ed00be7226903018b24a6ec1494dfb8dbb57f6cc33d73364e9cf3495c5c4",
+        "requested_at": "2026-10-28T00:33:59.130669+00:00",
+        "reservation_tokens": 15264,
+        "responded_at": "2026-10-28T00:34:00.282715+00:00",
+        "status": "received",
+        "timestamp": 1793147639.1306694,
+        "usage": {
+          "completion_time": 0.182139893,
+          "completion_tokens": 86,
+          "prompt_time": 0.082690498,
+          "prompt_tokens": 1201,
+          "queue_time": 0.07506735,
+          "total_time": 0.264830391,
+          "total_tokens": 1287
+        }
+      }
+    ],
+    "finish_reason": "stop",
+    "latency_seconds": 58.51392650604248,
+    "nonthinking_validation": {
+      "issues": [],
+      "passed": true,
+      "policy": "inspect_raw_no_stripping_v1"
+    },
+    "provider_validation_issues": [],
+    "raw_non_json_body": null,
+    "raw_response": "{\"claim\": null, \"evidence\": [], \"notes\": [\"The evidence lists Pauline and Alex as siblings of Timothée Chalamet and states he has three siblings, but it does not mention a sibling named Gabriel. Therefore, the claim cannot be supported by the provided text.\"], \"status\": \"UNSUPPORTED\", \"symbols\": {\"constants\": [], \"functions\": [], \"predicates\": []}}",
+    "request_payload": {
+      "max_completion_tokens": 4096,
+      "messages": [
+        {
+          "content": "You are a semantic formalizer, not a fact checker. Translate the supplied EVIDENCE and CLAIM into a small typed logical JSON AST that follows the provided schema.\n\nRepresent only facts and constraints supported by the source text. Formalize the claim separately from the evidence; never infer the answer label. Preserve negation scope, quantifiers, uniqueness, dates, exact quantities, identities, presuppositions, and attribution. An allegation or denial is a fact about a report or speaker, not automatically a fact about the reported event. Do not assume unnamed people or events are absent. Do not merge distinct awards or events merely because their descriptions are similar.\n\nUse explicit existential variables for indefinite noun phrases; use universal constraints only when the text warrants exclusivity. Keep all necessary facts relevant to the claim, and attach an exact evidence quote to each evidence formula. If the intended meaning cannot be represented faithfully with the available operators, return status UNSUPPORTED. Do not use external biographical facts.\n\nReturn only the schema-conforming JSON object. Do not produce a verdict, a world narrative, Python, or Z3 code.\n\nDSL v6 specification (fixed for all inputs):\nTypes are case-sensitive names inferred from declarations; Int is the integer sort. Other names are uninterpreted nonempty entity sorts (e.g. Person, Award, Event, Place, Proposition). Bool is reserved. Use integer literals, not Int constants. Functions have declared argument types and return Int; use single-valued attributes for birth years, event years and event counts. Predicates return truth values. Declare every symbol used by evidence or claim.\nConstants have canonical names, types and alias strings referring to that SAME entity. An alias must not collide with another declaration. Different constant names do NOT automatically imply inequality: explicitly use ne with a source quote for textually distinct people/entities. Do not add global unique-name or closed-domain assumptions. A claim-only entity has no evidence facts unless warranted by the evidence.\nTerms: const/var have name; int has value; fun has name and args; add/sub have left and right integer terms. Formulas: pred has name and term args; not has arg; and/or have at least two formula args; implies has left/right formulas; eq/ne/lt/le/gt/ge compare left/right terms; exists/forall have variables (name,type) and body. Variables must be bound, and nested quantifiers must use fresh names. Existential witnesses in separate formulas are independent. All evidence formulas are conjoined. Quantifiers range over open sorts, never just declared constants. A source_quote must be an exact, nonempty, contiguous substring of EVIDENCE; it is provenance, not executable logic.\nRepresent allegations/denials as predicates about speakers and Proposition entities, without asserting or negating the reported event unless evidence independently warrants it. Represent uncertain reference by disjunction over warranted alternatives. An exhaustive list needs a universally quantified restriction; an open list does not. Only/unique constraints need their full person, award, event and time scope. Again/first/second need prior-occurrence or no-earlier-occurrence constraints when relevant. Keep appointment intervals separate from event years. Claim formulas must preserve the same relations and scopes used in evidence.\nFor UNSUPPORTED use empty constants, predicates, functions and evidence arrays, null claim, and explanatory notes. For OK supply nonempty evidence and a claim formula. Notes are explanatory only and cannot repair missing formulas. Do not put a verdict in any field.\n",
+          "role": "system"
+        },
+        {
+          "content": "EVIDENCE:\nTimothée Hal Chalamet (born December 27, 1995) is an American and French actor. Timothée Chalamet has three siblings, including Pauline and Alex. Known for his work in a diverse range of films, he is the recipient of numerous accolades including an Actor Award, a Golden Globe Award, and two Critics' Choice Awards, in addition to nominations for four Academy Awards, six BAFTAs, and a Grammy Award. His films as a leading actor have grossed over US$2.3 billion worldwide.\nChalamet began his career in television, appearing in the drama series Homeland. In 2014, while a student at Columbia University, he made his film debut in the comedy-drama Men, Women & Children and appeared in Christopher Nolan's science fiction film Interstellar. Chalamet came to international attention with the lead role of a lovestruck teenager in Luca Guadagnino's coming-of-age film Call Me by Your Name (2017), earning him his first nomination for the Academy Award for Best Actor, and becoming the third-youngest nominee in the category. He gained further recognition for his supporting roles in Greta Gerwig's films Lady Bird (2017) and Little Women (2019), as well as for portraying Nic Sheff in the biopic Beautiful Boy (2018).\nChalamet began leading big-budget films, starring as Paul Atreides in Denis Villeneuve's Dune trilogy and Willy Wonka in the musical fantasy film Wonka (2023). He earned consecutive Academy Award nominations for his portrayal of Bob Dylan in the biographical drama A Complete Unknown (2024) and his starring role as a table tennis player in Josh Safdie's sports comedy film Marty Supreme (2025). The former also earned him the SAG Award for Best Actor, while the latter won him the Critics' Choice Award and Golden Globe Award for Best Actor, making him the youngest recipient of each award.\n\nCLAIM:\nGabriel is one of Timothée Chalamet's siblings.\n\nTranslate these into the predefined logical JSON AST. Preserve the original meaning and include only relevant evidence constraints. Output JSON only.\n",
+          "role": "user"
+        }
+      ],
+      "model": "qwen/qwen3.8-27b",
+      "reasoning_effort": "none",
+      "response_format": {
+        "json_schema": {
+          "name": "semantic_ast_v6",
+          "schema": {
+            "$defs": {
+              "formula": {
+                "anyOf": [
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "args": {
+                        "items": {
+                          "$ref": "#/$defs/term"
+                        },
+                        "minItems": 0,
+                        "type": "array"
+                      },
+                      "name": {
+                        "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                        "type": "string"
+                      },
+                      "op": {
+                        "enum": [
+                          "pred"
+                        ],
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "name",
+                      "args"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "arg": {
+                        "$ref": "#/$defs/formula"
+                      },
+                      "op": {
+                        "enum": [
+                          "not"
+                        ],
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "arg"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "args": {
+                        "items": {
+                          "$ref": "#/$defs/formula"
+                        },
+                        "minItems": 2,
+                        "type": "array"
+                      },
+                      "op": {
+                        "enum": [
+                          "and",
+                          "or"
+                        ],
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "args"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "left": {
+                        "$ref": "#/$defs/formula"
+                      },
+                      "op": {
+                        "enum": [
+                          "implies"
+                        ],
+                        "type": "string"
+                      },
+                      "right": {
+                        "$ref": "#/$defs/formula"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "left",
+                      "right"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "left": {
+                        "$ref": "#/$defs/term"
+                      },
+                      "op": {
+                        "enum": [
+                          "eq",
+                          "ne",
+                          "lt",
+                          "le",
+                          "gt",
+                          "ge"
+                        ],
+                        "type": "string"
+                      },
+                      "right": {
+                        "$ref": "#/$defs/term"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "left",
+                      "right"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "body": {
+                        "$ref": "#/$defs/formula"
+                      },
+                      "op": {
+                        "enum": [
+                          "exists",
+                          "forall"
+                        ],
+                        "type": "string"
+                      },
+                      "variables": {
+                        "items": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "name": {
+                              "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                              "type": "string"
+                            },
+                            "type": {
+                              "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "name",
+                            "type"
+                          ],
+                          "type": "object"
+                        },
+                        "minItems": 1,
+                        "type": "array"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "variables",
+                      "body"
+                    ],
+                    "type": "object"
+                  }
+                ]
+              },
+              "term": {
+                "anyOf": [
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "name": {
+                        "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                        "type": "string"
+                      },
+                      "op": {
+                        "enum": [
+                          "const",
+                          "var"
+                        ],
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "name"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "op": {
+                        "enum": [
+                          "int"
+                        ],
+                        "type": "string"
+                      },
+                      "value": {
+                        "type": "integer"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "value"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "left": {
+                        "$ref": "#/$defs/term"
+                      },
+                      "op": {
+                        "enum": [
+                          "add",
+                          "sub"
+                        ],
+                        "type": "string"
+                      },
+                      "right": {
+                        "$ref": "#/$defs/term"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "left",
+                      "right"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "args": {
+                        "items": {
+                          "$ref": "#/$defs/term"
+                        },
+                        "minItems": 0,
+                        "type": "array"
+                      },
+                      "name": {
+                        "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                        "type": "string"
+                      },
+                      "op": {
+                        "enum": [
+                          "fun"
+                        ],
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "name",
+                      "args"
+                    ],
+                    "type": "object"
+                  }
+                ]
+              }
+            },
+            "additionalProperties": false,
+            "properties": {
+              "claim": {
+                "anyOf": [
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "formula": {
+                        "$ref": "#/$defs/formula"
+                      }
+                    },
+                    "required": [
+                      "formula"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "evidence": {
+                "items": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "formula": {
+                      "$ref": "#/$defs/formula"
+                    },
+                    "source_quote": {
+                      "minLength": 1,
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "source_quote",
+                    "formula"
+                  ],
+                  "type": "object"
+                },
+                "minItems": 0,
+                "type": "array"
+              },
+              "notes": {
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 0,
+                "type": "array"
+              },
+              "status": {
+                "enum": [
+                  "OK",
+                  "UNSUPPORTED"
+                ],
+                "type": "string"
+              },
+              "symbols": {
+                "additionalProperties": false,
+                "properties": {
+                  "constants": {
+                    "items": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "aliases": {
+                          "items": {
+                            "type": "string"
+                          },
+                          "minItems": 0,
+                          "type": "array"
+                        },
+                        "name": {
+                          "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                          "type": "string"
+                        },
+                        "type": {
+                          "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "type",
+                        "aliases"
+                      ],
+                      "type": "object"
+                    },
+                    "minItems": 0,
+                    "type": "array"
+                  },
+                  "functions": {
+                    "items": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "arg_types": {
+                          "items": {
+                            "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                            "type": "string"
+                          },
+                          "minItems": 0,
+                          "type": "array"
+                        },
+                        "name": {
+                          "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                          "type": "string"
+                        },
+                        "return_type": {
+                          "enum": [
+                            "Int"
+                          ],
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "arg_types",
+                        "return_type"
+                      ],
+                      "type": "object"
+                    },
+                    "minItems": 0,
+                    "type": "array"
+                  },
+                  "predicates": {
+                    "items": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "arg_types": {
+                          "items": {
+                            "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                            "type": "string"
+                          },
+                          "minItems": 0,
+                          "type": "array"
+                        },
+                        "name": {
+                          "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "arg_types"
+                      ],
+                      "type": "object"
+                    },
+                    "minItems": 0,
+                    "type": "array"
+                  }
+                },
+                "required": [
+                  "constants",
+                  "predicates",
+                  "functions"
+                ],
+                "type": "object"
+              }
+            },
+            "required": [
+              "status",
+              "symbols",
+              "evidence",
+              "claim",
+              "notes"
+            ],
+            "type": "object"
+          },
+          "strict": true
+        },
+        "type": "json_schema"
+      },
+      "seed": 42,
+      "stream": false,
+      "temperature": 0
+    },
+    "requested_at": "2026-10-28T00:33:59.130669+00:00",
+    "responded_at": "2026-10-28T00:34:00.282715+00:00",
+    "response_id_sha256": "409edb81e3103362765d23306d2f6aed8944c56ebf1b10d3c53bd63c150ce650",
+    "response_json": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"claim\": null, \"evidence\": [], \"notes\": [\"The evidence lists Pauline and Alex as siblings of Timothée Chalamet and states he has three siblings, but it does not mention a sibling named Gabriel. Therefore, the claim cannot be supported by the provided text.\"], \"status\": \"UNSUPPORTED\", \"symbols\": {\"constants\": [], \"functions\": [], \"predicates\": []}}",
+            "role": "assistant"
+          }
+        }
+      ],
+      "created": 1793147640,
+      "model": "qwen/qwen3.8-27b",
+      "object": "chat.completion",
+      "response_id_sha256": "409edb81e3103362765d23306d2f6aed8944c56ebf1b10d3c53bd63c150ce650",
+      "service_tier": "on_demand",
+      "system_fingerprint": "fp_a1293f40b5",
+      "usage": {
+        "completion_time": 0.182139893,
+        "completion_tokens": 86,
+        "prompt_time": 0.082690498,
+        "prompt_tokens": 1201,
+        "queue_time": 0.07506735,
+        "total_time": 0.264830391,
+        "total_tokens": 1287
+      },
+      "usage_breakdown": null,
+      "x_groq": {
+        "id": "req_01m5zyv5y3en4tfaagxf8cd7gt",
+        "seed": 42
+      }
+    },
+    "system_fingerprint": "fp_a1293f40b5",
+    "usage": {
+      "completion_time": 0.182139893,
+      "completion_tokens": 86,
+      "prompt_time": 0.082690498,
+      "prompt_tokens": 1201,
+      "queue_time": 0.07506735,
+      "total_time": 0.264830391,
+      "total_tokens": 1287
+    }
+  },
+  "completion_sha256": "d6530d3770fc711f0adb9caea98685d86d4111ab56253c82f791da616ee61b2a",
+  "id": "e_5ff5c26795797690",
+  "input_sha256": "1cee1bf6f215103c16b45f284a345117407a4ee4c9ee0b7e673846e774c759f3",
+  "request_sha256": "54fe1fd99576007c944d06ef92999f57dbb178e70c105a5de7e44a49e2b281a8"
+}

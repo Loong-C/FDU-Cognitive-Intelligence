@@ -1,0 +1,92 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "oasis_band",
+            "op": "const"
+          },
+          {
+            "name": "knebworth_1996",
+            "op": "const"
+          },
+          {
+            "op": "int",
+            "value": 125010
+          }
+        ],
+        "name": "drewMoreThan",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "oasis_band",
+              "op": "const"
+            },
+            {
+              "name": "knebworth_1996",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 125010
+            }
+          ],
+          "name": "drewMoreThan",
+          "op": "pred"
+        },
+        "source_quote": "Oasis drew an audience of more than 125010 people to their 1996 Knebworth concert."
+      }
+    ],
+    "notes": [],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Oasis"
+          ],
+          "name": "oasis_band",
+          "type": "Band"
+        },
+        {
+          "aliases": [
+            "1996 Knebworth concert"
+          ],
+          "name": "knebworth_1996",
+          "type": "Concert"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Band",
+            "Concert",
+            "Int"
+          ],
+          "name": "drewMoreThan"
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "claim": "(predicates_drewMoreThan entity_oasis_band entity_knebworth_1996 125010)",
+    "evidence": [
+      "(predicates_drewMoreThan entity_oasis_band entity_knebworth_1996 125010)"
+    ]
+  },
+  "label": "SUPPORTS",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "unsat",
+  "solve_seconds": 0.003041299991309643,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

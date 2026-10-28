@@ -1,0 +1,142 @@
+{
+  "claim": {
+    "formula": {
+      "body": {
+        "args": [
+          {
+            "args": [
+              {
+                "name": "ca",
+                "op": "var"
+              }
+            ],
+            "name": "AwardKind",
+            "op": "pred"
+          },
+          {
+            "args": [
+              {
+                "name": "Vladimir",
+                "op": "const"
+              },
+              {
+                "name": "ca",
+                "op": "var"
+              },
+              {
+                "op": "int",
+                "value": 1887
+              }
+            ],
+            "name": "Won",
+            "op": "pred"
+          }
+        ],
+        "op": "and"
+      },
+      "op": "exists",
+      "variables": [
+        {
+          "name": "ca",
+          "type": "Award"
+        }
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "formula": {
+        "left": {
+          "name": "Vladimir",
+          "op": "const"
+        },
+        "op": "ne",
+        "right": {
+          "name": "Alexander",
+          "op": "const"
+        }
+      },
+      "source_quote": "The Soviet Union, officially the Union of Soviet Socialist Republics (USSR), was a transcontinental country that spanned much of Eurasia from its formation in 1922 until its dissolution in 1991. It was the world's third-most populous country, the largest by area, and bordered twelve other countries. A diverse multinational state, it was organized as a federal union of national republics, with the largest and most populous being the Russian Soviet Federative Socialist Republic (SFSR). The world's flagship communist state, it was governed by the Communist Party under Marxism–Leninism, through soviet councils. The Soviet economy was also centrally planned. Its capital and largest city was Moscow.\nThe Soviet Union's roots lay in the October Revolution of 1917. The new government, led by Vladimir Lenin, established the Russian SFSR, the world's first constitutionally communist state. Following the Bolshevik victory in the Russian Civil War, the Russian SFSR and its subordinate republics were merged into the Soviet Union in 1922. Following Lenin's death in 1924, a six-year power struggle saw Joseph Stalin emerge as the country's undisputed personalist ruler. Vladimir Lenin and his brother Alexander Ulyanov studied at the Saint Petersburg State University in 1886. In 1887, Alexander Ulyanov won a local chess tournament. He initiated rapid industrialization and forced collectivization that led to significant growth, but contributed to a devastating famine in the 1930s that killed millions. The Soviet forced labour camp system, known as the Gulag, was expanded. During the late 1930s, Stalin's government conducted the Great Purge to eliminate opposition, resulting in deportations, executions, and the Moscow trials. Failing to build an anti-Nazi coalition in Europe, the Soviet Union signed a non-aggression pact with Nazi Germany in 1939. However, in 1941, Germany invaded the Soviet Union in the largest land invasion in history, opening the Eastern Front of World War II. The Soviet Union played a decisive role in defeating the Axis powers as part of the Allies, while extending its sphere of influence to Central and Eastern Europe. With around 27 million casualties, it suffered the most deaths of any country in World War II. In the war's aftermath, the Soviet Union consolidated the territories occupied by the Red Army into satellite states and undertook rapid economic development, cementing its status as a superpower."
+    },
+    {
+      "formula": {
+        "body": {
+          "args": [
+            {
+              "args": [
+                {
+                  "name": "ea",
+                  "op": "var"
+                }
+              ],
+              "name": "AwardKind",
+              "op": "pred"
+            },
+            {
+              "args": [
+                {
+                  "name": "Alexander",
+                  "op": "const"
+                },
+                {
+                  "name": "ea",
+                  "op": "var"
+                },
+                {
+                  "op": "int",
+                  "value": 1887
+                }
+              ],
+              "name": "Won",
+              "op": "pred"
+            }
+          ],
+          "op": "and"
+        },
+        "op": "exists",
+        "variables": [
+          {
+            "name": "ea",
+            "type": "Award"
+          }
+        ]
+      },
+      "source_quote": "The Soviet Union, officially the Union of Soviet Socialist Republics (USSR), was a transcontinental country that spanned much of Eurasia from its formation in 1922 until its dissolution in 1991. It was the world's third-most populous country, the largest by area, and bordered twelve other countries. A diverse multinational state, it was organized as a federal union of national republics, with the largest and most populous being the Russian Soviet Federative Socialist Republic (SFSR). The world's flagship communist state, it was governed by the Communist Party under Marxism–Leninism, through soviet councils. The Soviet economy was also centrally planned. Its capital and largest city was Moscow.\nThe Soviet Union's roots lay in the October Revolution of 1917. The new government, led by Vladimir Lenin, established the Russian SFSR, the world's first constitutionally communist state. Following the Bolshevik victory in the Russian Civil War, the Russian SFSR and its subordinate republics were merged into the Soviet Union in 1922. Following Lenin's death in 1924, a six-year power struggle saw Joseph Stalin emerge as the country's undisputed personalist ruler. Vladimir Lenin and his brother Alexander Ulyanov studied at the Saint Petersburg State University in 1886. In 1887, Alexander Ulyanov won a local chess tournament. He initiated rapid industrialization and forced collectivization that led to significant growth, but contributed to a devastating famine in the 1930s that killed millions. The Soviet forced labour camp system, known as the Gulag, was expanded. During the late 1930s, Stalin's government conducted the Great Purge to eliminate opposition, resulting in deportations, executions, and the Moscow trials. Failing to build an anti-Nazi coalition in Europe, the Soviet Union signed a non-aggression pact with Nazi Germany in 1939. However, in 1941, Germany invaded the Soviet Union in the largest land invasion in history, opening the Eastern Front of World War II. The Soviet Union played a decisive role in defeating the Axis powers as part of the Allies, while extending its sphere of influence to Central and Eastern Europe. With around 27 million casualties, it suffered the most deaths of any country in World War II. In the war's aftermath, the Soviet Union consolidated the territories occupied by the Red Army into satellite states and undertook rapid economic development, cementing its status as a superpower."
+    }
+  ],
+  "notes": [
+    "Award witnesses are independent; the other person's success adds no negative fact about the claimant."
+  ],
+  "status": "OK",
+  "symbols": {
+    "constants": [
+      {
+        "aliases": [],
+        "name": "Vladimir",
+        "type": "Person"
+      },
+      {
+        "aliases": [],
+        "name": "Alexander",
+        "type": "Person"
+      }
+    ],
+    "functions": [],
+    "predicates": [
+      {
+        "arg_types": [
+          "Person",
+          "Award",
+          "Int"
+        ],
+        "name": "Won"
+      },
+      {
+        "arg_types": [
+          "Award"
+        ],
+        "name": "AwardKind"
+      }
+    ]
+  }
+}

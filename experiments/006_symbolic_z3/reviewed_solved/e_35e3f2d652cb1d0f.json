@@ -1,0 +1,17 @@
+{
+  "constraints": {
+    "claim": "(exists ((bound_ca type_Award) (bound_caYear Int))\n  (and (predicates_AwardKind bound_ca)\n       (predicates_Won entity_KritiSanon bound_ca bound_caYear)))",
+    "evidence": [
+      "(distinct entity_KritiSanon entity_KritiMalhotra)",
+      "(exists ((bound_ea type_Award) (bound_eaYear Int))\n  (and (predicates_AwardKind bound_ea)\n       (predicates_Won entity_KritiMalhotra bound_ea bound_eaYear)))"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.005249399691820145,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

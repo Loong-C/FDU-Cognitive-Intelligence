@@ -1,0 +1,172 @@
+{
+  "claim": {
+    "formula": {
+      "left": {
+        "args": [
+          {
+            "name": "Patrick",
+            "op": "const"
+          }
+        ],
+        "name": "DescribedMVPReclaimYear",
+        "op": "fun"
+      },
+      "op": "eq",
+      "right": {
+        "op": "int",
+        "value": 2023
+      }
+    }
+  },
+  "evidence": [
+    {
+      "formula": {
+        "left": {
+          "args": [
+            {
+              "name": "Patrick",
+              "op": "const"
+            }
+          ],
+          "name": "DraftYear",
+          "op": "fun"
+        },
+        "op": "eq",
+        "right": {
+          "op": "int",
+          "value": 2017
+        }
+      },
+      "source_quote": "In 2017, Patrick Mahomes was drafted by the Chiefs."
+    },
+    {
+      "formula": {
+        "left": {
+          "args": [
+            {
+              "name": "Patrick",
+              "op": "const"
+            }
+          ],
+          "name": "FirstSuperBowlYear",
+          "op": "fun"
+        },
+        "op": "eq",
+        "right": {
+          "left": {
+            "args": [
+              {
+                "name": "Patrick",
+                "op": "const"
+              }
+            ],
+            "name": "DraftYear",
+            "op": "fun"
+          },
+          "op": "add",
+          "right": {
+            "op": "int",
+            "value": 2
+          }
+        }
+      },
+      "source_quote": "Two years later, he won his first Super Bowl."
+    },
+    {
+      "formula": {
+        "left": {
+          "args": [
+            {
+              "name": "Patrick",
+              "op": "const"
+            }
+          ],
+          "name": "DescribedMVPReclaimYear",
+          "op": "fun"
+        },
+        "op": "gt",
+        "right": {
+          "args": [
+            {
+              "name": "Patrick",
+              "op": "const"
+            }
+          ],
+          "name": "FirstSuperBowlYear",
+          "op": "fun"
+        }
+      },
+      "source_quote": "In 2017, Patrick Mahomes was drafted by the Chiefs. Two years later, he won his first Super Bowl. Within three years of that, he reclaimed the MVP award."
+    },
+    {
+      "formula": {
+        "left": {
+          "args": [
+            {
+              "name": "Patrick",
+              "op": "const"
+            }
+          ],
+          "name": "DescribedMVPReclaimYear",
+          "op": "fun"
+        },
+        "op": "le",
+        "right": {
+          "left": {
+            "args": [
+              {
+                "name": "Patrick",
+                "op": "const"
+              }
+            ],
+            "name": "FirstSuperBowlYear",
+            "op": "fun"
+          },
+          "op": "add",
+          "right": {
+            "op": "int",
+            "value": 3
+          }
+        }
+      },
+      "source_quote": "Within three years of that, he reclaimed the MVP award."
+    }
+  ],
+  "notes": [
+    "The claim refers to the described reclaim event, not a hypothetical additional reclaim. Prior MVP holding is background to reclaim and does not fix its year."
+  ],
+  "status": "OK",
+  "symbols": {
+    "constants": [
+      {
+        "aliases": [],
+        "name": "Patrick",
+        "type": "Person"
+      }
+    ],
+    "functions": [
+      {
+        "arg_types": [
+          "Person"
+        ],
+        "name": "DraftYear",
+        "return_type": "Int"
+      },
+      {
+        "arg_types": [
+          "Person"
+        ],
+        "name": "FirstSuperBowlYear",
+        "return_type": "Int"
+      },
+      {
+        "arg_types": [
+          "Person"
+        ],
+        "name": "DescribedMVPReclaimYear",
+        "return_type": "Int"
+      }
+    ],
+    "predicates": []
+  }
+}

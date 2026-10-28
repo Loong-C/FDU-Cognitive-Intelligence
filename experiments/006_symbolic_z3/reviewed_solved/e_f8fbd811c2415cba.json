@@ -1,0 +1,16 @@
+{
+  "constraints": {
+    "claim": "(predicates_Serves entity_Jamie entity_Leicester 2026)",
+    "evidence": [
+      "(forall ((bound_year Int))\n  (=> (or (and (<= 2023 bound_year) (>= 2025 bound_year))\n          (and (<= 2026 bound_year) (>= 2027 bound_year)))\n      (predicates_Serves entity_Jamie entity_Leicester bound_year)))"
+    ]
+  },
+  "label": "SUPPORTS",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "unsat",
+  "solve_seconds": 0.015293600037693977,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

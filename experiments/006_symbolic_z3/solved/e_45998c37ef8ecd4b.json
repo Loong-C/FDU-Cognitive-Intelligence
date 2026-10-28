@@ -1,0 +1,127 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "wizard_of_oz_const",
+            "op": "const"
+          },
+          {
+            "op": "int",
+            "value": 1939
+          },
+          {
+            "op": "int",
+            "value": 8
+          },
+          {
+            "op": "int",
+            "value": 10
+          }
+        ],
+        "name": "premiered_on",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "wizard_of_oz_const",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 1939
+            },
+            {
+              "op": "int",
+              "value": 8
+            },
+            {
+              "op": "int",
+              "value": 10
+            }
+          ],
+          "name": "scheduled_to_premiere_on",
+          "op": "pred"
+        },
+        "source_quote": "The Wizard of Oz was scheduled to premiere on August 10, 1939"
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "wizard_of_oz_const",
+              "op": "const"
+            }
+          ],
+          "name": "was_delayed",
+          "op": "pred"
+        },
+        "source_quote": "before a delay pushed it back"
+      }
+    ],
+    "notes": [
+      "The evidence states the premiere was 'scheduled' for August 10, 1939, but was delayed. It does not state the actual premiere date.",
+      "The claim asserts the actual premiere date was August 10, 1939.",
+      "The evidence does not support the claim that the actual premiere occurred on the scheduled date; in fact, the mention of a delay suggests it did not."
+    ],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "The Wizard of Oz"
+          ],
+          "name": "wizard_of_oz_const",
+          "type": "Film"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Film",
+            "Int",
+            "Int",
+            "Int"
+          ],
+          "name": "scheduled_to_premiere_on"
+        },
+        {
+          "arg_types": [
+            "Film",
+            "Int",
+            "Int",
+            "Int"
+          ],
+          "name": "premiered_on"
+        },
+        {
+          "arg_types": [
+            "Film"
+          ],
+          "name": "was_delayed"
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "claim": "(predicates_premiered_on entity_wizard_of_oz_const 1939 8 10)",
+    "evidence": [
+      "(predicates_scheduled_to_premiere_on entity_wizard_of_oz_const 1939 8 10)",
+      "(predicates_was_delayed entity_wizard_of_oz_const)"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.0031242999248206615,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

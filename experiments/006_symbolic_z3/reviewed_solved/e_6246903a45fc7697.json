@@ -1,0 +1,17 @@
+{
+  "constraints": {
+    "claim": "(= 125000 (functions_Attendance entity_Knebworth1996))",
+    "evidence": [
+      "(<= 0 (functions_Attendance entity_Knebworth1996))",
+      "(and (<= 124990 (functions_Attendance entity_Knebworth1996))\n     (>= 125010 (functions_Attendance entity_Knebworth1996)))"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.007253100164234638,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

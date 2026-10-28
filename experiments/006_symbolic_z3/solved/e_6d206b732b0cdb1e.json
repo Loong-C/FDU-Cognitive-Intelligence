@@ -1,0 +1,118 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "patrickMahomes",
+            "op": "const"
+          },
+          {
+            "op": "int",
+            "value": 2023
+          }
+        ],
+        "name": "reclaimedMvpAward",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "patrickMahomes",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 2017
+            }
+          ],
+          "name": "draftedIn",
+          "op": "pred"
+        },
+        "source_quote": "In 2017, Patrick Mahomes was drafted by the Chiefs."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "patrickMahomes",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 2019
+            }
+          ],
+          "name": "wonFirstSuperBowlIn",
+          "op": "pred"
+        },
+        "source_quote": "Two years later, he won his first Super Bowl."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "patrickMahomes",
+              "op": "const"
+            }
+          ],
+          "name": "reclaimedMvpAward",
+          "op": "pred"
+        },
+        "source_quote": "Some years later, he reclaimed the MVP award."
+      }
+    ],
+    "notes": [
+      "The evidence states Patrick Mahomes was drafted in 2017 and won his first Super Bowl two years later (2019).",
+      "The evidence states he 'reclaimed the MVP award' 'some years later' but does not specify the exact year.",
+      "The claim asserts the specific year 2023, which is not supported by the provided evidence text."
+    ],
+    "status": "UNSUPPORTED",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Patrick Mahomes"
+          ],
+          "name": "patrickMahomes",
+          "type": "Person"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Int"
+          ],
+          "name": "draftedIn"
+        },
+        {
+          "arg_types": [
+            "Person",
+            "Int"
+          ],
+          "name": "wonFirstSuperBowlIn"
+        },
+        {
+          "arg_types": [
+            "Person"
+          ],
+          "name": "reclaimedMvpAward"
+        }
+      ]
+    }
+  },
+  "constraints": null,
+  "label": "UNSUPPORTED",
+  "reason": "InvalidAST: UNSUPPORTED requires empty symbols/evidence and null claim",
+  "sat_e": null,
+  "sat_e_c": null,
+  "sat_e_not_c": null,
+  "solve_seconds": 0.001228800043463707,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

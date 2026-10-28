@@ -1,0 +1,24 @@
+{
+  "ast": {
+    "claim": null,
+    "evidence": [],
+    "notes": [
+      "The evidence states that Barry Keoghan's personal assistant 'flatly denied reports' that he donated the money. It does not confirm the donation occurred. The claim asserts the donation as a fact, which is not supported by the evidence provided; rather, the evidence supports the existence of a denial of that report."
+    ],
+    "status": "UNSUPPORTED",
+    "symbols": {
+      "constants": [],
+      "functions": [],
+      "predicates": []
+    }
+  },
+  "constraints": null,
+  "label": "UNSUPPORTED",
+  "reason": "formalizer_unsupported",
+  "sat_e": null,
+  "sat_e_c": null,
+  "sat_e_not_c": null,
+  "solve_seconds": 0.0004288000054657459,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

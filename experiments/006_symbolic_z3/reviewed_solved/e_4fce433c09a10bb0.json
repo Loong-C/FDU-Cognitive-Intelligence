@@ -1,0 +1,17 @@
+{
+  "constraints": {
+    "claim": "(exists ((bound_ca type_Award))\n  (and (predicates_WomensGermanAmateurChampionship2012 bound_ca)\n       (predicates_Won entity_Xabi bound_ca 2012)))",
+    "evidence": [
+      "(distinct entity_Xabi entity_Elena)",
+      "(exists ((bound_ea type_Award))\n  (and (predicates_AwardKind bound_ea)\n       (predicates_Won entity_Elena bound_ea 2012)))"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.005045400001108646,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

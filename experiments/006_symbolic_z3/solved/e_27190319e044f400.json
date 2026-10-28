@@ -1,0 +1,84 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "gabriel_chalamet",
+            "op": "const"
+          },
+          {
+            "name": "timothee_chalamet",
+            "op": "const"
+          }
+        ],
+        "name": "is_sibling_of",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "gabriel_chalamet",
+              "op": "const"
+            },
+            {
+              "name": "timothee_chalamet",
+              "op": "const"
+            }
+          ],
+          "name": "is_sibling_of",
+          "op": "pred"
+        },
+        "source_quote": "Chalamet's siblings include Pauline, Gabriel and Alex."
+      }
+    ],
+    "notes": [],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Gabriel"
+          ],
+          "name": "gabriel_chalamet",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "Timothée Chalamet",
+            "Timothée Hal Chalamet"
+          ],
+          "name": "timothee_chalamet",
+          "type": "Person"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Person"
+          ],
+          "name": "is_sibling_of"
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "claim": "(predicates_is_sibling_of entity_gabriel_chalamet entity_timothee_chalamet)",
+    "evidence": [
+      "(predicates_is_sibling_of entity_gabriel_chalamet entity_timothee_chalamet)"
+    ]
+  },
+  "label": "SUPPORTS",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "unsat",
+  "solve_seconds": 0.003588000312447548,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

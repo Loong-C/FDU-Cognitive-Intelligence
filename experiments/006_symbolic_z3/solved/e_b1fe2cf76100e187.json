@@ -1,0 +1,104 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "teddy_swims",
+            "op": "const"
+          },
+          {
+            "name": "the_swims",
+            "op": "const"
+          },
+          {
+            "op": "int",
+            "value": 2020
+          }
+        ],
+        "name": "wasLeadSinger",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "teddy_swims",
+              "op": "const"
+            },
+            {
+              "name": "the_swims",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 2015
+            },
+            {
+              "op": "int",
+              "value": 2018
+            }
+          ],
+          "name": "firstTermLeadSinger",
+          "op": "pred"
+        },
+        "source_quote": "Teddy Swims's first term as lead singer of The Swims ran from 2015 to 2018."
+      }
+    ],
+    "notes": [
+      "The evidence specifies the duration of Teddy Swims's first term as lead singer (2015-2018).",
+      "The claim asserts he was lead singer in 2020.",
+      "The evidence does not explicitly state whether he was or was not lead singer in 2020, nor does it state that 2018 was his final term or that he did not return. Therefore, the truth value of the claim cannot be determined from the evidence alone."
+    ],
+    "status": "UNSUPPORTED",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Teddy Swims"
+          ],
+          "name": "teddy_swims",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "The Swims"
+          ],
+          "name": "the_swims",
+          "type": "Band"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Band",
+            "Int",
+            "Int"
+          ],
+          "name": "firstTermLeadSinger"
+        },
+        {
+          "arg_types": [
+            "Person",
+            "Band",
+            "Int"
+          ],
+          "name": "wasLeadSinger"
+        }
+      ]
+    }
+  },
+  "constraints": null,
+  "label": "UNSUPPORTED",
+  "reason": "InvalidAST: UNSUPPORTED requires empty symbols/evidence and null claim",
+  "sat_e": null,
+  "sat_e_c": null,
+  "sat_e_not_c": null,
+  "solve_seconds": 0.0016406001523137093,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

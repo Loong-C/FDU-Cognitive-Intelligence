@@ -1,0 +1,17 @@
+{
+  "constraints": {
+    "claim": "(predicates_Child entity_Charlie entity_Sam)",
+    "evidence": [
+      "(and (predicates_Child entity_Charlie entity_John)\n     (predicates_Child entity_Charlie entity_Sam)\n     (predicates_Child entity_Charlie entity_Mary)\n     (distinct entity_Charlie entity_John)\n     (distinct entity_Charlie entity_Sam)\n     (distinct entity_Charlie entity_Mary)\n     (distinct entity_John entity_Sam)\n     (distinct entity_John entity_Mary)\n     (distinct entity_Sam entity_Mary))",
+      "(forall ((bound_x type_Person))\n  (=> (predicates_Child entity_Charlie bound_x)\n      (or (= bound_x entity_John)\n          (= bound_x entity_Sam)\n          (= bound_x entity_Mary))))"
+    ]
+  },
+  "label": "SUPPORTS",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "unsat",
+  "solve_seconds": 0.012625299859791994,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

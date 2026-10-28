@@ -1,0 +1,13 @@
+{
+  "all_passed": true,
+  "editable_install": "passed with isolated setuptools build",
+  "entrypoint": "ab-symbolic-z3",
+  "fixture_ast_sha256": "70e7e2c02b0ac20e5e9e15a283b7f08a9db4576eefc1c482252a16f9748ee861",
+  "fixture_id": "e_6246903a45fc7697",
+  "solve_label": "NOT ENOUGH INFO",
+  "stages": [
+    "validate",
+    "compile",
+    "solve"
+  ]
+}

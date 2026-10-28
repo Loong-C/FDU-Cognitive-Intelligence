@@ -1,0 +1,239 @@
+{
+  "claim": {
+    "formula": {
+      "args": [
+        {
+          "name": "Charlie",
+          "op": "const"
+        },
+        {
+          "name": "Sam",
+          "op": "const"
+        }
+      ],
+      "name": "Child",
+      "op": "pred"
+    }
+  },
+  "evidence": [
+    {
+      "formula": {
+        "args": [
+          {
+            "args": [
+              {
+                "name": "Charlie",
+                "op": "const"
+              },
+              {
+                "name": "John",
+                "op": "const"
+              }
+            ],
+            "name": "Child",
+            "op": "pred"
+          },
+          {
+            "args": [
+              {
+                "name": "Charlie",
+                "op": "const"
+              },
+              {
+                "name": "Sam",
+                "op": "const"
+              }
+            ],
+            "name": "Child",
+            "op": "pred"
+          },
+          {
+            "args": [
+              {
+                "name": "Charlie",
+                "op": "const"
+              },
+              {
+                "name": "Mary",
+                "op": "const"
+              }
+            ],
+            "name": "Child",
+            "op": "pred"
+          },
+          {
+            "left": {
+              "name": "Charlie",
+              "op": "const"
+            },
+            "op": "ne",
+            "right": {
+              "name": "John",
+              "op": "const"
+            }
+          },
+          {
+            "left": {
+              "name": "Charlie",
+              "op": "const"
+            },
+            "op": "ne",
+            "right": {
+              "name": "Sam",
+              "op": "const"
+            }
+          },
+          {
+            "left": {
+              "name": "Charlie",
+              "op": "const"
+            },
+            "op": "ne",
+            "right": {
+              "name": "Mary",
+              "op": "const"
+            }
+          },
+          {
+            "left": {
+              "name": "John",
+              "op": "const"
+            },
+            "op": "ne",
+            "right": {
+              "name": "Sam",
+              "op": "const"
+            }
+          },
+          {
+            "left": {
+              "name": "John",
+              "op": "const"
+            },
+            "op": "ne",
+            "right": {
+              "name": "Mary",
+              "op": "const"
+            }
+          },
+          {
+            "left": {
+              "name": "Sam",
+              "op": "const"
+            },
+            "op": "ne",
+            "right": {
+              "name": "Mary",
+              "op": "const"
+            }
+          }
+        ],
+        "op": "and"
+      },
+      "source_quote": "Charlie Kirk's three children are John, Sam and Mary."
+    },
+    {
+      "formula": {
+        "body": {
+          "left": {
+            "args": [
+              {
+                "name": "Charlie",
+                "op": "const"
+              },
+              {
+                "name": "x",
+                "op": "var"
+              }
+            ],
+            "name": "Child",
+            "op": "pred"
+          },
+          "op": "implies",
+          "right": {
+            "args": [
+              {
+                "left": {
+                  "name": "x",
+                  "op": "var"
+                },
+                "op": "eq",
+                "right": {
+                  "name": "John",
+                  "op": "const"
+                }
+              },
+              {
+                "left": {
+                  "name": "x",
+                  "op": "var"
+                },
+                "op": "eq",
+                "right": {
+                  "name": "Sam",
+                  "op": "const"
+                }
+              },
+              {
+                "left": {
+                  "name": "x",
+                  "op": "var"
+                },
+                "op": "eq",
+                "right": {
+                  "name": "Mary",
+                  "op": "const"
+                }
+              }
+            ],
+            "op": "or"
+          }
+        },
+        "op": "forall",
+        "variables": [
+          {
+            "name": "x",
+            "type": "Person"
+          }
+        ]
+      },
+      "source_quote": "Charlie Kirk's three children are John, Sam and Mary."
+    }
+  ],
+  "notes": [],
+  "status": "OK",
+  "symbols": {
+    "constants": [
+      {
+        "aliases": [],
+        "name": "Charlie",
+        "type": "Person"
+      },
+      {
+        "aliases": [],
+        "name": "John",
+        "type": "Person"
+      },
+      {
+        "aliases": [],
+        "name": "Sam",
+        "type": "Person"
+      },
+      {
+        "aliases": [],
+        "name": "Mary",
+        "type": "Person"
+      }
+    ],
+    "functions": [],
+    "predicates": [
+      {
+        "arg_types": [
+          "Person",
+          "Person"
+        ],
+        "name": "Child"
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "romelu_lukaku",
+            "op": "const"
+          },
+          {
+            "name": "antwerp",
+            "op": "const"
+          }
+        ],
+        "name": "bornIn",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "romelu_lukaku",
+              "op": "const"
+            },
+            {
+              "name": "belgium",
+              "op": "const"
+            }
+          ],
+          "name": "bornIn",
+          "op": "pred"
+        },
+        "source_quote": "Romelu Lukaku was born in Belgium."
+      }
+    ],
+    "notes": [
+      "The evidence states the country of birth (Belgium), while the claim specifies the city (Antwerp). The logical structure captures the specific location asserted in the claim and the location asserted in the evidence.",
+      "No logical operator is used to infer that Antwerp is in Belgium or that being born in Belgium implies being born in Antwerp, as this requires external geographical knowledge not present in the evidence text."
+    ],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Romelu Lukaku"
+          ],
+          "name": "romelu_lukaku",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "Belgium"
+          ],
+          "name": "belgium",
+          "type": "Place"
+        },
+        {
+          "aliases": [
+            "Antwerp"
+          ],
+          "name": "antwerp",
+          "type": "Place"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Place"
+          ],
+          "name": "bornIn"
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "claim": "(predicates_bornIn entity_romelu_lukaku entity_antwerp)",
+    "evidence": [
+      "(predicates_bornIn entity_romelu_lukaku entity_belgium)"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.0022239997051656246,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

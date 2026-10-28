@@ -1,0 +1,199 @@
+{
+  "claim": {
+    "formula": {
+      "body": {
+        "args": [
+          {
+            "args": [
+              {
+                "name": "ca",
+                "op": "var"
+              }
+            ],
+            "name": "AwardKind",
+            "op": "pred"
+          },
+          {
+            "args": [
+              {
+                "name": "Kiran",
+                "op": "const"
+              },
+              {
+                "name": "ca",
+                "op": "var"
+              },
+              {
+                "name": "caYear",
+                "op": "var"
+              }
+            ],
+            "name": "Won",
+            "op": "pred"
+          }
+        ],
+        "op": "and"
+      },
+      "op": "exists",
+      "variables": [
+        {
+          "name": "ca",
+          "type": "Award"
+        },
+        {
+          "name": "caYear",
+          "type": "Int"
+        }
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "formula": {
+        "left": {
+          "name": "Kiran",
+          "op": "const"
+        },
+        "op": "ne",
+        "right": {
+          "name": "Sanjay",
+          "op": "const"
+        }
+      },
+      "source_quote": "Like Kiran Rao, Sanjay Rao won a Grammy Award for Best New Age Album."
+    },
+    {
+      "formula": {
+        "body": {
+          "args": [
+            {
+              "args": [
+                {
+                  "name": "ea",
+                  "op": "var"
+                }
+              ],
+              "name": "AwardKind",
+              "op": "pred"
+            },
+            {
+              "args": [
+                {
+                  "name": "Sanjay",
+                  "op": "const"
+                },
+                {
+                  "name": "ea",
+                  "op": "var"
+                },
+                {
+                  "name": "eaYear",
+                  "op": "var"
+                }
+              ],
+              "name": "Won",
+              "op": "pred"
+            }
+          ],
+          "op": "and"
+        },
+        "op": "exists",
+        "variables": [
+          {
+            "name": "ea",
+            "type": "Award"
+          },
+          {
+            "name": "eaYear",
+            "type": "Int"
+          }
+        ]
+      },
+      "source_quote": "Like Kiran Rao, Sanjay Rao won a Grammy Award for Best New Age Album."
+    },
+    {
+      "formula": {
+        "body": {
+          "args": [
+            {
+              "args": [
+                {
+                  "name": "eb",
+                  "op": "var"
+                }
+              ],
+              "name": "AwardKind",
+              "op": "pred"
+            },
+            {
+              "args": [
+                {
+                  "name": "Kiran",
+                  "op": "const"
+                },
+                {
+                  "name": "eb",
+                  "op": "var"
+                },
+                {
+                  "name": "ebYear",
+                  "op": "var"
+                }
+              ],
+              "name": "Won",
+              "op": "pred"
+            }
+          ],
+          "op": "and"
+        },
+        "op": "exists",
+        "variables": [
+          {
+            "name": "eb",
+            "type": "Award"
+          },
+          {
+            "name": "ebYear",
+            "type": "Int"
+          }
+        ]
+      },
+      "source_quote": "Like Kiran Rao, Sanjay Rao won a Grammy Award for Best New Age Album."
+    }
+  ],
+  "notes": [
+    "Award witnesses are independent; the other person's success adds no negative fact about the claimant."
+  ],
+  "status": "OK",
+  "symbols": {
+    "constants": [
+      {
+        "aliases": [],
+        "name": "Kiran",
+        "type": "Person"
+      },
+      {
+        "aliases": [],
+        "name": "Sanjay",
+        "type": "Person"
+      }
+    ],
+    "functions": [],
+    "predicates": [
+      {
+        "arg_types": [
+          "Person",
+          "Award",
+          "Int"
+        ],
+        "name": "Won"
+      },
+      {
+        "arg_types": [
+          "Award"
+        ],
+        "name": "AwardKind"
+      }
+    ]
+  }
+}

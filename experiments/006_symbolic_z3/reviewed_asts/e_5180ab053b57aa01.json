@@ -1,0 +1,142 @@
+{
+  "claim": {
+    "formula": {
+      "body": {
+        "args": [
+          {
+            "args": [
+              {
+                "name": "ca",
+                "op": "var"
+              }
+            ],
+            "name": "AwardKind",
+            "op": "pred"
+          },
+          {
+            "args": [
+              {
+                "name": "Bill",
+                "op": "const"
+              },
+              {
+                "name": "ca",
+                "op": "var"
+              },
+              {
+                "op": "int",
+                "value": 1998
+              }
+            ],
+            "name": "Won",
+            "op": "pred"
+          }
+        ],
+        "op": "and"
+      },
+      "op": "exists",
+      "variables": [
+        {
+          "name": "ca",
+          "type": "Award"
+        }
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "formula": {
+        "left": {
+          "name": "Bill",
+          "op": "const"
+        },
+        "op": "ne",
+        "right": {
+          "name": "Robert",
+          "op": "const"
+        }
+      },
+      "source_quote": "Bill Gates and his brother Robert Gates moved to Chicago in 1992. In 1998, Robert Gates won a National Book Award."
+    },
+    {
+      "formula": {
+        "body": {
+          "args": [
+            {
+              "args": [
+                {
+                  "name": "ea",
+                  "op": "var"
+                }
+              ],
+              "name": "AwardKind",
+              "op": "pred"
+            },
+            {
+              "args": [
+                {
+                  "name": "Robert",
+                  "op": "const"
+                },
+                {
+                  "name": "ea",
+                  "op": "var"
+                },
+                {
+                  "op": "int",
+                  "value": 1998
+                }
+              ],
+              "name": "Won",
+              "op": "pred"
+            }
+          ],
+          "op": "and"
+        },
+        "op": "exists",
+        "variables": [
+          {
+            "name": "ea",
+            "type": "Award"
+          }
+        ]
+      },
+      "source_quote": "Bill Gates and his brother Robert Gates moved to Chicago in 1992. In 1998, Robert Gates won a National Book Award."
+    }
+  ],
+  "notes": [
+    "Award witnesses are independent; the other person's success adds no negative fact about the claimant."
+  ],
+  "status": "OK",
+  "symbols": {
+    "constants": [
+      {
+        "aliases": [],
+        "name": "Bill",
+        "type": "Person"
+      },
+      {
+        "aliases": [],
+        "name": "Robert",
+        "type": "Person"
+      }
+    ],
+    "functions": [],
+    "predicates": [
+      {
+        "arg_types": [
+          "Person",
+          "Award",
+          "Int"
+        ],
+        "name": "Won"
+      },
+      {
+        "arg_types": [
+          "Award"
+        ],
+        "name": "AwardKind"
+      }
+    ]
+  }
+}

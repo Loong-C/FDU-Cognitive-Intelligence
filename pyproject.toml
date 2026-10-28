@@ -11,9 +11,11 @@ dependencies = ["httpx>=0.28,<1"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8,<10"]
+symbolic = ["z3-solver>=4.13,<5", "jsonschema>=4.23,<5"]
 
 [project.scripts]
 ab-factcheck = "ab_factcheck.cli:main"
+ab-symbolic-z3 = "ab_factcheck.symbolic_z3.cli:main"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

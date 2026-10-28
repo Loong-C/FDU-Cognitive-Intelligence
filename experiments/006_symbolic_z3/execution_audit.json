@@ -1,0 +1,46 @@
+{
+  "A27_correct": 35,
+  "V6_correct": 17,
+  "all_attempts_match_shared_ledger": true,
+  "all_phase_conservative_charged_tokens": 56897,
+  "all_received_answers_unique": true,
+  "all_received_usage": {
+    "completion_tokens": 17921,
+    "prompt_tokens": 38976,
+    "total_tokens": 56897
+  },
+  "all_records_verified_and_replayed": true,
+  "all_scheduled": 42,
+  "billing_verified": false,
+  "complete": true,
+  "credential_file_ignored": true,
+  "dependencies": {
+    "httpx": "0.28.1",
+    "jsonschema": "4.26.0",
+    "pytest": "9.1.1",
+    "z3-solver": "4.16.0.0"
+  },
+  "finish_reasons": [
+    "stop"
+  ],
+  "formal_http_attempts": 42,
+  "git_frozen_source_byte_mismatches": [],
+  "historic_changes": [],
+  "nonthinking_checks_passed": true,
+  "pending_inflight": [],
+  "probe_http_attempts": 2,
+  "provider_validation_issues": [],
+  "received": 42,
+  "reviewed": 42,
+  "secret_matches": [],
+  "secret_scan_files": 205,
+  "semantic_correct": 7,
+  "system_fingerprints": [
+    "fp_21e59ac2de",
+    "fp_424cb89518",
+    "fp_4560dae850",
+    "fp_a1293f40b5"
+  ],
+  "test_rows_opened": false,
+  "test_seal_note": "Only dev files are consumed; history check uses git diff, not benchmark test inference."
+}

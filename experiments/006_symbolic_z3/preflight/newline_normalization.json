@@ -1,0 +1,9 @@
+{
+  "after_sha256": "11672dc332cf2e563760a485337ec3915a6255ef8a371e508c98a4d6f4772804",
+  "before_sha256": "11f806b1c06e56510ce3ca4516bb686339ccb776a6f227700b9746ff24c8be1f",
+  "code_lines_unchanged": true,
+  "only_crlf_to_lf": true,
+  "path": "src/ab_factcheck/symbolic_z3/client.py",
+  "prompts_and_request_payloads_unchanged": true,
+  "reason": "Git attributes require LF; match committed bytes for portable freeze verification."
+}

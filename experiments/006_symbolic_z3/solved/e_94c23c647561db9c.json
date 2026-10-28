@@ -1,0 +1,136 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "body": {
+          "args": [
+            {
+              "name": "IOC",
+              "op": "const"
+            },
+            {
+              "name": "fastFoodChain",
+              "op": "var"
+            },
+            {
+              "name": "sponsorshipDeal",
+              "op": "var"
+            },
+            {
+              "name": "secretlyNegotiated",
+              "op": "var"
+            },
+            {
+              "name": "year",
+              "op": "var"
+            }
+          ],
+          "name": "negotiated",
+          "op": "pred"
+        },
+        "op": "exists",
+        "variables": [
+          {
+            "name": "fastFoodChain",
+            "type": "Entity"
+          },
+          {
+            "name": "sponsorshipDeal",
+            "type": "Entity"
+          },
+          {
+            "name": "secretlyNegotiated",
+            "type": "Entity"
+          },
+          {
+            "name": "year",
+            "type": "Int"
+          }
+        ]
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "IOC",
+              "op": "const"
+            },
+            {
+              "name": "secretlyNegotiated",
+              "op": "var"
+            },
+            {
+              "name": "year",
+              "op": "var"
+            }
+          ],
+          "name": "denied",
+          "op": "pred"
+        },
+        "source_quote": "Its former secretary general denied that the International Olympic Committee had secretly negotiated a sponsorship deal with a fast-food chain in 2005"
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "secretlyNegotiated",
+              "op": "var"
+            },
+            {
+              "name": "year",
+              "op": "var"
+            }
+          ],
+          "name": "false",
+          "op": "pred"
+        },
+        "source_quote": "an investigation later showed the reports to be false"
+      }
+    ],
+    "notes": [
+      "The claim asserts the event occurred, while the evidence states it was denied and later shown to be false.",
+      "The evidence does not support the claim; it refutes it."
+    ],
+    "status": "UNSUPPORTED",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "IOC"
+          ],
+          "name": "IOC",
+          "type": "Entity"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Entity",
+            "Entity",
+            "Int"
+          ],
+          "name": "denied"
+        },
+        {
+          "arg_types": [
+            "Entity",
+            "Int"
+          ],
+          "name": "false"
+        }
+      ]
+    }
+  },
+  "constraints": null,
+  "label": "UNSUPPORTED",
+  "reason": "InvalidAST: UNSUPPORTED requires empty symbols/evidence and null claim",
+  "sat_e": null,
+  "sat_e_c": null,
+  "sat_e_not_c": null,
+  "solve_seconds": 0.001437900122255087,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

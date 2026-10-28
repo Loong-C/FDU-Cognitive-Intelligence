@@ -1,0 +1,92 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "body": {
+          "args": [
+            {
+              "name": "stallone",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 4
+            }
+          ],
+          "name": "hadStarredInBoxOfficeNo1AcrossSixConsecutiveDecadesBy",
+          "op": "pred"
+        },
+        "op": "exists",
+        "variables": [
+          {
+            "name": "y",
+            "type": "Int"
+          }
+        ]
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "body": {
+            "args": [
+              {
+                "name": "stallone",
+                "op": "const"
+              },
+              {
+                "op": "int",
+                "value": 3
+              }
+            ],
+            "name": "hadStarredInBoxOfficeNo1AcrossSixConsecutiveDecadesBy",
+            "op": "pred"
+          },
+          "op": "exists",
+          "variables": [
+            {
+              "name": "y",
+              "type": "Int"
+            }
+          ]
+        },
+        "source_quote": "In 2019, Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades for the third time."
+      }
+    ],
+    "notes": [
+      "The evidence states that by 2019, the count was 3. The claim asserts that by 2023, the count was 4. The evidence does not provide information about events occurring between 2019 and 2023, so the claim cannot be verified or falsified based solely on the provided text.",
+      "The predicate 'hadStarredInBoxOfficeNo1AcrossSixConsecutiveDecadesBy' is used to represent the cumulative count of such achievements up to a given year."
+    ],
+    "status": "UNSUPPORTED",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Sylvester Stallone"
+          ],
+          "name": "stallone",
+          "type": "Person"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Int"
+          ],
+          "name": "hadStarredInBoxOfficeNo1AcrossSixConsecutiveDecadesBy"
+        }
+      ]
+    }
+  },
+  "constraints": null,
+  "label": "UNSUPPORTED",
+  "reason": "InvalidAST: UNSUPPORTED requires empty symbols/evidence and null claim",
+  "sat_e": null,
+  "sat_e_c": null,
+  "sat_e_not_c": null,
+  "solve_seconds": 0.0013775001280009747,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

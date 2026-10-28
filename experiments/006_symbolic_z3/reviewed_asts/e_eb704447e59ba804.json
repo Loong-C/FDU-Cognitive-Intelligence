@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "formula": {
+      "args": [
+        {
+          "name": "Ahmed",
+          "op": "const"
+        },
+        {
+          "name": "NobelPeace2025",
+          "op": "const"
+        }
+      ],
+      "name": "Won",
+      "op": "pred"
+    }
+  },
+  "evidence": [
+    {
+      "formula": {
+        "args": [
+          {
+            "name": "Ahmed",
+            "op": "const"
+          },
+          {
+            "name": "NobelPeace2025",
+            "op": "const"
+          }
+        ],
+        "name": "Won",
+        "op": "pred"
+      },
+      "source_quote": "Ahmed al-Sharaa did not fail to win the 2025 Nobel Peace Prize."
+    }
+  ],
+  "notes": [],
+  "status": "OK",
+  "symbols": {
+    "constants": [
+      {
+        "aliases": [],
+        "name": "Ahmed",
+        "type": "Person"
+      },
+      {
+        "aliases": [],
+        "name": "NobelPeace2025",
+        "type": "Award"
+      }
+    ],
+    "functions": [],
+    "predicates": [
+      {
+        "arg_types": [
+          "Person",
+          "Award"
+        ],
+        "name": "Won"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "command": ".venv/Scripts/python.exe -m pytest -q",
+  "failed": 0,
+  "new_v6_tests": 36,
+  "passed": 197,
+  "reported_seconds": 24.03
+}

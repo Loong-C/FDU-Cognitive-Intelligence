@@ -1,0 +1,614 @@
+{
+  "claim": {
+    "formula": {
+      "body": {
+        "args": [
+          {
+            "args": [
+              {
+                "args": [
+                  {
+                    "name": "Sylvester",
+                    "op": "const"
+                  },
+                  {
+                    "name": "c0",
+                    "op": "var"
+                  }
+                ],
+                "name": "Achievement",
+                "op": "pred"
+              },
+              {
+                "left": {
+                  "args": [
+                    {
+                      "name": "c0",
+                      "op": "var"
+                    }
+                  ],
+                  "name": "Time",
+                  "op": "fun"
+                },
+                "op": "lt",
+                "right": {
+                  "op": "int",
+                  "value": 20240000
+                }
+              }
+            ],
+            "op": "and"
+          },
+          {
+            "args": [
+              {
+                "args": [
+                  {
+                    "name": "Sylvester",
+                    "op": "const"
+                  },
+                  {
+                    "name": "c1",
+                    "op": "var"
+                  }
+                ],
+                "name": "Achievement",
+                "op": "pred"
+              },
+              {
+                "left": {
+                  "args": [
+                    {
+                      "name": "c1",
+                      "op": "var"
+                    }
+                  ],
+                  "name": "Time",
+                  "op": "fun"
+                },
+                "op": "lt",
+                "right": {
+                  "op": "int",
+                  "value": 20240000
+                }
+              }
+            ],
+            "op": "and"
+          },
+          {
+            "args": [
+              {
+                "args": [
+                  {
+                    "name": "Sylvester",
+                    "op": "const"
+                  },
+                  {
+                    "name": "c2",
+                    "op": "var"
+                  }
+                ],
+                "name": "Achievement",
+                "op": "pred"
+              },
+              {
+                "left": {
+                  "args": [
+                    {
+                      "name": "c2",
+                      "op": "var"
+                    }
+                  ],
+                  "name": "Time",
+                  "op": "fun"
+                },
+                "op": "lt",
+                "right": {
+                  "op": "int",
+                  "value": 20240000
+                }
+              }
+            ],
+            "op": "and"
+          },
+          {
+            "args": [
+              {
+                "args": [
+                  {
+                    "name": "Sylvester",
+                    "op": "const"
+                  },
+                  {
+                    "name": "c3",
+                    "op": "var"
+                  }
+                ],
+                "name": "Achievement",
+                "op": "pred"
+              },
+              {
+                "left": {
+                  "args": [
+                    {
+                      "name": "c3",
+                      "op": "var"
+                    }
+                  ],
+                  "name": "Time",
+                  "op": "fun"
+                },
+                "op": "lt",
+                "right": {
+                  "op": "int",
+                  "value": 20240000
+                }
+              }
+            ],
+            "op": "and"
+          },
+          {
+            "left": {
+              "name": "c0",
+              "op": "var"
+            },
+            "op": "ne",
+            "right": {
+              "name": "c1",
+              "op": "var"
+            }
+          },
+          {
+            "left": {
+              "name": "c0",
+              "op": "var"
+            },
+            "op": "ne",
+            "right": {
+              "name": "c2",
+              "op": "var"
+            }
+          },
+          {
+            "left": {
+              "name": "c0",
+              "op": "var"
+            },
+            "op": "ne",
+            "right": {
+              "name": "c3",
+              "op": "var"
+            }
+          },
+          {
+            "left": {
+              "name": "c1",
+              "op": "var"
+            },
+            "op": "ne",
+            "right": {
+              "name": "c2",
+              "op": "var"
+            }
+          },
+          {
+            "left": {
+              "name": "c1",
+              "op": "var"
+            },
+            "op": "ne",
+            "right": {
+              "name": "c3",
+              "op": "var"
+            }
+          },
+          {
+            "left": {
+              "name": "c2",
+              "op": "var"
+            },
+            "op": "ne",
+            "right": {
+              "name": "c3",
+              "op": "var"
+            }
+          },
+          {
+            "body": {
+              "left": {
+                "args": [
+                  {
+                    "args": [
+                      {
+                        "name": "Sylvester",
+                        "op": "const"
+                      },
+                      {
+                        "name": "by2023",
+                        "op": "var"
+                      }
+                    ],
+                    "name": "Achievement",
+                    "op": "pred"
+                  },
+                  {
+                    "left": {
+                      "args": [
+                        {
+                          "name": "by2023",
+                          "op": "var"
+                        }
+                      ],
+                      "name": "Time",
+                      "op": "fun"
+                    },
+                    "op": "lt",
+                    "right": {
+                      "op": "int",
+                      "value": 20240000
+                    }
+                  }
+                ],
+                "op": "and"
+              },
+              "op": "implies",
+              "right": {
+                "args": [
+                  {
+                    "left": {
+                      "name": "by2023",
+                      "op": "var"
+                    },
+                    "op": "eq",
+                    "right": {
+                      "name": "c0",
+                      "op": "var"
+                    }
+                  },
+                  {
+                    "left": {
+                      "name": "by2023",
+                      "op": "var"
+                    },
+                    "op": "eq",
+                    "right": {
+                      "name": "c1",
+                      "op": "var"
+                    }
+                  },
+                  {
+                    "left": {
+                      "name": "by2023",
+                      "op": "var"
+                    },
+                    "op": "eq",
+                    "right": {
+                      "name": "c2",
+                      "op": "var"
+                    }
+                  },
+                  {
+                    "left": {
+                      "name": "by2023",
+                      "op": "var"
+                    },
+                    "op": "eq",
+                    "right": {
+                      "name": "c3",
+                      "op": "var"
+                    }
+                  }
+                ],
+                "op": "or"
+              }
+            },
+            "op": "forall",
+            "variables": [
+              {
+                "name": "by2023",
+                "type": "Event"
+              }
+            ]
+          }
+        ],
+        "op": "and"
+      },
+      "op": "exists",
+      "variables": [
+        {
+          "name": "c0",
+          "type": "Event"
+        },
+        {
+          "name": "c1",
+          "type": "Event"
+        },
+        {
+          "name": "c2",
+          "type": "Event"
+        },
+        {
+          "name": "c3",
+          "type": "Event"
+        }
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "formula": {
+        "body": {
+          "args": [
+            {
+              "args": [
+                {
+                  "name": "Sylvester",
+                  "op": "const"
+                },
+                {
+                  "name": "first",
+                  "op": "var"
+                }
+              ],
+              "name": "Achievement",
+              "op": "pred"
+            },
+            {
+              "args": [
+                {
+                  "name": "Sylvester",
+                  "op": "const"
+                },
+                {
+                  "name": "second",
+                  "op": "var"
+                }
+              ],
+              "name": "Achievement",
+              "op": "pred"
+            },
+            {
+              "args": [
+                {
+                  "name": "Sylvester",
+                  "op": "const"
+                },
+                {
+                  "name": "third",
+                  "op": "var"
+                }
+              ],
+              "name": "Achievement",
+              "op": "pred"
+            },
+            {
+              "args": [
+                {
+                  "left": {
+                    "args": [
+                      {
+                        "name": "third",
+                        "op": "var"
+                      }
+                    ],
+                    "name": "Time",
+                    "op": "fun"
+                  },
+                  "op": "ge",
+                  "right": {
+                    "op": "int",
+                    "value": 20190000
+                  }
+                },
+                {
+                  "left": {
+                    "args": [
+                      {
+                        "name": "third",
+                        "op": "var"
+                      }
+                    ],
+                    "name": "Time",
+                    "op": "fun"
+                  },
+                  "op": "lt",
+                  "right": {
+                    "op": "int",
+                    "value": 20200000
+                  }
+                }
+              ],
+              "op": "and"
+            },
+            {
+              "left": {
+                "args": [
+                  {
+                    "name": "first",
+                    "op": "var"
+                  }
+                ],
+                "name": "Time",
+                "op": "fun"
+              },
+              "op": "lt",
+              "right": {
+                "args": [
+                  {
+                    "name": "second",
+                    "op": "var"
+                  }
+                ],
+                "name": "Time",
+                "op": "fun"
+              }
+            },
+            {
+              "left": {
+                "args": [
+                  {
+                    "name": "second",
+                    "op": "var"
+                  }
+                ],
+                "name": "Time",
+                "op": "fun"
+              },
+              "op": "lt",
+              "right": {
+                "args": [
+                  {
+                    "name": "third",
+                    "op": "var"
+                  }
+                ],
+                "name": "Time",
+                "op": "fun"
+              }
+            },
+            {
+              "body": {
+                "left": {
+                  "args": [
+                    {
+                      "args": [
+                        {
+                          "name": "Sylvester",
+                          "op": "const"
+                        },
+                        {
+                          "name": "prior",
+                          "op": "var"
+                        }
+                      ],
+                      "name": "Achievement",
+                      "op": "pred"
+                    },
+                    {
+                      "left": {
+                        "args": [
+                          {
+                            "name": "prior",
+                            "op": "var"
+                          }
+                        ],
+                        "name": "Time",
+                        "op": "fun"
+                      },
+                      "op": "le",
+                      "right": {
+                        "args": [
+                          {
+                            "name": "third",
+                            "op": "var"
+                          }
+                        ],
+                        "name": "Time",
+                        "op": "fun"
+                      }
+                    }
+                  ],
+                  "op": "and"
+                },
+                "op": "implies",
+                "right": {
+                  "args": [
+                    {
+                      "left": {
+                        "name": "prior",
+                        "op": "var"
+                      },
+                      "op": "eq",
+                      "right": {
+                        "name": "first",
+                        "op": "var"
+                      }
+                    },
+                    {
+                      "left": {
+                        "name": "prior",
+                        "op": "var"
+                      },
+                      "op": "eq",
+                      "right": {
+                        "name": "second",
+                        "op": "var"
+                      }
+                    },
+                    {
+                      "left": {
+                        "name": "prior",
+                        "op": "var"
+                      },
+                      "op": "eq",
+                      "right": {
+                        "name": "third",
+                        "op": "var"
+                      }
+                    }
+                  ],
+                  "op": "or"
+                }
+              },
+              "op": "forall",
+              "variables": [
+                {
+                  "name": "prior",
+                  "type": "Event"
+                }
+              ]
+            }
+          ],
+          "op": "and"
+        },
+        "op": "exists",
+        "variables": [
+          {
+            "name": "first",
+            "type": "Event"
+          },
+          {
+            "name": "second",
+            "type": "Event"
+          },
+          {
+            "name": "third",
+            "type": "Event"
+          }
+        ]
+      },
+      "source_quote": "In 2019, Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades for the third time."
+    }
+  ],
+  "notes": [
+    "Achievement denotes the entire repeated six-decade achievement in both texts; events are counted, not bare year predicates. No later events are excluded by 'third time'."
+  ],
+  "status": "OK",
+  "symbols": {
+    "constants": [
+      {
+        "aliases": [],
+        "name": "Sylvester",
+        "type": "Person"
+      }
+    ],
+    "functions": [
+      {
+        "arg_types": [
+          "Event"
+        ],
+        "name": "Time",
+        "return_type": "Int"
+      }
+    ],
+    "predicates": [
+      {
+        "arg_types": [
+          "Person",
+          "Event"
+        ],
+        "name": "Achievement"
+      }
+    ]
+  }
+}

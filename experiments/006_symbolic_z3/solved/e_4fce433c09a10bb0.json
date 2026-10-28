@@ -1,0 +1,164 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "body": {
+          "args": [
+            {
+              "name": "xabiAlonso",
+              "op": "const"
+            },
+            {
+              "name": "womenGermanAmateurFootballChampionship2012",
+              "op": "const"
+            }
+          ],
+          "name": "won",
+          "op": "pred"
+        },
+        "op": "exists",
+        "variables": [
+          {
+            "name": "xabiAlonso",
+            "type": "Person"
+          },
+          {
+            "name": "womenGermanAmateurFootballChampionship2012",
+            "type": "Event"
+          }
+        ]
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "elenaAlonso",
+              "op": "const"
+            },
+            {
+              "name": "regionalAmateurFootballTournament2012",
+              "op": "const"
+            }
+          ],
+          "name": "won",
+          "op": "pred"
+        },
+        "source_quote": "In 2012, Elena Alonso won a regional amateur football tournament."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "xabiAlonso",
+              "op": "const"
+            },
+            {
+              "name": "elenaAlonso",
+              "op": "const"
+            }
+          ],
+          "name": "brotherOf",
+          "op": "pred"
+        },
+        "source_quote": "Xabi Alonso and his sister Elena Alonso moved to Leverkusen to support her brother in 2008."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "xabiAlonso",
+              "op": "const"
+            },
+            {
+              "name": "elenaAlonso",
+              "op": "const"
+            }
+          ],
+          "name": "ne",
+          "op": "pred"
+        },
+        "source_quote": "Xabi Alonso and his sister Elena Alonso moved to Leverkusen to support her brother in 2008."
+      }
+    ],
+    "notes": [
+      "The evidence states that Elena Alonso won a regional amateur football tournament in 2012.",
+      "The claim asserts that Xabi Alonso won the 2012 Women's German Amateur Football Championship.",
+      "The evidence does not support the claim that Xabi Alonso won this specific championship; it attributes the 2012 win to his sister Elena in a regional tournament."
+    ],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Xabi Alonso"
+          ],
+          "name": "xabiAlonso",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "Elena Alonso"
+          ],
+          "name": "elenaAlonso",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "2012 Women's German Amateur Football Championship"
+          ],
+          "name": "womenGermanAmateurFootballChampionship2012",
+          "type": "Event"
+        },
+        {
+          "aliases": [
+            "regional amateur football tournament in 2012"
+          ],
+          "name": "regionalAmateurFootballTournament2012",
+          "type": "Event"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Event"
+          ],
+          "name": "won"
+        },
+        {
+          "arg_types": [
+            "Person",
+            "Person"
+          ],
+          "name": "brotherOf"
+        },
+        {
+          "arg_types": [
+            "Person",
+            "Person"
+          ],
+          "name": "ne"
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "claim": "(exists ((bound_xabiAlonso type_Person)\n         (bound_womenGermanAmateurFootballChampionship2012 type_Event))\n  (predicates_won entity_xabiAlonso\n                  entity_womenGermanAmateurFootballChampionship2012))",
+    "evidence": [
+      "(predicates_won entity_elenaAlonso entity_regionalAmateurFootballTournament2012)",
+      "(predicates_brotherOf entity_xabiAlonso entity_elenaAlonso)",
+      "(predicates_ne entity_xabiAlonso entity_elenaAlonso)"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.003653199877589941,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

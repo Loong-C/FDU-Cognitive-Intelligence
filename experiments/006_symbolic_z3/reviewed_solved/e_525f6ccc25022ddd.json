@@ -1,0 +1,16 @@
+{
+  "constraints": {
+    "claim": "(exists ((bound_c0 type_Event)\n         (bound_c1 type_Event)\n         (bound_c2 type_Event)\n         (bound_c3 type_Event))\n  (let ((a!1 (forall ((bound_by2023 type_Event))\n               (=> (and (predicates_Achievement entity_Sylvester bound_by2023)\n                        (> 20240000 (functions_Time bound_by2023)))\n                   (or (= bound_by2023 bound_c0)\n                       (= bound_by2023 bound_c1)\n                       (= bound_by2023 bound_c2)\n                       (= bound_by2023 bound_c3))))))\n    (and (predicates_Achievement entity_Sylvester bound_c0)\n         (> 20240000 (functions_Time bound_c0))\n         (predicates_Achievement entity_Sylvester bound_c1)\n         (> 20240000 (functions_Time bound_c1))\n         (predicates_Achievement entity_Sylvester bound_c2)\n         (> 20240000 (functions_Time bound_c2))\n         (and (predicates_Achievement entity_Sylvester bound_c3)\n              (> 20240000 (functions_Time bound_c3)))\n         (distinct bound_c0 bound_c1)\n         (distinct bound_c0 bound_c2)\n         (distinct bound_c0 bound_c3)\n         (distinct bound_c1 bound_c2)\n         (distinct bound_c1 bound_c3)\n         (distinct bound_c2 bound_c3)\n         a!1)))",
+    "evidence": [
+      "(exists ((bound_only type_Event))\n  (and (predicates_Achievement entity_Sylvester bound_only)\n       (<= 20190000 (functions_Time bound_only))\n       (> 20200000 (functions_Time bound_only))\n       (forall ((bound_other type_Event))\n         (=> (predicates_Achievement entity_Sylvester bound_other)\n             (= bound_other bound_only)))))"
+    ]
+  },
+  "label": "REFUTES",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "unsat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.03461150033399463,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

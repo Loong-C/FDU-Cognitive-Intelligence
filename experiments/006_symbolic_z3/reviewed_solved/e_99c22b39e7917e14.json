@@ -1,0 +1,16 @@
+{
+  "constraints": {
+    "claim": "(exists ((bound_priorClaim type_Event) (bound_laterClaim type_Event))\n  (and (predicates_Achievement entity_Sylvester bound_priorClaim)\n       (predicates_Achievement entity_Sylvester bound_laterClaim)\n       (< (functions_Time bound_priorClaim) (functions_Time bound_laterClaim))\n       (<= 20200000 (functions_Time bound_laterClaim))))",
+    "evidence": [
+      "(exists ((bound_only type_Event))\n  (and (predicates_Achievement entity_Sylvester bound_only)\n       (<= 20190000 (functions_Time bound_only))\n       (> 20200000 (functions_Time bound_only))\n       (forall ((bound_other type_Event))\n         (=> (predicates_Achievement entity_Sylvester bound_other)\n             (= bound_other bound_only)))))"
+    ]
+  },
+  "label": "REFUTES",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "unsat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.0161272999830544,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

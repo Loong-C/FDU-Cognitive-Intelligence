@@ -1,0 +1,116 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "vladimir_lenin",
+            "op": "const"
+          },
+          {
+            "op": "int",
+            "value": 1887
+          }
+        ],
+        "name": "wonLocalChessTournament",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "vladimir_lenin",
+              "op": "const"
+            },
+            {
+              "name": "alexander_ulyanov",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 1886
+            }
+          ],
+          "name": "studiedAt",
+          "op": "pred"
+        },
+        "source_quote": "Vladimir Lenin and his brother Alexander Ulyanov studied at the Saint Petersburg State University in 1886."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "alexander_ulyanov",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 1887
+            }
+          ],
+          "name": "wonLocalChessTournament",
+          "op": "pred"
+        },
+        "source_quote": "In 1887, Alexander Ulyanov won a local chess tournament."
+      }
+    ],
+    "notes": [
+      "The evidence states that Alexander Ulyanov won the tournament, not Vladimir Lenin.",
+      "The claim asserts Vladimir Lenin won the tournament, which contradicts the specific attribution in the evidence."
+    ],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Vladimir Lenin"
+          ],
+          "name": "vladimir_lenin",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "Alexander Ulyanov"
+          ],
+          "name": "alexander_ulyanov",
+          "type": "Person"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Person",
+            "Int"
+          ],
+          "name": "studiedAt"
+        },
+        {
+          "arg_types": [
+            "Person",
+            "Int"
+          ],
+          "name": "wonLocalChessTournament"
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "claim": "(predicates_wonLocalChessTournament entity_vladimir_lenin 1887)",
+    "evidence": [
+      "(predicates_studiedAt entity_vladimir_lenin entity_alexander_ulyanov 1886)",
+      "(predicates_wonLocalChessTournament entity_alexander_ulyanov 1887)"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.0029946002177894115,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

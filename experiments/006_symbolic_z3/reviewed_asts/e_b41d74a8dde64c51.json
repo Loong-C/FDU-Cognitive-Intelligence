@@ -1,0 +1,88 @@
+{
+  "claim": {
+    "formula": {
+      "args": [
+        {
+          "name": "ReportedProposition",
+          "op": "const"
+        }
+      ],
+      "name": "Holds",
+      "op": "pred"
+    }
+  },
+  "evidence": [
+    {
+      "formula": {
+        "args": [
+          {
+            "args": [
+              {
+                "name": "ReportedProposition",
+                "op": "const"
+              }
+            ],
+            "name": "Reported",
+            "op": "pred"
+          },
+          {
+            "args": [
+              {
+                "name": "Speaker",
+                "op": "const"
+              },
+              {
+                "name": "ReportedProposition",
+                "op": "const"
+              }
+            ],
+            "name": "Denied",
+            "op": "pred"
+          }
+        ],
+        "op": "and"
+      },
+      "source_quote": "His personal assistant flatly denied reports that Barry Keoghan had quietly donated €50,000 to a Dublin homeless shelter in 2021"
+    }
+  ],
+  "notes": [
+    "ReportedProposition denotes exactly the complete event description in the claim; attribution does not imply its truth value."
+  ],
+  "status": "OK",
+  "symbols": {
+    "constants": [
+      {
+        "aliases": [],
+        "name": "Speaker",
+        "type": "Person"
+      },
+      {
+        "aliases": [],
+        "name": "ReportedProposition",
+        "type": "Proposition"
+      }
+    ],
+    "functions": [],
+    "predicates": [
+      {
+        "arg_types": [
+          "Proposition"
+        ],
+        "name": "Holds"
+      },
+      {
+        "arg_types": [
+          "Proposition"
+        ],
+        "name": "Reported"
+      },
+      {
+        "arg_types": [
+          "Person",
+          "Proposition"
+        ],
+        "name": "Denied"
+      }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "wizard_of_oz",
+            "op": "const"
+          },
+          {
+            "op": "int",
+            "value": 1939
+          },
+          {
+            "op": "int",
+            "value": 8
+          },
+          {
+            "op": "int",
+            "value": 10
+          }
+        ],
+        "name": "premiered_on",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "wizard_of_oz",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 1939
+            },
+            {
+              "op": "int",
+              "value": 8
+            },
+            {
+              "op": "int",
+              "value": 15
+            }
+          ],
+          "name": "scheduled_to_premiere_on",
+          "op": "pred"
+        },
+        "source_quote": "The Wizard of Oz was scheduled to premiere on August 15, 1939"
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "wizard_of_oz",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 1939
+            },
+            {
+              "op": "int",
+              "value": 8
+            },
+            {
+              "op": "int",
+              "value": 10
+            }
+          ],
+          "name": "premiered_on",
+          "op": "pred"
+        },
+        "source_quote": "it actually premiered on August 10, 1939"
+      }
+    ],
+    "notes": [],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "The Wizard of Oz"
+          ],
+          "name": "wizard_of_oz",
+          "type": "Film"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Film",
+            "Int",
+            "Int",
+            "Int"
+          ],
+          "name": "premiered_on"
+        },
+        {
+          "arg_types": [
+            "Film",
+            "Int",
+            "Int",
+            "Int"
+          ],
+          "name": "scheduled_to_premiere_on"
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "claim": "(predicates_premiered_on entity_wizard_of_oz 1939 8 10)",
+    "evidence": [
+      "(predicates_scheduled_to_premiere_on entity_wizard_of_oz 1939 8 15)",
+      "(predicates_premiered_on entity_wizard_of_oz 1939 8 10)"
+    ]
+  },
+  "label": "SUPPORTS",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "unsat",
+  "solve_seconds": 0.003419799730181694,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

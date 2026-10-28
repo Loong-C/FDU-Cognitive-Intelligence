@@ -1,0 +1,70 @@
+{
+  "claim": {
+    "formula": {
+      "args": [
+        {
+          "name": "Keith",
+          "op": "const"
+        },
+        {
+          "name": "Salem",
+          "op": "const"
+        }
+      ],
+      "name": "LivedIn",
+      "op": "pred"
+    }
+  },
+  "evidence": [
+    {
+      "formula": {
+        "args": [
+          {
+            "name": "Keith",
+            "op": "const"
+          },
+          {
+            "name": "Portland",
+            "op": "const"
+          }
+        ],
+        "name": "LivedIn",
+        "op": "pred"
+      },
+      "source_quote": "Keith Hunter Jesperson has lived in Portland."
+    }
+  ],
+  "notes": [
+    "Living locations are not single-valued. City and containing country are distinct levels of geographic description; country alone does not identify city."
+  ],
+  "status": "OK",
+  "symbols": {
+    "constants": [
+      {
+        "aliases": [],
+        "name": "Keith",
+        "type": "Person"
+      },
+      {
+        "aliases": [],
+        "name": "Portland",
+        "type": "Place"
+      },
+      {
+        "aliases": [],
+        "name": "Salem",
+        "type": "Place"
+      }
+    ],
+    "functions": [],
+    "predicates": [
+      {
+        "arg_types": [
+          "Person",
+          "Place"
+        ],
+        "name": "LivedIn"
+      }
+    ]
+  }
+}

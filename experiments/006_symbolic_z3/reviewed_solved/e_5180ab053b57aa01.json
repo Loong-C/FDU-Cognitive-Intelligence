@@ -1,0 +1,17 @@
+{
+  "constraints": {
+    "claim": "(exists ((bound_ca type_Award))\n  (and (predicates_AwardKind bound_ca)\n       (predicates_Won entity_Bill bound_ca 1998)))",
+    "evidence": [
+      "(distinct entity_Bill entity_Robert)",
+      "(exists ((bound_ea type_Award))\n  (and (predicates_AwardKind bound_ea)\n       (predicates_Won entity_Robert bound_ea 1998)))"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.005633799824863672,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

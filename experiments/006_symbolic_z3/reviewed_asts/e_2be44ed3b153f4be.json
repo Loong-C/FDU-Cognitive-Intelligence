@@ -1,0 +1,74 @@
+{
+  "claim": {
+    "formula": {
+      "args": [
+        {
+          "name": "Teddy",
+          "op": "const"
+        },
+        {
+          "name": "TheSwims",
+          "op": "const"
+        },
+        {
+          "op": "int",
+          "value": 2020
+        }
+      ],
+      "name": "Serves",
+      "op": "pred"
+    }
+  },
+  "evidence": [
+    {
+      "formula": {
+        "args": [
+          {
+            "name": "Teddy",
+            "op": "const"
+          },
+          {
+            "name": "TheSwims",
+            "op": "const"
+          },
+          {
+            "op": "int",
+            "value": 2018
+          }
+        ],
+        "name": "Serves",
+        "op": "pred"
+      },
+      "source_quote": "Teddy Swims was still serving as lead singer of The Swims in 2018."
+    }
+  ],
+  "notes": [
+    "Only the claim-relevant year occupancy is retained; still adds continuation within/before 2018, not service through 2020."
+  ],
+  "status": "OK",
+  "symbols": {
+    "constants": [
+      {
+        "aliases": [],
+        "name": "Teddy",
+        "type": "Person"
+      },
+      {
+        "aliases": [],
+        "name": "TheSwims",
+        "type": "Organization"
+      }
+    ],
+    "functions": [],
+    "predicates": [
+      {
+        "arg_types": [
+          "Person",
+          "Organization",
+          "Int"
+        ],
+        "name": "Serves"
+      }
+    ]
+  }
+}

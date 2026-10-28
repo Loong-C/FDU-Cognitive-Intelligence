@@ -1,0 +1,15 @@
+﻿dataset,mechanism,n,A27_correct,V6_correct,V6_covered,semantic_correct,reviewed_AST_solved
+basic,BOUND,3,3,2,2,0,3
+basic,FUNCTIONAL,3,3,2,2,2,3
+basic,IMPLICATIVE,3,3,1,3,1,3
+basic,PLACE,3,3,3,3,3,3
+basic,PLAN,3,3,1,3,0,3
+basic,RELDATE,3,3,1,1,1,3
+basic,TIMESHIFT,3,3,0,0,0,3
+challenge,AMBIGREF,3,1,1,1,0,3
+challenge,DENIAL,3,2,0,0,0,3
+challenge,LOOKALIKE,3,2,2,2,0,3
+challenge,PRESUP,3,2,1,2,0,3
+challenge,SETCLOSE,3,3,1,1,0,3
+challenge,TEMPSCOPE,3,2,0,1,0,3
+challenge,UNIQUE,3,2,2,3,0,3

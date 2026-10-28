@@ -1,0 +1,16 @@
+{
+  "constraints": {
+    "claim": "(= 2023 (functions_DescribedMVPReclaimYear entity_Patrick))",
+    "evidence": [
+      "(and (= 2023 (functions_DescribedMVPReclaimYear entity_Patrick))\n     (= (functions_FirstSuperBowlYear entity_Patrick)\n        (- (functions_DescribedMVPReclaimYear entity_Patrick) 4))\n     (= (functions_DraftYear entity_Patrick)\n        (- (functions_DescribedMVPReclaimYear entity_Patrick) 6)))"
+    ]
+  },
+  "label": "SUPPORTS",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "unsat",
+  "solve_seconds": 0.01242519961670041,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

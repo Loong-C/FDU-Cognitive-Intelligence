@@ -1,0 +1,556 @@
+{
+  "completion": {
+    "actual_model_id": "qwen/qwen3.8-27b",
+    "attempts": [
+      {
+        "charged_tokens": 1740,
+        "continuation_policy_sha256": "aa6469e2c44d1670364d8ad86f7a0718a59725cbf5d7f92723a42835503a313d",
+        "http_status": 200,
+        "quota_policy": "provider_enforced_free",
+        "rate_limits": {
+          "x-ratelimit-limit-requests": "1000",
+          "x-ratelimit-limit-tokens": "8000",
+          "x-ratelimit-remaining-requests": "992",
+          "x-ratelimit-remaining-tokens": "6464",
+          "x-ratelimit-reset-requests": "11m31.2s",
+          "x-ratelimit-reset-tokens": "11.52s"
+        },
+        "request_id_sha256": "f15f0cd3b7ec7788da3d5e575a5cd17b39d0d7e67011e7609a993d474cd6c84e",
+        "request_sha256": "26f1fe1b10f310709c852ba455b2a205c345383bbf1f6c00e719b71c290175b6",
+        "requested_at": "2026-10-28T00:24:58.215485+00:00",
+        "reservation_tokens": 14677,
+        "responded_at": "2026-10-28T00:25:00.452667+00:00",
+        "status": "received",
+        "timestamp": 1793147098.215485,
+        "usage": {
+          "completion_time": 1.283096258,
+          "completion_tokens": 626,
+          "prompt_time": 0.076500011,
+          "prompt_tokens": 1114,
+          "queue_time": 0.075573639,
+          "total_time": 1.359596269,
+          "total_tokens": 1740
+        }
+      }
+    ],
+    "finish_reason": "stop",
+    "latency_seconds": 61.1498908996582,
+    "nonthinking_validation": {
+      "issues": [],
+      "passed": true,
+      "policy": "inspect_raw_no_stripping_v1"
+    },
+    "provider_validation_issues": [],
+    "raw_non_json_body": null,
+    "raw_response": "{\"claim\": {\"formula\": {\"body\": {\"args\": [{\"name\": \"barry_keoghan\", \"op\": \"const\"}, {\"name\": \"dublin_homeless_shelter\", \"op\": \"const\"}, {\"op\": \"int\", \"value\": 50000}, {\"op\": \"int\", \"value\": 2021}], \"name\": \"quietly_donated\", \"op\": \"pred\"}, \"op\": \"exists\", \"variables\": [{\"name\": \"dublin_homeless_shelter\", \"type\": \"Shelter\"}]}}, \"evidence\": [{\"formula\": {\"args\": [{\"name\": \"barry_keoghan\", \"op\": \"const\"}, {\"name\": \"barry_keoghan_personal_assistant\", \"op\": \"const\"}, {\"name\": \"p_donation_report\", \"op\": \"const\"}], \"name\": \"declined_to_comment_on_report\", \"op\": \"pred\"}, \"source_quote\": \"His personal assistant declined to comment on reports that Barry Keoghan had quietly donated €50,000 to a Dublin homeless shelter in 2021.\"}, {\"formula\": {\"args\": [{\"name\": \"p_donation_report\", \"op\": \"const\"}, {\"name\": \"barry_keoghan\", \"op\": \"const\"}, {\"name\": \"dublin_homeless_shelter\", \"op\": \"const\"}, {\"op\": \"int\", \"value\": 50000}, {\"op\": \"int\", \"value\": 2021}], \"name\": \"report_content\", \"op\": \"pred\"}, \"source_quote\": \"reports that Barry Keoghan had quietly donated €50,000 to a Dublin homeless shelter in 2021.\"}], \"notes\": [\"The evidence states that a personal assistant declined to comment on reports of the donation. It does not independently verify that the donation occurred.\", \"The claim asserts the donation as a fact, which is not supported by the evidence, only reported.\", \"The constant 'dublin_homeless_shelter' is introduced to represent the specific shelter mentioned in the report.\"], \"status\": \"OK\", \"symbols\": {\"constants\": [{\"aliases\": [\"Barry Keoghan\"], \"name\": \"barry_keoghan\", \"type\": \"Person\"}, {\"aliases\": [\"personal assistant\"], \"name\": \"barry_keoghan_personal_assistant\", \"type\": \"Person\"}, {\"aliases\": [\"report of donation\"], \"name\": \"p_donation_report\", \"type\": \"Proposition\"}], \"functions\": [], \"predicates\": [{\"arg_types\": [\"Person\", \"Person\", \"Proposition\"], \"name\": \"declined_to_comment_on_report\"}, {\"arg_types\": [\"Proposition\", \"Person\", \"Shelter\", \"Int\", \"Int\"], \"name\": \"report_content\"}, {\"arg_types\": [\"Person\", \"Shelter\", \"Int\", \"Int\"], \"name\": \"quietly_donated\"}]}}",
+    "request_payload": {
+      "max_completion_tokens": 4096,
+      "messages": [
+        {
+          "content": "You are a semantic formalizer, not a fact checker. Translate the supplied EVIDENCE and CLAIM into a small typed logical JSON AST that follows the provided schema.\n\nRepresent only facts and constraints supported by the source text. Formalize the claim separately from the evidence; never infer the answer label. Preserve negation scope, quantifiers, uniqueness, dates, exact quantities, identities, presuppositions, and attribution. An allegation or denial is a fact about a report or speaker, not automatically a fact about the reported event. Do not assume unnamed people or events are absent. Do not merge distinct awards or events merely because their descriptions are similar.\n\nUse explicit existential variables for indefinite noun phrases; use universal constraints only when the text warrants exclusivity. Keep all necessary facts relevant to the claim, and attach an exact evidence quote to each evidence formula. If the intended meaning cannot be represented faithfully with the available operators, return status UNSUPPORTED. Do not use external biographical facts.\n\nReturn only the schema-conforming JSON object. Do not produce a verdict, a world narrative, Python, or Z3 code.\n\nDSL v6 specification (fixed for all inputs):\nTypes are case-sensitive names inferred from declarations; Int is the integer sort. Other names are uninterpreted nonempty entity sorts (e.g. Person, Award, Event, Place, Proposition). Bool is reserved. Use integer literals, not Int constants. Functions have declared argument types and return Int; use single-valued attributes for birth years, event years and event counts. Predicates return truth values. Declare every symbol used by evidence or claim.\nConstants have canonical names, types and alias strings referring to that SAME entity. An alias must not collide with another declaration. Different constant names do NOT automatically imply inequality: explicitly use ne with a source quote for textually distinct people/entities. Do not add global unique-name or closed-domain assumptions. A claim-only entity has no evidence facts unless warranted by the evidence.\nTerms: const/var have name; int has value; fun has name and args; add/sub have left and right integer terms. Formulas: pred has name and term args; not has arg; and/or have at least two formula args; implies has left/right formulas; eq/ne/lt/le/gt/ge compare left/right terms; exists/forall have variables (name,type) and body. Variables must be bound, and nested quantifiers must use fresh names. Existential witnesses in separate formulas are independent. All evidence formulas are conjoined. Quantifiers range over open sorts, never just declared constants. A source_quote must be an exact, nonempty, contiguous substring of EVIDENCE; it is provenance, not executable logic.\nRepresent allegations/denials as predicates about speakers and Proposition entities, without asserting or negating the reported event unless evidence independently warrants it. Represent uncertain reference by disjunction over warranted alternatives. An exhaustive list needs a universally quantified restriction; an open list does not. Only/unique constraints need their full person, award, event and time scope. Again/first/second need prior-occurrence or no-earlier-occurrence constraints when relevant. Keep appointment intervals separate from event years. Claim formulas must preserve the same relations and scopes used in evidence.\nFor UNSUPPORTED use empty constants, predicates, functions and evidence arrays, null claim, and explanatory notes. For OK supply nonempty evidence and a claim formula. Notes are explanatory only and cannot repair missing formulas. Do not put a verdict in any field.\n",
+          "role": "system"
+        },
+        {
+          "content": "EVIDENCE:\nBarry Keoghan ( KYOH-gən; born 18 October 1992) is an Irish actor. His personal assistant declined to comment on reports that Barry Keoghan had quietly donated €50,000 to a Dublin homeless shelter in 2021. His accolades include a BAFTA Award, along with nominations for an Academy Award and two Golden Globe Awards. In 2020, he was listed at number 27 on The Irish Times list of Ireland's greatest film actors.\nKeoghan's breakthrough came with supporting roles in Christopher Nolan's Dunkirk and Yorgos Lanthimos's The Killing of a Sacred Deer (both 2017). His career progressed with roles in the Irish crime film Calm with Horses (2019), the Marvel Cinematic Universe film Eternals (2021), Martin McDonagh's The Banshees of Inisherin (2022), and the psychological drama Saltburn (2023). For his performance in The Banshees of Inisherin, he won the BAFTA Award for Best Actor in a Supporting Role and earned a nomination for the Academy Award for Best Supporting Actor.\nOn television, Keoghan appeared in the RTÉ drama Love/Hate (2013), the HBO miniseries Chernobyl (2019), the final season of the Netflix reboot Top Boy (2023), and in the Apple TV+ miniseries Masters of the Air (2024).\n\nCLAIM:\nBarry Keoghan quietly donated €50,000 to a Dublin homeless shelter in 2021.\n\nTranslate these into the predefined logical JSON AST. Preserve the original meaning and include only relevant evidence constraints. Output JSON only.\n",
+          "role": "user"
+        }
+      ],
+      "model": "qwen/qwen3.8-27b",
+      "reasoning_effort": "none",
+      "response_format": {
+        "json_schema": {
+          "name": "semantic_ast_v6",
+          "schema": {
+            "$defs": {
+              "formula": {
+                "anyOf": [
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "args": {
+                        "items": {
+                          "$ref": "#/$defs/term"
+                        },
+                        "minItems": 0,
+                        "type": "array"
+                      },
+                      "name": {
+                        "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                        "type": "string"
+                      },
+                      "op": {
+                        "enum": [
+                          "pred"
+                        ],
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "name",
+                      "args"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "arg": {
+                        "$ref": "#/$defs/formula"
+                      },
+                      "op": {
+                        "enum": [
+                          "not"
+                        ],
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "arg"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "args": {
+                        "items": {
+                          "$ref": "#/$defs/formula"
+                        },
+                        "minItems": 2,
+                        "type": "array"
+                      },
+                      "op": {
+                        "enum": [
+                          "and",
+                          "or"
+                        ],
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "args"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "left": {
+                        "$ref": "#/$defs/formula"
+                      },
+                      "op": {
+                        "enum": [
+                          "implies"
+                        ],
+                        "type": "string"
+                      },
+                      "right": {
+                        "$ref": "#/$defs/formula"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "left",
+                      "right"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "left": {
+                        "$ref": "#/$defs/term"
+                      },
+                      "op": {
+                        "enum": [
+                          "eq",
+                          "ne",
+                          "lt",
+                          "le",
+                          "gt",
+                          "ge"
+                        ],
+                        "type": "string"
+                      },
+                      "right": {
+                        "$ref": "#/$defs/term"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "left",
+                      "right"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "body": {
+                        "$ref": "#/$defs/formula"
+                      },
+                      "op": {
+                        "enum": [
+                          "exists",
+                          "forall"
+                        ],
+                        "type": "string"
+                      },
+                      "variables": {
+                        "items": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "name": {
+                              "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                              "type": "string"
+                            },
+                            "type": {
+                              "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "name",
+                            "type"
+                          ],
+                          "type": "object"
+                        },
+                        "minItems": 1,
+                        "type": "array"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "variables",
+                      "body"
+                    ],
+                    "type": "object"
+                  }
+                ]
+              },
+              "term": {
+                "anyOf": [
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "name": {
+                        "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                        "type": "string"
+                      },
+                      "op": {
+                        "enum": [
+                          "const",
+                          "var"
+                        ],
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "name"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "op": {
+                        "enum": [
+                          "int"
+                        ],
+                        "type": "string"
+                      },
+                      "value": {
+                        "type": "integer"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "value"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "left": {
+                        "$ref": "#/$defs/term"
+                      },
+                      "op": {
+                        "enum": [
+                          "add",
+                          "sub"
+                        ],
+                        "type": "string"
+                      },
+                      "right": {
+                        "$ref": "#/$defs/term"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "left",
+                      "right"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "args": {
+                        "items": {
+                          "$ref": "#/$defs/term"
+                        },
+                        "minItems": 0,
+                        "type": "array"
+                      },
+                      "name": {
+                        "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                        "type": "string"
+                      },
+                      "op": {
+                        "enum": [
+                          "fun"
+                        ],
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "op",
+                      "name",
+                      "args"
+                    ],
+                    "type": "object"
+                  }
+                ]
+              }
+            },
+            "additionalProperties": false,
+            "properties": {
+              "claim": {
+                "anyOf": [
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "formula": {
+                        "$ref": "#/$defs/formula"
+                      }
+                    },
+                    "required": [
+                      "formula"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "evidence": {
+                "items": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "formula": {
+                      "$ref": "#/$defs/formula"
+                    },
+                    "source_quote": {
+                      "minLength": 1,
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "source_quote",
+                    "formula"
+                  ],
+                  "type": "object"
+                },
+                "minItems": 0,
+                "type": "array"
+              },
+              "notes": {
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 0,
+                "type": "array"
+              },
+              "status": {
+                "enum": [
+                  "OK",
+                  "UNSUPPORTED"
+                ],
+                "type": "string"
+              },
+              "symbols": {
+                "additionalProperties": false,
+                "properties": {
+                  "constants": {
+                    "items": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "aliases": {
+                          "items": {
+                            "type": "string"
+                          },
+                          "minItems": 0,
+                          "type": "array"
+                        },
+                        "name": {
+                          "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                          "type": "string"
+                        },
+                        "type": {
+                          "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "type",
+                        "aliases"
+                      ],
+                      "type": "object"
+                    },
+                    "minItems": 0,
+                    "type": "array"
+                  },
+                  "functions": {
+                    "items": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "arg_types": {
+                          "items": {
+                            "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                            "type": "string"
+                          },
+                          "minItems": 0,
+                          "type": "array"
+                        },
+                        "name": {
+                          "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                          "type": "string"
+                        },
+                        "return_type": {
+                          "enum": [
+                            "Int"
+                          ],
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "arg_types",
+                        "return_type"
+                      ],
+                      "type": "object"
+                    },
+                    "minItems": 0,
+                    "type": "array"
+                  },
+                  "predicates": {
+                    "items": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "arg_types": {
+                          "items": {
+                            "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                            "type": "string"
+                          },
+                          "minItems": 0,
+                          "type": "array"
+                        },
+                        "name": {
+                          "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "arg_types"
+                      ],
+                      "type": "object"
+                    },
+                    "minItems": 0,
+                    "type": "array"
+                  }
+                },
+                "required": [
+                  "constants",
+                  "predicates",
+                  "functions"
+                ],
+                "type": "object"
+              }
+            },
+            "required": [
+              "status",
+              "symbols",
+              "evidence",
+              "claim",
+              "notes"
+            ],
+            "type": "object"
+          },
+          "strict": true
+        },
+        "type": "json_schema"
+      },
+      "seed": 42,
+      "stream": false,
+      "temperature": 0
+    },
+    "requested_at": "2026-10-28T00:24:58.215485+00:00",
+    "responded_at": "2026-10-28T00:25:00.452667+00:00",
+    "response_id_sha256": "3df45e0fb28602e824462d03280b79760a4f45013bc1fce51f4142f5a5b4699d",
+    "response_json": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"claim\": {\"formula\": {\"body\": {\"args\": [{\"name\": \"barry_keoghan\", \"op\": \"const\"}, {\"name\": \"dublin_homeless_shelter\", \"op\": \"const\"}, {\"op\": \"int\", \"value\": 50000}, {\"op\": \"int\", \"value\": 2021}], \"name\": \"quietly_donated\", \"op\": \"pred\"}, \"op\": \"exists\", \"variables\": [{\"name\": \"dublin_homeless_shelter\", \"type\": \"Shelter\"}]}}, \"evidence\": [{\"formula\": {\"args\": [{\"name\": \"barry_keoghan\", \"op\": \"const\"}, {\"name\": \"barry_keoghan_personal_assistant\", \"op\": \"const\"}, {\"name\": \"p_donation_report\", \"op\": \"const\"}], \"name\": \"declined_to_comment_on_report\", \"op\": \"pred\"}, \"source_quote\": \"His personal assistant declined to comment on reports that Barry Keoghan had quietly donated €50,000 to a Dublin homeless shelter in 2021.\"}, {\"formula\": {\"args\": [{\"name\": \"p_donation_report\", \"op\": \"const\"}, {\"name\": \"barry_keoghan\", \"op\": \"const\"}, {\"name\": \"dublin_homeless_shelter\", \"op\": \"const\"}, {\"op\": \"int\", \"value\": 50000}, {\"op\": \"int\", \"value\": 2021}], \"name\": \"report_content\", \"op\": \"pred\"}, \"source_quote\": \"reports that Barry Keoghan had quietly donated €50,000 to a Dublin homeless shelter in 2021.\"}], \"notes\": [\"The evidence states that a personal assistant declined to comment on reports of the donation. It does not independently verify that the donation occurred.\", \"The claim asserts the donation as a fact, which is not supported by the evidence, only reported.\", \"The constant 'dublin_homeless_shelter' is introduced to represent the specific shelter mentioned in the report.\"], \"status\": \"OK\", \"symbols\": {\"constants\": [{\"aliases\": [\"Barry Keoghan\"], \"name\": \"barry_keoghan\", \"type\": \"Person\"}, {\"aliases\": [\"personal assistant\"], \"name\": \"barry_keoghan_personal_assistant\", \"type\": \"Person\"}, {\"aliases\": [\"report of donation\"], \"name\": \"p_donation_report\", \"type\": \"Proposition\"}], \"functions\": [], \"predicates\": [{\"arg_types\": [\"Person\", \"Person\", \"Proposition\"], \"name\": \"declined_to_comment_on_report\"}, {\"arg_types\": [\"Proposition\", \"Person\", \"Shelter\", \"Int\", \"Int\"], \"name\": \"report_content\"}, {\"arg_types\": [\"Person\", \"Shelter\", \"Int\", \"Int\"], \"name\": \"quietly_donated\"}]}}",
+            "role": "assistant"
+          }
+        }
+      ],
+      "created": 1793147100,
+      "model": "qwen/qwen3.8-27b",
+      "object": "chat.completion",
+      "response_id_sha256": "3df45e0fb28602e824462d03280b79760a4f45013bc1fce51f4142f5a5b4699d",
+      "service_tier": "on_demand",
+      "system_fingerprint": "fp_424cb89518",
+      "usage": {
+        "completion_time": 1.283096258,
+        "completion_tokens": 626,
+        "prompt_time": 0.076500011,
+        "prompt_tokens": 1114,
+        "queue_time": 0.075573639,
+        "total_time": 1.359596269,
+        "total_tokens": 1740
+      },
+      "usage_breakdown": null,
+      "x_groq": {
+        "id": "req_01m5zyanpdenqtb2tb22k8h9xs",
+        "seed": 42
+      }
+    },
+    "system_fingerprint": "fp_424cb89518",
+    "usage": {
+      "completion_time": 1.283096258,
+      "completion_tokens": 626,
+      "prompt_time": 0.076500011,
+      "prompt_tokens": 1114,
+      "queue_time": 0.075573639,
+      "total_time": 1.359596269,
+      "total_tokens": 1740
+    }
+  },
+  "completion_sha256": "c040faf245a463528010deeca5e7e1ffe9ddf3270262e6fefc6026b3318be225",
+  "id": "e_8880bd49ca9558a2",
+  "input_sha256": "630adb00ce8a0ec813ae27cf3964db50637352f7d2661c6235b30c3bfe6ea343",
+  "request_sha256": "98d7769b2a9670ac06636d2e65b2087f41a0c06140330ce00123bace8931804b"
+}

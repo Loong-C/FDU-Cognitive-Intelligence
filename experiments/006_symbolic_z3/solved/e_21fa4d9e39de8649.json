@@ -1,0 +1,112 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "body": {
+          "args": [
+            {
+              "name": "jenna_ortega",
+              "op": "const"
+            },
+            {
+              "name": "mtv_movie_award_best_performance_horror_film",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 2023
+            }
+          ],
+          "name": "won_before",
+          "op": "pred"
+        },
+        "op": "exists",
+        "variables": [
+          {
+            "name": "year",
+            "type": "Int"
+          }
+        ]
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "jenna_ortega",
+              "op": "const"
+            },
+            {
+              "name": "mtv_movie_award_best_performance_horror_film",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 2023
+            }
+          ],
+          "name": "won_second_time_in",
+          "op": "pred"
+        },
+        "source_quote": "Jenna Ortega won the MTV Movie Award for Best Performance in a Horror Film for a second time in 2023."
+      }
+    ],
+    "notes": [
+      "The evidence states the award was won 'for a second time' in 2023, which logically implies a prior win occurred before 2023.",
+      "The claim asserts the existence of a win before 2023, which is supported by the 'second time' constraint in the evidence."
+    ],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Jenna Ortega"
+          ],
+          "name": "jenna_ortega",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "MTV Movie Award for Best Performance in a Horror Film"
+          ],
+          "name": "mtv_movie_award_best_performance_horror_film",
+          "type": "Award"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Award",
+            "Int"
+          ],
+          "name": "won_second_time_in"
+        },
+        {
+          "arg_types": [
+            "Person",
+            "Award",
+            "Int"
+          ],
+          "name": "won_before"
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "claim": "(exists ((bound_year Int))\n  (predicates_won_before\n    entity_jenna_ortega\n    entity_mtv_movie_award_best_performance_horror_film\n    2023))",
+    "evidence": [
+      "(predicates_won_second_time_in\n  entity_jenna_ortega\n  entity_mtv_movie_award_best_performance_horror_film\n  2023)"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.003048500046133995,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

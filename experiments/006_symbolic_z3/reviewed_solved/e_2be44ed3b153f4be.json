@@ -1,0 +1,16 @@
+{
+  "constraints": {
+    "claim": "(predicates_Serves entity_Teddy entity_TheSwims 2020)",
+    "evidence": [
+      "(predicates_Serves entity_Teddy entity_TheSwims 2018)"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.0019288999028503895,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

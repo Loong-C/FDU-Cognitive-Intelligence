@@ -1,0 +1,16 @@
+{
+  "constraints": {
+    "claim": "(predicates_Holds entity_ReportedProposition)",
+    "evidence": [
+      "(and (predicates_Reported entity_ReportedProposition)\n     (predicates_DeclinedComment entity_Speaker entity_ReportedProposition))"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.002952700015157461,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

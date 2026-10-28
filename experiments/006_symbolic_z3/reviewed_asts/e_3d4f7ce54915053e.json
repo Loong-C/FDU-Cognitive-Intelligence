@@ -1,0 +1,93 @@
+{
+  "claim": {
+    "formula": {
+      "left": {
+        "args": [
+          {
+            "name": "WizardOfOz",
+            "op": "const"
+          }
+        ],
+        "name": "ActualPremiereDate",
+        "op": "fun"
+      },
+      "op": "eq",
+      "right": {
+        "op": "int",
+        "value": 19390810
+      }
+    }
+  },
+  "evidence": [
+    {
+      "formula": {
+        "left": {
+          "args": [
+            {
+              "name": "WizardOfOz",
+              "op": "const"
+            }
+          ],
+          "name": "ScheduledPremiereDate",
+          "op": "fun"
+        },
+        "op": "eq",
+        "right": {
+          "op": "int",
+          "value": 19390810
+        }
+      },
+      "source_quote": "The Wizard of Oz was scheduled to premiere on August 10, 1939, but it actually premiered on August 15, 1939."
+    },
+    {
+      "formula": {
+        "left": {
+          "args": [
+            {
+              "name": "WizardOfOz",
+              "op": "const"
+            }
+          ],
+          "name": "ActualPremiereDate",
+          "op": "fun"
+        },
+        "op": "eq",
+        "right": {
+          "op": "int",
+          "value": 19390815
+        }
+      },
+      "source_quote": "The Wizard of Oz was scheduled to premiere on August 10, 1939, but it actually premiered on August 15, 1939."
+    }
+  ],
+  "notes": [
+    "Dates use ordered YYYYMMDD integers. The described premiere is one event; scheduled and actual attributes remain separate."
+  ],
+  "status": "OK",
+  "symbols": {
+    "constants": [
+      {
+        "aliases": [],
+        "name": "WizardOfOz",
+        "type": "Film"
+      }
+    ],
+    "functions": [
+      {
+        "arg_types": [
+          "Film"
+        ],
+        "name": "ScheduledPremiereDate",
+        "return_type": "Int"
+      },
+      {
+        "arg_types": [
+          "Film"
+        ],
+        "name": "ActualPremiereDate",
+        "return_type": "Int"
+      }
+    ],
+    "predicates": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "ast": {
+    "claim": null,
+    "evidence": [],
+    "notes": [
+      "The evidence lists Pauline and Alex as siblings of Timothée Chalamet and states he has three siblings, but it does not mention a sibling named Gabriel. Therefore, the claim cannot be supported by the provided text."
+    ],
+    "status": "UNSUPPORTED",
+    "symbols": {
+      "constants": [],
+      "functions": [],
+      "predicates": []
+    }
+  },
+  "constraints": null,
+  "label": "UNSUPPORTED",
+  "reason": "formalizer_unsupported",
+  "sat_e": null,
+  "sat_e_c": null,
+  "sat_e_not_c": null,
+  "solve_seconds": 0.00043770018965005875,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

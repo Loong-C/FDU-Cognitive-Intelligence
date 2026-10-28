@@ -1,0 +1,16 @@
+{
+  "constraints": {
+    "claim": "(exists ((bound_claimEvent type_Event))\n  (and (predicates_AwardWin entity_Jenna bound_claimEvent)\n       (> 20230000 (functions_Time bound_claimEvent))))",
+    "evidence": [
+      "(exists ((bound_current type_Event) (bound_prior type_Event))\n  (let ((a!1 (forall ((bound_other type_Event))\n               (=> (and (predicates_AwardWin entity_Jenna bound_other)\n                        (< (functions_Time bound_other)\n                           (functions_Time bound_current)))\n                   (= bound_other bound_prior)))))\n    (and (predicates_AwardWin entity_Jenna bound_current)\n         (<= 20230000 (functions_Time bound_current))\n         (> 20240000 (functions_Time bound_current))\n         (predicates_AwardWin entity_Jenna bound_prior)\n         (< (functions_Time bound_prior) (functions_Time bound_current))\n         a!1)))"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.015788900200277567,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

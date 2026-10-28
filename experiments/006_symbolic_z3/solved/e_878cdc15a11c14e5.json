@@ -1,0 +1,94 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "Ahmed_al_Sharaa",
+            "op": "const"
+          },
+          {
+            "name": "Nobel_Peace_Prize_2025",
+            "op": "const"
+          }
+        ],
+        "name": "won",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "Ahmed_al_Sharaa",
+              "op": "const"
+            },
+            {
+              "name": "Nobel_Peace_Prize_2025",
+              "op": "const"
+            }
+          ],
+          "name": "tipped_to_win",
+          "op": "pred"
+        },
+        "source_quote": "Ahmed al-Sharaa was widely tipped to win the 2025 Nobel Peace Prize."
+      }
+    ],
+    "notes": [
+      "The evidence states that Ahmed al-Sharaa was 'tipped to win' (predicted/favored), which is distinct from the claim that he actually 'won'.",
+      "The predicate 'tipped_to_win' is used to represent the prediction, while 'won' represents the actual outcome in the claim.",
+      "No evidence supports the actual occurrence of the win, only the prediction."
+    ],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Ahmed al-Sharaa"
+          ],
+          "name": "Ahmed_al_Sharaa",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "2025 Nobel Peace Prize"
+          ],
+          "name": "Nobel_Peace_Prize_2025",
+          "type": "Award"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Award"
+          ],
+          "name": "tipped_to_win"
+        },
+        {
+          "arg_types": [
+            "Person",
+            "Award"
+          ],
+          "name": "won"
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "claim": "(predicates_won entity_Ahmed_al_Sharaa entity_Nobel_Peace_Prize_2025)",
+    "evidence": [
+      "(predicates_tipped_to_win entity_Ahmed_al_Sharaa entity_Nobel_Peace_Prize_2025)"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.002578999847173691,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

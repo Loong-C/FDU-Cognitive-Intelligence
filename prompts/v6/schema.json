@@ -1,0 +1,434 @@
+{
+  "$defs": {
+    "formula": {
+      "anyOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "args": {
+              "items": {
+                "$ref": "#/$defs/term"
+              },
+              "minItems": 0,
+              "type": "array"
+            },
+            "name": {
+              "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+              "type": "string"
+            },
+            "op": {
+              "enum": [
+                "pred"
+              ],
+              "type": "string"
+            }
+          },
+          "required": [
+            "op",
+            "name",
+            "args"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "arg": {
+              "$ref": "#/$defs/formula"
+            },
+            "op": {
+              "enum": [
+                "not"
+              ],
+              "type": "string"
+            }
+          },
+          "required": [
+            "op",
+            "arg"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "args": {
+              "items": {
+                "$ref": "#/$defs/formula"
+              },
+              "minItems": 2,
+              "type": "array"
+            },
+            "op": {
+              "enum": [
+                "and",
+                "or"
+              ],
+              "type": "string"
+            }
+          },
+          "required": [
+            "op",
+            "args"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "left": {
+              "$ref": "#/$defs/formula"
+            },
+            "op": {
+              "enum": [
+                "implies"
+              ],
+              "type": "string"
+            },
+            "right": {
+              "$ref": "#/$defs/formula"
+            }
+          },
+          "required": [
+            "op",
+            "left",
+            "right"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "left": {
+              "$ref": "#/$defs/term"
+            },
+            "op": {
+              "enum": [
+                "eq",
+                "ne",
+                "lt",
+                "le",
+                "gt",
+                "ge"
+              ],
+              "type": "string"
+            },
+            "right": {
+              "$ref": "#/$defs/term"
+            }
+          },
+          "required": [
+            "op",
+            "left",
+            "right"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "body": {
+              "$ref": "#/$defs/formula"
+            },
+            "op": {
+              "enum": [
+                "exists",
+                "forall"
+              ],
+              "type": "string"
+            },
+            "variables": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "name": {
+                    "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                    "type": "string"
+                  },
+                  "type": {
+                    "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "type"
+                ],
+                "type": "object"
+              },
+              "minItems": 1,
+              "type": "array"
+            }
+          },
+          "required": [
+            "op",
+            "variables",
+            "body"
+          ],
+          "type": "object"
+        }
+      ]
+    },
+    "term": {
+      "anyOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+              "type": "string"
+            },
+            "op": {
+              "enum": [
+                "const",
+                "var"
+              ],
+              "type": "string"
+            }
+          },
+          "required": [
+            "op",
+            "name"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "op": {
+              "enum": [
+                "int"
+              ],
+              "type": "string"
+            },
+            "value": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "op",
+            "value"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "left": {
+              "$ref": "#/$defs/term"
+            },
+            "op": {
+              "enum": [
+                "add",
+                "sub"
+              ],
+              "type": "string"
+            },
+            "right": {
+              "$ref": "#/$defs/term"
+            }
+          },
+          "required": [
+            "op",
+            "left",
+            "right"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "args": {
+              "items": {
+                "$ref": "#/$defs/term"
+              },
+              "minItems": 0,
+              "type": "array"
+            },
+            "name": {
+              "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+              "type": "string"
+            },
+            "op": {
+              "enum": [
+                "fun"
+              ],
+              "type": "string"
+            }
+          },
+          "required": [
+            "op",
+            "name",
+            "args"
+          ],
+          "type": "object"
+        }
+      ]
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "claim": {
+      "anyOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "formula": {
+              "$ref": "#/$defs/formula"
+            }
+          },
+          "required": [
+            "formula"
+          ],
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "evidence": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "formula": {
+            "$ref": "#/$defs/formula"
+          },
+          "source_quote": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "source_quote",
+          "formula"
+        ],
+        "type": "object"
+      },
+      "minItems": 0,
+      "type": "array"
+    },
+    "notes": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 0,
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "OK",
+        "UNSUPPORTED"
+      ],
+      "type": "string"
+    },
+    "symbols": {
+      "additionalProperties": false,
+      "properties": {
+        "constants": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "aliases": {
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 0,
+                "type": "array"
+              },
+              "name": {
+                "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                "type": "string"
+              },
+              "type": {
+                "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "type",
+              "aliases"
+            ],
+            "type": "object"
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "functions": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "arg_types": {
+                "items": {
+                  "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                  "type": "string"
+                },
+                "minItems": 0,
+                "type": "array"
+              },
+              "name": {
+                "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                "type": "string"
+              },
+              "return_type": {
+                "enum": [
+                  "Int"
+                ],
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "arg_types",
+              "return_type"
+            ],
+            "type": "object"
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "predicates": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "arg_types": {
+                "items": {
+                  "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                  "type": "string"
+                },
+                "minItems": 0,
+                "type": "array"
+              },
+              "name": {
+                "pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$",
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "arg_types"
+            ],
+            "type": "object"
+          },
+          "minItems": 0,
+          "type": "array"
+        }
+      },
+      "required": [
+        "constants",
+        "predicates",
+        "functions"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "status",
+    "symbols",
+    "evidence",
+    "claim",
+    "notes"
+  ],
+  "type": "object"
+}

@@ -1,0 +1,17 @@
+{
+  "constraints": {
+    "claim": "(predicates_Serves entity_Teddy entity_TheSwims 2020)",
+    "evidence": [
+      "(exists ((bound_first type_Event))\n  (let ((a!1 (forall ((bound_t type_Event))\n               (=> (predicates_Term entity_Teddy entity_TheSwims bound_t)\n                   (<= 2015 (functions_Start bound_t))))))\n    (and (predicates_Term entity_Teddy entity_TheSwims bound_first)\n         (= 2015 (functions_Start bound_first))\n         (= 2018 (functions_End bound_first))\n         a!1)))",
+      "(forall ((bound_year Int))\n  (=> (and (<= 2015 bound_year) (>= 2018 bound_year))\n      (predicates_Serves entity_Teddy entity_TheSwims bound_year)))"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.013687700033187866,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

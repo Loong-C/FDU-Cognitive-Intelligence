@@ -1,0 +1,18 @@
+{
+  "constraints": {
+    "claim": "(exists ((bound_ca type_Award))\n  (and (predicates_AwardKind bound_ca)\n       (predicates_Won entity_Donald bound_ca 2010)))",
+    "evidence": [
+      "(distinct entity_Donald entity_Darnell)",
+      "(exists ((bound_ea type_Award))\n  (and (predicates_AwardKind bound_ea)\n       (predicates_Won entity_Darnell bound_ea 2010)))",
+      "(exists ((bound_eb type_Award))\n  (and (predicates_AwardKind bound_eb)\n       (predicates_Won entity_Donald bound_eb 2010)))"
+    ]
+  },
+  "label": "SUPPORTS",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "unsat",
+  "solve_seconds": 0.006026400253176689,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

@@ -1,0 +1,17 @@
+{
+  "constraints": {
+    "claim": "(predicates_Holds entity_ReportedProposition)",
+    "evidence": [
+      "(and (predicates_Reported entity_ReportedProposition)\n     (predicates_Denied entity_Speaker entity_ReportedProposition))",
+      "(not (predicates_Holds entity_ReportedProposition))"
+    ]
+  },
+  "label": "REFUTES",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "unsat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.0029253000393509865,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

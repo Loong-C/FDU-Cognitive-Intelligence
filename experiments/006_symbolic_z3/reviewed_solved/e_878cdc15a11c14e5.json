@@ -1,0 +1,16 @@
+{
+  "constraints": {
+    "claim": "(predicates_Won entity_Ahmed entity_NobelPeace2025)",
+    "evidence": [
+      "(predicates_WidelyTipped entity_Ahmed entity_NobelPeace2025)"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.002319600433111191,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

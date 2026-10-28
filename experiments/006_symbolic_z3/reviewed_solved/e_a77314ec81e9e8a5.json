@@ -1,0 +1,16 @@
+{
+  "constraints": {
+    "claim": "(exists ((bound_c0 type_Event)\n         (bound_c1 type_Event)\n         (bound_c2 type_Event)\n         (bound_c3 type_Event))\n  (let ((a!1 (forall ((bound_by2023 type_Event))\n               (=> (and (predicates_Achievement entity_Sylvester bound_by2023)\n                        (> 20240000 (functions_Time bound_by2023)))\n                   (or (= bound_by2023 bound_c0)\n                       (= bound_by2023 bound_c1)\n                       (= bound_by2023 bound_c2)\n                       (= bound_by2023 bound_c3))))))\n    (and (predicates_Achievement entity_Sylvester bound_c0)\n         (> 20240000 (functions_Time bound_c0))\n         (predicates_Achievement entity_Sylvester bound_c1)\n         (> 20240000 (functions_Time bound_c1))\n         (predicates_Achievement entity_Sylvester bound_c2)\n         (> 20240000 (functions_Time bound_c2))\n         (and (predicates_Achievement entity_Sylvester bound_c3)\n              (> 20240000 (functions_Time bound_c3)))\n         (distinct bound_c0 bound_c1)\n         (distinct bound_c0 bound_c2)\n         (distinct bound_c0 bound_c3)\n         (distinct bound_c1 bound_c2)\n         (distinct bound_c1 bound_c3)\n         (distinct bound_c2 bound_c3)\n         a!1)))",
+    "evidence": [
+      "(exists ((bound_first type_Event)\n         (bound_second type_Event)\n         (bound_third type_Event))\n  (let ((a!1 (forall ((bound_prior type_Event))\n               (=> (and (predicates_Achievement entity_Sylvester bound_prior)\n                        (<= (functions_Time bound_prior)\n                            (functions_Time bound_third)))\n                   (or (= bound_prior bound_first)\n                       (= bound_prior bound_second)\n                       (= bound_prior bound_third))))))\n    (and (predicates_Achievement entity_Sylvester bound_first)\n         (predicates_Achievement entity_Sylvester bound_second)\n         (predicates_Achievement entity_Sylvester bound_third)\n         (<= 20190000 (functions_Time bound_third))\n         (> 20200000 (functions_Time bound_third))\n         (< (functions_Time bound_first) (functions_Time bound_second))\n         (< (functions_Time bound_second) (functions_Time bound_third))\n         a!1)))"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.04421829991042614,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

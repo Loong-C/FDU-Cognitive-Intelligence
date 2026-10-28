@@ -1,0 +1,7 @@
+EVIDENCE:
+{evidence}
+
+CLAIM:
+{claim}
+
+Translate these into the predefined logical JSON AST. Preserve the original meaning and include only relevant evidence constraints. Output JSON only.

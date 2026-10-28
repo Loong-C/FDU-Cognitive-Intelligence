@@ -1,0 +1,134 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "jamie_vardy",
+            "op": "const"
+          },
+          {
+            "name": "leicester_city",
+            "op": "const"
+          },
+          {
+            "op": "int",
+            "value": 2026
+          }
+        ],
+        "name": "captain_of",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "jamie_vardy",
+              "op": "const"
+            },
+            {
+              "name": "leicester_city",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 2023
+            },
+            {
+              "op": "int",
+              "value": 2025
+            }
+          ],
+          "name": "captain_period",
+          "op": "pred"
+        },
+        "source_quote": "Jamie Vardy was captain of Leicester City from 2023 to 2025"
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "jamie_vardy",
+              "op": "const"
+            },
+            {
+              "name": "leicester_city",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 2026
+            },
+            {
+              "op": "int",
+              "value": 2027
+            }
+          ],
+          "name": "captain_period",
+          "op": "pred"
+        },
+        "source_quote": "and again from 2026 to 2027"
+      }
+    ],
+    "notes": [
+      "The evidence states Jamie Vardy was captain from 2026 to 2027, which implies he was captain in 2026.",
+      "The claim is a specific instance of the second captaincy period."
+    ],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Jamie Vardy"
+          ],
+          "name": "jamie_vardy",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "Leicester City"
+          ],
+          "name": "leicester_city",
+          "type": "Team"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Team",
+            "Int",
+            "Int"
+          ],
+          "name": "captain_period"
+        },
+        {
+          "arg_types": [
+            "Person",
+            "Team",
+            "Int"
+          ],
+          "name": "captain_of"
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "claim": "(predicates_captain_of entity_jamie_vardy entity_leicester_city 2026)",
+    "evidence": [
+      "(predicates_captain_period entity_jamie_vardy entity_leicester_city 2023 2025)",
+      "(predicates_captain_period entity_jamie_vardy entity_leicester_city 2026 2027)"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.003703999798744917,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

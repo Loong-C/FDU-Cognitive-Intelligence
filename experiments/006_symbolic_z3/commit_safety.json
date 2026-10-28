@@ -1,0 +1,8 @@
+{
+  "all_staged_json_valid": true,
+  "diff_check_passed": true,
+  "git_worktree_byte_mismatches_for_code_and_json": [],
+  "paths_within_authorized_v6_scope": true,
+  "secret_matches": [],
+  "staged_files_scanned": 211
+}

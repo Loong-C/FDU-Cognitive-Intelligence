@@ -1,0 +1,18 @@
+{
+  "evaluation_sha256": "36824aa3a32ee3e7801392bfb5b002631fb54fd9677dca2c33fc9c629feaedc9",
+  "selection_sha256": "9a3eb5a12be5fc74803cb8323450f2308bf63a75ee8b278830afc0a2cc87a6d7",
+  "source_sha256": {
+    "configs/experiment_symbolic_z3_v6.json": "c4f90937ec221825fa96a38c3add48b53034e401d192d38b74b39386cbc3d232",
+    "prompts/v6/dsl.txt": "a429aa1d3187ff212c229db9e217d6c0252f53cf34f6851ee5bf59710e290b24",
+    "prompts/v6/schema.json": "65c81d97ca958077c144c5ddfc8d11f0f46337961b524c9814a9b82d17709da4",
+    "prompts/v6/system.txt": "e0cc2bf2cec5d065557466921baf3cc4e1197486be8c61b1aaf0677efff6ffe8",
+    "prompts/v6/user.txt": "704bf3ef3afdbc8fdc1def3991473a5b219d5aa519fd896616ac2677c02dbc21",
+    "src/ab_factcheck/groq_client.py": "7ba9622c335842bcc4d47935b3d20dd9e961bf9cd0c6b4c5769fe71c5f3f2254",
+    "src/ab_factcheck/symbolic_z3/client.py": "11f806b1c06e56510ce3ca4516bb686339ccb776a6f227700b9746ff24c8be1f",
+    "src/ab_factcheck/symbolic_z3/experiment.py": "1096051cf326f69d3e42c0ba04beb8dfde21ce0c526545ac713b806ca321f943",
+    "src/ab_factcheck/symbolic_z3/logic.py": "8b9cef6d99b0db8d51990d6f9d540c3b998228c8b4f73bfc582265ea6edaaf76",
+    "src/ab_factcheck/symbolic_z3/schema.py": "caabe0ce255332d43ab109928d974f63f4769dbf08a5242e3a899ff0677f1e80",
+    "src/ab_factcheck/worlds_v5/client.py": "a52d1986e4c58731cdb39725a88003199ccdf0ff20a904700468ad6dd5458ac9",
+    "src/ab_factcheck/worlds_v5_continuation.py": "f20ebe7fed2202913d7f59d8a6d9ea53bf3d6a9f71a05c29113348eea6f121ae"
+  }
+}

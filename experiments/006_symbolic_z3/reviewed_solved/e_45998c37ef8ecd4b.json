@@ -1,0 +1,17 @@
+{
+  "constraints": {
+    "claim": "(= 19390810 (functions_ActualPremiereDate entity_WizardOfOz))",
+    "evidence": [
+      "(= 19390810 (functions_ScheduledPremiereDate entity_WizardOfOz))",
+      "(< 19390810 (functions_ActualPremiereDate entity_WizardOfOz))"
+    ]
+  },
+  "label": "REFUTES",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "unsat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.005101400427520275,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

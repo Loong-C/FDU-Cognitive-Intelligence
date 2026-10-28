@@ -1,0 +1,96 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "patrickMahomes",
+            "op": "const"
+          },
+          {
+            "op": "int",
+            "value": 2023
+          }
+        ],
+        "name": "reclaimedMvpAward",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "patrickMahomes",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 2023
+            }
+          ],
+          "name": "reclaimedMvpAward",
+          "op": "pred"
+        },
+        "source_quote": "In 2023, Patrick Mahomes reclaimed the MVP award"
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "patrickMahomes",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 2023
+            }
+          ],
+          "name": "reclaimedMvpAward",
+          "op": "pred"
+        },
+        "source_quote": "In 2023, Patrick Mahomes reclaimed the MVP award"
+      }
+    ],
+    "notes": [
+      "The claim is directly supported by the first clause of the evidence sentence."
+    ],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Patrick Mahomes"
+          ],
+          "name": "patrickMahomes",
+          "type": "Person"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Int"
+          ],
+          "name": "reclaimedMvpAward"
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "claim": "(predicates_reclaimedMvpAward entity_patrickMahomes 2023)",
+    "evidence": [
+      "(predicates_reclaimedMvpAward entity_patrickMahomes 2023)",
+      "(predicates_reclaimedMvpAward entity_patrickMahomes 2023)"
+    ]
+  },
+  "label": "SUPPORTS",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "unsat",
+  "solve_seconds": 0.0029700002633035183,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

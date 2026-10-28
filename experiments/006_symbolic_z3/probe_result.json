@@ -1,0 +1,95 @@
+{
+  "nonempty_ast_probe": {
+    "ast": {
+      "claim": {
+        "formula": {
+          "args": [
+            {
+              "name": "alex",
+              "op": "const"
+            }
+          ],
+          "name": "bornIn1990",
+          "op": "pred"
+        }
+      },
+      "evidence": [
+        {
+          "formula": {
+            "args": [
+              {
+                "name": "alex",
+                "op": "const"
+              }
+            ],
+            "name": "bornIn1990",
+            "op": "pred"
+          },
+          "source_quote": "Alex was born in 1990."
+        }
+      ],
+      "notes": [],
+      "status": "OK",
+      "symbols": {
+        "constants": [
+          {
+            "aliases": [
+              "Alex"
+            ],
+            "name": "alex",
+            "type": "Person"
+          }
+        ],
+        "functions": [],
+        "predicates": [
+          {
+            "arg_types": [
+              "Person"
+            ],
+            "name": "bornIn1990"
+          }
+        ]
+      }
+    },
+    "constraints": {
+      "claim": "(predicates_bornIn1990 entity_alex)",
+      "evidence": [
+        "(predicates_bornIn1990 entity_alex)"
+      ]
+    },
+    "label": "SUPPORTS",
+    "reason": null,
+    "sat_e": "sat",
+    "sat_e_c": "sat",
+    "sat_e_not_c": "unsat",
+    "solve_seconds": 0.006461800076067448,
+    "unknown_reasons": {},
+    "z3_version": "4.16.0"
+  },
+  "protocol_passed": true,
+  "result": {
+    "ast": {
+      "claim": null,
+      "evidence": [],
+      "notes": [
+        "The evidence states that Alex won a regional award in 2021. The claim asserts that Sam won a regional award in 2021. There is no information in the evidence linking Sam to winning an award, nor is there information establishing that Sam is distinct from Alex or that the award was exclusive to Alex. Therefore, the claim cannot be formally supported or refuted based solely on the provided evidence text, and the specific relationship between Sam and the award event is not present in the source."
+      ],
+      "status": "UNSUPPORTED",
+      "symbols": {
+        "constants": [],
+        "functions": [],
+        "predicates": []
+      }
+    },
+    "constraints": null,
+    "label": "UNSUPPORTED",
+    "reason": "formalizer_unsupported",
+    "sat_e": null,
+    "sat_e_c": null,
+    "sat_e_not_c": null,
+    "solve_seconds": 0.0003529000096023083,
+    "unknown_reasons": {},
+    "z3_version": "4.16.0"
+  },
+  "semantic_passed": false
+}

@@ -1,0 +1,111 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "Ahmed_al_Sharaa",
+            "op": "const"
+          },
+          {
+            "name": "Nobel_Peace_Prize_2025",
+            "op": "const"
+          }
+        ],
+        "name": "won",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "args": [
+                {
+                  "name": "Ahmed_al_Sharaa",
+                  "op": "const"
+                },
+                {
+                  "name": "Nobel_Peace_Prize_2025",
+                  "op": "const"
+                }
+              ],
+              "name": "won",
+              "op": "pred"
+            },
+            {
+              "args": [
+                {
+                  "name": "Ahmed_al_Sharaa",
+                  "op": "const"
+                },
+                {
+                  "name": "Nobel_Peace_Prize_2025",
+                  "op": "const"
+                }
+              ],
+              "name": "failed_to_win",
+              "op": "pred"
+            }
+          ],
+          "op": "or"
+        },
+        "source_quote": "Ahmed al-Sharaa did not fail to win the 2025 Nobel Peace Prize."
+      }
+    ],
+    "notes": [
+      "The evidence states that Ahmed al-Sharaa did not fail to win the prize. In standard logical interpretation of 'did not fail to win', this implies that he did win the prize, as failing to win is the negation of winning in this context. The claim asserts that he won the prize, which is consistent with the evidence."
+    ],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Ahmed al-Sharaa"
+          ],
+          "name": "Ahmed_al_Sharaa",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "2025 Nobel Peace Prize"
+          ],
+          "name": "Nobel_Peace_Prize_2025",
+          "type": "Award"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Award"
+          ],
+          "name": "won"
+        },
+        {
+          "arg_types": [
+            "Person",
+            "Award"
+          ],
+          "name": "failed_to_win"
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "claim": "(predicates_won entity_Ahmed_al_Sharaa entity_Nobel_Peace_Prize_2025)",
+    "evidence": [
+      "(or (predicates_won entity_Ahmed_al_Sharaa entity_Nobel_Peace_Prize_2025)\n    (predicates_failed_to_win\n      entity_Ahmed_al_Sharaa\n      entity_Nobel_Peace_Prize_2025))"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.003953699953854084,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

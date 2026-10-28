@@ -1,0 +1,20 @@
+{
+  "gold_counts": {
+    "basic": {
+      "NOT ENOUGH INFO": 7,
+      "REFUTES": 6,
+      "SUPPORTS": 8
+    },
+    "challenge": {
+      "NOT ENOUGH INFO": 10,
+      "REFUTES": 2,
+      "SUPPORTS": 9
+    }
+  },
+  "independent_validation": false,
+  "per_stratum": 3,
+  "seed": 20261028,
+  "selected": 42,
+  "strata": 14,
+  "test_set_opened": false
+}

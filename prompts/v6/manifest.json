@@ -1,0 +1,15 @@
+{
+  "max_completion_tokens": 4096,
+  "model": "qwen/qwen3.8-27b",
+  "reasoning_effort": "none",
+  "seed": 42,
+  "sha256": {
+    "dsl.txt": "a429aa1d3187ff212c229db9e217d6c0252f53cf34f6851ee5bf59710e290b24",
+    "schema.json": "65c81d97ca958077c144c5ddfc8d11f0f46337961b524c9814a9b82d17709da4",
+    "system.txt": "e0cc2bf2cec5d065557466921baf3cc4e1197486be8c61b1aaf0677efff6ffe8",
+    "user.txt": "704bf3ef3afdbc8fdc1def3991473a5b219d5aa519fd896616ac2677c02dbc21"
+  },
+  "strict": true,
+  "temperature": 0,
+  "version": "v6_r1"
+}

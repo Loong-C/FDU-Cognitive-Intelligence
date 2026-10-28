@@ -1,0 +1,87 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "kjh_jesperson",
+            "op": "const"
+          },
+          {
+            "name": "salem",
+            "op": "const"
+          }
+        ],
+        "name": "lived_in",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "kjh_jesperson",
+              "op": "const"
+            },
+            {
+              "name": "portland",
+              "op": "const"
+            }
+          ],
+          "name": "lived_in",
+          "op": "pred"
+        },
+        "source_quote": "Keith Hunter Jesperson has lived in Portland."
+      }
+    ],
+    "notes": [
+      "The evidence states that Keith Hunter Jesperson lived in Portland. It does not provide information about whether he lived in Salem. The claim asserts he lived in Salem, which is not supported by the evidence."
+    ],
+    "status": "UNSUPPORTED",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Keith Hunter Jesperson"
+          ],
+          "name": "kjh_jesperson",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "Portland"
+          ],
+          "name": "portland",
+          "type": "Place"
+        },
+        {
+          "aliases": [
+            "Salem"
+          ],
+          "name": "salem",
+          "type": "Place"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Place"
+          ],
+          "name": "lived_in"
+        }
+      ]
+    }
+  },
+  "constraints": null,
+  "label": "UNSUPPORTED",
+  "reason": "InvalidAST: UNSUPPORTED requires empty symbols/evidence and null claim",
+  "sat_e": null,
+  "sat_e_c": null,
+  "sat_e_not_c": null,
+  "solve_seconds": 0.0008990000933408737,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

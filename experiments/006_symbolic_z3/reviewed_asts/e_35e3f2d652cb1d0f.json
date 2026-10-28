@@ -1,0 +1,150 @@
+{
+  "claim": {
+    "formula": {
+      "body": {
+        "args": [
+          {
+            "args": [
+              {
+                "name": "ca",
+                "op": "var"
+              }
+            ],
+            "name": "AwardKind",
+            "op": "pred"
+          },
+          {
+            "args": [
+              {
+                "name": "KritiSanon",
+                "op": "const"
+              },
+              {
+                "name": "ca",
+                "op": "var"
+              },
+              {
+                "name": "caYear",
+                "op": "var"
+              }
+            ],
+            "name": "Won",
+            "op": "pred"
+          }
+        ],
+        "op": "and"
+      },
+      "op": "exists",
+      "variables": [
+        {
+          "name": "ca",
+          "type": "Award"
+        },
+        {
+          "name": "caYear",
+          "type": "Int"
+        }
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "formula": {
+        "left": {
+          "name": "KritiSanon",
+          "op": "const"
+        },
+        "op": "ne",
+        "right": {
+          "name": "KritiMalhotra",
+          "op": "const"
+        }
+      },
+      "source_quote": "Kriti Sanon's cousin, Kriti Malhotra, Kriti Sanon's cousin, won a national table tennis championship."
+    },
+    {
+      "formula": {
+        "body": {
+          "args": [
+            {
+              "args": [
+                {
+                  "name": "ea",
+                  "op": "var"
+                }
+              ],
+              "name": "AwardKind",
+              "op": "pred"
+            },
+            {
+              "args": [
+                {
+                  "name": "KritiMalhotra",
+                  "op": "const"
+                },
+                {
+                  "name": "ea",
+                  "op": "var"
+                },
+                {
+                  "name": "eaYear",
+                  "op": "var"
+                }
+              ],
+              "name": "Won",
+              "op": "pred"
+            }
+          ],
+          "op": "and"
+        },
+        "op": "exists",
+        "variables": [
+          {
+            "name": "ea",
+            "type": "Award"
+          },
+          {
+            "name": "eaYear",
+            "type": "Int"
+          }
+        ]
+      },
+      "source_quote": "Kriti Sanon's cousin, Kriti Malhotra, Kriti Sanon's cousin, won a national table tennis championship."
+    }
+  ],
+  "notes": [
+    "Award witnesses are independent; the other person's success adds no negative fact about the claimant."
+  ],
+  "status": "OK",
+  "symbols": {
+    "constants": [
+      {
+        "aliases": [],
+        "name": "KritiSanon",
+        "type": "Person"
+      },
+      {
+        "aliases": [],
+        "name": "KritiMalhotra",
+        "type": "Person"
+      }
+    ],
+    "functions": [],
+    "predicates": [
+      {
+        "arg_types": [
+          "Person",
+          "Award",
+          "Int"
+        ],
+        "name": "Won"
+      },
+      {
+        "arg_types": [
+          "Award"
+        ],
+        "name": "AwardKind"
+      }
+    ]
+  }
+}

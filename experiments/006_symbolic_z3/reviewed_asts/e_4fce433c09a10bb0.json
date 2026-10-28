@@ -1,0 +1,149 @@
+{
+  "claim": {
+    "formula": {
+      "body": {
+        "args": [
+          {
+            "args": [
+              {
+                "name": "ca",
+                "op": "var"
+              }
+            ],
+            "name": "WomensGermanAmateurChampionship2012",
+            "op": "pred"
+          },
+          {
+            "args": [
+              {
+                "name": "Xabi",
+                "op": "const"
+              },
+              {
+                "name": "ca",
+                "op": "var"
+              },
+              {
+                "op": "int",
+                "value": 2012
+              }
+            ],
+            "name": "Won",
+            "op": "pred"
+          }
+        ],
+        "op": "and"
+      },
+      "op": "exists",
+      "variables": [
+        {
+          "name": "ca",
+          "type": "Award"
+        }
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "formula": {
+        "left": {
+          "name": "Xabi",
+          "op": "const"
+        },
+        "op": "ne",
+        "right": {
+          "name": "Elena",
+          "op": "const"
+        }
+      },
+      "source_quote": "Bayer 04 Leverkusen, officially known as Bayer 04 Leverkusen Fußball GmbH (German: [ˌbaɪ̯ɐ ˈleːvɐˌkuːzn̩]) and commonly known as Bayer Leverkusen or simply Leverkusen, is a German professional football club based in Leverkusen, North Rhine-Westphalia. Xabi Alonso and his sister Elena Alonso moved to Leverkusen to support her brother in 2008. In 2012, Elena Alonso won a regional amateur football tournament. It competes in the Bundesliga, the top tier of German football, and plays its home matches at the BayArena.\nFounded in 1904 by employees of the paint factory, today better known as a pharmaceutical company Bayer (whose headquarters are in Leverkusen and from which the club draws its name), the club was formerly a department of TSV Bayer 04 Leverkusen sports club whose members participate in athletics, gymnastics, basketball, field and handball. In 1999, the football department was separated from the sports club. Bayer Leverkusen's main colours are red and black, which feature across their playing kits and badge, and their main rival is 1. FC Köln, while the fans have had a deep friendship with the supporters of Kickers Offenbach for almost 50 years.\nBayer Leverkusen were promoted to the Bundesliga in 1979 and won their maiden top-flight honor, the UEFA Cup, in 1988. The club won its first domestic honour, the DFB Pokal, in 1993. The club finished runners-up across three competitions in 2002, including the UEFA Champions League. After over 30 years without silverware, the club won their first Bundesliga title and their second DFB Pokal in 2024, becoming the first German team to win the league or domestic double unbeaten, while setting the European record for consecutive unbeaten competitive games (51)."
+    },
+    {
+      "formula": {
+        "body": {
+          "args": [
+            {
+              "args": [
+                {
+                  "name": "ea",
+                  "op": "var"
+                }
+              ],
+              "name": "AwardKind",
+              "op": "pred"
+            },
+            {
+              "args": [
+                {
+                  "name": "Elena",
+                  "op": "const"
+                },
+                {
+                  "name": "ea",
+                  "op": "var"
+                },
+                {
+                  "op": "int",
+                  "value": 2012
+                }
+              ],
+              "name": "Won",
+              "op": "pred"
+            }
+          ],
+          "op": "and"
+        },
+        "op": "exists",
+        "variables": [
+          {
+            "name": "ea",
+            "type": "Award"
+          }
+        ]
+      },
+      "source_quote": "Bayer 04 Leverkusen, officially known as Bayer 04 Leverkusen Fußball GmbH (German: [ˌbaɪ̯ɐ ˈleːvɐˌkuːzn̩]) and commonly known as Bayer Leverkusen or simply Leverkusen, is a German professional football club based in Leverkusen, North Rhine-Westphalia. Xabi Alonso and his sister Elena Alonso moved to Leverkusen to support her brother in 2008. In 2012, Elena Alonso won a regional amateur football tournament. It competes in the Bundesliga, the top tier of German football, and plays its home matches at the BayArena.\nFounded in 1904 by employees of the paint factory, today better known as a pharmaceutical company Bayer (whose headquarters are in Leverkusen and from which the club draws its name), the club was formerly a department of TSV Bayer 04 Leverkusen sports club whose members participate in athletics, gymnastics, basketball, field and handball. In 1999, the football department was separated from the sports club. Bayer Leverkusen's main colours are red and black, which feature across their playing kits and badge, and their main rival is 1. FC Köln, while the fans have had a deep friendship with the supporters of Kickers Offenbach for almost 50 years.\nBayer Leverkusen were promoted to the Bundesliga in 1979 and won their maiden top-flight honor, the UEFA Cup, in 1988. The club won its first domestic honour, the DFB Pokal, in 1993. The club finished runners-up across three competitions in 2002, including the UEFA Champions League. After over 30 years without silverware, the club won their first Bundesliga title and their second DFB Pokal in 2024, becoming the first German team to win the league or domestic double unbeaten, while setting the European record for consecutive unbeaten competitive games (51)."
+    }
+  ],
+  "notes": [
+    "A regional tournament is not identified with the named championship in the claim.",
+    "Award witnesses are independent; the other person's success adds no negative fact about the claimant."
+  ],
+  "status": "OK",
+  "symbols": {
+    "constants": [
+      {
+        "aliases": [],
+        "name": "Xabi",
+        "type": "Person"
+      },
+      {
+        "aliases": [],
+        "name": "Elena",
+        "type": "Person"
+      }
+    ],
+    "functions": [],
+    "predicates": [
+      {
+        "arg_types": [
+          "Person",
+          "Award",
+          "Int"
+        ],
+        "name": "Won"
+      },
+      {
+        "arg_types": [
+          "Award"
+        ],
+        "name": "AwardKind"
+      },
+      {
+        "arg_types": [
+          "Award"
+        ],
+        "name": "WomensGermanAmateurChampionship2012"
+      }
+    ]
+  }
+}

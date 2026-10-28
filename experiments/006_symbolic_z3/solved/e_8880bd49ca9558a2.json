@@ -1,0 +1,159 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "body": {
+          "args": [
+            {
+              "name": "barry_keoghan",
+              "op": "const"
+            },
+            {
+              "name": "dublin_homeless_shelter",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 50000
+            },
+            {
+              "op": "int",
+              "value": 2021
+            }
+          ],
+          "name": "quietly_donated",
+          "op": "pred"
+        },
+        "op": "exists",
+        "variables": [
+          {
+            "name": "dublin_homeless_shelter",
+            "type": "Shelter"
+          }
+        ]
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "barry_keoghan",
+              "op": "const"
+            },
+            {
+              "name": "barry_keoghan_personal_assistant",
+              "op": "const"
+            },
+            {
+              "name": "p_donation_report",
+              "op": "const"
+            }
+          ],
+          "name": "declined_to_comment_on_report",
+          "op": "pred"
+        },
+        "source_quote": "His personal assistant declined to comment on reports that Barry Keoghan had quietly donated €50,000 to a Dublin homeless shelter in 2021."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "p_donation_report",
+              "op": "const"
+            },
+            {
+              "name": "barry_keoghan",
+              "op": "const"
+            },
+            {
+              "name": "dublin_homeless_shelter",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 50000
+            },
+            {
+              "op": "int",
+              "value": 2021
+            }
+          ],
+          "name": "report_content",
+          "op": "pred"
+        },
+        "source_quote": "reports that Barry Keoghan had quietly donated €50,000 to a Dublin homeless shelter in 2021."
+      }
+    ],
+    "notes": [
+      "The evidence states that a personal assistant declined to comment on reports of the donation. It does not independently verify that the donation occurred.",
+      "The claim asserts the donation as a fact, which is not supported by the evidence, only reported.",
+      "The constant 'dublin_homeless_shelter' is introduced to represent the specific shelter mentioned in the report."
+    ],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Barry Keoghan"
+          ],
+          "name": "barry_keoghan",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "personal assistant"
+          ],
+          "name": "barry_keoghan_personal_assistant",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "report of donation"
+          ],
+          "name": "p_donation_report",
+          "type": "Proposition"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Person",
+            "Proposition"
+          ],
+          "name": "declined_to_comment_on_report"
+        },
+        {
+          "arg_types": [
+            "Proposition",
+            "Person",
+            "Shelter",
+            "Int",
+            "Int"
+          ],
+          "name": "report_content"
+        },
+        {
+          "arg_types": [
+            "Person",
+            "Shelter",
+            "Int",
+            "Int"
+          ],
+          "name": "quietly_donated"
+        }
+      ]
+    }
+  },
+  "constraints": null,
+  "label": "UNSUPPORTED",
+  "reason": "InvalidAST: undeclared constant",
+  "sat_e": null,
+  "sat_e_c": null,
+  "sat_e_not_c": null,
+  "solve_seconds": 0.0019923001527786255,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

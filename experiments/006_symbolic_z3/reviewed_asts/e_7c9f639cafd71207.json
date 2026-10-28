@@ -1,0 +1,84 @@
+{
+  "claim": {
+    "formula": {
+      "left": {
+        "args": [
+          {
+            "name": "Knebworth1996",
+            "op": "const"
+          }
+        ],
+        "name": "Attendance",
+        "op": "fun"
+      },
+      "op": "eq",
+      "right": {
+        "op": "int",
+        "value": 125000
+      }
+    }
+  },
+  "evidence": [
+    {
+      "formula": {
+        "left": {
+          "args": [
+            {
+              "name": "Knebworth1996",
+              "op": "const"
+            }
+          ],
+          "name": "Attendance",
+          "op": "fun"
+        },
+        "op": "ge",
+        "right": {
+          "op": "int",
+          "value": 0
+        }
+      },
+      "source_quote": "Oasis drew an audience of up to 125010 people to their 1996 Knebworth concert."
+    },
+    {
+      "formula": {
+        "left": {
+          "args": [
+            {
+              "name": "Knebworth1996",
+              "op": "const"
+            }
+          ],
+          "name": "Attendance",
+          "op": "fun"
+        },
+        "op": "le",
+        "right": {
+          "op": "int",
+          "value": 125010
+        }
+      },
+      "source_quote": "Oasis drew an audience of up to 125010 people to their 1996 Knebworth concert."
+    }
+  ],
+  "notes": [],
+  "status": "OK",
+  "symbols": {
+    "constants": [
+      {
+        "aliases": [],
+        "name": "Knebworth1996",
+        "type": "Event"
+      }
+    ],
+    "functions": [
+      {
+        "arg_types": [
+          "Event"
+        ],
+        "name": "Attendance",
+        "return_type": "Int"
+      }
+    ],
+    "predicates": []
+  }
+}

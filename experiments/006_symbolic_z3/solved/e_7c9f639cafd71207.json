@@ -1,0 +1,94 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "oasis_band",
+            "op": "const"
+          },
+          {
+            "name": "knebworth_1996",
+            "op": "const"
+          },
+          {
+            "op": "int",
+            "value": 125000
+          }
+        ],
+        "name": "drewAudience",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "oasis_band",
+              "op": "const"
+            },
+            {
+              "name": "knebworth_1996",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 125010
+            }
+          ],
+          "name": "drewAudience",
+          "op": "pred"
+        },
+        "source_quote": "Oasis drew an audience of up to 125010 people to their 1996 Knebworth concert."
+      }
+    ],
+    "notes": [
+      "The evidence states the audience was 'up to 125010', which implies the count is less than or equal to 125010. The claim asserts the count is exactly 125000. While 125000 is a possible value within the range, the evidence does not confirm the exact number, only the upper bound. However, in logical formalization tasks of this type, we typically represent the specific facts given. The evidence gives a specific upper bound. The claim gives a specific number. To be faithful, we represent the evidence as the specific fact provided (often 'up to X' is treated as the reported figure or bound). Let's look at the schema. It asks to translate the evidence and claim. The evidence says 'up to 125010'. The claim says '125000'. These are different numbers. I will formalize the evidence as stating the audience size was 125010 (or bounded by it) and the claim as stating it was 125000. Given the strictness, 'up to 125010' usually means the maximum was 125010. I will use a predicate `drewAudience` with the specific number mentioned in the text for the evidence, and the number in the claim for the claim. If the predicate implies exactness, the evidence supports 125010 (as the reported figure) and the claim supports 125000. If the predicate is `maxAudience`, then evidence is `maxAudience(oasis, knebworth, 125010)`. The claim is `drewAudience(oasis, knebworth, 125000)`. These are distinct assertions. I will use a single predicate `drewAudience` for simplicity, representing the reported audience count. The evidence reports 125010. The claim reports 125000."
+    ],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Oasis"
+          ],
+          "name": "oasis_band",
+          "type": "Band"
+        },
+        {
+          "aliases": [
+            "1996 Knebworth concert"
+          ],
+          "name": "knebworth_1996",
+          "type": "Concert"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Band",
+            "Concert",
+            "Int"
+          ],
+          "name": "drewAudience"
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "claim": "(predicates_drewAudience entity_oasis_band entity_knebworth_1996 125000)",
+    "evidence": [
+      "(predicates_drewAudience entity_oasis_band entity_knebworth_1996 125010)"
+    ]
+  },
+  "label": "NOT ENOUGH INFO",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "sat",
+  "solve_seconds": 0.002735299989581108,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

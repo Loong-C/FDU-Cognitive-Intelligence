@@ -1,0 +1,245 @@
+{
+  "claim": {
+    "formula": {
+      "args": [
+        {
+          "name": "Timothee",
+          "op": "const"
+        },
+        {
+          "name": "Gabriel",
+          "op": "const"
+        }
+      ],
+      "name": "Sibling",
+      "op": "pred"
+    }
+  },
+  "evidence": [
+    {
+      "formula": {
+        "body": {
+          "args": [
+            {
+              "args": [
+                {
+                  "name": "Timothee",
+                  "op": "const"
+                },
+                {
+                  "name": "Pauline",
+                  "op": "const"
+                }
+              ],
+              "name": "Sibling",
+              "op": "pred"
+            },
+            {
+              "args": [
+                {
+                  "name": "Timothee",
+                  "op": "const"
+                },
+                {
+                  "name": "Alex",
+                  "op": "const"
+                }
+              ],
+              "name": "Sibling",
+              "op": "pred"
+            },
+            {
+              "args": [
+                {
+                  "name": "Timothee",
+                  "op": "const"
+                },
+                {
+                  "name": "third",
+                  "op": "var"
+                }
+              ],
+              "name": "Sibling",
+              "op": "pred"
+            },
+            {
+              "left": {
+                "name": "Pauline",
+                "op": "const"
+              },
+              "op": "ne",
+              "right": {
+                "name": "Alex",
+                "op": "const"
+              }
+            },
+            {
+              "left": {
+                "name": "Pauline",
+                "op": "const"
+              },
+              "op": "ne",
+              "right": {
+                "name": "third",
+                "op": "var"
+              }
+            },
+            {
+              "left": {
+                "name": "Alex",
+                "op": "const"
+              },
+              "op": "ne",
+              "right": {
+                "name": "third",
+                "op": "var"
+              }
+            },
+            {
+              "left": {
+                "name": "Timothee",
+                "op": "const"
+              },
+              "op": "ne",
+              "right": {
+                "name": "Pauline",
+                "op": "const"
+              }
+            },
+            {
+              "left": {
+                "name": "Timothee",
+                "op": "const"
+              },
+              "op": "ne",
+              "right": {
+                "name": "Alex",
+                "op": "const"
+              }
+            },
+            {
+              "left": {
+                "name": "Timothee",
+                "op": "const"
+              },
+              "op": "ne",
+              "right": {
+                "name": "third",
+                "op": "var"
+              }
+            },
+            {
+              "body": {
+                "left": {
+                  "args": [
+                    {
+                      "name": "Timothee",
+                      "op": "const"
+                    },
+                    {
+                      "name": "x",
+                      "op": "var"
+                    }
+                  ],
+                  "name": "Sibling",
+                  "op": "pred"
+                },
+                "op": "implies",
+                "right": {
+                  "args": [
+                    {
+                      "left": {
+                        "name": "x",
+                        "op": "var"
+                      },
+                      "op": "eq",
+                      "right": {
+                        "name": "Pauline",
+                        "op": "const"
+                      }
+                    },
+                    {
+                      "left": {
+                        "name": "x",
+                        "op": "var"
+                      },
+                      "op": "eq",
+                      "right": {
+                        "name": "Alex",
+                        "op": "const"
+                      }
+                    },
+                    {
+                      "left": {
+                        "name": "x",
+                        "op": "var"
+                      },
+                      "op": "eq",
+                      "right": {
+                        "name": "third",
+                        "op": "var"
+                      }
+                    }
+                  ],
+                  "op": "or"
+                }
+              },
+              "op": "forall",
+              "variables": [
+                {
+                  "name": "x",
+                  "type": "Person"
+                }
+              ]
+            }
+          ],
+          "op": "and"
+        },
+        "op": "exists",
+        "variables": [
+          {
+            "name": "third",
+            "type": "Person"
+          }
+        ]
+      },
+      "source_quote": "Timothée Chalamet has three siblings, including Pauline and Alex."
+    }
+  ],
+  "notes": [],
+  "status": "OK",
+  "symbols": {
+    "constants": [
+      {
+        "aliases": [],
+        "name": "Timothee",
+        "type": "Person"
+      },
+      {
+        "aliases": [],
+        "name": "Pauline",
+        "type": "Person"
+      },
+      {
+        "aliases": [],
+        "name": "Alex",
+        "type": "Person"
+      },
+      {
+        "aliases": [],
+        "name": "Gabriel",
+        "type": "Person"
+      }
+    ],
+    "functions": [],
+    "predicates": [
+      {
+        "arg_types": [
+          "Person",
+          "Person"
+        ],
+        "name": "Sibling"
+      }
+    ]
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "claim": {
+    "formula": {
+      "args": [
+        {
+          "name": "Teddy",
+          "op": "const"
+        },
+        {
+          "name": "TheSwims",
+          "op": "const"
+        },
+        {
+          "op": "int",
+          "value": 2020
+        }
+      ],
+      "name": "Serves",
+      "op": "pred"
+    }
+  },
+  "evidence": [
+    {
+      "formula": {
+        "body": {
+          "args": [
+            {
+              "args": [
+                {
+                  "name": "Teddy",
+                  "op": "const"
+                },
+                {
+                  "name": "TheSwims",
+                  "op": "const"
+                },
+                {
+                  "name": "first",
+                  "op": "var"
+                }
+              ],
+              "name": "Term",
+              "op": "pred"
+            },
+            {
+              "left": {
+                "args": [
+                  {
+                    "name": "first",
+                    "op": "var"
+                  }
+                ],
+                "name": "Start",
+                "op": "fun"
+              },
+              "op": "eq",
+              "right": {
+                "op": "int",
+                "value": 2015
+              }
+            },
+            {
+              "left": {
+                "args": [
+                  {
+                    "name": "first",
+                    "op": "var"
+                  }
+                ],
+                "name": "End",
+                "op": "fun"
+              },
+              "op": "eq",
+              "right": {
+                "op": "int",
+                "value": 2018
+              }
+            },
+            {
+              "body": {
+                "left": {
+                  "args": [
+                    {
+                      "name": "Teddy",
+                      "op": "const"
+                    },
+                    {
+                      "name": "TheSwims",
+                      "op": "const"
+                    },
+                    {
+                      "name": "t",
+                      "op": "var"
+                    }
+                  ],
+                  "name": "Term",
+                  "op": "pred"
+                },
+                "op": "implies",
+                "right": {
+                  "left": {
+                    "args": [
+                      {
+                        "name": "t",
+                        "op": "var"
+                      }
+                    ],
+                    "name": "Start",
+                    "op": "fun"
+                  },
+                  "op": "ge",
+                  "right": {
+                    "op": "int",
+                    "value": 2015
+                  }
+                }
+              },
+              "op": "forall",
+              "variables": [
+                {
+                  "name": "t",
+                  "type": "Event"
+                }
+              ]
+            }
+          ],
+          "op": "and"
+        },
+        "op": "exists",
+        "variables": [
+          {
+            "name": "first",
+            "type": "Event"
+          }
+        ]
+      },
+      "source_quote": "Teddy Swims's first term as lead singer of The Swims ran from 2015 to 2018."
+    },
+    {
+      "formula": {
+        "body": {
+          "left": {
+            "args": [
+              {
+                "left": {
+                  "name": "year",
+                  "op": "var"
+                },
+                "op": "ge",
+                "right": {
+                  "op": "int",
+                  "value": 2015
+                }
+              },
+              {
+                "left": {
+                  "name": "year",
+                  "op": "var"
+                },
+                "op": "le",
+                "right": {
+                  "op": "int",
+                  "value": 2018
+                }
+              }
+            ],
+            "op": "and"
+          },
+          "op": "implies",
+          "right": {
+            "args": [
+              {
+                "name": "Teddy",
+                "op": "const"
+              },
+              {
+                "name": "TheSwims",
+                "op": "const"
+              },
+              {
+                "name": "year",
+                "op": "var"
+              }
+            ],
+            "name": "Serves",
+            "op": "pred"
+          }
+        },
+        "op": "forall",
+        "variables": [
+          {
+            "name": "year",
+            "type": "Int"
+          }
+        ]
+      },
+      "source_quote": "Teddy Swims's first term as lead singer of The Swims ran from 2015 to 2018."
+    }
+  ],
+  "notes": [
+    "Ending the first term does not rule out another term in 2020."
+  ],
+  "status": "OK",
+  "symbols": {
+    "constants": [
+      {
+        "aliases": [],
+        "name": "Teddy",
+        "type": "Person"
+      },
+      {
+        "aliases": [],
+        "name": "TheSwims",
+        "type": "Organization"
+      }
+    ],
+    "functions": [
+      {
+        "arg_types": [
+          "Event"
+        ],
+        "name": "Start",
+        "return_type": "Int"
+      },
+      {
+        "arg_types": [
+          "Event"
+        ],
+        "name": "End",
+        "return_type": "Int"
+      }
+    ],
+    "predicates": [
+      {
+        "arg_types": [
+          "Person",
+          "Organization",
+          "Int"
+        ],
+        "name": "Serves"
+      },
+      {
+        "arg_types": [
+          "Person",
+          "Organization",
+          "Event"
+        ],
+        "name": "Term"
+      }
+    ]
+  }
+}

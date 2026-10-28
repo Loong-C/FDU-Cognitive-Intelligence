@@ -1,0 +1,122 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "donald_glover",
+            "op": "const"
+          },
+          {
+            "op": "int",
+            "value": 2010
+          }
+        ],
+        "name": "won_regional_theater_award",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "donald_glover",
+              "op": "const"
+            },
+            {
+              "name": "darnell_glover",
+              "op": "const"
+            },
+            {
+              "name": "community_college_chicago",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 2005
+            }
+          ],
+          "name": "attended",
+          "op": "pred"
+        },
+        "source_quote": "Donald Glover and his brother Darnell Glover attended a community college in Chicago in 2005."
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "donald_glover",
+              "op": "const"
+            },
+            {
+              "name": "darnell_glover",
+              "op": "const"
+            },
+            {
+              "op": "int",
+              "value": 2010
+            }
+          ],
+          "name": "won_regional_theater_award",
+          "op": "pred"
+        },
+        "source_quote": "In 2010, they both won a regional theater award."
+      }
+    ],
+    "notes": [],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Donald Glover"
+          ],
+          "name": "donald_glover",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "Darnell Glover"
+          ],
+          "name": "darnell_glover",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "a community college in Chicago"
+          ],
+          "name": "community_college_chicago",
+          "type": "Place"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Place",
+            "Int"
+          ],
+          "name": "attended"
+        },
+        {
+          "arg_types": [
+            "Person",
+            "Int"
+          ],
+          "name": "won_regional_theater_award"
+        }
+      ]
+    }
+  },
+  "constraints": null,
+  "label": "UNSUPPORTED",
+  "reason": "InvalidAST: argument type/arity mismatch: attended",
+  "sat_e": null,
+  "sat_e_c": null,
+  "sat_e_not_c": null,
+  "solve_seconds": 0.0017818999476730824,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

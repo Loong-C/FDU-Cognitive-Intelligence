@@ -1,0 +1,220 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "body": {
+          "args": [
+            {
+              "name": "x",
+              "op": "var"
+            },
+            {
+              "name": "stallone",
+              "op": "const"
+            }
+          ],
+          "name": "starredIn",
+          "op": "pred"
+        },
+        "op": "exists",
+        "variables": [
+          {
+            "name": "x",
+            "type": "Film"
+          }
+        ]
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "stallone",
+              "op": "const"
+            },
+            {
+              "name": "film2019",
+              "op": "const"
+            }
+          ],
+          "name": "starredIn",
+          "op": "pred"
+        },
+        "source_quote": "Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades in 2019"
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "film2019",
+              "op": "const"
+            }
+          ],
+          "name": "isBoxOfficeNo1",
+          "op": "pred"
+        },
+        "source_quote": "Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades in 2019"
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "film2019",
+              "op": "const"
+            }
+          ],
+          "name": "spannedSixConsecutiveDecades",
+          "op": "pred"
+        },
+        "source_quote": "Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades in 2019"
+      },
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "film2019",
+              "op": "const"
+            }
+          ],
+          "name": "releasedIn",
+          "op": "pred"
+        },
+        "source_quote": "Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades in 2019"
+      },
+      {
+        "formula": {
+          "body": {
+            "args": [
+              {
+                "args": [
+                  {
+                    "name": "y",
+                    "op": "var"
+                  },
+                  {
+                    "name": "stallone",
+                    "op": "const"
+                  }
+                ],
+                "name": "starredIn",
+                "op": "pred"
+              },
+              {
+                "args": [
+                  {
+                    "name": "y",
+                    "op": "var"
+                  }
+                ],
+                "name": "isBoxOfficeNo1",
+                "op": "pred"
+              },
+              {
+                "args": [
+                  {
+                    "name": "y",
+                    "op": "var"
+                  }
+                ],
+                "name": "spannedSixConsecutiveDecades",
+                "op": "pred"
+              },
+              {
+                "args": [
+                  {
+                    "name": "y",
+                    "op": "var"
+                  },
+                  {
+                    "name": "film2019",
+                    "op": "const"
+                  }
+                ],
+                "name": "ne",
+                "op": "pred"
+              }
+            ],
+            "op": "and"
+          },
+          "op": "forall",
+          "variables": [
+            {
+              "name": "y",
+              "type": "Film"
+            }
+          ]
+        },
+        "source_quote": "the only time Stallone ever did so"
+      }
+    ],
+    "notes": [
+      "The claim asserts a recurrence ('again') of the event after 2019.",
+      "The evidence explicitly states that the 2019 occurrence was the 'only time' this happened, which logically negates the existence of any other such film.",
+      "The claim is formalized as the existence of a film distinct from the 2019 film that satisfies the same conditions and was released after 2019."
+    ],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Sylvester Stallone"
+          ],
+          "name": "stallone",
+          "type": "Person"
+        },
+        {
+          "aliases": [],
+          "name": "film2019",
+          "type": "Film"
+        }
+      ],
+      "functions": [
+        {
+          "arg_types": [
+            "Film"
+          ],
+          "name": "releaseYear",
+          "return_type": "Int"
+        }
+      ],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Film"
+          ],
+          "name": "starredIn"
+        },
+        {
+          "arg_types": [
+            "Film"
+          ],
+          "name": "isBoxOfficeNo1"
+        },
+        {
+          "arg_types": [
+            "Film"
+          ],
+          "name": "spannedSixConsecutiveDecades"
+        },
+        {
+          "arg_types": [
+            "Film",
+            "Int"
+          ],
+          "name": "releasedIn"
+        }
+      ]
+    }
+  },
+  "constraints": null,
+  "label": "UNSUPPORTED",
+  "reason": "InvalidAST: argument type/arity mismatch: releasedIn",
+  "sat_e": null,
+  "sat_e_c": null,
+  "sat_e_not_c": null,
+  "solve_seconds": 0.0035752998664975166,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

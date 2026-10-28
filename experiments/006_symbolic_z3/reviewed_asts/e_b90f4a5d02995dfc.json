@@ -1,0 +1,193 @@
+{
+  "claim": {
+    "formula": {
+      "body": {
+        "args": [
+          {
+            "args": [
+              {
+                "name": "Jenna",
+                "op": "const"
+              },
+              {
+                "name": "claimEvent",
+                "op": "var"
+              }
+            ],
+            "name": "AwardWin",
+            "op": "pred"
+          },
+          {
+            "left": {
+              "args": [
+                {
+                  "name": "claimEvent",
+                  "op": "var"
+                }
+              ],
+              "name": "Time",
+              "op": "fun"
+            },
+            "op": "lt",
+            "right": {
+              "op": "int",
+              "value": 20230000
+            }
+          }
+        ],
+        "op": "and"
+      },
+      "op": "exists",
+      "variables": [
+        {
+          "name": "claimEvent",
+          "type": "Event"
+        }
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "formula": {
+        "body": {
+          "args": [
+            {
+              "args": [
+                {
+                  "name": "Jenna",
+                  "op": "const"
+                },
+                {
+                  "name": "current",
+                  "op": "var"
+                }
+              ],
+              "name": "AwardWin",
+              "op": "pred"
+            },
+            {
+              "args": [
+                {
+                  "left": {
+                    "args": [
+                      {
+                        "name": "current",
+                        "op": "var"
+                      }
+                    ],
+                    "name": "Time",
+                    "op": "fun"
+                  },
+                  "op": "ge",
+                  "right": {
+                    "op": "int",
+                    "value": 20230000
+                  }
+                },
+                {
+                  "left": {
+                    "args": [
+                      {
+                        "name": "current",
+                        "op": "var"
+                      }
+                    ],
+                    "name": "Time",
+                    "op": "fun"
+                  },
+                  "op": "lt",
+                  "right": {
+                    "op": "int",
+                    "value": 20240000
+                  }
+                }
+              ],
+              "op": "and"
+            },
+            {
+              "args": [
+                {
+                  "name": "Jenna",
+                  "op": "const"
+                },
+                {
+                  "name": "prior",
+                  "op": "var"
+                }
+              ],
+              "name": "AwardWin",
+              "op": "pred"
+            },
+            {
+              "left": {
+                "args": [
+                  {
+                    "name": "prior",
+                    "op": "var"
+                  }
+                ],
+                "name": "Time",
+                "op": "fun"
+              },
+              "op": "lt",
+              "right": {
+                "args": [
+                  {
+                    "name": "current",
+                    "op": "var"
+                  }
+                ],
+                "name": "Time",
+                "op": "fun"
+              }
+            }
+          ],
+          "op": "and"
+        },
+        "op": "exists",
+        "variables": [
+          {
+            "name": "current",
+            "type": "Event"
+          },
+          {
+            "name": "prior",
+            "type": "Event"
+          }
+        ]
+      },
+      "source_quote": "Jenna Ortega won the MTV Movie Award for Best Performance in a Horror Film once more in 2023."
+    }
+  ],
+  "notes": [
+    "Earlier occasion may fall in the same calendar year. No source-based axiom forces a year before 2023; benchmark year-level presupposition is separately discussed."
+  ],
+  "status": "OK",
+  "symbols": {
+    "constants": [
+      {
+        "aliases": [],
+        "name": "Jenna",
+        "type": "Person"
+      }
+    ],
+    "functions": [
+      {
+        "arg_types": [
+          "Event"
+        ],
+        "name": "Time",
+        "return_type": "Int"
+      }
+    ],
+    "predicates": [
+      {
+        "arg_types": [
+          "Person",
+          "Event"
+        ],
+        "name": "AwardWin"
+      }
+    ]
+  }
+}

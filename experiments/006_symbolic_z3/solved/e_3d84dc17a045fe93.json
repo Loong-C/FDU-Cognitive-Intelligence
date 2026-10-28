@@ -1,0 +1,83 @@
+{
+  "ast": {
+    "claim": {
+      "formula": {
+        "args": [
+          {
+            "name": "romelu_lukaku",
+            "op": "const"
+          },
+          {
+            "name": "antwerp",
+            "op": "const"
+          }
+        ],
+        "name": "bornIn",
+        "op": "pred"
+      }
+    },
+    "evidence": [
+      {
+        "formula": {
+          "args": [
+            {
+              "name": "romelu_lukaku",
+              "op": "const"
+            },
+            {
+              "name": "antwerp",
+              "op": "const"
+            }
+          ],
+          "name": "bornIn",
+          "op": "pred"
+        },
+        "source_quote": "Romelu Lukaku was born in Antwerp."
+      }
+    ],
+    "notes": [],
+    "status": "OK",
+    "symbols": {
+      "constants": [
+        {
+          "aliases": [
+            "Romelu Lukaku"
+          ],
+          "name": "romelu_lukaku",
+          "type": "Person"
+        },
+        {
+          "aliases": [
+            "Antwerp"
+          ],
+          "name": "antwerp",
+          "type": "Place"
+        }
+      ],
+      "functions": [],
+      "predicates": [
+        {
+          "arg_types": [
+            "Person",
+            "Place"
+          ],
+          "name": "bornIn"
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "claim": "(predicates_bornIn entity_romelu_lukaku entity_antwerp)",
+    "evidence": [
+      "(predicates_bornIn entity_romelu_lukaku entity_antwerp)"
+    ]
+  },
+  "label": "SUPPORTS",
+  "reason": null,
+  "sat_e": "sat",
+  "sat_e_c": "sat",
+  "sat_e_not_c": "unsat",
+  "solve_seconds": 0.002450800035148859,
+  "unknown_reasons": {},
+  "z3_version": "4.16.0"
+}

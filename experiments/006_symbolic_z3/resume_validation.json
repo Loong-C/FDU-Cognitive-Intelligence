@@ -1,0 +1,10 @@
+{
+  "additional_http_attempts": 0,
+  "all_passed": true,
+  "completed_cached": 42,
+  "ledger_attempts_after": 926,
+  "ledger_attempts_before": 926,
+  "ledger_sha256_after": "35fae05fcce13e49f49f3b6fb6b7a5a339f0f4382f8c09ce1d3ea8309eb6b08b",
+  "ledger_sha256_before": "35fae05fcce13e49f49f3b6fb6b7a5a339f0f4382f8c09ce1d3ea8309eb6b08b",
+  "raw_record_hashes_unchanged": true
+}
