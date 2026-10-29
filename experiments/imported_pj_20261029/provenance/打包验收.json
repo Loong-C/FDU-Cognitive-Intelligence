@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "offline_tests_passed": 27,
+  "prepare_only_versions": [
+    "baseline",
+    "general",
+    "v3"
+  ],
+  "real_model_requests_during_packaging": 0,
+  "contains_dot_env": false,
+  "contains_actual_key": false,
+  "listed_files": 177,
+  "all_file_hashes_match": true,
+  "syntax_checked": true,
+  "note": "24 original offline tests passed; after adding missing historical v2 comparison data, all 5 v2 tests passed. Repeated successes are not counted twice."
+}

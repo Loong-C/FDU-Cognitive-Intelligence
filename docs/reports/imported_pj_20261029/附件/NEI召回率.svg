@@ -1,0 +1,37 @@
+<svg width="503" height="155" preserveAspectRatio="xMinYMin meet" viewBox="0 0 503 155" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="503" height="155"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-155)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="0" y="140" style="font-family:Microsoft YaHei, SimHei, sans-serif; font-size: 11px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,280) scale(1,-1)">NEI召回率</text>
+			<path d="M 82,25 L 82,117 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="80.25" y="12" style="font-family:Microsoft YaHei, SimHei, sans-serif; font-size: 7px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,24) scale(1,-1)">0</text>
+			<path d="M 177.75,25 L 177.75,117 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="174.25" y="12" style="font-family:Microsoft YaHei, SimHei, sans-serif; font-size: 7px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,24) scale(1,-1)">25</text>
+			<path d="M 273.5,25 L 273.5,117 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="270.0" y="12" style="font-family:Microsoft YaHei, SimHei, sans-serif; font-size: 7px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,24) scale(1,-1)">50</text>
+			<path d="M 369.25,25 L 369.25,117 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="365.75" y="12" style="font-family:Microsoft YaHei, SimHei, sans-serif; font-size: 7px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,24) scale(1,-1)">75</text>
+			<path d="M 465,25 L 465,117 Z" style="stroke: rgb(86%,89%,92%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="459.75" y="12" style="font-family:Microsoft YaHei, SimHei, sans-serif; font-size: 7px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,24) scale(1,-1)">100</text>
+			<text x="38.99999999999999" y="105.22399999999999" style="font-family:Microsoft YaHei, SimHei, sans-serif; font-size: 9px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,210) scale(1,-1)">Baseline</text>
+			<rect x="82" y="101.91199999999999" width="143.28705882352943" height="11.408000000000001" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,59%,54%); fill-rule: evenodd;"/>
+			<text x="230.28705882352943" y="105.03999999999999" style="font-family:Microsoft YaHei, SimHei, sans-serif; font-size: 8px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,210) scale(1,-1)">37.41%</text>
+			<text x="38.99999999999999" y="86.824" style="font-family:Microsoft YaHei, SimHei, sans-serif; font-size: 9px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,173) scale(1,-1)">通用草稿</text>
+			<rect x="82" y="83.512" width="183.84000000000003" height="11.408000000000001" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,59%,54%); fill-rule: evenodd;"/>
+			<text x="270.84000000000003" y="86.64" style="font-family:Microsoft YaHei, SimHei, sans-serif; font-size: 8px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,173) scale(1,-1)">48.00%</text>
+			<text x="48.0" y="68.424" style="font-family:Microsoft YaHei, SimHei, sans-serif; font-size: 9px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,136) scale(1,-1)">v3原轮</text>
+			<rect x="82" y="65.11200000000001" width="277.56235294117647" height="11.408000000000001" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,59%,54%); fill-rule: evenodd;"/>
+			<text x="364.56235294117647" y="68.24000000000001" style="font-family:Microsoft YaHei, SimHei, sans-serif; font-size: 8px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,136) scale(1,-1)">72.47%</text>
+			<text x="43.5" y="50.024" style="font-family:Microsoft YaHei, SimHei, sans-serif; font-size: 9px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,100) scale(1,-1)">v3复测1</text>
+			<rect x="82" y="46.712" width="277.56235294117647" height="11.408000000000001" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,59%,54%); fill-rule: evenodd;"/>
+			<text x="364.56235294117647" y="49.84" style="font-family:Microsoft YaHei, SimHei, sans-serif; font-size: 8px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,99) scale(1,-1)">72.47%</text>
+			<text x="43.5" y="31.624000000000002" style="font-family:Microsoft YaHei, SimHei, sans-serif; font-size: 9px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,63) scale(1,-1)">v3复测2</text>
+			<rect x="82" y="28.312" width="280.2658823529412" height="11.407999999999998" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,59%,54%); fill-rule: evenodd;"/>
+			<text x="367.2658823529412" y="31.44" style="font-family:Microsoft YaHei, SimHei, sans-serif; font-size: 8px;fill: rgb(9%,19%,30%); stroke:none;" transform="translate(0,62) scale(1,-1)">73.18%</text>
+		</g>
+	</g>
+</svg>

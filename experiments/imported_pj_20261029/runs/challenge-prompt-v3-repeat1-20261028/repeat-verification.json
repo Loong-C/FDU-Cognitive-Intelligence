@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "unique_primary_ids": 885,
+  "fresh_primary_records": true,
+  "gold_and_frozen_prompt_unchanged": true,
+  "primary_metrics_recomputed": true,
+  "network_retries": 13
+}

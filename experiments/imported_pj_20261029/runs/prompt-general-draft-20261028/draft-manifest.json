@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-10-28T19:57:43+08:00",
+  "status": "draft_not_evaluated",
+  "prompt_sha256": "c675615c50b5ced4a276e1fbb4b750dd3842149b1e49d187a5a24a55e87d4bb9",
+  "prompt_file_sha256": "ae224bcbd1ad405ecf7cf2b4c2c9d89b97df0bf2f98315d3f4fab4abcf8c8b98",
+  "examples": 0,
+  "mechanism_specific_rules": false,
+  "api_calls": 0,
+  "development_note": "User narrowed primary objective to a general prompt. Draft written after existing challenge error analysis; general wording does not make the observed challenge set an independent held-out test."
+}

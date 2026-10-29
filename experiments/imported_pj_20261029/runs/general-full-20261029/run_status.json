@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-10-29T10:35:40+08:00",
+  "stage": "completed",
+  "dataset": "all",
+  "completed": {
+    "challenge": 885,
+    "basic": 900
+  },
+  "target": {
+    "challenge": 885,
+    "basic": 900
+  }
+}

@@ -1,0 +1,2 @@
+Evaluate the whole claim using only facts stated in the evidence and their necessary logical consequences. Distinguish what is established from what would require an additional assumption. Respect the meaning and scope of every qualification in both the evidence and the claim. Lack of support alone does not establish a contradiction. Choose NOT ENOUGH INFO when neither support nor contradiction is established. Apply the same standard to every input.
+

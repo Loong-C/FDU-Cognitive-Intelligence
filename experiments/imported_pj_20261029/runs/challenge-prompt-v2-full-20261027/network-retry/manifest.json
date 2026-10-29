@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-10-27T23:08:06+08:00",
+  "settings": {
+    "selected_ids": [
+      "e_a545fd5bf900a1d3",
+      "e_4fce433c09a10bb0"
+    ],
+    "selection_rule": "primary status=request_error AND error_kind=network_error",
+    "uses_gold_for_selection": false,
+    "config": {
+      "base_url": "http://10.176.30.103:20027/v1",
+      "model": "qwen38-27b",
+      "temperature": 0,
+      "max_tokens": 4096,
+      "timeout_seconds": 120,
+      "retries": 2,
+      "retry_delay_seconds": 2,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "use_environment_proxy": false,
+      "quantization": "W8A8（据此前聊天记录，待服务提供方确认）",
+      "reference_quantization": "Q8_0（A方数据说明）"
+    },
+    "prompt_sha256": "076c866bafe5203e4a8d5ba421622feff5f325258c5da2463a51fa7e6de9a55c",
+    "primary_records_sha256": "e309954a062830821e63f372820be1dec81b9b4e031ff1267a6f04cdf8da972f",
+    "note": "原主结果及主评分不变；请求失败补跑另报，不重跑有效输出或按正确与否筛选。"
+  }
+}

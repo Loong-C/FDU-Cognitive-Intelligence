@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "captured_at": "2026-10-29T10:36:53+08:00",
+  "pdf_pages": 11,
+  "per_item_rows": 1785,
+  "all_ids_unique_and_gold_checked": true,
+  "correct_counts_recomputed": true,
+  "general_complete": {
+    "challenge": true,
+    "basic": true
+  },
+  "charts": 4,
+  "visual_review_all_11_pages": true,
+  "independent_csv_precision_recall_checked": true,
+  "source_hashes_rechecked": true,
+  "standalone_html_charts": 4,
+  "credential_found": false,
+  "basic_corrected": 2,
+  "basic_regressed": 9,
+  "artifact_sizes": {
+    "先读这里.md": 1075,
+    "认知智能PJ阶段报告.html": 66976,
+    "认知智能PJ阶段报告.md": 16132,
+    "认知智能PJ阶段报告.pdf": 115427
+  }
+}

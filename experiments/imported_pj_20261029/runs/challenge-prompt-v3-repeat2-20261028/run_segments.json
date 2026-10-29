@@ -1,0 +1,29 @@
+[
+  {
+    "updated_at": "2026-10-28T16:52:04+08:00",
+    "stage": "stopped",
+    "completed": 52,
+    "target": 885,
+    "complete": false,
+    "aborted_reason": "network_error",
+    "session_wall_seconds": 442.8605988999989
+  },
+  {
+    "updated_at": "2026-10-28T16:59:45+08:00",
+    "stage": "stopped",
+    "completed": 105,
+    "target": 885,
+    "complete": false,
+    "aborted_reason": "network_error",
+    "session_wall_seconds": 461.04633209999884
+  },
+  {
+    "updated_at": "2026-10-28T18:37:30+08:00",
+    "stage": "completed",
+    "completed": 885,
+    "target": 885,
+    "complete": true,
+    "aborted_reason": null,
+    "session_wall_seconds": 5864.550610599999
+  }
+]

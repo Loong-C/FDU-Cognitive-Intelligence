@@ -1,0 +1,92 @@
+[
+  {
+    "updated_at": "2026-10-28T14:14:26+08:00",
+    "stage": "stopped",
+    "completed": 186,
+    "target": 885,
+    "complete": false,
+    "aborted_reason": "network_error",
+    "session_wall_seconds": 1941.1685849999994
+  },
+  {
+    "updated_at": "2026-10-28T14:32:07+08:00",
+    "stage": "stopped",
+    "completed": 229,
+    "target": 885,
+    "complete": false,
+    "aborted_reason": "network_error",
+    "session_wall_seconds": 1061.5064894000025
+  },
+  {
+    "updated_at": "2026-10-28T14:46:04+08:00",
+    "stage": "stopped",
+    "completed": 270,
+    "target": 885,
+    "complete": false,
+    "aborted_reason": "network_error",
+    "session_wall_seconds": 836.6022455999992
+  },
+  {
+    "updated_at": "2026-10-28T14:57:42+08:00",
+    "stage": "stopped",
+    "completed": 309,
+    "target": 885,
+    "complete": false,
+    "aborted_reason": "network_error",
+    "session_wall_seconds": 697.9567042999988
+  },
+  {
+    "updated_at": "2026-10-28T15:09:36+08:00",
+    "stage": "stopped",
+    "completed": 340,
+    "target": 885,
+    "complete": false,
+    "aborted_reason": "network_error",
+    "session_wall_seconds": 713.965434400001
+  },
+  {
+    "updated_at": "2026-10-28T15:23:20+08:00",
+    "stage": "stopped",
+    "completed": 373,
+    "target": 885,
+    "complete": false,
+    "aborted_reason": "network_error",
+    "session_wall_seconds": 823.7160151000026
+  },
+  {
+    "updated_at": "2026-10-28T15:35:46+08:00",
+    "stage": "stopped",
+    "completed": 401,
+    "target": 885,
+    "complete": false,
+    "aborted_reason": "network_error",
+    "session_wall_seconds": 745.8341372999967
+  },
+  {
+    "updated_at": "2026-10-28T16:05:05+08:00",
+    "stage": "stopped",
+    "completed": 594,
+    "target": 885,
+    "complete": false,
+    "aborted_reason": "network_error",
+    "session_wall_seconds": 1759.2978705999994
+  },
+  {
+    "updated_at": "2026-10-28T16:33:51+08:00",
+    "stage": "completed",
+    "completed": 885,
+    "target": 885,
+    "complete": true,
+    "aborted_reason": null,
+    "session_wall_seconds": 1725.3110103
+  },
+  {
+    "updated_at": "2026-10-28T16:43:51+08:00",
+    "stage": "completed",
+    "completed": 885,
+    "target": 885,
+    "complete": true,
+    "aborted_reason": null,
+    "session_wall_seconds": 0.06790929999988293
+  }
+]

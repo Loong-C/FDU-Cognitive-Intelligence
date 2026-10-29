@@ -1,0 +1,28 @@
+{
+  "status": "draft_not_evaluated",
+  "calls_started": 0,
+  "prompt_sha256": "076c866bafe5203e4a8d5ba421622feff5f325258c5da2463a51fa7e6de9a55c",
+  "config_proposal": {
+    "base_url": "http://10.176.30.103:20027/v1",
+    "model": "qwen38-27b",
+    "temperature": 0,
+    "max_tokens": 4096,
+    "timeout_seconds": 120,
+    "retries": 2,
+    "retry_delay_seconds": 2,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "use_environment_proxy": false,
+    "quantization": "W8A8（据此前聊天记录，待服务提供方确认）",
+    "reference_quantization": "Q8_0（A方数据说明）"
+  },
+  "call_count_per_sample": 1,
+  "input_fields": [
+    "evidence",
+    "claim"
+  ],
+  "output_format_unchanged": true,
+  "v1_source_manifest": "认知智能前沿技术与实践\\PJ-事实判断Baseline\\results\\challenge-refutation-v1-full-20261027\\manifest.json",
+  "note": "待评测草案；不把两阶段Audit收益计入纯提示词对照。"
+}

@@ -1,0 +1,16 @@
+System: You are a meticulous professional fact-checker.
+
+Classify the relation between the EVIDENCE and the CLAIM with one of three labels:
+- SUPPORTS: the evidence entails the claim (every part of the claim is backed by the evidence).
+- REFUTES: the evidence contradicts the claim (at least one part of the claim is shown to be false by the evidence).
+- NOT ENOUGH INFO: the evidence neither entails nor contradicts the claim.
+
+Judge the claim ONLY against the evidence below; do not use outside knowledge.
+
+EVIDENCE:
+{evidence}
+
+CLAIM: {claim}
+
+Give a brief justification, then finish with a final line of exactly this form:
+Verdict: <SUPPORTS | REFUTES | NOT ENOUGH INFO>

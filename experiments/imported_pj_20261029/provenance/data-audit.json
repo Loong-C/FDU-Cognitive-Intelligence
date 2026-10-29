@@ -1,0 +1,54 @@
+{
+  "challenge": {
+    "filename": "核心挑战集.jsonl",
+    "sha256": "fc5fdc9048833211eaf1b5f32701062cf0493dc4c0b4ac61cd6dbd059788161f",
+    "count": 885,
+    "groups": 143,
+    "labels": {
+      "NOT ENOUGH INFO": 425,
+      "SUPPORTS": 342,
+      "REFUTES": 118
+    },
+    "mechanisms": {
+      "DENIAL": 192,
+      "TEMPSCOPE": 80,
+      "PRESUP": 144,
+      "SETCLOSE": 76,
+      "UNIQUE": 119,
+      "LOOKALIKE": 174,
+      "AMBIGREF": 100
+    },
+    "human_review_status": {
+      "adjudicated": 885
+    },
+    "duplicate_input_count": 0
+  },
+  "basic": {
+    "filename": "基础能力集.jsonl",
+    "sha256": "d26010080797b5cc964ece2fabd87354f3f043625371f101cc99036285ff950e",
+    "count": 900,
+    "groups": 105,
+    "labels": {
+      "SUPPORTS": 246,
+      "REFUTES": 305,
+      "NOT ENOUGH INFO": 349
+    },
+    "mechanisms": {
+      "PLAN": 75,
+      "TIMESHIFT": 225,
+      "IMPLICATIVE": 165,
+      "BOUND": 240,
+      "FUNCTIONAL": 60,
+      "PLACE": 45,
+      "RELDATE": 90
+    },
+    "human_review_status": {
+      "pending": 900
+    },
+    "duplicate_input_count": 0
+  },
+  "cross_dataset_group_overlap": 0,
+  "cross_dataset_id_overlap": 0,
+  "source_zip_sha256": "5472037282dc719d5d32fe5fb6bf75b75a34ac3271f754556873b90b59fa6da4",
+  "prompt_sha256": "b43184e01b9eb9c19333e36735d0c8c52fc87e2d951d3c26ba5e8ce39ce394bd"
+}

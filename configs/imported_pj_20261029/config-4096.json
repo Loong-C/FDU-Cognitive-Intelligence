@@ -1,0 +1,15 @@
+{
+  "base_url": "http://10.176.30.103:20027/v1",
+  "model": "qwen38-27b",
+  "temperature": 0,
+  "max_tokens": 4096,
+  "timeout_seconds": 120,
+  "retries": 2,
+  "retry_delay_seconds": 2,
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "use_environment_proxy": false,
+  "quantization": "W8A8（据此前聊天记录，待服务提供方确认）",
+  "reference_quantization": "Q8_0（A方数据说明）"
+}

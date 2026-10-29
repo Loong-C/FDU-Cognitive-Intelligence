@@ -1,0 +1,20 @@
+[
+  {
+    "updated_at": "2026-10-27T21:35:13+08:00",
+    "stage": "stopped",
+    "completed": 150,
+    "target": 885,
+    "complete": false,
+    "aborted_reason": "network_error",
+    "session_wall_seconds": 1411.8944819000026
+  },
+  {
+    "updated_at": "2026-10-27T22:38:27+08:00",
+    "stage": "stopped",
+    "completed": 629,
+    "target": 885,
+    "complete": false,
+    "aborted_reason": "network_error",
+    "session_wall_seconds": 3752.7535515000054
+  }
+]

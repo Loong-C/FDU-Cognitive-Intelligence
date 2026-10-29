@@ -1,0 +1,4 @@
+# Preserve imported bytes and frozen SHA256 values, including CRLF.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# The source note ends with a blank line; preserve its recorded SHA256.
+general-full-20261029/与A组提示词的差异.txt whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof

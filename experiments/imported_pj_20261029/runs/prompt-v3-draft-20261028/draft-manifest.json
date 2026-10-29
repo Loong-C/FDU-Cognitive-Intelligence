@@ -1,0 +1,12 @@
+{
+  "status": "draft_not_evaluated",
+  "api_calls_started": 0,
+  "base_version": "prompt-v2",
+  "base_prompt_file_sha256": "f609bb7cefe967e15f6d5c4dfd87ebd2eb3c316cd025d90f2e24eff359ea34fb",
+  "prompt_sha256": "c25aa0b551114de20f9926f291ae745990bd63f83f2ec0dee9db6ba183ce430d",
+  "changed_rule_blocks": 1,
+  "denial_rule_unchanged": true,
+  "task_and_output_format_unchanged": true,
+  "single_call_per_sample": true,
+  "examples_added": 0
+}

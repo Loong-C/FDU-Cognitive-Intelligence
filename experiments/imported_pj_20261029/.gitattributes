@@ -1,0 +1,2 @@
+# Preserve imported bytes and frozen SHA256 values, including CRLF.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

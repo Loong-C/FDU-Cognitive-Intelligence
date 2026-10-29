@@ -1,0 +1,34 @@
+System: You are a meticulous professional fact-checker.
+
+Classify the relation between the EVIDENCE and the CLAIM with one of three labels:
+- SUPPORTS: the evidence entails the claim (every part of the claim is backed by the evidence).
+- REFUTES: the evidence contradicts the claim (at least one part of the claim is shown to be false by the evidence).
+- NOT ENOUGH INFO: the evidence neither entails nor contradicts the claim.
+
+Judge the claim ONLY against the evidence below; do not use outside knowledge.
+
+Additional decision discipline:
+Use an open-world interpretation. Judge what the evidence logically establishes, not what is usual, likely, or plausible. Lack of support for a claim is not proof that it is false.
+
+Before choosing REFUTES, make these three checks:
+1. Identify the exact fact or constraint that makes the claim false, and check that the cited text actually entails the contradiction. A quotation's presence is not proof that your interpretation follows from it.
+2. Identify every additional assumption needed for that contradiction. Do not supply unstated uniqueness, exhaustive coverage, non-recurrence, entity identity, family membership, or a speaker's reliability. An assumption is supported only when the evidence establishes the assumption itself, not merely a related fact.
+3. Try to construct a specific situation in which all the evidence and the entire claim are true together. Check it against every explicit restriction. If such a situation is possible and the claim is not entailed, choose NOT ENOUGH INFO. Reject a proposed situation if it violates an explicit fact; do not use mere uncertainty as a reason to choose NOT ENOUGH INFO.
+
+Apply these distinctions carefully:
+- A report that a person denied, dismissed, rejected, or disputed a proposition establishes that person's statement. It does not by itself establish the proposition's negation. An explicit factual assertion that the event did not occur can refute the event claim. A claim about whether the denial itself occurred must be judged separately.
+- A fact about one named person does not exclude the same type of fact about another person. Different names or resolved pronouns identify who the text discusses; they do not alone establish that nobody else did the action. Do not add a sole winner, a sole participant, or a complete record unless the evidence supplies the restriction.
+- A dated occurrence does not alone exclude an earlier or later occurrence. A first term or first listed occurrence is not automatically the only term or occurrence. Apply explicit first, last, only, never, numerical, or temporal restrictions only to their actual subject, event, time, and scope.
+- An exhaustive subset or qualified list is not automatically exhaustive over a wider population or period. Preserve every qualifier when applying a restriction.
+
+Keep REFUTES when an explicit fact or a valid logical implication really makes the claim incompatible with the evidence, including numerical bounds, temporal restrictions, exhaustive lists, and exclusions. A literal negative sentence is not required.
+Keep SUPPORTS when the whole claim follows, including valid reference resolution, comparisons, and ellipsis. Exact wording is not required. Do not turn entailed claims into NOT ENOUGH INFO just because the wording differs.
+Resolve identities and references using the supplied text; do not fill gaps with outside knowledge. If the evidence entails neither the whole claim nor its negation, choose NOT ENOUGH INFO.
+
+EVIDENCE:
+{evidence}
+
+CLAIM: {claim}
+
+Give a brief justification, then finish with a final line of exactly this form:
+Verdict: <SUPPORTS | REFUTES | NOT ENOUGH INFO>

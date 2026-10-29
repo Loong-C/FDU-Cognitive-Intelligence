@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-10-28T13:42:04+08:00",
+  "settings": {
+    "runs": [
+      "D:\\DeepSeek Harness Desktop\\Study\\认知智能前沿技术与实践\\PJ-事实判断Baseline\\results\\challenge-prompt-v3-repeat1-20261028",
+      "D:\\DeepSeek Harness Desktop\\Study\\认知智能前沿技术与实践\\PJ-事实判断Baseline\\results\\challenge-prompt-v3-repeat2-20261028"
+    ],
+    "prompt_sha256": "c25aa0b551114de20f9926f291ae745990bd63f83f2ec0dee9db6ba183ce430d",
+    "config": {
+      "base_url": "http://10.176.30.103:20027/v1",
+      "model": "qwen38-27b",
+      "temperature": 0,
+      "max_tokens": 4096,
+      "timeout_seconds": 120,
+      "retries": 2,
+      "retry_delay_seconds": 2,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "use_environment_proxy": false,
+      "quantization": "W8A8（据此前聊天记录，待服务提供方确认）",
+      "reference_quantization": "Q8_0（A方数据说明）"
+    },
+    "primary_requests": 1770,
+    "original_primary_sha256": "e21c860d8cda257453398ce6d6184b0ade7ecb87cf8711f2087a0a428739ee4c",
+    "original_supplemented_sha256": "c9c84ed939bcbd799e15762b8cbd0b236e3092352658c25fcfc9fe41ce682e54",
+    "driver_sha256": "73403926920b939680ab8f3be714a6f44eeedd7e9a79ecfac8a736522e60913b",
+    "network_recovery_policy": "Resume pending after network failure; retry primary network failures separately once using same Client retry config. Do not retry valid predictions based on correctness.",
+    "majority_tie_rule": "If three distinct valid labels, choose the original v3 run label; otherwise most common valid label. Not a new single-call score."
+  }
+}
