@@ -1,0 +1,3449 @@
+{
+  "independent_confirmation": false,
+  "methods": {
+    "baseline": {
+      "baseline_metrics": {
+        "basic": {
+          "accuracy": 0.8571428571428571,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.8571428571428571,
+              "precision": 0.8571428571428571,
+              "predicted_count": 7,
+              "recall": 0.8571428571428571,
+              "support": 7
+            },
+            "REFUTES": {
+              "f1": 0.9090909090909091,
+              "precision": 1.0,
+              "predicted_count": 5,
+              "recall": 0.8333333333333334,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 0.8235294117647058,
+              "precision": 0.7777777777777778,
+              "predicted_count": 9,
+              "recall": 0.875,
+              "support": 8
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 6,
+              "REFUTES": 0,
+              "SUPPORTS": 1
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 5,
+              "SUPPORTS": 1
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 1,
+              "REFUTES": 0,
+              "SUPPORTS": 7
+            }
+          },
+          "correct": 18,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.8632543926661573,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.8571428571428571
+        },
+        "challenge": {
+          "accuracy": 0.6666666666666666,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.46153846153846156,
+              "precision": 1.0,
+              "predicted_count": 3,
+              "recall": 0.3,
+              "support": 10
+            },
+            "REFUTES": {
+              "f1": 0.36363636363636365,
+              "precision": 0.2222222222222222,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 2
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 9
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 3,
+              "REFUTES": 7,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 2,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 9
+            }
+          },
+          "correct": 14,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.6083916083916084,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 7,
+          "nei_to_refutes_rate": 0.7,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.6666666666666666
+        }
+      },
+      "method": "baseline",
+      "metrics": {
+        "basic": {
+          "accuracy": 0.8571428571428571,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.8571428571428571,
+              "precision": 0.8571428571428571,
+              "predicted_count": 7,
+              "recall": 0.8571428571428571,
+              "support": 7
+            },
+            "REFUTES": {
+              "f1": 0.9090909090909091,
+              "precision": 1.0,
+              "predicted_count": 5,
+              "recall": 0.8333333333333334,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 0.8235294117647058,
+              "precision": 0.7777777777777778,
+              "predicted_count": 9,
+              "recall": 0.875,
+              "support": 8
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 6,
+              "REFUTES": 0,
+              "SUPPORTS": 1
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 5,
+              "SUPPORTS": 1
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 1,
+              "REFUTES": 0,
+              "SUPPORTS": 7
+            }
+          },
+          "correct": 18,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.8632543926661573,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.8571428571428571
+        },
+        "challenge": {
+          "accuracy": 0.6666666666666666,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.46153846153846156,
+              "precision": 1.0,
+              "predicted_count": 3,
+              "recall": 0.3,
+              "support": 10
+            },
+            "REFUTES": {
+              "f1": 0.36363636363636365,
+              "precision": 0.2222222222222222,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 2
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 9
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 3,
+              "REFUTES": 7,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 2,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 9
+            }
+          },
+          "correct": 14,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.6083916083916084,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 7,
+          "nei_to_refutes_rate": 0.7,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.6666666666666666
+        }
+      },
+      "nli_metrics": {
+        "basic": {
+          "accuracy": 1.0,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 7,
+              "recall": 1.0,
+              "support": 7
+            },
+            "REFUTES": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 6,
+              "recall": 1.0,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 8,
+              "recall": 1.0,
+              "support": 8
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 7,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 6,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 8
+            }
+          },
+          "correct": 21,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 1.0,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 1.0
+        },
+        "challenge": {
+          "accuracy": 0.8095238095238095,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.75,
+              "precision": 1.0,
+              "predicted_count": 6,
+              "recall": 0.6,
+              "support": 10
+            },
+            "REFUTES": {
+              "f1": 0.5,
+              "precision": 0.3333333333333333,
+              "predicted_count": 6,
+              "recall": 1.0,
+              "support": 2
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 9
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 6,
+              "REFUTES": 4,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 2,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 9
+            }
+          },
+          "correct": 17,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.75,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 4,
+          "nei_to_refutes_rate": 0.4,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.8095238095238095
+        }
+      },
+      "paired": {
+        "baseline": {
+          "basic": {
+            "accuracy_delta": 0.0,
+            "harmed": 0,
+            "harmed_ids": [],
+            "improved": 0,
+            "improved_ids": [],
+            "n": 21
+          },
+          "challenge": {
+            "accuracy_delta": 0.0,
+            "harmed": 0,
+            "harmed_ids": [],
+            "improved": 0,
+            "improved_ids": [],
+            "n": 21
+          }
+        },
+        "nli": {
+          "basic": {
+            "accuracy_delta": -0.14285714285714285,
+            "harmed": 3,
+            "harmed_ids": [
+              "e_6246903a45fc7697",
+              "e_a5a65692e8e02715",
+              "e_eb704447e59ba804"
+            ],
+            "improved": 0,
+            "improved_ids": [],
+            "n": 21
+          },
+          "challenge": {
+            "accuracy_delta": -0.14285714285714285,
+            "harmed": 3,
+            "harmed_ids": [
+              "e_35e3f2d652cb1d0f",
+              "e_5180ab053b57aa01",
+              "e_b1fe2cf76100e187"
+            ],
+            "improved": 0,
+            "improved_ids": [],
+            "n": 21
+          }
+        }
+      }
+    },
+    "direct_10": {
+      "baseline_metrics": {
+        "basic": {
+          "accuracy": 0.8571428571428571,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.8571428571428571,
+              "precision": 0.8571428571428571,
+              "predicted_count": 7,
+              "recall": 0.8571428571428571,
+              "support": 7
+            },
+            "REFUTES": {
+              "f1": 0.9090909090909091,
+              "precision": 1.0,
+              "predicted_count": 5,
+              "recall": 0.8333333333333334,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 0.8235294117647058,
+              "precision": 0.7777777777777778,
+              "predicted_count": 9,
+              "recall": 0.875,
+              "support": 8
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 6,
+              "REFUTES": 0,
+              "SUPPORTS": 1
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 5,
+              "SUPPORTS": 1
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 1,
+              "REFUTES": 0,
+              "SUPPORTS": 7
+            }
+          },
+          "correct": 18,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.8632543926661573,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.8571428571428571
+        },
+        "challenge": {
+          "accuracy": 0.6666666666666666,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.46153846153846156,
+              "precision": 1.0,
+              "predicted_count": 3,
+              "recall": 0.3,
+              "support": 10
+            },
+            "REFUTES": {
+              "f1": 0.36363636363636365,
+              "precision": 0.2222222222222222,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 2
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 9
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 3,
+              "REFUTES": 7,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 2,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 9
+            }
+          },
+          "correct": 14,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.6083916083916084,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 7,
+          "nei_to_refutes_rate": 0.7,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.6666666666666666
+        }
+      },
+      "method": "direct_10",
+      "metrics": {
+        "basic": {
+          "accuracy": 0.8095238095238095,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.6,
+              "precision": 1.0,
+              "predicted_count": 3,
+              "recall": 0.42857142857142855,
+              "support": 7
+            },
+            "REFUTES": {
+              "f1": 0.75,
+              "precision": 0.6,
+              "predicted_count": 10,
+              "recall": 1.0,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 8,
+              "recall": 1.0,
+              "support": 8
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 3,
+              "REFUTES": 4,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 6,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 8
+            }
+          },
+          "correct": 17,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.7833333333333333,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 4,
+          "nei_to_refutes_rate": 0.5714285714285714,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.8095238095238095
+        },
+        "challenge": {
+          "accuracy": 0.7142857142857143,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.5714285714285714,
+              "precision": 1.0,
+              "predicted_count": 4,
+              "recall": 0.4,
+              "support": 10
+            },
+            "REFUTES": {
+              "f1": 0.4,
+              "precision": 0.25,
+              "predicted_count": 8,
+              "recall": 1.0,
+              "support": 2
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 9
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 4,
+              "REFUTES": 6,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 2,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 9
+            }
+          },
+          "correct": 15,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.6571428571428571,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 6,
+          "nei_to_refutes_rate": 0.6,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.7142857142857143
+        }
+      },
+      "nli_metrics": {
+        "basic": {
+          "accuracy": 1.0,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 7,
+              "recall": 1.0,
+              "support": 7
+            },
+            "REFUTES": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 6,
+              "recall": 1.0,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 8,
+              "recall": 1.0,
+              "support": 8
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 7,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 6,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 8
+            }
+          },
+          "correct": 21,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 1.0,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 1.0
+        },
+        "challenge": {
+          "accuracy": 0.8095238095238095,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.75,
+              "precision": 1.0,
+              "predicted_count": 6,
+              "recall": 0.6,
+              "support": 10
+            },
+            "REFUTES": {
+              "f1": 0.5,
+              "precision": 0.3333333333333333,
+              "predicted_count": 6,
+              "recall": 1.0,
+              "support": 2
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 9
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 6,
+              "REFUTES": 4,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 2,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 9
+            }
+          },
+          "correct": 17,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.75,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 4,
+          "nei_to_refutes_rate": 0.4,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.8095238095238095
+        }
+      },
+      "paired": {
+        "baseline": {
+          "basic": {
+            "accuracy_delta": -0.047619047619047616,
+            "harmed": 4,
+            "harmed_ids": [
+              "e_6d206b732b0cdb1e",
+              "e_7c9f639cafd71207",
+              "e_a54ad6a92695b023",
+              "e_a77314ec81e9e8a5"
+            ],
+            "improved": 3,
+            "improved_ids": [
+              "e_6246903a45fc7697",
+              "e_a5a65692e8e02715",
+              "e_eb704447e59ba804"
+            ],
+            "n": 21
+          },
+          "challenge": {
+            "accuracy_delta": 0.047619047619047616,
+            "harmed": 1,
+            "harmed_ids": [
+              "e_8880bd49ca9558a2"
+            ],
+            "improved": 2,
+            "improved_ids": [
+              "e_35e3f2d652cb1d0f",
+              "e_6ceee2e7cd1574c4"
+            ],
+            "n": 21
+          }
+        },
+        "nli": {
+          "basic": {
+            "accuracy_delta": -0.19047619047619047,
+            "harmed": 4,
+            "harmed_ids": [
+              "e_6d206b732b0cdb1e",
+              "e_7c9f639cafd71207",
+              "e_a54ad6a92695b023",
+              "e_a77314ec81e9e8a5"
+            ],
+            "improved": 0,
+            "improved_ids": [],
+            "n": 21
+          },
+          "challenge": {
+            "accuracy_delta": -0.09523809523809523,
+            "harmed": 3,
+            "harmed_ids": [
+              "e_5180ab053b57aa01",
+              "e_8880bd49ca9558a2",
+              "e_b1fe2cf76100e187"
+            ],
+            "improved": 1,
+            "improved_ids": [
+              "e_6ceee2e7cd1574c4"
+            ],
+            "n": 21
+          }
+        }
+      }
+    },
+    "direct_25": {
+      "baseline_metrics": {
+        "basic": {
+          "accuracy": 0.8571428571428571,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.8571428571428571,
+              "precision": 0.8571428571428571,
+              "predicted_count": 7,
+              "recall": 0.8571428571428571,
+              "support": 7
+            },
+            "REFUTES": {
+              "f1": 0.9090909090909091,
+              "precision": 1.0,
+              "predicted_count": 5,
+              "recall": 0.8333333333333334,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 0.8235294117647058,
+              "precision": 0.7777777777777778,
+              "predicted_count": 9,
+              "recall": 0.875,
+              "support": 8
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 6,
+              "REFUTES": 0,
+              "SUPPORTS": 1
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 5,
+              "SUPPORTS": 1
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 1,
+              "REFUTES": 0,
+              "SUPPORTS": 7
+            }
+          },
+          "correct": 18,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.8632543926661573,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.8571428571428571
+        },
+        "challenge": {
+          "accuracy": 0.6666666666666666,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.46153846153846156,
+              "precision": 1.0,
+              "predicted_count": 3,
+              "recall": 0.3,
+              "support": 10
+            },
+            "REFUTES": {
+              "f1": 0.36363636363636365,
+              "precision": 0.2222222222222222,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 2
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 9
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 3,
+              "REFUTES": 7,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 2,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 9
+            }
+          },
+          "correct": 14,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.6083916083916084,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 7,
+          "nei_to_refutes_rate": 0.7,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.6666666666666666
+        }
+      },
+      "method": "direct_25",
+      "metrics": {
+        "basic": {
+          "accuracy": 0.9047619047619048,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.875,
+              "precision": 0.7777777777777778,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 7
+            },
+            "REFUTES": {
+              "f1": 0.8,
+              "precision": 1.0,
+              "predicted_count": 4,
+              "recall": 0.6666666666666666,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 8,
+              "recall": 1.0,
+              "support": 8
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 7,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 2,
+              "REFUTES": 4,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 8
+            }
+          },
+          "correct": 19,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.8916666666666667,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.9047619047619048
+        },
+        "challenge": {
+          "accuracy": 0.7619047619047619,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.7777777777777778,
+              "precision": 0.875,
+              "predicted_count": 8,
+              "recall": 0.7,
+              "support": 10
+            },
+            "REFUTES": {
+              "f1": 0.2857142857142857,
+              "precision": 0.2,
+              "predicted_count": 5,
+              "recall": 0.5,
+              "support": 2
+            },
+            "SUPPORTS": {
+              "f1": 0.9411764705882353,
+              "precision": 1.0,
+              "predicted_count": 8,
+              "recall": 0.8888888888888888,
+              "support": 9
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 7,
+              "REFUTES": 3,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 1,
+              "REFUTES": 1,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 1,
+              "SUPPORTS": 8
+            }
+          },
+          "correct": 16,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.668222844693433,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 3,
+          "nei_to_refutes_rate": 0.3,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.7619047619047619
+        }
+      },
+      "nli_metrics": {
+        "basic": {
+          "accuracy": 1.0,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 7,
+              "recall": 1.0,
+              "support": 7
+            },
+            "REFUTES": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 6,
+              "recall": 1.0,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 8,
+              "recall": 1.0,
+              "support": 8
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 7,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 6,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 8
+            }
+          },
+          "correct": 21,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 1.0,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 1.0
+        },
+        "challenge": {
+          "accuracy": 0.8095238095238095,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.75,
+              "precision": 1.0,
+              "predicted_count": 6,
+              "recall": 0.6,
+              "support": 10
+            },
+            "REFUTES": {
+              "f1": 0.5,
+              "precision": 0.3333333333333333,
+              "predicted_count": 6,
+              "recall": 1.0,
+              "support": 2
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 9
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 6,
+              "REFUTES": 4,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 2,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 9
+            }
+          },
+          "correct": 17,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.75,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 4,
+          "nei_to_refutes_rate": 0.4,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.8095238095238095
+        }
+      },
+      "paired": {
+        "baseline": {
+          "basic": {
+            "accuracy_delta": 0.047619047619047616,
+            "harmed": 2,
+            "harmed_ids": [
+              "e_45998c37ef8ecd4b",
+              "e_525f6ccc25022ddd"
+            ],
+            "improved": 3,
+            "improved_ids": [
+              "e_6246903a45fc7697",
+              "e_a5a65692e8e02715",
+              "e_eb704447e59ba804"
+            ],
+            "n": 21
+          },
+          "challenge": {
+            "accuracy_delta": 0.09523809523809523,
+            "harmed": 2,
+            "harmed_ids": [
+              "e_4fce433c09a10bb0",
+              "e_b90f4a5d02995dfc"
+            ],
+            "improved": 4,
+            "improved_ids": [
+              "e_35e3f2d652cb1d0f",
+              "e_5180ab053b57aa01",
+              "e_6ceee2e7cd1574c4",
+              "e_d80392b191846330"
+            ],
+            "n": 21
+          }
+        },
+        "nli": {
+          "basic": {
+            "accuracy_delta": -0.09523809523809523,
+            "harmed": 2,
+            "harmed_ids": [
+              "e_45998c37ef8ecd4b",
+              "e_525f6ccc25022ddd"
+            ],
+            "improved": 0,
+            "improved_ids": [],
+            "n": 21
+          },
+          "challenge": {
+            "accuracy_delta": -0.047619047619047616,
+            "harmed": 3,
+            "harmed_ids": [
+              "e_4fce433c09a10bb0",
+              "e_b1fe2cf76100e187",
+              "e_b90f4a5d02995dfc"
+            ],
+            "improved": 2,
+            "improved_ids": [
+              "e_6ceee2e7cd1574c4",
+              "e_d80392b191846330"
+            ],
+            "n": 21
+          }
+        }
+      }
+    },
+    "direct_50": {
+      "baseline_metrics": {
+        "basic": {
+          "accuracy": 0.8571428571428571,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.8571428571428571,
+              "precision": 0.8571428571428571,
+              "predicted_count": 7,
+              "recall": 0.8571428571428571,
+              "support": 7
+            },
+            "REFUTES": {
+              "f1": 0.9090909090909091,
+              "precision": 1.0,
+              "predicted_count": 5,
+              "recall": 0.8333333333333334,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 0.8235294117647058,
+              "precision": 0.7777777777777778,
+              "predicted_count": 9,
+              "recall": 0.875,
+              "support": 8
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 6,
+              "REFUTES": 0,
+              "SUPPORTS": 1
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 5,
+              "SUPPORTS": 1
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 1,
+              "REFUTES": 0,
+              "SUPPORTS": 7
+            }
+          },
+          "correct": 18,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.8632543926661573,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.8571428571428571
+        },
+        "challenge": {
+          "accuracy": 0.6666666666666666,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.46153846153846156,
+              "precision": 1.0,
+              "predicted_count": 3,
+              "recall": 0.3,
+              "support": 10
+            },
+            "REFUTES": {
+              "f1": 0.36363636363636365,
+              "precision": 0.2222222222222222,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 2
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 9
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 3,
+              "REFUTES": 7,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 2,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 9
+            }
+          },
+          "correct": 14,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.6083916083916084,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 7,
+          "nei_to_refutes_rate": 0.7,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.6666666666666666
+        }
+      },
+      "method": "direct_50",
+      "metrics": {
+        "basic": {
+          "accuracy": 0.7619047619047619,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.7368421052631579,
+              "precision": 0.5833333333333334,
+              "predicted_count": 12,
+              "recall": 1.0,
+              "support": 7
+            },
+            "REFUTES": {
+              "f1": 0.2857142857142857,
+              "precision": 1.0,
+              "predicted_count": 1,
+              "recall": 0.16666666666666666,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 8,
+              "recall": 1.0,
+              "support": 8
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 7,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 5,
+              "REFUTES": 1,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 8
+            }
+          },
+          "correct": 16,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.6741854636591479,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.7619047619047619
+        },
+        "challenge": {
+          "accuracy": 0.7619047619047619,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.8,
+              "precision": 0.6666666666666666,
+              "predicted_count": 15,
+              "recall": 1.0,
+              "support": 10
+            },
+            "REFUTES": {
+              "f1": 0.0,
+              "precision": 0.0,
+              "predicted_count": 0,
+              "recall": 0.0,
+              "support": 2
+            },
+            "SUPPORTS": {
+              "f1": 0.8,
+              "precision": 1.0,
+              "predicted_count": 6,
+              "recall": 0.6666666666666666,
+              "support": 9
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 10,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 2,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 3,
+              "REFUTES": 0,
+              "SUPPORTS": 6
+            }
+          },
+          "correct": 16,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.5333333333333333,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.7619047619047619
+        }
+      },
+      "nli_metrics": {
+        "basic": {
+          "accuracy": 1.0,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 7,
+              "recall": 1.0,
+              "support": 7
+            },
+            "REFUTES": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 6,
+              "recall": 1.0,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 8,
+              "recall": 1.0,
+              "support": 8
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 7,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 6,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 8
+            }
+          },
+          "correct": 21,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 1.0,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 1.0
+        },
+        "challenge": {
+          "accuracy": 0.8095238095238095,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.75,
+              "precision": 1.0,
+              "predicted_count": 6,
+              "recall": 0.6,
+              "support": 10
+            },
+            "REFUTES": {
+              "f1": 0.5,
+              "precision": 0.3333333333333333,
+              "predicted_count": 6,
+              "recall": 1.0,
+              "support": 2
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 9
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 6,
+              "REFUTES": 4,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 2,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 9
+            }
+          },
+          "correct": 17,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.75,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 4,
+          "nei_to_refutes_rate": 0.4,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.8095238095238095
+        }
+      },
+      "paired": {
+        "baseline": {
+          "basic": {
+            "accuracy_delta": -0.09523809523809523,
+            "harmed": 4,
+            "harmed_ids": [
+              "e_3d4f7ce54915053e",
+              "e_45998c37ef8ecd4b",
+              "e_525f6ccc25022ddd",
+              "e_99c22b39e7917e14"
+            ],
+            "improved": 2,
+            "improved_ids": [
+              "e_6246903a45fc7697",
+              "e_eb704447e59ba804"
+            ],
+            "n": 21
+          },
+          "challenge": {
+            "accuracy_delta": 0.09523809523809523,
+            "harmed": 5,
+            "harmed_ids": [
+              "e_483443534f796aa7",
+              "e_4fce433c09a10bb0",
+              "e_94c23c647561db9c",
+              "e_b90f4a5d02995dfc",
+              "e_e905979ccfc384a6"
+            ],
+            "improved": 7,
+            "improved_ids": [
+              "e_35e3f2d652cb1d0f",
+              "e_5180ab053b57aa01",
+              "e_6ceee2e7cd1574c4",
+              "e_b1fe2cf76100e187",
+              "e_b41d74a8dde64c51",
+              "e_d80392b191846330",
+              "e_e4d322f586379996"
+            ],
+            "n": 21
+          }
+        },
+        "nli": {
+          "basic": {
+            "accuracy_delta": -0.23809523809523808,
+            "harmed": 5,
+            "harmed_ids": [
+              "e_3d4f7ce54915053e",
+              "e_45998c37ef8ecd4b",
+              "e_525f6ccc25022ddd",
+              "e_99c22b39e7917e14",
+              "e_a5a65692e8e02715"
+            ],
+            "improved": 0,
+            "improved_ids": [],
+            "n": 21
+          },
+          "challenge": {
+            "accuracy_delta": -0.047619047619047616,
+            "harmed": 5,
+            "harmed_ids": [
+              "e_483443534f796aa7",
+              "e_4fce433c09a10bb0",
+              "e_94c23c647561db9c",
+              "e_b90f4a5d02995dfc",
+              "e_e905979ccfc384a6"
+            ],
+            "improved": 4,
+            "improved_ids": [
+              "e_6ceee2e7cd1574c4",
+              "e_b41d74a8dde64c51",
+              "e_d80392b191846330",
+              "e_e4d322f586379996"
+            ],
+            "n": 21
+          }
+        }
+      }
+    },
+    "nli": {
+      "baseline_metrics": {
+        "basic": {
+          "accuracy": 0.8571428571428571,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.8571428571428571,
+              "precision": 0.8571428571428571,
+              "predicted_count": 7,
+              "recall": 0.8571428571428571,
+              "support": 7
+            },
+            "REFUTES": {
+              "f1": 0.9090909090909091,
+              "precision": 1.0,
+              "predicted_count": 5,
+              "recall": 0.8333333333333334,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 0.8235294117647058,
+              "precision": 0.7777777777777778,
+              "predicted_count": 9,
+              "recall": 0.875,
+              "support": 8
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 6,
+              "REFUTES": 0,
+              "SUPPORTS": 1
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 5,
+              "SUPPORTS": 1
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 1,
+              "REFUTES": 0,
+              "SUPPORTS": 7
+            }
+          },
+          "correct": 18,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.8632543926661573,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.8571428571428571
+        },
+        "challenge": {
+          "accuracy": 0.6666666666666666,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.46153846153846156,
+              "precision": 1.0,
+              "predicted_count": 3,
+              "recall": 0.3,
+              "support": 10
+            },
+            "REFUTES": {
+              "f1": 0.36363636363636365,
+              "precision": 0.2222222222222222,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 2
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 9
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 3,
+              "REFUTES": 7,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 2,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 9
+            }
+          },
+          "correct": 14,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.6083916083916084,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 7,
+          "nei_to_refutes_rate": 0.7,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.6666666666666666
+        }
+      },
+      "method": "nli",
+      "metrics": {
+        "basic": {
+          "accuracy": 1.0,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 7,
+              "recall": 1.0,
+              "support": 7
+            },
+            "REFUTES": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 6,
+              "recall": 1.0,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 8,
+              "recall": 1.0,
+              "support": 8
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 7,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 6,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 8
+            }
+          },
+          "correct": 21,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 1.0,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 1.0
+        },
+        "challenge": {
+          "accuracy": 0.8095238095238095,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.75,
+              "precision": 1.0,
+              "predicted_count": 6,
+              "recall": 0.6,
+              "support": 10
+            },
+            "REFUTES": {
+              "f1": 0.5,
+              "precision": 0.3333333333333333,
+              "predicted_count": 6,
+              "recall": 1.0,
+              "support": 2
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 9
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 6,
+              "REFUTES": 4,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 2,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 9
+            }
+          },
+          "correct": 17,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.75,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 4,
+          "nei_to_refutes_rate": 0.4,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.8095238095238095
+        }
+      },
+      "nli_metrics": {
+        "basic": {
+          "accuracy": 1.0,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 7,
+              "recall": 1.0,
+              "support": 7
+            },
+            "REFUTES": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 6,
+              "recall": 1.0,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 8,
+              "recall": 1.0,
+              "support": 8
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 7,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 6,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 8
+            }
+          },
+          "correct": 21,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 1.0,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 1.0
+        },
+        "challenge": {
+          "accuracy": 0.8095238095238095,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.75,
+              "precision": 1.0,
+              "predicted_count": 6,
+              "recall": 0.6,
+              "support": 10
+            },
+            "REFUTES": {
+              "f1": 0.5,
+              "precision": 0.3333333333333333,
+              "predicted_count": 6,
+              "recall": 1.0,
+              "support": 2
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 9
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 6,
+              "REFUTES": 4,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 2,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 9
+            }
+          },
+          "correct": 17,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.75,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 4,
+          "nei_to_refutes_rate": 0.4,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.8095238095238095
+        }
+      },
+      "paired": {
+        "baseline": {
+          "basic": {
+            "accuracy_delta": 0.14285714285714285,
+            "harmed": 0,
+            "harmed_ids": [],
+            "improved": 3,
+            "improved_ids": [
+              "e_6246903a45fc7697",
+              "e_a5a65692e8e02715",
+              "e_eb704447e59ba804"
+            ],
+            "n": 21
+          },
+          "challenge": {
+            "accuracy_delta": 0.14285714285714285,
+            "harmed": 0,
+            "harmed_ids": [],
+            "improved": 3,
+            "improved_ids": [
+              "e_35e3f2d652cb1d0f",
+              "e_5180ab053b57aa01",
+              "e_b1fe2cf76100e187"
+            ],
+            "n": 21
+          }
+        },
+        "nli": {
+          "basic": {
+            "accuracy_delta": 0.0,
+            "harmed": 0,
+            "harmed_ids": [],
+            "improved": 0,
+            "improved_ids": [],
+            "n": 21
+          },
+          "challenge": {
+            "accuracy_delta": 0.0,
+            "harmed": 0,
+            "harmed_ids": [],
+            "improved": 0,
+            "improved_ids": [],
+            "n": 21
+          }
+        }
+      }
+    },
+    "proof_gate": {
+      "baseline_metrics": {
+        "basic": {
+          "accuracy": 0.8571428571428571,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.8571428571428571,
+              "precision": 0.8571428571428571,
+              "predicted_count": 7,
+              "recall": 0.8571428571428571,
+              "support": 7
+            },
+            "REFUTES": {
+              "f1": 0.9090909090909091,
+              "precision": 1.0,
+              "predicted_count": 5,
+              "recall": 0.8333333333333334,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 0.8235294117647058,
+              "precision": 0.7777777777777778,
+              "predicted_count": 9,
+              "recall": 0.875,
+              "support": 8
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 6,
+              "REFUTES": 0,
+              "SUPPORTS": 1
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 5,
+              "SUPPORTS": 1
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 1,
+              "REFUTES": 0,
+              "SUPPORTS": 7
+            }
+          },
+          "correct": 18,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.8632543926661573,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.8571428571428571
+        },
+        "challenge": {
+          "accuracy": 0.6666666666666666,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.46153846153846156,
+              "precision": 1.0,
+              "predicted_count": 3,
+              "recall": 0.3,
+              "support": 10
+            },
+            "REFUTES": {
+              "f1": 0.36363636363636365,
+              "precision": 0.2222222222222222,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 2
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 9
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 3,
+              "REFUTES": 7,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 2,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 9
+            }
+          },
+          "correct": 14,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.6083916083916084,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 7,
+          "nei_to_refutes_rate": 0.7,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.6666666666666666
+        }
+      },
+      "method": "proof_gate",
+      "metrics": {
+        "basic": {
+          "accuracy": 1.0,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 7,
+              "recall": 1.0,
+              "support": 7
+            },
+            "REFUTES": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 6,
+              "recall": 1.0,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 8,
+              "recall": 1.0,
+              "support": 8
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 7,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 6,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 8
+            }
+          },
+          "correct": 21,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 1.0,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 1.0
+        },
+        "challenge": {
+          "accuracy": 0.8095238095238095,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.75,
+              "precision": 1.0,
+              "predicted_count": 6,
+              "recall": 0.6,
+              "support": 10
+            },
+            "REFUTES": {
+              "f1": 0.5,
+              "precision": 0.3333333333333333,
+              "predicted_count": 6,
+              "recall": 1.0,
+              "support": 2
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 9
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 6,
+              "REFUTES": 4,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 2,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 9
+            }
+          },
+          "correct": 17,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.75,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 4,
+          "nei_to_refutes_rate": 0.4,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.8095238095238095
+        }
+      },
+      "nli_metrics": {
+        "basic": {
+          "accuracy": 1.0,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 7,
+              "recall": 1.0,
+              "support": 7
+            },
+            "REFUTES": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 6,
+              "recall": 1.0,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 8,
+              "recall": 1.0,
+              "support": 8
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 7,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 6,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 8
+            }
+          },
+          "correct": 21,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 1.0,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 1.0
+        },
+        "challenge": {
+          "accuracy": 0.8095238095238095,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.75,
+              "precision": 1.0,
+              "predicted_count": 6,
+              "recall": 0.6,
+              "support": 10
+            },
+            "REFUTES": {
+              "f1": 0.5,
+              "precision": 0.3333333333333333,
+              "predicted_count": 6,
+              "recall": 1.0,
+              "support": 2
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 9
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 6,
+              "REFUTES": 4,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 2,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 9
+            }
+          },
+          "correct": 17,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.75,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 4,
+          "nei_to_refutes_rate": 0.4,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.8095238095238095
+        }
+      },
+      "paired": {
+        "baseline": {
+          "basic": {
+            "accuracy_delta": 0.14285714285714285,
+            "harmed": 0,
+            "harmed_ids": [],
+            "improved": 3,
+            "improved_ids": [
+              "e_6246903a45fc7697",
+              "e_a5a65692e8e02715",
+              "e_eb704447e59ba804"
+            ],
+            "n": 21
+          },
+          "challenge": {
+            "accuracy_delta": 0.14285714285714285,
+            "harmed": 0,
+            "harmed_ids": [],
+            "improved": 3,
+            "improved_ids": [
+              "e_35e3f2d652cb1d0f",
+              "e_5180ab053b57aa01",
+              "e_b1fe2cf76100e187"
+            ],
+            "n": 21
+          }
+        },
+        "nli": {
+          "basic": {
+            "accuracy_delta": 0.0,
+            "harmed": 0,
+            "harmed_ids": [],
+            "improved": 0,
+            "improved_ids": [],
+            "n": 21
+          },
+          "challenge": {
+            "accuracy_delta": 0.0,
+            "harmed": 0,
+            "harmed_ids": [],
+            "improved": 0,
+            "improved_ids": [],
+            "n": 21
+          }
+        }
+      }
+    },
+    "proof_pair": {
+      "baseline_metrics": {
+        "basic": {
+          "accuracy": 0.8571428571428571,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.8571428571428571,
+              "precision": 0.8571428571428571,
+              "predicted_count": 7,
+              "recall": 0.8571428571428571,
+              "support": 7
+            },
+            "REFUTES": {
+              "f1": 0.9090909090909091,
+              "precision": 1.0,
+              "predicted_count": 5,
+              "recall": 0.8333333333333334,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 0.8235294117647058,
+              "precision": 0.7777777777777778,
+              "predicted_count": 9,
+              "recall": 0.875,
+              "support": 8
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 6,
+              "REFUTES": 0,
+              "SUPPORTS": 1
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 5,
+              "SUPPORTS": 1
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 1,
+              "REFUTES": 0,
+              "SUPPORTS": 7
+            }
+          },
+          "correct": 18,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.8632543926661573,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.8571428571428571
+        },
+        "challenge": {
+          "accuracy": 0.6666666666666666,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.46153846153846156,
+              "precision": 1.0,
+              "predicted_count": 3,
+              "recall": 0.3,
+              "support": 10
+            },
+            "REFUTES": {
+              "f1": 0.36363636363636365,
+              "precision": 0.2222222222222222,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 2
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 9
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 3,
+              "REFUTES": 7,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 2,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 9
+            }
+          },
+          "correct": 14,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.6083916083916084,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 7,
+          "nei_to_refutes_rate": 0.7,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.6666666666666666
+        }
+      },
+      "method": "proof_pair",
+      "metrics": {
+        "basic": {
+          "accuracy": 1.0,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 7,
+              "recall": 1.0,
+              "support": 7
+            },
+            "REFUTES": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 6,
+              "recall": 1.0,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 8,
+              "recall": 1.0,
+              "support": 8
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 7,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 6,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 8
+            }
+          },
+          "correct": 21,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 1.0,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 1.0
+        },
+        "challenge": {
+          "accuracy": 0.8571428571428571,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.8235294117647058,
+              "precision": 1.0,
+              "predicted_count": 7,
+              "recall": 0.7,
+              "support": 10
+            },
+            "REFUTES": {
+              "f1": 0.5714285714285714,
+              "precision": 0.4,
+              "predicted_count": 5,
+              "recall": 1.0,
+              "support": 2
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 9
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 7,
+              "REFUTES": 3,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 2,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 9
+            }
+          },
+          "correct": 18,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.7983193277310924,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 3,
+          "nei_to_refutes_rate": 0.3,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.8571428571428571
+        }
+      },
+      "nli_metrics": {
+        "basic": {
+          "accuracy": 1.0,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 7,
+              "recall": 1.0,
+              "support": 7
+            },
+            "REFUTES": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 6,
+              "recall": 1.0,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 8,
+              "recall": 1.0,
+              "support": 8
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 7,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 6,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 8
+            }
+          },
+          "correct": 21,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 1.0,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 1.0
+        },
+        "challenge": {
+          "accuracy": 0.8095238095238095,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.75,
+              "precision": 1.0,
+              "predicted_count": 6,
+              "recall": 0.6,
+              "support": 10
+            },
+            "REFUTES": {
+              "f1": 0.5,
+              "precision": 0.3333333333333333,
+              "predicted_count": 6,
+              "recall": 1.0,
+              "support": 2
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 9,
+              "recall": 1.0,
+              "support": 9
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 6,
+              "REFUTES": 4,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 2,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 9
+            }
+          },
+          "correct": 17,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.75,
+          "mean_completion_tokens": null,
+          "n": 21,
+          "nei_to_refutes": 4,
+          "nei_to_refutes_rate": 0.4,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 21,
+          "valid_only_accuracy": 0.8095238095238095
+        }
+      },
+      "paired": {
+        "baseline": {
+          "basic": {
+            "accuracy_delta": 0.14285714285714285,
+            "harmed": 0,
+            "harmed_ids": [],
+            "improved": 3,
+            "improved_ids": [
+              "e_6246903a45fc7697",
+              "e_a5a65692e8e02715",
+              "e_eb704447e59ba804"
+            ],
+            "n": 21
+          },
+          "challenge": {
+            "accuracy_delta": 0.19047619047619047,
+            "harmed": 0,
+            "harmed_ids": [],
+            "improved": 4,
+            "improved_ids": [
+              "e_35e3f2d652cb1d0f",
+              "e_5180ab053b57aa01",
+              "e_b1fe2cf76100e187",
+              "e_b41d74a8dde64c51"
+            ],
+            "n": 21
+          }
+        },
+        "nli": {
+          "basic": {
+            "accuracy_delta": 0.0,
+            "harmed": 0,
+            "harmed_ids": [],
+            "improved": 0,
+            "improved_ids": [],
+            "n": 21
+          },
+          "challenge": {
+            "accuracy_delta": 0.047619047619047616,
+            "harmed": 0,
+            "harmed_ids": [],
+            "improved": 1,
+            "improved_ids": [
+              "e_b41d74a8dde64c51"
+            ],
+            "n": 21
+          }
+        }
+      }
+    }
+  },
+  "n": 42,
+  "new_tokens": {
+    "direct_contrad": 9936,
+    "proof_contrad": 11990,
+    "proof_entail": 11916
+  },
+  "raw_sha256": {
+    "outputs/server_v11/records/basic/e_3d4f7ce54915053e/baseline.json": "97aa8c5ba1cc568416196b0feea9c2c6a166e7e4a3562eef5fc0b5452a0e9d58",
+    "outputs/server_v11/records/basic/e_3d4f7ce54915053e/nli.json": "2535fb13990553a8cf6744aa7913c567d02ca4f43df7b3244795a81e452c5e21",
+    "outputs/server_v11/records/basic/e_3d84dc17a045fe93/baseline.json": "98709af8c799dd5b5faafdb8768ee0c8dbd26839ef34fc28be8593e74cdf9829",
+    "outputs/server_v11/records/basic/e_3d84dc17a045fe93/nli.json": "50471fa98fc644542e7abfd5d55fc001c2a96cbd315e2308d1d6df82685f4a79",
+    "outputs/server_v11/records/basic/e_45998c37ef8ecd4b/baseline.json": "9e03ec2e3cefdf5815db1e0f4788bf131bf1ec247a21a6e9c2d3b120c366ad80",
+    "outputs/server_v11/records/basic/e_45998c37ef8ecd4b/nli.json": "bdfa0cbd41f036a5409ae81dc31c0623d9fa7fe38d558f225089cc406c01635c",
+    "outputs/server_v11/records/basic/e_525f6ccc25022ddd/baseline.json": "ae0733b7455b139668ffeae1befe664bb76224241aec6b09b1aeeba3c3b39ae8",
+    "outputs/server_v11/records/basic/e_525f6ccc25022ddd/nli.json": "de11edd9da808439ecbb27754f41ac5500cf02d164fc8a1e299c4173f972f600",
+    "outputs/server_v11/records/basic/e_56640da51848a401/baseline.json": "16b266c84dcbfec8d70801f0794fb0c51f0ff888ae93f7c0f8533ce02670523f",
+    "outputs/server_v11/records/basic/e_56640da51848a401/nli.json": "b55836ae30741eeb4bef9ecfd4d12588360e794edd927cc1976798cef47ae41c",
+    "outputs/server_v11/records/basic/e_5c7b1b9b012be799/baseline.json": "3dd7e944c2149c5c11a9fc5f17871c8eb3c41bf6cf644ad9ad8987d7bb34f5ff",
+    "outputs/server_v11/records/basic/e_5c7b1b9b012be799/nli.json": "894da8b7c59942c4409ed0b6eb769572b3560e06a758dc0de3970ce242fa16a5",
+    "outputs/server_v11/records/basic/e_6246903a45fc7697/baseline.json": "20d85b62deec04edf8d454185009dd6f7984023932bbc0a77806f7bfdf234788",
+    "outputs/server_v11/records/basic/e_6246903a45fc7697/nli.json": "3ddaa5a6b0ca5c172aee44d133b9b52df7f47ed017e7db5b78925aabfe2a6f83",
+    "outputs/server_v11/records/basic/e_6aab8e66ed92ee64/baseline.json": "adc27f6158b4adc9923e89db6c4ce9a41c43f12eb12b6b5d8b1036a7ea0050d6",
+    "outputs/server_v11/records/basic/e_6aab8e66ed92ee64/nli.json": "20bedee93551feb3df7f2c5cf4e9a94c24c8b4249b1e8cd1aa43b1eacc46908c",
+    "outputs/server_v11/records/basic/e_6d206b732b0cdb1e/baseline.json": "cbdf5f5fc98ebc5a07df29a67d07382f4ee9fd7780a4ec2b9a489e997a0b9dc3",
+    "outputs/server_v11/records/basic/e_6d206b732b0cdb1e/nli.json": "fd945a4da1e9ea04c1dcc26ff53ab1cd47cee0a14f6427dc41c6d8ecccf596ff",
+    "outputs/server_v11/records/basic/e_7c9f639cafd71207/baseline.json": "10dfae31494cde112337494e2c6bdc6997f7720398a8cefcd82d18e5cfa96bae",
+    "outputs/server_v11/records/basic/e_7c9f639cafd71207/nli.json": "8e9c7eb1bcb72fa0ef2bbbeaf10d23f2c7da793e0e5bc7ddcdfb83dc307e3d35",
+    "outputs/server_v11/records/basic/e_878cdc15a11c14e5/baseline.json": "e6421c73d7104936dc8c0c82937108a261e77d3a08dca14e290dfb0310713653",
+    "outputs/server_v11/records/basic/e_878cdc15a11c14e5/nli.json": "8c5ef8dc5ce323aa316b73f97fa70d88fed124f564c77c6e7553f6e16a13d0a6",
+    "outputs/server_v11/records/basic/e_99c22b39e7917e14/baseline.json": "58a1ca88823fd1ae9da8d8d275b2118c01f2ff13db9bb25b3fe33ea616bdf157",
+    "outputs/server_v11/records/basic/e_99c22b39e7917e14/nli.json": "aea492de973c5b908a47387ff2c43bc694235468c2274e938c961299f9b3e3de",
+    "outputs/server_v11/records/basic/e_a54ad6a92695b023/baseline.json": "b30a062b43079b1237530d13ba52065b4ed96209e100b64ad806b855c4c46a48",
+    "outputs/server_v11/records/basic/e_a54ad6a92695b023/nli.json": "48ec13f55a908a465c6a054d0df9e024bef3c2af232dad6bb7903b76ab04ae18",
+    "outputs/server_v11/records/basic/e_a5a65692e8e02715/baseline.json": "1f00ceb9562490ddcf4fbae2ca7a3421a3e8dc2943ec5bd765ef55acc6ca5aad",
+    "outputs/server_v11/records/basic/e_a5a65692e8e02715/nli.json": "df6ac4e6f7475e616c14b335309fcc4128a7774ca390ee888ed1a47b2180f5b6",
+    "outputs/server_v11/records/basic/e_a77314ec81e9e8a5/baseline.json": "a9954b5a4600f8f93fa4b4257cf36271c5760068cb094ffa883ddefdd62af0a5",
+    "outputs/server_v11/records/basic/e_a77314ec81e9e8a5/nli.json": "8447863a7a3d40d68c6d2a77a1101cb69a64f1c6a7c20b8bd78152730a6e131c",
+    "outputs/server_v11/records/basic/e_a9ed0f7cd849c41e/baseline.json": "519bdcf0979bff22e94c689e8a1410f7807804ca9038c73550048c39d4d11cf3",
+    "outputs/server_v11/records/basic/e_a9ed0f7cd849c41e/nli.json": "a0db6601a8650754b162450bbd116598b50a3c48eb3eaafe129df7cecb1ff806",
+    "outputs/server_v11/records/basic/e_dbfa0ff4a550b8f1/baseline.json": "c0de2fbee39dc07dba156f7b023b0c72c8a1b0d8cf6dc703b20161aa5720bd62",
+    "outputs/server_v11/records/basic/e_dbfa0ff4a550b8f1/nli.json": "6d3c507f33d244101d8a435d3c93755fc2e3fd737a3f1190348309f486c6f5fd",
+    "outputs/server_v11/records/basic/e_e300ad2fe2e1ed40/baseline.json": "7f33dc49ba01ad51c3cd72dcba25c1ad41697ad9d6830db0d237cedda7f617c1",
+    "outputs/server_v11/records/basic/e_e300ad2fe2e1ed40/nli.json": "8e2eacbc6ce03afa68a1bb42c5da44275821b0e46020ffef026ce8f1bc0d813e",
+    "outputs/server_v11/records/basic/e_e935b9a51f7d4f11/baseline.json": "8c694aa3a8fb44086aad8c2f5bf28591917aa3d942e6148083141d9da7d7e145",
+    "outputs/server_v11/records/basic/e_e935b9a51f7d4f11/nli.json": "824efcfe98bea32fc58aef2ca1adebaf0cd4ef3c909fca451381fea8f303bb4a",
+    "outputs/server_v11/records/basic/e_eb704447e59ba804/baseline.json": "3ef1e86bb4f8cd82992c6b3b2bdb6c9c919cb63bc9d79ebbf11a87e2f9fe9bd2",
+    "outputs/server_v11/records/basic/e_eb704447e59ba804/nli.json": "c12bb6b0852ba5a214141aba6a3091a59c35ec15a81216532e0e527105abd317",
+    "outputs/server_v11/records/basic/e_f8380e5e4bd4bc87/baseline.json": "77f423e572059ee20fad862b909e444f91dafff635ea047cd76adf1048755c56",
+    "outputs/server_v11/records/basic/e_f8380e5e4bd4bc87/nli.json": "4de77c34b44ee7dd48ed1e9ea3df4c3d20ec779c8fd6d4c8ce68b1e7d56a38ff",
+    "outputs/server_v11/records/challenge/e_21fa4d9e39de8649/baseline.json": "953395678ec93e46b0e79118c015f4b96360b85371c0fe4987899be10567996a",
+    "outputs/server_v11/records/challenge/e_21fa4d9e39de8649/nli.json": "eb674858c17b067b7506bfc58d1a0417361f6c1e64d222bf617130dafb297902",
+    "outputs/server_v11/records/challenge/e_27190319e044f400/baseline.json": "414f4057d139154173dc47de1fd17674d71d5bd8ad69f55c018681df51b36a0c",
+    "outputs/server_v11/records/challenge/e_27190319e044f400/nli.json": "25780de749da0137d82f448d17402f883392c1f56623c5fca7467141e2a54213",
+    "outputs/server_v11/records/challenge/e_2be44ed3b153f4be/baseline.json": "9eb136ccb21d28f02f528f808542585da2c5390c9dc8d611be94ecb1a1533401",
+    "outputs/server_v11/records/challenge/e_2be44ed3b153f4be/nli.json": "72de41c00e955c118461ed2dcd7a5611e24bfe8f91918db79925e1497777bc0a",
+    "outputs/server_v11/records/challenge/e_35e3f2d652cb1d0f/baseline.json": "6bcb586531f703da0a301f6779b026e7e55d920ee3dd926ab21e3dd61322628c",
+    "outputs/server_v11/records/challenge/e_35e3f2d652cb1d0f/nli.json": "44080fc24a07c53b31301e0336778e0211dba9860fa37838c2f1ed716eec05c8",
+    "outputs/server_v11/records/challenge/e_483443534f796aa7/baseline.json": "c3be1b1ceed366f9e1a7da7452c33d0d40dfb0f157433151d72b470c9bd27484",
+    "outputs/server_v11/records/challenge/e_483443534f796aa7/nli.json": "294f6c76b1dc86dac70537af4291a96043d57121a88e7cbb05a6a0268361c127",
+    "outputs/server_v11/records/challenge/e_4fce433c09a10bb0/baseline.json": "8370934b45f62fa9a67b9e8aa8013e1adee4513457ffd0a7edca5a241e361b1e",
+    "outputs/server_v11/records/challenge/e_4fce433c09a10bb0/nli.json": "1779d7219c3c31909dc01355a0609faab163442ab2f820cec3fb8137bd045631",
+    "outputs/server_v11/records/challenge/e_5180ab053b57aa01/baseline.json": "83700a6f8a8af3c3eec0fb72629e5654328d97979f20a74a054a0a49ce425f8a",
+    "outputs/server_v11/records/challenge/e_5180ab053b57aa01/nli.json": "0c02ebe699cb3070c74865a0ade0abf087b52a4b11cbfc960c0f430b58f173de",
+    "outputs/server_v11/records/challenge/e_5d8f0d08e09e67da/baseline.json": "7c03bde256654e067ca6bab4f7215a4135a05135bcec083b99f5e3968885ccea",
+    "outputs/server_v11/records/challenge/e_5d8f0d08e09e67da/nli.json": "3784ee9ae99bbec7864d250e203499298dd8f1a037a1da7863f7cdc6a01a6f41",
+    "outputs/server_v11/records/challenge/e_5fcb9285cfde6eda/baseline.json": "9f869eb433bead832a1c12ce0e5a58a57ebb00daf3c514baf1199b8bc5823388",
+    "outputs/server_v11/records/challenge/e_5fcb9285cfde6eda/nli.json": "14809eb5ae0303fad1948b36c6a5290cdbbeb2ccdefac312305efcecf4376aa9",
+    "outputs/server_v11/records/challenge/e_5ff5c26795797690/baseline.json": "51b90e31073d2b5a2e429870aca288649c94a2e94b0402b7695833875c43593e",
+    "outputs/server_v11/records/challenge/e_5ff5c26795797690/nli.json": "1616626fa1350c1e9a59ea600df6984f69ad4a738dfe0f9e2b37b883f3c1749a",
+    "outputs/server_v11/records/challenge/e_6ceee2e7cd1574c4/baseline.json": "1745ffa944a4b7bca55d38c0cc9c2ec9b2c58eef17f526cc38f4c764951eb833",
+    "outputs/server_v11/records/challenge/e_6ceee2e7cd1574c4/nli.json": "4b46ecd8d748bb9c85a2a2fb10d348216e2fd336e10b7165e729b46b5b411dcf",
+    "outputs/server_v11/records/challenge/e_8880bd49ca9558a2/baseline.json": "fd5a99a17559b951080859eb06bead599bd65e152f4b198b63c5a189098ae76b",
+    "outputs/server_v11/records/challenge/e_8880bd49ca9558a2/nli.json": "3fdfb8b6a7954b6fd1a144ae8e3bd03b66d8e314d8f62b8ce58b63c51829c49a",
+    "outputs/server_v11/records/challenge/e_94c23c647561db9c/baseline.json": "15b1822069907b440f8dcb746636948138cb39cadd5aeefc256e30fbc75d0473",
+    "outputs/server_v11/records/challenge/e_94c23c647561db9c/nli.json": "15790c06b2dda587c2ed2269d9c13d2d849c13502e5db678f014ce018ec9ed00",
+    "outputs/server_v11/records/challenge/e_b1fe2cf76100e187/baseline.json": "172016296a4a20af1c621fbe238bd17b927a6402b9ce1d14eece74ba9417c8de",
+    "outputs/server_v11/records/challenge/e_b1fe2cf76100e187/nli.json": "d3e01e1b381c774b682134d97aed73cd3a853ddd68838e5840a04d77952f7198",
+    "outputs/server_v11/records/challenge/e_b41d74a8dde64c51/baseline.json": "1f633907c6e379041daf712dd57d68a24e993117cf96a799c47b6f54239899c5",
+    "outputs/server_v11/records/challenge/e_b41d74a8dde64c51/nli.json": "7f2880e947f1cd9e72bf5553d9e1f40f3fcdaec42ed32e63bb032f4fd814df6a",
+    "outputs/server_v11/records/challenge/e_b90f4a5d02995dfc/baseline.json": "b48a4c64f851b88bae2ff20cbc204aa45ab148a59af02d1dfafbb37e097d675a",
+    "outputs/server_v11/records/challenge/e_b90f4a5d02995dfc/nli.json": "86b9bcaf1669b04e6cb973c2c86b2ef3da11e0088b9b5d9cfd832cfd7f81fea0",
+    "outputs/server_v11/records/challenge/e_c912f48b47cda240/baseline.json": "5162608889ccd75bc77855248d91bf64470e8acc4656d06e6c54d963076b7f8f",
+    "outputs/server_v11/records/challenge/e_c912f48b47cda240/nli.json": "532336084de0d62274b260df83a5ff62936f94dac4a0c98cd0029b8603f0adb6",
+    "outputs/server_v11/records/challenge/e_d80392b191846330/baseline.json": "71766ae0232a8bf2513755511329e02a49c3450aade07c409170ca5c1f2685aa",
+    "outputs/server_v11/records/challenge/e_d80392b191846330/nli.json": "a7d4eb9c394066fcba5c24299cfe49a1707ac33d8f2672c05f80c676a4ff85b7",
+    "outputs/server_v11/records/challenge/e_e4d322f586379996/baseline.json": "28f5c814056ee5ab242bfe5bc4b0aa1fae9cdc61444e44f2ff996332921af2f2",
+    "outputs/server_v11/records/challenge/e_e4d322f586379996/nli.json": "041a3036340eea9bfd571cea7a3ed5a09315ee15e5161b6d03b30532f00f0a22",
+    "outputs/server_v11/records/challenge/e_e905979ccfc384a6/baseline.json": "03f1dbc733cc8d6a858d035677278856a05901e4731cef327e7dad4044d217c6",
+    "outputs/server_v11/records/challenge/e_e905979ccfc384a6/nli.json": "3d1c5042f935cc023d476acb40e28c88461aaad308c830ac02fa6ac344327e9a",
+    "outputs/server_v11/records/challenge/e_f8fbd811c2415cba/baseline.json": "61983903ec1c2038af707d523a8197106a8bbf3efc6a080f915f66ba03f1b32c",
+    "outputs/server_v11/records/challenge/e_f8fbd811c2415cba/nli.json": "fba97705da75ef2b01e17f993409e25c244737ddf298f37e1de7c0418584a766",
+    "outputs/server_v13/records/basic/e_3d4f7ce54915053e/binary_pos.json": "9dcabd48a05fd4c22070900aef8efff167d4e9dd6e76489b9471cadf7c590ae8",
+    "outputs/server_v13/records/basic/e_3d84dc17a045fe93/binary_pos.json": "8dfc573a132f1935e5ef17343d437715672d599a0cb220004ba83cd79418063e",
+    "outputs/server_v13/records/basic/e_45998c37ef8ecd4b/binary_pos.json": "58a8744ce9b6c0b5788148f9c17054fc9171d98c4ecdf8dcf22edfc4d9947f55",
+    "outputs/server_v13/records/basic/e_525f6ccc25022ddd/binary_pos.json": "79aff39be9f11b80cc45b18d6d9e4b4ec67f6a52f3ee4c8b04a826a16192d7e9",
+    "outputs/server_v13/records/basic/e_56640da51848a401/binary_pos.json": "9c457486312fe5c55e2b6dc2301fda68cad9887e61605053898dde1794aa2777",
+    "outputs/server_v13/records/basic/e_5c7b1b9b012be799/binary_pos.json": "ecc9c57185c4968b6f7737b6c5ffcebd804a646a797e8bfab53474e8bc1ee509",
+    "outputs/server_v13/records/basic/e_6246903a45fc7697/binary_pos.json": "6cd465cca7a88842fd95547dfc25ea1487e460e2e27522b221842e1c72bed624",
+    "outputs/server_v13/records/basic/e_6aab8e66ed92ee64/binary_pos.json": "b217405d658ddac71836dd52dc5421ea042d80ea9e146d95d8e6964150bb9520",
+    "outputs/server_v13/records/basic/e_6d206b732b0cdb1e/binary_pos.json": "6388bdbe7c6a17c4ab32a6b650e46d0eecb7756d664452cddc6d13f3490bf68d",
+    "outputs/server_v13/records/basic/e_7c9f639cafd71207/binary_pos.json": "baeb2c7ebc9fe5e0aa3804e1edded345269cc326e3db2c29d255ace3d54a4755",
+    "outputs/server_v13/records/basic/e_878cdc15a11c14e5/binary_pos.json": "69dbf07f6f3dc736c2901c928fac8e3c1707a41b134685e4e3c3b9c5ef6a2976",
+    "outputs/server_v13/records/basic/e_99c22b39e7917e14/binary_pos.json": "c970ec602785527dcda99af74708eab1f1b121121e593f90d782e9fb4f4af782",
+    "outputs/server_v13/records/basic/e_a54ad6a92695b023/binary_pos.json": "db7ff6e74f521c5f3e0cb8442a5bc69e96ecae71234d6a255faa41f0ee0ece0e",
+    "outputs/server_v13/records/basic/e_a5a65692e8e02715/binary_pos.json": "166b40cfdc616e22851874bb26e3603b3a8c23e299bce285db2434f79974f0a6",
+    "outputs/server_v13/records/basic/e_a77314ec81e9e8a5/binary_pos.json": "cedf8b32d9772818ca8f01a11903bf2b4e8560e0bb9959a08602527228057cb9",
+    "outputs/server_v13/records/basic/e_a9ed0f7cd849c41e/binary_pos.json": "4003f74669da968e21fb40f56bf82e4f0f0453b8c8ff5c3214779b1250f3641a",
+    "outputs/server_v13/records/basic/e_dbfa0ff4a550b8f1/binary_pos.json": "aee80e3e66712c14c9de856eb954141053a4a9dc16471954b182a31e30d9568f",
+    "outputs/server_v13/records/basic/e_e300ad2fe2e1ed40/binary_pos.json": "de46fbc772756fdd2e5774ebe184ad92fa3269f76657a748cacb4a29909a1b40",
+    "outputs/server_v13/records/basic/e_e935b9a51f7d4f11/binary_pos.json": "37e74e1e16da6699d08decdd832608bdba3f3febb99509936da9030a0d7442f7",
+    "outputs/server_v13/records/basic/e_eb704447e59ba804/binary_pos.json": "77e02b466997f5e284927a14afdc1d8e3502e6aa4267f95a930e1999b4f3bd1b",
+    "outputs/server_v13/records/basic/e_f8380e5e4bd4bc87/binary_pos.json": "15d32ae20ab22be9b87d22e47f3f2b331eff071ebdebeea53f89be20a231c6d5",
+    "outputs/server_v13/records/challenge/e_21fa4d9e39de8649/binary_pos.json": "1abaef420b4f4fbdb11bd3054f64a6aacf790aa943e17f57ea06c877aaff3b9b",
+    "outputs/server_v13/records/challenge/e_27190319e044f400/binary_pos.json": "2d1f98976bd5bff7d802669dcb63ac50a899c528f6183a55355819639d933082",
+    "outputs/server_v13/records/challenge/e_2be44ed3b153f4be/binary_pos.json": "02856e18ba9bb81899ca95d7220b86ebcba1dcb4e5458e44e4e747a4cc48de2a",
+    "outputs/server_v13/records/challenge/e_35e3f2d652cb1d0f/binary_pos.json": "ac399f71c2612940c08bae554adafefc459a0002f8fa43447a713e2018aad806",
+    "outputs/server_v13/records/challenge/e_483443534f796aa7/binary_pos.json": "72bdd53428829c1176edc6170f2cc4de98331c411a77bb704c9a8f2496b06cbc",
+    "outputs/server_v13/records/challenge/e_4fce433c09a10bb0/binary_pos.json": "164afbf8a6b12d6687682c87974591e55f9f28f77435e89bcc0417afc6425209",
+    "outputs/server_v13/records/challenge/e_5180ab053b57aa01/binary_pos.json": "82bb860c62945439b773d6b087ed92f96eb7b0ecd599d8bcfde2d97e3a495662",
+    "outputs/server_v13/records/challenge/e_5d8f0d08e09e67da/binary_pos.json": "f378c67dbe668714a52492e8e8eea6c6118e59ff677ab4b9754e76e9657181a8",
+    "outputs/server_v13/records/challenge/e_5fcb9285cfde6eda/binary_pos.json": "32fe4238f985fa2b4167f080b596f9ac38d11922f37d3bb58f3bcbf3bb04bbd3",
+    "outputs/server_v13/records/challenge/e_5ff5c26795797690/binary_pos.json": "6a48306b3f5cfbf03574c13df73a93ac1185346c6f30dd7c9225cd860e80fe5b",
+    "outputs/server_v13/records/challenge/e_6ceee2e7cd1574c4/binary_pos.json": "a679d45ee45feb65101356238cda5d7ac3c8648d74af5caa9bdf1ef4dc2c824e",
+    "outputs/server_v13/records/challenge/e_8880bd49ca9558a2/binary_pos.json": "a1a5b53335331af1878ace8c470bdfd733e973726f692f5726020938c3372f89",
+    "outputs/server_v13/records/challenge/e_94c23c647561db9c/binary_pos.json": "38ee6c1c6fbbcee5744b89fcfb73b14b74e4f3e4f5c79e4cd84151d3d93dede9",
+    "outputs/server_v13/records/challenge/e_b1fe2cf76100e187/binary_pos.json": "041f6f47d076cc959f24acb00c8d5385559c7287e507150501980c6f9463675a",
+    "outputs/server_v13/records/challenge/e_b41d74a8dde64c51/binary_pos.json": "b25cb3b3ed5fc8381ad78ea9d23da5be4a3ae87622d8420a0acd5c1f5881068b",
+    "outputs/server_v13/records/challenge/e_b90f4a5d02995dfc/binary_pos.json": "e34ee917b0c22c877ab2fe74a0656c5d3e0c011c205f639bfc45b4873a6d505d",
+    "outputs/server_v13/records/challenge/e_c912f48b47cda240/binary_pos.json": "068d3b243c53695f99c2a3a7abc122919944cfd9af9b20b376d04b772d06e071",
+    "outputs/server_v13/records/challenge/e_d80392b191846330/binary_pos.json": "7fe4ae09e8a47f8bf05c59d7c8cf34d2be6c59fd15f80fc629a1f66f8cf7244d",
+    "outputs/server_v13/records/challenge/e_e4d322f586379996/binary_pos.json": "5d023c77155a962bc996d2dc2fd5fe3183e7d6376df75e63659711237ed3b344",
+    "outputs/server_v13/records/challenge/e_e905979ccfc384a6/binary_pos.json": "09577f5ca35f65d4c6ae725f8dae94c422b90d6f1dd73be9abb87dcca5728299",
+    "outputs/server_v13/records/challenge/e_f8fbd811c2415cba/binary_pos.json": "b4b03e48825ca77c3601cf6d2b28900532caedd8221f7b8f8cc814edc0046f37",
+    "outputs/server_v14/records/basic/e_3d4f7ce54915053e/direct_contrad.json": "b7ee77193af239b66b71832eff67741e86d5923ea65ad3baf9fa34a2f1e2c64e",
+    "outputs/server_v14/records/basic/e_3d4f7ce54915053e/proof_contrad.json": "bf1e60c42d812d5ebe16f9d5fcf2f1aa0f8a032ab31f02539f5f0064c72f1387",
+    "outputs/server_v14/records/basic/e_3d4f7ce54915053e/proof_entail.json": "7f082618f38fb44b3a3a971b5ab46f90dc707ca227b4ffb5f3b6185d4dde08b4",
+    "outputs/server_v14/records/basic/e_3d84dc17a045fe93/direct_contrad.json": "667c1b01f52d5a6d0ce52bd8847e2ab88cfea914a75f016554c3a752483d435b",
+    "outputs/server_v14/records/basic/e_3d84dc17a045fe93/proof_contrad.json": "94249f1f8788fc1dd0f602ea97c36dad1eb9368afda40f49afdd75d99f2a9fe7",
+    "outputs/server_v14/records/basic/e_3d84dc17a045fe93/proof_entail.json": "7ce3c73b70ab0dde44ce160c1d4cb96f8d21b95aa01990c6515b5aed23ab5e02",
+    "outputs/server_v14/records/basic/e_45998c37ef8ecd4b/direct_contrad.json": "af98315759e5f20b767e8d00115966d8744643b178a4f19b17cb2ba582a41a98",
+    "outputs/server_v14/records/basic/e_45998c37ef8ecd4b/proof_contrad.json": "8cc3d0f7b20c6a1014d07cffc35295c4cf9271a9e6bbfc734dd43b162969e65a",
+    "outputs/server_v14/records/basic/e_45998c37ef8ecd4b/proof_entail.json": "167bc33d2b6018694c8475cca18c471d0f154db781fb6940d59808763cdfe825",
+    "outputs/server_v14/records/basic/e_525f6ccc25022ddd/direct_contrad.json": "c614ef64dbc36fa0e95a9be649ea58388542a6e257fb5a09eff4bc6c5b99e1db",
+    "outputs/server_v14/records/basic/e_525f6ccc25022ddd/proof_contrad.json": "3aaf90ed29df8584e9a8cb3df3be649b94d9c3b07b5295a3d9e3cd95957c27b3",
+    "outputs/server_v14/records/basic/e_525f6ccc25022ddd/proof_entail.json": "a7cd4d48955f77ce75e29ba9dd852f83275825342cd165b75a9b8272ea3f4968",
+    "outputs/server_v14/records/basic/e_56640da51848a401/direct_contrad.json": "01b5ddaf5d718af37d851654efdb90290038e178836acfc9c0108fc2a572ee81",
+    "outputs/server_v14/records/basic/e_56640da51848a401/proof_contrad.json": "bf00b2bb1805f069bd6cad7f3c2f76c7e16cbc57ebfe22d5d5273b646587d340",
+    "outputs/server_v14/records/basic/e_56640da51848a401/proof_entail.json": "1535d7b2775d54edf03bc446665639bb2fad7ad70ce2450ef3dc109c56c93093",
+    "outputs/server_v14/records/basic/e_5c7b1b9b012be799/direct_contrad.json": "092abe5f577e875399f1aaa4a578b6cd1b62de08e7a5ccf37be88ebacf420f52",
+    "outputs/server_v14/records/basic/e_5c7b1b9b012be799/proof_contrad.json": "b3efd1ffcfaf6333b9eaa2e2386bffdc4bd197ba5b8bc54a6c2d65e0ae48ca6c",
+    "outputs/server_v14/records/basic/e_5c7b1b9b012be799/proof_entail.json": "96c8cf5534cc92898d0cd6f6e99807f7f7e9473639f73a1cdf8bb1d007dc9b7e",
+    "outputs/server_v14/records/basic/e_6246903a45fc7697/direct_contrad.json": "821ba83a62ad6a57ddb71fab659792f59f4bf61c99ea8892a671b7ca78d8d598",
+    "outputs/server_v14/records/basic/e_6246903a45fc7697/proof_contrad.json": "03d517ffa6fc6d35e1cdf522027fa9bf37168d2d4fbb27b6196e62a3f6b8f024",
+    "outputs/server_v14/records/basic/e_6246903a45fc7697/proof_entail.json": "a29317599fce1f4bf4293f7070ce8c32ef6c0ef9bc05154b4d79062aa409289f",
+    "outputs/server_v14/records/basic/e_6aab8e66ed92ee64/direct_contrad.json": "44111c1ced94d8808807be47ad8dc65942567b373a7515ccbf42425a8d094a53",
+    "outputs/server_v14/records/basic/e_6aab8e66ed92ee64/proof_contrad.json": "07fb58edfaddcd24ed0238c597b683513e8e636aba2206649ed3dd61fc26efc2",
+    "outputs/server_v14/records/basic/e_6aab8e66ed92ee64/proof_entail.json": "24db2bdf56c876ba0340be0b9c3c9108b638b8a3264e93e2d67a9a1095c98f8f",
+    "outputs/server_v14/records/basic/e_6d206b732b0cdb1e/direct_contrad.json": "3ba4d07e644c4d711ae63079ff3c017e25cbe8867ec2c86df3ff68589e73b791",
+    "outputs/server_v14/records/basic/e_6d206b732b0cdb1e/proof_contrad.json": "ddc10fbe200318f68a62df4916afab35ee8e17ded066a633c76dc6530a025ba0",
+    "outputs/server_v14/records/basic/e_6d206b732b0cdb1e/proof_entail.json": "f40c7a801a8f1df8822842459145a9fea242f8e91934cec06f9341beb393cba5",
+    "outputs/server_v14/records/basic/e_7c9f639cafd71207/direct_contrad.json": "812781c9503707fae4ebab628ddab97ba10df60c53ae43b239ed27bfe2188843",
+    "outputs/server_v14/records/basic/e_7c9f639cafd71207/proof_contrad.json": "cd28b656180411a5dbf5d4e3814f44a9de8dbd6bfe715525568756aeb7e4e478",
+    "outputs/server_v14/records/basic/e_7c9f639cafd71207/proof_entail.json": "cc614616ad3f38074474c20a68cc1337dd3edccaa3f44d8879b8acc4f1168f31",
+    "outputs/server_v14/records/basic/e_878cdc15a11c14e5/direct_contrad.json": "81daf3c5704742705893bfb3031c6b20bd8dcd585f738cb124f0ac1c305c6ba7",
+    "outputs/server_v14/records/basic/e_878cdc15a11c14e5/proof_contrad.json": "6df36070a694dec68d09b6e25978907f1b2cf473648c4fd35758ce71d6259d9b",
+    "outputs/server_v14/records/basic/e_878cdc15a11c14e5/proof_entail.json": "cc48d8550bbbe7fd159fc0e1ca09a93d6c9cf6f582dfa059ba8646b8b0699c56",
+    "outputs/server_v14/records/basic/e_99c22b39e7917e14/direct_contrad.json": "5c7a4a5aa65431fbb743dcd4f119a1ee07ec53b955d0710ad2193e07c3f7c89d",
+    "outputs/server_v14/records/basic/e_99c22b39e7917e14/proof_contrad.json": "ecb8dd2c44ee4b8c737fc96ab08ea23bd887d64f049b37d3b62c87614b81597a",
+    "outputs/server_v14/records/basic/e_99c22b39e7917e14/proof_entail.json": "0cd17821fb5ef2922becfe6e49dd4f4fd9ee491ea669c041546bdf655e1407fa",
+    "outputs/server_v14/records/basic/e_a54ad6a92695b023/direct_contrad.json": "3c123cd231c5e5097ab390929d0c41470b9b5dd09eb6f086d95ba63df24a2d19",
+    "outputs/server_v14/records/basic/e_a54ad6a92695b023/proof_contrad.json": "a726518ddbe2aa9451479b5e52528f12343bed8a1da5b477c65c9ca01544fd5d",
+    "outputs/server_v14/records/basic/e_a54ad6a92695b023/proof_entail.json": "72f699010f7efae4623e83647fb5b1c8680dd0c0893f6709dcf40622e78edd94",
+    "outputs/server_v14/records/basic/e_a5a65692e8e02715/direct_contrad.json": "a8d4a3b9a69947f1ad455f4b88b8b14dd3b3381c4f7d0e89b2b22b1486cf0c59",
+    "outputs/server_v14/records/basic/e_a5a65692e8e02715/proof_contrad.json": "54b5218ef25f218b8b33b7e8623a65d9144a3ab70c6b244b85a8d0da52c877f8",
+    "outputs/server_v14/records/basic/e_a5a65692e8e02715/proof_entail.json": "0515e9554e30326f6b82850dd4a6cbeee14b12c4e23000db9892548c4c7d14f1",
+    "outputs/server_v14/records/basic/e_a77314ec81e9e8a5/direct_contrad.json": "7a90fd3c2b0e686ed13a7898309e109245001059ac657a1bccbbbf21be98a740",
+    "outputs/server_v14/records/basic/e_a77314ec81e9e8a5/proof_contrad.json": "98745a2d805d428b5700ccabe098cf7f44fb7b264f72aa218fcd1b4decf4b9cc",
+    "outputs/server_v14/records/basic/e_a77314ec81e9e8a5/proof_entail.json": "c1ce7bc546d45db8d27b925582987b7f7baaedf161107fddb35bf4d57598dde3",
+    "outputs/server_v14/records/basic/e_a9ed0f7cd849c41e/direct_contrad.json": "cccbd0e67e5c2dc7f568222434b5578b3fc3348bcc878a598e3316926d659dc3",
+    "outputs/server_v14/records/basic/e_a9ed0f7cd849c41e/proof_contrad.json": "611e64575c93defedb7af7597648ea123689e911ab1499aac95cd03ef4fab884",
+    "outputs/server_v14/records/basic/e_a9ed0f7cd849c41e/proof_entail.json": "90d76484d6251201724502f64598f13b0e60bc02a698e1b3fae04dc406e1fa52",
+    "outputs/server_v14/records/basic/e_dbfa0ff4a550b8f1/direct_contrad.json": "d0cddc96a799c1d5893dc394a8bd5beb70b68d97a6404b20691015763bb6f4a3",
+    "outputs/server_v14/records/basic/e_dbfa0ff4a550b8f1/proof_contrad.json": "cae5dbf3c07c622f9a1f0a9b2a0f7f85897410e7e7227bbf0fb326e397a87c9e",
+    "outputs/server_v14/records/basic/e_dbfa0ff4a550b8f1/proof_entail.json": "8a8f0667db12009bb572558caa2fe59af83888e0b110d37eab66818eb2e48b74",
+    "outputs/server_v14/records/basic/e_e300ad2fe2e1ed40/direct_contrad.json": "7ad6aabbbde71bc7d252e35e90a25bdffe4e704054a3a3a099b72862ac9bd1ea",
+    "outputs/server_v14/records/basic/e_e300ad2fe2e1ed40/proof_contrad.json": "ef08aa0f1d38645eddb96e4e40caca08fb1a4557f2fc50920e3c547cb6374055",
+    "outputs/server_v14/records/basic/e_e300ad2fe2e1ed40/proof_entail.json": "c4c9857519104f15109dfb343365bc38f4d5bcdb0817896748ae698b7b3511a2",
+    "outputs/server_v14/records/basic/e_e935b9a51f7d4f11/direct_contrad.json": "8d1e0c8a590a450690806dbc874cc1ac64876cacf04e206d7ab4ad8c65a934cf",
+    "outputs/server_v14/records/basic/e_e935b9a51f7d4f11/proof_contrad.json": "d58d656148cc3a53c253bfecec5841616d00ad2b90eebcb40e2cfb0918f8d207",
+    "outputs/server_v14/records/basic/e_e935b9a51f7d4f11/proof_entail.json": "a0504da2b6f0a94f11c4e8ab87b0666befe5d8f15e5e4b822462bec32c1f6bbc",
+    "outputs/server_v14/records/basic/e_eb704447e59ba804/direct_contrad.json": "c0bc948d1c98fb36b6a8939c228acdd31d6cda6dff7a3ff6273e49bf6ce1f817",
+    "outputs/server_v14/records/basic/e_eb704447e59ba804/proof_contrad.json": "8658cf2afc598c572541df00238dd1d596ae14ece9a00d9718924496a46a67a6",
+    "outputs/server_v14/records/basic/e_eb704447e59ba804/proof_entail.json": "f66d532349773950d9e26b1a121e923cb0c2471f96c334a1f8aa78b842dd3119",
+    "outputs/server_v14/records/basic/e_f8380e5e4bd4bc87/direct_contrad.json": "09086a894630a4427c9196183ad1096d3a85b8a03bcd0c24313c78ff18715616",
+    "outputs/server_v14/records/basic/e_f8380e5e4bd4bc87/proof_contrad.json": "ddc0d9c63082f8690af5cd2fc4f84a1ba67e9cbd05e45af8c5f96abf1ea81cba",
+    "outputs/server_v14/records/basic/e_f8380e5e4bd4bc87/proof_entail.json": "5c3c4697a72edf1465297197a78f35226277db663b49e57749a58f7d4c7b3bbe",
+    "outputs/server_v14/records/challenge/e_21fa4d9e39de8649/direct_contrad.json": "66619e9b67813eaa2f9e2e24a932c8dd3b8d214b5f12bb08fe0da5a6a2d62989",
+    "outputs/server_v14/records/challenge/e_21fa4d9e39de8649/proof_contrad.json": "cec977cf72d8bcf351be99b58fc72c451e1e337256f7d3e5eeb5713ebc03ec50",
+    "outputs/server_v14/records/challenge/e_21fa4d9e39de8649/proof_entail.json": "9b23993488cfd56e64abab1c7e10d1fe9058e702f69d6ec6ef70ac013cf33dbe",
+    "outputs/server_v14/records/challenge/e_27190319e044f400/direct_contrad.json": "c358f41c3ad2f6805ccaaab181890728584e62af1611186b52519caeb5145b9c",
+    "outputs/server_v14/records/challenge/e_27190319e044f400/proof_contrad.json": "45ce10c2935b3c4f2bfb01ed8a004b4130271a49e49aa7a59a2ebbe4af7f448b",
+    "outputs/server_v14/records/challenge/e_27190319e044f400/proof_entail.json": "9599dfb9fde4d6d47de6466413b0c84d5b67fdd427eac3ae106437a53c1d8b5d",
+    "outputs/server_v14/records/challenge/e_2be44ed3b153f4be/direct_contrad.json": "1d4678aae7603dc0cc823925729ff1408692c8f88fb8cac03ef02e7e98612f1c",
+    "outputs/server_v14/records/challenge/e_2be44ed3b153f4be/proof_contrad.json": "c699206c2f419ba4c6418a9a3d4946c54f327536de729cb1915fb257a64e2286",
+    "outputs/server_v14/records/challenge/e_2be44ed3b153f4be/proof_entail.json": "a44374d1dc897ea5b2ab50549d2fc2d124614c2fca11c9bf7619e1e4605a9b33",
+    "outputs/server_v14/records/challenge/e_35e3f2d652cb1d0f/direct_contrad.json": "cbb89efbb38d32cd1c10faf02b4bab7c541e8543ee1a6f43238b4394d0b2a092",
+    "outputs/server_v14/records/challenge/e_35e3f2d652cb1d0f/proof_contrad.json": "bc01360d3dd32561e3cb6673c5aa972811dd5f9a24c711702af79b00fadeb786",
+    "outputs/server_v14/records/challenge/e_35e3f2d652cb1d0f/proof_entail.json": "863219b1d20daf3f10f9825d66bbcf8c35723bd8007abe97d33639e5916e6976",
+    "outputs/server_v14/records/challenge/e_483443534f796aa7/direct_contrad.json": "32241c86bd2eb5101e3963f52e17720d8334c8eeaf95454052a2d81ad049b292",
+    "outputs/server_v14/records/challenge/e_483443534f796aa7/proof_contrad.json": "d756d1c805f5ea7f33bc3cab5bdfd2a0427991455cd97e9b909a46c76882b985",
+    "outputs/server_v14/records/challenge/e_483443534f796aa7/proof_entail.json": "53bf351f603a01a8e5101bd158649c73416da7ca07878b63c06fdfc0c4855baa",
+    "outputs/server_v14/records/challenge/e_4fce433c09a10bb0/direct_contrad.json": "523f23f6aee070ffb61cf339d7b0d6a5f86fae162a80ad4313823cf55f6a8b01",
+    "outputs/server_v14/records/challenge/e_4fce433c09a10bb0/proof_contrad.json": "eedf8edadb04425f8ca937e1cd138b1727bcad2e0de1fb4137645324d4ab0bf8",
+    "outputs/server_v14/records/challenge/e_4fce433c09a10bb0/proof_entail.json": "89a9ace213d190cdd32e19145f54f9e296f2478d7dedf85e22d43b833c33658b",
+    "outputs/server_v14/records/challenge/e_5180ab053b57aa01/direct_contrad.json": "797e8778fff5d1d7f84fa8a5712d71e717182c626ceb75b605247379bbd162e4",
+    "outputs/server_v14/records/challenge/e_5180ab053b57aa01/proof_contrad.json": "a4066e0a25ae0bd3aab979057bb7d5b7d4eee1834f3f739b40ca25faeab61823",
+    "outputs/server_v14/records/challenge/e_5180ab053b57aa01/proof_entail.json": "5dbce2e135f6afdf9617143b7bdde72019516cc7d521940cca06d63af220fb84",
+    "outputs/server_v14/records/challenge/e_5d8f0d08e09e67da/direct_contrad.json": "19f313ec01151639c2d7ebfbad0c6c94e6cac50907377283f48f2b911b055d45",
+    "outputs/server_v14/records/challenge/e_5d8f0d08e09e67da/proof_contrad.json": "afdafcd843e230727d102b6ad78f6b132c6929fb5c18dd2974a2a138602566b2",
+    "outputs/server_v14/records/challenge/e_5d8f0d08e09e67da/proof_entail.json": "3854ca951a716d8820b396396857e7826b1b2cda940b5ebf49e1abb8586fc300",
+    "outputs/server_v14/records/challenge/e_5fcb9285cfde6eda/direct_contrad.json": "ef3b592a09a3119ec3c55fb9c285109352599e1f3aaeb536ffe4e704d3a25d62",
+    "outputs/server_v14/records/challenge/e_5fcb9285cfde6eda/proof_contrad.json": "40df4ba5a7bb03b05e8519a073fa31c4690f9810f8fd6d49f60c9888b0c189e0",
+    "outputs/server_v14/records/challenge/e_5fcb9285cfde6eda/proof_entail.json": "09281ed7e2ae2a9c43acddcc7e4ffa608eaa00a73c6b55812aa141b6bddf2a8a",
+    "outputs/server_v14/records/challenge/e_5ff5c26795797690/direct_contrad.json": "910126f05171cf96632cf1bfe228de5697ddc85e3001f23f66113d492236f6f0",
+    "outputs/server_v14/records/challenge/e_5ff5c26795797690/proof_contrad.json": "5b1effa2d529379538890dbba4d78e9c1bf7171831bd95f476ac62b9f78ef9a8",
+    "outputs/server_v14/records/challenge/e_5ff5c26795797690/proof_entail.json": "9627376865fe24bacdd1ec9cc780dd146b10e60498c64b58e8aadf33e4bc8aa8",
+    "outputs/server_v14/records/challenge/e_6ceee2e7cd1574c4/direct_contrad.json": "de8539a3e0ad7051d904c8ecb70cf80c0cf731ca4efce546bca12b197afd5220",
+    "outputs/server_v14/records/challenge/e_6ceee2e7cd1574c4/proof_contrad.json": "a798107d48a96482b3d985136d50450184bb07a52b713b86c312c5452b250056",
+    "outputs/server_v14/records/challenge/e_6ceee2e7cd1574c4/proof_entail.json": "25be64d4fe409f45be139c010f4732ebc4d78bbc03b1debc7deef00de35727fe",
+    "outputs/server_v14/records/challenge/e_8880bd49ca9558a2/direct_contrad.json": "8c51aa365f1ca0fa826197e0e80370ca762ee07c303395c55efa3a49b0d4d6c0",
+    "outputs/server_v14/records/challenge/e_8880bd49ca9558a2/proof_contrad.json": "cebf374bab63eac572ffec69e6b8e5a48df2139933bded4c0d00b195d378176c",
+    "outputs/server_v14/records/challenge/e_8880bd49ca9558a2/proof_entail.json": "aee7c804fcc89e00e141260a3e872532f84703fdc028ffdc0a48512be9812099",
+    "outputs/server_v14/records/challenge/e_94c23c647561db9c/direct_contrad.json": "0c78b4ae5d8bc4be1356ea98d29e0c2bfc72b4c0abf2a582233a199f1a62baab",
+    "outputs/server_v14/records/challenge/e_94c23c647561db9c/proof_contrad.json": "9cfb8bb7bf313198cb787ba3f3e47e70a43514d31d4cf80a1fbae61afbcff3cf",
+    "outputs/server_v14/records/challenge/e_94c23c647561db9c/proof_entail.json": "9c912ba80e1efa4a0c6a43ace2abbaff2e58a15b3f39a04856dd9af8ddb59d70",
+    "outputs/server_v14/records/challenge/e_b1fe2cf76100e187/direct_contrad.json": "1f7bb2ac0a243f5bfa54a6c852c9b5435ba4d9ef2ed10a42bba8f0f2f51b9569",
+    "outputs/server_v14/records/challenge/e_b1fe2cf76100e187/proof_contrad.json": "da2e6750b5c9cbceb4bba76486342391a9eea25e8a5f6aeabc9d92f9b48ab069",
+    "outputs/server_v14/records/challenge/e_b1fe2cf76100e187/proof_entail.json": "a55b529cb7409bd1e463ef12b676735d65c70af81338fd6ac3f01ac93afc8750",
+    "outputs/server_v14/records/challenge/e_b41d74a8dde64c51/direct_contrad.json": "faeea4d7c9e346374e67ea9c76d0f3a9dbba33cbd6f967440368f52ea5f2bc92",
+    "outputs/server_v14/records/challenge/e_b41d74a8dde64c51/proof_contrad.json": "a48a604ce686f994f090365a65334aa5a06d006daf809bb5741d8795214ff957",
+    "outputs/server_v14/records/challenge/e_b41d74a8dde64c51/proof_entail.json": "281fb46f434d470f66ccef760a1258596beff1d959a3eb667c41a85a84caebd0",
+    "outputs/server_v14/records/challenge/e_b90f4a5d02995dfc/direct_contrad.json": "238a27102850be1e8f71ba3916f01e34878ecdeb6a9c0c63f6bd608f223ae78b",
+    "outputs/server_v14/records/challenge/e_b90f4a5d02995dfc/proof_contrad.json": "984e8d02476252602e9bcd89ff1d923722d28410d749b2735abd1c076a6fa675",
+    "outputs/server_v14/records/challenge/e_b90f4a5d02995dfc/proof_entail.json": "2d6c43c155bbbda70f1ff2fb7fbfd30cadfc6bc7a5dec6c141d46b421ca8b46a",
+    "outputs/server_v14/records/challenge/e_c912f48b47cda240/direct_contrad.json": "2ad696e4e4b12f2328b81d963dcfb61529561a8cfc12352a1d1d1f24199bbe9d",
+    "outputs/server_v14/records/challenge/e_c912f48b47cda240/proof_contrad.json": "73455bc3eddb5c81d67a00b3da9625b40adb3b3bb12f6e87c7d1a2373d962529",
+    "outputs/server_v14/records/challenge/e_c912f48b47cda240/proof_entail.json": "39dbbc5c2011dc237092942ca0be1e29c1ca977572cdffcfec85c10a628d5e71",
+    "outputs/server_v14/records/challenge/e_d80392b191846330/direct_contrad.json": "6282b97d26ebc22540f10e4c8633e10fab10ca8eb5b3aa2eadcdfcdbb2d9adba",
+    "outputs/server_v14/records/challenge/e_d80392b191846330/proof_contrad.json": "4fb117d173508b12f9877095e0277c3269961494319e6178fb93dc645ee9c4ef",
+    "outputs/server_v14/records/challenge/e_d80392b191846330/proof_entail.json": "1532642dfbd8246d640a94791876d90f95eaf4de2bbad85b4cf82586679524b7",
+    "outputs/server_v14/records/challenge/e_e4d322f586379996/direct_contrad.json": "67a8c78ea58599061e593769c606db3e085fbdfbc7a64b504e1dddc27536657c",
+    "outputs/server_v14/records/challenge/e_e4d322f586379996/proof_contrad.json": "9ad23d407168d7dabb3671eb2ce65e49ffe94e62caac0a1efd7c538c26eb20bc",
+    "outputs/server_v14/records/challenge/e_e4d322f586379996/proof_entail.json": "92c20e0b834685717cfa8b55b9cf1642de803e06b335166454801e680d7dd922",
+    "outputs/server_v14/records/challenge/e_e905979ccfc384a6/direct_contrad.json": "224b7ee6f60976a03be0c7e874ba407d88c11cfad411c47fc17c4313aa80d531",
+    "outputs/server_v14/records/challenge/e_e905979ccfc384a6/proof_contrad.json": "d551dd229113d2f701758e30e3895ac7ae33341b9c9cd141a2c0acc127efe24b",
+    "outputs/server_v14/records/challenge/e_e905979ccfc384a6/proof_entail.json": "6e489c8d25624964d3ff3887304b028485e85d9950583512ce32992b0154ca4b",
+    "outputs/server_v14/records/challenge/e_f8fbd811c2415cba/direct_contrad.json": "d9d1c96229ef8b7fc202447208b344ab2bbb230b7b78301e8f7a9e537f1b2f41",
+    "outputs/server_v14/records/challenge/e_f8fbd811c2415cba/proof_contrad.json": "4a99ebeb8a76fcefd0a9f4be3511ad8360e08a549dd546e200670c35b76f3411",
+    "outputs/server_v14/records/challenge/e_f8fbd811c2415cba/proof_entail.json": "7801c092a9550b1bd8c73b259195d63cf7cb7da1524e452bbb74ba899986ffcf"
+  },
+  "stage": "screen"
+}

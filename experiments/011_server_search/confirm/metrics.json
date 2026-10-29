@@ -1,0 +1,609 @@
+{
+  "calls": {
+    "baseline": 203,
+    "nli": 203
+  },
+  "complete": true,
+  "methods": {
+    "baseline": {
+      "baseline_metrics": {
+        "basic": {
+          "accuracy": 0.9416666666666667,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.9782608695652174,
+              "precision": 1.0,
+              "predicted_count": 45,
+              "recall": 0.9574468085106383,
+              "support": 47
+            },
+            "REFUTES": {
+              "f1": 0.925,
+              "precision": 0.9487179487179487,
+              "predicted_count": 39,
+              "recall": 0.9024390243902439,
+              "support": 41
+            },
+            "SUPPORTS": {
+              "f1": 0.9117647058823529,
+              "precision": 0.8611111111111112,
+              "predicted_count": 36,
+              "recall": 0.96875,
+              "support": 32
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 45,
+              "REFUTES": 1,
+              "SUPPORTS": 1
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 37,
+              "SUPPORTS": 4
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 1,
+              "SUPPORTS": 31
+            }
+          },
+          "correct": 113,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.9383418584825235,
+          "mean_completion_tokens": null,
+          "n": 120,
+          "nei_to_refutes": 1,
+          "nei_to_refutes_rate": 0.02127659574468085,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 120,
+          "valid_only_accuracy": 0.9416666666666667
+        },
+        "challenge": {
+          "accuracy": 0.6746987951807228,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.47058823529411764,
+              "precision": 1.0,
+              "predicted_count": 12,
+              "recall": 0.3076923076923077,
+              "support": 39
+            },
+            "REFUTES": {
+              "f1": 0.425531914893617,
+              "precision": 0.2702702702702703,
+              "predicted_count": 37,
+              "recall": 1.0,
+              "support": 10
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 34,
+              "recall": 1.0,
+              "support": 34
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 12,
+              "REFUTES": 27,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 10,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 34
+            }
+          },
+          "correct": 56,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.6320400500625782,
+          "mean_completion_tokens": null,
+          "n": 83,
+          "nei_to_refutes": 27,
+          "nei_to_refutes_rate": 0.6923076923076923,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 83,
+          "valid_only_accuracy": 0.6746987951807228
+        }
+      },
+      "method": "baseline",
+      "metrics": {
+        "basic": {
+          "accuracy": 0.9416666666666667,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.9782608695652174,
+              "precision": 1.0,
+              "predicted_count": 45,
+              "recall": 0.9574468085106383,
+              "support": 47
+            },
+            "REFUTES": {
+              "f1": 0.925,
+              "precision": 0.9487179487179487,
+              "predicted_count": 39,
+              "recall": 0.9024390243902439,
+              "support": 41
+            },
+            "SUPPORTS": {
+              "f1": 0.9117647058823529,
+              "precision": 0.8611111111111112,
+              "predicted_count": 36,
+              "recall": 0.96875,
+              "support": 32
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 45,
+              "REFUTES": 1,
+              "SUPPORTS": 1
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 37,
+              "SUPPORTS": 4
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 1,
+              "SUPPORTS": 31
+            }
+          },
+          "correct": 113,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.9383418584825235,
+          "mean_completion_tokens": null,
+          "n": 120,
+          "nei_to_refutes": 1,
+          "nei_to_refutes_rate": 0.02127659574468085,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 120,
+          "valid_only_accuracy": 0.9416666666666667
+        },
+        "challenge": {
+          "accuracy": 0.6746987951807228,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.47058823529411764,
+              "precision": 1.0,
+              "predicted_count": 12,
+              "recall": 0.3076923076923077,
+              "support": 39
+            },
+            "REFUTES": {
+              "f1": 0.425531914893617,
+              "precision": 0.2702702702702703,
+              "predicted_count": 37,
+              "recall": 1.0,
+              "support": 10
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 34,
+              "recall": 1.0,
+              "support": 34
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 12,
+              "REFUTES": 27,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 10,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 34
+            }
+          },
+          "correct": 56,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.6320400500625782,
+          "mean_completion_tokens": null,
+          "n": 83,
+          "nei_to_refutes": 27,
+          "nei_to_refutes_rate": 0.6923076923076923,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 83,
+          "valid_only_accuracy": 0.6746987951807228
+        }
+      },
+      "paired": {
+        "basic": {
+          "accuracy_delta": 0.0,
+          "harmed": 0,
+          "harmed_ids": [],
+          "improved": 0,
+          "improved_ids": [],
+          "n": 120
+        },
+        "challenge": {
+          "accuracy_delta": 0.0,
+          "harmed": 0,
+          "harmed_ids": [],
+          "improved": 0,
+          "improved_ids": [],
+          "n": 83
+        }
+      }
+    },
+    "nli": {
+      "baseline_metrics": {
+        "basic": {
+          "accuracy": 0.9416666666666667,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.9782608695652174,
+              "precision": 1.0,
+              "predicted_count": 45,
+              "recall": 0.9574468085106383,
+              "support": 47
+            },
+            "REFUTES": {
+              "f1": 0.925,
+              "precision": 0.9487179487179487,
+              "predicted_count": 39,
+              "recall": 0.9024390243902439,
+              "support": 41
+            },
+            "SUPPORTS": {
+              "f1": 0.9117647058823529,
+              "precision": 0.8611111111111112,
+              "predicted_count": 36,
+              "recall": 0.96875,
+              "support": 32
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 45,
+              "REFUTES": 1,
+              "SUPPORTS": 1
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 37,
+              "SUPPORTS": 4
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 1,
+              "SUPPORTS": 31
+            }
+          },
+          "correct": 113,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.9383418584825235,
+          "mean_completion_tokens": null,
+          "n": 120,
+          "nei_to_refutes": 1,
+          "nei_to_refutes_rate": 0.02127659574468085,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 120,
+          "valid_only_accuracy": 0.9416666666666667
+        },
+        "challenge": {
+          "accuracy": 0.6746987951807228,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.47058823529411764,
+              "precision": 1.0,
+              "predicted_count": 12,
+              "recall": 0.3076923076923077,
+              "support": 39
+            },
+            "REFUTES": {
+              "f1": 0.425531914893617,
+              "precision": 0.2702702702702703,
+              "predicted_count": 37,
+              "recall": 1.0,
+              "support": 10
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 34,
+              "recall": 1.0,
+              "support": 34
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 12,
+              "REFUTES": 27,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 10,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 34
+            }
+          },
+          "correct": 56,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.6320400500625782,
+          "mean_completion_tokens": null,
+          "n": 83,
+          "nei_to_refutes": 27,
+          "nei_to_refutes_rate": 0.6923076923076923,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 83,
+          "valid_only_accuracy": 0.6746987951807228
+        }
+      },
+      "method": "nli",
+      "metrics": {
+        "basic": {
+          "accuracy": 0.9916666666666667,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.989247311827957,
+              "precision": 1.0,
+              "predicted_count": 46,
+              "recall": 0.9787234042553191,
+              "support": 47
+            },
+            "REFUTES": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 41,
+              "recall": 1.0,
+              "support": 41
+            },
+            "SUPPORTS": {
+              "f1": 0.9846153846153847,
+              "precision": 0.9696969696969697,
+              "predicted_count": 33,
+              "recall": 1.0,
+              "support": 32
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 46,
+              "REFUTES": 0,
+              "SUPPORTS": 1
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 41,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 32
+            }
+          },
+          "correct": 119,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.9912875654811139,
+          "mean_completion_tokens": null,
+          "n": 120,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 120,
+          "valid_only_accuracy": 0.9916666666666667
+        },
+        "challenge": {
+          "accuracy": 0.7951807228915663,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.7213114754098361,
+              "precision": 1.0,
+              "predicted_count": 22,
+              "recall": 0.5641025641025641,
+              "support": 39
+            },
+            "REFUTES": {
+              "f1": 0.5405405405405406,
+              "precision": 0.37037037037037035,
+              "predicted_count": 27,
+              "recall": 1.0,
+              "support": 10
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 34,
+              "recall": 1.0,
+              "support": 34
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 22,
+              "REFUTES": 17,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 10,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 34
+            }
+          },
+          "correct": 66,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.7539506719834589,
+          "mean_completion_tokens": null,
+          "n": 83,
+          "nei_to_refutes": 17,
+          "nei_to_refutes_rate": 0.4358974358974359,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 83,
+          "valid_only_accuracy": 0.7951807228915663
+        }
+      },
+      "paired": {
+        "basic": {
+          "accuracy_delta": 0.05,
+          "harmed": 1,
+          "harmed_ids": [
+            "e_03f7dfc77a67b25d"
+          ],
+          "improved": 7,
+          "improved_ids": [
+            "e_13b5da87f8b0d944",
+            "e_25d357255e096e66",
+            "e_5fb512e4a1e85cee",
+            "e_c7ebb3d12da507a2",
+            "e_d1b77adfee26b2f0",
+            "e_d3b98a0d2a2c7d6a",
+            "e_ee3c406cd01fcaaa"
+          ],
+          "n": 120
+        },
+        "challenge": {
+          "accuracy_delta": 0.12048192771084337,
+          "harmed": 1,
+          "harmed_ids": [
+            "e_26c2e121678d0412"
+          ],
+          "improved": 11,
+          "improved_ids": [
+            "e_084eef4a57a9f64c",
+            "e_1fa7bbb3ca0aec88",
+            "e_2b235e050169cf25",
+            "e_4e443b5d8be3e19f",
+            "e_817e10e3cb64817b",
+            "e_9bdfefb063c883f6",
+            "e_ade1acf9c5a21d60",
+            "e_b07d38e199a8a99d",
+            "e_d079c2495cfd2118",
+            "e_d5221c1dac3f2a6e",
+            "e_fe5646fc1d5e5d95"
+          ],
+          "n": 83
+        }
+      }
+    }
+  },
+  "n": 203,
+  "stage": "confirm",
+  "tokens": {
+    "baseline": 63118,
+    "nli": 68175
+  }
+}

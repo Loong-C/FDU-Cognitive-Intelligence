@@ -1,0 +1,825 @@
+{
+  "arms": [
+    "baseline",
+    "nli"
+  ],
+  "groups_per_mechanism": 1,
+  "input_fields": [
+    "claim",
+    "evidence"
+  ],
+  "phase": "confirm",
+  "purpose": "new group-separated development validation",
+  "rows": [
+    {
+      "claim": "The Ottoman Empire had more than 20 sultans throughout its history.",
+      "dataset": "basic",
+      "evidence": "The Ottoman Empire had 29 sultans throughout its history.",
+      "group": "g_6f13c05be53739d7",
+      "id": "e_10f6f8580e0e06e8",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The Ottoman Empire had more than 20 sultans throughout its history.",
+      "dataset": "basic",
+      "evidence": "The Ottoman Empire had fewer than 25 sultans throughout its history.",
+      "group": "g_6f13c05be53739d7",
+      "id": "e_22f31e2b65e13d17",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The Ottoman Empire had more than 20 sultans throughout its history.",
+      "dataset": "basic",
+      "evidence": "The Ottoman Empire had up to 30 sultans throughout its history.",
+      "group": "g_6f13c05be53739d7",
+      "id": "e_28e2a24c9a0f5840",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The Ottoman Empire had more than 20 sultans throughout its history.",
+      "dataset": "basic",
+      "evidence": "The Ottoman Empire had between 30 and 35 sultans throughout its history.",
+      "group": "g_6f13c05be53739d7",
+      "id": "e_39c3605c30a8e9da",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The Ottoman Empire had 28 sultans throughout its history.",
+      "dataset": "basic",
+      "evidence": "The Ottoman Empire had 29 sultans throughout its history.",
+      "group": "g_6f13c05be53739d7",
+      "id": "e_52fe61be64db187b",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The Ottoman Empire had 28 sultans throughout its history.",
+      "dataset": "basic",
+      "evidence": "The Ottoman Empire had between 30 and 35 sultans throughout its history.",
+      "group": "g_6f13c05be53739d7",
+      "id": "e_54aa58f1e59f76f8",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The Ottoman Empire had 28 sultans throughout its history.",
+      "dataset": "basic",
+      "evidence": "The Ottoman Empire had fewer than 25 sultans throughout its history.",
+      "group": "g_6f13c05be53739d7",
+      "id": "e_70995e9f834ff559",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The Ottoman Empire had 28 sultans throughout its history.",
+      "dataset": "basic",
+      "evidence": "The Ottoman Empire had more than 30 sultans throughout its history.",
+      "group": "g_6f13c05be53739d7",
+      "id": "e_9431794838d01504",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The Ottoman Empire had more than 20 sultans throughout its history.",
+      "dataset": "basic",
+      "evidence": "The Ottoman Empire had between 25 and 30 sultans throughout its history.",
+      "group": "g_6f13c05be53739d7",
+      "id": "e_988113bdd15ce4a8",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The Ottoman Empire had more than 20 sultans throughout its history.",
+      "dataset": "basic",
+      "evidence": "The Ottoman Empire had 28 sultans throughout its history.",
+      "group": "g_6f13c05be53739d7",
+      "id": "e_ba8c48d9cbd382d6",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The Ottoman Empire had more than 20 sultans throughout its history.",
+      "dataset": "basic",
+      "evidence": "The Ottoman Empire had over 25 sultans throughout its history.",
+      "group": "g_6f13c05be53739d7",
+      "id": "e_bb96fb515b56a0a4",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The Ottoman Empire had 28 sultans throughout its history.",
+      "dataset": "basic",
+      "evidence": "The Ottoman Empire had over 25 sultans throughout its history.",
+      "group": "g_6f13c05be53739d7",
+      "id": "e_c51d9b141555f32d",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The Ottoman Empire had 28 sultans throughout its history.",
+      "dataset": "basic",
+      "evidence": "The Ottoman Empire had between 25 and 30 sultans throughout its history.",
+      "group": "g_6f13c05be53739d7",
+      "id": "e_cff183d6fc1d1c09",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The Ottoman Empire had 28 sultans throughout its history.",
+      "dataset": "basic",
+      "evidence": "The Ottoman Empire had up to 30 sultans throughout its history.",
+      "group": "g_6f13c05be53739d7",
+      "id": "e_d121188c1d00927d",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The Ottoman Empire had more than 20 sultans throughout its history.",
+      "dataset": "basic",
+      "evidence": "The Ottoman Empire had more than 30 sultans throughout its history.",
+      "group": "g_6f13c05be53739d7",
+      "id": "e_d83679df9c13bcaa",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The Ottoman Empire had 28 sultans throughout its history.",
+      "dataset": "basic",
+      "evidence": "The Ottoman Empire had 28 sultans throughout its history.",
+      "group": "g_6f13c05be53739d7",
+      "id": "e_e54cd71f459626d5",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "Taylor Sheridan has attended University of Texas at Austin.",
+      "dataset": "basic",
+      "evidence": "Taylor Sheridan has attended Baylor University.",
+      "group": "g_42353c886eb74f68",
+      "id": "e_5a26994ca7046d66",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "Taylor Sheridan has attended University of Texas at Austin.",
+      "dataset": "basic",
+      "evidence": "Taylor Sheridan has attended Baylor University and University of Texas at Austin.",
+      "group": "g_42353c886eb74f68",
+      "id": "e_707f11ab1153b983",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "Taylor Sheridan has attended University of Texas at Austin.",
+      "dataset": "basic",
+      "evidence": "Baylor University is the only such place: Taylor Sheridan has attended Baylor University and nowhere else.",
+      "group": "g_42353c886eb74f68",
+      "id": "e_cedbed55b82710bc",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "Taylor Sheridan was born in Dallas.",
+      "dataset": "basic",
+      "evidence": "Taylor Sheridan was born in Dallas.",
+      "group": "g_42353c886eb74f68",
+      "id": "e_dbf41abbf2aca969",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "American Civil War received a Grammy Award.",
+      "dataset": "basic",
+      "evidence": "American Civil War tried to receive a Grammy Award.",
+      "group": "g_bb6d717eb6fc643c",
+      "id": "e_0275e2b9e020f0dc",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "American Civil War received a Grammy Award.",
+      "dataset": "basic",
+      "evidence": "American Civil War did not manage to receive a Grammy Award.",
+      "group": "g_bb6d717eb6fc643c",
+      "id": "e_06ce158ebc2e0b1f",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "American Civil War received a Grammy Award.",
+      "dataset": "basic",
+      "evidence": "American Civil War did not neglect to receive a Grammy Award.",
+      "group": "g_bb6d717eb6fc643c",
+      "id": "e_1197c3d37d5f5117",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "American Civil War received a Grammy Award.",
+      "dataset": "basic",
+      "evidence": "American Civil War wanted to receive a Grammy Award.",
+      "group": "g_bb6d717eb6fc643c",
+      "id": "e_1af0f7da6d06d6a2",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "American Civil War received a Grammy Award.",
+      "dataset": "basic",
+      "evidence": "American Civil War went on to receive a Grammy Award.",
+      "group": "g_bb6d717eb6fc643c",
+      "id": "e_2eb55545f4197628",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "American Civil War received a Grammy Award.",
+      "dataset": "basic",
+      "evidence": "American Civil War declined to receive a Grammy Award.",
+      "group": "g_bb6d717eb6fc643c",
+      "id": "e_4911a2caf8d4aa9a",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "American Civil War received a Grammy Award.",
+      "dataset": "basic",
+      "evidence": "American Civil War was widely tipped to receive a Grammy Award.",
+      "group": "g_bb6d717eb6fc643c",
+      "id": "e_abf332d006cb9aed",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "American Civil War received a Grammy Award.",
+      "dataset": "basic",
+      "evidence": "American Civil War was unable to receive a Grammy Award.",
+      "group": "g_bb6d717eb6fc643c",
+      "id": "e_bb8a3d358400fcf9",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "American Civil War received a Grammy Award.",
+      "dataset": "basic",
+      "evidence": "American Civil War was compelled to receive a Grammy Award.",
+      "group": "g_bb6d717eb6fc643c",
+      "id": "e_d010009b1a2f8c29",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "American Civil War received a Grammy Award.",
+      "dataset": "basic",
+      "evidence": "American Civil War was offered the chance to receive a Grammy Award.",
+      "group": "g_bb6d717eb6fc643c",
+      "id": "e_e8f5d065a1f333f5",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "American Civil War received a Grammy Award.",
+      "dataset": "basic",
+      "evidence": "American Civil War managed to receive a Grammy Award.",
+      "group": "g_bb6d717eb6fc643c",
+      "id": "e_ed537506fdde7a5c",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "Kristi Noem was born in Watertown.",
+      "dataset": "basic",
+      "evidence": "Kristi Noem was born in Watertown.",
+      "group": "g_1688dcf5f11e8409",
+      "id": "e_49eb3adfe6f3dcad",
+      "mechanism": "PLACE"
+    },
+    {
+      "claim": "Kristi Noem was born in Watertown.",
+      "dataset": "basic",
+      "evidence": "Kristi Noem was born in Watertown, South Dakota.",
+      "group": "g_1688dcf5f11e8409",
+      "id": "e_7cbec6e1b934502e",
+      "mechanism": "PLACE"
+    },
+    {
+      "claim": "Kristi Noem was born in Watertown.",
+      "dataset": "basic",
+      "evidence": "Kristi Noem was born in South Dakota.",
+      "group": "g_1688dcf5f11e8409",
+      "id": "e_ae73f40e373aec2e",
+      "mechanism": "PLACE"
+    },
+    {
+      "claim": "Wicked: For Good was released on November 14, 2025.",
+      "dataset": "basic",
+      "evidence": "Originally Wicked: For Good was scheduled for release on November 21, 2025; it eventually was released on November 14, 2025.",
+      "group": "g_7e9f8d33a8493d39",
+      "id": "e_047d40f3c20c3688",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "Wicked: For Good was released on November 14, 2025.",
+      "dataset": "basic",
+      "evidence": "Wicked: For Good was scheduled for release on November 14, 2025, but this was delayed.",
+      "group": "g_7e9f8d33a8493d39",
+      "id": "e_60e6706f46bf549c",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "Wicked: For Good was released on November 14, 2025.",
+      "dataset": "basic",
+      "evidence": "Wicked: For Good was scheduled for release on November 14, 2025, but it was released on November 21, 2025.",
+      "group": "g_7e9f8d33a8493d39",
+      "id": "e_b62d3775ffe18701",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "Wicked: For Good was released on November 14, 2025.",
+      "dataset": "basic",
+      "evidence": "Wicked: For Good was scheduled for release on November 14, 2025.",
+      "group": "g_7e9f8d33a8493d39",
+      "id": "e_d660c88be28048c0",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "Wicked: For Good was released on November 14, 2025.",
+      "dataset": "basic",
+      "evidence": "Wicked: For Good was released on November 14, 2025, as scheduled.",
+      "group": "g_7e9f8d33a8493d39",
+      "id": "e_e7d674de81c8fbba",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "Nikki Haley launched her presidential exploratory committee in 2024.",
+      "dataset": "basic",
+      "evidence": "In 2019, Nikki Haley joined the Hudson Institute as a fellow. Three years later, she served as a senior advisor at a foreign policy think tank. Some years later, she launched her presidential exploratory committee.",
+      "group": "g_e8be797d136307e0",
+      "id": "e_1d7fb473d36040c9",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Nikki Haley launched her presidential exploratory committee in 2024.",
+      "dataset": "basic",
+      "evidence": "In 2019, Nikki Haley joined the Hudson Institute as a fellow. Three years later, she served as a senior advisor at a foreign policy think tank. Within three years of that, she launched her presidential exploratory committee.",
+      "group": "g_e8be797d136307e0",
+      "id": "e_405f374457df12f0",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Nikki Haley launched her presidential exploratory committee in 2024.",
+      "dataset": "basic",
+      "evidence": "In 2024, Nikki Haley launched her presidential exploratory committee, two years after she served as a senior advisor at a foreign policy think tank and five years after she joined the Hudson Institute as a fellow.",
+      "group": "g_e8be797d136307e0",
+      "id": "e_6db51c801b8f7c0c",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Nikki Haley launched her presidential exploratory committee in 2024.",
+      "dataset": "basic",
+      "evidence": "In 2019, Nikki Haley joined the Hudson Institute as a fellow. Three years later, she served as a senior advisor at a foreign policy think tank. Three years after that, she launched her presidential exploratory committee.",
+      "group": "g_e8be797d136307e0",
+      "id": "e_9d78cb2b484a73ad",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Nikki Haley launched her presidential exploratory committee in 2024.",
+      "dataset": "basic",
+      "evidence": "In 2019, Nikki Haley joined the Hudson Institute as a fellow. Three years later, she served as a senior advisor at a foreign policy think tank. Two years after that, she launched her presidential exploratory committee.",
+      "group": "g_e8be797d136307e0",
+      "id": "e_bfd947118c4d7206",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Nikki Haley launched her presidential exploratory committee in 2024.",
+      "dataset": "basic",
+      "evidence": "In 2019, Nikki Haley joined the Hudson Institute as a fellow. Three years later, she served as a senior advisor at a foreign policy think tank. Within one year of that, she launched her presidential exploratory committee.",
+      "group": "g_e8be797d136307e0",
+      "id": "e_cbfff8210e25c725",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Steve Albini won a Grammy Award again after 1994.",
+      "dataset": "basic",
+      "evidence": "Steve Albini won a Grammy Award in 1994.",
+      "group": "g_ab7060349833d7c4",
+      "id": "e_15306b631ffd21f0",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Steve Albini won a Grammy Award again after 1994.",
+      "dataset": "basic",
+      "evidence": "As of 1994, Steve Albini had won a Grammy Award two times.",
+      "group": "g_ab7060349833d7c4",
+      "id": "e_1d589bdac5c3e078",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "By 1997, Steve Albini had won a Grammy Award three times.",
+      "dataset": "basic",
+      "evidence": "Steve Albini won a Grammy Award two times in total, most recently in 1994.",
+      "group": "g_ab7060349833d7c4",
+      "id": "e_274f117a240c04f0",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "By 1997, Steve Albini had won a Grammy Award three times.",
+      "dataset": "basic",
+      "evidence": "Steve Albini won a Grammy Award in 1994.",
+      "group": "g_ab7060349833d7c4",
+      "id": "e_2e6175d0f70c04ef",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Steve Albini won a Grammy Award again after 1994.",
+      "dataset": "basic",
+      "evidence": "Steve Albini won a Grammy Award in 1994, the only time Albini ever did so.",
+      "group": "g_ab7060349833d7c4",
+      "id": "e_35b4eb96d4196289",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Steve Albini had won a Grammy Award before 1994.",
+      "dataset": "basic",
+      "evidence": "Steve Albini won a Grammy Award in 1994.",
+      "group": "g_ab7060349833d7c4",
+      "id": "e_3a991a4736b051d0",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "By 1997, Steve Albini had won a Grammy Award three times.",
+      "dataset": "basic",
+      "evidence": "As of 1994, Steve Albini had won a Grammy Award two times.",
+      "group": "g_ab7060349833d7c4",
+      "id": "e_41d1646ca0077e70",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Steve Albini won a Grammy Award again after 1994.",
+      "dataset": "basic",
+      "evidence": "Steve Albini won a Grammy Award for the first time in 1994.",
+      "group": "g_ab7060349833d7c4",
+      "id": "e_6872781d6ab60dd1",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Steve Albini won a Grammy Award again after 1994.",
+      "dataset": "basic",
+      "evidence": "In 1994, Steve Albini won a Grammy Award for the second time.",
+      "group": "g_ab7060349833d7c4",
+      "id": "e_87094d2a88b7cc7f",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "By 1997, Steve Albini had won a Grammy Award three times.",
+      "dataset": "basic",
+      "evidence": "In 1994, Steve Albini won a Grammy Award for the second time.",
+      "group": "g_ab7060349833d7c4",
+      "id": "e_8a28b68f78b3e2ba",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Steve Albini won a Grammy Award again after 1994.",
+      "dataset": "basic",
+      "evidence": "Steve Albini won a Grammy Award two times in total, most recently in 1994.",
+      "group": "g_ab7060349833d7c4",
+      "id": "e_8bc65c47e2c00f8d",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "By 1997, Steve Albini had won a Grammy Award three times.",
+      "dataset": "basic",
+      "evidence": "Steve Albini won a Grammy Award in 1994, the only time Albini ever did so.",
+      "group": "g_ab7060349833d7c4",
+      "id": "e_94cab35ef515c492",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Steve Albini had won a Grammy Award before 1994.",
+      "dataset": "basic",
+      "evidence": "Steve Albini won a Grammy Award in 1994, the only time Albini ever did so.",
+      "group": "g_ab7060349833d7c4",
+      "id": "e_a97ea329b5a2e288",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Steve Albini had won a Grammy Award before 1994.",
+      "dataset": "basic",
+      "evidence": "Steve Albini won a Grammy Award for the first time in 1994.",
+      "group": "g_ab7060349833d7c4",
+      "id": "e_c68e6d586c35bc18",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "By 1997, Steve Albini had won a Grammy Award three times.",
+      "dataset": "basic",
+      "evidence": "Steve Albini won a Grammy Award for the first time in 1994.",
+      "group": "g_ab7060349833d7c4",
+      "id": "e_ee6488021cb24e0c",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "George Washington authored a widely cited botanical survey in 1752.",
+      "dataset": "challenge",
+      "evidence": "The president of the United States (POTUS) is the head of state and head of government of the United States. The president directs the executive branch of the federal government and is the commander-in-chief of the United States Armed Forces.\nThe power of the presidency has grown since the first president, George Washington, took office in 1789. George Washington and his brother Samuel Washington settled in Virginia in 1735. In 1752, Samuel Washington authored a widely cited botanical survey. While presidential power has ebbed and flowed over time, the presidency has played an increasing role in American political life since the beginning of the 20th century, carrying over into the 21st century with some expansions during the presidencies of Franklin D. Roosevelt and George W. Bush. In the 21st century, the president is one of the world's most powerful political figures and the leader of a superpower. As the leader of the nation with the largest economy by nominal GDP, the president possesses significant domestic and international hard and soft power. For much of the 20th century, especially during the Cold War, the U.S. president was often called \"the leader of the free world\".\nArticle II of the Constitution establishes the executive branch of the federal government and vests executive power in the president. The power includes the execution and enforcement of federal law and the responsibility to appoint federal executive, diplomatic, regulatory, and judicial officers. Based on constitutional provisions empowering the president to appoint and receive ambassadors and conclude treaties with foreign powers, and on subsequent laws enacted by Congress, the modern presidency has primary responsibility for conducting U.S. foreign policy. The role includes responsibility for directing the world's most expensive military, which has the second-largest nuclear arsenal.",
+      "group": "g_32c216fc1bd2ef66",
+      "id": "e_6e8ce284aca3eab9",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "George Washington authored a widely cited botanical survey in 1752.",
+      "dataset": "challenge",
+      "evidence": "The president of the United States (POTUS) is the head of state and head of government of the United States. The president directs the executive branch of the federal government and is the commander-in-chief of the United States Armed Forces.\nThe power of the presidency has grown since the first president, George Washington, took office in 1789. George Washington and his brother Samuel Washington settled in Virginia in 1735. In 1752, they both authored a widely cited botanical survey. While presidential power has ebbed and flowed over time, the presidency has played an increasing role in American political life since the beginning of the 20th century, carrying over into the 21st century with some expansions during the presidencies of Franklin D. Roosevelt and George W. Bush. In the 21st century, the president is one of the world's most powerful political figures and the leader of a superpower. As the leader of the nation with the largest economy by nominal GDP, the president possesses significant domestic and international hard and soft power. For much of the 20th century, especially during the Cold War, the U.S. president was often called \"the leader of the free world\".\nArticle II of the Constitution establishes the executive branch of the federal government and vests executive power in the president. The power includes the execution and enforcement of federal law and the responsibility to appoint federal executive, diplomatic, regulatory, and judicial officers. Based on constitutional provisions empowering the president to appoint and receive ambassadors and conclude treaties with foreign powers, and on subsequent laws enacted by Congress, the modern presidency has primary responsibility for conducting U.S. foreign policy. The role includes responsibility for directing the world's most expensive military, which has the second-largest nuclear arsenal.",
+      "group": "g_32c216fc1bd2ef66",
+      "id": "e_7553248889ad22b7",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "George Washington authored a widely cited botanical survey in 1752.",
+      "dataset": "challenge",
+      "evidence": "The president of the United States (POTUS) is the head of state and head of government of the United States. The president directs the executive branch of the federal government and is the commander-in-chief of the United States Armed Forces.\nThe power of the presidency has grown since the first president, George Washington, took office in 1789. George Washington and his sister Anne Washington settled in Virginia in 1735. In 1752, she authored a widely cited botanical survey. While presidential power has ebbed and flowed over time, the presidency has played an increasing role in American political life since the beginning of the 20th century, carrying over into the 21st century with some expansions during the presidencies of Franklin D. Roosevelt and George W. Bush. In the 21st century, the president is one of the world's most powerful political figures and the leader of a superpower. As the leader of the nation with the largest economy by nominal GDP, the president possesses significant domestic and international hard and soft power. For much of the 20th century, especially during the Cold War, the U.S. president was often called \"the leader of the free world\".\nArticle II of the Constitution establishes the executive branch of the federal government and vests executive power in the president. The power includes the execution and enforcement of federal law and the responsibility to appoint federal executive, diplomatic, regulatory, and judicial officers. Based on constitutional provisions empowering the president to appoint and receive ambassadors and conclude treaties with foreign powers, and on subsequent laws enacted by Congress, the modern presidency has primary responsibility for conducting U.S. foreign policy. The role includes responsibility for directing the world's most expensive military, which has the second-largest nuclear arsenal.",
+      "group": "g_32c216fc1bd2ef66",
+      "id": "e_8baad9c049bd9c24",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "George Washington authored a widely cited botanical survey in 1752.",
+      "dataset": "challenge",
+      "evidence": "The president of the United States (POTUS) is the head of state and head of government of the United States. The president directs the executive branch of the federal government and is the commander-in-chief of the United States Armed Forces.\nThe power of the presidency has grown since the first president, George Washington, took office in 1789. George Washington and his sister Anne Washington settled in Virginia in 1735. In 1752, he authored a widely cited botanical survey. While presidential power has ebbed and flowed over time, the presidency has played an increasing role in American political life since the beginning of the 20th century, carrying over into the 21st century with some expansions during the presidencies of Franklin D. Roosevelt and George W. Bush. In the 21st century, the president is one of the world's most powerful political figures and the leader of a superpower. As the leader of the nation with the largest economy by nominal GDP, the president possesses significant domestic and international hard and soft power. For much of the 20th century, especially during the Cold War, the U.S. president was often called \"the leader of the free world\".\nArticle II of the Constitution establishes the executive branch of the federal government and vests executive power in the president. The power includes the execution and enforcement of federal law and the responsibility to appoint federal executive, diplomatic, regulatory, and judicial officers. Based on constitutional provisions empowering the president to appoint and receive ambassadors and conclude treaties with foreign powers, and on subsequent laws enacted by Congress, the modern presidency has primary responsibility for conducting U.S. foreign policy. The role includes responsibility for directing the world's most expensive military, which has the second-largest nuclear arsenal.",
+      "group": "g_32c216fc1bd2ef66",
+      "id": "e_97d397af6a0e0e52",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "George Washington authored a widely cited botanical survey in 1752.",
+      "dataset": "challenge",
+      "evidence": "The president of the United States (POTUS) is the head of state and head of government of the United States. The president directs the executive branch of the federal government and is the commander-in-chief of the United States Armed Forces.\nThe power of the presidency has grown since the first president, George Washington, took office in 1789. George Washington and his brother Samuel Washington settled in Virginia in 1735. In 1752, George authored a widely cited botanical survey. While presidential power has ebbed and flowed over time, the presidency has played an increasing role in American political life since the beginning of the 20th century, carrying over into the 21st century with some expansions during the presidencies of Franklin D. Roosevelt and George W. Bush. In the 21st century, the president is one of the world's most powerful political figures and the leader of a superpower. As the leader of the nation with the largest economy by nominal GDP, the president possesses significant domestic and international hard and soft power. For much of the 20th century, especially during the Cold War, the U.S. president was often called \"the leader of the free world\".\nArticle II of the Constitution establishes the executive branch of the federal government and vests executive power in the president. The power includes the execution and enforcement of federal law and the responsibility to appoint federal executive, diplomatic, regulatory, and judicial officers. Based on constitutional provisions empowering the president to appoint and receive ambassadors and conclude treaties with foreign powers, and on subsequent laws enacted by Congress, the modern presidency has primary responsibility for conducting U.S. foreign policy. The role includes responsibility for directing the world's most expensive military, which has the second-largest nuclear arsenal.",
+      "group": "g_32c216fc1bd2ef66",
+      "id": "e_e9e9328fa1e3ee3f",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "Brandi Carlile secretly adopted a rescue dog named Whiskey.",
+      "dataset": "challenge",
+      "evidence": "Reports that Brandi Carlile had secretly adopted a rescue dog named Whiskey were later shown to be false.",
+      "group": "g_cdaf413af8467006",
+      "id": "e_0049f7a8b81dba45",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Brandi Carlile secretly adopted a rescue dog named Whiskey.",
+      "dataset": "challenge",
+      "evidence": "Her personal assistant denied that Brandi Carlile had secretly adopted a rescue dog named Whiskey, and an investigation later showed the reports to be false.",
+      "group": "g_cdaf413af8467006",
+      "id": "e_78cb7af0091006e5",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Brandi Carlile secretly adopted a rescue dog named Whiskey.",
+      "dataset": "challenge",
+      "evidence": "Her personal assistant disputed claims that Brandi Carlile had secretly adopted a rescue dog named Whiskey.",
+      "group": "g_cdaf413af8467006",
+      "id": "e_819d049c5999b794",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Brandi Carlile secretly adopted a rescue dog named Whiskey.",
+      "dataset": "challenge",
+      "evidence": "Her personal assistant initially denied that Brandi Carlile had secretly adopted a rescue dog named Whiskey, but later confirmed it.",
+      "group": "g_cdaf413af8467006",
+      "id": "e_84e1c039349f835e",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Brandi Carlile secretly adopted a rescue dog named Whiskey.",
+      "dataset": "challenge",
+      "evidence": "Her personal assistant dismissed as baseless the reports that Brandi Carlile had secretly adopted a rescue dog named Whiskey.",
+      "group": "g_cdaf413af8467006",
+      "id": "e_8cd325ba12347b9a",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Brandi Carlile secretly adopted a rescue dog named Whiskey.",
+      "dataset": "challenge",
+      "evidence": "Her personal assistant declined to comment on reports that Brandi Carlile had secretly adopted a rescue dog named Whiskey.",
+      "group": "g_cdaf413af8467006",
+      "id": "e_980c9683dcc5f09c",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Brandi Carlile secretly adopted a rescue dog named Whiskey.",
+      "dataset": "challenge",
+      "evidence": "It was later confirmed that Brandi Carlile had secretly adopted a rescue dog named Whiskey.",
+      "group": "g_cdaf413af8467006",
+      "id": "e_cba2f5da43d6ae4d",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Brandi Carlile secretly adopted a rescue dog named Whiskey.",
+      "dataset": "challenge",
+      "evidence": "Her personal assistant denied that Brandi Carlile had secretly adopted a rescue dog named Whiskey.",
+      "group": "g_cdaf413af8467006",
+      "id": "e_e155f69f8cfba03f",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "J. Robert Oppenheimer won a Grammy Award for Best Classical Instrumental Solo.",
+      "dataset": "challenge",
+      "evidence": "Oppenheimer is a 2023 epic biographical thriller film written, co-produced, and directed by Christopher Nolan. It follows the life of J. Robert Oppenheimer, the American theoretical physicist who led the development of the first nuclear weapons during World War II. Based on the 2005 biography American Prometheus by Kai Bird and Martin J. Sherwin, the film dramatizes Oppenheimer's studies, his direction of the Los Alamos Laboratory and his 1954 security hearing. Cillian Murphy stars as Oppenheimer, alongside an ensemble supporting cast that includes Emily Blunt, Matt Damon, Robert Downey Jr., Florence Pugh, Josh Hartnett, Casey Affleck, Rami Malek, and Kenneth Branagh. His distant cousin Karl Oppenheimer won a Grammy Award for Best Classical Instrumental Solo.\nOppenheimer was announced in September 2021. It was Nolan's first film not distributed by Warner Bros. Pictures since Memento (2000), due to his conflicts regarding the studio's simultaneous theatrical and HBO Max release schedule. Murphy was the first cast member to join, with the rest joining between November 2021 and April 2022. Pre-production began by January 2022, and filming took place from February to May. The cinematographer, Hoyte van Hoytema, used a combination of IMAX 65 mm and 65 mm large-format film, including, for the first time, selected scenes in IMAX black-and-white film photography. As with many of his previous films, Nolan used extensive practical effects and claimed minimal use of compositing; despite these claims, the final film contained several hundred VFX shots made by a mostly uncredited VFX crew of around 160.\nOppenheimer premiered at Le Grand Rex in Paris on Tuesday, July 11, 2023, and was theatrically released in the United States and the United Kingdom on July 21 by Universal Pictures. Its concurrent release with Warner Bros.'s Barbie was the catalyst of the \"Barbenheimer\" phenomenon, encouraging audiences to see both films as a double feature. Oppenheimer received widespread critical acclaim and grossed over $983 million worldwide, becoming the third-highest-grossing film of 2023. It was the highest-grossing biographical film of all time until being overtaken by Michael in 2026.",
+      "group": "g_35c4f5c8766631fa",
+      "id": "e_2f58d8232e815226",
+      "mechanism": "LOOKALIKE"
+    },
+    {
+      "claim": "J. Robert Oppenheimer won a Grammy Award for Best Classical Instrumental Solo.",
+      "dataset": "challenge",
+      "evidence": "Oppenheimer is a 2023 epic biographical thriller film written, co-produced, and directed by Christopher Nolan. It follows the life of J. Robert Oppenheimer, the American theoretical physicist who led the development of the first nuclear weapons during World War II. Based on the 2005 biography American Prometheus by Kai Bird and Martin J. Sherwin, the film dramatizes Oppenheimer's studies, his direction of the Los Alamos Laboratory and his 1954 security hearing. Cillian Murphy stars as Oppenheimer, alongside an ensemble supporting cast that includes Emily Blunt, Matt Damon, Robert Downey Jr., Florence Pugh, Josh Hartnett, Casey Affleck, Rami Malek, and Kenneth Branagh. Karl Oppenheimer became the first in the family who won a Grammy Award for Best Classical Instrumental Solo.\nOppenheimer was announced in September 2021. It was Nolan's first film not distributed by Warner Bros. Pictures since Memento (2000), due to his conflicts regarding the studio's simultaneous theatrical and HBO Max release schedule. Murphy was the first cast member to join, with the rest joining between November 2021 and April 2022. Pre-production began by January 2022, and filming took place from February to May. The cinematographer, Hoyte van Hoytema, used a combination of IMAX 65 mm and 65 mm large-format film, including, for the first time, selected scenes in IMAX black-and-white film photography. As with many of his previous films, Nolan used extensive practical effects and claimed minimal use of compositing; despite these claims, the final film contained several hundred VFX shots made by a mostly uncredited VFX crew of around 160.\nOppenheimer premiered at Le Grand Rex in Paris on Tuesday, July 11, 2023, and was theatrically released in the United States and the United Kingdom on July 21 by Universal Pictures. Its concurrent release with Warner Bros.'s Barbie was the catalyst of the \"Barbenheimer\" phenomenon, encouraging audiences to see both films as a double feature. Oppenheimer received widespread critical acclaim and grossed over $983 million worldwide, becoming the third-highest-grossing film of 2023. It was the highest-grossing biographical film of all time until being overtaken by Michael in 2026.",
+      "group": "g_35c4f5c8766631fa",
+      "id": "e_450fb2118db2548a",
+      "mechanism": "LOOKALIKE"
+    },
+    {
+      "claim": "J. Robert Oppenheimer won a Grammy Award for Best Classical Instrumental Solo.",
+      "dataset": "challenge",
+      "evidence": "Oppenheimer is a 2023 epic biographical thriller film written, co-produced, and directed by Christopher Nolan. It follows the life of J. Robert Oppenheimer, the American theoretical physicist who led the development of the first nuclear weapons during World War II. Based on the 2005 biography American Prometheus by Kai Bird and Martin J. Sherwin, the film dramatizes Oppenheimer's studies, his direction of the Los Alamos Laboratory and his 1954 security hearing. Cillian Murphy stars as Oppenheimer, alongside an ensemble supporting cast that includes Emily Blunt, Matt Damon, Robert Downey Jr., Florence Pugh, Josh Hartnett, Casey Affleck, Rami Malek, and Kenneth Branagh. Karl Oppenheimer won a Grammy Award for Best Classical Instrumental Solo, the only member of the family to do so.\nOppenheimer was announced in September 2021. It was Nolan's first film not distributed by Warner Bros. Pictures since Memento (2000), due to his conflicts regarding the studio's simultaneous theatrical and HBO Max release schedule. Murphy was the first cast member to join, with the rest joining between November 2021 and April 2022. Pre-production began by January 2022, and filming took place from February to May. The cinematographer, Hoyte van Hoytema, used a combination of IMAX 65 mm and 65 mm large-format film, including, for the first time, selected scenes in IMAX black-and-white film photography. As with many of his previous films, Nolan used extensive practical effects and claimed minimal use of compositing; despite these claims, the final film contained several hundred VFX shots made by a mostly uncredited VFX crew of around 160.\nOppenheimer premiered at Le Grand Rex in Paris on Tuesday, July 11, 2023, and was theatrically released in the United States and the United Kingdom on July 21 by Universal Pictures. Its concurrent release with Warner Bros.'s Barbie was the catalyst of the \"Barbenheimer\" phenomenon, encouraging audiences to see both films as a double feature. Oppenheimer received widespread critical acclaim and grossed over $983 million worldwide, becoming the third-highest-grossing film of 2023. It was the highest-grossing biographical film of all time until being overtaken by Michael in 2026.",
+      "group": "g_35c4f5c8766631fa",
+      "id": "e_c098cb07092b34ca",
+      "mechanism": "LOOKALIKE"
+    },
+    {
+      "claim": "Vijay Deverakonda had won the Filmfare Award for Best Male Actor – Telugu before 2024.",
+      "dataset": "challenge",
+      "evidence": "The Family Star is a 2024 Indian Telugu-language romantic action comedy film written and directed by Parasuram, and produced by Dil Raju and Sirish under Sri Venkateswara Creations. The film features Vijay Deverakonda and Mrunal Thakur in lead roles. In 2024, Vijay Deverakonda won the Filmfare Award for Best Male Actor – Telugu while still in his early thirties.\nThe film was officially announced in February 2023 under the tentative title VD13 and the official title was announced in October 2023. Principal photography commenced in July 2023. It was shot sporadically in several legs, with filming locations including Hyderabad and New York. The film has music composed by Gopi Sundar.\nFamily Star was initially scheduled to release on Sankranthi 2024, but it was postponed as filming was delayed due to visa issues and not going to be completed in time The Family Star received mixed-to-negative reviews from critics. While Parasuram's writing, plot, and direction were criticized, the lead cast's performances and the soundtrack were mostly praised or at least considered adequate, and the comedy received mixed reviews. The film was a failure at the box office grossing ₹33 crore worldwide against a budget of ₹50 crore.",
+      "group": "g_3ca19839c010acc4",
+      "id": "e_0524453e9095466f",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Vijay Deverakonda had won the Filmfare Award for Best Male Actor – Telugu before 2024.",
+      "dataset": "challenge",
+      "evidence": "The Family Star is a 2024 Indian Telugu-language romantic action comedy film written and directed by Parasuram, and produced by Dil Raju and Sirish under Sri Venkateswara Creations. The film features Vijay Deverakonda and Mrunal Thakur in lead roles. In 2024, Vijay Deverakonda won the Filmfare Award for Best Male Actor – Telugu for the first time.\nThe film was officially announced in February 2023 under the tentative title VD13 and the official title was announced in October 2023. Principal photography commenced in July 2023. It was shot sporadically in several legs, with filming locations including Hyderabad and New York. The film has music composed by Gopi Sundar.\nFamily Star was initially scheduled to release on Sankranthi 2024, but it was postponed as filming was delayed due to visa issues and not going to be completed in time The Family Star received mixed-to-negative reviews from critics. While Parasuram's writing, plot, and direction were criticized, the lead cast's performances and the soundtrack were mostly praised or at least considered adequate, and the comedy received mixed reviews. The film was a failure at the box office grossing ₹33 crore worldwide against a budget of ₹50 crore.",
+      "group": "g_3ca19839c010acc4",
+      "id": "e_1fab871b519da42e",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Vijay Deverakonda had won the Filmfare Award for Best Male Actor – Telugu before 2024.",
+      "dataset": "challenge",
+      "evidence": "The Family Star is a 2024 Indian Telugu-language romantic action comedy film written and directed by Parasuram, and produced by Dil Raju and Sirish under Sri Venkateswara Creations. The film features Vijay Deverakonda and Mrunal Thakur in lead roles. In 2024, Vijay Deverakonda won the Filmfare Award for Best Male Actor – Telugu.\nThe film was officially announced in February 2023 under the tentative title VD13 and the official title was announced in October 2023. Principal photography commenced in July 2023. It was shot sporadically in several legs, with filming locations including Hyderabad and New York. The film has music composed by Gopi Sundar.\nFamily Star was initially scheduled to release on Sankranthi 2024, but it was postponed as filming was delayed due to visa issues and not going to be completed in time The Family Star received mixed-to-negative reviews from critics. While Parasuram's writing, plot, and direction were criticized, the lead cast's performances and the soundtrack were mostly praised or at least considered adequate, and the comedy received mixed reviews. The film was a failure at the box office grossing ₹33 crore worldwide against a budget of ₹50 crore.",
+      "group": "g_3ca19839c010acc4",
+      "id": "e_805503b6412f007e",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Vijay Deverakonda had won the Filmfare Award for Best Male Actor – Telugu before 2024.",
+      "dataset": "challenge",
+      "evidence": "The Family Star is a 2024 Indian Telugu-language romantic action comedy film written and directed by Parasuram, and produced by Dil Raju and Sirish under Sri Venkateswara Creations. The film features Vijay Deverakonda and Mrunal Thakur in lead roles. Vijay Deverakonda won the Filmfare Award for Best Male Actor – Telugu for a second time in 2024.\nThe film was officially announced in February 2023 under the tentative title VD13 and the official title was announced in October 2023. Principal photography commenced in July 2023. It was shot sporadically in several legs, with filming locations including Hyderabad and New York. The film has music composed by Gopi Sundar.\nFamily Star was initially scheduled to release on Sankranthi 2024, but it was postponed as filming was delayed due to visa issues and not going to be completed in time The Family Star received mixed-to-negative reviews from critics. While Parasuram's writing, plot, and direction were criticized, the lead cast's performances and the soundtrack were mostly praised or at least considered adequate, and the comedy received mixed reviews. The film was a failure at the box office grossing ₹33 crore worldwide against a budget of ₹50 crore.",
+      "group": "g_3ca19839c010acc4",
+      "id": "e_84f6edaff467c12a",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Vijay Deverakonda had won the Filmfare Award for Best Male Actor – Telugu before 2024.",
+      "dataset": "challenge",
+      "evidence": "The Family Star is a 2024 Indian Telugu-language romantic action comedy film written and directed by Parasuram, and produced by Dil Raju and Sirish under Sri Venkateswara Creations. The film features Vijay Deverakonda and Mrunal Thakur in lead roles. In 2024, Vijay Deverakonda won the Filmfare Award for Best Male Actor – Telugu, the first of three such occasions.\nThe film was officially announced in February 2023 under the tentative title VD13 and the official title was announced in October 2023. Principal photography commenced in July 2023. It was shot sporadically in several legs, with filming locations including Hyderabad and New York. The film has music composed by Gopi Sundar.\nFamily Star was initially scheduled to release on Sankranthi 2024, but it was postponed as filming was delayed due to visa issues and not going to be completed in time The Family Star received mixed-to-negative reviews from critics. While Parasuram's writing, plot, and direction were criticized, the lead cast's performances and the soundtrack were mostly praised or at least considered adequate, and the comedy received mixed reviews. The film was a failure at the box office grossing ₹33 crore worldwide against a budget of ₹50 crore.",
+      "group": "g_3ca19839c010acc4",
+      "id": "e_8ceb4d3aa9e5b16a",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Vijay Deverakonda had won the Filmfare Award for Best Male Actor – Telugu before 2024.",
+      "dataset": "challenge",
+      "evidence": "The Family Star is a 2024 Indian Telugu-language romantic action comedy film written and directed by Parasuram, and produced by Dil Raju and Sirish under Sri Venkateswara Creations. The film features Vijay Deverakonda and Mrunal Thakur in lead roles. Vijay Deverakonda won the Filmfare Award for Best Male Actor – Telugu once more in 2024.\nThe film was officially announced in February 2023 under the tentative title VD13 and the official title was announced in October 2023. Principal photography commenced in July 2023. It was shot sporadically in several legs, with filming locations including Hyderabad and New York. The film has music composed by Gopi Sundar.\nFamily Star was initially scheduled to release on Sankranthi 2024, but it was postponed as filming was delayed due to visa issues and not going to be completed in time The Family Star received mixed-to-negative reviews from critics. While Parasuram's writing, plot, and direction were criticized, the lead cast's performances and the soundtrack were mostly praised or at least considered adequate, and the comedy received mixed reviews. The film was a failure at the box office grossing ₹33 crore worldwide against a budget of ₹50 crore.",
+      "group": "g_3ca19839c010acc4",
+      "id": "e_f9fb6c5b72a77ad6",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Graham is one of Jason Isaacs's children.",
+      "dataset": "challenge",
+      "evidence": "Jason Michael Isaacs (born 6 June 1963) is an English actor. Isaacs' three children include Rory and Fiona. Primarily known for his character actor roles and in particular portrayals of villains in both independent films and blockbusters, he has received various accolades including an Empire Award and an Independent Spirit Award, with nominations for a British Academy Film Award, a Primetime Emmy Award, two Satellite Awards and two Golden Globe Awards.\nHe is best known for portraying Lucius Malfoy in the Harry Potter film series (2002–2011), Ronald Quincy in Armageddon (1998), Colonel William Tavington in The Patriot (2000), Michael D. Steele in Black Hawk Down (2001), D.J in Event Horizon (1997), Timothy Ratliff in The White Lotus (2025) and Captain Waggoner in Fury (2014).\nOther television roles include Michael Caffee in the Showtime crime drama series Brotherhood (2006–2008), Michael Britten in police procedural fantasy NBC series Awake (2012), Dr. Hunter Aloysius \"Hap\" Percy in the Netflix supernatural mystery drama series The OA (2016–2019), Captain Gabriel Lorca in Star Trek: Discovery (2017–2018). With his role in the third season of the HBO anthology series The White Lotus (2025), he was nominated for the Primetime Emmy Award for Outstanding Supporting Actor in a Drama Series and a Golden Globe Award. He was also nominated for the Golden Globe Award for Best Actor – Miniseries or Television Film for The State Within (2006) and for the British Academy Television Award for Best Actor for his portrayal of Harry H. Corbett in The Curse of Steptoe (2008), and for the International Emmy Award for Best Actor for Case Histories (2011–2013).",
+      "group": "g_5bef29ab0c28b753",
+      "id": "e_0409ec9eb7cee052",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Graham is one of Jason Isaacs's children.",
+      "dataset": "challenge",
+      "evidence": "Jason Michael Isaacs (born 6 June 1963) is an English actor. Jason Isaacs has two children: Rory and Fiona. Primarily known for his character actor roles and in particular portrayals of villains in both independent films and blockbusters, he has received various accolades including an Empire Award and an Independent Spirit Award, with nominations for a British Academy Film Award, a Primetime Emmy Award, two Satellite Awards and two Golden Globe Awards.\nHe is best known for portraying Lucius Malfoy in the Harry Potter film series (2002–2011), Ronald Quincy in Armageddon (1998), Colonel William Tavington in The Patriot (2000), Michael D. Steele in Black Hawk Down (2001), D.J in Event Horizon (1997), Timothy Ratliff in The White Lotus (2025) and Captain Waggoner in Fury (2014).\nOther television roles include Michael Caffee in the Showtime crime drama series Brotherhood (2006–2008), Michael Britten in police procedural fantasy NBC series Awake (2012), Dr. Hunter Aloysius \"Hap\" Percy in the Netflix supernatural mystery drama series The OA (2016–2019), Captain Gabriel Lorca in Star Trek: Discovery (2017–2018). With his role in the third season of the HBO anthology series The White Lotus (2025), he was nominated for the Primetime Emmy Award for Outstanding Supporting Actor in a Drama Series and a Golden Globe Award. He was also nominated for the Golden Globe Award for Best Actor – Miniseries or Television Film for The State Within (2006) and for the British Academy Television Award for Best Actor for his portrayal of Harry H. Corbett in The Curse of Steptoe (2008), and for the International Emmy Award for Best Actor for Case Histories (2011–2013).",
+      "group": "g_5bef29ab0c28b753",
+      "id": "e_444b02e0403c4a55",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Graham is one of Jason Isaacs's children.",
+      "dataset": "challenge",
+      "evidence": "Jason Michael Isaacs (born 6 June 1963) is an English actor. Isaacs' children include Rory and Fiona. Primarily known for his character actor roles and in particular portrayals of villains in both independent films and blockbusters, he has received various accolades including an Empire Award and an Independent Spirit Award, with nominations for a British Academy Film Award, a Primetime Emmy Award, two Satellite Awards and two Golden Globe Awards.\nHe is best known for portraying Lucius Malfoy in the Harry Potter film series (2002–2011), Ronald Quincy in Armageddon (1998), Colonel William Tavington in The Patriot (2000), Michael D. Steele in Black Hawk Down (2001), D.J in Event Horizon (1997), Timothy Ratliff in The White Lotus (2025) and Captain Waggoner in Fury (2014).\nOther television roles include Michael Caffee in the Showtime crime drama series Brotherhood (2006–2008), Michael Britten in police procedural fantasy NBC series Awake (2012), Dr. Hunter Aloysius \"Hap\" Percy in the Netflix supernatural mystery drama series The OA (2016–2019), Captain Gabriel Lorca in Star Trek: Discovery (2017–2018). With his role in the third season of the HBO anthology series The White Lotus (2025), he was nominated for the Primetime Emmy Award for Outstanding Supporting Actor in a Drama Series and a Golden Globe Award. He was also nominated for the Golden Globe Award for Best Actor – Miniseries or Television Film for The State Within (2006) and for the British Academy Television Award for Best Actor for his portrayal of Harry H. Corbett in The Curse of Steptoe (2008), and for the International Emmy Award for Best Actor for Case Histories (2011–2013).",
+      "group": "g_5bef29ab0c28b753",
+      "id": "e_691e1e856eecb993",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Graham is one of Jason Isaacs's children.",
+      "dataset": "challenge",
+      "evidence": "Jason Michael Isaacs (born 6 June 1963) is an English actor. Isaacs' three children are Rory, Graham and Fiona. Primarily known for his character actor roles and in particular portrayals of villains in both independent films and blockbusters, he has received various accolades including an Empire Award and an Independent Spirit Award, with nominations for a British Academy Film Award, a Primetime Emmy Award, two Satellite Awards and two Golden Globe Awards.\nHe is best known for portraying Lucius Malfoy in the Harry Potter film series (2002–2011), Ronald Quincy in Armageddon (1998), Colonel William Tavington in The Patriot (2000), Michael D. Steele in Black Hawk Down (2001), D.J in Event Horizon (1997), Timothy Ratliff in The White Lotus (2025) and Captain Waggoner in Fury (2014).\nOther television roles include Michael Caffee in the Showtime crime drama series Brotherhood (2006–2008), Michael Britten in police procedural fantasy NBC series Awake (2012), Dr. Hunter Aloysius \"Hap\" Percy in the Netflix supernatural mystery drama series The OA (2016–2019), Captain Gabriel Lorca in Star Trek: Discovery (2017–2018). With his role in the third season of the HBO anthology series The White Lotus (2025), he was nominated for the Primetime Emmy Award for Outstanding Supporting Actor in a Drama Series and a Golden Globe Award. He was also nominated for the Golden Globe Award for Best Actor – Miniseries or Television Film for The State Within (2006) and for the British Academy Television Award for Best Actor for his portrayal of Harry H. Corbett in The Curse of Steptoe (2008), and for the International Emmy Award for Best Actor for Case Histories (2011–2013).",
+      "group": "g_5bef29ab0c28b753",
+      "id": "e_88bdffe4a07ad1d0",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Graham is one of Jason Isaacs's children.",
+      "dataset": "challenge",
+      "evidence": "Jason Michael Isaacs (born 6 June 1963) is an English actor. Isaacs' children include Rory, Graham and Fiona. Primarily known for his character actor roles and in particular portrayals of villains in both independent films and blockbusters, he has received various accolades including an Empire Award and an Independent Spirit Award, with nominations for a British Academy Film Award, a Primetime Emmy Award, two Satellite Awards and two Golden Globe Awards.\nHe is best known for portraying Lucius Malfoy in the Harry Potter film series (2002–2011), Ronald Quincy in Armageddon (1998), Colonel William Tavington in The Patriot (2000), Michael D. Steele in Black Hawk Down (2001), D.J in Event Horizon (1997), Timothy Ratliff in The White Lotus (2025) and Captain Waggoner in Fury (2014).\nOther television roles include Michael Caffee in the Showtime crime drama series Brotherhood (2006–2008), Michael Britten in police procedural fantasy NBC series Awake (2012), Dr. Hunter Aloysius \"Hap\" Percy in the Netflix supernatural mystery drama series The OA (2016–2019), Captain Gabriel Lorca in Star Trek: Discovery (2017–2018). With his role in the third season of the HBO anthology series The White Lotus (2025), he was nominated for the Primetime Emmy Award for Outstanding Supporting Actor in a Drama Series and a Golden Globe Award. He was also nominated for the Golden Globe Award for Best Actor – Miniseries or Television Film for The State Within (2006) and for the British Academy Television Award for Best Actor for his portrayal of Harry H. Corbett in The Curse of Steptoe (2008), and for the International Emmy Award for Best Actor for Case Histories (2011–2013).",
+      "group": "g_5bef29ab0c28b753",
+      "id": "e_e495237c05285bc3",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Graham is one of Jason Isaacs's children.",
+      "dataset": "challenge",
+      "evidence": "Jason Michael Isaacs (born 6 June 1963) is an English actor. Jason Isaacs has two children with his ex-wife, Georgina Cates: Rory and Fiona. Primarily known for his character actor roles and in particular portrayals of villains in both independent films and blockbusters, he has received various accolades including an Empire Award and an Independent Spirit Award, with nominations for a British Academy Film Award, a Primetime Emmy Award, two Satellite Awards and two Golden Globe Awards.\nHe is best known for portraying Lucius Malfoy in the Harry Potter film series (2002–2011), Ronald Quincy in Armageddon (1998), Colonel William Tavington in The Patriot (2000), Michael D. Steele in Black Hawk Down (2001), D.J in Event Horizon (1997), Timothy Ratliff in The White Lotus (2025) and Captain Waggoner in Fury (2014).\nOther television roles include Michael Caffee in the Showtime crime drama series Brotherhood (2006–2008), Michael Britten in police procedural fantasy NBC series Awake (2012), Dr. Hunter Aloysius \"Hap\" Percy in the Netflix supernatural mystery drama series The OA (2016–2019), Captain Gabriel Lorca in Star Trek: Discovery (2017–2018). With his role in the third season of the HBO anthology series The White Lotus (2025), he was nominated for the Primetime Emmy Award for Outstanding Supporting Actor in a Drama Series and a Golden Globe Award. He was also nominated for the Golden Globe Award for Best Actor – Miniseries or Television Film for The State Within (2006) and for the British Academy Television Award for Best Actor for his portrayal of Harry H. Corbett in The Curse of Steptoe (2008), and for the International Emmy Award for Best Actor for Case Histories (2011–2013).",
+      "group": "g_5bef29ab0c28b753",
+      "id": "e_ec8c8b8f82acebb0",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Mark Wahlberg held the post of co-founder of Fisker Automotive in 2015.",
+      "dataset": "challenge",
+      "evidence": "Mark Robert Michael Wahlberg (born June 5, 1971), formerly known by his stage name Marky Mark, is an American actor, producer, and former rapper. His work as a leading man spans the comedy, drama, and action genres. He has received multiple accolades, including a BAFTA TV Award and a Sports Emmy Award, and nominations for two Academy Awards, three Golden Globes, and nine Primetime Emmy Awards.\nWahlberg was born in Boston. As a youth, he took part in a number of violent and racially motivated attacks, resulting in a felony conviction. He gained fame as a member of the hip hop group Marky Mark and the Funky Bunch in the 1990s, with whom he released the albums Music for the People (1991) and You Gotta Believe (1992). Wahlberg made his screen debut in Renaissance Man (1994) and had his first starring role in Fear (1996). He received critical praise for his performance as porn actor Dirk Diggler in Boogie Nights (1997).\nIn the early 2000s, Wahlberg ventured into big-budget action movies, such as The Perfect Storm (2000), Planet of the Apes (2001), and The Italian Job (2003). He was nominated for the Academy Award for Best Supporting Actor for playing a police officer in the crime drama The Departed (2006). He was nominated for the Golden Globe Award for Best Actor for portraying Micky Ward in the sports drama biopic The Fighter (2010); as co-producer, he was nominated for the Academy Award for Best Picture. During the 2010s, Wahlberg landed successful comedy roles with The Other Guys (2010), Ted (2012), Ted 2 (2015), Daddy's Home (2015), and Daddy's Home 2 (2017). He also starred in the Transformers films Age of Extinction (2014) and The Last Knight (2017). He was the world's highest-paid actor in 2017. In 2007, Mark Wahlberg took office as co-founder of Fisker Automotive.",
+      "group": "g_a14e2b98723c8861",
+      "id": "e_44f08135d0c69bff",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "Mark Wahlberg held the post of co-founder of Fisker Automotive in 2015.",
+      "dataset": "challenge",
+      "evidence": "Mark Robert Michael Wahlberg (born June 5, 1971), formerly known by his stage name Marky Mark, is an American actor, producer, and former rapper. His work as a leading man spans the comedy, drama, and action genres. He has received multiple accolades, including a BAFTA TV Award and a Sports Emmy Award, and nominations for two Academy Awards, three Golden Globes, and nine Primetime Emmy Awards.\nWahlberg was born in Boston. As a youth, he took part in a number of violent and racially motivated attacks, resulting in a felony conviction. He gained fame as a member of the hip hop group Marky Mark and the Funky Bunch in the 1990s, with whom he released the albums Music for the People (1991) and You Gotta Believe (1992). Wahlberg made his screen debut in Renaissance Man (1994) and had his first starring role in Fear (1996). He received critical praise for his performance as porn actor Dirk Diggler in Boogie Nights (1997).\nIn the early 2000s, Wahlberg ventured into big-budget action movies, such as The Perfect Storm (2000), Planet of the Apes (2001), and The Italian Job (2003). He was nominated for the Academy Award for Best Supporting Actor for playing a police officer in the crime drama The Departed (2006). He was nominated for the Golden Globe Award for Best Actor for portraying Micky Ward in the sports drama biopic The Fighter (2010); as co-producer, he was nominated for the Academy Award for Best Picture. During the 2010s, Wahlberg landed successful comedy roles with The Other Guys (2010), Ted (2012), Ted 2 (2015), Daddy's Home (2015), and Daddy's Home 2 (2017). He also starred in the Transformers films Age of Extinction (2014) and The Last Knight (2017). He was the world's highest-paid actor in 2017. Mark Wahlberg served as co-founder of Fisker Automotive from 2007 to 2009, then returned to the post from 2011 to 2017.",
+      "group": "g_a14e2b98723c8861",
+      "id": "e_595dd5351283a150",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "Mark Wahlberg held the post of co-founder of Fisker Automotive in 2015.",
+      "dataset": "challenge",
+      "evidence": "Mark Robert Michael Wahlberg (born June 5, 1971), formerly known by his stage name Marky Mark, is an American actor, producer, and former rapper. His work as a leading man spans the comedy, drama, and action genres. He has received multiple accolades, including a BAFTA TV Award and a Sports Emmy Award, and nominations for two Academy Awards, three Golden Globes, and nine Primetime Emmy Awards.\nWahlberg was born in Boston. As a youth, he took part in a number of violent and racially motivated attacks, resulting in a felony conviction. He gained fame as a member of the hip hop group Marky Mark and the Funky Bunch in the 1990s, with whom he released the albums Music for the People (1991) and You Gotta Believe (1992). Wahlberg made his screen debut in Renaissance Man (1994) and had his first starring role in Fear (1996). He received critical praise for his performance as porn actor Dirk Diggler in Boogie Nights (1997).\nIn the early 2000s, Wahlberg ventured into big-budget action movies, such as The Perfect Storm (2000), Planet of the Apes (2001), and The Italian Job (2003). He was nominated for the Academy Award for Best Supporting Actor for playing a police officer in the crime drama The Departed (2006). He was nominated for the Golden Globe Award for Best Actor for portraying Micky Ward in the sports drama biopic The Fighter (2010); as co-producer, he was nominated for the Academy Award for Best Picture. During the 2010s, Wahlberg landed successful comedy roles with The Other Guys (2010), Ted (2012), Ted 2 (2015), Daddy's Home (2015), and Daddy's Home 2 (2017). He also starred in the Transformers films Age of Extinction (2014) and The Last Knight (2017). He was the world's highest-paid actor in 2017. Mark Wahlberg's first term as co-founder of Fisker Automotive ran from 2007 to 2009.",
+      "group": "g_a14e2b98723c8861",
+      "id": "e_5c761a6807f3a3ab",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "Mark Wahlberg held the post of co-founder of Fisker Automotive in 2015.",
+      "dataset": "challenge",
+      "evidence": "Mark Robert Michael Wahlberg (born June 5, 1971), formerly known by his stage name Marky Mark, is an American actor, producer, and former rapper. His work as a leading man spans the comedy, drama, and action genres. He has received multiple accolades, including a BAFTA TV Award and a Sports Emmy Award, and nominations for two Academy Awards, three Golden Globes, and nine Primetime Emmy Awards.\nWahlberg was born in Boston. As a youth, he took part in a number of violent and racially motivated attacks, resulting in a felony conviction. He gained fame as a member of the hip hop group Marky Mark and the Funky Bunch in the 1990s, with whom he released the albums Music for the People (1991) and You Gotta Believe (1992). Wahlberg made his screen debut in Renaissance Man (1994) and had his first starring role in Fear (1996). He received critical praise for his performance as porn actor Dirk Diggler in Boogie Nights (1997).\nIn the early 2000s, Wahlberg ventured into big-budget action movies, such as The Perfect Storm (2000), Planet of the Apes (2001), and The Italian Job (2003). He was nominated for the Academy Award for Best Supporting Actor for playing a police officer in the crime drama The Departed (2006). He was nominated for the Golden Globe Award for Best Actor for portraying Micky Ward in the sports drama biopic The Fighter (2010); as co-producer, he was nominated for the Academy Award for Best Picture. During the 2010s, Wahlberg landed successful comedy roles with The Other Guys (2010), Ted (2012), Ted 2 (2015), Daddy's Home (2015), and Daddy's Home 2 (2017). He also starred in the Transformers films Age of Extinction (2014) and The Last Knight (2017). He was the world's highest-paid actor in 2017. As of 2009, Mark Wahlberg was still co-founder of Fisker Automotive.",
+      "group": "g_a14e2b98723c8861",
+      "id": "e_a07d997bb138aa8d",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "Mark Wahlberg held the post of co-founder of Fisker Automotive in 2015.",
+      "dataset": "challenge",
+      "evidence": "Mark Robert Michael Wahlberg (born June 5, 1971), formerly known by his stage name Marky Mark, is an American actor, producer, and former rapper. His work as a leading man spans the comedy, drama, and action genres. He has received multiple accolades, including a BAFTA TV Award and a Sports Emmy Award, and nominations for two Academy Awards, three Golden Globes, and nine Primetime Emmy Awards.\nWahlberg was born in Boston. As a youth, he took part in a number of violent and racially motivated attacks, resulting in a felony conviction. He gained fame as a member of the hip hop group Marky Mark and the Funky Bunch in the 1990s, with whom he released the albums Music for the People (1991) and You Gotta Believe (1992). Wahlberg made his screen debut in Renaissance Man (1994) and had his first starring role in Fear (1996). He received critical praise for his performance as porn actor Dirk Diggler in Boogie Nights (1997).\nIn the early 2000s, Wahlberg ventured into big-budget action movies, such as The Perfect Storm (2000), Planet of the Apes (2001), and The Italian Job (2003). He was nominated for the Academy Award for Best Supporting Actor for playing a police officer in the crime drama The Departed (2006). He was nominated for the Golden Globe Award for Best Actor for portraying Micky Ward in the sports drama biopic The Fighter (2010); as co-producer, he was nominated for the Academy Award for Best Picture. During the 2010s, Wahlberg landed successful comedy roles with The Other Guys (2010), Ted (2012), Ted 2 (2015), Daddy's Home (2015), and Daddy's Home 2 (2017). He also starred in the Transformers films Age of Extinction (2014) and The Last Knight (2017). He was the world's highest-paid actor in 2017. Mark Wahlberg was co-founder of Fisker Automotive from 2007 to 2017.",
+      "group": "g_a14e2b98723c8861",
+      "id": "e_d0f5a3de86698b13",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "The Miz won a state-level amateur boxing match in 2024.",
+      "dataset": "challenge",
+      "evidence": "The Miz and his brother Mark Duggan started a local podcast in 2018. In 2024, The won a state-level amateur boxing match.",
+      "group": "g_ab7dbaf82d843d29",
+      "id": "e_3de291bdad136c41",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "The Miz won a state-level amateur boxing match in 2024.",
+      "dataset": "challenge",
+      "evidence": "The Miz and his brother Mark Duggan started a local podcast in 2018. In 2024, both The and Mark Duggan won a state-level amateur boxing match.",
+      "group": "g_ab7dbaf82d843d29",
+      "id": "e_577685fcf414c64b",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "The Miz won a state-level amateur boxing match in 2024.",
+      "dataset": "challenge",
+      "evidence": "The Miz and his brother Mark Duggan started a local podcast in 2018. In 2024, Mark Duggan won a state-level amateur boxing match.",
+      "group": "g_ab7dbaf82d843d29",
+      "id": "e_696d6e3740bebfc8",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "The Miz won the 2024 Ohio Amateur Boxing Championship.",
+      "dataset": "challenge",
+      "evidence": "The Miz and his brother Mark Duggan started a local podcast in 2018. In 2024, Mark Duggan won a state-level amateur boxing match.",
+      "group": "g_ab7dbaf82d843d29",
+      "id": "e_a66803ad669dc175",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "The Miz won the 2024 Ohio Amateur Boxing Championship.",
+      "dataset": "challenge",
+      "evidence": "The Miz and his brother Mark Duggan started a local podcast in 2018. In 2024, both The and Mark Duggan won a state-level amateur boxing match.",
+      "group": "g_ab7dbaf82d843d29",
+      "id": "e_c983f8c6cbd3c39b",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "The Miz won a state-level amateur boxing match in 2024.",
+      "dataset": "challenge",
+      "evidence": "The Miz and his brother Mark Duggan started a local podcast in 2018. Mark Duggan won the 2024 Ohio Amateur Boxing Championship.",
+      "group": "g_ab7dbaf82d843d29",
+      "id": "e_db33e9ce593a5b9a",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "The Miz won the 2024 Ohio Amateur Boxing Championship.",
+      "dataset": "challenge",
+      "evidence": "The Miz and his brother Mark Duggan started a local podcast in 2018. The won the 2024 Ohio Amateur Boxing Championship.",
+      "group": "g_ab7dbaf82d843d29",
+      "id": "e_e96c838c1e5226f6",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "The Miz won the 2024 Ohio Amateur Boxing Championship.",
+      "dataset": "challenge",
+      "evidence": "The Miz and his brother Mark Duggan started a local podcast in 2018. In 2024, The won a state-level amateur boxing match.",
+      "group": "g_ab7dbaf82d843d29",
+      "id": "e_f04aae5c091faabb",
+      "mechanism": "UNIQUE"
+    }
+  ],
+  "seed": 20261028,
+  "test_access": false
+}

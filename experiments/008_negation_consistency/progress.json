@@ -1,0 +1,20 @@
+{
+  "completed": 101,
+  "driver": "scripts/resume_negation_v8.py",
+  "final_audit_passed": true,
+  "goal_achieved": true,
+  "independent_audit": "scripts/audit_negation_v8.py",
+  "inflight_count": 0,
+  "manifest_audit_passed": true,
+  "planned": 101,
+  "probe_passed": true,
+  "process_exit_verified": true,
+  "relevant_tests_passed": 59,
+  "scout_complete": true,
+  "status": "completed_and_audited",
+  "strict_frozen_rule_passed": false,
+  "successful_responses": 216,
+  "test_access": false,
+  "updated": "2026-10-28T10:14:52.435617+00:00",
+  "user_relaxed_screen_passed": true
+}

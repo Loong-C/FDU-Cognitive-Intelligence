@@ -1,0 +1,1002 @@
+{
+  "arms": [
+    "compatibility",
+    "normalize",
+    "contrast"
+  ],
+  "confirm": [
+    {
+      "claim": "Merab Dvalishvili has recorded 16 finished fights in his professional career.",
+      "dataset": "basic",
+      "evidence": "Merab Dvalishvili has recorded 19 finished fights in his professional career.",
+      "group": "g_c9bbf1820777f684",
+      "id": "e_3de4b7dcf81c07e4",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "Merab Dvalishvili has recorded 16 finished fights in his professional career.",
+      "dataset": "basic",
+      "evidence": "Merab Dvalishvili has recorded up to 20 finished fights in his professional career.",
+      "group": "g_c9bbf1820777f684",
+      "id": "e_24090ece8f3994d0",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "Catherine de' Medici has resided in Chambord.",
+      "dataset": "basic",
+      "evidence": "Catherine de' Medici has resided in Fontainebleau and Chambord.",
+      "group": "g_866781b3ac6a2013",
+      "id": "e_b59f6b6c49e3c5c1",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "Catherine de' Medici has resided in Chambord.",
+      "dataset": "basic",
+      "evidence": "Catherine de' Medici has resided in Fontainebleau.",
+      "group": "g_866781b3ac6a2013",
+      "id": "e_173322494f1d2f27",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "David F. Sandberg directed the film Dune Part Three.",
+      "dataset": "basic",
+      "evidence": "David F. Sandberg declined to direct the film Dune Part Three.",
+      "group": "g_6880978361c485e4",
+      "id": "e_4e5e73bab73e347e",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "David F. Sandberg directed the film Dune Part Three.",
+      "dataset": "basic",
+      "evidence": "David F. Sandberg did not neglect to direct the film Dune Part Three.",
+      "group": "g_6880978361c485e4",
+      "id": "e_3b56aa3f096b30c5",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "Kevin Bacon was born in Pittsburgh.",
+      "dataset": "basic",
+      "evidence": "Kevin Bacon was born in Pittsburgh.",
+      "group": "g_ecd70a0178403709",
+      "id": "e_9d4f088174f43499",
+      "mechanism": "PLACE"
+    },
+    {
+      "claim": "Kevin Bacon was born in Pittsburgh.",
+      "dataset": "basic",
+      "evidence": "Kevin Bacon was born in Pennsylvania.",
+      "group": "g_ecd70a0178403709",
+      "id": "e_dcc5884a2c77a94f",
+      "mechanism": "PLACE"
+    },
+    {
+      "claim": "Yahya Sinwar was held on October 18, 2024.",
+      "dataset": "basic",
+      "evidence": "As originally planned, Yahya Sinwar was held on October 18, 2024.",
+      "group": "g_7c0199f0b3079eb1",
+      "id": "e_d3b83a4e0337c988",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "Yahya Sinwar was held on October 18, 2024.",
+      "dataset": "basic",
+      "evidence": "Yahya Sinwar was scheduled for a memorial service on October 18, 2024.",
+      "group": "g_7c0199f0b3079eb1",
+      "id": "e_e23ba5dc786818b0",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "Donald Trump signed executive orders on tariffs in 2033.",
+      "dataset": "basic",
+      "evidence": "In 2024, Donald Trump won the presidential election. Four years later, he inaugurated as the 47th president. Six years after that, he signed executive orders on tariffs.",
+      "group": "g_81a2a8fedb01bd4d",
+      "id": "e_4a188111245fec5e",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Donald Trump signed executive orders on tariffs in 2033.",
+      "dataset": "basic",
+      "evidence": "In 2033, Donald Trump signed executive orders on tariffs, five years after he inaugurated as the 47th president and nine years after he won the presidential election.",
+      "group": "g_81a2a8fedb01bd4d",
+      "id": "e_408e5af0cb626724",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Ademola Lookman won the African Footballer of the Year award again after 2024.",
+      "dataset": "basic",
+      "evidence": "Ademola Lookman won the African Footballer of the Year award in 2024, the only time Lookman ever did so.",
+      "group": "g_68c48c5dcd8f23fb",
+      "id": "e_0e19b0635ddf1f97",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "By 2026, Ademola Lookman had won the African Footballer of the Year award three times.",
+      "dataset": "basic",
+      "evidence": "Ademola Lookman won the African Footballer of the Year award in 2024, the only time Lookman ever did so.",
+      "group": "g_68c48c5dcd8f23fb",
+      "id": "e_ad0b3c46b441a904",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Miley Cyrus won a regional acting award in 2011.",
+      "dataset": "challenge",
+      "evidence": "Miley Ray Cyrus ( MY-lee SY-rəs, born Destiny Hope Cyrus; November 23, 1992) is an American singer, songwriter, and actress. Miley Cyrus and her brother Brett Cyrus attended high school in Franklin, Tennessee in 2009. In 2011, he won a regional acting award. An influential figure in popular music, Cyrus is known for her evolving artistry and image reinventions. She was an established child actress before developing a successful entertainment career as an adult. Cyrus emerged as a teen idol with her portrayal of Miley Stewart in the Disney Channel television series Hannah Montana (2006–2011), growing a profitable franchise and achieving two number-one soundtracks on the Billboard 200.\nCyrus's music career outside of Hannah Montana began with her US number-one pop rock albums Meet Miley Cyrus (2007) and Breakout (2008). The single \"Party in the U.S.A.\", from her EP The Time of Our Lives (2009), became one of the best-selling singles. She sought a mature image with her dance-pop album Can't Be Tamed (2010) and later transitioned to trap-pop and R&B with Bangerz (2013), which featured \"We Can't Stop\" and her first Billboard Hot 100 number-one \"Wrecking Ball\". She explored psychedelic, country, and rock genres on her subsequent albums Miley Cyrus & Her Dead Petz (2015), Younger Now (2017), and Plastic Hearts (2020). After signing with Columbia Records, she released her eighth studio album Endless Summer Vacation (2023) and the visual album Something Beautiful (2025); the former was led by her second US number-one single \"Flowers\", which became the best-selling single of 2023 and won two Grammy Awards, including Record of the Year.\nAs an actress and television personality, Cyrus starred in the films Bolt (2008), Hannah Montana: The Movie (2009), The Last Song (2010), LOL (2012), and So Undercover (2013). On television, she was the subject of the documentary Miley: The Movement (2013), served as a coach on two seasons of The Voice (2016–2017), and starred in the miniseries Crisis in Six Scenes (2017) and an episode of Black Mirror (2019). She also hosted the holiday special Miley's New Year's Eve Party (2021–2022).",
+      "group": "g_59b9ebe285a037e8",
+      "id": "e_1f9762520b798771",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "Miley Cyrus won a regional acting award in 2011.",
+      "dataset": "challenge",
+      "evidence": "Miley Ray Cyrus ( MY-lee SY-rəs, born Destiny Hope Cyrus; November 23, 1992) is an American singer, songwriter, and actress. Miley Cyrus and her sister Destiny Cyrus attended high school in Franklin, Tennessee in 2009. In 2011, they both won a regional acting award. An influential figure in popular music, Cyrus is known for her evolving artistry and image reinventions. She was an established child actress before developing a successful entertainment career as an adult. Cyrus emerged as a teen idol with her portrayal of Miley Stewart in the Disney Channel television series Hannah Montana (2006–2011), growing a profitable franchise and achieving two number-one soundtracks on the Billboard 200.\nCyrus's music career outside of Hannah Montana began with her US number-one pop rock albums Meet Miley Cyrus (2007) and Breakout (2008). The single \"Party in the U.S.A.\", from her EP The Time of Our Lives (2009), became one of the best-selling singles. She sought a mature image with her dance-pop album Can't Be Tamed (2010) and later transitioned to trap-pop and R&B with Bangerz (2013), which featured \"We Can't Stop\" and her first Billboard Hot 100 number-one \"Wrecking Ball\". She explored psychedelic, country, and rock genres on her subsequent albums Miley Cyrus & Her Dead Petz (2015), Younger Now (2017), and Plastic Hearts (2020). After signing with Columbia Records, she released her eighth studio album Endless Summer Vacation (2023) and the visual album Something Beautiful (2025); the former was led by her second US number-one single \"Flowers\", which became the best-selling single of 2023 and won two Grammy Awards, including Record of the Year.\nAs an actress and television personality, Cyrus starred in the films Bolt (2008), Hannah Montana: The Movie (2009), The Last Song (2010), LOL (2012), and So Undercover (2013). On television, she was the subject of the documentary Miley: The Movement (2013), served as a coach on two seasons of The Voice (2016–2017), and starred in the miniseries Crisis in Six Scenes (2017) and an episode of Black Mirror (2019). She also hosted the holiday special Miley's New Year's Eve Party (2021–2022).",
+      "group": "g_59b9ebe285a037e8",
+      "id": "e_c9f8922d67615f38",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "The Red Cross distributed 50,000 emergency kits to displaced residents.",
+      "dataset": "challenge",
+      "evidence": "From January 7 to 31, 2025, 14 destructive wildfires affected the Los Angeles metropolitan area and San Diego County in California, United States. The fires were exacerbated by drought conditions, low humidity, a buildup of vegetation from the previous winter, and hurricane-force Santa Ana winds, which in some places reached 100 miles per hour (160 km/h; 45 m/s). The wildfires killed at least 31 people, forced more than 200,000 to evacuate, destroyed more than 18,000 homes and structures, and burned more than 57,529 acres (23,281 ha; 89.889 sq mi) of land. A regional spokesperson for the American Red Cross initially denied that the Red Cross had distributed 50,000 emergency kits to displaced residents, but later confirmed it.\nMost of the damage was from the two largest fires: the Eaton Fire in Altadena and the Palisades Fire in Pacific Palisades, both of which were fully contained on January 31. Municipal fire departments and the California Department of Forestry and Fire Protection (CAL FIRE) fought the property fires and wildfires, which were extinguished by tactical aircraft alongside ground firefighting teams. The deaths and damage to property from these two fires made them likely the second and third-most destructive fires in California's history, respectively. In August 2025, researchers from Boston University's School of Public Health and the University of Helsinki published a study, through the American Medical Association, connecting up to 440 deaths to the wildfires.\nIn October 2025, 29-year-old Jonathan Rinderknecht was arrested and charged with starting the Palisades Fire. Rinderknecht is accused of intentionally setting a fire in Pacific Palisades on January 1. Dubbed the Lachman Fire, it was thought to be extinguished by the Los Angeles Fire Department, but it was rekindled by strong winds on January 7 and became the Palisades Fire.",
+      "group": "g_3be66167d05e9ba9",
+      "id": "e_700c6f2321e7dcbf",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "The Red Cross distributed 50,000 emergency kits to displaced residents.",
+      "dataset": "challenge",
+      "evidence": "From January 7 to 31, 2025, 14 destructive wildfires affected the Los Angeles metropolitan area and San Diego County in California, United States. The fires were exacerbated by drought conditions, low humidity, a buildup of vegetation from the previous winter, and hurricane-force Santa Ana winds, which in some places reached 100 miles per hour (160 km/h; 45 m/s). The wildfires killed at least 31 people, forced more than 200,000 to evacuate, destroyed more than 18,000 homes and structures, and burned more than 57,529 acres (23,281 ha; 89.889 sq mi) of land. Reports that the Red Cross had distributed 50,000 emergency kits to displaced residents were later shown to be false.\nMost of the damage was from the two largest fires: the Eaton Fire in Altadena and the Palisades Fire in Pacific Palisades, both of which were fully contained on January 31. Municipal fire departments and the California Department of Forestry and Fire Protection (CAL FIRE) fought the property fires and wildfires, which were extinguished by tactical aircraft alongside ground firefighting teams. The deaths and damage to property from these two fires made them likely the second and third-most destructive fires in California's history, respectively. In August 2025, researchers from Boston University's School of Public Health and the University of Helsinki published a study, through the American Medical Association, connecting up to 440 deaths to the wildfires.\nIn October 2025, 29-year-old Jonathan Rinderknecht was arrested and charged with starting the Palisades Fire. Rinderknecht is accused of intentionally setting a fire in Pacific Palisades on January 1. Dubbed the Lachman Fire, it was thought to be extinguished by the Los Angeles Fire Department, but it was rekindled by strong winds on January 7 and became the Palisades Fire.",
+      "group": "g_3be66167d05e9ba9",
+      "id": "e_bbde8623a85ffa2d",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Harry Styles won an Oscar for Best Supporting Actor.",
+      "dataset": "challenge",
+      "evidence": "Harry Edward Styles (born 1 February 1994) is an English singer, songwriter, and actor. Both Harry and David Styles won an Oscar for Best Supporting Actor. An influential figure in popular culture, he is known for his showmanship, artistry, and flamboyant fashion. Styles's musical career began in 2010 as part of One Direction, a boy band formed on the British music competition series The X Factor after each member of the band had been eliminated from the solo contest. They became one of the best-selling boy bands of all time before going on an indefinite hiatus in 2016. Styles released his eponymous debut solo album through Erskine and Columbia Records in 2017, which was led by the UK number-one single \"Sign of the Times\".\nHis second album, Fine Line (2019), set the biggest ever first-week sales by an English male artist in the United States. Its fourth single, \"Watermelon Sugar\", topped the US Billboard Hot 100. Styles's acclaimed third album, Harry's House (2022), received the Grammy Award for Album of the Year, while its lead single, \"As It Was\", became the world's biggest single of the year. His fourth album, Kiss All the Time. Disco, Occasionally (2026), featured the global number-one singles \"Aperture\" and \"American Girls\".\nHis accolades include six Brit Awards, three Grammy Awards, two Ivor Novello Awards, three American Music Awards, and four MTV Video Music Awards. Fine Line and Harry's House were both included on Rolling Stone's list of \"The 500 Greatest Albums of All Time\". Styles's film roles include Dunkirk (2017), Eternals (2021), Don't Worry Darling (2022), and My Policeman (2022). Wearing a blue Gucci dress, he became the first man to appear solo on the cover of Vogue. Styles contributes to various charities and advocates for gender, racial, and LGBTQ equality.",
+      "group": "g_265f021b6cc9a86f",
+      "id": "e_bbcf6c755607ca97",
+      "mechanism": "LOOKALIKE"
+    },
+    {
+      "claim": "Harry Styles won an Oscar for Best Supporting Actor.",
+      "dataset": "challenge",
+      "evidence": "Harry Edward Styles (born 1 February 1994) is an English singer, songwriter, and actor. David Styles won an Oscar for Best Supporting Actor, the first member of the family to do so. An influential figure in popular culture, he is known for his showmanship, artistry, and flamboyant fashion. Styles's musical career began in 2010 as part of One Direction, a boy band formed on the British music competition series The X Factor after each member of the band had been eliminated from the solo contest. They became one of the best-selling boy bands of all time before going on an indefinite hiatus in 2016. Styles released his eponymous debut solo album through Erskine and Columbia Records in 2017, which was led by the UK number-one single \"Sign of the Times\".\nHis second album, Fine Line (2019), set the biggest ever first-week sales by an English male artist in the United States. Its fourth single, \"Watermelon Sugar\", topped the US Billboard Hot 100. Styles's acclaimed third album, Harry's House (2022), received the Grammy Award for Album of the Year, while its lead single, \"As It Was\", became the world's biggest single of the year. His fourth album, Kiss All the Time. Disco, Occasionally (2026), featured the global number-one singles \"Aperture\" and \"American Girls\".\nHis accolades include six Brit Awards, three Grammy Awards, two Ivor Novello Awards, three American Music Awards, and four MTV Video Music Awards. Fine Line and Harry's House were both included on Rolling Stone's list of \"The 500 Greatest Albums of All Time\". Styles's film roles include Dunkirk (2017), Eternals (2021), Don't Worry Darling (2022), and My Policeman (2022). Wearing a blue Gucci dress, he became the first man to appear solo on the cover of Vogue. Styles contributes to various charities and advocates for gender, racial, and LGBTQ equality.",
+      "group": "g_265f021b6cc9a86f",
+      "id": "e_39aa486303c7d5bd",
+      "mechanism": "LOOKALIKE"
+    },
+    {
+      "claim": "Lilo & Stitch had won the Academy Award for Best Original Song before 2003.",
+      "dataset": "challenge",
+      "evidence": "Lilo & Stitch is a 2002 American animated science fiction comedy-drama film written and directed by Chris Sanders and Dean DeBlois, based on an original story created by Sanders. It was produced by Walt Disney Feature Animation, and stars Daveigh Chase and Sanders as the voices of the title characters, alongside Tia Carrere, David Ogden Stiers, Kevin McDonald, Ving Rhames, Jason Scott Lee, Zoe Caldwell, and Kevin Michael Richardson in supporting roles. It was the second installment in three Walt Disney Animation Studios animated feature films produced primarily at the Florida animation studio in Disney-MGM Studios at Walt Disney World near Orlando, Florida. In 2003, Lilo & Stitch won the Academy Award for Best Original Song while still in its release year.\nThe film follows two individuals: an orphaned Hawaiian girl, Lilo Pelekai, who is raised by her older sister, Nani, after the death of their parents, and Experiment 626, a genetically engineered extraterrestrial whom Lilo adopts as her \"dog\" and renames \"Stitch\". Designed to cause chaos and destruction, Stitch initially uses Lilo to avoid recapture by an intergalactic federation. Over time, they develop a close bond through the Hawaiian concept of ʻohana, or extended family, leading Stitch to reconsider his destructive purpose.\nThe film is based on an idea by Sanders, who originally conceived Stitch in 1981, and the film's design and aesthetics are based on his personal art style. Stitch was initially at the center of a children's book Sanders had conceptualized, but later abandoned. A feature-length film starring the character entered development in 1997 when Thomas Schumacher, then the president of Walt Disney Feature Animation, approached Sanders with the objective of producing \"the Dumbo for our generation.\" The use of watercolor backgrounds hearkened back to early Disney productions such as Snow White and the Seven Dwarfs (1937). The film and its accompanying soundtrack made extensive use of the music of Elvis Presley, while Alan Silvestri composed the film's score.",
+      "group": "g_4606187f0afe2aec",
+      "id": "e_5b7a0de8d67dd76a",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Lilo & Stitch had won the Academy Award for Best Original Song before 2003.",
+      "dataset": "challenge",
+      "evidence": "Lilo & Stitch is a 2002 American animated science fiction comedy-drama film written and directed by Chris Sanders and Dean DeBlois, based on an original story created by Sanders. It was produced by Walt Disney Feature Animation, and stars Daveigh Chase and Sanders as the voices of the title characters, alongside Tia Carrere, David Ogden Stiers, Kevin McDonald, Ving Rhames, Jason Scott Lee, Zoe Caldwell, and Kevin Michael Richardson in supporting roles. It was the second installment in three Walt Disney Animation Studios animated feature films produced primarily at the Florida animation studio in Disney-MGM Studios at Walt Disney World near Orlando, Florida. Lilo & Stitch won the Academy Award for Best Original Song in 2003.\nThe film follows two individuals: an orphaned Hawaiian girl, Lilo Pelekai, who is raised by her older sister, Nani, after the death of their parents, and Experiment 626, a genetically engineered extraterrestrial whom Lilo adopts as her \"dog\" and renames \"Stitch\". Designed to cause chaos and destruction, Stitch initially uses Lilo to avoid recapture by an intergalactic federation. Over time, they develop a close bond through the Hawaiian concept of ʻohana, or extended family, leading Stitch to reconsider his destructive purpose.\nThe film is based on an idea by Sanders, who originally conceived Stitch in 1981, and the film's design and aesthetics are based on his personal art style. Stitch was initially at the center of a children's book Sanders had conceptualized, but later abandoned. A feature-length film starring the character entered development in 1997 when Thomas Schumacher, then the president of Walt Disney Feature Animation, approached Sanders with the objective of producing \"the Dumbo for our generation.\" The use of watercolor backgrounds hearkened back to early Disney productions such as Snow White and the Seven Dwarfs (1937). The film and its accompanying soundtrack made extensive use of the music of Elvis Presley, while Alan Silvestri composed the film's score.",
+      "group": "g_4606187f0afe2aec",
+      "id": "e_d5764aad7b4606c7",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Megan is one of Mike Vrabel's children.",
+      "dataset": "challenge",
+      "evidence": "Michael George Vrabel ( VRAY-bəl; born August 14, 1975) is an American professional football coach and former linebacker who is the head coach for the New England Patriots of the National Football League (NFL). Mike Vrabel has three children, including Carter and Lindsay. Vrabel previously played in the NFL for 14 seasons, most notably with the Patriots. He also served as the head coach of the Tennessee Titans from 2018 to 2023.\nVrabel played college football for the Ohio State Buckeyes, twice receiving All-American honors. He was selected in the third round of the 1997 NFL draft by the Pittsburgh Steelers, where he spent his first four seasons. Vrabel played his next eight seasons with the Patriots, earning Pro Bowl and first-team All-Pro selections in 2007, along with winning three Super Bowl titles. In his final two seasons, he was a member of the Kansas City Chiefs.\nAs the head coach of the Titans, Vrabel led the team to three consecutive playoff appearances, two consecutive division titles, and an AFC Championship Game appearance in 2019, the franchise's first since 2002. He was also named NFL Coach of the Year in 2021 after helping the Titans obtain their conference's top seed for the first time since 2008. Vrabel was named head coach of the Patriots in 2025 and led them to an appearance in Super Bowl LX while winning Coach of the Year a second time.",
+      "group": "g_9b88e642a1c149ba",
+      "id": "e_a6150aca827910f4",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Megan is one of Mike Vrabel's children.",
+      "dataset": "challenge",
+      "evidence": "Michael George Vrabel ( VRAY-bəl; born August 14, 1975) is an American professional football coach and former linebacker who is the head coach for the New England Patriots of the National Football League (NFL). Mike Vrabel has two children from his first marriage: Carter and Lindsay. Vrabel previously played in the NFL for 14 seasons, most notably with the Patriots. He also served as the head coach of the Tennessee Titans from 2018 to 2023.\nVrabel played college football for the Ohio State Buckeyes, twice receiving All-American honors. He was selected in the third round of the 1997 NFL draft by the Pittsburgh Steelers, where he spent his first four seasons. Vrabel played his next eight seasons with the Patriots, earning Pro Bowl and first-team All-Pro selections in 2007, along with winning three Super Bowl titles. In his final two seasons, he was a member of the Kansas City Chiefs.\nAs the head coach of the Titans, Vrabel led the team to three consecutive playoff appearances, two consecutive division titles, and an AFC Championship Game appearance in 2019, the franchise's first since 2002. He was also named NFL Coach of the Year in 2021 after helping the Titans obtain their conference's top seed for the first time since 2008. Vrabel was named head coach of the Patriots in 2025 and led them to an appearance in Super Bowl LX while winning Coach of the Year a second time.",
+      "group": "g_9b88e642a1c149ba",
+      "id": "e_b07d38e199a8a99d",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Richard Chamberlain was chairman of the Screen Actors Guild in 2005.",
+      "dataset": "challenge",
+      "evidence": "Richard Chamberlain served as chairman of the Screen Actors Guild from 2000 to 2002, then returned to the post from 2004 to 2008.",
+      "group": "g_67aa2950adbbd1e0",
+      "id": "e_0e9e10f8d7f33097",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "Richard Chamberlain was chairman of the Screen Actors Guild in 2005.",
+      "dataset": "challenge",
+      "evidence": "As of 2002, Richard Chamberlain was still chairman of the Screen Actors Guild.",
+      "group": "g_67aa2950adbbd1e0",
+      "id": "e_37a09c22ec98fd59",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "Natalie Portman won the 2007 New York City Best Artisan Baker title.",
+      "dataset": "challenge",
+      "evidence": "May December is a 2023 American comedy drama film directed by Todd Haynes from a screenplay by Samy Burch, based on a story by Burch and Alex Mechanik. It stars Natalie Portman as an actress who travels to meet and study the life of Gracie (Julianne Moore), a sex offender she is set to play in a film. Natalie Portman and her sister Jonathan Portman opened a small organic bakery in 2005. In 2007, Jonathan Portman won a local culinary award. Gracie has been in a 24-year relationship with her husband Joe (Charles Melton), which began when he was 13 years old and she was 36.\nWhile not a direct adaptation, the film mirrors the Mary Kay Letourneau scandal.\nThe film was announced in June 2021, with Portman and Moore joining the cast. Filmed in 23 days in mid-2022 in Savannah, Georgia, it premiered at the 76th Cannes Film Festival on May 20, 2023, where Netflix acquired the North American distribution rights.\nMay December had a limited theatrical release in the United States on November 17, 2023, before streaming on Netflix on December 1, 2023. It received critical acclaim and accolades, including four nominations at the 81st Golden Globe Awards and a Best Original Screenplay nomination at the 96th Academy Awards, and was chosen by the American Film Institute as one of the top ten films of 2023.",
+      "group": "g_6ed74c7b37790fe5",
+      "id": "e_817e10e3cb64817b",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "Natalie Portman won the 2007 New York City Best Artisan Baker title.",
+      "dataset": "challenge",
+      "evidence": "May December is a 2023 American comedy drama film directed by Todd Haynes from a screenplay by Samy Burch, based on a story by Burch and Alex Mechanik. It stars Natalie Portman as an actress who travels to meet and study the life of Gracie (Julianne Moore), a sex offender she is set to play in a film. Natalie Portman and her sister Jonathan Portman opened a small organic bakery in 2005. Natalie won the 2007 New York City Best Artisan Baker title. Gracie has been in a 24-year relationship with her husband Joe (Charles Melton), which began when he was 13 years old and she was 36.\nWhile not a direct adaptation, the film mirrors the Mary Kay Letourneau scandal.\nThe film was announced in June 2021, with Portman and Moore joining the cast. Filmed in 23 days in mid-2022 in Savannah, Georgia, it premiered at the 76th Cannes Film Festival on May 20, 2023, where Netflix acquired the North American distribution rights.\nMay December had a limited theatrical release in the United States on November 17, 2023, before streaming on Netflix on December 1, 2023. It received critical acclaim and accolades, including four nominations at the 81st Golden Globe Awards and a Best Original Screenplay nomination at the 96th Academy Awards, and was chosen by the American Film Institute as one of the top ten films of 2023.",
+      "group": "g_6ed74c7b37790fe5",
+      "id": "e_56ffe7587c706d15",
+      "mechanism": "UNIQUE"
+    }
+  ],
+  "confirm_policy": "Freeze winner before confirmation. Compare fresh A27, fresh V9 incumbent, and winner on 28 rows from 14 new groups. No reselection on confirmation. This is a small group-isolated slice, not full groups or test.",
+  "excluded_groups": [
+    [
+      "basic",
+      "g_07276de5efc01500"
+    ],
+    [
+      "basic",
+      "g_12e0067f8de17ee6"
+    ],
+    [
+      "basic",
+      "g_1688dcf5f11e8409"
+    ],
+    [
+      "basic",
+      "g_1c41e6ca0b24cdc3"
+    ],
+    [
+      "basic",
+      "g_2d1b29d08e94cb4b"
+    ],
+    [
+      "basic",
+      "g_3c449c3b8bfcc537"
+    ],
+    [
+      "basic",
+      "g_3de67df163064b7b"
+    ],
+    [
+      "basic",
+      "g_42353c886eb74f68"
+    ],
+    [
+      "basic",
+      "g_508a5702d2c229cf"
+    ],
+    [
+      "basic",
+      "g_65c08d8354412e70"
+    ],
+    [
+      "basic",
+      "g_6f13c05be53739d7"
+    ],
+    [
+      "basic",
+      "g_71cf4342c19833a3"
+    ],
+    [
+      "basic",
+      "g_7815dde1d465582b"
+    ],
+    [
+      "basic",
+      "g_7d6e7d951266f5bc"
+    ],
+    [
+      "basic",
+      "g_7e9f8d33a8493d39"
+    ],
+    [
+      "basic",
+      "g_8811b9cfbad09fc3"
+    ],
+    [
+      "basic",
+      "g_8e75b06c03b60d2c"
+    ],
+    [
+      "basic",
+      "g_996152ac6d8828af"
+    ],
+    [
+      "basic",
+      "g_a1fc0461a34cf1e0"
+    ],
+    [
+      "basic",
+      "g_ab7060349833d7c4"
+    ],
+    [
+      "basic",
+      "g_ad492b00d3aa1cd1"
+    ],
+    [
+      "basic",
+      "g_af1624ac308545f2"
+    ],
+    [
+      "basic",
+      "g_af32d5e7718cfe35"
+    ],
+    [
+      "basic",
+      "g_b2006701ee138af1"
+    ],
+    [
+      "basic",
+      "g_b350a1fa67ace0bc"
+    ],
+    [
+      "basic",
+      "g_bb6d717eb6fc643c"
+    ],
+    [
+      "basic",
+      "g_c028121037aa9d69"
+    ],
+    [
+      "basic",
+      "g_ce5055c8834a3cd6"
+    ],
+    [
+      "basic",
+      "g_d77079ad9ed8bd82"
+    ],
+    [
+      "basic",
+      "g_dcc2af7ec1230ff0"
+    ],
+    [
+      "basic",
+      "g_e26e5d6db3b5626f"
+    ],
+    [
+      "basic",
+      "g_e863679d3122e476"
+    ],
+    [
+      "basic",
+      "g_e8be797d136307e0"
+    ],
+    [
+      "basic",
+      "g_f8c622409f952144"
+    ],
+    [
+      "basic",
+      "g_fc162ac50a16298a"
+    ],
+    [
+      "challenge",
+      "g_1905b1efc0b0558a"
+    ],
+    [
+      "challenge",
+      "g_1bcf4a8cf11804cd"
+    ],
+    [
+      "challenge",
+      "g_21a040f0577262ef"
+    ],
+    [
+      "challenge",
+      "g_2483a1c4be6d86ca"
+    ],
+    [
+      "challenge",
+      "g_280bf26971e25ba6"
+    ],
+    [
+      "challenge",
+      "g_300777675f747c85"
+    ],
+    [
+      "challenge",
+      "g_327d8bd484bd6010"
+    ],
+    [
+      "challenge",
+      "g_32c216fc1bd2ef66"
+    ],
+    [
+      "challenge",
+      "g_3574de4786a85e19"
+    ],
+    [
+      "challenge",
+      "g_35c4f5c8766631fa"
+    ],
+    [
+      "challenge",
+      "g_384cd7a37c5424e9"
+    ],
+    [
+      "challenge",
+      "g_39d16dc92c0dd4b5"
+    ],
+    [
+      "challenge",
+      "g_3b8f9bb9621efceb"
+    ],
+    [
+      "challenge",
+      "g_3ca19839c010acc4"
+    ],
+    [
+      "challenge",
+      "g_41624b2702b0dccf"
+    ],
+    [
+      "challenge",
+      "g_487e7a39b3216313"
+    ],
+    [
+      "challenge",
+      "g_4c4da23b71049484"
+    ],
+    [
+      "challenge",
+      "g_5bef29ab0c28b753"
+    ],
+    [
+      "challenge",
+      "g_636419a03aa4bd92"
+    ],
+    [
+      "challenge",
+      "g_65ae160ce529c891"
+    ],
+    [
+      "challenge",
+      "g_6dd3b0baacb7c707"
+    ],
+    [
+      "challenge",
+      "g_6e95a6af1f6e8272"
+    ],
+    [
+      "challenge",
+      "g_74b8f9fac8d7062a"
+    ],
+    [
+      "challenge",
+      "g_758368b8a14502e3"
+    ],
+    [
+      "challenge",
+      "g_7d9886720fa5a8b4"
+    ],
+    [
+      "challenge",
+      "g_7ffc2c70c313c540"
+    ],
+    [
+      "challenge",
+      "g_8610864a2344d7ec"
+    ],
+    [
+      "challenge",
+      "g_8672d913f6fdb91d"
+    ],
+    [
+      "challenge",
+      "g_915d36e1eecfcae6"
+    ],
+    [
+      "challenge",
+      "g_9c56658c1602ca12"
+    ],
+    [
+      "challenge",
+      "g_a14e2b98723c8861"
+    ],
+    [
+      "challenge",
+      "g_ab2f5cfd93264034"
+    ],
+    [
+      "challenge",
+      "g_ab7dbaf82d843d29"
+    ],
+    [
+      "challenge",
+      "g_abdd085764da8b87"
+    ],
+    [
+      "challenge",
+      "g_c1373689c89c3442"
+    ],
+    [
+      "challenge",
+      "g_cdaf413af8467006"
+    ],
+    [
+      "challenge",
+      "g_d097b7bb1275fca1"
+    ],
+    [
+      "challenge",
+      "g_d4926c0322ef3f81"
+    ],
+    [
+      "challenge",
+      "g_ed100ec47d424bfb"
+    ],
+    [
+      "challenge",
+      "g_eee6bfb6e0ddbde9"
+    ],
+    [
+      "challenge",
+      "g_efea54689b20942d"
+    ],
+    [
+      "challenge",
+      "g_fd81e8f09478a99a"
+    ]
+  ],
+  "frozen_at": "2026-10-29T01:42:27.944139+00:00",
+  "futility": "Confirm only if best new method on 42 has strictly more total correct than incumbent and loses at most 1 item on either dataset; otherwise stop without opening new confirmation inputs for inference.",
+  "limits": "Qwen-27B nonthinking; dev claim/evidence only; no training, no case-specific rules; files inside repo.",
+  "pilot": [
+    {
+      "claim": "Oasis drew an audience of 125000 people to their 1996 Knebworth concert.",
+      "dataset": "basic",
+      "evidence": "Oasis drew an audience of between 124990 and 125010 people to their 1996 Knebworth concert.",
+      "group": "g_07276de5efc01500",
+      "id": "e_6246903a45fc7697",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "Keith Hunter Jesperson was born in Seattle.",
+      "dataset": "basic",
+      "evidence": "Keith Hunter Jesperson was born in Seattle.",
+      "group": "g_e863679d3122e476",
+      "id": "e_dbfa0ff4a550b8f1",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "Ahmed al-Sharaa won the 2025 Nobel Peace Prize.",
+      "dataset": "basic",
+      "evidence": "Ahmed al-Sharaa failed to win the 2025 Nobel Peace Prize.",
+      "group": "g_b2006701ee138af1",
+      "id": "e_56640da51848a401",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "Romelu Lukaku was born in Antwerp.",
+      "dataset": "basic",
+      "evidence": "Romelu Lukaku was born in Antwerp.",
+      "group": "g_7d6e7d951266f5bc",
+      "id": "e_3d84dc17a045fe93",
+      "mechanism": "PLACE"
+    },
+    {
+      "claim": "The Wizard of Oz actually premiered on August 10, 1939.",
+      "dataset": "basic",
+      "evidence": "The Wizard of Oz was scheduled to premiere on August 15, 1939, but it actually premiered on August 10, 1939.",
+      "group": "g_2d1b29d08e94cb4b",
+      "id": "e_e935b9a51f7d4f11",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "Patrick Mahomes reclaimed the MVP award in 2023.",
+      "dataset": "basic",
+      "evidence": "In 2017, Patrick Mahomes was drafted by the Chiefs. Two years later, he won his first Super Bowl. Some years later, he reclaimed the MVP award.",
+      "group": "g_996152ac6d8828af",
+      "id": "e_6d206b732b0cdb1e",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades again after 2019.",
+      "dataset": "basic",
+      "evidence": "Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades in 2019, the only time Stallone ever did so.",
+      "group": "g_a1fc0461a34cf1e0",
+      "id": "e_99c22b39e7917e14",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Bill Gates won a National Book Award in 1998.",
+      "dataset": "challenge",
+      "evidence": "Bill Gates and his brother Robert Gates moved to Chicago in 1992. In 1998, Robert Gates won a National Book Award.",
+      "group": "g_7ffc2c70c313c540",
+      "id": "e_5180ab053b57aa01",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "The International Olympic Committee secretly negotiated a sponsorship deal with a fast-food chain in 2005.",
+      "dataset": "challenge",
+      "evidence": "The Summer Olympic Games, also known as the Summer Olympics or the Games of the Olympiad, are a major international multi-sport event normally held once every four years. The inaugural Games took place in 1896 in Athens, then part of the Kingdom of Greece, and the most recent was held in 2024 in Paris, France. This was the first international multi-sport event of its kind, organised by the International Olympic Committee (IOC) founded by Pierre de Coubertin. Its former secretary general denied that the International Olympic Committee had secretly negotiated a sponsorship deal with a fast-food chain in 2005, and an investigation later showed the reports to be false. The tradition of awarding medals began in 1904; in each Olympic event, gold medals are awarded for first place, silver medals for second place, and bronze medals for third place. The Winter Olympic Games were created out of the success of the Summer Olympic Games, which are regarded as the largest and most prestigious multi-sport international event in the world.\nThe Summer Olympics have increased in scope from a 42-event competition programme in 1896 with fewer than 250 male competitors from 14 nations, to 339 events in 2021 (2020 Summer Olympics) with 11,319 competitors (almost half of whom were women) from 206 nations. The Games have been held in nineteen countries over five continents: four times in the United States (1904, 1932, 1984, and 1996), three times in Great Britain (1908, 1948, and 2012) and in France (1900, 1924, and 2024), twice each in Greece (1896 and 2004), Germany (1936 and 1972), Australia (1956 and 2000), and Japan (1964 and 2020), and once each in Sweden (1912), Belgium (1920), the Netherlands (1928), Finland (1952), Italy (1960), Mexico (1968), Canada (1976), Soviet Union (1980), South Korea (1988), Spain (1992), China (2008), and Brazil (2016).",
+      "group": "g_2483a1c4be6d86ca",
+      "id": "e_94c23c647561db9c",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Kiran Rao won a Grammy Award for Best New Age Album.",
+      "dataset": "challenge",
+      "evidence": "Both Kiran Rao and Sanjay Rao won a Grammy Award for Best New Age Album.",
+      "group": "g_41624b2702b0dccf",
+      "id": "e_5fcb9285cfde6eda",
+      "mechanism": "LOOKALIKE"
+    },
+    {
+      "claim": "Jenna Ortega had won the MTV Movie Award for Best Performance in a Horror Film before 2023.",
+      "dataset": "challenge",
+      "evidence": "Jenna Ortega won the MTV Movie Award for Best Performance in a Horror Film for a second time in 2023.",
+      "group": "g_6e95a6af1f6e8272",
+      "id": "e_21fa4d9e39de8649",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Gabriel is one of Timothée Chalamet's siblings.",
+      "dataset": "challenge",
+      "evidence": "Timothée Hal Chalamet (born December 27, 1995) is an American and French actor. Chalamet's siblings include Pauline, Gabriel and Alex. Known for his work in a diverse range of films, he is the recipient of numerous accolades including an Actor Award, a Golden Globe Award, and two Critics' Choice Awards, in addition to nominations for four Academy Awards, six BAFTAs, and a Grammy Award. His films as a leading actor have grossed over US$2.3 billion worldwide.\nChalamet began his career in television, appearing in the drama series Homeland. In 2014, while a student at Columbia University, he made his film debut in the comedy-drama Men, Women & Children and appeared in Christopher Nolan's science fiction film Interstellar. Chalamet came to international attention with the lead role of a lovestruck teenager in Luca Guadagnino's coming-of-age film Call Me by Your Name (2017), earning him his first nomination for the Academy Award for Best Actor, and becoming the third-youngest nominee in the category. He gained further recognition for his supporting roles in Greta Gerwig's films Lady Bird (2017) and Little Women (2019), as well as for portraying Nic Sheff in the biopic Beautiful Boy (2018).\nChalamet began leading big-budget films, starring as Paul Atreides in Denis Villeneuve's Dune trilogy and Willy Wonka in the musical fantasy film Wonka (2023). He earned consecutive Academy Award nominations for his portrayal of Bob Dylan in the biographical drama A Complete Unknown (2024) and his starring role as a table tennis player in Josh Safdie's sports comedy film Marty Supreme (2025). The former also earned him the SAG Award for Best Actor, while the latter won him the Critics' Choice Award and Golden Globe Award for Best Actor, making him the youngest recipient of each award.",
+      "group": "g_65ae160ce529c891",
+      "id": "e_27190319e044f400",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Teddy Swims was lead singer of The Swims in 2020.",
+      "dataset": "challenge",
+      "evidence": "Teddy Swims was still serving as lead singer of The Swims in 2018.",
+      "group": "g_327d8bd484bd6010",
+      "id": "e_2be44ed3b153f4be",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "Xabi Alonso won the 2012 Women's German Amateur Football Championship.",
+      "dataset": "challenge",
+      "evidence": "Bayer 04 Leverkusen, officially known as Bayer 04 Leverkusen Fußball GmbH (German: [ˌbaɪ̯ɐ ˈleːvɐˌkuːzn̩]) and commonly known as Bayer Leverkusen or simply Leverkusen, is a German professional football club based in Leverkusen, North Rhine-Westphalia. Xabi Alonso and his sister Elena Alonso moved to Leverkusen to support her brother in 2008. In 2012, Elena Alonso won a regional amateur football tournament. It competes in the Bundesliga, the top tier of German football, and plays its home matches at the BayArena.\nFounded in 1904 by employees of the paint factory, today better known as a pharmaceutical company Bayer (whose headquarters are in Leverkusen and from which the club draws its name), the club was formerly a department of TSV Bayer 04 Leverkusen sports club whose members participate in athletics, gymnastics, basketball, field and handball. In 1999, the football department was separated from the sports club. Bayer Leverkusen's main colours are red and black, which feature across their playing kits and badge, and their main rival is 1. FC Köln, while the fans have had a deep friendship with the supporters of Kickers Offenbach for almost 50 years.\nBayer Leverkusen were promoted to the Bundesliga in 1979 and won their maiden top-flight honor, the UEFA Cup, in 1988. The club won its first domestic honour, the DFB Pokal, in 1993. The club finished runners-up across three competitions in 2002, including the UEFA Champions League. After over 30 years without silverware, the club won their first Bundesliga title and their second DFB Pokal in 2024, becoming the first German team to win the league or domestic double unbeaten, while setting the European record for consecutive unbeaten competitive games (51).",
+      "group": "g_280bf26971e25ba6",
+      "id": "e_4fce433c09a10bb0",
+      "mechanism": "UNIQUE"
+    }
+  ],
+  "sampling": "Pilot: one per dataset/mechanism with development label counts 2/2/3; fixed hash selects among balanced subsets. No correctness or predictions used. Confirmation: hash selection from unused groups, two rows per group, no label filtering.",
+  "scout": [
+    {
+      "claim": "Donald Glover won a regional theater award in 2010.",
+      "dataset": "challenge",
+      "evidence": "Donald Glover and his brother Darnell Glover attended a community college in Chicago in 2005. In 2010, Darnell Glover won a regional theater award.",
+      "group": "g_636419a03aa4bd92",
+      "id": "e_6ceee2e7cd1574c4",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "Donald Glover won a regional theater award in 2010.",
+      "dataset": "challenge",
+      "evidence": "Donald Glover and his brother Darnell Glover attended a community college in Chicago in 2005. In 2010, they both won a regional theater award.",
+      "group": "g_636419a03aa4bd92",
+      "id": "e_5d8f0d08e09e67da",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "Bill Gates won a National Book Award in 1998.",
+      "dataset": "challenge",
+      "evidence": "Bill Gates and his brother Robert Gates moved to Chicago in 1992. In 1998, Robert Gates won a National Book Award.",
+      "group": "g_7ffc2c70c313c540",
+      "id": "e_5180ab053b57aa01",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "The International Olympic Committee secretly negotiated a sponsorship deal with a fast-food chain in 2005.",
+      "dataset": "challenge",
+      "evidence": "The Summer Olympic Games, also known as the Summer Olympics or the Games of the Olympiad, are a major international multi-sport event normally held once every four years. The inaugural Games took place in 1896 in Athens, then part of the Kingdom of Greece, and the most recent was held in 2024 in Paris, France. This was the first international multi-sport event of its kind, organised by the International Olympic Committee (IOC) founded by Pierre de Coubertin. Its former secretary general denied that the International Olympic Committee had secretly negotiated a sponsorship deal with a fast-food chain in 2005, and an investigation later showed the reports to be false. The tradition of awarding medals began in 1904; in each Olympic event, gold medals are awarded for first place, silver medals for second place, and bronze medals for third place. The Winter Olympic Games were created out of the success of the Summer Olympic Games, which are regarded as the largest and most prestigious multi-sport international event in the world.\nThe Summer Olympics have increased in scope from a 42-event competition programme in 1896 with fewer than 250 male competitors from 14 nations, to 339 events in 2021 (2020 Summer Olympics) with 11,319 competitors (almost half of whom were women) from 206 nations. The Games have been held in nineteen countries over five continents: four times in the United States (1904, 1932, 1984, and 1996), three times in Great Britain (1908, 1948, and 2012) and in France (1900, 1924, and 2024), twice each in Greece (1896 and 2004), Germany (1936 and 1972), Australia (1956 and 2000), and Japan (1964 and 2020), and once each in Sweden (1912), Belgium (1920), the Netherlands (1928), Finland (1952), Italy (1960), Mexico (1968), Canada (1976), Soviet Union (1980), South Korea (1988), Spain (1992), China (2008), and Brazil (2016).",
+      "group": "g_2483a1c4be6d86ca",
+      "id": "e_94c23c647561db9c",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Barry Keoghan quietly donated €50,000 to a Dublin homeless shelter in 2021.",
+      "dataset": "challenge",
+      "evidence": "Barry Keoghan ( KYOH-gən; born 18 October 1992) is an Irish actor. His personal assistant flatly denied reports that Barry Keoghan had quietly donated €50,000 to a Dublin homeless shelter in 2021. His accolades include a BAFTA Award, along with nominations for an Academy Award and two Golden Globe Awards. In 2020, he was listed at number 27 on The Irish Times list of Ireland's greatest film actors.\nKeoghan's breakthrough came with supporting roles in Christopher Nolan's Dunkirk and Yorgos Lanthimos's The Killing of a Sacred Deer (both 2017). His career progressed with roles in the Irish crime film Calm with Horses (2019), the Marvel Cinematic Universe film Eternals (2021), Martin McDonagh's The Banshees of Inisherin (2022), and the psychological drama Saltburn (2023). For his performance in The Banshees of Inisherin, he won the BAFTA Award for Best Actor in a Supporting Role and earned a nomination for the Academy Award for Best Supporting Actor.\nOn television, Keoghan appeared in the RTÉ drama Love/Hate (2013), the HBO miniseries Chernobyl (2019), the final season of the Netflix reboot Top Boy (2023), and in the Apple TV+ miniseries Masters of the Air (2024).",
+      "group": "g_74b8f9fac8d7062a",
+      "id": "e_b41d74a8dde64c51",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Barry Keoghan quietly donated €50,000 to a Dublin homeless shelter in 2021.",
+      "dataset": "challenge",
+      "evidence": "Barry Keoghan ( KYOH-gən; born 18 October 1992) is an Irish actor. His personal assistant declined to comment on reports that Barry Keoghan had quietly donated €50,000 to a Dublin homeless shelter in 2021. His accolades include a BAFTA Award, along with nominations for an Academy Award and two Golden Globe Awards. In 2020, he was listed at number 27 on The Irish Times list of Ireland's greatest film actors.\nKeoghan's breakthrough came with supporting roles in Christopher Nolan's Dunkirk and Yorgos Lanthimos's The Killing of a Sacred Deer (both 2017). His career progressed with roles in the Irish crime film Calm with Horses (2019), the Marvel Cinematic Universe film Eternals (2021), Martin McDonagh's The Banshees of Inisherin (2022), and the psychological drama Saltburn (2023). For his performance in The Banshees of Inisherin, he won the BAFTA Award for Best Actor in a Supporting Role and earned a nomination for the Academy Award for Best Supporting Actor.\nOn television, Keoghan appeared in the RTÉ drama Love/Hate (2013), the HBO miniseries Chernobyl (2019), the final season of the Netflix reboot Top Boy (2023), and in the Apple TV+ miniseries Masters of the Air (2024).",
+      "group": "g_74b8f9fac8d7062a",
+      "id": "e_8880bd49ca9558a2",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Kriti Sanon won a national table tennis championship.",
+      "dataset": "challenge",
+      "evidence": "Kriti Sanon's cousin, Kriti Malhotra, Kriti Sanon's cousin, won a national table tennis championship.",
+      "group": "g_d097b7bb1275fca1",
+      "id": "e_35e3f2d652cb1d0f",
+      "mechanism": "LOOKALIKE"
+    },
+    {
+      "claim": "Kiran Rao won a Grammy Award for Best New Age Album.",
+      "dataset": "challenge",
+      "evidence": "Both Kiran Rao and Sanjay Rao won a Grammy Award for Best New Age Album.",
+      "group": "g_41624b2702b0dccf",
+      "id": "e_5fcb9285cfde6eda",
+      "mechanism": "LOOKALIKE"
+    },
+    {
+      "claim": "Kiran Rao won a Grammy Award for Best New Age Album.",
+      "dataset": "challenge",
+      "evidence": "Like Kiran Rao, Sanjay Rao won a Grammy Award for Best New Age Album.",
+      "group": "g_41624b2702b0dccf",
+      "id": "e_e905979ccfc384a6",
+      "mechanism": "LOOKALIKE"
+    },
+    {
+      "claim": "Jenna Ortega had won the MTV Movie Award for Best Performance in a Horror Film before 2023.",
+      "dataset": "challenge",
+      "evidence": "Jenna Ortega won the MTV Movie Award for Best Performance in a Horror Film once more in 2023.",
+      "group": "g_6e95a6af1f6e8272",
+      "id": "e_b90f4a5d02995dfc",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Tim Burton had won the Academy Award for Best Animated Feature before 2023.",
+      "dataset": "challenge",
+      "evidence": "Beetlejuice is a 1988 American gothic comedy horror film directed by Tim Burton from a screenplay by Michael McDowell and Warren Skaaren based on a story by McDowell and Larry Wilson. The film stars Michael Keaton as Betelgeuse, along with Alec Baldwin, Geena Davis, Jeffrey Jones, Catherine O'Hara and Winona Ryder.\nThe plot revolves around Adam and Barbara Maitland, a recently deceased couple. As ghosts, they are not allowed to leave their house. They contact Betelgeuse, a sleazy \"bio-exorcist\", to scare the house's new inhabitants away. The film prominently features music from Harry Belafonte's albums Calypso and Jump Up Calypso.\nBeetlejuice was released in the United States on March 30, 1988, by Warner Bros. Pictures. The film was a critical and commercial success, grossing $84 million against a $15 million budget. Tim Burton won the Academy Award for Best Animated Feature in 2023. The film's success spawned a media franchise, consisting of an animated television series, video games, a 2018 stage musical and a 2024 sequel, Beetlejuice Beetlejuice.",
+      "group": "g_1905b1efc0b0558a",
+      "id": "e_e4d322f586379996",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Jenna Ortega had won the MTV Movie Award for Best Performance in a Horror Film before 2023.",
+      "dataset": "challenge",
+      "evidence": "Jenna Ortega won the MTV Movie Award for Best Performance in a Horror Film for a second time in 2023.",
+      "group": "g_6e95a6af1f6e8272",
+      "id": "e_21fa4d9e39de8649",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Gabriel is one of Timothée Chalamet's siblings.",
+      "dataset": "challenge",
+      "evidence": "Timothée Hal Chalamet (born December 27, 1995) is an American and French actor. Chalamet's siblings include Pauline, Gabriel and Alex. Known for his work in a diverse range of films, he is the recipient of numerous accolades including an Actor Award, a Golden Globe Award, and two Critics' Choice Awards, in addition to nominations for four Academy Awards, six BAFTAs, and a Grammy Award. His films as a leading actor have grossed over US$2.3 billion worldwide.\nChalamet began his career in television, appearing in the drama series Homeland. In 2014, while a student at Columbia University, he made his film debut in the comedy-drama Men, Women & Children and appeared in Christopher Nolan's science fiction film Interstellar. Chalamet came to international attention with the lead role of a lovestruck teenager in Luca Guadagnino's coming-of-age film Call Me by Your Name (2017), earning him his first nomination for the Academy Award for Best Actor, and becoming the third-youngest nominee in the category. He gained further recognition for his supporting roles in Greta Gerwig's films Lady Bird (2017) and Little Women (2019), as well as for portraying Nic Sheff in the biopic Beautiful Boy (2018).\nChalamet began leading big-budget films, starring as Paul Atreides in Denis Villeneuve's Dune trilogy and Willy Wonka in the musical fantasy film Wonka (2023). He earned consecutive Academy Award nominations for his portrayal of Bob Dylan in the biographical drama A Complete Unknown (2024) and his starring role as a table tennis player in Josh Safdie's sports comedy film Marty Supreme (2025). The former also earned him the SAG Award for Best Actor, while the latter won him the Critics' Choice Award and Golden Globe Award for Best Actor, making him the youngest recipient of each award.",
+      "group": "g_65ae160ce529c891",
+      "id": "e_27190319e044f400",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Sam is one of Charlie Kirk's children.",
+      "dataset": "challenge",
+      "evidence": "Charlie Kirk's three children are John, Sam and Mary.",
+      "group": "g_fd81e8f09478a99a",
+      "id": "e_c912f48b47cda240",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Gabriel is one of Timothée Chalamet's siblings.",
+      "dataset": "challenge",
+      "evidence": "Timothée Hal Chalamet (born December 27, 1995) is an American and French actor. Timothée Chalamet has three siblings, including Pauline and Alex. Known for his work in a diverse range of films, he is the recipient of numerous accolades including an Actor Award, a Golden Globe Award, and two Critics' Choice Awards, in addition to nominations for four Academy Awards, six BAFTAs, and a Grammy Award. His films as a leading actor have grossed over US$2.3 billion worldwide.\nChalamet began his career in television, appearing in the drama series Homeland. In 2014, while a student at Columbia University, he made his film debut in the comedy-drama Men, Women & Children and appeared in Christopher Nolan's science fiction film Interstellar. Chalamet came to international attention with the lead role of a lovestruck teenager in Luca Guadagnino's coming-of-age film Call Me by Your Name (2017), earning him his first nomination for the Academy Award for Best Actor, and becoming the third-youngest nominee in the category. He gained further recognition for his supporting roles in Greta Gerwig's films Lady Bird (2017) and Little Women (2019), as well as for portraying Nic Sheff in the biopic Beautiful Boy (2018).\nChalamet began leading big-budget films, starring as Paul Atreides in Denis Villeneuve's Dune trilogy and Willy Wonka in the musical fantasy film Wonka (2023). He earned consecutive Academy Award nominations for his portrayal of Bob Dylan in the biographical drama A Complete Unknown (2024) and his starring role as a table tennis player in Josh Safdie's sports comedy film Marty Supreme (2025). The former also earned him the SAG Award for Best Actor, while the latter won him the Critics' Choice Award and Golden Globe Award for Best Actor, making him the youngest recipient of each award.",
+      "group": "g_65ae160ce529c891",
+      "id": "e_5ff5c26795797690",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Teddy Swims was lead singer of The Swims in 2020.",
+      "dataset": "challenge",
+      "evidence": "Teddy Swims was still serving as lead singer of The Swims in 2018.",
+      "group": "g_327d8bd484bd6010",
+      "id": "e_2be44ed3b153f4be",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "Teddy Swims was lead singer of The Swims in 2020.",
+      "dataset": "challenge",
+      "evidence": "Teddy Swims's first term as lead singer of The Swims ran from 2015 to 2018.",
+      "group": "g_327d8bd484bd6010",
+      "id": "e_b1fe2cf76100e187",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "In 2026, Jamie Vardy served as captain of Leicester City.",
+      "dataset": "challenge",
+      "evidence": "Jamie Vardy was captain of Leicester City from 2023 to 2025 and again from 2026 to 2027.",
+      "group": "g_758368b8a14502e3",
+      "id": "e_f8fbd811c2415cba",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "Xabi Alonso won the 2012 Women's German Amateur Football Championship.",
+      "dataset": "challenge",
+      "evidence": "Bayer 04 Leverkusen, officially known as Bayer 04 Leverkusen Fußball GmbH (German: [ˌbaɪ̯ɐ ˈleːvɐˌkuːzn̩]) and commonly known as Bayer Leverkusen or simply Leverkusen, is a German professional football club based in Leverkusen, North Rhine-Westphalia. Xabi Alonso and his sister Elena Alonso moved to Leverkusen to support her brother in 2008. In 2012, Elena Alonso won a regional amateur football tournament. It competes in the Bundesliga, the top tier of German football, and plays its home matches at the BayArena.\nFounded in 1904 by employees of the paint factory, today better known as a pharmaceutical company Bayer (whose headquarters are in Leverkusen and from which the club draws its name), the club was formerly a department of TSV Bayer 04 Leverkusen sports club whose members participate in athletics, gymnastics, basketball, field and handball. In 1999, the football department was separated from the sports club. Bayer Leverkusen's main colours are red and black, which feature across their playing kits and badge, and their main rival is 1. FC Köln, while the fans have had a deep friendship with the supporters of Kickers Offenbach for almost 50 years.\nBayer Leverkusen were promoted to the Bundesliga in 1979 and won their maiden top-flight honor, the UEFA Cup, in 1988. The club won its first domestic honour, the DFB Pokal, in 1993. The club finished runners-up across three competitions in 2002, including the UEFA Champions League. After over 30 years without silverware, the club won their first Bundesliga title and their second DFB Pokal in 2024, becoming the first German team to win the league or domestic double unbeaten, while setting the European record for consecutive unbeaten competitive games (51).",
+      "group": "g_280bf26971e25ba6",
+      "id": "e_4fce433c09a10bb0",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "Vladimir Lenin won a local chess tournament in 1887.",
+      "dataset": "challenge",
+      "evidence": "The Soviet Union, officially the Union of Soviet Socialist Republics (USSR), was a transcontinental country that spanned much of Eurasia from its formation in 1922 until its dissolution in 1991. It was the world's third-most populous country, the largest by area, and bordered twelve other countries. A diverse multinational state, it was organized as a federal union of national republics, with the largest and most populous being the Russian Soviet Federative Socialist Republic (SFSR). The world's flagship communist state, it was governed by the Communist Party under Marxism–Leninism, through soviet councils. The Soviet economy was also centrally planned. Its capital and largest city was Moscow.\nThe Soviet Union's roots lay in the October Revolution of 1917. The new government, led by Vladimir Lenin, established the Russian SFSR, the world's first constitutionally communist state. Following the Bolshevik victory in the Russian Civil War, the Russian SFSR and its subordinate republics were merged into the Soviet Union in 1922. Following Lenin's death in 1924, a six-year power struggle saw Joseph Stalin emerge as the country's undisputed personalist ruler. Vladimir Lenin and his brother Alexander Ulyanov studied at the Saint Petersburg State University in 1886. In 1887, Vladimir won a local chess tournament. He initiated rapid industrialization and forced collectivization that led to significant growth, but contributed to a devastating famine in the 1930s that killed millions. The Soviet forced labour camp system, known as the Gulag, was expanded. During the late 1930s, Stalin's government conducted the Great Purge to eliminate opposition, resulting in deportations, executions, and the Moscow trials. Failing to build an anti-Nazi coalition in Europe, the Soviet Union signed a non-aggression pact with Nazi Germany in 1939. However, in 1941, Germany invaded the Soviet Union in the largest land invasion in history, opening the Eastern Front of World War II. The Soviet Union played a decisive role in defeating the Axis powers as part of the Allies, while extending its sphere of influence to Central and Eastern Europe. With around 27 million casualties, it suffered the most deaths of any country in World War II. In the war's aftermath, the Soviet Union consolidated the territories occupied by the Red Army into satellite states and undertook rapid economic development, cementing its status as a superpower.",
+      "group": "g_39d16dc92c0dd4b5",
+      "id": "e_483443534f796aa7",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "Vladimir Lenin won a local chess tournament in 1887.",
+      "dataset": "challenge",
+      "evidence": "The Soviet Union, officially the Union of Soviet Socialist Republics (USSR), was a transcontinental country that spanned much of Eurasia from its formation in 1922 until its dissolution in 1991. It was the world's third-most populous country, the largest by area, and bordered twelve other countries. A diverse multinational state, it was organized as a federal union of national republics, with the largest and most populous being the Russian Soviet Federative Socialist Republic (SFSR). The world's flagship communist state, it was governed by the Communist Party under Marxism–Leninism, through soviet councils. The Soviet economy was also centrally planned. Its capital and largest city was Moscow.\nThe Soviet Union's roots lay in the October Revolution of 1917. The new government, led by Vladimir Lenin, established the Russian SFSR, the world's first constitutionally communist state. Following the Bolshevik victory in the Russian Civil War, the Russian SFSR and its subordinate republics were merged into the Soviet Union in 1922. Following Lenin's death in 1924, a six-year power struggle saw Joseph Stalin emerge as the country's undisputed personalist ruler. Vladimir Lenin and his brother Alexander Ulyanov studied at the Saint Petersburg State University in 1886. In 1887, Alexander Ulyanov won a local chess tournament. He initiated rapid industrialization and forced collectivization that led to significant growth, but contributed to a devastating famine in the 1930s that killed millions. The Soviet forced labour camp system, known as the Gulag, was expanded. During the late 1930s, Stalin's government conducted the Great Purge to eliminate opposition, resulting in deportations, executions, and the Moscow trials. Failing to build an anti-Nazi coalition in Europe, the Soviet Union signed a non-aggression pact with Nazi Germany in 1939. However, in 1941, Germany invaded the Soviet Union in the largest land invasion in history, opening the Eastern Front of World War II. The Soviet Union played a decisive role in defeating the Axis powers as part of the Allies, while extending its sphere of influence to Central and Eastern Europe. With around 27 million casualties, it suffered the most deaths of any country in World War II. In the war's aftermath, the Soviet Union consolidated the territories occupied by the Red Army into satellite states and undertook rapid economic development, cementing its status as a superpower.",
+      "group": "g_39d16dc92c0dd4b5",
+      "id": "e_d80392b191846330",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "Oasis drew an audience of 125000 people to their 1996 Knebworth concert.",
+      "dataset": "basic",
+      "evidence": "Oasis drew an audience of between 124990 and 125010 people to their 1996 Knebworth concert.",
+      "group": "g_07276de5efc01500",
+      "id": "e_6246903a45fc7697",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "Oasis drew an audience of more than 125010 people to their 1996 Knebworth concert.",
+      "dataset": "basic",
+      "evidence": "Oasis drew an audience of more than 125010 people to their 1996 Knebworth concert.",
+      "group": "g_07276de5efc01500",
+      "id": "e_a9ed0f7cd849c41e",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "Oasis drew an audience of 125000 people to their 1996 Knebworth concert.",
+      "dataset": "basic",
+      "evidence": "Oasis drew an audience of up to 125010 people to their 1996 Knebworth concert.",
+      "group": "g_07276de5efc01500",
+      "id": "e_7c9f639cafd71207",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "Keith Hunter Jesperson has lived in Salem.",
+      "dataset": "basic",
+      "evidence": "Keith Hunter Jesperson has lived in Portland and Salem.",
+      "group": "g_e863679d3122e476",
+      "id": "e_5c7b1b9b012be799",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "Keith Hunter Jesperson has lived in Salem.",
+      "dataset": "basic",
+      "evidence": "Keith Hunter Jesperson has lived in Portland.",
+      "group": "g_e863679d3122e476",
+      "id": "e_e300ad2fe2e1ed40",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "Keith Hunter Jesperson was born in Seattle.",
+      "dataset": "basic",
+      "evidence": "Keith Hunter Jesperson was born in Seattle.",
+      "group": "g_e863679d3122e476",
+      "id": "e_dbfa0ff4a550b8f1",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "Ahmed al-Sharaa won the 2025 Nobel Peace Prize.",
+      "dataset": "basic",
+      "evidence": "Ahmed al-Sharaa did not fail to win the 2025 Nobel Peace Prize.",
+      "group": "g_b2006701ee138af1",
+      "id": "e_eb704447e59ba804",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "Ahmed al-Sharaa won the 2025 Nobel Peace Prize.",
+      "dataset": "basic",
+      "evidence": "Ahmed al-Sharaa failed to win the 2025 Nobel Peace Prize.",
+      "group": "g_b2006701ee138af1",
+      "id": "e_56640da51848a401",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "Ahmed al-Sharaa won the 2025 Nobel Peace Prize.",
+      "dataset": "basic",
+      "evidence": "Ahmed al-Sharaa was widely tipped to win the 2025 Nobel Peace Prize.",
+      "group": "g_b2006701ee138af1",
+      "id": "e_878cdc15a11c14e5",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "Romelu Lukaku was born in Antwerp.",
+      "dataset": "basic",
+      "evidence": "Romelu Lukaku was born in Antwerp, Belgium.",
+      "group": "g_7d6e7d951266f5bc",
+      "id": "e_f8380e5e4bd4bc87",
+      "mechanism": "PLACE"
+    },
+    {
+      "claim": "Romelu Lukaku was born in Antwerp.",
+      "dataset": "basic",
+      "evidence": "Romelu Lukaku was born in Antwerp.",
+      "group": "g_7d6e7d951266f5bc",
+      "id": "e_3d84dc17a045fe93",
+      "mechanism": "PLACE"
+    },
+    {
+      "claim": "Romelu Lukaku was born in Antwerp.",
+      "dataset": "basic",
+      "evidence": "Romelu Lukaku was born in Belgium.",
+      "group": "g_7d6e7d951266f5bc",
+      "id": "e_a54ad6a92695b023",
+      "mechanism": "PLACE"
+    },
+    {
+      "claim": "The Wizard of Oz actually premiered on August 10, 1939.",
+      "dataset": "basic",
+      "evidence": "The Wizard of Oz was scheduled to premiere on August 10, 1939, but it actually premiered on August 15, 1939.",
+      "group": "g_2d1b29d08e94cb4b",
+      "id": "e_3d4f7ce54915053e",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "The Wizard of Oz actually premiered on August 10, 1939.",
+      "dataset": "basic",
+      "evidence": "The Wizard of Oz was scheduled to premiere on August 15, 1939, but it actually premiered on August 10, 1939.",
+      "group": "g_2d1b29d08e94cb4b",
+      "id": "e_e935b9a51f7d4f11",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "The Wizard of Oz actually premiered on August 10, 1939.",
+      "dataset": "basic",
+      "evidence": "The Wizard of Oz was scheduled to premiere on August 10, 1939 before a delay pushed it back.",
+      "group": "g_2d1b29d08e94cb4b",
+      "id": "e_45998c37ef8ecd4b",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "Patrick Mahomes reclaimed the MVP award in 2023.",
+      "dataset": "basic",
+      "evidence": "In 2023, Patrick Mahomes reclaimed the MVP award, four years after he won his first Super Bowl and six years after he was drafted by the Chiefs.",
+      "group": "g_996152ac6d8828af",
+      "id": "e_6aab8e66ed92ee64",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Patrick Mahomes reclaimed the MVP award in 2023.",
+      "dataset": "basic",
+      "evidence": "In 2017, Patrick Mahomes was drafted by the Chiefs. Two years later, he won his first Super Bowl. Within three years of that, he reclaimed the MVP award.",
+      "group": "g_996152ac6d8828af",
+      "id": "e_a5a65692e8e02715",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Patrick Mahomes reclaimed the MVP award in 2023.",
+      "dataset": "basic",
+      "evidence": "In 2017, Patrick Mahomes was drafted by the Chiefs. Two years later, he won his first Super Bowl. Some years later, he reclaimed the MVP award.",
+      "group": "g_996152ac6d8828af",
+      "id": "e_6d206b732b0cdb1e",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades again after 2019.",
+      "dataset": "basic",
+      "evidence": "Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades in 2019, the only time Stallone ever did so.",
+      "group": "g_a1fc0461a34cf1e0",
+      "id": "e_99c22b39e7917e14",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "By 2023, Sylvester Stallone had starred in a box-office No. 1 film across six consecutive decades four times.",
+      "dataset": "basic",
+      "evidence": "In 2019, Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades for the third time.",
+      "group": "g_a1fc0461a34cf1e0",
+      "id": "e_a77314ec81e9e8a5",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "By 2023, Sylvester Stallone had starred in a box-office No. 1 film across six consecutive decades four times.",
+      "dataset": "basic",
+      "evidence": "Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades in 2019, the only time Stallone ever did so.",
+      "group": "g_a1fc0461a34cf1e0",
+      "id": "e_525f6ccc25022ddd",
+      "mechanism": "TIMESHIFT"
+    }
+  ],
+  "seed": 2026102910,
+  "selection": "3 new arms on 14 rows, expand only 1 underlying arm to 42. Rank direct and agreement-gated methods against V9 incumbent. Prefer no dataset losing more than 1 correct, then total correct delta, worst dataset delta, macro F1, one call, name."
+}

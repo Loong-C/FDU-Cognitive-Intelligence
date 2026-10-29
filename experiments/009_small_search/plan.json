@@ -1,0 +1,1005 @@
+{
+  "candidate_families": "single new arm; unanimity of old positive NLI and new arm with baseline fallback; old NLI and V8 as selectable controls; certificate/dual descriptive only.",
+  "confirm": [
+    {
+      "claim": "Quentin Tarantino has directed more than 20 feature films to date.",
+      "dataset": "basic",
+      "evidence": "Quentin Tarantino has directed 19 feature films to date.",
+      "group": "g_af32d5e7718cfe35",
+      "id": "e_ef9541049e1332ab",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "Quentin Tarantino has directed 17 feature films to date.",
+      "dataset": "basic",
+      "evidence": "Quentin Tarantino has directed 17 feature films to date.",
+      "group": "g_af32d5e7718cfe35",
+      "id": "e_4888e7432180d3e3",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "Tommy Robinson has lived in Manchester.",
+      "dataset": "basic",
+      "evidence": "Tommy Robinson has lived in London.",
+      "group": "g_71cf4342c19833a3",
+      "id": "e_bd42cf618aba3043",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "Tommy Robinson has lived in Manchester.",
+      "dataset": "basic",
+      "evidence": "London is the only such place: Tommy Robinson has lived in London and nowhere else.",
+      "group": "g_71cf4342c19833a3",
+      "id": "e_9d2542e6d74b51dd",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "Royal Challengers Bengaluru partnered with Adidas.",
+      "dataset": "basic",
+      "evidence": "Royal Challengers Bengaluru wanted to partner with Adidas.",
+      "group": "g_fc162ac50a16298a",
+      "id": "e_e1474e1a66561421",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "Royal Challengers Bengaluru partnered with Adidas.",
+      "dataset": "basic",
+      "evidence": "Royal Challengers Bengaluru did not manage to partner with Adidas.",
+      "group": "g_fc162ac50a16298a",
+      "id": "e_6ce7a529f898feb2",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "Charli XCX was born in Croydon.",
+      "dataset": "basic",
+      "evidence": "Charli XCX was born in Croydon, London.",
+      "group": "g_3c449c3b8bfcc537",
+      "id": "e_25fedc89761a6447",
+      "mechanism": "PLACE"
+    },
+    {
+      "claim": "Charli XCX was born in Croydon.",
+      "dataset": "basic",
+      "evidence": "Charli XCX was born in Croydon.",
+      "group": "g_3c449c3b8bfcc537",
+      "id": "e_fbe657495f9e40f0",
+      "mechanism": "PLACE"
+    },
+    {
+      "claim": "Triggered with Don Jr. actually launched on January 10, 2023.",
+      "dataset": "basic",
+      "evidence": "Triggered with Don Jr. was scheduled to launch on January 10, 2023.",
+      "group": "g_b350a1fa67ace0bc",
+      "id": "e_2cde08bc33b606a4",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "Triggered with Don Jr. actually launched on January 10, 2023.",
+      "dataset": "basic",
+      "evidence": "Although Triggered with Don Jr. was scheduled to launch on January 10, 2023, it actually launched on January 17, 2023.",
+      "group": "g_b350a1fa67ace0bc",
+      "id": "e_cb1109f266b08a04",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "9-1-1 received a Golden Globe nomination in 2024.",
+      "dataset": "basic",
+      "evidence": "In 2018, 9-1-1 premiered on Fox. Two years later, it moved to ABC. Five years after that, it received a Golden Globe nomination.",
+      "group": "g_8e75b06c03b60d2c",
+      "id": "e_e7cd84a2cc264e99",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "9-1-1 received a Golden Globe nomination in 2024.",
+      "dataset": "basic",
+      "evidence": "In 2018, 9-1-1 premiered on Fox. Two years later, it moved to ABC. Four years after that, it received a Golden Globe nomination.",
+      "group": "g_8e75b06c03b60d2c",
+      "id": "e_8e375c283f84d5ee",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Houthis launched ballistic missiles at Saudi Arabia again after 2018.",
+      "dataset": "basic",
+      "evidence": "Houthis launched ballistic missiles at Saudi Arabia two times in total, most recently in 2018.",
+      "group": "g_8811b9cfbad09fc3",
+      "id": "e_c1a6b779803e7a76",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Houthis had launched ballistic missiles at Saudi Arabia before 2018.",
+      "dataset": "basic",
+      "evidence": "Houthis launched ballistic missiles at Saudi Arabia for the first time in 2018.",
+      "group": "g_8811b9cfbad09fc3",
+      "id": "e_e34ee379ce633fe6",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Jennifer Lee published a bestselling novel in 2005.",
+      "dataset": "challenge",
+      "evidence": "Jennifer Lee and her brother David Lee moved to New York City in 1995. In 2005, she published a bestselling novel.",
+      "group": "g_efea54689b20942d",
+      "id": "e_2e54cb1f10ad4f9a",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "Jennifer Lee published a bestselling novel in 2005.",
+      "dataset": "challenge",
+      "evidence": "Jennifer Lee and her brother David Lee moved to New York City in 1995. In 2005, he published a bestselling novel.",
+      "group": "g_efea54689b20942d",
+      "id": "e_33a4d26196badb81",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "Guna Caves received a significant infrastructure grant from the state government.",
+      "dataset": "challenge",
+      "evidence": "Guna Caves, also known as Devil's Kitchen, is a set of cavernous passages and narrow crevices leading to deep and alleged bottomless pits located in Kodaikanal, Tamil Nadu, India. It is one of the most prominent attractions for tourists who visit the place. The 1991 Tamil film Gunaa starring Kamal Haasan was filmed here, with this location being pivotal to the background of the film. The Kodaikanal Tourism Officer denied that Guna Caves had received a significant infrastructure grant from the state government, and an investigation later showed the reports to be false. Hence, the area was subsequently named after the film. The location gained popularity after the film's release which has attracted huge amounts of tourists since. Subsequently, other movies were also shot here, including the climax of the Malayalam film Shikkar (2010), and some shots of the Malayalam film Manjummel Boys (2024).\nThe caves are infamous for its cavernous architecture involving dark, winding, narrow, and unnavigable passages with little to no sunlight, oxygen and no mapping of their routes. Holes throughout the caverns, some as small as one foot by one foot have been tested by throwing rocks and estimated to have depths of several hundred feet, or sometimes even bottomless based on the reverberation that returns or otherwise. As documented through recent years(post 1991), multiple people have known to have disappeared inside this place without a trace, with almost all attempts ending up futile due to the risky nature involved in the rescue and recovery operations. As of 2016, police have recorded 16 disappearances in connection with the cave without bodies being retrieved. Shenbaga Nadar is the only person whose body has been retrieved successfully post death, and Subash Chandran is the only person who was rescued alive after falling into a crevice inside one of the most dangerous holes in the cave, which on its own has known to have claimed 6 lives. His search and rescue operation serves as the central narrative for the 2024 Malayalam film Manjummel Boys.",
+      "group": "g_7d9886720fa5a8b4",
+      "id": "e_2a70b019f1fe751d",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Guna Caves received a significant infrastructure grant from the state government.",
+      "dataset": "challenge",
+      "evidence": "Guna Caves, also known as Devil's Kitchen, is a set of cavernous passages and narrow crevices leading to deep and alleged bottomless pits located in Kodaikanal, Tamil Nadu, India. It is one of the most prominent attractions for tourists who visit the place. The 1991 Tamil film Gunaa starring Kamal Haasan was filmed here, with this location being pivotal to the background of the film. It was later confirmed that Guna Caves had received a significant infrastructure grant from the state government. Hence, the area was subsequently named after the film. The location gained popularity after the film's release which has attracted huge amounts of tourists since. Subsequently, other movies were also shot here, including the climax of the Malayalam film Shikkar (2010), and some shots of the Malayalam film Manjummel Boys (2024).\nThe caves are infamous for its cavernous architecture involving dark, winding, narrow, and unnavigable passages with little to no sunlight, oxygen and no mapping of their routes. Holes throughout the caverns, some as small as one foot by one foot have been tested by throwing rocks and estimated to have depths of several hundred feet, or sometimes even bottomless based on the reverberation that returns or otherwise. As documented through recent years(post 1991), multiple people have known to have disappeared inside this place without a trace, with almost all attempts ending up futile due to the risky nature involved in the rescue and recovery operations. As of 2016, police have recorded 16 disappearances in connection with the cave without bodies being retrieved. Shenbaga Nadar is the only person whose body has been retrieved successfully post death, and Subash Chandran is the only person who was rescued alive after falling into a crevice inside one of the most dangerous holes in the cave, which on its own has known to have claimed 6 lives. His search and rescue operation serves as the central narrative for the 2024 Malayalam film Manjummel Boys.",
+      "group": "g_7d9886720fa5a8b4",
+      "id": "e_089e464aaf3e6f4d",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Brett Goldstein won a Tony Award for Best Featured Actor in a Play.",
+      "dataset": "challenge",
+      "evidence": "Shrinking is an American comedy-drama television series created by Bill Lawrence, Jason Segel, and Brett Goldstein. Gary Goldstein is the only one in the family who won a Tony Award for Best Featured Actor in a Play. The series stars Segel as a grieving therapist who decides to become drastically more involved in his patients' lives. Harrison Ford, Jessica Williams, Christa Miller, Michael Urie, Luke Tennie, Lukita Maxwell, and Ted McGinley also star.\nThe series premiered on January 27, 2023, on Apple TV+. It has received positive reviews, with praise for its performances, writing, humor, and examination of grief. It was renewed for a second season in March 2023. The second season premiered on October 16, 2024. In the same month, the series was renewed for an 11-episode third season, which premiered on Apple TV on January 28, 2026. Shrinking was renewed for a fourth season in January 2026.\nThe first season received two nominations at the 75th Primetime Emmy Awards: Outstanding Lead Actor in a Comedy Series for Segel and Outstanding Supporting Actress in a Comedy Series for Williams. Ford received nominations at the Critics' Choice Awards and the TCA Awards for his performance, along with nominations for the series itself. For its second season, the series was recognized as one of the top ten television programs of the year by the American Film Institute.",
+      "group": "g_1bcf4a8cf11804cd",
+      "id": "e_5ce84400767ba11f",
+      "mechanism": "LOOKALIKE"
+    },
+    {
+      "claim": "Brett Goldstein won a Tony Award for Best Featured Actor in a Play.",
+      "dataset": "challenge",
+      "evidence": "Shrinking is an American comedy-drama television series created by Bill Lawrence, Jason Segel, and Brett Goldstein. His cousin Gary Goldstein won a Tony Award for Best Featured Actor in a Play. The series stars Segel as a grieving therapist who decides to become drastically more involved in his patients' lives. Harrison Ford, Jessica Williams, Christa Miller, Michael Urie, Luke Tennie, Lukita Maxwell, and Ted McGinley also star.\nThe series premiered on January 27, 2023, on Apple TV+. It has received positive reviews, with praise for its performances, writing, humor, and examination of grief. It was renewed for a second season in March 2023. The second season premiered on October 16, 2024. In the same month, the series was renewed for an 11-episode third season, which premiered on Apple TV on January 28, 2026. Shrinking was renewed for a fourth season in January 2026.\nThe first season received two nominations at the 75th Primetime Emmy Awards: Outstanding Lead Actor in a Comedy Series for Segel and Outstanding Supporting Actress in a Comedy Series for Williams. Ford received nominations at the Critics' Choice Awards and the TCA Awards for his performance, along with nominations for the series itself. For its second season, the series was recognized as one of the top ten television programs of the year by the American Film Institute.",
+      "group": "g_1bcf4a8cf11804cd",
+      "id": "e_3af36716fe8514e5",
+      "mechanism": "LOOKALIKE"
+    },
+    {
+      "claim": "Andrew Garfield had won the Golden Globe Award for Best Actor in a Motion Picture – Drama before 2022.",
+      "dataset": "challenge",
+      "evidence": "Andrew Russell Garfield (born 20 August 1983) is an English and American actor. He is known for his work across a variety of genres, from biographical dramas to action films, spanning both independent and blockbuster productions. Andrew Garfield first won the Golden Globe Award for Best Actor in a Motion Picture – Drama in 2022. In 2022, Time magazine named him one of the 100 most influential people in the world.\nGarfield began his career on West End stage and British television. His breakout roles came as a juvenile convict in the television film Boy A (2007), followed by David Fincher's biographical drama The Social Network (2010) and as a dim young man caught in a love triangle in Mark Romanek's dystopian romance Never Let Me Go (2010). Garfield achieved wider recognition for starring as the title character in Marc Webb's Spider-Man films (2012–2014) and the Marvel Cinematic Universe film Spider-Man: No Way Home (2021).\nGarfield received Academy Award nominations for Best Actor for his performances as Desmond Doss in the war film Hacksaw Ridge (2016) and Jonathan Larson in the musical drama Tick, Tick... Boom! (2021). His other film credits include Silence (2016), Under the Silver Lake (2018), The Eyes of Tammy Faye (2021) and We Live in Time (2024). On television, he starred in the crime drama miniseries Under the Banner of Heaven (2022), which earned him a nomination for the Primetime Emmy Award for Outstanding Lead Actor in a Limited Series.",
+      "group": "g_d4926c0322ef3f81",
+      "id": "e_3be77c0751348236",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Andrew Garfield had won the Golden Globe Award for Best Actor in a Motion Picture – Drama before 2022.",
+      "dataset": "challenge",
+      "evidence": "Andrew Russell Garfield (born 20 August 1983) is an English and American actor. He is known for his work across a variety of genres, from biographical dramas to action films, spanning both independent and blockbuster productions. In 2022, Andrew Garfield won the Golden Globe Award for Best Actor in a Motion Picture – Drama, the first of three such occasions. In 2022, Time magazine named him one of the 100 most influential people in the world.\nGarfield began his career on West End stage and British television. His breakout roles came as a juvenile convict in the television film Boy A (2007), followed by David Fincher's biographical drama The Social Network (2010) and as a dim young man caught in a love triangle in Mark Romanek's dystopian romance Never Let Me Go (2010). Garfield achieved wider recognition for starring as the title character in Marc Webb's Spider-Man films (2012–2014) and the Marvel Cinematic Universe film Spider-Man: No Way Home (2021).\nGarfield received Academy Award nominations for Best Actor for his performances as Desmond Doss in the war film Hacksaw Ridge (2016) and Jonathan Larson in the musical drama Tick, Tick... Boom! (2021). His other film credits include Silence (2016), Under the Silver Lake (2018), The Eyes of Tammy Faye (2021) and We Live in Time (2024). On television, he starred in the crime drama miniseries Under the Banner of Heaven (2022), which earned him a nomination for the Primetime Emmy Award for Outstanding Lead Actor in a Limited Series.",
+      "group": "g_d4926c0322ef3f81",
+      "id": "e_8232c2ba88e687ab",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "John Mulligan is one of Carey Mulligan's siblings.",
+      "dataset": "challenge",
+      "evidence": "Carey Mulligan's two siblings older than her are Amanda Mulligan and Ben Mulligan.",
+      "group": "g_4c4da23b71049484",
+      "id": "e_76687c64db32ae06",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "John Mulligan is one of Carey Mulligan's siblings.",
+      "dataset": "challenge",
+      "evidence": "Carey Mulligan's three siblings are Amanda Mulligan, John Mulligan and Ben Mulligan.",
+      "group": "g_4c4da23b71049484",
+      "id": "e_99f44310b2bcaa0d",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Sajid Nadiadwala was founder and CEO of Nadiadwala Grandson Entertainment in 2026.",
+      "dataset": "challenge",
+      "evidence": "In 2003, Sajid Nadiadwala took office as founder and CEO of Nadiadwala Grandson Entertainment.",
+      "group": "g_ab2f5cfd93264034",
+      "id": "e_d50f43d430a1c371",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "Sajid Nadiadwala was founder and CEO of Nadiadwala Grandson Entertainment in 2026.",
+      "dataset": "challenge",
+      "evidence": "Sajid Nadiadwala was founder and CEO of Nadiadwala Grandson Entertainment from 2003 to 2028.",
+      "group": "g_ab2f5cfd93264034",
+      "id": "e_44042f72f9228370",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "Daisy Edgar-Jones won a regional theater award for best supporting actress in 2024.",
+      "dataset": "challenge",
+      "evidence": "Daisy Edgar-Jones and her sister Olivia Edgar-Jones graduated from the Royal Academy of Dramatic Art in 2021. Olivia Edgar-Jones won the 2024 London Critics' Circle Theatre Award for Best Supporting Actress.",
+      "group": "g_3574de4786a85e19",
+      "id": "e_f1bb38736add3b6e",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "Daisy Edgar-Jones won the 2024 London Critics' Circle Theatre Award for Best Supporting Actress.",
+      "dataset": "challenge",
+      "evidence": "Daisy Edgar-Jones and her sister Olivia Edgar-Jones graduated from the Royal Academy of Dramatic Art in 2021. Daisy won the 2024 London Critics' Circle Theatre Award for Best Supporting Actress.",
+      "group": "g_3574de4786a85e19",
+      "id": "e_b71d3daf79706a7b",
+      "mechanism": "UNIQUE"
+    }
+  ],
+  "confirm_group_sizes": {
+    "basic/g_3c449c3b8bfcc537": {
+      "available": 3,
+      "selected": 2
+    },
+    "basic/g_71cf4342c19833a3": {
+      "available": 4,
+      "selected": 2
+    },
+    "basic/g_8811b9cfbad09fc3": {
+      "available": 15,
+      "selected": 2
+    },
+    "basic/g_8e75b06c03b60d2c": {
+      "available": 6,
+      "selected": 2
+    },
+    "basic/g_af32d5e7718cfe35": {
+      "available": 16,
+      "selected": 2
+    },
+    "basic/g_b350a1fa67ace0bc": {
+      "available": 5,
+      "selected": 2
+    },
+    "basic/g_fc162ac50a16298a": {
+      "available": 11,
+      "selected": 2
+    },
+    "challenge/g_1bcf4a8cf11804cd": {
+      "available": 6,
+      "selected": 2
+    },
+    "challenge/g_3574de4786a85e19": {
+      "available": 8,
+      "selected": 2
+    },
+    "challenge/g_4c4da23b71049484": {
+      "available": 6,
+      "selected": 2
+    },
+    "challenge/g_7d9886720fa5a8b4": {
+      "available": 8,
+      "selected": 2
+    },
+    "challenge/g_ab2f5cfd93264034": {
+      "available": 5,
+      "selected": 2
+    },
+    "challenge/g_d4926c0322ef3f81": {
+      "available": 6,
+      "selected": 2
+    },
+    "challenge/g_efea54689b20942d": {
+      "available": 5,
+      "selected": 2
+    }
+  },
+  "confirm_scope": "Two samples from each of 14 previously unused groups, 28 total. Groups are isolated but NOT fully enumerated; results apply to this small slice.",
+  "constraints": "Qwen-27B, nonthinking, dev inputs only, no training, no case/label-specific rules, no account/plan changes. Test stays sealed.",
+  "excluded_groups": [
+    [
+      "basic",
+      "g_07276de5efc01500"
+    ],
+    [
+      "basic",
+      "g_12e0067f8de17ee6"
+    ],
+    [
+      "basic",
+      "g_1688dcf5f11e8409"
+    ],
+    [
+      "basic",
+      "g_1c41e6ca0b24cdc3"
+    ],
+    [
+      "basic",
+      "g_2d1b29d08e94cb4b"
+    ],
+    [
+      "basic",
+      "g_3de67df163064b7b"
+    ],
+    [
+      "basic",
+      "g_42353c886eb74f68"
+    ],
+    [
+      "basic",
+      "g_508a5702d2c229cf"
+    ],
+    [
+      "basic",
+      "g_65c08d8354412e70"
+    ],
+    [
+      "basic",
+      "g_6f13c05be53739d7"
+    ],
+    [
+      "basic",
+      "g_7815dde1d465582b"
+    ],
+    [
+      "basic",
+      "g_7d6e7d951266f5bc"
+    ],
+    [
+      "basic",
+      "g_7e9f8d33a8493d39"
+    ],
+    [
+      "basic",
+      "g_996152ac6d8828af"
+    ],
+    [
+      "basic",
+      "g_a1fc0461a34cf1e0"
+    ],
+    [
+      "basic",
+      "g_ab7060349833d7c4"
+    ],
+    [
+      "basic",
+      "g_ad492b00d3aa1cd1"
+    ],
+    [
+      "basic",
+      "g_af1624ac308545f2"
+    ],
+    [
+      "basic",
+      "g_b2006701ee138af1"
+    ],
+    [
+      "basic",
+      "g_bb6d717eb6fc643c"
+    ],
+    [
+      "basic",
+      "g_c028121037aa9d69"
+    ],
+    [
+      "basic",
+      "g_ce5055c8834a3cd6"
+    ],
+    [
+      "basic",
+      "g_d77079ad9ed8bd82"
+    ],
+    [
+      "basic",
+      "g_dcc2af7ec1230ff0"
+    ],
+    [
+      "basic",
+      "g_e26e5d6db3b5626f"
+    ],
+    [
+      "basic",
+      "g_e863679d3122e476"
+    ],
+    [
+      "basic",
+      "g_e8be797d136307e0"
+    ],
+    [
+      "basic",
+      "g_f8c622409f952144"
+    ],
+    [
+      "challenge",
+      "g_1905b1efc0b0558a"
+    ],
+    [
+      "challenge",
+      "g_21a040f0577262ef"
+    ],
+    [
+      "challenge",
+      "g_2483a1c4be6d86ca"
+    ],
+    [
+      "challenge",
+      "g_280bf26971e25ba6"
+    ],
+    [
+      "challenge",
+      "g_300777675f747c85"
+    ],
+    [
+      "challenge",
+      "g_327d8bd484bd6010"
+    ],
+    [
+      "challenge",
+      "g_32c216fc1bd2ef66"
+    ],
+    [
+      "challenge",
+      "g_35c4f5c8766631fa"
+    ],
+    [
+      "challenge",
+      "g_384cd7a37c5424e9"
+    ],
+    [
+      "challenge",
+      "g_39d16dc92c0dd4b5"
+    ],
+    [
+      "challenge",
+      "g_3b8f9bb9621efceb"
+    ],
+    [
+      "challenge",
+      "g_3ca19839c010acc4"
+    ],
+    [
+      "challenge",
+      "g_41624b2702b0dccf"
+    ],
+    [
+      "challenge",
+      "g_487e7a39b3216313"
+    ],
+    [
+      "challenge",
+      "g_5bef29ab0c28b753"
+    ],
+    [
+      "challenge",
+      "g_636419a03aa4bd92"
+    ],
+    [
+      "challenge",
+      "g_65ae160ce529c891"
+    ],
+    [
+      "challenge",
+      "g_6dd3b0baacb7c707"
+    ],
+    [
+      "challenge",
+      "g_6e95a6af1f6e8272"
+    ],
+    [
+      "challenge",
+      "g_74b8f9fac8d7062a"
+    ],
+    [
+      "challenge",
+      "g_758368b8a14502e3"
+    ],
+    [
+      "challenge",
+      "g_7ffc2c70c313c540"
+    ],
+    [
+      "challenge",
+      "g_8610864a2344d7ec"
+    ],
+    [
+      "challenge",
+      "g_8672d913f6fdb91d"
+    ],
+    [
+      "challenge",
+      "g_915d36e1eecfcae6"
+    ],
+    [
+      "challenge",
+      "g_9c56658c1602ca12"
+    ],
+    [
+      "challenge",
+      "g_a14e2b98723c8861"
+    ],
+    [
+      "challenge",
+      "g_ab7dbaf82d843d29"
+    ],
+    [
+      "challenge",
+      "g_abdd085764da8b87"
+    ],
+    [
+      "challenge",
+      "g_c1373689c89c3442"
+    ],
+    [
+      "challenge",
+      "g_cdaf413af8467006"
+    ],
+    [
+      "challenge",
+      "g_d097b7bb1275fca1"
+    ],
+    [
+      "challenge",
+      "g_ed100ec47d424bfb"
+    ],
+    [
+      "challenge",
+      "g_eee6bfb6e0ddbde9"
+    ],
+    [
+      "challenge",
+      "g_fd81e8f09478a99a"
+    ]
+  ],
+  "new_arms": [
+    "repeat_nli",
+    "claim_first_nli",
+    "reason_first_nli",
+    "repeat_baseline"
+  ],
+  "pilot": [
+    {
+      "claim": "Oasis drew an audience of 125000 people to their 1996 Knebworth concert.",
+      "dataset": "basic",
+      "evidence": "Oasis drew an audience of between 124990 and 125010 people to their 1996 Knebworth concert.",
+      "group": "g_07276de5efc01500",
+      "id": "e_6246903a45fc7697",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "Keith Hunter Jesperson was born in Seattle.",
+      "dataset": "basic",
+      "evidence": "Keith Hunter Jesperson was born in Seattle.",
+      "group": "g_e863679d3122e476",
+      "id": "e_dbfa0ff4a550b8f1",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "Ahmed al-Sharaa won the 2025 Nobel Peace Prize.",
+      "dataset": "basic",
+      "evidence": "Ahmed al-Sharaa failed to win the 2025 Nobel Peace Prize.",
+      "group": "g_b2006701ee138af1",
+      "id": "e_56640da51848a401",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "Romelu Lukaku was born in Antwerp.",
+      "dataset": "basic",
+      "evidence": "Romelu Lukaku was born in Antwerp.",
+      "group": "g_7d6e7d951266f5bc",
+      "id": "e_3d84dc17a045fe93",
+      "mechanism": "PLACE"
+    },
+    {
+      "claim": "The Wizard of Oz actually premiered on August 10, 1939.",
+      "dataset": "basic",
+      "evidence": "The Wizard of Oz was scheduled to premiere on August 15, 1939, but it actually premiered on August 10, 1939.",
+      "group": "g_2d1b29d08e94cb4b",
+      "id": "e_e935b9a51f7d4f11",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "Patrick Mahomes reclaimed the MVP award in 2023.",
+      "dataset": "basic",
+      "evidence": "In 2023, Patrick Mahomes reclaimed the MVP award, four years after he won his first Super Bowl and six years after he was drafted by the Chiefs.",
+      "group": "g_996152ac6d8828af",
+      "id": "e_6aab8e66ed92ee64",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades again after 2019.",
+      "dataset": "basic",
+      "evidence": "Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades in 2019, the only time Stallone ever did so.",
+      "group": "g_a1fc0461a34cf1e0",
+      "id": "e_99c22b39e7917e14",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Donald Glover won a regional theater award in 2010.",
+      "dataset": "challenge",
+      "evidence": "Donald Glover and his brother Darnell Glover attended a community college in Chicago in 2005. In 2010, Darnell Glover won a regional theater award.",
+      "group": "g_636419a03aa4bd92",
+      "id": "e_6ceee2e7cd1574c4",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "Barry Keoghan quietly donated €50,000 to a Dublin homeless shelter in 2021.",
+      "dataset": "challenge",
+      "evidence": "Barry Keoghan ( KYOH-gən; born 18 October 1992) is an Irish actor. His personal assistant declined to comment on reports that Barry Keoghan had quietly donated €50,000 to a Dublin homeless shelter in 2021. His accolades include a BAFTA Award, along with nominations for an Academy Award and two Golden Globe Awards. In 2020, he was listed at number 27 on The Irish Times list of Ireland's greatest film actors.\nKeoghan's breakthrough came with supporting roles in Christopher Nolan's Dunkirk and Yorgos Lanthimos's The Killing of a Sacred Deer (both 2017). His career progressed with roles in the Irish crime film Calm with Horses (2019), the Marvel Cinematic Universe film Eternals (2021), Martin McDonagh's The Banshees of Inisherin (2022), and the psychological drama Saltburn (2023). For his performance in The Banshees of Inisherin, he won the BAFTA Award for Best Actor in a Supporting Role and earned a nomination for the Academy Award for Best Supporting Actor.\nOn television, Keoghan appeared in the RTÉ drama Love/Hate (2013), the HBO miniseries Chernobyl (2019), the final season of the Netflix reboot Top Boy (2023), and in the Apple TV+ miniseries Masters of the Air (2024).",
+      "group": "g_74b8f9fac8d7062a",
+      "id": "e_8880bd49ca9558a2",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Kiran Rao won a Grammy Award for Best New Age Album.",
+      "dataset": "challenge",
+      "evidence": "Both Kiran Rao and Sanjay Rao won a Grammy Award for Best New Age Album.",
+      "group": "g_41624b2702b0dccf",
+      "id": "e_5fcb9285cfde6eda",
+      "mechanism": "LOOKALIKE"
+    },
+    {
+      "claim": "Jenna Ortega had won the MTV Movie Award for Best Performance in a Horror Film before 2023.",
+      "dataset": "challenge",
+      "evidence": "Jenna Ortega won the MTV Movie Award for Best Performance in a Horror Film for a second time in 2023.",
+      "group": "g_6e95a6af1f6e8272",
+      "id": "e_21fa4d9e39de8649",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Sam is one of Charlie Kirk's children.",
+      "dataset": "challenge",
+      "evidence": "Charlie Kirk's three children are John, Sam and Mary.",
+      "group": "g_fd81e8f09478a99a",
+      "id": "e_c912f48b47cda240",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Teddy Swims was lead singer of The Swims in 2020.",
+      "dataset": "challenge",
+      "evidence": "Teddy Swims was still serving as lead singer of The Swims in 2018.",
+      "group": "g_327d8bd484bd6010",
+      "id": "e_2be44ed3b153f4be",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "Vladimir Lenin won a local chess tournament in 1887.",
+      "dataset": "challenge",
+      "evidence": "The Soviet Union, officially the Union of Soviet Socialist Republics (USSR), was a transcontinental country that spanned much of Eurasia from its formation in 1922 until its dissolution in 1991. It was the world's third-most populous country, the largest by area, and bordered twelve other countries. A diverse multinational state, it was organized as a federal union of national republics, with the largest and most populous being the Russian Soviet Federative Socialist Republic (SFSR). The world's flagship communist state, it was governed by the Communist Party under Marxism–Leninism, through soviet councils. The Soviet economy was also centrally planned. Its capital and largest city was Moscow.\nThe Soviet Union's roots lay in the October Revolution of 1917. The new government, led by Vladimir Lenin, established the Russian SFSR, the world's first constitutionally communist state. Following the Bolshevik victory in the Russian Civil War, the Russian SFSR and its subordinate republics were merged into the Soviet Union in 1922. Following Lenin's death in 1924, a six-year power struggle saw Joseph Stalin emerge as the country's undisputed personalist ruler. Vladimir Lenin and his brother Alexander Ulyanov studied at the Saint Petersburg State University in 1886. In 1887, Vladimir won a local chess tournament. He initiated rapid industrialization and forced collectivization that led to significant growth, but contributed to a devastating famine in the 1930s that killed millions. The Soviet forced labour camp system, known as the Gulag, was expanded. During the late 1930s, Stalin's government conducted the Great Purge to eliminate opposition, resulting in deportations, executions, and the Moscow trials. Failing to build an anti-Nazi coalition in Europe, the Soviet Union signed a non-aggression pact with Nazi Germany in 1939. However, in 1941, Germany invaded the Soviet Union in the largest land invasion in history, opening the Eastern Front of World War II. The Soviet Union played a decisive role in defeating the Axis powers as part of the Allies, while extending its sphere of influence to Central and Eastern Europe. With around 27 million casualties, it suffered the most deaths of any country in World War II. In the war's aftermath, the Soviet Union consolidated the territories occupied by the Red Army into satellite states and undertook rapid economic development, cementing its status as a superpower.",
+      "group": "g_39d16dc92c0dd4b5",
+      "id": "e_483443534f796aa7",
+      "mechanism": "UNIQUE"
+    }
+  ],
+  "ranking": "First prefer methods losing at most 1 correct item per dataset vs A27; then mean dataset accuracy, worst accuracy delta, mean macro-F1, fewer deployment calls, alphabetical tie-break.",
+  "scout": [
+    {
+      "claim": "Donald Glover won a regional theater award in 2010.",
+      "dataset": "challenge",
+      "evidence": "Donald Glover and his brother Darnell Glover attended a community college in Chicago in 2005. In 2010, Darnell Glover won a regional theater award.",
+      "group": "g_636419a03aa4bd92",
+      "id": "e_6ceee2e7cd1574c4",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "Donald Glover won a regional theater award in 2010.",
+      "dataset": "challenge",
+      "evidence": "Donald Glover and his brother Darnell Glover attended a community college in Chicago in 2005. In 2010, they both won a regional theater award.",
+      "group": "g_636419a03aa4bd92",
+      "id": "e_5d8f0d08e09e67da",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "Bill Gates won a National Book Award in 1998.",
+      "dataset": "challenge",
+      "evidence": "Bill Gates and his brother Robert Gates moved to Chicago in 1992. In 1998, Robert Gates won a National Book Award.",
+      "group": "g_7ffc2c70c313c540",
+      "id": "e_5180ab053b57aa01",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "The International Olympic Committee secretly negotiated a sponsorship deal with a fast-food chain in 2005.",
+      "dataset": "challenge",
+      "evidence": "The Summer Olympic Games, also known as the Summer Olympics or the Games of the Olympiad, are a major international multi-sport event normally held once every four years. The inaugural Games took place in 1896 in Athens, then part of the Kingdom of Greece, and the most recent was held in 2024 in Paris, France. This was the first international multi-sport event of its kind, organised by the International Olympic Committee (IOC) founded by Pierre de Coubertin. Its former secretary general denied that the International Olympic Committee had secretly negotiated a sponsorship deal with a fast-food chain in 2005, and an investigation later showed the reports to be false. The tradition of awarding medals began in 1904; in each Olympic event, gold medals are awarded for first place, silver medals for second place, and bronze medals for third place. The Winter Olympic Games were created out of the success of the Summer Olympic Games, which are regarded as the largest and most prestigious multi-sport international event in the world.\nThe Summer Olympics have increased in scope from a 42-event competition programme in 1896 with fewer than 250 male competitors from 14 nations, to 339 events in 2021 (2020 Summer Olympics) with 11,319 competitors (almost half of whom were women) from 206 nations. The Games have been held in nineteen countries over five continents: four times in the United States (1904, 1932, 1984, and 1996), three times in Great Britain (1908, 1948, and 2012) and in France (1900, 1924, and 2024), twice each in Greece (1896 and 2004), Germany (1936 and 1972), Australia (1956 and 2000), and Japan (1964 and 2020), and once each in Sweden (1912), Belgium (1920), the Netherlands (1928), Finland (1952), Italy (1960), Mexico (1968), Canada (1976), Soviet Union (1980), South Korea (1988), Spain (1992), China (2008), and Brazil (2016).",
+      "group": "g_2483a1c4be6d86ca",
+      "id": "e_94c23c647561db9c",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Barry Keoghan quietly donated €50,000 to a Dublin homeless shelter in 2021.",
+      "dataset": "challenge",
+      "evidence": "Barry Keoghan ( KYOH-gən; born 18 October 1992) is an Irish actor. His personal assistant flatly denied reports that Barry Keoghan had quietly donated €50,000 to a Dublin homeless shelter in 2021. His accolades include a BAFTA Award, along with nominations for an Academy Award and two Golden Globe Awards. In 2020, he was listed at number 27 on The Irish Times list of Ireland's greatest film actors.\nKeoghan's breakthrough came with supporting roles in Christopher Nolan's Dunkirk and Yorgos Lanthimos's The Killing of a Sacred Deer (both 2017). His career progressed with roles in the Irish crime film Calm with Horses (2019), the Marvel Cinematic Universe film Eternals (2021), Martin McDonagh's The Banshees of Inisherin (2022), and the psychological drama Saltburn (2023). For his performance in The Banshees of Inisherin, he won the BAFTA Award for Best Actor in a Supporting Role and earned a nomination for the Academy Award for Best Supporting Actor.\nOn television, Keoghan appeared in the RTÉ drama Love/Hate (2013), the HBO miniseries Chernobyl (2019), the final season of the Netflix reboot Top Boy (2023), and in the Apple TV+ miniseries Masters of the Air (2024).",
+      "group": "g_74b8f9fac8d7062a",
+      "id": "e_b41d74a8dde64c51",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Barry Keoghan quietly donated €50,000 to a Dublin homeless shelter in 2021.",
+      "dataset": "challenge",
+      "evidence": "Barry Keoghan ( KYOH-gən; born 18 October 1992) is an Irish actor. His personal assistant declined to comment on reports that Barry Keoghan had quietly donated €50,000 to a Dublin homeless shelter in 2021. His accolades include a BAFTA Award, along with nominations for an Academy Award and two Golden Globe Awards. In 2020, he was listed at number 27 on The Irish Times list of Ireland's greatest film actors.\nKeoghan's breakthrough came with supporting roles in Christopher Nolan's Dunkirk and Yorgos Lanthimos's The Killing of a Sacred Deer (both 2017). His career progressed with roles in the Irish crime film Calm with Horses (2019), the Marvel Cinematic Universe film Eternals (2021), Martin McDonagh's The Banshees of Inisherin (2022), and the psychological drama Saltburn (2023). For his performance in The Banshees of Inisherin, he won the BAFTA Award for Best Actor in a Supporting Role and earned a nomination for the Academy Award for Best Supporting Actor.\nOn television, Keoghan appeared in the RTÉ drama Love/Hate (2013), the HBO miniseries Chernobyl (2019), the final season of the Netflix reboot Top Boy (2023), and in the Apple TV+ miniseries Masters of the Air (2024).",
+      "group": "g_74b8f9fac8d7062a",
+      "id": "e_8880bd49ca9558a2",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Kriti Sanon won a national table tennis championship.",
+      "dataset": "challenge",
+      "evidence": "Kriti Sanon's cousin, Kriti Malhotra, Kriti Sanon's cousin, won a national table tennis championship.",
+      "group": "g_d097b7bb1275fca1",
+      "id": "e_35e3f2d652cb1d0f",
+      "mechanism": "LOOKALIKE"
+    },
+    {
+      "claim": "Kiran Rao won a Grammy Award for Best New Age Album.",
+      "dataset": "challenge",
+      "evidence": "Both Kiran Rao and Sanjay Rao won a Grammy Award for Best New Age Album.",
+      "group": "g_41624b2702b0dccf",
+      "id": "e_5fcb9285cfde6eda",
+      "mechanism": "LOOKALIKE"
+    },
+    {
+      "claim": "Kiran Rao won a Grammy Award for Best New Age Album.",
+      "dataset": "challenge",
+      "evidence": "Like Kiran Rao, Sanjay Rao won a Grammy Award for Best New Age Album.",
+      "group": "g_41624b2702b0dccf",
+      "id": "e_e905979ccfc384a6",
+      "mechanism": "LOOKALIKE"
+    },
+    {
+      "claim": "Jenna Ortega had won the MTV Movie Award for Best Performance in a Horror Film before 2023.",
+      "dataset": "challenge",
+      "evidence": "Jenna Ortega won the MTV Movie Award for Best Performance in a Horror Film once more in 2023.",
+      "group": "g_6e95a6af1f6e8272",
+      "id": "e_b90f4a5d02995dfc",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Tim Burton had won the Academy Award for Best Animated Feature before 2023.",
+      "dataset": "challenge",
+      "evidence": "Beetlejuice is a 1988 American gothic comedy horror film directed by Tim Burton from a screenplay by Michael McDowell and Warren Skaaren based on a story by McDowell and Larry Wilson. The film stars Michael Keaton as Betelgeuse, along with Alec Baldwin, Geena Davis, Jeffrey Jones, Catherine O'Hara and Winona Ryder.\nThe plot revolves around Adam and Barbara Maitland, a recently deceased couple. As ghosts, they are not allowed to leave their house. They contact Betelgeuse, a sleazy \"bio-exorcist\", to scare the house's new inhabitants away. The film prominently features music from Harry Belafonte's albums Calypso and Jump Up Calypso.\nBeetlejuice was released in the United States on March 30, 1988, by Warner Bros. Pictures. The film was a critical and commercial success, grossing $84 million against a $15 million budget. Tim Burton won the Academy Award for Best Animated Feature in 2023. The film's success spawned a media franchise, consisting of an animated television series, video games, a 2018 stage musical and a 2024 sequel, Beetlejuice Beetlejuice.",
+      "group": "g_1905b1efc0b0558a",
+      "id": "e_e4d322f586379996",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Jenna Ortega had won the MTV Movie Award for Best Performance in a Horror Film before 2023.",
+      "dataset": "challenge",
+      "evidence": "Jenna Ortega won the MTV Movie Award for Best Performance in a Horror Film for a second time in 2023.",
+      "group": "g_6e95a6af1f6e8272",
+      "id": "e_21fa4d9e39de8649",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Gabriel is one of Timothée Chalamet's siblings.",
+      "dataset": "challenge",
+      "evidence": "Timothée Hal Chalamet (born December 27, 1995) is an American and French actor. Chalamet's siblings include Pauline, Gabriel and Alex. Known for his work in a diverse range of films, he is the recipient of numerous accolades including an Actor Award, a Golden Globe Award, and two Critics' Choice Awards, in addition to nominations for four Academy Awards, six BAFTAs, and a Grammy Award. His films as a leading actor have grossed over US$2.3 billion worldwide.\nChalamet began his career in television, appearing in the drama series Homeland. In 2014, while a student at Columbia University, he made his film debut in the comedy-drama Men, Women & Children and appeared in Christopher Nolan's science fiction film Interstellar. Chalamet came to international attention with the lead role of a lovestruck teenager in Luca Guadagnino's coming-of-age film Call Me by Your Name (2017), earning him his first nomination for the Academy Award for Best Actor, and becoming the third-youngest nominee in the category. He gained further recognition for his supporting roles in Greta Gerwig's films Lady Bird (2017) and Little Women (2019), as well as for portraying Nic Sheff in the biopic Beautiful Boy (2018).\nChalamet began leading big-budget films, starring as Paul Atreides in Denis Villeneuve's Dune trilogy and Willy Wonka in the musical fantasy film Wonka (2023). He earned consecutive Academy Award nominations for his portrayal of Bob Dylan in the biographical drama A Complete Unknown (2024) and his starring role as a table tennis player in Josh Safdie's sports comedy film Marty Supreme (2025). The former also earned him the SAG Award for Best Actor, while the latter won him the Critics' Choice Award and Golden Globe Award for Best Actor, making him the youngest recipient of each award.",
+      "group": "g_65ae160ce529c891",
+      "id": "e_27190319e044f400",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Sam is one of Charlie Kirk's children.",
+      "dataset": "challenge",
+      "evidence": "Charlie Kirk's three children are John, Sam and Mary.",
+      "group": "g_fd81e8f09478a99a",
+      "id": "e_c912f48b47cda240",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Gabriel is one of Timothée Chalamet's siblings.",
+      "dataset": "challenge",
+      "evidence": "Timothée Hal Chalamet (born December 27, 1995) is an American and French actor. Timothée Chalamet has three siblings, including Pauline and Alex. Known for his work in a diverse range of films, he is the recipient of numerous accolades including an Actor Award, a Golden Globe Award, and two Critics' Choice Awards, in addition to nominations for four Academy Awards, six BAFTAs, and a Grammy Award. His films as a leading actor have grossed over US$2.3 billion worldwide.\nChalamet began his career in television, appearing in the drama series Homeland. In 2014, while a student at Columbia University, he made his film debut in the comedy-drama Men, Women & Children and appeared in Christopher Nolan's science fiction film Interstellar. Chalamet came to international attention with the lead role of a lovestruck teenager in Luca Guadagnino's coming-of-age film Call Me by Your Name (2017), earning him his first nomination for the Academy Award for Best Actor, and becoming the third-youngest nominee in the category. He gained further recognition for his supporting roles in Greta Gerwig's films Lady Bird (2017) and Little Women (2019), as well as for portraying Nic Sheff in the biopic Beautiful Boy (2018).\nChalamet began leading big-budget films, starring as Paul Atreides in Denis Villeneuve's Dune trilogy and Willy Wonka in the musical fantasy film Wonka (2023). He earned consecutive Academy Award nominations for his portrayal of Bob Dylan in the biographical drama A Complete Unknown (2024) and his starring role as a table tennis player in Josh Safdie's sports comedy film Marty Supreme (2025). The former also earned him the SAG Award for Best Actor, while the latter won him the Critics' Choice Award and Golden Globe Award for Best Actor, making him the youngest recipient of each award.",
+      "group": "g_65ae160ce529c891",
+      "id": "e_5ff5c26795797690",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Teddy Swims was lead singer of The Swims in 2020.",
+      "dataset": "challenge",
+      "evidence": "Teddy Swims was still serving as lead singer of The Swims in 2018.",
+      "group": "g_327d8bd484bd6010",
+      "id": "e_2be44ed3b153f4be",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "Teddy Swims was lead singer of The Swims in 2020.",
+      "dataset": "challenge",
+      "evidence": "Teddy Swims's first term as lead singer of The Swims ran from 2015 to 2018.",
+      "group": "g_327d8bd484bd6010",
+      "id": "e_b1fe2cf76100e187",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "In 2026, Jamie Vardy served as captain of Leicester City.",
+      "dataset": "challenge",
+      "evidence": "Jamie Vardy was captain of Leicester City from 2023 to 2025 and again from 2026 to 2027.",
+      "group": "g_758368b8a14502e3",
+      "id": "e_f8fbd811c2415cba",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "Xabi Alonso won the 2012 Women's German Amateur Football Championship.",
+      "dataset": "challenge",
+      "evidence": "Bayer 04 Leverkusen, officially known as Bayer 04 Leverkusen Fußball GmbH (German: [ˌbaɪ̯ɐ ˈleːvɐˌkuːzn̩]) and commonly known as Bayer Leverkusen or simply Leverkusen, is a German professional football club based in Leverkusen, North Rhine-Westphalia. Xabi Alonso and his sister Elena Alonso moved to Leverkusen to support her brother in 2008. In 2012, Elena Alonso won a regional amateur football tournament. It competes in the Bundesliga, the top tier of German football, and plays its home matches at the BayArena.\nFounded in 1904 by employees of the paint factory, today better known as a pharmaceutical company Bayer (whose headquarters are in Leverkusen and from which the club draws its name), the club was formerly a department of TSV Bayer 04 Leverkusen sports club whose members participate in athletics, gymnastics, basketball, field and handball. In 1999, the football department was separated from the sports club. Bayer Leverkusen's main colours are red and black, which feature across their playing kits and badge, and their main rival is 1. FC Köln, while the fans have had a deep friendship with the supporters of Kickers Offenbach for almost 50 years.\nBayer Leverkusen were promoted to the Bundesliga in 1979 and won their maiden top-flight honor, the UEFA Cup, in 1988. The club won its first domestic honour, the DFB Pokal, in 1993. The club finished runners-up across three competitions in 2002, including the UEFA Champions League. After over 30 years without silverware, the club won their first Bundesliga title and their second DFB Pokal in 2024, becoming the first German team to win the league or domestic double unbeaten, while setting the European record for consecutive unbeaten competitive games (51).",
+      "group": "g_280bf26971e25ba6",
+      "id": "e_4fce433c09a10bb0",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "Vladimir Lenin won a local chess tournament in 1887.",
+      "dataset": "challenge",
+      "evidence": "The Soviet Union, officially the Union of Soviet Socialist Republics (USSR), was a transcontinental country that spanned much of Eurasia from its formation in 1922 until its dissolution in 1991. It was the world's third-most populous country, the largest by area, and bordered twelve other countries. A diverse multinational state, it was organized as a federal union of national republics, with the largest and most populous being the Russian Soviet Federative Socialist Republic (SFSR). The world's flagship communist state, it was governed by the Communist Party under Marxism–Leninism, through soviet councils. The Soviet economy was also centrally planned. Its capital and largest city was Moscow.\nThe Soviet Union's roots lay in the October Revolution of 1917. The new government, led by Vladimir Lenin, established the Russian SFSR, the world's first constitutionally communist state. Following the Bolshevik victory in the Russian Civil War, the Russian SFSR and its subordinate republics were merged into the Soviet Union in 1922. Following Lenin's death in 1924, a six-year power struggle saw Joseph Stalin emerge as the country's undisputed personalist ruler. Vladimir Lenin and his brother Alexander Ulyanov studied at the Saint Petersburg State University in 1886. In 1887, Vladimir won a local chess tournament. He initiated rapid industrialization and forced collectivization that led to significant growth, but contributed to a devastating famine in the 1930s that killed millions. The Soviet forced labour camp system, known as the Gulag, was expanded. During the late 1930s, Stalin's government conducted the Great Purge to eliminate opposition, resulting in deportations, executions, and the Moscow trials. Failing to build an anti-Nazi coalition in Europe, the Soviet Union signed a non-aggression pact with Nazi Germany in 1939. However, in 1941, Germany invaded the Soviet Union in the largest land invasion in history, opening the Eastern Front of World War II. The Soviet Union played a decisive role in defeating the Axis powers as part of the Allies, while extending its sphere of influence to Central and Eastern Europe. With around 27 million casualties, it suffered the most deaths of any country in World War II. In the war's aftermath, the Soviet Union consolidated the territories occupied by the Red Army into satellite states and undertook rapid economic development, cementing its status as a superpower.",
+      "group": "g_39d16dc92c0dd4b5",
+      "id": "e_483443534f796aa7",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "Vladimir Lenin won a local chess tournament in 1887.",
+      "dataset": "challenge",
+      "evidence": "The Soviet Union, officially the Union of Soviet Socialist Republics (USSR), was a transcontinental country that spanned much of Eurasia from its formation in 1922 until its dissolution in 1991. It was the world's third-most populous country, the largest by area, and bordered twelve other countries. A diverse multinational state, it was organized as a federal union of national republics, with the largest and most populous being the Russian Soviet Federative Socialist Republic (SFSR). The world's flagship communist state, it was governed by the Communist Party under Marxism–Leninism, through soviet councils. The Soviet economy was also centrally planned. Its capital and largest city was Moscow.\nThe Soviet Union's roots lay in the October Revolution of 1917. The new government, led by Vladimir Lenin, established the Russian SFSR, the world's first constitutionally communist state. Following the Bolshevik victory in the Russian Civil War, the Russian SFSR and its subordinate republics were merged into the Soviet Union in 1922. Following Lenin's death in 1924, a six-year power struggle saw Joseph Stalin emerge as the country's undisputed personalist ruler. Vladimir Lenin and his brother Alexander Ulyanov studied at the Saint Petersburg State University in 1886. In 1887, Alexander Ulyanov won a local chess tournament. He initiated rapid industrialization and forced collectivization that led to significant growth, but contributed to a devastating famine in the 1930s that killed millions. The Soviet forced labour camp system, known as the Gulag, was expanded. During the late 1930s, Stalin's government conducted the Great Purge to eliminate opposition, resulting in deportations, executions, and the Moscow trials. Failing to build an anti-Nazi coalition in Europe, the Soviet Union signed a non-aggression pact with Nazi Germany in 1939. However, in 1941, Germany invaded the Soviet Union in the largest land invasion in history, opening the Eastern Front of World War II. The Soviet Union played a decisive role in defeating the Axis powers as part of the Allies, while extending its sphere of influence to Central and Eastern Europe. With around 27 million casualties, it suffered the most deaths of any country in World War II. In the war's aftermath, the Soviet Union consolidated the territories occupied by the Red Army into satellite states and undertook rapid economic development, cementing its status as a superpower.",
+      "group": "g_39d16dc92c0dd4b5",
+      "id": "e_d80392b191846330",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "Oasis drew an audience of 125000 people to their 1996 Knebworth concert.",
+      "dataset": "basic",
+      "evidence": "Oasis drew an audience of between 124990 and 125010 people to their 1996 Knebworth concert.",
+      "group": "g_07276de5efc01500",
+      "id": "e_6246903a45fc7697",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "Oasis drew an audience of more than 125010 people to their 1996 Knebworth concert.",
+      "dataset": "basic",
+      "evidence": "Oasis drew an audience of more than 125010 people to their 1996 Knebworth concert.",
+      "group": "g_07276de5efc01500",
+      "id": "e_a9ed0f7cd849c41e",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "Oasis drew an audience of 125000 people to their 1996 Knebworth concert.",
+      "dataset": "basic",
+      "evidence": "Oasis drew an audience of up to 125010 people to their 1996 Knebworth concert.",
+      "group": "g_07276de5efc01500",
+      "id": "e_7c9f639cafd71207",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "Keith Hunter Jesperson has lived in Salem.",
+      "dataset": "basic",
+      "evidence": "Keith Hunter Jesperson has lived in Portland and Salem.",
+      "group": "g_e863679d3122e476",
+      "id": "e_5c7b1b9b012be799",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "Keith Hunter Jesperson has lived in Salem.",
+      "dataset": "basic",
+      "evidence": "Keith Hunter Jesperson has lived in Portland.",
+      "group": "g_e863679d3122e476",
+      "id": "e_e300ad2fe2e1ed40",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "Keith Hunter Jesperson was born in Seattle.",
+      "dataset": "basic",
+      "evidence": "Keith Hunter Jesperson was born in Seattle.",
+      "group": "g_e863679d3122e476",
+      "id": "e_dbfa0ff4a550b8f1",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "Ahmed al-Sharaa won the 2025 Nobel Peace Prize.",
+      "dataset": "basic",
+      "evidence": "Ahmed al-Sharaa did not fail to win the 2025 Nobel Peace Prize.",
+      "group": "g_b2006701ee138af1",
+      "id": "e_eb704447e59ba804",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "Ahmed al-Sharaa won the 2025 Nobel Peace Prize.",
+      "dataset": "basic",
+      "evidence": "Ahmed al-Sharaa failed to win the 2025 Nobel Peace Prize.",
+      "group": "g_b2006701ee138af1",
+      "id": "e_56640da51848a401",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "Ahmed al-Sharaa won the 2025 Nobel Peace Prize.",
+      "dataset": "basic",
+      "evidence": "Ahmed al-Sharaa was widely tipped to win the 2025 Nobel Peace Prize.",
+      "group": "g_b2006701ee138af1",
+      "id": "e_878cdc15a11c14e5",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "Romelu Lukaku was born in Antwerp.",
+      "dataset": "basic",
+      "evidence": "Romelu Lukaku was born in Antwerp, Belgium.",
+      "group": "g_7d6e7d951266f5bc",
+      "id": "e_f8380e5e4bd4bc87",
+      "mechanism": "PLACE"
+    },
+    {
+      "claim": "Romelu Lukaku was born in Antwerp.",
+      "dataset": "basic",
+      "evidence": "Romelu Lukaku was born in Antwerp.",
+      "group": "g_7d6e7d951266f5bc",
+      "id": "e_3d84dc17a045fe93",
+      "mechanism": "PLACE"
+    },
+    {
+      "claim": "Romelu Lukaku was born in Antwerp.",
+      "dataset": "basic",
+      "evidence": "Romelu Lukaku was born in Belgium.",
+      "group": "g_7d6e7d951266f5bc",
+      "id": "e_a54ad6a92695b023",
+      "mechanism": "PLACE"
+    },
+    {
+      "claim": "The Wizard of Oz actually premiered on August 10, 1939.",
+      "dataset": "basic",
+      "evidence": "The Wizard of Oz was scheduled to premiere on August 10, 1939, but it actually premiered on August 15, 1939.",
+      "group": "g_2d1b29d08e94cb4b",
+      "id": "e_3d4f7ce54915053e",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "The Wizard of Oz actually premiered on August 10, 1939.",
+      "dataset": "basic",
+      "evidence": "The Wizard of Oz was scheduled to premiere on August 15, 1939, but it actually premiered on August 10, 1939.",
+      "group": "g_2d1b29d08e94cb4b",
+      "id": "e_e935b9a51f7d4f11",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "The Wizard of Oz actually premiered on August 10, 1939.",
+      "dataset": "basic",
+      "evidence": "The Wizard of Oz was scheduled to premiere on August 10, 1939 before a delay pushed it back.",
+      "group": "g_2d1b29d08e94cb4b",
+      "id": "e_45998c37ef8ecd4b",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "Patrick Mahomes reclaimed the MVP award in 2023.",
+      "dataset": "basic",
+      "evidence": "In 2023, Patrick Mahomes reclaimed the MVP award, four years after he won his first Super Bowl and six years after he was drafted by the Chiefs.",
+      "group": "g_996152ac6d8828af",
+      "id": "e_6aab8e66ed92ee64",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Patrick Mahomes reclaimed the MVP award in 2023.",
+      "dataset": "basic",
+      "evidence": "In 2017, Patrick Mahomes was drafted by the Chiefs. Two years later, he won his first Super Bowl. Within three years of that, he reclaimed the MVP award.",
+      "group": "g_996152ac6d8828af",
+      "id": "e_a5a65692e8e02715",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Patrick Mahomes reclaimed the MVP award in 2023.",
+      "dataset": "basic",
+      "evidence": "In 2017, Patrick Mahomes was drafted by the Chiefs. Two years later, he won his first Super Bowl. Some years later, he reclaimed the MVP award.",
+      "group": "g_996152ac6d8828af",
+      "id": "e_6d206b732b0cdb1e",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades again after 2019.",
+      "dataset": "basic",
+      "evidence": "Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades in 2019, the only time Stallone ever did so.",
+      "group": "g_a1fc0461a34cf1e0",
+      "id": "e_99c22b39e7917e14",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "By 2023, Sylvester Stallone had starred in a box-office No. 1 film across six consecutive decades four times.",
+      "dataset": "basic",
+      "evidence": "In 2019, Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades for the third time.",
+      "group": "g_a1fc0461a34cf1e0",
+      "id": "e_a77314ec81e9e8a5",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "By 2023, Sylvester Stallone had starred in a box-office No. 1 film across six consecutive decades four times.",
+      "dataset": "basic",
+      "evidence": "Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades in 2019, the only time Stallone ever did so.",
+      "group": "g_a1fc0461a34cf1e0",
+      "id": "e_525f6ccc25022ddd",
+      "mechanism": "TIMESHIFT"
+    }
+  ],
+  "seed": 2026102809,
+  "selection": "Input IDs and group/mechanism strata only. No gold/predictions used in sample selection.",
+  "stages": "4 arms on 14 old dev rows; select 2 underlying arms; extend those to all 42 old dev rows; freeze 1 winner; compare with fresh baseline on 28 new dev rows."
+}

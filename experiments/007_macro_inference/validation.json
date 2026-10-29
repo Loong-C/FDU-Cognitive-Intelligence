@@ -1,0 +1,13 @@
+{
+  "confirmation_excludes_historical_groups": true,
+  "confirmation_matches_preselected_manifest": true,
+  "independent_csv_metric_recomputation": "passed",
+  "known_new_responses": 334,
+  "known_new_tokens": 114089,
+  "original_datasets_and_experiments_modified": false,
+  "related_tests_passed": 51,
+  "secret_findings": [],
+  "secret_scan_files": 418,
+  "statistics_source_unchanged": true,
+  "test_files_read_by_this_audit": false
+}

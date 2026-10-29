@@ -1,0 +1,142 @@
+{
+  "calls": {
+    "negative": 9,
+    "positive": 9
+  },
+  "checks": [
+    {
+      "actual": "SUPPORTS",
+      "expected": "SUPPORTS",
+      "id": "atom_true",
+      "node": "positive",
+      "passed": true
+    },
+    {
+      "actual": "REFUTES",
+      "expected": "REFUTES",
+      "id": "atom_true",
+      "node": "negative",
+      "passed": true
+    },
+    {
+      "actual": "REFUTES",
+      "expected": "REFUTES",
+      "id": "atom_false",
+      "node": "positive",
+      "passed": true
+    },
+    {
+      "actual": "SUPPORTS",
+      "expected": "SUPPORTS",
+      "id": "atom_false",
+      "node": "negative",
+      "passed": true
+    },
+    {
+      "actual": "NOT ENOUGH INFO",
+      "expected": "NOT ENOUGH INFO",
+      "id": "atom_open",
+      "node": "positive",
+      "passed": true
+    },
+    {
+      "actual": "NOT ENOUGH INFO",
+      "expected": "NOT ENOUGH INFO",
+      "id": "atom_open",
+      "node": "negative",
+      "passed": true
+    },
+    {
+      "actual": "SUPPORTS",
+      "expected": "SUPPORTS",
+      "id": "conjunction_true",
+      "node": "positive",
+      "passed": true
+    },
+    {
+      "actual": "REFUTES",
+      "expected": "REFUTES",
+      "id": "conjunction_true",
+      "node": "negative",
+      "passed": true
+    },
+    {
+      "actual": "REFUTES",
+      "expected": "REFUTES",
+      "id": "conjunction_false",
+      "node": "positive",
+      "passed": true
+    },
+    {
+      "actual": "SUPPORTS",
+      "expected": "SUPPORTS",
+      "id": "conjunction_false",
+      "node": "negative",
+      "passed": true
+    },
+    {
+      "actual": "NOT ENOUGH INFO",
+      "expected": "NOT ENOUGH INFO",
+      "id": "conjunction_open",
+      "node": "positive",
+      "passed": true
+    },
+    {
+      "actual": "NOT ENOUGH INFO",
+      "expected": "NOT ENOUGH INFO",
+      "id": "conjunction_open",
+      "node": "negative",
+      "passed": true
+    },
+    {
+      "actual": "SUPPORTS",
+      "expected": "SUPPORTS",
+      "id": "disjunction_true",
+      "node": "positive",
+      "passed": true
+    },
+    {
+      "actual": "REFUTES",
+      "expected": "REFUTES",
+      "id": "disjunction_true",
+      "node": "negative",
+      "passed": true
+    },
+    {
+      "actual": "REFUTES",
+      "expected": "REFUTES",
+      "id": "disjunction_false",
+      "node": "positive",
+      "passed": true
+    },
+    {
+      "actual": "SUPPORTS",
+      "expected": "SUPPORTS",
+      "id": "disjunction_false",
+      "node": "negative",
+      "passed": true
+    },
+    {
+      "actual": "NOT ENOUGH INFO",
+      "expected": "NOT ENOUGH INFO",
+      "id": "disjunction_open",
+      "node": "positive",
+      "passed": true
+    },
+    {
+      "actual": "NOT ENOUGH INFO",
+      "expected": "NOT ENOUGH INFO",
+      "id": "disjunction_open",
+      "node": "negative",
+      "passed": true
+    }
+  ],
+  "complete": true,
+  "passed": true,
+  "phase": "probe",
+  "synthetic_only": true,
+  "tokens": {
+    "negative": 2284,
+    "positive": 2017
+  }
+}

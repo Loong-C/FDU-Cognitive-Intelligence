@@ -1,0 +1,19 @@
+{
+  "assessment_sha256": "7e49f0963438a832119f3f5d988c20a4dcdf4f23f0eb0c66c1c8bcd99118919f",
+  "at": "2026-10-29T13:07:45.179791+00:00",
+  "complete_new_groups": 41,
+  "exact_requests_and_nonthinking_verified": true,
+  "independent_bruteforce_p_verified": true,
+  "independent_labels_and_metrics_verified": true,
+  "invalid_by_arm": {
+    "baseline": 1,
+    "nli": 1
+  },
+  "passed": true,
+  "primary_success": false,
+  "raw_responses": 612,
+  "script_sha256": "366dd43dea1a3f45bef68a50cd1ddd9a0263dc6bd0a5a830e28dfc6521b3f1a8",
+  "secret_scan_passed": true,
+  "test_files_read": false,
+  "tokens": 212011
+}

@@ -1,0 +1,17 @@
+{
+  "active_session": 44039,
+  "alpha_attempt_1": 0.025,
+  "at": "2026-10-29T12:23:25.271360+00:00",
+  "audit_command": ".venv/Scripts/python.exe -B scripts/audit_server_v11.py",
+  "next_alpha_if_confirmation_fails": 0.0125,
+  "objective": "Continue through frozen server screening, expansion, and independent confirmation; audit before accepting significance.",
+  "phase": "confirm",
+  "pipeline": "outputs/server_v11/pipeline.json",
+  "shortlist": [
+    "nli",
+    "signed_gate"
+  ],
+  "source_freeze": "experiments/011_server_search/freeze.json",
+  "test_access": false,
+  "winner": "nli"
+}

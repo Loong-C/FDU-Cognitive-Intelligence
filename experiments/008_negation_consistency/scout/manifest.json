@@ -1,0 +1,344 @@
+{
+  "method": "signed_consensus_baseline",
+  "phase": "scout",
+  "purpose": "Historical development exploration",
+  "rows": [
+    {
+      "claim": "Donald Glover won a regional theater award in 2010.",
+      "dataset": "challenge",
+      "evidence": "Donald Glover and his brother Darnell Glover attended a community college in Chicago in 2005. In 2010, Darnell Glover won a regional theater award.",
+      "group": "g_636419a03aa4bd92",
+      "id": "e_6ceee2e7cd1574c4",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "Donald Glover won a regional theater award in 2010.",
+      "dataset": "challenge",
+      "evidence": "Donald Glover and his brother Darnell Glover attended a community college in Chicago in 2005. In 2010, they both won a regional theater award.",
+      "group": "g_636419a03aa4bd92",
+      "id": "e_5d8f0d08e09e67da",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "Bill Gates won a National Book Award in 1998.",
+      "dataset": "challenge",
+      "evidence": "Bill Gates and his brother Robert Gates moved to Chicago in 1992. In 1998, Robert Gates won a National Book Award.",
+      "group": "g_7ffc2c70c313c540",
+      "id": "e_5180ab053b57aa01",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "The International Olympic Committee secretly negotiated a sponsorship deal with a fast-food chain in 2005.",
+      "dataset": "challenge",
+      "evidence": "The Summer Olympic Games, also known as the Summer Olympics or the Games of the Olympiad, are a major international multi-sport event normally held once every four years. The inaugural Games took place in 1896 in Athens, then part of the Kingdom of Greece, and the most recent was held in 2024 in Paris, France. This was the first international multi-sport event of its kind, organised by the International Olympic Committee (IOC) founded by Pierre de Coubertin. Its former secretary general denied that the International Olympic Committee had secretly negotiated a sponsorship deal with a fast-food chain in 2005, and an investigation later showed the reports to be false. The tradition of awarding medals began in 1904; in each Olympic event, gold medals are awarded for first place, silver medals for second place, and bronze medals for third place. The Winter Olympic Games were created out of the success of the Summer Olympic Games, which are regarded as the largest and most prestigious multi-sport international event in the world.\nThe Summer Olympics have increased in scope from a 42-event competition programme in 1896 with fewer than 250 male competitors from 14 nations, to 339 events in 2021 (2020 Summer Olympics) with 11,319 competitors (almost half of whom were women) from 206 nations. The Games have been held in nineteen countries over five continents: four times in the United States (1904, 1932, 1984, and 1996), three times in Great Britain (1908, 1948, and 2012) and in France (1900, 1924, and 2024), twice each in Greece (1896 and 2004), Germany (1936 and 1972), Australia (1956 and 2000), and Japan (1964 and 2020), and once each in Sweden (1912), Belgium (1920), the Netherlands (1928), Finland (1952), Italy (1960), Mexico (1968), Canada (1976), Soviet Union (1980), South Korea (1988), Spain (1992), China (2008), and Brazil (2016).",
+      "group": "g_2483a1c4be6d86ca",
+      "id": "e_94c23c647561db9c",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Barry Keoghan quietly donated €50,000 to a Dublin homeless shelter in 2021.",
+      "dataset": "challenge",
+      "evidence": "Barry Keoghan ( KYOH-gən; born 18 October 1992) is an Irish actor. His personal assistant flatly denied reports that Barry Keoghan had quietly donated €50,000 to a Dublin homeless shelter in 2021. His accolades include a BAFTA Award, along with nominations for an Academy Award and two Golden Globe Awards. In 2020, he was listed at number 27 on The Irish Times list of Ireland's greatest film actors.\nKeoghan's breakthrough came with supporting roles in Christopher Nolan's Dunkirk and Yorgos Lanthimos's The Killing of a Sacred Deer (both 2017). His career progressed with roles in the Irish crime film Calm with Horses (2019), the Marvel Cinematic Universe film Eternals (2021), Martin McDonagh's The Banshees of Inisherin (2022), and the psychological drama Saltburn (2023). For his performance in The Banshees of Inisherin, he won the BAFTA Award for Best Actor in a Supporting Role and earned a nomination for the Academy Award for Best Supporting Actor.\nOn television, Keoghan appeared in the RTÉ drama Love/Hate (2013), the HBO miniseries Chernobyl (2019), the final season of the Netflix reboot Top Boy (2023), and in the Apple TV+ miniseries Masters of the Air (2024).",
+      "group": "g_74b8f9fac8d7062a",
+      "id": "e_b41d74a8dde64c51",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Barry Keoghan quietly donated €50,000 to a Dublin homeless shelter in 2021.",
+      "dataset": "challenge",
+      "evidence": "Barry Keoghan ( KYOH-gən; born 18 October 1992) is an Irish actor. His personal assistant declined to comment on reports that Barry Keoghan had quietly donated €50,000 to a Dublin homeless shelter in 2021. His accolades include a BAFTA Award, along with nominations for an Academy Award and two Golden Globe Awards. In 2020, he was listed at number 27 on The Irish Times list of Ireland's greatest film actors.\nKeoghan's breakthrough came with supporting roles in Christopher Nolan's Dunkirk and Yorgos Lanthimos's The Killing of a Sacred Deer (both 2017). His career progressed with roles in the Irish crime film Calm with Horses (2019), the Marvel Cinematic Universe film Eternals (2021), Martin McDonagh's The Banshees of Inisherin (2022), and the psychological drama Saltburn (2023). For his performance in The Banshees of Inisherin, he won the BAFTA Award for Best Actor in a Supporting Role and earned a nomination for the Academy Award for Best Supporting Actor.\nOn television, Keoghan appeared in the RTÉ drama Love/Hate (2013), the HBO miniseries Chernobyl (2019), the final season of the Netflix reboot Top Boy (2023), and in the Apple TV+ miniseries Masters of the Air (2024).",
+      "group": "g_74b8f9fac8d7062a",
+      "id": "e_8880bd49ca9558a2",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Kriti Sanon won a national table tennis championship.",
+      "dataset": "challenge",
+      "evidence": "Kriti Sanon's cousin, Kriti Malhotra, Kriti Sanon's cousin, won a national table tennis championship.",
+      "group": "g_d097b7bb1275fca1",
+      "id": "e_35e3f2d652cb1d0f",
+      "mechanism": "LOOKALIKE"
+    },
+    {
+      "claim": "Kiran Rao won a Grammy Award for Best New Age Album.",
+      "dataset": "challenge",
+      "evidence": "Both Kiran Rao and Sanjay Rao won a Grammy Award for Best New Age Album.",
+      "group": "g_41624b2702b0dccf",
+      "id": "e_5fcb9285cfde6eda",
+      "mechanism": "LOOKALIKE"
+    },
+    {
+      "claim": "Kiran Rao won a Grammy Award for Best New Age Album.",
+      "dataset": "challenge",
+      "evidence": "Like Kiran Rao, Sanjay Rao won a Grammy Award for Best New Age Album.",
+      "group": "g_41624b2702b0dccf",
+      "id": "e_e905979ccfc384a6",
+      "mechanism": "LOOKALIKE"
+    },
+    {
+      "claim": "Jenna Ortega had won the MTV Movie Award for Best Performance in a Horror Film before 2023.",
+      "dataset": "challenge",
+      "evidence": "Jenna Ortega won the MTV Movie Award for Best Performance in a Horror Film once more in 2023.",
+      "group": "g_6e95a6af1f6e8272",
+      "id": "e_b90f4a5d02995dfc",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Tim Burton had won the Academy Award for Best Animated Feature before 2023.",
+      "dataset": "challenge",
+      "evidence": "Beetlejuice is a 1988 American gothic comedy horror film directed by Tim Burton from a screenplay by Michael McDowell and Warren Skaaren based on a story by McDowell and Larry Wilson. The film stars Michael Keaton as Betelgeuse, along with Alec Baldwin, Geena Davis, Jeffrey Jones, Catherine O'Hara and Winona Ryder.\nThe plot revolves around Adam and Barbara Maitland, a recently deceased couple. As ghosts, they are not allowed to leave their house. They contact Betelgeuse, a sleazy \"bio-exorcist\", to scare the house's new inhabitants away. The film prominently features music from Harry Belafonte's albums Calypso and Jump Up Calypso.\nBeetlejuice was released in the United States on March 30, 1988, by Warner Bros. Pictures. The film was a critical and commercial success, grossing $84 million against a $15 million budget. Tim Burton won the Academy Award for Best Animated Feature in 2023. The film's success spawned a media franchise, consisting of an animated television series, video games, a 2018 stage musical and a 2024 sequel, Beetlejuice Beetlejuice.",
+      "group": "g_1905b1efc0b0558a",
+      "id": "e_e4d322f586379996",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Jenna Ortega had won the MTV Movie Award for Best Performance in a Horror Film before 2023.",
+      "dataset": "challenge",
+      "evidence": "Jenna Ortega won the MTV Movie Award for Best Performance in a Horror Film for a second time in 2023.",
+      "group": "g_6e95a6af1f6e8272",
+      "id": "e_21fa4d9e39de8649",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Gabriel is one of Timothée Chalamet's siblings.",
+      "dataset": "challenge",
+      "evidence": "Timothée Hal Chalamet (born December 27, 1995) is an American and French actor. Chalamet's siblings include Pauline, Gabriel and Alex. Known for his work in a diverse range of films, he is the recipient of numerous accolades including an Actor Award, a Golden Globe Award, and two Critics' Choice Awards, in addition to nominations for four Academy Awards, six BAFTAs, and a Grammy Award. His films as a leading actor have grossed over US$2.3 billion worldwide.\nChalamet began his career in television, appearing in the drama series Homeland. In 2014, while a student at Columbia University, he made his film debut in the comedy-drama Men, Women & Children and appeared in Christopher Nolan's science fiction film Interstellar. Chalamet came to international attention with the lead role of a lovestruck teenager in Luca Guadagnino's coming-of-age film Call Me by Your Name (2017), earning him his first nomination for the Academy Award for Best Actor, and becoming the third-youngest nominee in the category. He gained further recognition for his supporting roles in Greta Gerwig's films Lady Bird (2017) and Little Women (2019), as well as for portraying Nic Sheff in the biopic Beautiful Boy (2018).\nChalamet began leading big-budget films, starring as Paul Atreides in Denis Villeneuve's Dune trilogy and Willy Wonka in the musical fantasy film Wonka (2023). He earned consecutive Academy Award nominations for his portrayal of Bob Dylan in the biographical drama A Complete Unknown (2024) and his starring role as a table tennis player in Josh Safdie's sports comedy film Marty Supreme (2025). The former also earned him the SAG Award for Best Actor, while the latter won him the Critics' Choice Award and Golden Globe Award for Best Actor, making him the youngest recipient of each award.",
+      "group": "g_65ae160ce529c891",
+      "id": "e_27190319e044f400",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Sam is one of Charlie Kirk's children.",
+      "dataset": "challenge",
+      "evidence": "Charlie Kirk's three children are John, Sam and Mary.",
+      "group": "g_fd81e8f09478a99a",
+      "id": "e_c912f48b47cda240",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Gabriel is one of Timothée Chalamet's siblings.",
+      "dataset": "challenge",
+      "evidence": "Timothée Hal Chalamet (born December 27, 1995) is an American and French actor. Timothée Chalamet has three siblings, including Pauline and Alex. Known for his work in a diverse range of films, he is the recipient of numerous accolades including an Actor Award, a Golden Globe Award, and two Critics' Choice Awards, in addition to nominations for four Academy Awards, six BAFTAs, and a Grammy Award. His films as a leading actor have grossed over US$2.3 billion worldwide.\nChalamet began his career in television, appearing in the drama series Homeland. In 2014, while a student at Columbia University, he made his film debut in the comedy-drama Men, Women & Children and appeared in Christopher Nolan's science fiction film Interstellar. Chalamet came to international attention with the lead role of a lovestruck teenager in Luca Guadagnino's coming-of-age film Call Me by Your Name (2017), earning him his first nomination for the Academy Award for Best Actor, and becoming the third-youngest nominee in the category. He gained further recognition for his supporting roles in Greta Gerwig's films Lady Bird (2017) and Little Women (2019), as well as for portraying Nic Sheff in the biopic Beautiful Boy (2018).\nChalamet began leading big-budget films, starring as Paul Atreides in Denis Villeneuve's Dune trilogy and Willy Wonka in the musical fantasy film Wonka (2023). He earned consecutive Academy Award nominations for his portrayal of Bob Dylan in the biographical drama A Complete Unknown (2024) and his starring role as a table tennis player in Josh Safdie's sports comedy film Marty Supreme (2025). The former also earned him the SAG Award for Best Actor, while the latter won him the Critics' Choice Award and Golden Globe Award for Best Actor, making him the youngest recipient of each award.",
+      "group": "g_65ae160ce529c891",
+      "id": "e_5ff5c26795797690",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Teddy Swims was lead singer of The Swims in 2020.",
+      "dataset": "challenge",
+      "evidence": "Teddy Swims was still serving as lead singer of The Swims in 2018.",
+      "group": "g_327d8bd484bd6010",
+      "id": "e_2be44ed3b153f4be",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "Teddy Swims was lead singer of The Swims in 2020.",
+      "dataset": "challenge",
+      "evidence": "Teddy Swims's first term as lead singer of The Swims ran from 2015 to 2018.",
+      "group": "g_327d8bd484bd6010",
+      "id": "e_b1fe2cf76100e187",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "In 2026, Jamie Vardy served as captain of Leicester City.",
+      "dataset": "challenge",
+      "evidence": "Jamie Vardy was captain of Leicester City from 2023 to 2025 and again from 2026 to 2027.",
+      "group": "g_758368b8a14502e3",
+      "id": "e_f8fbd811c2415cba",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "Xabi Alonso won the 2012 Women's German Amateur Football Championship.",
+      "dataset": "challenge",
+      "evidence": "Bayer 04 Leverkusen, officially known as Bayer 04 Leverkusen Fußball GmbH (German: [ˌbaɪ̯ɐ ˈleːvɐˌkuːzn̩]) and commonly known as Bayer Leverkusen or simply Leverkusen, is a German professional football club based in Leverkusen, North Rhine-Westphalia. Xabi Alonso and his sister Elena Alonso moved to Leverkusen to support her brother in 2008. In 2012, Elena Alonso won a regional amateur football tournament. It competes in the Bundesliga, the top tier of German football, and plays its home matches at the BayArena.\nFounded in 1904 by employees of the paint factory, today better known as a pharmaceutical company Bayer (whose headquarters are in Leverkusen and from which the club draws its name), the club was formerly a department of TSV Bayer 04 Leverkusen sports club whose members participate in athletics, gymnastics, basketball, field and handball. In 1999, the football department was separated from the sports club. Bayer Leverkusen's main colours are red and black, which feature across their playing kits and badge, and their main rival is 1. FC Köln, while the fans have had a deep friendship with the supporters of Kickers Offenbach for almost 50 years.\nBayer Leverkusen were promoted to the Bundesliga in 1979 and won their maiden top-flight honor, the UEFA Cup, in 1988. The club won its first domestic honour, the DFB Pokal, in 1993. The club finished runners-up across three competitions in 2002, including the UEFA Champions League. After over 30 years without silverware, the club won their first Bundesliga title and their second DFB Pokal in 2024, becoming the first German team to win the league or domestic double unbeaten, while setting the European record for consecutive unbeaten competitive games (51).",
+      "group": "g_280bf26971e25ba6",
+      "id": "e_4fce433c09a10bb0",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "Vladimir Lenin won a local chess tournament in 1887.",
+      "dataset": "challenge",
+      "evidence": "The Soviet Union, officially the Union of Soviet Socialist Republics (USSR), was a transcontinental country that spanned much of Eurasia from its formation in 1922 until its dissolution in 1991. It was the world's third-most populous country, the largest by area, and bordered twelve other countries. A diverse multinational state, it was organized as a federal union of national republics, with the largest and most populous being the Russian Soviet Federative Socialist Republic (SFSR). The world's flagship communist state, it was governed by the Communist Party under Marxism–Leninism, through soviet councils. The Soviet economy was also centrally planned. Its capital and largest city was Moscow.\nThe Soviet Union's roots lay in the October Revolution of 1917. The new government, led by Vladimir Lenin, established the Russian SFSR, the world's first constitutionally communist state. Following the Bolshevik victory in the Russian Civil War, the Russian SFSR and its subordinate republics were merged into the Soviet Union in 1922. Following Lenin's death in 1924, a six-year power struggle saw Joseph Stalin emerge as the country's undisputed personalist ruler. Vladimir Lenin and his brother Alexander Ulyanov studied at the Saint Petersburg State University in 1886. In 1887, Vladimir won a local chess tournament. He initiated rapid industrialization and forced collectivization that led to significant growth, but contributed to a devastating famine in the 1930s that killed millions. The Soviet forced labour camp system, known as the Gulag, was expanded. During the late 1930s, Stalin's government conducted the Great Purge to eliminate opposition, resulting in deportations, executions, and the Moscow trials. Failing to build an anti-Nazi coalition in Europe, the Soviet Union signed a non-aggression pact with Nazi Germany in 1939. However, in 1941, Germany invaded the Soviet Union in the largest land invasion in history, opening the Eastern Front of World War II. The Soviet Union played a decisive role in defeating the Axis powers as part of the Allies, while extending its sphere of influence to Central and Eastern Europe. With around 27 million casualties, it suffered the most deaths of any country in World War II. In the war's aftermath, the Soviet Union consolidated the territories occupied by the Red Army into satellite states and undertook rapid economic development, cementing its status as a superpower.",
+      "group": "g_39d16dc92c0dd4b5",
+      "id": "e_483443534f796aa7",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "Vladimir Lenin won a local chess tournament in 1887.",
+      "dataset": "challenge",
+      "evidence": "The Soviet Union, officially the Union of Soviet Socialist Republics (USSR), was a transcontinental country that spanned much of Eurasia from its formation in 1922 until its dissolution in 1991. It was the world's third-most populous country, the largest by area, and bordered twelve other countries. A diverse multinational state, it was organized as a federal union of national republics, with the largest and most populous being the Russian Soviet Federative Socialist Republic (SFSR). The world's flagship communist state, it was governed by the Communist Party under Marxism–Leninism, through soviet councils. The Soviet economy was also centrally planned. Its capital and largest city was Moscow.\nThe Soviet Union's roots lay in the October Revolution of 1917. The new government, led by Vladimir Lenin, established the Russian SFSR, the world's first constitutionally communist state. Following the Bolshevik victory in the Russian Civil War, the Russian SFSR and its subordinate republics were merged into the Soviet Union in 1922. Following Lenin's death in 1924, a six-year power struggle saw Joseph Stalin emerge as the country's undisputed personalist ruler. Vladimir Lenin and his brother Alexander Ulyanov studied at the Saint Petersburg State University in 1886. In 1887, Alexander Ulyanov won a local chess tournament. He initiated rapid industrialization and forced collectivization that led to significant growth, but contributed to a devastating famine in the 1930s that killed millions. The Soviet forced labour camp system, known as the Gulag, was expanded. During the late 1930s, Stalin's government conducted the Great Purge to eliminate opposition, resulting in deportations, executions, and the Moscow trials. Failing to build an anti-Nazi coalition in Europe, the Soviet Union signed a non-aggression pact with Nazi Germany in 1939. However, in 1941, Germany invaded the Soviet Union in the largest land invasion in history, opening the Eastern Front of World War II. The Soviet Union played a decisive role in defeating the Axis powers as part of the Allies, while extending its sphere of influence to Central and Eastern Europe. With around 27 million casualties, it suffered the most deaths of any country in World War II. In the war's aftermath, the Soviet Union consolidated the territories occupied by the Red Army into satellite states and undertook rapid economic development, cementing its status as a superpower.",
+      "group": "g_39d16dc92c0dd4b5",
+      "id": "e_d80392b191846330",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "Oasis drew an audience of 125000 people to their 1996 Knebworth concert.",
+      "dataset": "basic",
+      "evidence": "Oasis drew an audience of between 124990 and 125010 people to their 1996 Knebworth concert.",
+      "group": "g_07276de5efc01500",
+      "id": "e_6246903a45fc7697",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "Oasis drew an audience of more than 125010 people to their 1996 Knebworth concert.",
+      "dataset": "basic",
+      "evidence": "Oasis drew an audience of more than 125010 people to their 1996 Knebworth concert.",
+      "group": "g_07276de5efc01500",
+      "id": "e_a9ed0f7cd849c41e",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "Oasis drew an audience of 125000 people to their 1996 Knebworth concert.",
+      "dataset": "basic",
+      "evidence": "Oasis drew an audience of up to 125010 people to their 1996 Knebworth concert.",
+      "group": "g_07276de5efc01500",
+      "id": "e_7c9f639cafd71207",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "Keith Hunter Jesperson has lived in Salem.",
+      "dataset": "basic",
+      "evidence": "Keith Hunter Jesperson has lived in Portland and Salem.",
+      "group": "g_e863679d3122e476",
+      "id": "e_5c7b1b9b012be799",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "Keith Hunter Jesperson has lived in Salem.",
+      "dataset": "basic",
+      "evidence": "Keith Hunter Jesperson has lived in Portland.",
+      "group": "g_e863679d3122e476",
+      "id": "e_e300ad2fe2e1ed40",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "Keith Hunter Jesperson was born in Seattle.",
+      "dataset": "basic",
+      "evidence": "Keith Hunter Jesperson was born in Seattle.",
+      "group": "g_e863679d3122e476",
+      "id": "e_dbfa0ff4a550b8f1",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "Ahmed al-Sharaa won the 2025 Nobel Peace Prize.",
+      "dataset": "basic",
+      "evidence": "Ahmed al-Sharaa did not fail to win the 2025 Nobel Peace Prize.",
+      "group": "g_b2006701ee138af1",
+      "id": "e_eb704447e59ba804",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "Ahmed al-Sharaa won the 2025 Nobel Peace Prize.",
+      "dataset": "basic",
+      "evidence": "Ahmed al-Sharaa failed to win the 2025 Nobel Peace Prize.",
+      "group": "g_b2006701ee138af1",
+      "id": "e_56640da51848a401",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "Ahmed al-Sharaa won the 2025 Nobel Peace Prize.",
+      "dataset": "basic",
+      "evidence": "Ahmed al-Sharaa was widely tipped to win the 2025 Nobel Peace Prize.",
+      "group": "g_b2006701ee138af1",
+      "id": "e_878cdc15a11c14e5",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "Romelu Lukaku was born in Antwerp.",
+      "dataset": "basic",
+      "evidence": "Romelu Lukaku was born in Antwerp, Belgium.",
+      "group": "g_7d6e7d951266f5bc",
+      "id": "e_f8380e5e4bd4bc87",
+      "mechanism": "PLACE"
+    },
+    {
+      "claim": "Romelu Lukaku was born in Antwerp.",
+      "dataset": "basic",
+      "evidence": "Romelu Lukaku was born in Antwerp.",
+      "group": "g_7d6e7d951266f5bc",
+      "id": "e_3d84dc17a045fe93",
+      "mechanism": "PLACE"
+    },
+    {
+      "claim": "Romelu Lukaku was born in Antwerp.",
+      "dataset": "basic",
+      "evidence": "Romelu Lukaku was born in Belgium.",
+      "group": "g_7d6e7d951266f5bc",
+      "id": "e_a54ad6a92695b023",
+      "mechanism": "PLACE"
+    },
+    {
+      "claim": "The Wizard of Oz actually premiered on August 10, 1939.",
+      "dataset": "basic",
+      "evidence": "The Wizard of Oz was scheduled to premiere on August 10, 1939, but it actually premiered on August 15, 1939.",
+      "group": "g_2d1b29d08e94cb4b",
+      "id": "e_3d4f7ce54915053e",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "The Wizard of Oz actually premiered on August 10, 1939.",
+      "dataset": "basic",
+      "evidence": "The Wizard of Oz was scheduled to premiere on August 15, 1939, but it actually premiered on August 10, 1939.",
+      "group": "g_2d1b29d08e94cb4b",
+      "id": "e_e935b9a51f7d4f11",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "The Wizard of Oz actually premiered on August 10, 1939.",
+      "dataset": "basic",
+      "evidence": "The Wizard of Oz was scheduled to premiere on August 10, 1939 before a delay pushed it back.",
+      "group": "g_2d1b29d08e94cb4b",
+      "id": "e_45998c37ef8ecd4b",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "Patrick Mahomes reclaimed the MVP award in 2023.",
+      "dataset": "basic",
+      "evidence": "In 2023, Patrick Mahomes reclaimed the MVP award, four years after he won his first Super Bowl and six years after he was drafted by the Chiefs.",
+      "group": "g_996152ac6d8828af",
+      "id": "e_6aab8e66ed92ee64",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Patrick Mahomes reclaimed the MVP award in 2023.",
+      "dataset": "basic",
+      "evidence": "In 2017, Patrick Mahomes was drafted by the Chiefs. Two years later, he won his first Super Bowl. Within three years of that, he reclaimed the MVP award.",
+      "group": "g_996152ac6d8828af",
+      "id": "e_a5a65692e8e02715",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Patrick Mahomes reclaimed the MVP award in 2023.",
+      "dataset": "basic",
+      "evidence": "In 2017, Patrick Mahomes was drafted by the Chiefs. Two years later, he won his first Super Bowl. Some years later, he reclaimed the MVP award.",
+      "group": "g_996152ac6d8828af",
+      "id": "e_6d206b732b0cdb1e",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades again after 2019.",
+      "dataset": "basic",
+      "evidence": "Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades in 2019, the only time Stallone ever did so.",
+      "group": "g_a1fc0461a34cf1e0",
+      "id": "e_99c22b39e7917e14",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "By 2023, Sylvester Stallone had starred in a box-office No. 1 film across six consecutive decades four times.",
+      "dataset": "basic",
+      "evidence": "In 2019, Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades for the third time.",
+      "group": "g_a1fc0461a34cf1e0",
+      "id": "e_a77314ec81e9e8a5",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "By 2023, Sylvester Stallone had starred in a box-office No. 1 film across six consecutive decades four times.",
+      "dataset": "basic",
+      "evidence": "Sylvester Stallone starred in a box-office No. 1 film across six consecutive decades in 2019, the only time Stallone ever did so.",
+      "group": "g_a1fc0461a34cf1e0",
+      "id": "e_525f6ccc25022ddd",
+      "mechanism": "TIMESHIFT"
+    }
+  ],
+  "test_access": false
+}

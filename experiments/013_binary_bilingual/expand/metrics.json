@@ -1,0 +1,1753 @@
+{
+  "cached_controls": {
+    "baseline": 126,
+    "nli": 126
+  },
+  "complete": true,
+  "methods": {
+    "baseline": {
+      "baseline_metrics": {
+        "basic": {
+          "accuracy": 0.9365079365079365,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.9565217391304348,
+              "precision": 1.0,
+              "predicted_count": 22,
+              "recall": 0.9166666666666666,
+              "support": 24
+            },
+            "REFUTES": {
+              "f1": 0.9473684210526315,
+              "precision": 1.0,
+              "predicted_count": 18,
+              "recall": 0.9,
+              "support": 20
+            },
+            "SUPPORTS": {
+              "f1": 0.9047619047619048,
+              "precision": 0.8260869565217391,
+              "predicted_count": 23,
+              "recall": 1.0,
+              "support": 19
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 22,
+              "REFUTES": 0,
+              "SUPPORTS": 2
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 18,
+              "SUPPORTS": 2
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 19
+            }
+          },
+          "correct": 59,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.936217354981657,
+          "mean_completion_tokens": null,
+          "n": 63,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 63,
+          "valid_only_accuracy": 0.9365079365079365
+        },
+        "challenge": {
+          "accuracy": 0.5873015873015873,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.38095238095238093,
+              "precision": 0.8888888888888888,
+              "predicted_count": 9,
+              "recall": 0.24242424242424243,
+              "support": 33
+            },
+            "REFUTES": {
+              "f1": 0.32432432432432434,
+              "precision": 0.1935483870967742,
+              "predicted_count": 31,
+              "recall": 1.0,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 0.9787234042553191,
+              "precision": 1.0,
+              "predicted_count": 23,
+              "recall": 0.9583333333333334,
+              "support": 24
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 8,
+              "REFUTES": 25,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 6,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 1,
+              "REFUTES": 0,
+              "SUPPORTS": 23
+            }
+          },
+          "correct": 37,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.5613333698440082,
+          "mean_completion_tokens": null,
+          "n": 63,
+          "nei_to_refutes": 25,
+          "nei_to_refutes_rate": 0.7575757575757576,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 63,
+          "valid_only_accuracy": 0.5873015873015873
+        }
+      },
+      "method": "baseline",
+      "metrics": {
+        "basic": {
+          "accuracy": 0.9365079365079365,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.9565217391304348,
+              "precision": 1.0,
+              "predicted_count": 22,
+              "recall": 0.9166666666666666,
+              "support": 24
+            },
+            "REFUTES": {
+              "f1": 0.9473684210526315,
+              "precision": 1.0,
+              "predicted_count": 18,
+              "recall": 0.9,
+              "support": 20
+            },
+            "SUPPORTS": {
+              "f1": 0.9047619047619048,
+              "precision": 0.8260869565217391,
+              "predicted_count": 23,
+              "recall": 1.0,
+              "support": 19
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 22,
+              "REFUTES": 0,
+              "SUPPORTS": 2
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 18,
+              "SUPPORTS": 2
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 19
+            }
+          },
+          "correct": 59,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.936217354981657,
+          "mean_completion_tokens": null,
+          "n": 63,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 63,
+          "valid_only_accuracy": 0.9365079365079365
+        },
+        "challenge": {
+          "accuracy": 0.5873015873015873,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.38095238095238093,
+              "precision": 0.8888888888888888,
+              "predicted_count": 9,
+              "recall": 0.24242424242424243,
+              "support": 33
+            },
+            "REFUTES": {
+              "f1": 0.32432432432432434,
+              "precision": 0.1935483870967742,
+              "predicted_count": 31,
+              "recall": 1.0,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 0.9787234042553191,
+              "precision": 1.0,
+              "predicted_count": 23,
+              "recall": 0.9583333333333334,
+              "support": 24
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 8,
+              "REFUTES": 25,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 6,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 1,
+              "REFUTES": 0,
+              "SUPPORTS": 23
+            }
+          },
+          "correct": 37,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.5613333698440082,
+          "mean_completion_tokens": null,
+          "n": 63,
+          "nei_to_refutes": 25,
+          "nei_to_refutes_rate": 0.7575757575757576,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 63,
+          "valid_only_accuracy": 0.5873015873015873
+        }
+      },
+      "nli_metrics": {
+        "basic": {
+          "accuracy": 0.9841269841269841,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.9787234042553191,
+              "precision": 1.0,
+              "predicted_count": 23,
+              "recall": 0.9583333333333334,
+              "support": 24
+            },
+            "REFUTES": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 20,
+              "recall": 1.0,
+              "support": 20
+            },
+            "SUPPORTS": {
+              "f1": 0.9743589743589743,
+              "precision": 0.95,
+              "predicted_count": 20,
+              "recall": 1.0,
+              "support": 19
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 23,
+              "REFUTES": 0,
+              "SUPPORTS": 1
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 20,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 19
+            }
+          },
+          "correct": 62,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.9843607928714312,
+          "mean_completion_tokens": null,
+          "n": 63,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 63,
+          "valid_only_accuracy": 0.9841269841269841
+        },
+        "challenge": {
+          "accuracy": 0.6666666666666666,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.5531914893617021,
+              "precision": 0.9285714285714286,
+              "predicted_count": 14,
+              "recall": 0.3939393939393939,
+              "support": 33
+            },
+            "REFUTES": {
+              "f1": 0.3870967741935484,
+              "precision": 0.24,
+              "predicted_count": 25,
+              "recall": 1.0,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 0.9787234042553191,
+              "precision": 1.0,
+              "predicted_count": 23,
+              "recall": 0.9583333333333334,
+              "support": 24
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 1,
+              "NOT ENOUGH INFO": 13,
+              "REFUTES": 19,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 6,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 1,
+              "REFUTES": 0,
+              "SUPPORTS": 23
+            }
+          },
+          "correct": 42,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 1,
+          "invalid_rate": 0.015873015873015872,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.6396705559368565,
+          "mean_completion_tokens": null,
+          "n": 63,
+          "nei_to_refutes": 19,
+          "nei_to_refutes_rate": 0.5757575757575758,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 62,
+          "valid_only_accuracy": 0.6774193548387096
+        }
+      },
+      "paired": {
+        "baseline": {
+          "basic": {
+            "accuracy_delta": 0.0,
+            "harmed": 0,
+            "harmed_ids": [],
+            "improved": 0,
+            "improved_ids": [],
+            "n": 63
+          },
+          "challenge": {
+            "accuracy_delta": 0.0,
+            "harmed": 0,
+            "harmed_ids": [],
+            "improved": 0,
+            "improved_ids": [],
+            "n": 63
+          }
+        },
+        "nli": {
+          "basic": {
+            "accuracy_delta": -0.047619047619047616,
+            "harmed": 4,
+            "harmed_ids": [
+              "e_1d3e192fd2aa6aa8",
+              "e_405f374457df12f0",
+              "e_cbfff8210e25c725",
+              "e_e7cd84a2cc264e99"
+            ],
+            "improved": 1,
+            "improved_ids": [
+              "e_d355b2bb3d8e3c39"
+            ],
+            "n": 63
+          },
+          "challenge": {
+            "accuracy_delta": -0.07936507936507936,
+            "harmed": 5,
+            "harmed_ids": [
+              "e_47a735515953c4e3",
+              "e_cf732da9bd1f9e07",
+              "e_d31d42f469ca1eb2",
+              "e_db33e9ce593a5b9a",
+              "e_e155f69f8cfba03f"
+            ],
+            "improved": 0,
+            "improved_ids": [],
+            "n": 63
+          }
+        }
+      }
+    },
+    "nli": {
+      "baseline_metrics": {
+        "basic": {
+          "accuracy": 0.9365079365079365,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.9565217391304348,
+              "precision": 1.0,
+              "predicted_count": 22,
+              "recall": 0.9166666666666666,
+              "support": 24
+            },
+            "REFUTES": {
+              "f1": 0.9473684210526315,
+              "precision": 1.0,
+              "predicted_count": 18,
+              "recall": 0.9,
+              "support": 20
+            },
+            "SUPPORTS": {
+              "f1": 0.9047619047619048,
+              "precision": 0.8260869565217391,
+              "predicted_count": 23,
+              "recall": 1.0,
+              "support": 19
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 22,
+              "REFUTES": 0,
+              "SUPPORTS": 2
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 18,
+              "SUPPORTS": 2
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 19
+            }
+          },
+          "correct": 59,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.936217354981657,
+          "mean_completion_tokens": null,
+          "n": 63,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 63,
+          "valid_only_accuracy": 0.9365079365079365
+        },
+        "challenge": {
+          "accuracy": 0.5873015873015873,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.38095238095238093,
+              "precision": 0.8888888888888888,
+              "predicted_count": 9,
+              "recall": 0.24242424242424243,
+              "support": 33
+            },
+            "REFUTES": {
+              "f1": 0.32432432432432434,
+              "precision": 0.1935483870967742,
+              "predicted_count": 31,
+              "recall": 1.0,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 0.9787234042553191,
+              "precision": 1.0,
+              "predicted_count": 23,
+              "recall": 0.9583333333333334,
+              "support": 24
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 8,
+              "REFUTES": 25,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 6,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 1,
+              "REFUTES": 0,
+              "SUPPORTS": 23
+            }
+          },
+          "correct": 37,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.5613333698440082,
+          "mean_completion_tokens": null,
+          "n": 63,
+          "nei_to_refutes": 25,
+          "nei_to_refutes_rate": 0.7575757575757576,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 63,
+          "valid_only_accuracy": 0.5873015873015873
+        }
+      },
+      "method": "nli",
+      "metrics": {
+        "basic": {
+          "accuracy": 0.9841269841269841,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.9787234042553191,
+              "precision": 1.0,
+              "predicted_count": 23,
+              "recall": 0.9583333333333334,
+              "support": 24
+            },
+            "REFUTES": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 20,
+              "recall": 1.0,
+              "support": 20
+            },
+            "SUPPORTS": {
+              "f1": 0.9743589743589743,
+              "precision": 0.95,
+              "predicted_count": 20,
+              "recall": 1.0,
+              "support": 19
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 23,
+              "REFUTES": 0,
+              "SUPPORTS": 1
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 20,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 19
+            }
+          },
+          "correct": 62,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.9843607928714312,
+          "mean_completion_tokens": null,
+          "n": 63,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 63,
+          "valid_only_accuracy": 0.9841269841269841
+        },
+        "challenge": {
+          "accuracy": 0.6666666666666666,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.5531914893617021,
+              "precision": 0.9285714285714286,
+              "predicted_count": 14,
+              "recall": 0.3939393939393939,
+              "support": 33
+            },
+            "REFUTES": {
+              "f1": 0.3870967741935484,
+              "precision": 0.24,
+              "predicted_count": 25,
+              "recall": 1.0,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 0.9787234042553191,
+              "precision": 1.0,
+              "predicted_count": 23,
+              "recall": 0.9583333333333334,
+              "support": 24
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 1,
+              "NOT ENOUGH INFO": 13,
+              "REFUTES": 19,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 6,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 1,
+              "REFUTES": 0,
+              "SUPPORTS": 23
+            }
+          },
+          "correct": 42,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 1,
+          "invalid_rate": 0.015873015873015872,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.6396705559368565,
+          "mean_completion_tokens": null,
+          "n": 63,
+          "nei_to_refutes": 19,
+          "nei_to_refutes_rate": 0.5757575757575758,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 62,
+          "valid_only_accuracy": 0.6774193548387096
+        }
+      },
+      "nli_metrics": {
+        "basic": {
+          "accuracy": 0.9841269841269841,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.9787234042553191,
+              "precision": 1.0,
+              "predicted_count": 23,
+              "recall": 0.9583333333333334,
+              "support": 24
+            },
+            "REFUTES": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 20,
+              "recall": 1.0,
+              "support": 20
+            },
+            "SUPPORTS": {
+              "f1": 0.9743589743589743,
+              "precision": 0.95,
+              "predicted_count": 20,
+              "recall": 1.0,
+              "support": 19
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 23,
+              "REFUTES": 0,
+              "SUPPORTS": 1
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 20,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 19
+            }
+          },
+          "correct": 62,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.9843607928714312,
+          "mean_completion_tokens": null,
+          "n": 63,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 63,
+          "valid_only_accuracy": 0.9841269841269841
+        },
+        "challenge": {
+          "accuracy": 0.6666666666666666,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.5531914893617021,
+              "precision": 0.9285714285714286,
+              "predicted_count": 14,
+              "recall": 0.3939393939393939,
+              "support": 33
+            },
+            "REFUTES": {
+              "f1": 0.3870967741935484,
+              "precision": 0.24,
+              "predicted_count": 25,
+              "recall": 1.0,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 0.9787234042553191,
+              "precision": 1.0,
+              "predicted_count": 23,
+              "recall": 0.9583333333333334,
+              "support": 24
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 1,
+              "NOT ENOUGH INFO": 13,
+              "REFUTES": 19,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 6,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 1,
+              "REFUTES": 0,
+              "SUPPORTS": 23
+            }
+          },
+          "correct": 42,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 1,
+          "invalid_rate": 0.015873015873015872,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.6396705559368565,
+          "mean_completion_tokens": null,
+          "n": 63,
+          "nei_to_refutes": 19,
+          "nei_to_refutes_rate": 0.5757575757575758,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 62,
+          "valid_only_accuracy": 0.6774193548387096
+        }
+      },
+      "paired": {
+        "baseline": {
+          "basic": {
+            "accuracy_delta": 0.047619047619047616,
+            "harmed": 1,
+            "harmed_ids": [
+              "e_d355b2bb3d8e3c39"
+            ],
+            "improved": 4,
+            "improved_ids": [
+              "e_1d3e192fd2aa6aa8",
+              "e_405f374457df12f0",
+              "e_cbfff8210e25c725",
+              "e_e7cd84a2cc264e99"
+            ],
+            "n": 63
+          },
+          "challenge": {
+            "accuracy_delta": 0.07936507936507936,
+            "harmed": 0,
+            "harmed_ids": [],
+            "improved": 5,
+            "improved_ids": [
+              "e_47a735515953c4e3",
+              "e_cf732da9bd1f9e07",
+              "e_d31d42f469ca1eb2",
+              "e_db33e9ce593a5b9a",
+              "e_e155f69f8cfba03f"
+            ],
+            "n": 63
+          }
+        },
+        "nli": {
+          "basic": {
+            "accuracy_delta": 0.0,
+            "harmed": 0,
+            "harmed_ids": [],
+            "improved": 0,
+            "improved_ids": [],
+            "n": 63
+          },
+          "challenge": {
+            "accuracy_delta": 0.0,
+            "harmed": 0,
+            "harmed_ids": [],
+            "improved": 0,
+            "improved_ids": [],
+            "n": 63
+          }
+        }
+      }
+    },
+    "zh_nli": {
+      "baseline_metrics": {
+        "basic": {
+          "accuracy": 0.9365079365079365,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.9565217391304348,
+              "precision": 1.0,
+              "predicted_count": 22,
+              "recall": 0.9166666666666666,
+              "support": 24
+            },
+            "REFUTES": {
+              "f1": 0.9473684210526315,
+              "precision": 1.0,
+              "predicted_count": 18,
+              "recall": 0.9,
+              "support": 20
+            },
+            "SUPPORTS": {
+              "f1": 0.9047619047619048,
+              "precision": 0.8260869565217391,
+              "predicted_count": 23,
+              "recall": 1.0,
+              "support": 19
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 22,
+              "REFUTES": 0,
+              "SUPPORTS": 2
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 18,
+              "SUPPORTS": 2
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 19
+            }
+          },
+          "correct": 59,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.936217354981657,
+          "mean_completion_tokens": null,
+          "n": 63,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 63,
+          "valid_only_accuracy": 0.9365079365079365
+        },
+        "challenge": {
+          "accuracy": 0.5873015873015873,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.38095238095238093,
+              "precision": 0.8888888888888888,
+              "predicted_count": 9,
+              "recall": 0.24242424242424243,
+              "support": 33
+            },
+            "REFUTES": {
+              "f1": 0.32432432432432434,
+              "precision": 0.1935483870967742,
+              "predicted_count": 31,
+              "recall": 1.0,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 0.9787234042553191,
+              "precision": 1.0,
+              "predicted_count": 23,
+              "recall": 0.9583333333333334,
+              "support": 24
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 8,
+              "REFUTES": 25,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 6,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 1,
+              "REFUTES": 0,
+              "SUPPORTS": 23
+            }
+          },
+          "correct": 37,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.5613333698440082,
+          "mean_completion_tokens": null,
+          "n": 63,
+          "nei_to_refutes": 25,
+          "nei_to_refutes_rate": 0.7575757575757576,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 63,
+          "valid_only_accuracy": 0.5873015873015873
+        }
+      },
+      "method": "zh_nli",
+      "metrics": {
+        "basic": {
+          "accuracy": 1.0,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 24,
+              "recall": 1.0,
+              "support": 24
+            },
+            "REFUTES": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 20,
+              "recall": 1.0,
+              "support": 20
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 19,
+              "recall": 1.0,
+              "support": 19
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 24,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 20,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 19
+            }
+          },
+          "correct": 63,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 1.0,
+          "mean_completion_tokens": null,
+          "n": 63,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 63,
+          "valid_only_accuracy": 1.0
+        },
+        "challenge": {
+          "accuracy": 0.6190476190476191,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.45454545454545453,
+              "precision": 0.9090909090909091,
+              "predicted_count": 11,
+              "recall": 0.30303030303030304,
+              "support": 33
+            },
+            "REFUTES": {
+              "f1": 0.34285714285714286,
+              "precision": 0.20689655172413793,
+              "predicted_count": 29,
+              "recall": 1.0,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 0.9787234042553191,
+              "precision": 1.0,
+              "predicted_count": 23,
+              "recall": 0.9583333333333334,
+              "support": 24
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 10,
+              "REFUTES": 23,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 6,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 1,
+              "REFUTES": 0,
+              "SUPPORTS": 23
+            }
+          },
+          "correct": 39,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.5920420005526388,
+          "mean_completion_tokens": null,
+          "n": 63,
+          "nei_to_refutes": 23,
+          "nei_to_refutes_rate": 0.696969696969697,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 63,
+          "valid_only_accuracy": 0.6190476190476191
+        }
+      },
+      "nli_metrics": {
+        "basic": {
+          "accuracy": 0.9841269841269841,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.9787234042553191,
+              "precision": 1.0,
+              "predicted_count": 23,
+              "recall": 0.9583333333333334,
+              "support": 24
+            },
+            "REFUTES": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "predicted_count": 20,
+              "recall": 1.0,
+              "support": 20
+            },
+            "SUPPORTS": {
+              "f1": 0.9743589743589743,
+              "precision": 0.95,
+              "predicted_count": 20,
+              "recall": 1.0,
+              "support": 19
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 23,
+              "REFUTES": 0,
+              "SUPPORTS": 1
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 20,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 19
+            }
+          },
+          "correct": 62,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.9843607928714312,
+          "mean_completion_tokens": null,
+          "n": 63,
+          "nei_to_refutes": 0,
+          "nei_to_refutes_rate": 0.0,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 63,
+          "valid_only_accuracy": 0.9841269841269841
+        },
+        "challenge": {
+          "accuracy": 0.6666666666666666,
+          "both_impossible_count": 0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.5531914893617021,
+              "precision": 0.9285714285714286,
+              "predicted_count": 14,
+              "recall": 0.3939393939393939,
+              "support": 33
+            },
+            "REFUTES": {
+              "f1": 0.3870967741935484,
+              "precision": 0.24,
+              "predicted_count": 25,
+              "recall": 1.0,
+              "support": 6
+            },
+            "SUPPORTS": {
+              "f1": 0.9787234042553191,
+              "precision": 1.0,
+              "predicted_count": 23,
+              "recall": 0.9583333333333334,
+              "support": 24
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 1,
+              "NOT ENOUGH INFO": 13,
+              "REFUTES": 19,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 6,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 1,
+              "REFUTES": 0,
+              "SUPPORTS": 23
+            }
+          },
+          "correct": 42,
+          "inconsistent_count": 0,
+          "inconsistent_rate_all": 0.0,
+          "inconsistent_rate_world_available": null,
+          "invalid": 1,
+          "invalid_rate": 0.015873015873015872,
+          "latency_mean_seconds": null,
+          "latency_median_seconds": null,
+          "macro_f1": 0.6396705559368565,
+          "mean_completion_tokens": null,
+          "n": 63,
+          "nei_to_refutes": 19,
+          "nei_to_refutes_rate": 0.5757575757575758,
+          "not_run_count": 0,
+          "request_failed_count": 0,
+          "request_failure_rate": 0.0,
+          "valid": 62,
+          "valid_only_accuracy": 0.6774193548387096
+        }
+      },
+      "paired": {
+        "baseline": {
+          "basic": {
+            "accuracy_delta": 0.06349206349206349,
+            "harmed": 0,
+            "harmed_ids": [],
+            "improved": 4,
+            "improved_ids": [
+              "e_1d3e192fd2aa6aa8",
+              "e_405f374457df12f0",
+              "e_cbfff8210e25c725",
+              "e_e7cd84a2cc264e99"
+            ],
+            "n": 63
+          },
+          "challenge": {
+            "accuracy_delta": 0.031746031746031744,
+            "harmed": 1,
+            "harmed_ids": [
+              "e_76687c64db32ae06"
+            ],
+            "improved": 3,
+            "improved_ids": [
+              "e_00d76c496fc28031",
+              "e_819d049c5999b794",
+              "e_db33e9ce593a5b9a"
+            ],
+            "n": 63
+          }
+        },
+        "nli": {
+          "basic": {
+            "accuracy_delta": 0.015873015873015872,
+            "harmed": 0,
+            "harmed_ids": [],
+            "improved": 1,
+            "improved_ids": [
+              "e_d355b2bb3d8e3c39"
+            ],
+            "n": 63
+          },
+          "challenge": {
+            "accuracy_delta": -0.047619047619047616,
+            "harmed": 5,
+            "harmed_ids": [
+              "e_47a735515953c4e3",
+              "e_76687c64db32ae06",
+              "e_cf732da9bd1f9e07",
+              "e_d31d42f469ca1eb2",
+              "e_e155f69f8cfba03f"
+            ],
+            "improved": 2,
+            "improved_ids": [
+              "e_00d76c496fc28031",
+              "e_819d049c5999b794"
+            ],
+            "n": 63
+          }
+        }
+      }
+    }
+  },
+  "n": 126,
+  "new_tokens": {
+    "zh_nli": 45400
+  },
+  "raw_sha256": {
+    "outputs/server_v11/records/basic/e_03e59444e65c58fc/baseline.json": "f9f96ccd02c48b569ae16f3f4b2a1678d166e40525439bede01f9aff484461dc",
+    "outputs/server_v11/records/basic/e_03e59444e65c58fc/nli.json": "176389906ff288b017d6c3569fdd76793886abe9b7f2763f8a73ce77135835b5",
+    "outputs/server_v11/records/basic/e_047d40f3c20c3688/baseline.json": "90227e3d72963edeaa01c30d25af29171fbe771e61842cbe6f3aa24e6bb7a660",
+    "outputs/server_v11/records/basic/e_047d40f3c20c3688/nli.json": "e0aa5f9e4fdf1edd471d06e775393222f977a8a92946b82cc5ad50b187986e7b",
+    "outputs/server_v11/records/basic/e_065dac8cbfc632ef/baseline.json": "3d47170e3339e9f4837ba464a4cdf0ead5921ed4c2856e2f4a249aed03fcd823",
+    "outputs/server_v11/records/basic/e_065dac8cbfc632ef/nli.json": "8cb8c39b0ab1167cfaaa653383f1296a0ec848c1d9383c3ba7571408b4f9331a",
+    "outputs/server_v11/records/basic/e_0692e1a92693b687/baseline.json": "982d5a484e1637b7ff2bf2794e90a16bd49e8ccde4eddc6890c170ca664dcdf0",
+    "outputs/server_v11/records/basic/e_0692e1a92693b687/nli.json": "311b5b809d01ba8cbfd8d96feb57c1ca18deb6ce63cf8adfda6ae1f52551f58a",
+    "outputs/server_v11/records/basic/e_150c37f96a8c6ed6/baseline.json": "85187841f0ce99ddddf6c84e8219826a3ddb77242a7805c02171bc11387ab670",
+    "outputs/server_v11/records/basic/e_150c37f96a8c6ed6/nli.json": "2d74b404afe0fb6181d32e8ac3b53e93ef08baea951434d60040359e521574b9",
+    "outputs/server_v11/records/basic/e_1a81c382845d4d36/baseline.json": "b88736d264d83bd2a8d9bd28d937fad80ab970d92706bc442dffa43ceacf92e0",
+    "outputs/server_v11/records/basic/e_1a81c382845d4d36/nli.json": "2422c9af7ba52b41310c03d5e5c4527c0a0c38828dc9678cce1fd0f8e13e8dad",
+    "outputs/server_v11/records/basic/e_1af0f7da6d06d6a2/baseline.json": "2998a3eb8b1e08544fb9b7007d27541712c449bf8280ccb18892cd43d55137f5",
+    "outputs/server_v11/records/basic/e_1af0f7da6d06d6a2/nli.json": "f7db1f777c6f52f88633baa7bb46cb73825497d1f9aa58cde51552240e0bac49",
+    "outputs/server_v11/records/basic/e_1c0bfe72bc85c582/baseline.json": "5e8eb09f8da9f7789e497902328b0fd917f266ce4ddd15c4e1a200be9ed148a1",
+    "outputs/server_v11/records/basic/e_1c0bfe72bc85c582/nli.json": "7adb79da794cb67a91269ed8417ef58f9f690f8aa5e0249bc391b0aa539c8b15",
+    "outputs/server_v11/records/basic/e_1d3e192fd2aa6aa8/baseline.json": "f146a10ba3539e4b61e740fcc9ca006267f84a00f67de167f88d8279898ab3e3",
+    "outputs/server_v11/records/basic/e_1d3e192fd2aa6aa8/nli.json": "857c8f3a2f3c7b7efffa0f2b069d48e5738ca00faefc0fccaf9faba2452bedb8",
+    "outputs/server_v11/records/basic/e_1f1dc9de8abc315e/baseline.json": "3ea54c6cf9c1d1dd0b744ca3aba8409af2ff4d2f7ed97ac53a4b597e15c27ebc",
+    "outputs/server_v11/records/basic/e_1f1dc9de8abc315e/nli.json": "6b93ad74b9811ede06a2a4bda9f77d0d2631c0beec7d7d9b04435293ac1648cd",
+    "outputs/server_v11/records/basic/e_22af514691eb16c0/baseline.json": "1d18b65290d8484f9c5f2effbbb12bc343263fb2753b7408b39e9123a75d86df",
+    "outputs/server_v11/records/basic/e_22af514691eb16c0/nli.json": "4fd7788bf03456416ee2d9b77a4046ccfe94b078478cd0376f29068b170c50a1",
+    "outputs/server_v11/records/basic/e_25fedc89761a6447/baseline.json": "6d28f3860657c40ce1a388ddd0651908335c93d19d16e25892fc4061f62f685f",
+    "outputs/server_v11/records/basic/e_25fedc89761a6447/nli.json": "784a6622f463336814c98ded2258372202909b9f60d4a76b0541e2df8e61dcaa",
+    "outputs/server_v11/records/basic/e_274f117a240c04f0/baseline.json": "af1089fc6b78e20755e7ac61e6dad186e3af98df93befb6e8c079b59f5e90be7",
+    "outputs/server_v11/records/basic/e_274f117a240c04f0/nli.json": "0299b16b16823b5cd6552c8e3928674cd381c97bc1cfae22e4cae4f829bac053",
+    "outputs/server_v11/records/basic/e_405f374457df12f0/baseline.json": "efb61ac69959d5a77a8cd563cf654cd0a1fab03f4665f4446a0f39c82132371e",
+    "outputs/server_v11/records/basic/e_405f374457df12f0/nli.json": "6c1111703688137b21f779dc71061a3a49d99f5c4459476d89ac7bea9b9d316c",
+    "outputs/server_v11/records/basic/e_42d0cb2135655598/baseline.json": "329217c5a456edbe942dcff76bfe07926c45756d33b32683240053d4a5a1b3fd",
+    "outputs/server_v11/records/basic/e_42d0cb2135655598/nli.json": "bab8e7b21aca90fd78e6ef3c89e7e77dc7e05ef365e820fc5f2ed595cc8f2283",
+    "outputs/server_v11/records/basic/e_49eb3adfe6f3dcad/baseline.json": "6eb85297ca1d96fabbb2b1b8b352a92bbc255f701bb2b28477fecfc9b98c4a2f",
+    "outputs/server_v11/records/basic/e_49eb3adfe6f3dcad/nli.json": "7ba71b5365e9a8300cda8fdbab3dc4d81cc8cc2f6067e9f512d9886bbdd0e188",
+    "outputs/server_v11/records/basic/e_52fe61be64db187b/baseline.json": "aa9c1a14c91de76037d235aca797702bab6fc8648c814df86fb6e88393db19bc",
+    "outputs/server_v11/records/basic/e_52fe61be64db187b/nli.json": "7e447e23097ca451cc9e98b0c2c9106a8832f91412b8dd0bd2a827b7039b71db",
+    "outputs/server_v11/records/basic/e_589b947172738b88/baseline.json": "3e1a06df68a868d5ba8c94a9d25c0ac4aaea7a9f7590fb591db66dd9fc51b02c",
+    "outputs/server_v11/records/basic/e_589b947172738b88/nli.json": "6886ccc557966de10f42ba9c8d7b58804c737c322506ed6ab59e53828f2a7f50",
+    "outputs/server_v11/records/basic/e_60e6706f46bf549c/baseline.json": "e14b892e643d34a8fff425e853e7902964d4dede92a3fdf0bdfc45a810cac3d8",
+    "outputs/server_v11/records/basic/e_60e6706f46bf549c/nli.json": "c4fe3acef12f70a7639f6ed1d4d5195f98ecc1394172441cad9bf19ac84cd544",
+    "outputs/server_v11/records/basic/e_61300879501f1679/baseline.json": "a11a05e7800dfd7737fc1b293f631e88ac3ce51c5918a7aead300ab82a96e051",
+    "outputs/server_v11/records/basic/e_61300879501f1679/nli.json": "b20ca78fa57e7997d19aaab2f1172e091df3708d733f03806bd1e0d7cdf64e5c",
+    "outputs/server_v11/records/basic/e_6447fda1f9ae829a/baseline.json": "edb0c50a47ff0b3dc684d4f35e3596ceed493f5ccffdcd4b3544de83d4b5219d",
+    "outputs/server_v11/records/basic/e_6447fda1f9ae829a/nli.json": "a1a3cb02995860736c6530639448a4c2621c4e8236914200390e8deb4332283e",
+    "outputs/server_v11/records/basic/e_65b1277856c9c21e/baseline.json": "97558a358d640e5184e4e8da5410888fb0dfc317433a660c692c8ddb996a7cc9",
+    "outputs/server_v11/records/basic/e_65b1277856c9c21e/nli.json": "59ece795fe36944172921a6a821b275e915e86a5aec12589185e865b78536ac2",
+    "outputs/server_v11/records/basic/e_6db51c801b8f7c0c/baseline.json": "d22b1a15498223e823d90176af458b8bc826328fb0714dcda3399f035b831730",
+    "outputs/server_v11/records/basic/e_6db51c801b8f7c0c/nli.json": "bfdbe9fa6dd8b05fd2a91e54e02d64be279bc7394edd26605bf79335c4f243f1",
+    "outputs/server_v11/records/basic/e_6f63438f599f6b9d/baseline.json": "27b98619ed7f1bb7cb9c11e30773e4a11a2585a5a124fed474c292daf7c9e726",
+    "outputs/server_v11/records/basic/e_6f63438f599f6b9d/nli.json": "11c733c285bbcd74f4df55b65bc2f09afe371688042b4de356624bf16d94a115",
+    "outputs/server_v11/records/basic/e_707f11ab1153b983/baseline.json": "2c32abb91092bbd51c01b0cfeba6a8b956a4541f10cdf6ab4d9f427c37d4e524",
+    "outputs/server_v11/records/basic/e_707f11ab1153b983/nli.json": "8d259883f39c11560e661b6c266f0c11b342b1eaefe502f5ffbceb91e18d320f",
+    "outputs/server_v11/records/basic/e_792386bec8800af0/baseline.json": "58cdea6d4f60c56aa4d6c95b93083faca9706417f14e4bbfb014b04d867de1a6",
+    "outputs/server_v11/records/basic/e_792386bec8800af0/nli.json": "f3040c3e514e222317cd5f3621c13a0f11afbb4d497db5007ee32198ac7fd837",
+    "outputs/server_v11/records/basic/e_79e1efec25c6647d/baseline.json": "a33465a4e7640ae4eb318e1333b5b4dea8b4de26c78d048fb85b55dc19d36370",
+    "outputs/server_v11/records/basic/e_79e1efec25c6647d/nli.json": "dd729f011204141db211e57697f7f89ff92e86139d892fe1d660fd5c0ce92651",
+    "outputs/server_v11/records/basic/e_7cbec6e1b934502e/baseline.json": "894609a1fd353456818041d60477b57224b3baf0c9cd1052b2d457f35e3694d4",
+    "outputs/server_v11/records/basic/e_7cbec6e1b934502e/nli.json": "60b0f88590ab468b86c3215f277d45303c08c972a76ddb511cdd3f4cbceb1bab",
+    "outputs/server_v11/records/basic/e_812bcd952dc2616c/baseline.json": "a6aa5f23258883e0477397826285f085447f5d900b296e65e2670b6d708e9790",
+    "outputs/server_v11/records/basic/e_812bcd952dc2616c/nli.json": "7ec4be8d2f3afecb72e7c5cd72e3ae54d8ead5ecdf56ce2dd7425321e32e36c8",
+    "outputs/server_v11/records/basic/e_82522f6334dece54/baseline.json": "ea9789ef366fe29ea3cb4035cdb0a84a7b616f8e402fb69a7114348547fce398",
+    "outputs/server_v11/records/basic/e_82522f6334dece54/nli.json": "08ef6cd59be1a94f6f19fa6199c119f0dbb324c42ac29c6164d966405e9e310b",
+    "outputs/server_v11/records/basic/e_83284461740710c1/baseline.json": "6486cd897da7e3a89a363446aeb01419032aa9e6d41e524b97f622cfbf7c61d9",
+    "outputs/server_v11/records/basic/e_83284461740710c1/nli.json": "16b1339f64e92646e9798ac9759a74b882b59b2ab6cbb3483740d5d872975f11",
+    "outputs/server_v11/records/basic/e_92fda5802c7ba8e6/baseline.json": "797bf66987979863ef21e203fabcff60253207e11b18a5fd5b59886afc782348",
+    "outputs/server_v11/records/basic/e_92fda5802c7ba8e6/nli.json": "804a2e86c7eef4362474e8ccec6dbd34266a15993d74a947974470c6acd736bb",
+    "outputs/server_v11/records/basic/e_936770ae71fc0d6a/baseline.json": "0c20816d331583e55c28711219696431d5ba9d7425578f7d571cccc7e80b8805",
+    "outputs/server_v11/records/basic/e_936770ae71fc0d6a/nli.json": "238c8589208a038242ac9b99fa33e730e1bd4a7f348215e0d90d90e656e2c9ed",
+    "outputs/server_v11/records/basic/e_988113bdd15ce4a8/baseline.json": "7caa4d3a8d58c9a57633f640540fdc83ab9962d8a7f9cfa86c643629024b8101",
+    "outputs/server_v11/records/basic/e_988113bdd15ce4a8/nli.json": "1a34ceac6f045ed2a92e712ed58d7a11aa8549f28343dc6c1242c3d9594ccc80",
+    "outputs/server_v11/records/basic/e_99f62ec493fae4bc/baseline.json": "c9eca73d66937e283148a9057bcf466e148cb3b03933e1f5d0232b91c558500d",
+    "outputs/server_v11/records/basic/e_99f62ec493fae4bc/nli.json": "9e77330da5ab04aea63a54eae64883cbadb9f9383457451475137988093fc154",
+    "outputs/server_v11/records/basic/e_9d071924f7711428/baseline.json": "b9b1a2769a3eb837e346c906e2ca1362f73e5216c4ad2bfbc052c36b52790ddc",
+    "outputs/server_v11/records/basic/e_9d071924f7711428/nli.json": "b66a8ba98ce411d286a808a49c4c27d1deea57c1f57007988d1838ed542389b7",
+    "outputs/server_v11/records/basic/e_9d2542e6d74b51dd/baseline.json": "8bc549e836207ac8d25dac4ca1f181cc92ce32c1700adb6ce760a4cfb390a7ce",
+    "outputs/server_v11/records/basic/e_9d2542e6d74b51dd/nli.json": "da2fffac21a981d5d044e8a70c467a9ec3dad326226988ac2ccc8b460b52007e",
+    "outputs/server_v11/records/basic/e_a4b8d633f935b44d/baseline.json": "78a784260b86cdf27df5249d9af222f2272d067e6de9745d1de43fb67b5f77a1",
+    "outputs/server_v11/records/basic/e_a4b8d633f935b44d/nli.json": "2776c5c325e9d5238942637afca3b68c80d9ab3d9ec7853537ec6aa083cfb66a",
+    "outputs/server_v11/records/basic/e_abf332d006cb9aed/baseline.json": "004e87090b96b5f3da47e09a4c53bf1a7df8a399dd1cf70111de2da8a933b602",
+    "outputs/server_v11/records/basic/e_abf332d006cb9aed/nli.json": "c294de7b95225bb9d152842e90b44e2b30b8d43a5aa55e67e13274496555ab92",
+    "outputs/server_v11/records/basic/e_ae73f40e373aec2e/baseline.json": "36113baa8707c753f2cf94fee7ba68da23bde81b0a9d1a7099c3a9d53da3e25c",
+    "outputs/server_v11/records/basic/e_ae73f40e373aec2e/nli.json": "5e39017a1a1c958721f0b1001bbe87cbf5ed9d5cb05af928767a884c2bb7136b",
+    "outputs/server_v11/records/basic/e_b7e82c2a2ab0ad89/baseline.json": "5cc903fd91601d7957c851ba079059e8fa5068bf000e4ff2e0cdc20b86e153ab",
+    "outputs/server_v11/records/basic/e_b7e82c2a2ab0ad89/nli.json": "7ededceb3abe32c8a89586e768e754f9259d19b8e2621fcf8123d49ae5fe48c0",
+    "outputs/server_v11/records/basic/e_bb68286de3df8f26/baseline.json": "d2a4cc55d2d10379c4258c42ef38613261fb7f591988c20de8933aa0a18e71e9",
+    "outputs/server_v11/records/basic/e_bb68286de3df8f26/nli.json": "dbd61a063b023ed1792cd28e6f283bde4f9b34f86951bd199c72bbca4944555f",
+    "outputs/server_v11/records/basic/e_bb8a3d358400fcf9/baseline.json": "39a978678cb1e29763f9077651be9c6cf3606adea590c41c13dd73e8c24fb163",
+    "outputs/server_v11/records/basic/e_bb8a3d358400fcf9/nli.json": "dfe10d28a644b29a0fbac122bf729809ee5082167c06031bfecbac3c113c6b6c",
+    "outputs/server_v11/records/basic/e_bd42cf618aba3043/baseline.json": "2c2a4fa7591ce81a3c4063870a11d4c29e7056da07f39f6a8b9b80121694a734",
+    "outputs/server_v11/records/basic/e_bd42cf618aba3043/nli.json": "7a35fcb6461c01110b3de432ccdcdd2708d6704094ab007776676ae6a3eeb442",
+    "outputs/server_v11/records/basic/e_c43f2655d2987121/baseline.json": "ffcbc7d74224910bdc5f07f36df0a4ebff3ca92cb5c6adc333fe3429b270477b",
+    "outputs/server_v11/records/basic/e_c43f2655d2987121/nli.json": "b54b313233408475fe16f6ffd2762af52d348aa3f38ec771af7e6a81280ed3aa",
+    "outputs/server_v11/records/basic/e_c51d9b141555f32d/baseline.json": "c7a1c0bd4f764c1c10190f2937e3d697b1ddf553a5664aa69dfcebf04ff93393",
+    "outputs/server_v11/records/basic/e_c51d9b141555f32d/nli.json": "4835b3ec27e1b620d9c43849320e8c458e3479b5722bc2111dd6212edce7dd49",
+    "outputs/server_v11/records/basic/e_c68e6d586c35bc18/baseline.json": "8be8ac63a0fbbe5a3f63de78e8827b9024a7a5f011c1f4dedf22b45501f21924",
+    "outputs/server_v11/records/basic/e_c68e6d586c35bc18/nli.json": "7f8d6f88e13c1594eb33c5e88cb212c563167a6fde9c0b1406df2a319d4f06db",
+    "outputs/server_v11/records/basic/e_c6e759eaee008011/baseline.json": "f5316ef73048fce30b864e6212ca8e542f1549a3a790a6650f003ce1c37e7221",
+    "outputs/server_v11/records/basic/e_c6e759eaee008011/nli.json": "8134dd76895a13bb19b5adc8545635e681aafbd26b194ba827edcb28a78a0a24",
+    "outputs/server_v11/records/basic/e_ca3181f06d407998/baseline.json": "ebe35d95e0fc785da0b3f0688ad226187e1f693b0b0ec0df609d3250bc0e349f",
+    "outputs/server_v11/records/basic/e_ca3181f06d407998/nli.json": "ddaa553174094880931eae1e4da63c31582e4dd2043c3da849196f78f7a64690",
+    "outputs/server_v11/records/basic/e_cbfff8210e25c725/baseline.json": "c4199fb3e9eb0ef3da4fe8db2472e74460c5b06bef3bde419941e5312934c9ce",
+    "outputs/server_v11/records/basic/e_cbfff8210e25c725/nli.json": "70f105271bffb6cadffbea37ffd62157e3ecd47eee3902ff928c548719f166cb",
+    "outputs/server_v11/records/basic/e_cedbed55b82710bc/baseline.json": "141bb1d5e43cdcc76d5125b7feaed4be0001df42640396f283af6c7733104f79",
+    "outputs/server_v11/records/basic/e_cedbed55b82710bc/nli.json": "6267cf5811a19b3f81179670be391c9e2e248ac61455f3f27b346bda0140b1e3",
+    "outputs/server_v11/records/basic/e_d355b2bb3d8e3c39/baseline.json": "3629375efc58411a94f73d10dac6563aa941f559011e2529c287fbbb0cd2f7ba",
+    "outputs/server_v11/records/basic/e_d355b2bb3d8e3c39/nli.json": "a92b2ef573932b19a92cb25287f5a35c6ebf4f06b535975d2e991bb6364dfd9c",
+    "outputs/server_v11/records/basic/e_d660c88be28048c0/baseline.json": "dc326c094c95cb95db2256678b422f239f85bad33450132124f3de08fa581e48",
+    "outputs/server_v11/records/basic/e_d660c88be28048c0/nli.json": "9ffc9d9c088a1ec7c9636da23a40f413e7beeffaacb6ef80fbdd149641cbaa27",
+    "outputs/server_v11/records/basic/e_d704e8f114cd9ffb/baseline.json": "313a1266510972b5112a116d70b0c189e6cb59daddd0b27a937fad194876fb8c",
+    "outputs/server_v11/records/basic/e_d704e8f114cd9ffb/nli.json": "ef1e19f76cf829e7de595f18db08dd5ca75ebede8645868a9b9fd3da95477f48",
+    "outputs/server_v11/records/basic/e_dbf41abbf2aca969/baseline.json": "3fc58b6da7ccec3d0fbf1c44c1fc20c35d4737022abf424fcfcc26c37be60ffa",
+    "outputs/server_v11/records/basic/e_dbf41abbf2aca969/nli.json": "46f62cb62e2be8da5cef05f0e6bfd3016c088d55f0f1da84fb98b5af54bb43c2",
+    "outputs/server_v11/records/basic/e_e0baeefdb6a27df2/baseline.json": "ed7a28a2feea9f59dc6f61ea43a02f035675cb9ea14941057d7510d2244f3592",
+    "outputs/server_v11/records/basic/e_e0baeefdb6a27df2/nli.json": "5ce4a9072b009f5ee3d74d9fb165ab70c8fae0f9a84d001de66a268ced3eb4d0",
+    "outputs/server_v11/records/basic/e_e34ee379ce633fe6/baseline.json": "9f2e9c5bb863019313cc23bee80b7bee217b857baf1d2ccb8c4606c1322eb4e7",
+    "outputs/server_v11/records/basic/e_e34ee379ce633fe6/nli.json": "fd5cfb8ea974633c2acad4bf788cb5519261be632c47be1ef9b80c485ba5f65d",
+    "outputs/server_v11/records/basic/e_e52cec6cf13bbc5a/baseline.json": "3fcfd1c1541a081854dfe9d5ec0d166ed9ee8542c434d90984b7d22f7d7a5593",
+    "outputs/server_v11/records/basic/e_e52cec6cf13bbc5a/nli.json": "b3ec739a1eb22bb21d5adc156453bb737931fea4f0ef84588b938de0f6eec2f0",
+    "outputs/server_v11/records/basic/e_e667fe8c909b3e78/baseline.json": "9b249d78b19fcb4ccec56b5f7207f23a2265a70f9888dd05f663c0f1468debcf",
+    "outputs/server_v11/records/basic/e_e667fe8c909b3e78/nli.json": "542897ff247f8799b05281f9cd39dc3147eb38221bf4267b91b3e1a8e3d62c9c",
+    "outputs/server_v11/records/basic/e_e7cd84a2cc264e99/baseline.json": "18644925b9d6d68a33b20d77b7cf722f241bcdda0682643756724fe7e1b6b782",
+    "outputs/server_v11/records/basic/e_e7cd84a2cc264e99/nli.json": "f43f3b6db86f898ff9db757e8acd0ea65b31369a1b2c97334081339734904476",
+    "outputs/server_v11/records/basic/e_ee6488021cb24e0c/baseline.json": "44495df2a2e98436836f114d94c879ab5631e4468a0743c816a306dc0ebd5cc0",
+    "outputs/server_v11/records/basic/e_ee6488021cb24e0c/nli.json": "1a4ba8443c7b4ca38afb0b4c4ea551088fe5cd9b3445090d1b3a8d11e1aac500",
+    "outputs/server_v11/records/basic/e_eed8257c69f80b5a/baseline.json": "1f5c5c8a53f42818e54455a7725eb85486bbac06a98a1abac9fbdf602e8971f7",
+    "outputs/server_v11/records/basic/e_eed8257c69f80b5a/nli.json": "3a921668003483b69727eda532c2e97829fe7edc26a40c23d6cc785934fe95d1",
+    "outputs/server_v11/records/basic/e_fbe657495f9e40f0/baseline.json": "4c72c8689810e917783e92e9e29f8b28ac8ae8296a8dd9ede8e8a0c109d62171",
+    "outputs/server_v11/records/basic/e_fbe657495f9e40f0/nli.json": "6f2b372e681ddb7c4976db0ad58121fd6ced33a5070c9b03c030da4db880b6c5",
+    "outputs/server_v11/records/challenge/e_00d2529ebc35824e/baseline.json": "2a85df4f0b6569a20df18db1762228fefa9718dd36948a02c96918785005e2e9",
+    "outputs/server_v11/records/challenge/e_00d2529ebc35824e/nli.json": "529d1e9721d2c383aa6f6c257cc4e3790252fd6a1a6df64b52c756523f217c1e",
+    "outputs/server_v11/records/challenge/e_00d76c496fc28031/baseline.json": "02cbf8b29489c107dbab7be59f3c579fcb8685c5c3ae8ab13afdfd71428af51f",
+    "outputs/server_v11/records/challenge/e_00d76c496fc28031/nli.json": "6ee6825dbdb7af420a8f921b75e7735f7bcc4a8dff9da9562b3caff1d484e31c",
+    "outputs/server_v11/records/challenge/e_00f5887aaff71e12/baseline.json": "be8975bd75da83958cc0ca98306afef4b3452af6da8877cebe7296a008cc0621",
+    "outputs/server_v11/records/challenge/e_00f5887aaff71e12/nli.json": "b9a95cf7bacb225bd36d27eac1b77f5ed0a1b0acc3faac0aca47d4ffe453fb55",
+    "outputs/server_v11/records/challenge/e_02d8aaaa7d26d480/baseline.json": "3c347f3b5b9d3eceedceae95b68fe82bdc0b4bb1ed58c3d587a01c010013d259",
+    "outputs/server_v11/records/challenge/e_02d8aaaa7d26d480/nli.json": "c34517ddf6d0227a75e9fed2f870aa5e62a0688605766b2f784ea232873a8130",
+    "outputs/server_v11/records/challenge/e_040b2b4f223c4e01/baseline.json": "8c419c3f92a6e112c9f0a6889103e721496dd15366ec18c7d4bbccf782864f7b",
+    "outputs/server_v11/records/challenge/e_040b2b4f223c4e01/nli.json": "b991d090f1b7779a942a5d55f811b4c53f23aadd2f55aaeab2a7e939385cf330",
+    "outputs/server_v11/records/challenge/e_089e464aaf3e6f4d/baseline.json": "2df81dda3f94ce14e285645adac94783acc809ecdce87e7c3ba0bfee5dbaee23",
+    "outputs/server_v11/records/challenge/e_089e464aaf3e6f4d/nli.json": "a73156516daabe6d688b2abac1324d62dd23fde2af1b11ff97e4a483e6b54cdf",
+    "outputs/server_v11/records/challenge/e_198d52c814fabec7/baseline.json": "979a168fea6805543baa1bfdd98c268c1b26ef28b7f7749a7c59ce1411d55c92",
+    "outputs/server_v11/records/challenge/e_198d52c814fabec7/nli.json": "55f1b0310804d691964fc5314bbfc8c1cc570c9d400b74cb3048150e4142ce4f",
+    "outputs/server_v11/records/challenge/e_1fab871b519da42e/baseline.json": "c7e2ab81e097aa69a6214112ca81f56c3105cfedae5e763dd23e0f6c0d67f5f2",
+    "outputs/server_v11/records/challenge/e_1fab871b519da42e/nli.json": "f58aca8b2c8b67ebb13a059db3343d29a2c10fe472eaa6daf8721c9881f80235",
+    "outputs/server_v11/records/challenge/e_21dae89ac6e67d11/baseline.json": "3c0140f55131f5294c923af59567a64723b586ebe7e2e300dbe63e2b10d43a50",
+    "outputs/server_v11/records/challenge/e_21dae89ac6e67d11/nli.json": "7c1b231b40c98f5a273e6cd91d105d5707655d8921bdee5b45bf9bdbb8b6ce4a",
+    "outputs/server_v11/records/challenge/e_2e54cb1f10ad4f9a/baseline.json": "141e6623d0ce53b360d247f42aef915a84f5651e83341e6aeb3ac3570baf1c07",
+    "outputs/server_v11/records/challenge/e_2e54cb1f10ad4f9a/nli.json": "ea953d457ce00ab17c0ce675e3bb3346c7ea6e7e346b3367ccdfcd2b25a0950b",
+    "outputs/server_v11/records/challenge/e_2f58d8232e815226/baseline.json": "cdad523a4c94d9d64777f0e20f3ff1b29ebc52b9540d4c557e527ffd158e4d16",
+    "outputs/server_v11/records/challenge/e_2f58d8232e815226/nli.json": "5db838a2861f9fcc877d71100542d7175e82641f60e03bb63f0e7707d19f6ec6",
+    "outputs/server_v11/records/challenge/e_32672ec9ce6ea5b1/baseline.json": "05055a4dd2938f6d1b98daff53cd24563920bec792e96a368f5f270e28597c5d",
+    "outputs/server_v11/records/challenge/e_32672ec9ce6ea5b1/nli.json": "627d0e2c232ec8715d1d6c738d7ca8a5918ac35703bdc4777d6b8d198a244639",
+    "outputs/server_v11/records/challenge/e_33a4d26196badb81/baseline.json": "aeb717159bdd1d6933987eaf333d050a4d9e5e12ebff0166f40ace58dd552e38",
+    "outputs/server_v11/records/challenge/e_33a4d26196badb81/nli.json": "c56dce3dbe6138e722ba5dbdc88309497eb662aa27541b90776221b1ede784a7",
+    "outputs/server_v11/records/challenge/e_3be77c0751348236/baseline.json": "83963fe159d88228f28e13b3c4ac8d61c905fbb428fb1ada9b106dce107e8315",
+    "outputs/server_v11/records/challenge/e_3be77c0751348236/nli.json": "b55b09f2262457e494e1fd05ea7ca634ef0f65ec7de8ee7bb16157b24d154c9a",
+    "outputs/server_v11/records/challenge/e_450fb2118db2548a/baseline.json": "427c8afdeff4fe1fb9cc27999cee559f82baab2740acdbe3819022a7d46b98f5",
+    "outputs/server_v11/records/challenge/e_450fb2118db2548a/nli.json": "7065631078f45cb219fc4887ac63889648a7eedeb051f1cf912e098827b25e74",
+    "outputs/server_v11/records/challenge/e_47a735515953c4e3/baseline.json": "33b11cf54db1f3696ca57ae945ed9e5a5068f53e769716b583d4359e4717e141",
+    "outputs/server_v11/records/challenge/e_47a735515953c4e3/nli.json": "22dd68056ab42367a7e3ea2b7caf80cdaa6c9878dced4af02aed9c212251e55b",
+    "outputs/server_v11/records/challenge/e_51c3569118fd293c/baseline.json": "4235de907e01ca7ec08790d1a52cdc28fd633c2d633e34d1e636cbd921645723",
+    "outputs/server_v11/records/challenge/e_51c3569118fd293c/nli.json": "65ee298e836e38864efc72badf3c3b3626af18e55f891340dcc61e4ae7fca1f1",
+    "outputs/server_v11/records/challenge/e_5588137814ea95cb/baseline.json": "ba478cc49196f15732162fa07a237b3fb98d4ca7fae0a680008b193387c27c2c",
+    "outputs/server_v11/records/challenge/e_5588137814ea95cb/nli.json": "d9977ab206b8cdbfd33cc360d3ba07c01eaea2bc7cb821731032d89871cbbdb2",
+    "outputs/server_v11/records/challenge/e_563cb325a2245ec8/baseline.json": "ce5cd3bcabcee54a1bafa19c0433c7148eb7cd659a6ae1a7ce39dad26db812c1",
+    "outputs/server_v11/records/challenge/e_563cb325a2245ec8/nli.json": "8f81842610e74b8a170f3a5e00c74df910ad63c95e749769c0f53ace51ea8128",
+    "outputs/server_v11/records/challenge/e_577685fcf414c64b/baseline.json": "977e266619228abe81cd8e8fb6f158e4f1679599f543dc4ba4bb4df5249fba6b",
+    "outputs/server_v11/records/challenge/e_577685fcf414c64b/nli.json": "760d6c38d2b845e8462ccf70dd69d580b1f5e3107065c41e5568c171bae96bb5",
+    "outputs/server_v11/records/challenge/e_595dd5351283a150/baseline.json": "06678b5b8cfcc29625c0ed39351780ada1936e7ad9b08bcdebb0e5ed9419bf28",
+    "outputs/server_v11/records/challenge/e_595dd5351283a150/nli.json": "217a12adaa4112ded403d8befc10f3f410b8136e5b8125c5456c295e12220d0b",
+    "outputs/server_v11/records/challenge/e_6314cd92d9f33fca/baseline.json": "6639a9e00d518515705ba6a33bf8bb33a9ff8fc60c40d43f21060c68015eea3c",
+    "outputs/server_v11/records/challenge/e_6314cd92d9f33fca/nli.json": "b9363a93306c6ff4162ed1ebb924b967c32339d289e905d5abac2e73360aba0e",
+    "outputs/server_v11/records/challenge/e_691e1e856eecb993/baseline.json": "ac1993ac00e4632c54d3d59ea9c31d040e9149f44600c21abe9b7a58e92dac28",
+    "outputs/server_v11/records/challenge/e_691e1e856eecb993/nli.json": "0ede71c3ba351829956ef8a7da39ed427d9f42fd0eb9034b8f9c121df0c69323",
+    "outputs/server_v11/records/challenge/e_696d6e3740bebfc8/baseline.json": "9da30c04e60e2422537e9f51aae85b5f9e1f1c780dd08c58359175a2e3fff50c",
+    "outputs/server_v11/records/challenge/e_696d6e3740bebfc8/nli.json": "ec30d82cbd9462af747650a88247a7218345e35fde57af37009d9b99ebc66415",
+    "outputs/server_v11/records/challenge/e_6b214802e5a19766/baseline.json": "8b65759f41473929e92501a9d33015e262653a5952fd47e69df0e37490c22557",
+    "outputs/server_v11/records/challenge/e_6b214802e5a19766/nli.json": "331107143fc2d3098cfe98d0ee3963af895e34961d9b79600711714a694321ca",
+    "outputs/server_v11/records/challenge/e_6e7e3cc686470f7a/baseline.json": "40b2a50fac0ad139c000b82770de40bfd4c5cc3faa86532dd4706e62941d28c3",
+    "outputs/server_v11/records/challenge/e_6e7e3cc686470f7a/nli.json": "ceb27d4cdbe56c705869a28a78ea3bb5aad1e5d7ed221a0ad1d6f827c88fbcd9",
+    "outputs/server_v11/records/challenge/e_6e8ce284aca3eab9/baseline.json": "37fe6a4767fa880dd676dab32c2aa79e039bfd0451b1b0bd0402ba0a27b07b48",
+    "outputs/server_v11/records/challenge/e_6e8ce284aca3eab9/nli.json": "def82327ac2d62bb512e7272aff2d3e6a92f2d91ec203e0e097b5648064840ff",
+    "outputs/server_v11/records/challenge/e_6f27dd638ef982ac/baseline.json": "e0b1b4d552e60e2419d3c7f7183d883a85867d362ec7cddb4084c84665c62a3e",
+    "outputs/server_v11/records/challenge/e_6f27dd638ef982ac/nli.json": "9f5d6a5415454c4100e879d913f60bf1f3956603a17fd73f065e7e2900d21c46",
+    "outputs/server_v11/records/challenge/e_76687c64db32ae06/baseline.json": "e96f0aa322967dd9c6217857eb8b2a832040c083fab6a516e928ecfa6acd901e",
+    "outputs/server_v11/records/challenge/e_76687c64db32ae06/nli.json": "f657242c962d068d2a2a7fe5722f9b932737fe23b137a26926d42fd9d890b81c",
+    "outputs/server_v11/records/challenge/e_7838af2a2935630a/baseline.json": "28f0fd1fb5be6d06c24c4b62e3c503e19e098ef520fcd2705a2904d0d4d8d419",
+    "outputs/server_v11/records/challenge/e_7838af2a2935630a/nli.json": "e5cbb383eebc13b9475ee888cd422536dbb0ab098aa085b21eb0b1c004f646d7",
+    "outputs/server_v11/records/challenge/e_805503b6412f007e/baseline.json": "d24a395050b8283941b8f46ba29978005479eb22eeb4ef9e5a211ed26522e566",
+    "outputs/server_v11/records/challenge/e_805503b6412f007e/nli.json": "4d26110a9484b50fde832f3dc71abb42e05be41d6ed7ef44df8a9132060cbd6e",
+    "outputs/server_v11/records/challenge/e_8127552fc8cd30a7/baseline.json": "d7bc7928a5168c9b0e99d08b0c6b486c9aae1be743939c42d02b30293dcadb92",
+    "outputs/server_v11/records/challenge/e_8127552fc8cd30a7/nli.json": "8b92c161f0d180a88a9a1278439843cc504ee5af07086aa37f64210e35aa96e8",
+    "outputs/server_v11/records/challenge/e_819d049c5999b794/baseline.json": "9e0fd1dde410c796157b3b4afc4f5e4816e70ee6cf00befd4f0e11d1c2b86bd2",
+    "outputs/server_v11/records/challenge/e_819d049c5999b794/nli.json": "0df142f728a89dd2804fbf94eb12cc83bb1d0ce51551a8f98010d9ee7d96cb66",
+    "outputs/server_v11/records/challenge/e_8232c2ba88e687ab/baseline.json": "97be1a7348370525f6bedd048aee6888b9cec14dd0f30343e462b2b042706ba8",
+    "outputs/server_v11/records/challenge/e_8232c2ba88e687ab/nli.json": "9b5ff7b85da867afdebfd618d1fd408bd4937f31c5ef7e8292deeb7977039bc4",
+    "outputs/server_v11/records/challenge/e_84e1c039349f835e/baseline.json": "f1d1cb9180c4be7028c8c1a05bf5ecf285e57976b2a2e2519ee55dbe3133ad5f",
+    "outputs/server_v11/records/challenge/e_84e1c039349f835e/nli.json": "b603b0f78fdfa185872b75aca235cc3f2a78f2ce931a5de795bd7d59e5b5cdd2",
+    "outputs/server_v11/records/challenge/e_85939b66b13913d3/baseline.json": "7232cb19d3648770ad575c42fc007c8c8b90bcafb2fec38086543079ac3e4cd7",
+    "outputs/server_v11/records/challenge/e_85939b66b13913d3/nli.json": "7fcc29b6e7ec4bc7c18695547b51fdffd0048c6a5679a8bf882fea6ce0fd2125",
+    "outputs/server_v11/records/challenge/e_874868084a78d2af/baseline.json": "2f6b4b83098d463e31031a098453e13d4f8a111ffc6faa30fffebf0aa9b27ae1",
+    "outputs/server_v11/records/challenge/e_874868084a78d2af/nli.json": "d953142c4f7793988e8c5ecc73236ab0337e893983fbd4d88922393d41604df3",
+    "outputs/server_v11/records/challenge/e_88bdffe4a07ad1d0/baseline.json": "1f25df4b2b0f5c8f5bb22b54574aa2328ec93d3594dfb1f4623f8650e9ca3029",
+    "outputs/server_v11/records/challenge/e_88bdffe4a07ad1d0/nli.json": "abbd43868e36c9a09e6b230c77e3ac0f74a1f4e4537e8ed99004e9562a53f6b1",
+    "outputs/server_v11/records/challenge/e_8ceb4d3aa9e5b16a/baseline.json": "9ad4f4fef004c6d8a24fe9b89685f95b675c37e0ef09fdb18bbcf916950f6ec9",
+    "outputs/server_v11/records/challenge/e_8ceb4d3aa9e5b16a/nli.json": "58ac483cd04de202c59ee0d7aecde7531797a14e539985fd044a16b9a392bfe4",
+    "outputs/server_v11/records/challenge/e_97d397af6a0e0e52/baseline.json": "bb655fc8f456dd780aaa4136213483e57f31bbd4b4194d1fd8193bf2f44bdbb3",
+    "outputs/server_v11/records/challenge/e_97d397af6a0e0e52/nli.json": "2c8a35195148ccbf6d31aae878078cba203952ac0e34c10bcb85342df7bad9fd",
+    "outputs/server_v11/records/challenge/e_99f44310b2bcaa0d/baseline.json": "4822ae72c9d8b8939751b4741d00ef042b8ae53c32fd46dfca63deb4d88b8a32",
+    "outputs/server_v11/records/challenge/e_99f44310b2bcaa0d/nli.json": "1aa907b1e8dffcbf26968c41c85ff2241acafa913150a816bb97f5f764596247",
+    "outputs/server_v11/records/challenge/e_9f30607ab3849b3a/baseline.json": "53a4c21cbe89f6148331e42c8e9674d072c95617c03bc8abcd1ad28c92fc4c66",
+    "outputs/server_v11/records/challenge/e_9f30607ab3849b3a/nli.json": "45f58abeebbf611657dbb11b353fa0621aa5822abb4334012a3b122ec0320f93",
+    "outputs/server_v11/records/challenge/e_a07d997bb138aa8d/baseline.json": "a6af809014db5edd083f0f9c44a237e6b4ce6c199aa727e22a41974f41a895ca",
+    "outputs/server_v11/records/challenge/e_a07d997bb138aa8d/nli.json": "b8d65d58b091b147ea9e54f0b0898e4c6f4fb633372cd8821be5f7ff46421ccf",
+    "outputs/server_v11/records/challenge/e_c098cb07092b34ca/baseline.json": "0716e4fe95b1b8df105ca91913064674f84e633fbe091792224b039005f11913",
+    "outputs/server_v11/records/challenge/e_c098cb07092b34ca/nli.json": "54a7b3646c9f2b1ca538adfad25b49dc15c7d7856048eafa5cdd55a27d5f6fec",
+    "outputs/server_v11/records/challenge/e_ce4b32951a5287fb/baseline.json": "cb66006bb1e7ccfed6a72b1ed4c5d386bcf9226fc61a3d47024a775afe2bb4e8",
+    "outputs/server_v11/records/challenge/e_ce4b32951a5287fb/nli.json": "0702dbbf45bc9aa5cc3ec32206b59835a1a242aa2ac89fa0697098957ca0b7ee",
+    "outputs/server_v11/records/challenge/e_cf732da9bd1f9e07/baseline.json": "08af326eecf154fdaab863f303858476b82f77ea4f5e45f79e5429809cae5cc6",
+    "outputs/server_v11/records/challenge/e_cf732da9bd1f9e07/nli.json": "65fe5d288b672d2c46a7a9096a3c6b07a09cb75a503fc7bc882d93853bbab514",
+    "outputs/server_v11/records/challenge/e_d0f5a3de86698b13/baseline.json": "a3abcf3adc27661f188a35769b6f29690c5a96ebffbf86a89c0ff5485e3ac690",
+    "outputs/server_v11/records/challenge/e_d0f5a3de86698b13/nli.json": "da7de72d525bfe1c17f156e3fa4bb973517f8fadc5827b997744d590becff3af",
+    "outputs/server_v11/records/challenge/e_d31d42f469ca1eb2/baseline.json": "6c054f6102b2894b341d64c267ecb74161fe8085e79cc02396ef9de3027bcd1d",
+    "outputs/server_v11/records/challenge/e_d31d42f469ca1eb2/nli.json": "a6e22820573a1187650876c6430d099dcd93c0a3920119dd2c35b902bb8033f5",
+    "outputs/server_v11/records/challenge/e_d48ca139bf7ce371/baseline.json": "69ec25e1724933bc4090de6d3a1bcfe7eb39d045343b27d7e98d9d72f9794763",
+    "outputs/server_v11/records/challenge/e_d48ca139bf7ce371/nli.json": "6a3391a80d4eddd6b6b18339c015b4d56ea039611d21bf011dd89df4384f2e6e",
+    "outputs/server_v11/records/challenge/e_d50f43d430a1c371/baseline.json": "c71c1188f514eaaae60dfc3af3117f1c3a912842326d7c8d9c5428100631151e",
+    "outputs/server_v11/records/challenge/e_d50f43d430a1c371/nli.json": "5d7b6f41945638e31b6688d989c0b50f885d6936bf10bfc0d3506793d6d230be",
+    "outputs/server_v11/records/challenge/e_d85183fe9d866ccb/baseline.json": "8e2face875b2fedc66f8f623aca923ece3d169a7ad2326b6f90d918f62a85dfa",
+    "outputs/server_v11/records/challenge/e_d85183fe9d866ccb/nli.json": "f96648433d6306b8a7ab6ca7600497a83dc15621164e3d88816cf511424eed67",
+    "outputs/server_v11/records/challenge/e_d8aa4690d3b42399/baseline.json": "909850fc61533950cb098219d6dded51c9686731d0f4c712bab6a803c585205d",
+    "outputs/server_v11/records/challenge/e_d8aa4690d3b42399/nli.json": "fb2fff6999ca2a458f58869f36d03836e1b9c4158b1ca4b8df3e369e38b77b24",
+    "outputs/server_v11/records/challenge/e_dacdff1c20358c94/baseline.json": "609cfd311898e2e147fbe2cf086704cb78990979f3557c5ab4e4a5d43745dab7",
+    "outputs/server_v11/records/challenge/e_dacdff1c20358c94/nli.json": "c18bf1c4e080c6be976a69ad9c6edb14f4ab0055b1bd7ad723ed8a2afb8e49aa",
+    "outputs/server_v11/records/challenge/e_db33e9ce593a5b9a/baseline.json": "dfb24337416cd3aec0e6d6c0b9f3a3d38b775b3e05fbf8546bd5af02184747b3",
+    "outputs/server_v11/records/challenge/e_db33e9ce593a5b9a/nli.json": "266af9cb6f837cae70a96b170fa313a0566a1982c566eb494cb1c093e64214c5",
+    "outputs/server_v11/records/challenge/e_e155f69f8cfba03f/baseline.json": "1fdf25ee7ff7e0d09ce8b6f495b2825732d0eee2323b777aba48896f6ae3c2e0",
+    "outputs/server_v11/records/challenge/e_e155f69f8cfba03f/nli.json": "e9568b5c4ead72acba6d145f0b634dfd83b44c75e59229bcaf2b7bb31c44c13e",
+    "outputs/server_v11/records/challenge/e_e495237c05285bc3/baseline.json": "d137aa98a95b462a23b02919d3d54d55aa714cff82c73dc0f4d952723fe4b9d9",
+    "outputs/server_v11/records/challenge/e_e495237c05285bc3/nli.json": "9aaa4a57a378712bee71067d81c5d6dd1042332f57b6f65673bd9b8df7404bfe",
+    "outputs/server_v11/records/challenge/e_e9e9328fa1e3ee3f/baseline.json": "793da32068750b3023e9e1c7737f333bbced4040f2c2332f1cbb0d921a263d0a",
+    "outputs/server_v11/records/challenge/e_e9e9328fa1e3ee3f/nli.json": "28e988007ec762ca46d80d349332935188e187f8927561fdacbe76b0bfcbdc70",
+    "outputs/server_v11/records/challenge/e_ebc53469d277caa8/baseline.json": "6eff5cbf6bf1c1ef93401253d7324346fe519e8705dc5e3ccbb1555eb712c904",
+    "outputs/server_v11/records/challenge/e_ebc53469d277caa8/nli.json": "832ce827bd28c1e63da3f17bd74d9d035ee8aa6bd74e76cae90a7a29e5458548",
+    "outputs/server_v11/records/challenge/e_ebc59a6814399ac6/baseline.json": "f6ec41b95a788750d03b2227464c53b26c9117ccd75dbf02354fcbd7b7e869e4",
+    "outputs/server_v11/records/challenge/e_ebc59a6814399ac6/nli.json": "88dabfd1adff6d63e905e56d7d2496c4d6759ff8695a51b75e7cb19475034525",
+    "outputs/server_v11/records/challenge/e_f3c2dd3d4211c475/baseline.json": "b53c23441611d236b70c6ce6094f17b5a70aa2f2a636f310c53f9d203e91eb4c",
+    "outputs/server_v11/records/challenge/e_f3c2dd3d4211c475/nli.json": "a922df12f7748021a38ad7a889fed77eac54c090419601452cc2d6ff7e1c537a",
+    "outputs/server_v11/records/challenge/e_f60e9ee48db3696d/baseline.json": "12b394074ca80fb4eb9898c1eae06860b760dc6a9ae5ba428b1a0cd6b3a36cb8",
+    "outputs/server_v11/records/challenge/e_f60e9ee48db3696d/nli.json": "323b37d82abafd35eae98c155f037d602ce9f132a4cf98cb1e706f6eb25cafc1",
+    "outputs/server_v11/records/challenge/e_f69b3f82775e4908/baseline.json": "c53dbe3622e8286dcbab2b767fde182898ee0f32798cb921f676f0aa0b71b139",
+    "outputs/server_v11/records/challenge/e_f69b3f82775e4908/nli.json": "7897fd3830408c9aa18c5072abe843635d4ee53451d76524cafddfc33616de2d",
+    "outputs/server_v11/records/challenge/e_f8534d5471715f1c/baseline.json": "36a309ea53bfb0ac34871dfbdb16f5e66cd35c7df98b5f9416ec65bfc8f6d483",
+    "outputs/server_v11/records/challenge/e_f8534d5471715f1c/nli.json": "d83d46cc8aeceeb7c2735136524f17263484434fb58bdcbbe6c207aee766a809",
+    "outputs/server_v13/records/basic/e_03e59444e65c58fc/zh_nli.json": "f7cd28d985de5cc936f5b83cf70615c2fc53fa56e3a7cbd8c9ca9f84a386c7bb",
+    "outputs/server_v13/records/basic/e_047d40f3c20c3688/zh_nli.json": "6dedeb2df22032b45b9a11286fb81ee7045bf7d45fda27cb677d27c70a6ed800",
+    "outputs/server_v13/records/basic/e_065dac8cbfc632ef/zh_nli.json": "ed82b7c7dec2e37689735a7de59858abfb890ec0f5975cb918a10530b4cb69da",
+    "outputs/server_v13/records/basic/e_0692e1a92693b687/zh_nli.json": "5ff1755c51edf2bee9aea13a611112856c51b639cb9bc5658211ece1030e826c",
+    "outputs/server_v13/records/basic/e_150c37f96a8c6ed6/zh_nli.json": "349d2fe5512844d68c38dc3bea3ba3b9ed861fbe645f4db9a65c045c786dbd09",
+    "outputs/server_v13/records/basic/e_1a81c382845d4d36/zh_nli.json": "b296375ce9cd2467e7065f5d77af8ff09f74ca22c7b8e7692e96e4f1b8b6462b",
+    "outputs/server_v13/records/basic/e_1af0f7da6d06d6a2/zh_nli.json": "ed3307a61448c66c701b09bbebec34a3a94a2961f876df9d94a0f40b64cb6de7",
+    "outputs/server_v13/records/basic/e_1c0bfe72bc85c582/zh_nli.json": "19f3111c6cb919af42ebbb830f2c5649d939155d9d30e2c6fb305dcd7f95e2e8",
+    "outputs/server_v13/records/basic/e_1d3e192fd2aa6aa8/zh_nli.json": "5c98b2f08a3c4b4ab938fd9cc74d5e0ab1a039f215961efb0b96462474895f99",
+    "outputs/server_v13/records/basic/e_1f1dc9de8abc315e/zh_nli.json": "f85b440fccc2165a02efb7781e599e4150ace2c99ff05ee178be0d7d8525c1dc",
+    "outputs/server_v13/records/basic/e_22af514691eb16c0/zh_nli.json": "bd64d1e8f3a480f3db8fd4ec1af73b2f97256fb51620a0c0105f9493251aa84a",
+    "outputs/server_v13/records/basic/e_25fedc89761a6447/zh_nli.json": "c2b71bcb372c9bc95eba06f7d41eeb5e07bfa192e400808fc968a7cfff909971",
+    "outputs/server_v13/records/basic/e_274f117a240c04f0/zh_nli.json": "fad8bbc05a14cefe18265adb44d625cd0c6fb9accc889322162be463f4444c11",
+    "outputs/server_v13/records/basic/e_405f374457df12f0/zh_nli.json": "adf31168add480199abb76a3389ddc8286ad720026ddc9b11548c92c9a5b5142",
+    "outputs/server_v13/records/basic/e_42d0cb2135655598/zh_nli.json": "d48ad6f19d0604ee3f8e5ef46255b859da438bed7c47d8549189ee2d9e9b036e",
+    "outputs/server_v13/records/basic/e_49eb3adfe6f3dcad/zh_nli.json": "c847386d3121acf2dd2c3528f8b4d8ab3c760c0ba6eaf3f7991d523b68d59253",
+    "outputs/server_v13/records/basic/e_52fe61be64db187b/zh_nli.json": "7524faad86ed1c5747c66b55040b4c9f656dc4f04629e87990ba1066a865baa3",
+    "outputs/server_v13/records/basic/e_589b947172738b88/zh_nli.json": "4422b3e39c5517bb08e67eb01d1ec2dfb7b3c46cf854f60a66b39baa067f49f5",
+    "outputs/server_v13/records/basic/e_60e6706f46bf549c/zh_nli.json": "78b0eec52034904217711716aa275cef432d741aede323a28cd1a28230250301",
+    "outputs/server_v13/records/basic/e_61300879501f1679/zh_nli.json": "25facedab5596d8272c96d6d2564e11ce8b924c64e92a9883412c6b0426e118a",
+    "outputs/server_v13/records/basic/e_6447fda1f9ae829a/zh_nli.json": "21430dfa24f5a5cd2a4d5a04ad9cf1da85df3ea171c4f1573a163d023670cbfd",
+    "outputs/server_v13/records/basic/e_65b1277856c9c21e/zh_nli.json": "43e2934629bfce49ad46a50162f075ef3634870a04b023e139babe3db06184b5",
+    "outputs/server_v13/records/basic/e_6db51c801b8f7c0c/zh_nli.json": "5cf87aea74084784a33c1fd09e3625fd90522fd9752c84f03d476e6cb537d8b0",
+    "outputs/server_v13/records/basic/e_6f63438f599f6b9d/zh_nli.json": "d50d5cb807a04cbaf82c9157e65b9e9251a3627114a25b1e0045ce54dfc7a250",
+    "outputs/server_v13/records/basic/e_707f11ab1153b983/zh_nli.json": "fb7a7d3c2480ca3a65547a7cbb4e94e09220b9611e9508ece8da1e64ce1b7e9b",
+    "outputs/server_v13/records/basic/e_792386bec8800af0/zh_nli.json": "49f2e5d8b2c2c2b86ebb42d597cc101c1f3864978ae5670d4818a28ecc275e33",
+    "outputs/server_v13/records/basic/e_79e1efec25c6647d/zh_nli.json": "3802c026f255c088da62115d1c6bb194897282ae7c0d0b8bfc91e5a4ca59afdf",
+    "outputs/server_v13/records/basic/e_7cbec6e1b934502e/zh_nli.json": "08c84d192fde1abad46d54215b9bdd99ac057ed6c39347e15d6346bb971dc102",
+    "outputs/server_v13/records/basic/e_812bcd952dc2616c/zh_nli.json": "87f9255586aa50067b857ae0e70810292b01a17463bba1cc2d828d1ecc5ae8e3",
+    "outputs/server_v13/records/basic/e_82522f6334dece54/zh_nli.json": "a80918c7132b0fc3863b3c7aab2cd176bec83af9bb45a2cef1fee485cd1cab9a",
+    "outputs/server_v13/records/basic/e_83284461740710c1/zh_nli.json": "e5fa7f5af43e72b79dbe617083b6749cd6e44a7650893b3d0423f9cdd706761f",
+    "outputs/server_v13/records/basic/e_92fda5802c7ba8e6/zh_nli.json": "770c7da8fc2c06570ac86618ec03c8817ba11f499bf62d8789d0847fac668119",
+    "outputs/server_v13/records/basic/e_936770ae71fc0d6a/zh_nli.json": "71885be5c572341da634adef486978b190a32127acb68160c31b7a6503d17a03",
+    "outputs/server_v13/records/basic/e_988113bdd15ce4a8/zh_nli.json": "da2f6f71f1e2e74d882df7a9479b33d14d009212d4cfd4f36234200b6debf725",
+    "outputs/server_v13/records/basic/e_99f62ec493fae4bc/zh_nli.json": "be00c722341c4d0ff9124b63344441e0a762acb184258a9e3e052cf8fe150c5b",
+    "outputs/server_v13/records/basic/e_9d071924f7711428/zh_nli.json": "f49e17be03394e0586d88f58eac8a178aa7fd4075dc1e17c0c85e5a65faeb53b",
+    "outputs/server_v13/records/basic/e_9d2542e6d74b51dd/zh_nli.json": "e2b275ddbbf0fd4e96014c3453a4c08c0abe059ebd1ec788acfc759b83f5fb58",
+    "outputs/server_v13/records/basic/e_a4b8d633f935b44d/zh_nli.json": "78f3549cf4161936490e7949f1bdcbe61e44daaa382fc2f7a50a878a7388aee4",
+    "outputs/server_v13/records/basic/e_abf332d006cb9aed/zh_nli.json": "f76b20a1dcfded668167868463e047cce0b5e0acc7ed82c72a27aff10b605e07",
+    "outputs/server_v13/records/basic/e_ae73f40e373aec2e/zh_nli.json": "077e6de264df18f24645a638686c2c049b987ef69a532720fc47d9dbe39ff582",
+    "outputs/server_v13/records/basic/e_b7e82c2a2ab0ad89/zh_nli.json": "dfd576f43043e80d38e2fedbb747a9d916177948168704730c8760498937e056",
+    "outputs/server_v13/records/basic/e_bb68286de3df8f26/zh_nli.json": "aba7840179357fc65f073da3dfed7e56530d4dd6e7a07d01ac880e345a9b7001",
+    "outputs/server_v13/records/basic/e_bb8a3d358400fcf9/zh_nli.json": "b5d00cdc2a06aae977a05c7dc7c8d58f6ac1ac2f3a9c6b3bf5ac9b9ff3305c80",
+    "outputs/server_v13/records/basic/e_bd42cf618aba3043/zh_nli.json": "3c2a5a37685335eaf0febf7adf1a5bf5423dedcc61e3ab5441218bf69450e746",
+    "outputs/server_v13/records/basic/e_c43f2655d2987121/zh_nli.json": "bbf370eba8c65cb68272d1dfd223d8b47bbe9fa157f50feec755e76a8641a6a4",
+    "outputs/server_v13/records/basic/e_c51d9b141555f32d/zh_nli.json": "e3de739f41b8ef0d250e38e201485fec36a909662a74d6b7d6b5865713fa0d79",
+    "outputs/server_v13/records/basic/e_c68e6d586c35bc18/zh_nli.json": "8e74e47f12b30e73a4735138710db8088e97d8726e11ed56c39208278c95fccc",
+    "outputs/server_v13/records/basic/e_c6e759eaee008011/zh_nli.json": "acbef1cba07f5dcdf28e0a43671cfd7e35cba5ecb297af60437a769188286226",
+    "outputs/server_v13/records/basic/e_ca3181f06d407998/zh_nli.json": "d37869ac04516486a8d9246753966973ff3412c68b3ff2e78fcdf697a4327f7f",
+    "outputs/server_v13/records/basic/e_cbfff8210e25c725/zh_nli.json": "9d41e9e5bb095b585692a3b0b6e596888cdc9243a9da683ef36a30c8e56db3a7",
+    "outputs/server_v13/records/basic/e_cedbed55b82710bc/zh_nli.json": "14e7a57e7f4cb8dc5b4d0858fed723ebae6a8f24e8b25a784be181b0a3fefcf9",
+    "outputs/server_v13/records/basic/e_d355b2bb3d8e3c39/zh_nli.json": "9e751e14b15bda6cce87b69b0c60e8b61f4b2fc28c5bf28ba68749d6df36f7c1",
+    "outputs/server_v13/records/basic/e_d660c88be28048c0/zh_nli.json": "9a010c7f246ebc23e53a65daeaf04e5dd90730e56c5dd38a8ee4a2b073f3790c",
+    "outputs/server_v13/records/basic/e_d704e8f114cd9ffb/zh_nli.json": "9058e2d25851064f487fde874a0cafc9a75c5df71f2e4fc5db7d2ee4b80ae9c6",
+    "outputs/server_v13/records/basic/e_dbf41abbf2aca969/zh_nli.json": "5520d7a3adb8cabda818a83bd1e982ec2365f9d289504ceee2b8dd455434a189",
+    "outputs/server_v13/records/basic/e_e0baeefdb6a27df2/zh_nli.json": "6595b575d4d399433d17ea4c0272113fed5362cc2d9d7a174586ee3b2eaf2cb9",
+    "outputs/server_v13/records/basic/e_e34ee379ce633fe6/zh_nli.json": "863064b61e8d2b3a6dcd764b2ad92906884e23d26bed734ec6545692390bd299",
+    "outputs/server_v13/records/basic/e_e52cec6cf13bbc5a/zh_nli.json": "c3d1e55aaed409cec835ce1c53561d8ae6688d6019cd43c57fe7e03d832b71b4",
+    "outputs/server_v13/records/basic/e_e667fe8c909b3e78/zh_nli.json": "cd1a7e97943519fef69cc0a79c13ee73607f990f1879dc9bd674c6c9b7f56443",
+    "outputs/server_v13/records/basic/e_e7cd84a2cc264e99/zh_nli.json": "fb17b274d0b86a9d757ca4d97b9910082664ebfbf5045b1acb53b07790533085",
+    "outputs/server_v13/records/basic/e_ee6488021cb24e0c/zh_nli.json": "da158afff07dac49a7bfc7aaeb4f9455b60bba9094fa52b3e1f5818ba9c1f774",
+    "outputs/server_v13/records/basic/e_eed8257c69f80b5a/zh_nli.json": "bdd2357050a87cb4a3b30b72bb6e223d52e400c522fd8cda4a8bbafd9f2feafe",
+    "outputs/server_v13/records/basic/e_fbe657495f9e40f0/zh_nli.json": "0c5e2f68701b0a188e4dc76fdcc1528f0498e0223ae1c4c45f658e4c637ac291",
+    "outputs/server_v13/records/challenge/e_00d2529ebc35824e/zh_nli.json": "962b7d20f0e53d0008d471d72fde9f8656620bf6a3c8b1622ed6ff58608f2339",
+    "outputs/server_v13/records/challenge/e_00d76c496fc28031/zh_nli.json": "dcdafdb6e3730e0fe0f0f96f5f3de93b0a7dbd9bb890c2d0805b3fb8eb2bd22e",
+    "outputs/server_v13/records/challenge/e_00f5887aaff71e12/zh_nli.json": "797b63fe515917b129f0e0c8b1ef5afe4c74d6e69c5d0fc3d9abe52e7ba41822",
+    "outputs/server_v13/records/challenge/e_02d8aaaa7d26d480/zh_nli.json": "781e24034fcfe454e8de82ba7426bd85b8d50abdb64d1a1603717147e25732cc",
+    "outputs/server_v13/records/challenge/e_040b2b4f223c4e01/zh_nli.json": "d1b274756ddfb5d91f5ca493137252a743b02280088355b6151906c38096aa34",
+    "outputs/server_v13/records/challenge/e_089e464aaf3e6f4d/zh_nli.json": "81597f8d8f0be441bdac53854b004f851aefd8f219a4efb882e9984d8828d2c4",
+    "outputs/server_v13/records/challenge/e_198d52c814fabec7/zh_nli.json": "af67bc85a847d67de920d288a894369db2e1bd2f95ae241d6efc4bdbe2f51680",
+    "outputs/server_v13/records/challenge/e_1fab871b519da42e/zh_nli.json": "7c2c794fc7a597a70ec5fe34b06e2b466c96180928cb240e72c5f21fd8949145",
+    "outputs/server_v13/records/challenge/e_21dae89ac6e67d11/zh_nli.json": "8ac6d69856cd61bcdc782dc7c6da1389d57f71d333d12ac6527cdcd610babb38",
+    "outputs/server_v13/records/challenge/e_2e54cb1f10ad4f9a/zh_nli.json": "ed3ad5fc835cc8f9fc13f8569e9c487cb15d8068c8cfe48cd845f20997f50886",
+    "outputs/server_v13/records/challenge/e_2f58d8232e815226/zh_nli.json": "29c28ec2c71a6ee678b6780e5ad82ffd8dab06028bb4e4162f5439bb2274f0bd",
+    "outputs/server_v13/records/challenge/e_32672ec9ce6ea5b1/zh_nli.json": "e53277a70aaa5764c719110f283818888182328b148379997405cb1922d509d7",
+    "outputs/server_v13/records/challenge/e_33a4d26196badb81/zh_nli.json": "0631133956bc6a4aa6163fbf3f194311a3c8ca9ef61f3397e68691a5ce5008dd",
+    "outputs/server_v13/records/challenge/e_3be77c0751348236/zh_nli.json": "ae8254334b042525f7e6f20564183a067fb180ac7abaa71b9f0fef2758a40339",
+    "outputs/server_v13/records/challenge/e_450fb2118db2548a/zh_nli.json": "38fbbb85cff7d3d4047ef19dc05c386be0afd40610c4fe77bb16f11fd28d5c7d",
+    "outputs/server_v13/records/challenge/e_47a735515953c4e3/zh_nli.json": "f11d6fa6b0c1aa9747ce6e225187b37cea92e2b61bc12a6bffd50d8fa9eae577",
+    "outputs/server_v13/records/challenge/e_51c3569118fd293c/zh_nli.json": "d09f560f539e68a567f9af900b8a0053540da2730893a3d6aa8c33ab38d7a6e7",
+    "outputs/server_v13/records/challenge/e_5588137814ea95cb/zh_nli.json": "3c81b03c55b2c7b9082d168c7b0419021b5750de33b91146a5749230982fc65e",
+    "outputs/server_v13/records/challenge/e_563cb325a2245ec8/zh_nli.json": "06b85deed43d763b3c83350496eedb8af2c3b7b97e399c23ad277f157c44b2f1",
+    "outputs/server_v13/records/challenge/e_577685fcf414c64b/zh_nli.json": "8187329847d3e843dbc64377e4c1cfad9bfa5f5f4cdfc123ca7471aeebda9cfa",
+    "outputs/server_v13/records/challenge/e_595dd5351283a150/zh_nli.json": "08fefcd6bc8b9853e7aac4001d2b2c4b02aaf88c78bd50728b30169b03d88aec",
+    "outputs/server_v13/records/challenge/e_6314cd92d9f33fca/zh_nli.json": "83b80e31b9a6b54e4835386934b533faac642598ef56094620856691897165da",
+    "outputs/server_v13/records/challenge/e_691e1e856eecb993/zh_nli.json": "7e15dbc6b6d60485e702d585ea72fdcd8f1b099b9af8547dd9b4b75579894155",
+    "outputs/server_v13/records/challenge/e_696d6e3740bebfc8/zh_nli.json": "d197afe68fd34cdbeacff9c9d93aa1d44513b19ab67094639c301032a906cb72",
+    "outputs/server_v13/records/challenge/e_6b214802e5a19766/zh_nli.json": "a18ce97d87b8ad9541b340e9436418bda303c87c32a580ad6ce997a09a520b29",
+    "outputs/server_v13/records/challenge/e_6e7e3cc686470f7a/zh_nli.json": "715c85bfb42bf9a76a736aa63e175403d9fde3ddcd78990477bcffc9c0deec4b",
+    "outputs/server_v13/records/challenge/e_6e8ce284aca3eab9/zh_nli.json": "d88e85cc21389dbede6fe1a503c0a836c88c4dbeda286eb3cb8998a6eede2ce6",
+    "outputs/server_v13/records/challenge/e_6f27dd638ef982ac/zh_nli.json": "073e3d7748315d0d9c73dcb75b870ea7066929ad0fef0b35a631133aa9a9ebd0",
+    "outputs/server_v13/records/challenge/e_76687c64db32ae06/zh_nli.json": "f61c44fbb49fc56d5c3acf64a1cbaeede00f3177490ca81f36267a5035b42e83",
+    "outputs/server_v13/records/challenge/e_7838af2a2935630a/zh_nli.json": "3142581026bf8093fffa8012483d7866e131833fccee0afc20e563357adf63dc",
+    "outputs/server_v13/records/challenge/e_805503b6412f007e/zh_nli.json": "b7c8bf007c3983174ae01fe83fcacb48abe2cdc7a2ef636ee08c073b96661b67",
+    "outputs/server_v13/records/challenge/e_8127552fc8cd30a7/zh_nli.json": "c13f0151c0fb1661ce303846a6be7624bf1a0e0c4df6729c6a27318b3dc0ff6e",
+    "outputs/server_v13/records/challenge/e_819d049c5999b794/zh_nli.json": "6a0887f81b098a9c0ef9153571169cd0c26c4b1fb9011a8d68f40c8dab30bf97",
+    "outputs/server_v13/records/challenge/e_8232c2ba88e687ab/zh_nli.json": "0909baa26c6f8319970cc883373247912fce9b324d6765919ecaac7a806955c5",
+    "outputs/server_v13/records/challenge/e_84e1c039349f835e/zh_nli.json": "4c38a8f5f0536df2ab5e24a4cab103553973b18961c55c05e1ec3aede3c8b8ab",
+    "outputs/server_v13/records/challenge/e_85939b66b13913d3/zh_nli.json": "4e7bd7594cbb503af09b70a3af33f7f80b5427885dd3cf1c8b068dc20ec154e9",
+    "outputs/server_v13/records/challenge/e_874868084a78d2af/zh_nli.json": "17f0a7056abffd473debdef0d2934b94948f78f158e5024e7ea81d04c04cecac",
+    "outputs/server_v13/records/challenge/e_88bdffe4a07ad1d0/zh_nli.json": "83d36a7414c4a17efeaf29939d2008d7978e78cd19c23c18d38ae31f546f0929",
+    "outputs/server_v13/records/challenge/e_8ceb4d3aa9e5b16a/zh_nli.json": "b8ba1cb51559b3d43e02613c755f5895ab0c843093794cc6c50e5c201cb9c065",
+    "outputs/server_v13/records/challenge/e_97d397af6a0e0e52/zh_nli.json": "c3d7188da104dc235dfe534009bb0ee4408ef04f46eb65956b5e85e31dc3c429",
+    "outputs/server_v13/records/challenge/e_99f44310b2bcaa0d/zh_nli.json": "24a268dd5eb064059508e64f2be60aac67c38b83eb61d4bada02c9ba00b8dbf5",
+    "outputs/server_v13/records/challenge/e_9f30607ab3849b3a/zh_nli.json": "e16c588bc34fa949d173f81df904d041eeec6a89b0499791d79b808f566f1257",
+    "outputs/server_v13/records/challenge/e_a07d997bb138aa8d/zh_nli.json": "7298d5f02497ca2b6bf0c6481ead060e10988bdbbb196042d2e7b1064a11f636",
+    "outputs/server_v13/records/challenge/e_c098cb07092b34ca/zh_nli.json": "42ace1cdf4d22bbbf4f7daa49995e3d911e49266a38ecea33db0fd0eae6de572",
+    "outputs/server_v13/records/challenge/e_ce4b32951a5287fb/zh_nli.json": "4eaf03922db0e814bd1133b613f155590680467235e62b9e2be1a7c391d0b77c",
+    "outputs/server_v13/records/challenge/e_cf732da9bd1f9e07/zh_nli.json": "8572284a12385075d49d9e8e73962114a29f1966548bb6415d4f13654e61dd10",
+    "outputs/server_v13/records/challenge/e_d0f5a3de86698b13/zh_nli.json": "33981392565fdc66906791a1f215c756a5841dc33165cc7d4393c99b08368f00",
+    "outputs/server_v13/records/challenge/e_d31d42f469ca1eb2/zh_nli.json": "46581a0f9f653bac081b85a44903077e05cfce5b4e76e738630b4f040e7cb928",
+    "outputs/server_v13/records/challenge/e_d48ca139bf7ce371/zh_nli.json": "3932692c54dccedb107a9b8baaf91e287d3be3c488899cee714d111ebf9c331c",
+    "outputs/server_v13/records/challenge/e_d50f43d430a1c371/zh_nli.json": "26763fca6d22219edac04354fce4d491d8f437d4dcdc47ededc303c048458544",
+    "outputs/server_v13/records/challenge/e_d85183fe9d866ccb/zh_nli.json": "6f66dd4d4681c9f72c064479064b0cb52afc1095cf35b4fe5a93de36f97fda91",
+    "outputs/server_v13/records/challenge/e_d8aa4690d3b42399/zh_nli.json": "d723371297420b8e0474f695a6918ed4548e6e901cf9be10ec97e926e8040536",
+    "outputs/server_v13/records/challenge/e_dacdff1c20358c94/zh_nli.json": "9ec1a0ef4a70d54a4c2797093e49acd93af088559cb40db9a6ec747b0eb39868",
+    "outputs/server_v13/records/challenge/e_db33e9ce593a5b9a/zh_nli.json": "948321e97b5bfe6c166f5ce4e7915f7834224aa0348d60809aa4a31c85a0da02",
+    "outputs/server_v13/records/challenge/e_e155f69f8cfba03f/zh_nli.json": "f019637b45a84e347ff6036b58ffb6f874e7ad862684349832ba97ebe2315ca1",
+    "outputs/server_v13/records/challenge/e_e495237c05285bc3/zh_nli.json": "5c85cda0de08669a411d63139683bd009d2ada6b68c0652b2339db82269c56c5",
+    "outputs/server_v13/records/challenge/e_e9e9328fa1e3ee3f/zh_nli.json": "c036568ad23f2a19b1e2b8f0c6ecaf8718019068617965811824ffc34d3474a7",
+    "outputs/server_v13/records/challenge/e_ebc53469d277caa8/zh_nli.json": "1f2d91f12e87a3fbc747e5e595c2004f934ba0ad7274574727fb6e70b27c5b0c",
+    "outputs/server_v13/records/challenge/e_ebc59a6814399ac6/zh_nli.json": "390533311c3552f1ecc65e7e9f92846579f3d4667e42358e10073fcf540b178d",
+    "outputs/server_v13/records/challenge/e_f3c2dd3d4211c475/zh_nli.json": "c7c18bd402a224222056fdd1a2288bc1564172d5c620b28dcd6bbcdfccf8994b",
+    "outputs/server_v13/records/challenge/e_f60e9ee48db3696d/zh_nli.json": "2641d3638f2440d3d28d8f7da3c93c6e1be6d08d5a667836e81492bcecb351dd",
+    "outputs/server_v13/records/challenge/e_f69b3f82775e4908/zh_nli.json": "1974b84a544b1040ac533be11a3d29c2e3b70449b2e6b8ce4b5d7c40971d40ee",
+    "outputs/server_v13/records/challenge/e_f8534d5471715f1c/zh_nli.json": "bc198ab332bfa92e4ba677b410dd6591730f610249ec3b9f8b80dafb049f0deb"
+  },
+  "stage": "expand"
+}

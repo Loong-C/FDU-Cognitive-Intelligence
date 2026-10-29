@@ -1,0 +1,93 @@
+{
+  "config": {
+    "acceptance": "Both dataset accuracies and macro F1 must be nondecreasing, with a strict accuracy gain on at least one dataset; no statistically significant group-paired loss in any class recall. Report all observed losses, intervals, sample sizes and cost. Failure to detect a loss is not proof of noninferiority.",
+    "confirmation": "New complete development groups, excluding every historical pilot, V5 fresh and V7 group; same-batch baseline and positive NLI; no policy adaptation from partial results.",
+    "data_policy": "Only development claim/evidence and their deterministic negation enter the API. No gold, metadata, other model answers or test data. All files remain in the repository.",
+    "experiment": "008_negation_consistency",
+    "method": "Run baseline and positive NLI; only on disagreement, run unchanged NLI on a deterministic whole-proposition negation. Override baseline only when positive and polarity-flipped negative agree.",
+    "model": "qwen/qwen3.8-27b",
+    "negation": "It is not the case that the following statement holds: <JSON-quoted original claim>",
+    "nontriviality": "Returning the unchanged baseline on every example is a diagnostic outcome, not successful improvement.",
+    "parent_config": "configs/experiment_macro_v7.json",
+    "policy": "signed_consensus_baseline",
+    "probe": "9 independent synthetic propositions, each tested in original and negated form; exact expected label reversal is required before development calls.",
+    "quota_policy": "Reuse the existing provider-enforced free account and shared ledger; never change plan, endpoint or account. Preserve partial records on long quota reset.",
+    "reasoning_effort": "none",
+    "scout": "Reuse all 42 V7 scout baseline/positive predictions and add only the necessary negative calls.",
+    "seed": 20261028
+  },
+  "frozen_at": "2026-10-28T02:39:32.969076+00:00",
+  "manifest_sha256": "13d538f276fe1d94162652166da375a776a8b8cb7afbc0505ba1f3bc1236dba8",
+  "source_sha256": {
+    "configs/experiment_macro_v7.json": "9e58b81ec7a7c51e62ff7a842a3c0c1d4d8df70e57d584850f1ca809f3ce0a31",
+    "configs/experiment_negation_v8.json": "8eaeb722b3a5fef00c382729f6066086d8f4fcf6e755504dff5ad4abbf63b12f",
+    "data/splits/v1/basic/dev.jsonl": "3f12aa06ab8bc538df2789aef34df2271afc0468d1e149ff08789a2dc6bd207c",
+    "data/splits/v1/challenge/dev.jsonl": "33c66df7e7d9ef1292c8247fd106d3b6fad8cd17a8d305037b1fbda5be90314e",
+    "experiments/006_symbolic_z3/evaluation.json": "36824aa3a32ee3e7801392bfb5b002631fb54fd9677dca2c33fc9c629feaedc9",
+    "experiments/008_negation_consistency/planned_confirmation.json": "df0457f0710c91b0b84bbb28e18582dcd1093c4c7c971336171b90125f85239d",
+    "prompts/v2/A2_system.txt": "953a81ffab63f78e054a9eec8c835b6851702dd1067fdf43cf46db762242e60a",
+    "prompts/v2/A2_user.txt": "5416f0589058f55824f0d12d5a26c3ff16190dbf923c47a37dcbe87dec0cddf3",
+    "prompts/v7/certificate_system.txt": "45cbb11aea4be3af31cc39f3e4d49157288178846475bd3fdce94c7dfe5b3ce9",
+    "prompts/v7/dual_system.txt": "9887b748dd43511b45a100d0e3e90dcfa085d38e08f1facbf3f74a4648e7e3ad",
+    "prompts/v7/nli_system.txt": "196fe6f31e4fb451355fa748040b727c8f3313f00f9dba5a7d853643c6f34836",
+    "prompts/v7/review_system.txt": "141cbad6708d50f36e61aa637533cc4c5f33a7d0a88717eacfcb0895c1dac7ce",
+    "src/ab_factcheck/common.py": "221b52864adfb7562a7622f6ea51b287623662dac30f901f9a0b77007598fdfb",
+    "src/ab_factcheck/groq_client.py": "7ba9622c335842bcc4d47935b3d20dd9e961bf9cd0c6b4c5769fe71c5f3f2254",
+    "src/ab_factcheck/macro_v7/assess.py": "4c36a98298be39cd7e0f55e32fd701cca2d550282cfdcb18da1731e7d682e0c3",
+    "src/ab_factcheck/macro_v7/experiment.py": "c066d8b0c1152dfed1364004748abe54d4b2a0eb249d79b6131a056f08924480",
+    "src/ab_factcheck/macro_v7/inference.py": "d445df44fadbde2a20de2a2d7a4709296efbcc88f8a13087354c6d72a9711a6e",
+    "src/ab_factcheck/metrics.py": "4e98a81fd7a6a1ed9fb8feaf1ccd735a172fbe7521b6188c526f8226867fc5bb",
+    "src/ab_factcheck/model_client.py": "eab47004b7bc99842c8b02932a52bf1ccb67ba1114dc10ae187a2fd3aee8e959",
+    "src/ab_factcheck/negation_v8/experiment.py": "b6debc3b2f9eda786d3ef6e659f01fe7c2aa1ab85cbfa82f4f9885660f222633",
+    "src/ab_factcheck/negation_v8/inference.py": "329ecb5a25f7998ada69e6611be0e9fea8800139a086136a35ec9e73afdfae4a",
+    "src/ab_factcheck/negation_v8/reporting.py": "2a4651fa285db36af7ce24c077f0346a16cbd518d442b23d2c8d96ebaa2f3ca7",
+    "src/ab_factcheck/structured.py": "4d895c4ab0038d30b1ee9accfbfb615a6ff1d5d43d24f9895d555d1900473a6c",
+    "src/ab_factcheck/symbolic_z3/client.py": "11672dc332cf2e563760a485337ec3915a6255ef8a371e508c98a4d6f4772804",
+    "src/ab_factcheck/worlds_v5/client.py": "a52d1986e4c58731cdb39725a88003199ccdf0ff20a904700468ad6dd5458ac9",
+    "src/ab_factcheck/worlds_v5_continuation.py": "f20ebe7fed2202913d7f59d8a6d9ea53bf3d6a9f71a05c29113348eea6f121ae"
+  },
+  "transport": {
+    "acceptance": "Per dataset: accuracy, macro F1 and each class recall nondecreasing; at least one strict accuracy improvement; report every mechanism and group, and stronger per-mechanism gate separately.",
+    "candidate_completion_limit": 512,
+    "experiment": "007_macro_inference",
+    "model": {
+      "budget": {
+        "max_wait_seconds": 60,
+        "min_interval_seconds": 3,
+        "requests_24h": 800,
+        "requests_per_minute": 25,
+        "tokens_24h": 180000,
+        "tokens_per_minute": 7000
+      },
+      "endpoint": "https://api.groq.com/openai/v1",
+      "max_tokens": 1024,
+      "model_id": "qwen/qwen3.8-27b",
+      "network_retries": 2,
+      "proxy_mode": "system",
+      "reasoning_effort": "none",
+      "seed": 42,
+      "stream": false,
+      "temperature": 0,
+      "timeout_seconds": 60
+    },
+    "quota_policy": {
+      "local_rolling_daily_stop": false,
+      "max_new_attempts_per_execution": 500,
+      "quota_policy": "provider_enforced_free",
+      "throttle": {
+        "max_wait_seconds": 60,
+        "min_interval_seconds": 3,
+        "requests_per_minute": 25,
+        "tokens_per_minute": 7000
+      }
+    },
+    "scout_arms": [
+      "nli",
+      "certificate",
+      "dual"
+    ],
+    "seed": 20261028,
+    "selection": "historical_v6_42_for_exploration_then_unseen_complete_dev_groups",
+    "test_policy": "Test data is not opened by development commands. No test use for choosing prompts, policies or thresholds."
+  }
+}

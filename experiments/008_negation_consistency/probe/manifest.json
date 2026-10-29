@@ -1,0 +1,80 @@
+{
+  "method": "signed_consensus_baseline",
+  "phase": "probe",
+  "purpose": "Independent synthetic negation check",
+  "rows": [
+    {
+      "claim": "Proposition P is true.",
+      "dataset": "synthetic",
+      "evidence": "Proposition P is true. Proposition Q is false.",
+      "group": "atom_true",
+      "id": "atom_true",
+      "mechanism": "synthetic"
+    },
+    {
+      "claim": "Proposition Q is true.",
+      "dataset": "synthetic",
+      "evidence": "Proposition P is true. Proposition Q is false.",
+      "group": "atom_false",
+      "id": "atom_false",
+      "mechanism": "synthetic"
+    },
+    {
+      "claim": "Proposition R is true.",
+      "dataset": "synthetic",
+      "evidence": "Proposition P is true. Proposition Q is false.",
+      "group": "atom_open",
+      "id": "atom_open",
+      "mechanism": "synthetic"
+    },
+    {
+      "claim": "Both P and Q are true.",
+      "dataset": "synthetic",
+      "evidence": "Propositions P and Q are both true.",
+      "group": "conjunction_true",
+      "id": "conjunction_true",
+      "mechanism": "synthetic"
+    },
+    {
+      "claim": "Both P and Q are true.",
+      "dataset": "synthetic",
+      "evidence": "Proposition P is true and proposition Q is false.",
+      "group": "conjunction_false",
+      "id": "conjunction_false",
+      "mechanism": "synthetic"
+    },
+    {
+      "claim": "Both P and Q are true.",
+      "dataset": "synthetic",
+      "evidence": "Proposition P is true. No information about Q is provided.",
+      "group": "conjunction_open",
+      "id": "conjunction_open",
+      "mechanism": "synthetic"
+    },
+    {
+      "claim": "At least one of P and Q is true.",
+      "dataset": "synthetic",
+      "evidence": "Proposition P is true. No information about Q is provided.",
+      "group": "disjunction_true",
+      "id": "disjunction_true",
+      "mechanism": "synthetic"
+    },
+    {
+      "claim": "At least one of P and Q is true.",
+      "dataset": "synthetic",
+      "evidence": "Propositions P and Q are both false.",
+      "group": "disjunction_false",
+      "id": "disjunction_false",
+      "mechanism": "synthetic"
+    },
+    {
+      "claim": "At least one of P and Q is true.",
+      "dataset": "synthetic",
+      "evidence": "Proposition R is true. No information about P or Q is provided.",
+      "group": "disjunction_open",
+      "id": "disjunction_open",
+      "mechanism": "synthetic"
+    }
+  ],
+  "test_access": false
+}

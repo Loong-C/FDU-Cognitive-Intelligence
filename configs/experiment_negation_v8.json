@@ -1,0 +1,17 @@
+{
+  "experiment": "008_negation_consistency",
+  "parent_config": "configs/experiment_macro_v7.json",
+  "seed": 20261028,
+  "model": "qwen/qwen3.8-27b",
+  "reasoning_effort": "none",
+  "method": "Run baseline and positive NLI; only on disagreement, run unchanged NLI on a deterministic whole-proposition negation. Override baseline only when positive and polarity-flipped negative agree.",
+  "policy": "signed_consensus_baseline",
+  "negation": "It is not the case that the following statement holds: <JSON-quoted original claim>",
+  "probe": "9 independent synthetic propositions, each tested in original and negated form; exact expected label reversal is required before development calls.",
+  "scout": "Reuse all 42 V7 scout baseline/positive predictions and add only the necessary negative calls.",
+  "confirmation": "New complete development groups, excluding every historical pilot, V5 fresh and V7 group; same-batch baseline and positive NLI; no policy adaptation from partial results.",
+  "acceptance": "Both dataset accuracies and macro F1 must be nondecreasing, with a strict accuracy gain on at least one dataset; no statistically significant group-paired loss in any class recall. Report all observed losses, intervals, sample sizes and cost. Failure to detect a loss is not proof of noninferiority.",
+  "nontriviality": "Returning the unchanged baseline on every example is a diagnostic outcome, not successful improvement.",
+  "data_policy": "Only development claim/evidence and their deterministic negation enter the API. No gold, metadata, other model answers or test data. All files remain in the repository.",
+  "quota_policy": "Reuse the existing provider-enforced free account and shared ledger; never change plan, endpoint or account. Preserve partial records on long quota reset."
+}

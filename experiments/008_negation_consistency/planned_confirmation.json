@@ -1,0 +1,820 @@
+{
+  "excludes": [
+    "v1 pilot",
+    "v5 fresh",
+    "all v7 experiment groups"
+  ],
+  "rows": [
+    {
+      "claim": "The United Arab Emirates has more than 20 airports.",
+      "dataset": "basic",
+      "evidence": "The United Arab Emirates has 15 airports.",
+      "group": "g_af1624ac308545f2",
+      "id": "e_150c37f96a8c6ed6",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The United Arab Emirates has more than 20 airports.",
+      "dataset": "basic",
+      "evidence": "The United Arab Emirates has no more than 20 airports.",
+      "group": "g_af1624ac308545f2",
+      "id": "e_229e23e070ef9424",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The United Arab Emirates has more than 20 airports.",
+      "dataset": "basic",
+      "evidence": "The United Arab Emirates has between 20 and 30 airports.",
+      "group": "g_af1624ac308545f2",
+      "id": "e_395871c5a80624fb",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The United Arab Emirates has 15 airports.",
+      "dataset": "basic",
+      "evidence": "The United Arab Emirates has at least 10 airports.",
+      "group": "g_af1624ac308545f2",
+      "id": "e_526b1f26de0efcda",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The United Arab Emirates has 15 airports.",
+      "dataset": "basic",
+      "evidence": "The United Arab Emirates has between 10 and 20 airports.",
+      "group": "g_af1624ac308545f2",
+      "id": "e_5bf1d8837cbcd1f5",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The United Arab Emirates has more than 20 airports.",
+      "dataset": "basic",
+      "evidence": "The United Arab Emirates has between 10 and 20 airports.",
+      "group": "g_af1624ac308545f2",
+      "id": "e_611c7afe2bf6fe9f",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The United Arab Emirates has more than 20 airports.",
+      "dataset": "basic",
+      "evidence": "The United Arab Emirates has at least 10 airports.",
+      "group": "g_af1624ac308545f2",
+      "id": "e_7756982bbca157dd",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The United Arab Emirates has 15 airports.",
+      "dataset": "basic",
+      "evidence": "The United Arab Emirates has under 10 airports.",
+      "group": "g_af1624ac308545f2",
+      "id": "e_8758c384aad02141",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The United Arab Emirates has 15 airports.",
+      "dataset": "basic",
+      "evidence": "The United Arab Emirates has at least 20 airports.",
+      "group": "g_af1624ac308545f2",
+      "id": "e_97fc6d664a4897d4",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The United Arab Emirates has 15 airports.",
+      "dataset": "basic",
+      "evidence": "The United Arab Emirates has 15 airports.",
+      "group": "g_af1624ac308545f2",
+      "id": "e_a6201c6b715cd571",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The United Arab Emirates has 15 airports.",
+      "dataset": "basic",
+      "evidence": "The United Arab Emirates has 17 airports.",
+      "group": "g_af1624ac308545f2",
+      "id": "e_ae7b80787ac70923",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The United Arab Emirates has 15 airports.",
+      "dataset": "basic",
+      "evidence": "The United Arab Emirates has between 20 and 30 airports.",
+      "group": "g_af1624ac308545f2",
+      "id": "e_b19791c5d17b62b1",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The United Arab Emirates has 15 airports.",
+      "dataset": "basic",
+      "evidence": "The United Arab Emirates has no more than 20 airports.",
+      "group": "g_af1624ac308545f2",
+      "id": "e_b7e76e79a67bcb55",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The United Arab Emirates has more than 20 airports.",
+      "dataset": "basic",
+      "evidence": "The United Arab Emirates has 17 airports.",
+      "group": "g_af1624ac308545f2",
+      "id": "e_ca3181f06d407998",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The United Arab Emirates has more than 20 airports.",
+      "dataset": "basic",
+      "evidence": "The United Arab Emirates has at least 20 airports.",
+      "group": "g_af1624ac308545f2",
+      "id": "e_d704e8f114cd9ffb",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The United Arab Emirates has more than 20 airports.",
+      "dataset": "basic",
+      "evidence": "The United Arab Emirates has under 10 airports.",
+      "group": "g_af1624ac308545f2",
+      "id": "e_e8286cf497b040a1",
+      "mechanism": "BOUND"
+    },
+    {
+      "claim": "The Pitt has been featured in The Hollywood Reporter.",
+      "dataset": "basic",
+      "evidence": "The Pitt has been featured in Variety.",
+      "group": "g_508a5702d2c229cf",
+      "id": "e_42d0cb2135655598",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "The Pitt was filmed in Chicago.",
+      "dataset": "basic",
+      "evidence": "The Pitt was filmed in Chicago.",
+      "group": "g_508a5702d2c229cf",
+      "id": "e_729285aaaba5ad16",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "The Pitt has been featured in The Hollywood Reporter.",
+      "dataset": "basic",
+      "evidence": "The Pitt has been featured in Variety and The Hollywood Reporter.",
+      "group": "g_508a5702d2c229cf",
+      "id": "e_92fda5802c7ba8e6",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "The Pitt has been featured in The Hollywood Reporter.",
+      "dataset": "basic",
+      "evidence": "Variety is the only such place: The Pitt has been featured in Variety and nowhere else.",
+      "group": "g_508a5702d2c229cf",
+      "id": "e_e667fe8c909b3e78",
+      "mechanism": "FUNCTIONAL"
+    },
+    {
+      "claim": "National Democratic Alliance won the 2009 general election.",
+      "dataset": "basic",
+      "evidence": "National Democratic Alliance was unable to win the 2009 general election.",
+      "group": "g_dcc2af7ec1230ff0",
+      "id": "e_1f415d45d8313c44",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "National Democratic Alliance won the 2009 general election.",
+      "dataset": "basic",
+      "evidence": "National Democratic Alliance managed to win the 2009 general election.",
+      "group": "g_dcc2af7ec1230ff0",
+      "id": "e_30b5d326b988ca56",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "National Democratic Alliance won the 2009 general election.",
+      "dataset": "basic",
+      "evidence": "National Democratic Alliance did not neglect to win the 2009 general election.",
+      "group": "g_dcc2af7ec1230ff0",
+      "id": "e_549e38f53dfba98e",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "National Democratic Alliance won the 2009 general election.",
+      "dataset": "basic",
+      "evidence": "National Democratic Alliance tried to win the 2009 general election.",
+      "group": "g_dcc2af7ec1230ff0",
+      "id": "e_5f12f238d1a70af2",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "National Democratic Alliance won the 2009 general election.",
+      "dataset": "basic",
+      "evidence": "National Democratic Alliance was widely tipped to win the 2009 general election.",
+      "group": "g_dcc2af7ec1230ff0",
+      "id": "e_62ce3e492c23f0d3",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "National Democratic Alliance won the 2009 general election.",
+      "dataset": "basic",
+      "evidence": "National Democratic Alliance planned to win the 2009 general election.",
+      "group": "g_dcc2af7ec1230ff0",
+      "id": "e_65b1277856c9c21e",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "National Democratic Alliance won the 2009 general election.",
+      "dataset": "basic",
+      "evidence": "National Democratic Alliance was offered the chance to win the 2009 general election.",
+      "group": "g_dcc2af7ec1230ff0",
+      "id": "e_8a7229c27ccc410d",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "National Democratic Alliance won the 2009 general election.",
+      "dataset": "basic",
+      "evidence": "National Democratic Alliance did not manage to win the 2009 general election.",
+      "group": "g_dcc2af7ec1230ff0",
+      "id": "e_abda88383335b3ca",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "National Democratic Alliance won the 2009 general election.",
+      "dataset": "basic",
+      "evidence": "National Democratic Alliance declined to win the 2009 general election.",
+      "group": "g_dcc2af7ec1230ff0",
+      "id": "e_c0b6f409da582126",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "National Democratic Alliance won the 2009 general election.",
+      "dataset": "basic",
+      "evidence": "National Democratic Alliance was compelled to win the 2009 general election.",
+      "group": "g_dcc2af7ec1230ff0",
+      "id": "e_c6e759eaee008011",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "National Democratic Alliance won the 2009 general election.",
+      "dataset": "basic",
+      "evidence": "National Democratic Alliance went on to win the 2009 general election.",
+      "group": "g_dcc2af7ec1230ff0",
+      "id": "e_eed8257c69f80b5a",
+      "mechanism": "IMPLICATIVE"
+    },
+    {
+      "claim": "Josef Fritzl was born in St. Pölten.",
+      "dataset": "basic",
+      "evidence": "Josef Fritzl was born in Lower Austria.",
+      "group": "g_ce5055c8834a3cd6",
+      "id": "e_03e59444e65c58fc",
+      "mechanism": "PLACE"
+    },
+    {
+      "claim": "Josef Fritzl was born in St. Pölten.",
+      "dataset": "basic",
+      "evidence": "Josef Fritzl was born in St. Pölten.",
+      "group": "g_ce5055c8834a3cd6",
+      "id": "e_82522f6334dece54",
+      "mechanism": "PLACE"
+    },
+    {
+      "claim": "Josef Fritzl was born in St. Pölten.",
+      "dataset": "basic",
+      "evidence": "Josef Fritzl was born in St. Pölten, Lower Austria.",
+      "group": "g_ce5055c8834a3cd6",
+      "id": "e_99f62ec493fae4bc",
+      "mechanism": "PLACE"
+    },
+    {
+      "claim": "Saripodhaa Sanivaaram was ultimately released on August 15, 2024.",
+      "dataset": "basic",
+      "evidence": "Saripodhaa Sanivaaram was ultimately released on August 15, 2024, as scheduled.",
+      "group": "g_65c08d8354412e70",
+      "id": "e_30fad788e081d3f0",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "Saripodhaa Sanivaaram was ultimately released on August 15, 2024.",
+      "dataset": "basic",
+      "evidence": "Originally Saripodhaa Sanivaaram was scheduled for release on August 29, 2024; it eventually was ultimately released on August 15, 2024.",
+      "group": "g_65c08d8354412e70",
+      "id": "e_3413951834aadc1b",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "Saripodhaa Sanivaaram was ultimately released on August 15, 2024.",
+      "dataset": "basic",
+      "evidence": "Saripodhaa Sanivaaram was scheduled for release on August 15, 2024, but this was delayed.",
+      "group": "g_65c08d8354412e70",
+      "id": "e_6447fda1f9ae829a",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "Saripodhaa Sanivaaram was ultimately released on August 15, 2024.",
+      "dataset": "basic",
+      "evidence": "Saripodhaa Sanivaaram was scheduled for release on August 15, 2024.",
+      "group": "g_65c08d8354412e70",
+      "id": "e_83284461740710c1",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "Saripodhaa Sanivaaram was ultimately released on August 15, 2024.",
+      "dataset": "basic",
+      "evidence": "Saripodhaa Sanivaaram was scheduled for release on August 15, 2024, but it was ultimately released on August 29, 2024.",
+      "group": "g_65c08d8354412e70",
+      "id": "e_c43f2655d2987121",
+      "mechanism": "PLAN"
+    },
+    {
+      "claim": "Lana Del Rey launched her own fragrance line in 2028.",
+      "dataset": "basic",
+      "evidence": "In 2018, Lana Del Rey released her collaborative album Norman Fucking Rockwell!. Four years later, she headlined the Coachella Valley Music and Arts Festival. Within seven years of that, she launched her own fragrance line.",
+      "group": "g_d77079ad9ed8bd82",
+      "id": "e_1d3e192fd2aa6aa8",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Lana Del Rey launched her own fragrance line in 2028.",
+      "dataset": "basic",
+      "evidence": "In 2018, Lana Del Rey released her collaborative album Norman Fucking Rockwell!. Four years later, she headlined the Coachella Valley Music and Arts Festival. Some years later, she launched her own fragrance line.",
+      "group": "g_d77079ad9ed8bd82",
+      "id": "e_22af514691eb16c0",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Lana Del Rey launched her own fragrance line in 2028.",
+      "dataset": "basic",
+      "evidence": "In 2018, Lana Del Rey released her collaborative album Norman Fucking Rockwell!. Four years later, she headlined the Coachella Valley Music and Arts Festival. Within five years of that, she launched her own fragrance line.",
+      "group": "g_d77079ad9ed8bd82",
+      "id": "e_5e01199b6465231c",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Lana Del Rey launched her own fragrance line in 2028.",
+      "dataset": "basic",
+      "evidence": "In 2028, Lana Del Rey launched her own fragrance line, six years after she headlined the Coachella Valley Music and Arts Festival and ten years after she released her collaborative album Norman Fucking Rockwell!.",
+      "group": "g_d77079ad9ed8bd82",
+      "id": "e_707a5d625e465828",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Lana Del Rey launched her own fragrance line in 2028.",
+      "dataset": "basic",
+      "evidence": "In 2018, Lana Del Rey released her collaborative album Norman Fucking Rockwell!. Four years later, she headlined the Coachella Valley Music and Arts Festival. Six years after that, she launched her own fragrance line.",
+      "group": "g_d77079ad9ed8bd82",
+      "id": "e_bb68286de3df8f26",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Lana Del Rey launched her own fragrance line in 2028.",
+      "dataset": "basic",
+      "evidence": "In 2018, Lana Del Rey released her collaborative album Norman Fucking Rockwell!. Four years later, she headlined the Coachella Valley Music and Arts Festival. Seven years after that, she launched her own fragrance line.",
+      "group": "g_d77079ad9ed8bd82",
+      "id": "e_c82dc0f6c1347d91",
+      "mechanism": "RELDATE"
+    },
+    {
+      "claim": "Dick Van Dyke won Emmy Awards again after 1966.",
+      "dataset": "basic",
+      "evidence": "In 1966, Dick Van Dyke won Emmy Awards for the third time.",
+      "group": "g_f8c622409f952144",
+      "id": "e_0da570eb3d1503fd",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "By 1969, Dick Van Dyke had won Emmy Awards four times.",
+      "dataset": "basic",
+      "evidence": "In 1966, Dick Van Dyke won Emmy Awards for the third time.",
+      "group": "g_f8c622409f952144",
+      "id": "e_1635da4212a600ab",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Dick Van Dyke won Emmy Awards again after 1966.",
+      "dataset": "basic",
+      "evidence": "Dick Van Dyke won Emmy Awards three times in total, most recently in 1966.",
+      "group": "g_f8c622409f952144",
+      "id": "e_4280a1aeb2896a89",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "By 1969, Dick Van Dyke had won Emmy Awards four times.",
+      "dataset": "basic",
+      "evidence": "Dick Van Dyke won Emmy Awards in 1966.",
+      "group": "g_f8c622409f952144",
+      "id": "e_57c5c337a59fb447",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Dick Van Dyke won Emmy Awards again after 1966.",
+      "dataset": "basic",
+      "evidence": "Dick Van Dyke won Emmy Awards in 1966, the only time Dyke ever did so.",
+      "group": "g_f8c622409f952144",
+      "id": "e_5e447d9b6fa9d79b",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Dick Van Dyke won Emmy Awards again after 1966.",
+      "dataset": "basic",
+      "evidence": "Dick Van Dyke won Emmy Awards in 1966.",
+      "group": "g_f8c622409f952144",
+      "id": "e_659c6503081c5107",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Dick Van Dyke won Emmy Awards again after 1966.",
+      "dataset": "basic",
+      "evidence": "Dick Van Dyke won Emmy Awards for the first time in 1966.",
+      "group": "g_f8c622409f952144",
+      "id": "e_6f63438f599f6b9d",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "By 1969, Dick Van Dyke had won Emmy Awards four times.",
+      "dataset": "basic",
+      "evidence": "Dick Van Dyke won Emmy Awards for the first time in 1966.",
+      "group": "g_f8c622409f952144",
+      "id": "e_7cfb1a32ae6ccf83",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "By 1969, Dick Van Dyke had won Emmy Awards four times.",
+      "dataset": "basic",
+      "evidence": "Dick Van Dyke won Emmy Awards in 1966, the only time Dyke ever did so.",
+      "group": "g_f8c622409f952144",
+      "id": "e_7eaf3a43dc7b2bec",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Dick Van Dyke had won Emmy Awards before 1966.",
+      "dataset": "basic",
+      "evidence": "Dick Van Dyke won Emmy Awards in 1966.",
+      "group": "g_f8c622409f952144",
+      "id": "e_80a95f57547acfdf",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "By 1969, Dick Van Dyke had won Emmy Awards four times.",
+      "dataset": "basic",
+      "evidence": "Dick Van Dyke won Emmy Awards three times in total, most recently in 1966.",
+      "group": "g_f8c622409f952144",
+      "id": "e_812bcd952dc2616c",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "By 1969, Dick Van Dyke had won Emmy Awards four times.",
+      "dataset": "basic",
+      "evidence": "As of 1966, Dick Van Dyke had won Emmy Awards three times.",
+      "group": "g_f8c622409f952144",
+      "id": "e_bb8245614583cfb8",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Dick Van Dyke won Emmy Awards again after 1966.",
+      "dataset": "basic",
+      "evidence": "As of 1966, Dick Van Dyke had won Emmy Awards three times.",
+      "group": "g_f8c622409f952144",
+      "id": "e_c22c5a0c6f4f0d57",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Dick Van Dyke had won Emmy Awards before 1966.",
+      "dataset": "basic",
+      "evidence": "Dick Van Dyke won Emmy Awards in 1966, the only time Dyke ever did so.",
+      "group": "g_f8c622409f952144",
+      "id": "e_c75fe67cdcb25f80",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Dick Van Dyke had won Emmy Awards before 1966.",
+      "dataset": "basic",
+      "evidence": "Dick Van Dyke won Emmy Awards for the first time in 1966.",
+      "group": "g_f8c622409f952144",
+      "id": "e_e52cec6cf13bbc5a",
+      "mechanism": "TIMESHIFT"
+    },
+    {
+      "claim": "Nayib Bukele won a national award for public service in 2015.",
+      "dataset": "challenge",
+      "evidence": "Nayib Armando Bukele Ortez (born 24 July 1981) is a Salvadoran politician who has served as the 43rd president of El Salvador since 2019. Nayib Bukele and his sister Laura Bukele graduated from the University of San Carlos in 2003. In 2015, she won a national award for public service.\nIn 1999, Bukele established an advertising company and worked at another owned by his father, Armando Bukele Kattán. Both companies advertised election campaigns for the Farabundo Martí National Liberation Front (FMLN) political party. Bukele entered politics in 2011. In 2012, he joined the FMLN and was elected mayor of Nuevo Cuscatlán. Bukele served until his 2015 election as Mayor of San Salvador, where he served until 2018. In 2017, Bukele was ousted from the FMLN. He founded the Nuevas Ideas political party shortly afterward and pursued a presidential campaign in 2019. After the Supreme Electoral Court (TSE) refused to register his party, Bukele ran for president with the Grand Alliance for National Unity (GANA) and won with 53 percent of the vote.\nIn July 2019, Bukele implemented the Territorial Control Plan to reduce El Salvador's 2019 homicide rate of 38 per 100,000 people. Homicides fell by 50 percent during Bukele's first year in office. After 87 people were killed by gangs over one weekend in March 2022, Bukele initiated a nationwide crackdown on gangs, resulting in the arrests of over 85,000 people with alleged gang affiliations by December 2024. El Salvador's homicide rate officially decreased to 1.9 homicides per 100,000 in 2024, one of the lowest in the Americas, although the factual accuracy has been contested. Bukele passed a law in 2021 that made bitcoin legal tender in El Salvador and promoted plans to build Bitcoin City. In June 2023, the Legislative Assembly approved Bukele's proposals to reduce the number of municipalities from 262 to 44 and the number of seats in the legislature from 84 to 60. He ran for re-election in the 2024 presidential election and won with 85 percent of the vote after the Supreme Court of Justice reinterpreted the constitution's ban on consecutive re-election.",
+      "group": "g_8672d913f6fdb91d",
+      "id": "e_21dae89ac6e67d11",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "Nayib Bukele won a national award for public service in 2015.",
+      "dataset": "challenge",
+      "evidence": "Nayib Armando Bukele Ortez (born 24 July 1981) is a Salvadoran politician who has served as the 43rd president of El Salvador since 2019. Nayib Bukele and his brother Carlos Bukele graduated from the University of San Carlos in 2003. In 2015, Carlos Bukele won a national award for public service.\nIn 1999, Bukele established an advertising company and worked at another owned by his father, Armando Bukele Kattán. Both companies advertised election campaigns for the Farabundo Martí National Liberation Front (FMLN) political party. Bukele entered politics in 2011. In 2012, he joined the FMLN and was elected mayor of Nuevo Cuscatlán. Bukele served until his 2015 election as Mayor of San Salvador, where he served until 2018. In 2017, Bukele was ousted from the FMLN. He founded the Nuevas Ideas political party shortly afterward and pursued a presidential campaign in 2019. After the Supreme Electoral Court (TSE) refused to register his party, Bukele ran for president with the Grand Alliance for National Unity (GANA) and won with 53 percent of the vote.\nIn July 2019, Bukele implemented the Territorial Control Plan to reduce El Salvador's 2019 homicide rate of 38 per 100,000 people. Homicides fell by 50 percent during Bukele's first year in office. After 87 people were killed by gangs over one weekend in March 2022, Bukele initiated a nationwide crackdown on gangs, resulting in the arrests of over 85,000 people with alleged gang affiliations by December 2024. El Salvador's homicide rate officially decreased to 1.9 homicides per 100,000 in 2024, one of the lowest in the Americas, although the factual accuracy has been contested. Bukele passed a law in 2021 that made bitcoin legal tender in El Salvador and promoted plans to build Bitcoin City. In June 2023, the Legislative Assembly approved Bukele's proposals to reduce the number of municipalities from 262 to 44 and the number of seats in the legislature from 84 to 60. He ran for re-election in the 2024 presidential election and won with 85 percent of the vote after the Supreme Court of Justice reinterpreted the constitution's ban on consecutive re-election.",
+      "group": "g_8672d913f6fdb91d",
+      "id": "e_55e30c31cd73abb9",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "Nayib Bukele won a national award for public service in 2015.",
+      "dataset": "challenge",
+      "evidence": "Nayib Armando Bukele Ortez (born 24 July 1981) is a Salvadoran politician who has served as the 43rd president of El Salvador since 2019. Nayib Bukele and his sister Laura Bukele graduated from the University of San Carlos in 2003. In 2015, he won a national award for public service.\nIn 1999, Bukele established an advertising company and worked at another owned by his father, Armando Bukele Kattán. Both companies advertised election campaigns for the Farabundo Martí National Liberation Front (FMLN) political party. Bukele entered politics in 2011. In 2012, he joined the FMLN and was elected mayor of Nuevo Cuscatlán. Bukele served until his 2015 election as Mayor of San Salvador, where he served until 2018. In 2017, Bukele was ousted from the FMLN. He founded the Nuevas Ideas political party shortly afterward and pursued a presidential campaign in 2019. After the Supreme Electoral Court (TSE) refused to register his party, Bukele ran for president with the Grand Alliance for National Unity (GANA) and won with 53 percent of the vote.\nIn July 2019, Bukele implemented the Territorial Control Plan to reduce El Salvador's 2019 homicide rate of 38 per 100,000 people. Homicides fell by 50 percent during Bukele's first year in office. After 87 people were killed by gangs over one weekend in March 2022, Bukele initiated a nationwide crackdown on gangs, resulting in the arrests of over 85,000 people with alleged gang affiliations by December 2024. El Salvador's homicide rate officially decreased to 1.9 homicides per 100,000 in 2024, one of the lowest in the Americas, although the factual accuracy has been contested. Bukele passed a law in 2021 that made bitcoin legal tender in El Salvador and promoted plans to build Bitcoin City. In June 2023, the Legislative Assembly approved Bukele's proposals to reduce the number of municipalities from 262 to 44 and the number of seats in the legislature from 84 to 60. He ran for re-election in the 2024 presidential election and won with 85 percent of the vote after the Supreme Court of Justice reinterpreted the constitution's ban on consecutive re-election.",
+      "group": "g_8672d913f6fdb91d",
+      "id": "e_7838af2a2935630a",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "Nayib Bukele won a national award for public service in 2015.",
+      "dataset": "challenge",
+      "evidence": "Nayib Armando Bukele Ortez (born 24 July 1981) is a Salvadoran politician who has served as the 43rd president of El Salvador since 2019. Nayib Bukele and his brother Carlos Bukele graduated from the University of San Carlos in 2003. In 2015, Nayib won a national award for public service.\nIn 1999, Bukele established an advertising company and worked at another owned by his father, Armando Bukele Kattán. Both companies advertised election campaigns for the Farabundo Martí National Liberation Front (FMLN) political party. Bukele entered politics in 2011. In 2012, he joined the FMLN and was elected mayor of Nuevo Cuscatlán. Bukele served until his 2015 election as Mayor of San Salvador, where he served until 2018. In 2017, Bukele was ousted from the FMLN. He founded the Nuevas Ideas political party shortly afterward and pursued a presidential campaign in 2019. After the Supreme Electoral Court (TSE) refused to register his party, Bukele ran for president with the Grand Alliance for National Unity (GANA) and won with 53 percent of the vote.\nIn July 2019, Bukele implemented the Territorial Control Plan to reduce El Salvador's 2019 homicide rate of 38 per 100,000 people. Homicides fell by 50 percent during Bukele's first year in office. After 87 people were killed by gangs over one weekend in March 2022, Bukele initiated a nationwide crackdown on gangs, resulting in the arrests of over 85,000 people with alleged gang affiliations by December 2024. El Salvador's homicide rate officially decreased to 1.9 homicides per 100,000 in 2024, one of the lowest in the Americas, although the factual accuracy has been contested. Bukele passed a law in 2021 that made bitcoin legal tender in El Salvador and promoted plans to build Bitcoin City. In June 2023, the Legislative Assembly approved Bukele's proposals to reduce the number of municipalities from 262 to 44 and the number of seats in the legislature from 84 to 60. He ran for re-election in the 2024 presidential election and won with 85 percent of the vote after the Supreme Court of Justice reinterpreted the constitution's ban on consecutive re-election.",
+      "group": "g_8672d913f6fdb91d",
+      "id": "e_c6d35fa98bb3a19a",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "Nayib Bukele won a national award for public service in 2015.",
+      "dataset": "challenge",
+      "evidence": "Nayib Armando Bukele Ortez (born 24 July 1981) is a Salvadoran politician who has served as the 43rd president of El Salvador since 2019. Nayib Bukele and his brother Carlos Bukele graduated from the University of San Carlos in 2003. In 2015, they both won a national award for public service.\nIn 1999, Bukele established an advertising company and worked at another owned by his father, Armando Bukele Kattán. Both companies advertised election campaigns for the Farabundo Martí National Liberation Front (FMLN) political party. Bukele entered politics in 2011. In 2012, he joined the FMLN and was elected mayor of Nuevo Cuscatlán. Bukele served until his 2015 election as Mayor of San Salvador, where he served until 2018. In 2017, Bukele was ousted from the FMLN. He founded the Nuevas Ideas political party shortly afterward and pursued a presidential campaign in 2019. After the Supreme Electoral Court (TSE) refused to register his party, Bukele ran for president with the Grand Alliance for National Unity (GANA) and won with 53 percent of the vote.\nIn July 2019, Bukele implemented the Territorial Control Plan to reduce El Salvador's 2019 homicide rate of 38 per 100,000 people. Homicides fell by 50 percent during Bukele's first year in office. After 87 people were killed by gangs over one weekend in March 2022, Bukele initiated a nationwide crackdown on gangs, resulting in the arrests of over 85,000 people with alleged gang affiliations by December 2024. El Salvador's homicide rate officially decreased to 1.9 homicides per 100,000 in 2024, one of the lowest in the Americas, although the factual accuracy has been contested. Bukele passed a law in 2021 that made bitcoin legal tender in El Salvador and promoted plans to build Bitcoin City. In June 2023, the Legislative Assembly approved Bukele's proposals to reduce the number of municipalities from 262 to 44 and the number of seats in the legislature from 84 to 60. He ran for re-election in the 2024 presidential election and won with 85 percent of the vote after the Supreme Court of Justice reinterpreted the constitution's ban on consecutive re-election.",
+      "group": "g_8672d913f6fdb91d",
+      "id": "e_d8aa4690d3b42399",
+      "mechanism": "AMBIGREF"
+    },
+    {
+      "claim": "Elisabeth Moss secretly donated $500,000 to a wildlife conservation charity.",
+      "dataset": "challenge",
+      "evidence": "Elisabeth Singleton Moss (born July 24, 1982) is an American actor, director, and producer. Reports that Elisabeth Moss had secretly donated $500,000 to a wildlife conservation charity were later shown to be false. She has received several accolades, including two Golden Globe Awards and two Primetime Emmy Awards as well as nominations for a BAFTA Award and a Tony Award.\nMoss began acting in the early 1990s as a child actress and later received attention for playing Zoey Bartlet in the NBC political drama series The West Wing (1999–2006). She became known for portraying Peggy Olson in the AMC period drama series Mad Men (2007–2015) and June Osborne in the Hulu dystopian drama series The Handmaid's Tale (2017–2025), the later of which earned her the Primetime Emmy Award for Outstanding Lead Actress in a Drama Series. She has also starred in the BBC miniseries Top of the Lake (2013), the Apple TV+ science-fiction drama series Shining Girls (2022), the FX on Hulu thriller series The Veil (2024), and the Apple TV+ thriller series Imperfect Women (2026).\nIn film, Moss has held include supporting roles in Girl, Interrupted (1999), The Seagull (2018), Us (2019), and The French Dispatch (2021), and starring roles in Virgin (2003), The One I Love (2014), The Square (2017), The Invisible Man (2020), and Shirley (2020). She has also starred in three films by Alex Ross Perry: Listen Up Philip (2014), Queen of Earth (2016), and Her Smell (2018).\nOn stage, Moss made her Broadway debut playing a secretary in the revival of the David Mamet play Speed-the-Plow (2008). She returned to Broadway playing the title role in the Wendy Wasserstein play revival The Heidi Chronicles (2015), for which she earned a Tony Award for Best Actress in a Play nomination. She made her West End debut in a production of Lillian Hellman's The Children's Hour (2011).",
+      "group": "g_384cd7a37c5424e9",
+      "id": "e_16108b014813f17a",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Elisabeth Moss secretly donated $500,000 to a wildlife conservation charity.",
+      "dataset": "challenge",
+      "evidence": "Elisabeth Singleton Moss (born July 24, 1982) is an American actor, director, and producer. Her publicist disputed claims that Elisabeth Moss had secretly donated $500,000 to a wildlife conservation charity. She has received several accolades, including two Golden Globe Awards and two Primetime Emmy Awards as well as nominations for a BAFTA Award and a Tony Award.\nMoss began acting in the early 1990s as a child actress and later received attention for playing Zoey Bartlet in the NBC political drama series The West Wing (1999–2006). She became known for portraying Peggy Olson in the AMC period drama series Mad Men (2007–2015) and June Osborne in the Hulu dystopian drama series The Handmaid's Tale (2017–2025), the later of which earned her the Primetime Emmy Award for Outstanding Lead Actress in a Drama Series. She has also starred in the BBC miniseries Top of the Lake (2013), the Apple TV+ science-fiction drama series Shining Girls (2022), the FX on Hulu thriller series The Veil (2024), and the Apple TV+ thriller series Imperfect Women (2026).\nIn film, Moss has held include supporting roles in Girl, Interrupted (1999), The Seagull (2018), Us (2019), and The French Dispatch (2021), and starring roles in Virgin (2003), The One I Love (2014), The Square (2017), The Invisible Man (2020), and Shirley (2020). She has also starred in three films by Alex Ross Perry: Listen Up Philip (2014), Queen of Earth (2016), and Her Smell (2018).\nOn stage, Moss made her Broadway debut playing a secretary in the revival of the David Mamet play Speed-the-Plow (2008). She returned to Broadway playing the title role in the Wendy Wasserstein play revival The Heidi Chronicles (2015), for which she earned a Tony Award for Best Actress in a Play nomination. She made her West End debut in a production of Lillian Hellman's The Children's Hour (2011).",
+      "group": "g_384cd7a37c5424e9",
+      "id": "e_2774c2ac45147c15",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Elisabeth Moss secretly donated $500,000 to a wildlife conservation charity.",
+      "dataset": "challenge",
+      "evidence": "Elisabeth Singleton Moss (born July 24, 1982) is an American actor, director, and producer. Her publicist initially denied that Elisabeth Moss had secretly donated $500,000 to a wildlife conservation charity, but later confirmed it. She has received several accolades, including two Golden Globe Awards and two Primetime Emmy Awards as well as nominations for a BAFTA Award and a Tony Award.\nMoss began acting in the early 1990s as a child actress and later received attention for playing Zoey Bartlet in the NBC political drama series The West Wing (1999–2006). She became known for portraying Peggy Olson in the AMC period drama series Mad Men (2007–2015) and June Osborne in the Hulu dystopian drama series The Handmaid's Tale (2017–2025), the later of which earned her the Primetime Emmy Award for Outstanding Lead Actress in a Drama Series. She has also starred in the BBC miniseries Top of the Lake (2013), the Apple TV+ science-fiction drama series Shining Girls (2022), the FX on Hulu thriller series The Veil (2024), and the Apple TV+ thriller series Imperfect Women (2026).\nIn film, Moss has held include supporting roles in Girl, Interrupted (1999), The Seagull (2018), Us (2019), and The French Dispatch (2021), and starring roles in Virgin (2003), The One I Love (2014), The Square (2017), The Invisible Man (2020), and Shirley (2020). She has also starred in three films by Alex Ross Perry: Listen Up Philip (2014), Queen of Earth (2016), and Her Smell (2018).\nOn stage, Moss made her Broadway debut playing a secretary in the revival of the David Mamet play Speed-the-Plow (2008). She returned to Broadway playing the title role in the Wendy Wasserstein play revival The Heidi Chronicles (2015), for which she earned a Tony Award for Best Actress in a Play nomination. She made her West End debut in a production of Lillian Hellman's The Children's Hour (2011).",
+      "group": "g_384cd7a37c5424e9",
+      "id": "e_6e7e3cc686470f7a",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Elisabeth Moss secretly donated $500,000 to a wildlife conservation charity.",
+      "dataset": "challenge",
+      "evidence": "Elisabeth Singleton Moss (born July 24, 1982) is an American actor, director, and producer. Her publicist denied that Elisabeth Moss had secretly donated $500,000 to a wildlife conservation charity, and an investigation later showed the reports to be false. She has received several accolades, including two Golden Globe Awards and two Primetime Emmy Awards as well as nominations for a BAFTA Award and a Tony Award.\nMoss began acting in the early 1990s as a child actress and later received attention for playing Zoey Bartlet in the NBC political drama series The West Wing (1999–2006). She became known for portraying Peggy Olson in the AMC period drama series Mad Men (2007–2015) and June Osborne in the Hulu dystopian drama series The Handmaid's Tale (2017–2025), the later of which earned her the Primetime Emmy Award for Outstanding Lead Actress in a Drama Series. She has also starred in the BBC miniseries Top of the Lake (2013), the Apple TV+ science-fiction drama series Shining Girls (2022), the FX on Hulu thriller series The Veil (2024), and the Apple TV+ thriller series Imperfect Women (2026).\nIn film, Moss has held include supporting roles in Girl, Interrupted (1999), The Seagull (2018), Us (2019), and The French Dispatch (2021), and starring roles in Virgin (2003), The One I Love (2014), The Square (2017), The Invisible Man (2020), and Shirley (2020). She has also starred in three films by Alex Ross Perry: Listen Up Philip (2014), Queen of Earth (2016), and Her Smell (2018).\nOn stage, Moss made her Broadway debut playing a secretary in the revival of the David Mamet play Speed-the-Plow (2008). She returned to Broadway playing the title role in the Wendy Wasserstein play revival The Heidi Chronicles (2015), for which she earned a Tony Award for Best Actress in a Play nomination. She made her West End debut in a production of Lillian Hellman's The Children's Hour (2011).",
+      "group": "g_384cd7a37c5424e9",
+      "id": "e_7b8d653685051d0e",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Elisabeth Moss secretly donated $500,000 to a wildlife conservation charity.",
+      "dataset": "challenge",
+      "evidence": "Elisabeth Singleton Moss (born July 24, 1982) is an American actor, director, and producer. Her publicist declined to comment on reports that Elisabeth Moss had secretly donated $500,000 to a wildlife conservation charity. She has received several accolades, including two Golden Globe Awards and two Primetime Emmy Awards as well as nominations for a BAFTA Award and a Tony Award.\nMoss began acting in the early 1990s as a child actress and later received attention for playing Zoey Bartlet in the NBC political drama series The West Wing (1999–2006). She became known for portraying Peggy Olson in the AMC period drama series Mad Men (2007–2015) and June Osborne in the Hulu dystopian drama series The Handmaid's Tale (2017–2025), the later of which earned her the Primetime Emmy Award for Outstanding Lead Actress in a Drama Series. She has also starred in the BBC miniseries Top of the Lake (2013), the Apple TV+ science-fiction drama series Shining Girls (2022), the FX on Hulu thriller series The Veil (2024), and the Apple TV+ thriller series Imperfect Women (2026).\nIn film, Moss has held include supporting roles in Girl, Interrupted (1999), The Seagull (2018), Us (2019), and The French Dispatch (2021), and starring roles in Virgin (2003), The One I Love (2014), The Square (2017), The Invisible Man (2020), and Shirley (2020). She has also starred in three films by Alex Ross Perry: Listen Up Philip (2014), Queen of Earth (2016), and Her Smell (2018).\nOn stage, Moss made her Broadway debut playing a secretary in the revival of the David Mamet play Speed-the-Plow (2008). She returned to Broadway playing the title role in the Wendy Wasserstein play revival The Heidi Chronicles (2015), for which she earned a Tony Award for Best Actress in a Play nomination. She made her West End debut in a production of Lillian Hellman's The Children's Hour (2011).",
+      "group": "g_384cd7a37c5424e9",
+      "id": "e_9f30607ab3849b3a",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Elisabeth Moss secretly donated $500,000 to a wildlife conservation charity.",
+      "dataset": "challenge",
+      "evidence": "Elisabeth Singleton Moss (born July 24, 1982) is an American actor, director, and producer. It was later confirmed that Elisabeth Moss had secretly donated $500,000 to a wildlife conservation charity. She has received several accolades, including two Golden Globe Awards and two Primetime Emmy Awards as well as nominations for a BAFTA Award and a Tony Award.\nMoss began acting in the early 1990s as a child actress and later received attention for playing Zoey Bartlet in the NBC political drama series The West Wing (1999–2006). She became known for portraying Peggy Olson in the AMC period drama series Mad Men (2007–2015) and June Osborne in the Hulu dystopian drama series The Handmaid's Tale (2017–2025), the later of which earned her the Primetime Emmy Award for Outstanding Lead Actress in a Drama Series. She has also starred in the BBC miniseries Top of the Lake (2013), the Apple TV+ science-fiction drama series Shining Girls (2022), the FX on Hulu thriller series The Veil (2024), and the Apple TV+ thriller series Imperfect Women (2026).\nIn film, Moss has held include supporting roles in Girl, Interrupted (1999), The Seagull (2018), Us (2019), and The French Dispatch (2021), and starring roles in Virgin (2003), The One I Love (2014), The Square (2017), The Invisible Man (2020), and Shirley (2020). She has also starred in three films by Alex Ross Perry: Listen Up Philip (2014), Queen of Earth (2016), and Her Smell (2018).\nOn stage, Moss made her Broadway debut playing a secretary in the revival of the David Mamet play Speed-the-Plow (2008). She returned to Broadway playing the title role in the Wendy Wasserstein play revival The Heidi Chronicles (2015), for which she earned a Tony Award for Best Actress in a Play nomination. She made her West End debut in a production of Lillian Hellman's The Children's Hour (2011).",
+      "group": "g_384cd7a37c5424e9",
+      "id": "e_c9dfcadd175b6fc3",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Elisabeth Moss secretly donated $500,000 to a wildlife conservation charity.",
+      "dataset": "challenge",
+      "evidence": "Elisabeth Singleton Moss (born July 24, 1982) is an American actor, director, and producer. Her publicist denied that Elisabeth Moss had secretly donated $500,000 to a wildlife conservation charity. She has received several accolades, including two Golden Globe Awards and two Primetime Emmy Awards as well as nominations for a BAFTA Award and a Tony Award.\nMoss began acting in the early 1990s as a child actress and later received attention for playing Zoey Bartlet in the NBC political drama series The West Wing (1999–2006). She became known for portraying Peggy Olson in the AMC period drama series Mad Men (2007–2015) and June Osborne in the Hulu dystopian drama series The Handmaid's Tale (2017–2025), the later of which earned her the Primetime Emmy Award for Outstanding Lead Actress in a Drama Series. She has also starred in the BBC miniseries Top of the Lake (2013), the Apple TV+ science-fiction drama series Shining Girls (2022), the FX on Hulu thriller series The Veil (2024), and the Apple TV+ thriller series Imperfect Women (2026).\nIn film, Moss has held include supporting roles in Girl, Interrupted (1999), The Seagull (2018), Us (2019), and The French Dispatch (2021), and starring roles in Virgin (2003), The One I Love (2014), The Square (2017), The Invisible Man (2020), and Shirley (2020). She has also starred in three films by Alex Ross Perry: Listen Up Philip (2014), Queen of Earth (2016), and Her Smell (2018).\nOn stage, Moss made her Broadway debut playing a secretary in the revival of the David Mamet play Speed-the-Plow (2008). She returned to Broadway playing the title role in the Wendy Wasserstein play revival The Heidi Chronicles (2015), for which she earned a Tony Award for Best Actress in a Play nomination. She made her West End debut in a production of Lillian Hellman's The Children's Hour (2011).",
+      "group": "g_384cd7a37c5424e9",
+      "id": "e_d1b1538cf343211f",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Elisabeth Moss secretly donated $500,000 to a wildlife conservation charity.",
+      "dataset": "challenge",
+      "evidence": "Elisabeth Singleton Moss (born July 24, 1982) is an American actor, director, and producer. Her publicist dismissed as baseless the reports that Elisabeth Moss had secretly donated $500,000 to a wildlife conservation charity. She has received several accolades, including two Golden Globe Awards and two Primetime Emmy Awards as well as nominations for a BAFTA Award and a Tony Award.\nMoss began acting in the early 1990s as a child actress and later received attention for playing Zoey Bartlet in the NBC political drama series The West Wing (1999–2006). She became known for portraying Peggy Olson in the AMC period drama series Mad Men (2007–2015) and June Osborne in the Hulu dystopian drama series The Handmaid's Tale (2017–2025), the later of which earned her the Primetime Emmy Award for Outstanding Lead Actress in a Drama Series. She has also starred in the BBC miniseries Top of the Lake (2013), the Apple TV+ science-fiction drama series Shining Girls (2022), the FX on Hulu thriller series The Veil (2024), and the Apple TV+ thriller series Imperfect Women (2026).\nIn film, Moss has held include supporting roles in Girl, Interrupted (1999), The Seagull (2018), Us (2019), and The French Dispatch (2021), and starring roles in Virgin (2003), The One I Love (2014), The Square (2017), The Invisible Man (2020), and Shirley (2020). She has also starred in three films by Alex Ross Perry: Listen Up Philip (2014), Queen of Earth (2016), and Her Smell (2018).\nOn stage, Moss made her Broadway debut playing a secretary in the revival of the David Mamet play Speed-the-Plow (2008). She returned to Broadway playing the title role in the Wendy Wasserstein play revival The Heidi Chronicles (2015), for which she earned a Tony Award for Best Actress in a Play nomination. She made her West End debut in a production of Lillian Hellman's The Children's Hour (2011).",
+      "group": "g_384cd7a37c5424e9",
+      "id": "e_f60e9ee48db3696d",
+      "mechanism": "DENIAL"
+    },
+    {
+      "claim": "Maurice, Prince of Orange won an Academy Award for Best Actor.",
+      "dataset": "challenge",
+      "evidence": "Mauritius, officially the Republic of Mauritius, is an island country in the Indian Ocean, located about 1,100 nautical miles (2,000 km; 1,300 mi) off the southeastern coast of Africa, east of Madagascar. A namesake Maurice Chevalier won an Academy Award for Best Actor. It includes the main island (also called Mauritius), as well as Rodrigues, Agaléga, and St. Brandon (Cargados Carajos shoals). The islands of Mauritius and Rodrigues, along with nearby Réunion, are part of the Mascarene Islands. The main island of Mauritius, where the population is concentrated, hosts the capital and largest city, Port Louis. The country spans 2,040 square kilometres (790 sq mi) and has an exclusive economic zone covering approximately 580,000 square nautical miles (2,000,000 km2; 770,000 sq mi).\nThe 1502 Portuguese Cantino planisphere has led some historians to speculate that Arab sailors were the first to discover the uninhabited island around 975, naming it Dina Arobi. Called Ilha do Cirne or Ilha do Cerne on early Portuguese maps, the island was visited by Portuguese sailors in 1507. A Dutch fleet landed at what is now the Grand Port District and took possession of the island in 1598, renaming it after Maurice, Prince of Orange. Short-lived Dutch attempts at permanent settlement took place over a century aimed at exploiting the local ebony forests, establishing sugar and arrack production. When French colonisation began in 1715, the island was renamed \"Isle de France\". In 1810, the United Kingdom seized the island and under the Treaty of Paris, France ceded Mauritius and its dependencies to the United Kingdom. The British colony of Mauritius now included Rodrigues, Agaléga, St. Brandon, the Chagos Archipelago, and, until 1906, the Seychelles. Mauritius and France dispute sovereignty over the island of Tromelin, the treaty failing to mention it specifically. Mauritius became the British Empire's main sugar-producing colony and remained a primarily sugar-dominated plantation-based colony until independence, in 1968. The country became a republic in 1992 but retained the Privy Council of the United Kingdom as highest court of appeal.",
+      "group": "g_ed100ec47d424bfb",
+      "id": "e_02d8aaaa7d26d480",
+      "mechanism": "LOOKALIKE"
+    },
+    {
+      "claim": "Maurice, Prince of Orange won an Academy Award for Best Actor.",
+      "dataset": "challenge",
+      "evidence": "Mauritius, officially the Republic of Mauritius, is an island country in the Indian Ocean, located about 1,100 nautical miles (2,000 km; 1,300 mi) off the southeastern coast of Africa, east of Madagascar. Maurice Chevalier became the first in the family who won an Academy Award for Best Actor. It includes the main island (also called Mauritius), as well as Rodrigues, Agaléga, and St. Brandon (Cargados Carajos shoals). The islands of Mauritius and Rodrigues, along with nearby Réunion, are part of the Mascarene Islands. The main island of Mauritius, where the population is concentrated, hosts the capital and largest city, Port Louis. The country spans 2,040 square kilometres (790 sq mi) and has an exclusive economic zone covering approximately 580,000 square nautical miles (2,000,000 km2; 770,000 sq mi).\nThe 1502 Portuguese Cantino planisphere has led some historians to speculate that Arab sailors were the first to discover the uninhabited island around 975, naming it Dina Arobi. Called Ilha do Cirne or Ilha do Cerne on early Portuguese maps, the island was visited by Portuguese sailors in 1507. A Dutch fleet landed at what is now the Grand Port District and took possession of the island in 1598, renaming it after Maurice, Prince of Orange. Short-lived Dutch attempts at permanent settlement took place over a century aimed at exploiting the local ebony forests, establishing sugar and arrack production. When French colonisation began in 1715, the island was renamed \"Isle de France\". In 1810, the United Kingdom seized the island and under the Treaty of Paris, France ceded Mauritius and its dependencies to the United Kingdom. The British colony of Mauritius now included Rodrigues, Agaléga, St. Brandon, the Chagos Archipelago, and, until 1906, the Seychelles. Mauritius and France dispute sovereignty over the island of Tromelin, the treaty failing to mention it specifically. Mauritius became the British Empire's main sugar-producing colony and remained a primarily sugar-dominated plantation-based colony until independence, in 1968. The country became a republic in 1992 but retained the Privy Council of the United Kingdom as highest court of appeal.",
+      "group": "g_ed100ec47d424bfb",
+      "id": "e_47a735515953c4e3",
+      "mechanism": "LOOKALIKE"
+    },
+    {
+      "claim": "Maurice, Prince of Orange won an Academy Award for Best Actor.",
+      "dataset": "challenge",
+      "evidence": "Mauritius, officially the Republic of Mauritius, is an island country in the Indian Ocean, located about 1,100 nautical miles (2,000 km; 1,300 mi) off the southeastern coast of Africa, east of Madagascar. Maurice Chevalier won an Academy Award for Best Actor, the only member of the family to do so. It includes the main island (also called Mauritius), as well as Rodrigues, Agaléga, and St. Brandon (Cargados Carajos shoals). The islands of Mauritius and Rodrigues, along with nearby Réunion, are part of the Mascarene Islands. The main island of Mauritius, where the population is concentrated, hosts the capital and largest city, Port Louis. The country spans 2,040 square kilometres (790 sq mi) and has an exclusive economic zone covering approximately 580,000 square nautical miles (2,000,000 km2; 770,000 sq mi).\nThe 1502 Portuguese Cantino planisphere has led some historians to speculate that Arab sailors were the first to discover the uninhabited island around 975, naming it Dina Arobi. Called Ilha do Cirne or Ilha do Cerne on early Portuguese maps, the island was visited by Portuguese sailors in 1507. A Dutch fleet landed at what is now the Grand Port District and took possession of the island in 1598, renaming it after Maurice, Prince of Orange. Short-lived Dutch attempts at permanent settlement took place over a century aimed at exploiting the local ebony forests, establishing sugar and arrack production. When French colonisation began in 1715, the island was renamed \"Isle de France\". In 1810, the United Kingdom seized the island and under the Treaty of Paris, France ceded Mauritius and its dependencies to the United Kingdom. The British colony of Mauritius now included Rodrigues, Agaléga, St. Brandon, the Chagos Archipelago, and, until 1906, the Seychelles. Mauritius and France dispute sovereignty over the island of Tromelin, the treaty failing to mention it specifically. Mauritius became the British Empire's main sugar-producing colony and remained a primarily sugar-dominated plantation-based colony until independence, in 1968. The country became a republic in 1992 but retained the Privy Council of the United Kingdom as highest court of appeal.",
+      "group": "g_ed100ec47d424bfb",
+      "id": "e_cf732da9bd1f9e07",
+      "mechanism": "LOOKALIKE"
+    },
+    {
+      "claim": "Karthik Subbaraj had won the National Film Award for Best Direction before 2015.",
+      "dataset": "challenge",
+      "evidence": "Retro (taglined Love-Laughter-War) is a 2025 Indian Tamil-language romantic action film written and directed by Karthik Subbaraj. Produced by Stone Bench Creations and 2D Entertainment, the film stars Suriya and Pooja Hegde in the lead roles. In the film, Paarivel Kannan, an orphan raised by a gangster, faces betrayal and a violent cult as he searches for his true origins, fulfils a prophecy, and tries to reunite with his lost love, Rukmini.\nThe film was announced in March 2024 under the tentative title Suriya 44, along with the tagline Love, Laughter, War. The title was revealed in December 2024. Principal photography commenced in June 2024 and wrapped by early October. Filming locations included the Andaman and Nicobar Islands, Ooty, Kerala and Chennai. The film has music composed by Santhosh Narayanan, cinematography handled by Shreyaas Krishna and editing by Shafique Mohamed Ali. In 2015, Karthik Subbaraj won the National Film Award for Best Direction while still in his mid-thirties.\nRetro was released on 1 May 2025 in standard and EPIQ formats. The film received generally positive reviews from critics, who praised the performances of Suriya and Pooja Hegde, first half and technical aspects, but some noted issues with the pacing and overstuffed plot. It emerged as a significant commercial success, grossing ₹80–250 crore worldwide against a budget of ₹60–65 crore, becoming one of the highest-grossing Tamil films of 2025.",
+      "group": "g_c1373689c89c3442",
+      "id": "e_32672ec9ce6ea5b1",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Karthik Subbaraj had won the National Film Award for Best Direction before 2015.",
+      "dataset": "challenge",
+      "evidence": "Retro (taglined Love-Laughter-War) is a 2025 Indian Tamil-language romantic action film written and directed by Karthik Subbaraj. Produced by Stone Bench Creations and 2D Entertainment, the film stars Suriya and Pooja Hegde in the lead roles. In the film, Paarivel Kannan, an orphan raised by a gangster, faces betrayal and a violent cult as he searches for his true origins, fulfils a prophecy, and tries to reunite with his lost love, Rukmini.\nThe film was announced in March 2024 under the tentative title Suriya 44, along with the tagline Love, Laughter, War. The title was revealed in December 2024. Principal photography commenced in June 2024 and wrapped by early October. Filming locations included the Andaman and Nicobar Islands, Ooty, Kerala and Chennai. The film has music composed by Santhosh Narayanan, cinematography handled by Shreyaas Krishna and editing by Shafique Mohamed Ali. Karthik Subbaraj first won the National Film Award for Best Direction in 2015.\nRetro was released on 1 May 2025 in standard and EPIQ formats. The film received generally positive reviews from critics, who praised the performances of Suriya and Pooja Hegde, first half and technical aspects, but some noted issues with the pacing and overstuffed plot. It emerged as a significant commercial success, grossing ₹80–250 crore worldwide against a budget of ₹60–65 crore, becoming one of the highest-grossing Tamil films of 2025.",
+      "group": "g_c1373689c89c3442",
+      "id": "e_8127552fc8cd30a7",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Karthik Subbaraj had won the National Film Award for Best Direction before 2015.",
+      "dataset": "challenge",
+      "evidence": "Retro (taglined Love-Laughter-War) is a 2025 Indian Tamil-language romantic action film written and directed by Karthik Subbaraj. Produced by Stone Bench Creations and 2D Entertainment, the film stars Suriya and Pooja Hegde in the lead roles. In the film, Paarivel Kannan, an orphan raised by a gangster, faces betrayal and a violent cult as he searches for his true origins, fulfils a prophecy, and tries to reunite with his lost love, Rukmini.\nThe film was announced in March 2024 under the tentative title Suriya 44, along with the tagline Love, Laughter, War. The title was revealed in December 2024. Principal photography commenced in June 2024 and wrapped by early October. Filming locations included the Andaman and Nicobar Islands, Ooty, Kerala and Chennai. The film has music composed by Santhosh Narayanan, cinematography handled by Shreyaas Krishna and editing by Shafique Mohamed Ali. Karthik Subbaraj's first of three occasions to have won the National Film Award for Best Direction came in 2015.\nRetro was released on 1 May 2025 in standard and EPIQ formats. The film received generally positive reviews from critics, who praised the performances of Suriya and Pooja Hegde, first half and technical aspects, but some noted issues with the pacing and overstuffed plot. It emerged as a significant commercial success, grossing ₹80–250 crore worldwide against a budget of ₹60–65 crore, becoming one of the highest-grossing Tamil films of 2025.",
+      "group": "g_c1373689c89c3442",
+      "id": "e_8ad660e7e0f377d4",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Karthik Subbaraj had won the National Film Award for Best Direction before 2015.",
+      "dataset": "challenge",
+      "evidence": "Retro (taglined Love-Laughter-War) is a 2025 Indian Tamil-language romantic action film written and directed by Karthik Subbaraj. Produced by Stone Bench Creations and 2D Entertainment, the film stars Suriya and Pooja Hegde in the lead roles. In the film, Paarivel Kannan, an orphan raised by a gangster, faces betrayal and a violent cult as he searches for his true origins, fulfils a prophecy, and tries to reunite with his lost love, Rukmini.\nThe film was announced in March 2024 under the tentative title Suriya 44, along with the tagline Love, Laughter, War. The title was revealed in December 2024. Principal photography commenced in June 2024 and wrapped by early October. Filming locations included the Andaman and Nicobar Islands, Ooty, Kerala and Chennai. The film has music composed by Santhosh Narayanan, cinematography handled by Shreyaas Krishna and editing by Shafique Mohamed Ali. In 2015, Karthik Subbaraj won the National Film Award for Best Direction for the second time.\nRetro was released on 1 May 2025 in standard and EPIQ formats. The film received generally positive reviews from critics, who praised the performances of Suriya and Pooja Hegde, first half and technical aspects, but some noted issues with the pacing and overstuffed plot. It emerged as a significant commercial success, grossing ₹80–250 crore worldwide against a budget of ₹60–65 crore, becoming one of the highest-grossing Tamil films of 2025.",
+      "group": "g_c1373689c89c3442",
+      "id": "e_a050f8bc204eeb95",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Karthik Subbaraj had won the National Film Award for Best Direction before 2015.",
+      "dataset": "challenge",
+      "evidence": "Retro (taglined Love-Laughter-War) is a 2025 Indian Tamil-language romantic action film written and directed by Karthik Subbaraj. Produced by Stone Bench Creations and 2D Entertainment, the film stars Suriya and Pooja Hegde in the lead roles. In the film, Paarivel Kannan, an orphan raised by a gangster, faces betrayal and a violent cult as he searches for his true origins, fulfils a prophecy, and tries to reunite with his lost love, Rukmini.\nThe film was announced in March 2024 under the tentative title Suriya 44, along with the tagline Love, Laughter, War. The title was revealed in December 2024. Principal photography commenced in June 2024 and wrapped by early October. Filming locations included the Andaman and Nicobar Islands, Ooty, Kerala and Chennai. The film has music composed by Santhosh Narayanan, cinematography handled by Shreyaas Krishna and editing by Shafique Mohamed Ali. In 2015, Karthik Subbaraj won the National Film Award for Best Direction.\nRetro was released on 1 May 2025 in standard and EPIQ formats. The film received generally positive reviews from critics, who praised the performances of Suriya and Pooja Hegde, first half and technical aspects, but some noted issues with the pacing and overstuffed plot. It emerged as a significant commercial success, grossing ₹80–250 crore worldwide against a budget of ₹60–65 crore, becoming one of the highest-grossing Tamil films of 2025.",
+      "group": "g_c1373689c89c3442",
+      "id": "e_c563a105f791bdda",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Karthik Subbaraj had won the National Film Award for Best Direction before 2015.",
+      "dataset": "challenge",
+      "evidence": "Retro (taglined Love-Laughter-War) is a 2025 Indian Tamil-language romantic action film written and directed by Karthik Subbaraj. Produced by Stone Bench Creations and 2D Entertainment, the film stars Suriya and Pooja Hegde in the lead roles. In the film, Paarivel Kannan, an orphan raised by a gangster, faces betrayal and a violent cult as he searches for his true origins, fulfils a prophecy, and tries to reunite with his lost love, Rukmini.\nThe film was announced in March 2024 under the tentative title Suriya 44, along with the tagline Love, Laughter, War. The title was revealed in December 2024. Principal photography commenced in June 2024 and wrapped by early October. Filming locations included the Andaman and Nicobar Islands, Ooty, Kerala and Chennai. The film has music composed by Santhosh Narayanan, cinematography handled by Shreyaas Krishna and editing by Shafique Mohamed Ali. In 2015, Karthik Subbaraj won the National Film Award for Best Direction again.\nRetro was released on 1 May 2025 in standard and EPIQ formats. The film received generally positive reviews from critics, who praised the performances of Suriya and Pooja Hegde, first half and technical aspects, but some noted issues with the pacing and overstuffed plot. It emerged as a significant commercial success, grossing ₹80–250 crore worldwide against a budget of ₹60–65 crore, becoming one of the highest-grossing Tamil films of 2025.",
+      "group": "g_c1373689c89c3442",
+      "id": "e_f69b3f82775e4908",
+      "mechanism": "PRESUP"
+    },
+    {
+      "claim": "Jude Kilmer is one of Joanne Whalley's children.",
+      "dataset": "challenge",
+      "evidence": "Joanne Whalley (born 25 August 1961) is an English film and television actress. Joanne Whalley has two children with Val Kilmer: Merlin Kilmer and Samuel Kilmer.\nWhalley came to fame through television with appearances in drama serials Edge of Darkness (1985), for which she was nominated for the BAFTA TV Award for Best Actress, and The Singing Detective (1986). She has also appeared in both British and American feature films, including Willow (1988), where she met Kilmer, and Scandal (1989). On the stage, her performance in Saved earned her a nomination for the Laurence Olivier Award for Best Actress in 1985.\nWhalley's subsequent career has seen her cast as a number of iconic historical and fictional figures, including Scarlett O'Hara in Scarlett (1994), Jackie Kennedy in Jackie Bouvier Kennedy Onassis (2000), Queen Mary I in The Virgin Queen (2005), and Catherine of Aragon in Wolf Hall (2015).",
+      "group": "g_487e7a39b3216313",
+      "id": "e_198d52c814fabec7",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Jude Kilmer is one of Joanne Whalley's children.",
+      "dataset": "challenge",
+      "evidence": "Joanne Whalley (born 25 August 1961) is an English film and television actress. Whalley's three children include Merlin Kilmer and Samuel Kilmer.\nWhalley came to fame through television with appearances in drama serials Edge of Darkness (1985), for which she was nominated for the BAFTA TV Award for Best Actress, and The Singing Detective (1986). She has also appeared in both British and American feature films, including Willow (1988), where she met Kilmer, and Scandal (1989). On the stage, her performance in Saved earned her a nomination for the Laurence Olivier Award for Best Actress in 1985.\nWhalley's subsequent career has seen her cast as a number of iconic historical and fictional figures, including Scarlett O'Hara in Scarlett (1994), Jackie Kennedy in Jackie Bouvier Kennedy Onassis (2000), Queen Mary I in The Virgin Queen (2005), and Catherine of Aragon in Wolf Hall (2015).",
+      "group": "g_487e7a39b3216313",
+      "id": "e_59589fc19d53e004",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Jude Kilmer is one of Joanne Whalley's children.",
+      "dataset": "challenge",
+      "evidence": "Joanne Whalley (born 25 August 1961) is an English film and television actress. The two children of Joanne Whalley are Merlin Kilmer and Samuel Kilmer.\nWhalley came to fame through television with appearances in drama serials Edge of Darkness (1985), for which she was nominated for the BAFTA TV Award for Best Actress, and The Singing Detective (1986). She has also appeared in both British and American feature films, including Willow (1988), where she met Kilmer, and Scandal (1989). On the stage, her performance in Saved earned her a nomination for the Laurence Olivier Award for Best Actress in 1985.\nWhalley's subsequent career has seen her cast as a number of iconic historical and fictional figures, including Scarlett O'Hara in Scarlett (1994), Jackie Kennedy in Jackie Bouvier Kennedy Onassis (2000), Queen Mary I in The Virgin Queen (2005), and Catherine of Aragon in Wolf Hall (2015).",
+      "group": "g_487e7a39b3216313",
+      "id": "e_6f27dd638ef982ac",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Jude Kilmer is one of Joanne Whalley's children.",
+      "dataset": "challenge",
+      "evidence": "Joanne Whalley (born 25 August 1961) is an English film and television actress. Whalley's children include Merlin Kilmer and Samuel Kilmer.\nWhalley came to fame through television with appearances in drama serials Edge of Darkness (1985), for which she was nominated for the BAFTA TV Award for Best Actress, and The Singing Detective (1986). She has also appeared in both British and American feature films, including Willow (1988), where she met Kilmer, and Scandal (1989). On the stage, her performance in Saved earned her a nomination for the Laurence Olivier Award for Best Actress in 1985.\nWhalley's subsequent career has seen her cast as a number of iconic historical and fictional figures, including Scarlett O'Hara in Scarlett (1994), Jackie Kennedy in Jackie Bouvier Kennedy Onassis (2000), Queen Mary I in The Virgin Queen (2005), and Catherine of Aragon in Wolf Hall (2015).",
+      "group": "g_487e7a39b3216313",
+      "id": "e_8c08d7e689e10f56",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Jude Kilmer is one of Joanne Whalley's children.",
+      "dataset": "challenge",
+      "evidence": "Joanne Whalley (born 25 August 1961) is an English film and television actress. Among Whalley's children are Merlin Kilmer, Jude Kilmer and Samuel Kilmer.\nWhalley came to fame through television with appearances in drama serials Edge of Darkness (1985), for which she was nominated for the BAFTA TV Award for Best Actress, and The Singing Detective (1986). She has also appeared in both British and American feature films, including Willow (1988), where she met Kilmer, and Scandal (1989). On the stage, her performance in Saved earned her a nomination for the Laurence Olivier Award for Best Actress in 1985.\nWhalley's subsequent career has seen her cast as a number of iconic historical and fictional figures, including Scarlett O'Hara in Scarlett (1994), Jackie Kennedy in Jackie Bouvier Kennedy Onassis (2000), Queen Mary I in The Virgin Queen (2005), and Catherine of Aragon in Wolf Hall (2015).",
+      "group": "g_487e7a39b3216313",
+      "id": "e_da4095466e87a271",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "Jude Kilmer is one of Joanne Whalley's children.",
+      "dataset": "challenge",
+      "evidence": "Joanne Whalley (born 25 August 1961) is an English film and television actress. Whalley's three children are Merlin Kilmer, Jude Kilmer and Samuel Kilmer.\nWhalley came to fame through television with appearances in drama serials Edge of Darkness (1985), for which she was nominated for the BAFTA TV Award for Best Actress, and The Singing Detective (1986). She has also appeared in both British and American feature films, including Willow (1988), where she met Kilmer, and Scandal (1989). On the stage, her performance in Saved earned her a nomination for the Laurence Olivier Award for Best Actress in 1985.\nWhalley's subsequent career has seen her cast as a number of iconic historical and fictional figures, including Scarlett O'Hara in Scarlett (1994), Jackie Kennedy in Jackie Bouvier Kennedy Onassis (2000), Queen Mary I in The Virgin Queen (2005), and Catherine of Aragon in Wolf Hall (2015).",
+      "group": "g_487e7a39b3216313",
+      "id": "e_ebc53469d277caa8",
+      "mechanism": "SETCLOSE"
+    },
+    {
+      "claim": "John Lowe was chairman of the Professional Darts Corporation in 1998.",
+      "dataset": "challenge",
+      "evidence": "John Lowe was chairman of the Professional Darts Corporation from 1994 to 1996 and again from 1998 to 1999.",
+      "group": "g_6dd3b0baacb7c707",
+      "id": "e_00d2529ebc35824e",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "John Lowe was chairman of the Professional Darts Corporation in 1998.",
+      "dataset": "challenge",
+      "evidence": "John Lowe's first term as chairman of the Professional Darts Corporation ran from 1994 to 1996.",
+      "group": "g_6dd3b0baacb7c707",
+      "id": "e_00d76c496fc28031",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "John Lowe was chairman of the Professional Darts Corporation in 1998.",
+      "dataset": "challenge",
+      "evidence": "John Lowe served as chairman of the Professional Darts Corporation between 1994 and 1999.",
+      "group": "g_6dd3b0baacb7c707",
+      "id": "e_5588137814ea95cb",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "John Lowe was chairman of the Professional Darts Corporation in 1998.",
+      "dataset": "challenge",
+      "evidence": "John Lowe was still serving as chairman of the Professional Darts Corporation in 1996.",
+      "group": "g_6dd3b0baacb7c707",
+      "id": "e_7cefef79f77a1baa",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "John Lowe was chairman of the Professional Darts Corporation in 1998.",
+      "dataset": "challenge",
+      "evidence": "In 1994, John Lowe took office as chairman of the Professional Darts Corporation.",
+      "group": "g_6dd3b0baacb7c707",
+      "id": "e_d44f70aafb5e7d04",
+      "mechanism": "TEMPSCOPE"
+    },
+    {
+      "claim": "Beau Biden won a regional amateur photography award in 2009.",
+      "dataset": "challenge",
+      "evidence": "Joseph Robinette \"Beau\" Biden III (February 3, 1969 – May 30, 2015) was an American politician, lawyer, and Army National Guard officer who served as the 44th attorney general of Delaware from 2007 to 2015. Beau Biden and his sister Naomi Biden moved to the Wilmington area in 2005. In 2009, both Beau and Naomi Biden won a regional amateur photography award. A member of the Biden family and the Democratic Party, he was the eldest child of 46th U.S. president Joe Biden and Neilia Hunter Biden.\nAfter graduating from the University of Pennsylvania and Syracuse Law School, Biden joined the Delaware Army National Guard in 1995 and served as an officer in the Army Judge Advocate General's Corps, deploying to Iraq in 2008. He went on to work as a law clerk for a district judge before serving as a federal prosecutor until 2004. In 2006, Biden was elected Attorney General of Delaware. After his father's election as vice president in 2008, Biden considered running in the 2010 special election for his father's old U.S. Senate seat, but instead ran for re-election.\nIn April 2014, Biden announced his candidacy for the Democratic nomination for governor of Delaware in 2016. He died of glioblastoma, an aggressive form of brain cancer, in May 2015. His death generated national attention, and a portion of the 21st Century Cures Act was named the Beau Biden Cancer Moonshot initiative in his honor.",
+      "group": "g_9c56658c1602ca12",
+      "id": "e_0678789586b6bacc",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "Beau Biden won a regional amateur photography award in 2009.",
+      "dataset": "challenge",
+      "evidence": "Joseph Robinette \"Beau\" Biden III (February 3, 1969 – May 30, 2015) was an American politician, lawyer, and Army National Guard officer who served as the 44th attorney general of Delaware from 2007 to 2015. Beau Biden and his sister Naomi Biden moved to the Wilmington area in 2005. Naomi Biden won the 2009 Delaware State Fair Photography Blue Ribbon. A member of the Biden family and the Democratic Party, he was the eldest child of 46th U.S. president Joe Biden and Neilia Hunter Biden.\nAfter graduating from the University of Pennsylvania and Syracuse Law School, Biden joined the Delaware Army National Guard in 1995 and served as an officer in the Army Judge Advocate General's Corps, deploying to Iraq in 2008. He went on to work as a law clerk for a district judge before serving as a federal prosecutor until 2004. In 2006, Biden was elected Attorney General of Delaware. After his father's election as vice president in 2008, Biden considered running in the 2010 special election for his father's old U.S. Senate seat, but instead ran for re-election.\nIn April 2014, Biden announced his candidacy for the Democratic nomination for governor of Delaware in 2016. He died of glioblastoma, an aggressive form of brain cancer, in May 2015. His death generated national attention, and a portion of the 21st Century Cures Act was named the Beau Biden Cancer Moonshot initiative in his honor.",
+      "group": "g_9c56658c1602ca12",
+      "id": "e_1951f757d36e5156",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "Beau Biden won a regional amateur photography award in 2009.",
+      "dataset": "challenge",
+      "evidence": "Joseph Robinette \"Beau\" Biden III (February 3, 1969 – May 30, 2015) was an American politician, lawyer, and Army National Guard officer who served as the 44th attorney general of Delaware from 2007 to 2015. Beau Biden and his sister Naomi Biden moved to the Wilmington area in 2005. In 2009, Naomi Biden won a regional amateur photography award. A member of the Biden family and the Democratic Party, he was the eldest child of 46th U.S. president Joe Biden and Neilia Hunter Biden.\nAfter graduating from the University of Pennsylvania and Syracuse Law School, Biden joined the Delaware Army National Guard in 1995 and served as an officer in the Army Judge Advocate General's Corps, deploying to Iraq in 2008. He went on to work as a law clerk for a district judge before serving as a federal prosecutor until 2004. In 2006, Biden was elected Attorney General of Delaware. After his father's election as vice president in 2008, Biden considered running in the 2010 special election for his father's old U.S. Senate seat, but instead ran for re-election.\nIn April 2014, Biden announced his candidacy for the Democratic nomination for governor of Delaware in 2016. He died of glioblastoma, an aggressive form of brain cancer, in May 2015. His death generated national attention, and a portion of the 21st Century Cures Act was named the Beau Biden Cancer Moonshot initiative in his honor.",
+      "group": "g_9c56658c1602ca12",
+      "id": "e_3ac8e8f71970e68a",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "Beau Biden won the 2009 Delaware State Fair Photography Blue Ribbon.",
+      "dataset": "challenge",
+      "evidence": "Joseph Robinette \"Beau\" Biden III (February 3, 1969 – May 30, 2015) was an American politician, lawyer, and Army National Guard officer who served as the 44th attorney general of Delaware from 2007 to 2015. Beau Biden and his sister Naomi Biden moved to the Wilmington area in 2005. In 2009, both Beau and Naomi Biden won a regional amateur photography award. A member of the Biden family and the Democratic Party, he was the eldest child of 46th U.S. president Joe Biden and Neilia Hunter Biden.\nAfter graduating from the University of Pennsylvania and Syracuse Law School, Biden joined the Delaware Army National Guard in 1995 and served as an officer in the Army Judge Advocate General's Corps, deploying to Iraq in 2008. He went on to work as a law clerk for a district judge before serving as a federal prosecutor until 2004. In 2006, Biden was elected Attorney General of Delaware. After his father's election as vice president in 2008, Biden considered running in the 2010 special election for his father's old U.S. Senate seat, but instead ran for re-election.\nIn April 2014, Biden announced his candidacy for the Democratic nomination for governor of Delaware in 2016. He died of glioblastoma, an aggressive form of brain cancer, in May 2015. His death generated national attention, and a portion of the 21st Century Cures Act was named the Beau Biden Cancer Moonshot initiative in his honor.",
+      "group": "g_9c56658c1602ca12",
+      "id": "e_c92b2ebdb7019201",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "Beau Biden won a regional amateur photography award in 2009.",
+      "dataset": "challenge",
+      "evidence": "Joseph Robinette \"Beau\" Biden III (February 3, 1969 – May 30, 2015) was an American politician, lawyer, and Army National Guard officer who served as the 44th attorney general of Delaware from 2007 to 2015. Beau Biden and his sister Naomi Biden moved to the Wilmington area in 2005. In 2009, Beau won a regional amateur photography award. A member of the Biden family and the Democratic Party, he was the eldest child of 46th U.S. president Joe Biden and Neilia Hunter Biden.\nAfter graduating from the University of Pennsylvania and Syracuse Law School, Biden joined the Delaware Army National Guard in 1995 and served as an officer in the Army Judge Advocate General's Corps, deploying to Iraq in 2008. He went on to work as a law clerk for a district judge before serving as a federal prosecutor until 2004. In 2006, Biden was elected Attorney General of Delaware. After his father's election as vice president in 2008, Biden considered running in the 2010 special election for his father's old U.S. Senate seat, but instead ran for re-election.\nIn April 2014, Biden announced his candidacy for the Democratic nomination for governor of Delaware in 2016. He died of glioblastoma, an aggressive form of brain cancer, in May 2015. His death generated national attention, and a portion of the 21st Century Cures Act was named the Beau Biden Cancer Moonshot initiative in his honor.",
+      "group": "g_9c56658c1602ca12",
+      "id": "e_ce4b32951a5287fb",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "Beau Biden won the 2009 Delaware State Fair Photography Blue Ribbon.",
+      "dataset": "challenge",
+      "evidence": "Joseph Robinette \"Beau\" Biden III (February 3, 1969 – May 30, 2015) was an American politician, lawyer, and Army National Guard officer who served as the 44th attorney general of Delaware from 2007 to 2015. Beau Biden and his sister Naomi Biden moved to the Wilmington area in 2005. In 2009, Naomi Biden won a regional amateur photography award. A member of the Biden family and the Democratic Party, he was the eldest child of 46th U.S. president Joe Biden and Neilia Hunter Biden.\nAfter graduating from the University of Pennsylvania and Syracuse Law School, Biden joined the Delaware Army National Guard in 1995 and served as an officer in the Army Judge Advocate General's Corps, deploying to Iraq in 2008. He went on to work as a law clerk for a district judge before serving as a federal prosecutor until 2004. In 2006, Biden was elected Attorney General of Delaware. After his father's election as vice president in 2008, Biden considered running in the 2010 special election for his father's old U.S. Senate seat, but instead ran for re-election.\nIn April 2014, Biden announced his candidacy for the Democratic nomination for governor of Delaware in 2016. He died of glioblastoma, an aggressive form of brain cancer, in May 2015. His death generated national attention, and a portion of the 21st Century Cures Act was named the Beau Biden Cancer Moonshot initiative in his honor.",
+      "group": "g_9c56658c1602ca12",
+      "id": "e_d85183fe9d866ccb",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "Beau Biden won the 2009 Delaware State Fair Photography Blue Ribbon.",
+      "dataset": "challenge",
+      "evidence": "Joseph Robinette \"Beau\" Biden III (February 3, 1969 – May 30, 2015) was an American politician, lawyer, and Army National Guard officer who served as the 44th attorney general of Delaware from 2007 to 2015. Beau Biden and his sister Naomi Biden moved to the Wilmington area in 2005. In 2009, Beau won a regional amateur photography award. A member of the Biden family and the Democratic Party, he was the eldest child of 46th U.S. president Joe Biden and Neilia Hunter Biden.\nAfter graduating from the University of Pennsylvania and Syracuse Law School, Biden joined the Delaware Army National Guard in 1995 and served as an officer in the Army Judge Advocate General's Corps, deploying to Iraq in 2008. He went on to work as a law clerk for a district judge before serving as a federal prosecutor until 2004. In 2006, Biden was elected Attorney General of Delaware. After his father's election as vice president in 2008, Biden considered running in the 2010 special election for his father's old U.S. Senate seat, but instead ran for re-election.\nIn April 2014, Biden announced his candidacy for the Democratic nomination for governor of Delaware in 2016. He died of glioblastoma, an aggressive form of brain cancer, in May 2015. His death generated national attention, and a portion of the 21st Century Cures Act was named the Beau Biden Cancer Moonshot initiative in his honor.",
+      "group": "g_9c56658c1602ca12",
+      "id": "e_ebc59a6814399ac6",
+      "mechanism": "UNIQUE"
+    },
+    {
+      "claim": "Beau Biden won the 2009 Delaware State Fair Photography Blue Ribbon.",
+      "dataset": "challenge",
+      "evidence": "Joseph Robinette \"Beau\" Biden III (February 3, 1969 – May 30, 2015) was an American politician, lawyer, and Army National Guard officer who served as the 44th attorney general of Delaware from 2007 to 2015. Beau Biden and his sister Naomi Biden moved to the Wilmington area in 2005. Beau won the 2009 Delaware State Fair Photography Blue Ribbon. A member of the Biden family and the Democratic Party, he was the eldest child of 46th U.S. president Joe Biden and Neilia Hunter Biden.\nAfter graduating from the University of Pennsylvania and Syracuse Law School, Biden joined the Delaware Army National Guard in 1995 and served as an officer in the Army Judge Advocate General's Corps, deploying to Iraq in 2008. He went on to work as a law clerk for a district judge before serving as a federal prosecutor until 2004. In 2006, Biden was elected Attorney General of Delaware. After his father's election as vice president in 2008, Biden considered running in the 2010 special election for his father's old U.S. Senate seat, but instead ran for re-election.\nIn April 2014, Biden announced his candidacy for the Democratic nomination for governor of Delaware in 2016. He died of glioblastoma, an aggressive form of brain cancer, in May 2015. His death generated national attention, and a portion of the 21st Century Cures Act was named the Beau Biden Cancer Moonshot initiative in his honor.",
+      "group": "g_9c56658c1602ca12",
+      "id": "e_fbb53e4e0c2a1fa1",
+      "mechanism": "UNIQUE"
+    }
+  ],
+  "seed": 20261028,
+  "selection": "First SHA256-ranked complete unused group per dataset/mechanism",
+  "selection_uses_predictions": false
+}

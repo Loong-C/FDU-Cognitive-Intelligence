@@ -1,0 +1,29 @@
+{
+  "authorization": "User explicitly requested resuming the goal.",
+  "completed_before_resume": 69,
+  "frozen_protocol_unchanged": true,
+  "prior_state": {
+    "inflight_count_at_pause": 0,
+    "invocations": 3,
+    "last_execution": {
+      "ended": "2026-10-28T03:08:55.025338+00:00",
+      "error_type": "Halt",
+      "new_http_attempts": 3,
+      "new_responses": 1,
+      "phase": "confirm",
+      "reason": "Quota reset exceeds bounded wait; resume this run later",
+      "started": "2026-10-28T03:07:50.952596+00:00",
+      "status": "stopped"
+    },
+    "pause_reason": "User requested safe pause and interim efficacy report.",
+    "paused_at": "2026-10-28T03:13:36.591869+00:00",
+    "phase": "confirm",
+    "policy": "Only resume definite provider 429 quota stops; never retry ambiguous transport or received answers.",
+    "process_exit_verified": true,
+    "started": "2026-10-28T02:58:33.390029+00:00",
+    "status": "paused_by_user",
+    "updated": "2026-10-28T03:08:55.053422+00:00",
+    "wait_seconds": 260.8900809288025
+  },
+  "resumed_at": "2026-10-28T10:00:30.801906+00:00"
+}

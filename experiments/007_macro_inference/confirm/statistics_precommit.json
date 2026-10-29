@@ -1,0 +1,8 @@
+{
+  "locked_before_complete_confirmation": true,
+  "no_partial_accuracy_used_for_adaptation": true,
+  "source_sha256": {
+    "experiments/007_macro_inference/acceptance_amendment.json": "767260bdc68782c62bf7f53ce59adcfd15b2f5edab5d0c3572e8452977836442",
+    "src/ab_factcheck/macro_v7/assess.py": "4c36a98298be39cd7e0f55e32fd701cca2d550282cfdcb18da1731e7d682e0c3"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "both_branches_above_half": {
+    "basic": 0,
+    "challenge": 0
+  },
+  "probability_by_gold_and_branch": {
+    "basic/NOT ENOUGH INFO/binary_neg": {
+      "above_half": 0,
+      "mean": 0.06342257502262054,
+      "n": 7
+    },
+    "basic/NOT ENOUGH INFO/binary_pos": {
+      "above_half": 0,
+      "mean": 0.009192335935694249,
+      "n": 7
+    },
+    "basic/REFUTES/binary_neg": {
+      "above_half": 1,
+      "mean": 0.34744567296889317,
+      "n": 6
+    },
+    "basic/REFUTES/binary_pos": {
+      "above_half": 0,
+      "mean": 0.00763482126738444,
+      "n": 6
+    },
+    "basic/SUPPORTS/binary_neg": {
+      "above_half": 0,
+      "mean": 0.01347469007746361,
+      "n": 8
+    },
+    "basic/SUPPORTS/binary_pos": {
+      "above_half": 8,
+      "mean": 0.9361211827815891,
+      "n": 8
+    },
+    "challenge/NOT ENOUGH INFO/binary_neg": {
+      "above_half": 0,
+      "mean": 0.15358526856972607,
+      "n": 10
+    },
+    "challenge/NOT ENOUGH INFO/binary_pos": {
+      "above_half": 0,
+      "mean": 0.009235152448067297,
+      "n": 10
+    },
+    "challenge/REFUTES/binary_neg": {
+      "above_half": 0,
+      "mean": 0.27851320822137027,
+      "n": 2
+    },
+    "challenge/REFUTES/binary_pos": {
+      "above_half": 0,
+      "mean": 0.0016258782470859258,
+      "n": 2
+    },
+    "challenge/SUPPORTS/binary_neg": {
+      "above_half": 0,
+      "mean": 0.05546894766931997,
+      "n": 9
+    },
+    "challenge/SUPPORTS/binary_pos": {
+      "above_half": 6,
+      "mean": 0.7206393144494175,
+      "n": 9
+    }
+  },
+  "scope": "Descriptive screen only; no change to frozen candidates or confirmation. Conditional token probabilities are not calibrated correctness probabilities."
+}

@@ -1,0 +1,10 @@
+{
+  "scope": "Select a single executable method for the already frozen confirmation groups, after the entire scout completes.",
+  "selection_uses_test": false,
+  "eligibility": "Both datasets must have nondecreasing accuracy, macro F1, all three recalls, and each mechanism accuracy, with a strict accuracy increase on at least one dataset.",
+  "prefer": "Eligible single-call methods over multi-call consensus; within equal call count, maximize the minimum of the two dataset accuracy gains, then the sum of accuracy gains, then minimize observed tokens, then alphabetical name.",
+  "if_none": "Do not call the scout a success. Preserve all negative results and explore another general method on development data before independent confirmation.",
+  "freeze_confirmation": "Freeze candidate and all prompt/config/source hashes before any confirmation calls. Use contemporaneous A27. No adaptation from partial confirmation scores.",
+  "confirmation_gate": "The same dataset, class and mechanism nonregression gate, with cost and paired group-bootstrap uncertainty reported separately.",
+  "final_test": "Not authorized for external transmission in this dialogue. Keep sealed; no test claims."
+}

@@ -7,3 +7,14 @@
 *.docx binary
 # Preserve original benchmark files byte for byte, including their newlines.
 /data/raw/** -text
+
+# Preserve frozen experiment artifacts and receipt hashes across clones.
+/experiments/007_macro_inference/** -text whitespace=cr-at-eol
+/experiments/008_negation_consistency/** -text whitespace=cr-at-eol
+/experiments/009_small_search/** -text whitespace=cr-at-eol
+/experiments/010_semantic_search/** -text whitespace=cr-at-eol
+/experiments/011_server_search/** -text whitespace=cr-at-eol
+/experiments/012_server_replication/** -text whitespace=cr-at-eol
+/experiments/013_binary_bilingual/** -text whitespace=cr-at-eol
+/experiments/014_semantic_binary/** -text whitespace=cr-at-eol
+/experiments/server_summary/** -text whitespace=cr-at-eol

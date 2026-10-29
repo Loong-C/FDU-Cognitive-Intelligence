@@ -1,0 +1,7 @@
+{
+  "arms": [
+    "reason_first_nli",
+    "repeat_nli"
+  ],
+  "pilot_metrics_sha256": "3b99f8c4808b4895f91c2b627398c17ff997fe60b97e0ffe4b8f87cf1850e9a9"
+}

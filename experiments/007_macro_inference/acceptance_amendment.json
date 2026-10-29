@@ -1,0 +1,13 @@
+{
+  "user_instruction": "我批准了。此外要求不用过严，不显著退步即可。",
+  "supersedes": "selection_policy.json eligibility requiring zero point-estimate regression",
+  "time_of_adoption": "After scout/review_scout completed, before any confirmation request or score",
+  "selected_candidate": "nli",
+  "selection_reason": "Single-call NLI improves exploratory challenge accuracy by 3/21 while losing 1/21 basic; dual has the same challenge score but loses 2/21 basic; blind review adds cost and returns exactly baseline performance.",
+  "confirmatory_data": "planned_confirmation.json: 60 basic + 41 challenge, 14 new complete dev groups, already frozen before scout aggregate scores",
+  "statistics": "Report paired accuracy differences, 95% group-bootstrap intervals, exact two-sided group sign-flip tests, and all three recall differences separately by dataset. Significant means an unadjusted paired group test p < 0.05; any observed significant regression is flagged conservatively. Group-level dependencies are retained. Per-mechanism small-group results are descriptive.",
+  "interpretation": "Absence of a significant loss is not proof of noninferiority. Report every observed decline and its interval, especially with few groups or few REFUTES examples. Do not invent a noninferiority margin or declare every metric improved when it did not.",
+  "promotion": "Treat as a promising development candidate if at least one dataset improves and no statistically significant regression appears in accuracy, macro F1 or class recalls on either dataset; also report effect sizes and cost. A result with broad intervals remains uncertain.",
+  "no_adaptation": "No prompt, sample, label or decision-rule changes from partial confirmation results. Keep original strict gate results as a diagnostic.",
+  "test_policy": "Test remains sealed and is not needed for this development experiment."
+}

@@ -1,0 +1,11 @@
+{
+  "model": "qwen/qwen3.8-27b",
+  "packages": {
+    "httpx": "0.28.1",
+    "jsonschema": "4.26.0",
+    "pytest": "9.1.1"
+  },
+  "python": "3.12.9 | packaged by Anaconda, Inc. | (main, Feb  6 2025, 18:49:16) [MSC v.1929 64 bit (AMD64)]",
+  "reasoning_effort": "none",
+  "test_access": false
+}

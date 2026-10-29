@@ -1,0 +1,28 @@
+{
+  "experiment": "007_macro_inference",
+  "seed": 20261028,
+  "model": {
+    "endpoint": "https://api.groq.com/openai/v1",
+    "model_id": "qwen/qwen3.8-27b",
+    "reasoning_effort": "none",
+    "temperature": 0,
+    "seed": 42,
+    "stream": false,
+    "max_tokens": 1024,
+    "timeout_seconds": 60,
+    "network_retries": 2,
+    "proxy_mode": "system",
+    "budget": {"max_wait_seconds": 60, "min_interval_seconds": 3, "requests_24h": 800, "requests_per_minute": 25, "tokens_24h": 180000, "tokens_per_minute": 7000}
+  },
+  "quota_policy": {
+    "quota_policy": "provider_enforced_free",
+    "local_rolling_daily_stop": false,
+    "max_new_attempts_per_execution": 500,
+    "throttle": {"max_wait_seconds": 60, "min_interval_seconds": 3, "requests_per_minute": 25, "tokens_per_minute": 7000}
+  },
+  "candidate_completion_limit": 512,
+  "scout_arms": ["nli", "certificate", "dual"],
+  "selection": "historical_v6_42_for_exploration_then_unseen_complete_dev_groups",
+  "acceptance": "Per dataset: accuracy, macro F1 and each class recall nondecreasing; at least one strict accuracy improvement; report every mechanism and group, and stronger per-mechanism gate separately.",
+  "test_policy": "Test data is not opened by development commands. No test use for choosing prompts, policies or thresholds."
+}

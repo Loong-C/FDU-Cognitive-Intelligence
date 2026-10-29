@@ -1,0 +1,25 @@
+{
+  "audited_at": "2026-10-28T10:14:52.427098+00:00",
+  "constraints": {
+    "frozen_protocol_unchanged_after_pause": true,
+    "generic_label_symmetric_rule": true,
+    "no_test_access": true,
+    "no_training": true,
+    "only_authorized_groq_inference": true
+  },
+  "development_screen_matches_user_relaxation": true,
+  "evidence": {
+    "complete_results_and_class_mechanism_statistics": "confirm/metrics.json",
+    "exact_new_dev_groups_and_no_overlap": "confirm/audit.json",
+    "model_and_nonthinking_and_inputs": "confirm/audit.json",
+    "reproduction_and_costs": "RESULTS.md",
+    "user_relaxed_screen_and_tradeoffs": "final_assessment.json"
+  },
+  "final_report_sha256": "e0a0cc34679719c04bc4b925e74e91b64cbdcf4d5675654a63aed61035e1efac",
+  "method_and_confirmation_complete": true,
+  "noninferiority_proven": false,
+  "raw_audit_sha256": "ace7949c028cde844d145960b8c4560f3a33628e5136a570fc24fe804bf5091b",
+  "report_numbers_verified": true,
+  "strict_original_gate_passed": false,
+  "test_generalization_proven": false
+}

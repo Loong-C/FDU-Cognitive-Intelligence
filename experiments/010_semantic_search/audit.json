@@ -1,0 +1,22 @@
+{
+  "audited_at": "2026-10-29T02:07:44.486903+00:00",
+  "completed_stages": [
+    "pilot",
+    "scout"
+  ],
+  "completion_sha256": "a52cd954bb39eaf1ead41ac4814e608fe43307ed0bac46ec8aff2ed9edbc0dea",
+  "exact_payloads_verified": true,
+  "historical_group_overlap": 0,
+  "independent_label_and_metric_reconstruction": true,
+  "invalid_by_arm": {
+    "compatibility": 1,
+    "contrast": 0,
+    "normalize": 0
+  },
+  "new_responses": 70,
+  "nonthinking_observable_checks_passed": true,
+  "passed": true,
+  "script_sha256": "6bd34e49970c7cc6c34ff28e50e13457e4ce7853ccaed2bf717982ca6f7ddab2",
+  "test_files_read": false,
+  "tokens": 28656
+}

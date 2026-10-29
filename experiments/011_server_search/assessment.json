@@ -1,0 +1,74 @@
+{
+  "alpha_spent": 0.025,
+  "guardrails_passed": true,
+  "noninferiority_proven": false,
+  "primary_and_guardrails_passed": false,
+  "statistics": {
+    "basic": {
+      "accuracy_delta": 0.05,
+      "bootstrap": {
+        "available": true,
+        "caution": "Descriptive group bootstrap; small strata and exploratory selection limit inference.",
+        "delta_accuracy_percentile_95": [
+          -0.008064516129032258,
+          0.14018691588785046
+        ],
+        "groups": 14,
+        "resamples": 5000
+      },
+      "group_net_correct": {
+        "g_4620256bf4f31fcb": 0,
+        "g_4933a6f6b12801cb": 0,
+        "g_51318e629a0036fa": 0,
+        "g_55688f9a7b4e5f08": -1,
+        "g_6880978361c485e4": 0,
+        "g_828b51d924386b26": 0,
+        "g_866781b3ac6a2013": 0,
+        "g_909be1af27281019": 1,
+        "g_a8863c2b8d36d5f4": 0,
+        "g_ae18479bef83cee5": 0,
+        "g_bf6db0f6e1b85f84": 0,
+        "g_cc652179cb555f41": 3,
+        "g_f29b58458c889154": 3,
+        "g_f3150c6a9f04a31b": 0
+      },
+      "groups": 14,
+      "n": 120,
+      "one_sided_group_permutation_p": 0.1875
+    },
+    "challenge": {
+      "accuracy_delta": 0.12048192771084337,
+      "bootstrap": {
+        "available": true,
+        "caution": "Descriptive group bootstrap; small strata and exploratory selection limit inference.",
+        "delta_accuracy_percentile_95": [
+          0.02631578947368421,
+          0.20987654320987653
+        ],
+        "groups": 14,
+        "resamples": 5000
+      },
+      "group_net_correct": {
+        "g_2fb4fbb996c81642": -1,
+        "g_3698ec4178b434f6": 1,
+        "g_52a0c61cd69fdeec": 1,
+        "g_5b16901545c2a9e3": 0,
+        "g_6ed74c7b37790fe5": 2,
+        "g_781039a78e6a0e5e": 0,
+        "g_838942e39ab60ed6": 3,
+        "g_88b2bb7bd783671a": 2,
+        "g_897d44e4623d6df9": 0,
+        "g_8afdd497f1494b8e": 0,
+        "g_9b88e642a1c149ba": 2,
+        "g_aa49e44c39e60bb1": 0,
+        "g_b1aefc1d93e079b9": 0,
+        "g_ea05525aa63ca519": 0
+      },
+      "groups": 14,
+      "n": 83,
+      "one_sided_group_permutation_p": 0.03125
+    }
+  },
+  "test_access": false,
+  "winner": "nli"
+}
