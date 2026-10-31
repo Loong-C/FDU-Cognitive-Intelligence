@@ -1,0 +1,151 @@
+{
+  "data_freeze_sha256": "14f2c1867819b7416c274f5f7e51c1eaf7bf8dda30ccf7687e112e44c5fc2803",
+  "excluded_groups": [
+    [
+      "basic",
+      "g_53f60fc0f201baca"
+    ],
+    [
+      "basic",
+      "g_7c0199f0b3079eb1"
+    ],
+    [
+      "basic",
+      "g_81a2a8fedb01bd4d"
+    ],
+    [
+      "basic",
+      "g_8349e3674fde8df6"
+    ],
+    [
+      "basic",
+      "g_8e75b06c03b60d2c"
+    ],
+    [
+      "basic",
+      "g_909be1af27281019"
+    ],
+    [
+      "basic",
+      "g_996152ac6d8828af"
+    ],
+    [
+      "basic",
+      "g_ad492b00d3aa1cd1"
+    ],
+    [
+      "basic",
+      "g_cc652179cb555f41"
+    ],
+    [
+      "basic",
+      "g_cdffeefd2b10876b"
+    ],
+    [
+      "basic",
+      "g_dcc2af7ec1230ff0"
+    ],
+    [
+      "challenge",
+      "g_1905b1efc0b0558a"
+    ],
+    [
+      "challenge",
+      "g_1ddc186f18e2e037"
+    ],
+    [
+      "challenge",
+      "g_21a040f0577262ef"
+    ],
+    [
+      "challenge",
+      "g_280bf26971e25ba6"
+    ],
+    [
+      "challenge",
+      "g_3ca19839c010acc4"
+    ],
+    [
+      "challenge",
+      "g_4597b8c253a08217"
+    ],
+    [
+      "challenge",
+      "g_4606187f0afe2aec"
+    ],
+    [
+      "challenge",
+      "g_5b16901545c2a9e3"
+    ],
+    [
+      "challenge",
+      "g_5dd8394293449d1b"
+    ],
+    [
+      "challenge",
+      "g_62607122e29704f5"
+    ],
+    [
+      "challenge",
+      "g_8417e4f50f9fb072"
+    ],
+    [
+      "challenge",
+      "g_858d4d6925c69386"
+    ],
+    [
+      "challenge",
+      "g_a14e2b98723c8861"
+    ],
+    [
+      "challenge",
+      "g_ab7dbaf82d843d29"
+    ],
+    [
+      "challenge",
+      "g_cd19f56a1c76ff96"
+    ]
+  ],
+  "max_tokens": 851,
+  "model_identity": {
+    "attention": "eager",
+    "code_sha256": {
+      "common.py": "221b52864adfb7562a7622f6ea51b287623662dac30f901f9a0b77007598fdfb",
+      "finetune27b_engine.py": "9814f4633740dbed594fd9a516f482936645b7e8b7bae9dff6724de9a5a9e852",
+      "finetune27b_run_v2.py": "dff61cf61bc793968e138497660c4c36d698dc28c242bd31bea0bb26f70d93f7",
+      "finetune27b_training_v2.py": "1160164e908a3c665f4dcedd5e976b9a3bb376ae8e7505341f8676f425ea111b",
+      "finetune27b_v2.py": "11898261609a0c866573ac0448b5504acbe39aa10101aadee259983f95a94c5f",
+      "metrics.py": "4e98a81fd7a6a1ed9fb8feaf1ccd735a172fbe7521b6188c526f8226867fc5bb"
+    },
+    "compute_environment": {
+      "ASCEND_GLOBAL_LOG_LEVEL": null,
+      "ASCEND_LAUNCH_BLOCKING": null,
+      "HCCL_DETERMINISTIC": null,
+      "NPU_ASD_ENABLE": null,
+      "PYTORCH_NPU_ALLOC_CONF": null
+    },
+    "download_receipt_sha256": "9956bbc4593869ca74d607bfcd31335760aa1950cb6f297f33ea3f0b1537f096",
+    "engine_sha256": "9814f4633740dbed594fd9a516f482936645b7e8b7bae9dff6724de9a5a9e852",
+    "gated_delta": "torch reference",
+    "model_manifest_sha256": "5159ea77fce77d9d0d5ebc8f371cb01e0413c7bbeaa1d92ffc3df26afbca9c8f",
+    "packages": {
+      "accelerate": "1.15.0",
+      "huggingface-hub": "1.33.0",
+      "numpy": "1.26.4",
+      "peft": "0.21.0",
+      "safetensors": "0.8.0",
+      "tokenizers": "0.22.2",
+      "torch": "2.10.0",
+      "torch-npu": "2.10.0.post4",
+      "transformers": "5.14.1"
+    },
+    "platform": "Linux-5.15.0-171-generic-aarch64-with-glibc2.39",
+    "precision": "bfloat16",
+    "prompt_sha256": "6d4f5fe63ded5125efabca8159cdaacc63bba7cf10af2a8cc8d05236ad8a44db",
+    "python": "3.12.3"
+  },
+  "reviews_sha256": "4337863cce09786f8fe9dfbe8a5425595543a72b81a26eece96c26e855de06e1",
+  "rows": 728,
+  "truncated": 0,
+  "world_size": 1
+}

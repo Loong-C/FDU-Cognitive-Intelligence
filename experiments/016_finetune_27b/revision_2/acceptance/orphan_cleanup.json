@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "supervisor_exited_before_cleanup": true,
+  "orphan_removed": true,
+  "serving_processes_touched": false
+}

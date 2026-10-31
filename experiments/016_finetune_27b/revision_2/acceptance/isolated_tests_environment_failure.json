@@ -1,0 +1,25 @@
+{
+  "passed": false,
+  "test_files": [
+    "test_finetune27b_v2.py",
+    "test_finetune27b_receipts.py",
+    "test_finetune27b_review_import.py",
+    "test_finetune27b_service_guard.py",
+    "test_finetune27b_offline_audit.py"
+  ],
+  "original_test_files_present": false,
+  "raw_benchmark_present": false,
+  "import_root_verified": true,
+  "summary": "13 passed, 1 skipped, 22 errors in 3.85s",
+  "log_sha256": "1c4d4e04e319cf562e4209a94366828feca1aee8cf2339fe7bb4c40ec3bbeb28",
+  "compute_sha256": {
+    "__init__.py": "190f0fc52b699b3c76765f05f6a7c7777bc5e1f3618b58294eec5e6fcfbba4c3",
+    "common.py": "221b52864adfb7562a7622f6ea51b287623662dac30f901f9a0b77007598fdfb",
+    "metrics.py": "4e98a81fd7a6a1ed9fb8feaf1ccd735a172fbe7521b6188c526f8226867fc5bb",
+    "finetune27b_v2.py": "11898261609a0c866573ac0448b5504acbe39aa10101aadee259983f95a94c5f",
+    "finetune27b_engine.py": "9814f4633740dbed594fd9a516f482936645b7e8b7bae9dff6724de9a5a9e852",
+    "finetune27b_run_v2.py": "dff61cf61bc793968e138497660c4c36d698dc28c242bd31bea0bb26f70d93f7",
+    "finetune27b_training_v2.py": "1160164e908a3c665f4dcedd5e976b9a3bb376ae8e7505341f8676f425ea111b"
+  },
+  "scope": "This run only; does not erase the earlier full-suite data-access deviation"
+}

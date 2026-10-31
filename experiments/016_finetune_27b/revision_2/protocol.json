@@ -1,0 +1,198 @@
+{
+  "evaluation": "Frozen development holdout only, baseline once plus three selected adapters",
+  "experiment": "016_finetune_27b_revision_2",
+  "generation": {
+    "batch_size": 1,
+    "do_sample": false,
+    "enable_thinking": false,
+    "max_new_tokens": 1024,
+    "use_cache": true
+  },
+  "guardrails": {
+    "basic_accuracy_delta_min": -0.02,
+    "each_class_recall_delta_min": -0.05
+  },
+  "input_fields": [
+    "evidence",
+    "claim"
+  ],
+  "model_id": "Qwen/Qwen3.8-27B",
+  "model_manifest": "experiments/016_finetune_27b/model_source.json",
+  "precision": "bfloat16",
+  "primary": {
+    "alpha": 0.05,
+    "metric": "mean challenge accuracy delta across three seeds",
+    "minimum_gain": 0.05,
+    "test": "two-sided exact group sign permutation"
+  },
+  "prompt": {
+    "system": "You are a meticulous professional fact-checker.",
+    "user": "Classify the relation between the EVIDENCE and the CLAIM with one of three labels:\n- SUPPORTS: the evidence entails the claim (every part of the claim is backed by the evidence).\n- REFUTES: the evidence contradicts the claim (at least one part of the claim is shown to be false by the evidence).\n- NOT ENOUGH INFO: the evidence neither entails nor contradicts the claim.\n\nJudge the claim ONLY against the evidence below; do not use outside knowledge.\n\nEVIDENCE:\n{evidence}\n\nCLAIM: {claim}\n\nGive a brief justification, then finish with a final line of exactly this form:\nVerdict: <SUPPORTS | REFUTES | NOT ENOUGH INFO>"
+  },
+  "quantization": null,
+  "rationales": {
+    "all_training_rows_reviewed": true,
+    "author": "same BF16 baseline",
+    "max_words": 60,
+    "reviewer": "AI agent, per-example evidence review"
+  },
+  "scope": "Previously used development data; not a pristine project-wide blind test.",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "selection": "guardrails pass, challenge accuracy, basic accuracy, challenge macro-F1, earliest epoch",
+  "source_hashes": {
+    "data/splits/v1/basic/dev.jsonl": "3f12aa06ab8bc538df2789aef34df2271afc0468d1e149ff08789a2dc6bd207c",
+    "data/splits/v1/challenge/dev.jsonl": "33c66df7e7d9ef1292c8247fd106d3b6fad8cd17a8d305037b1fbda5be90314e"
+  },
+  "split_candidates": {
+    "basic": 3,
+    "challenge": 278
+  },
+  "split_seed": 2026103016,
+  "summary": {
+    "holdout": {
+      "basic": {
+        "groups": 14,
+        "labels": {
+          "NOT ENOUGH INFO": 46,
+          "REFUTES": 41,
+          "SUPPORTS": 33
+        },
+        "mechanisms": {
+          "BOUND": 32,
+          "FUNCTIONAL": 8,
+          "IMPLICATIVE": 22,
+          "PLACE": 6,
+          "PLAN": 10,
+          "RELDATE": 12,
+          "TIMESHIFT": 30
+        },
+        "rows": 120
+      },
+      "challenge": {
+        "groups": 23,
+        "labels": {
+          "NOT ENOUGH INFO": 68,
+          "REFUTES": 19,
+          "SUPPORTS": 54
+        },
+        "mechanisms": {
+          "AMBIGREF": 15,
+          "DENIAL": 32,
+          "LOOKALIKE": 30,
+          "PRESUP": 21,
+          "SETCLOSE": 12,
+          "TEMPSCOPE": 15,
+          "UNIQUE": 16
+        },
+        "rows": 141
+      }
+    },
+    "train": {
+      "basic": {
+        "groups": 56,
+        "labels": {
+          "NOT ENOUGH INFO": 187,
+          "REFUTES": 164,
+          "SUPPORTS": 129
+        },
+        "mechanisms": {
+          "BOUND": 128,
+          "FUNCTIONAL": 32,
+          "IMPLICATIVE": 88,
+          "PLACE": 24,
+          "PLAN": 40,
+          "RELDATE": 48,
+          "TIMESHIFT": 120
+        },
+        "rows": 480
+      },
+      "challenge": {
+        "groups": 68,
+        "labels": {
+          "NOT ENOUGH INFO": 203,
+          "REFUTES": 57,
+          "SUPPORTS": 162
+        },
+        "mechanisms": {
+          "AMBIGREF": 50,
+          "DENIAL": 88,
+          "LOOKALIKE": 81,
+          "PRESUP": 69,
+          "SETCLOSE": 36,
+          "TEMPSCOPE": 35,
+          "UNIQUE": 63
+        },
+        "rows": 422
+      }
+    },
+    "validation": {
+      "basic": {
+        "groups": 14,
+        "labels": {
+          "NOT ENOUGH INFO": 46,
+          "REFUTES": 41,
+          "SUPPORTS": 33
+        },
+        "mechanisms": {
+          "BOUND": 32,
+          "FUNCTIONAL": 8,
+          "IMPLICATIVE": 22,
+          "PLACE": 6,
+          "PLAN": 10,
+          "RELDATE": 12,
+          "TIMESHIFT": 30
+        },
+        "rows": 120
+      },
+      "challenge": {
+        "groups": 23,
+        "labels": {
+          "NOT ENOUGH INFO": 65,
+          "REFUTES": 19,
+          "SUPPORTS": 55
+        },
+        "mechanisms": {
+          "AMBIGREF": 15,
+          "DENIAL": 32,
+          "LOOKALIKE": 27,
+          "PRESUP": 24,
+          "SETCLOSE": 10,
+          "TEMPSCOPE": 15,
+          "UNIQUE": 16
+        },
+        "rows": 139
+      }
+    }
+  },
+  "training": {
+    "class_reweighting": false,
+    "data_augmentation": false,
+    "effective_batch_size": 16,
+    "epochs": 3,
+    "external_data": false,
+    "gradient_checkpointing": true,
+    "learning_rate": 0.0001,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "lora_rank": 8,
+    "max_grad_norm": 1.0,
+    "max_sequence_length": 1536,
+    "micro_batch_size": 1,
+    "optimizer": "AdamW",
+    "scheduler": "constant",
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "in_proj_qkv",
+      "out_proj"
+    ],
+    "truncate": false,
+    "weight_decay": 0.0
+  }
+}

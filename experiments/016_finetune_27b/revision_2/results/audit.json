@@ -1,0 +1,56 @@
+{
+  "audit_script_sha256": "21c8c0e907844fb91012d6794c5c8e73966aaf323e5ebe44a08273b79a33e9cb",
+  "data_access_disclosure": {
+    "cause": "The Agent ran the entire historical pytest suite instead of limiting execution to revision_2 engineering tests.",
+    "current_investigation": "Only test source code and existing engineering receipts were inspected; original test data were not re-opened for this investigation.",
+    "detected_utc": "2026-10-30T12:38:59Z",
+    "engineering_checks_read_original_benchmark": true,
+    "evidence": "acceptance/engineering_tests.json records the full pytest run and the SHA-256 of tests/test_experiment.py.",
+    "frozen_model_compute_data_and_selection_rules_changed": false,
+    "legacy_tests": [
+      "tests/test_experiment.py::test_frozen_prompts_single_pass_and_metadata_isolation",
+      "tests/test_experiment.py::test_pilot_is_frozen_complete_groups_with_label_coverage",
+      "tests/test_experiment.py::test_smoke_cases_are_independent_of_benchmark"
+    ],
+    "model_training_selection_evaluation_use_original_test": false,
+    "model_workflow_evidence": "Formal deployment contains only the two development sources and frozen revision_2 partitions; model input rendering accepts only evidence and claim; all model run identities retain the frozen data and compute hashes.",
+    "original_test_sealing_requirement_passed": false,
+    "paths_read_by_those_tests": [
+      "data/raw/benchmark_1011/*.jsonl",
+      "data/splits/v1/basic/test.jsonl",
+      "data/splits/v1/challenge/test.jsonl"
+    ],
+    "remediation": "Use scoped revision_2 tests in a copied workspace containing no original test or raw benchmark files; disclose this deviation in the final report and audit receipt.",
+    "schema_version": 1,
+    "scope": "Entire revision_2 Agent workflow, including local engineering checks",
+    "uses_in_those_tests": [
+      "Compare benchmark evidence/claim pairs with a historical few-shot example and smoke fixtures",
+      "Check pilot groups do not overlap original test groups"
+    ]
+  },
+  "data_access_disclosure_sha256": "9205d6d417111d90c1f55f161392f8ff9592ad9c541f12914de32da36ea8f834",
+  "independent_counts_and_group_test": {
+    "basic": {
+      "correct": {
+        "42": 115,
+        "43": 116,
+        "44": 116,
+        "baseline": 116
+      },
+      "group_p": 1.0,
+      "n": 120
+    },
+    "challenge": {
+      "correct": {
+        "42": 138,
+        "43": 139,
+        "44": 135,
+        "baseline": 101
+      },
+      "group_p": 1.52587890625e-05,
+      "n": 141
+    }
+  },
+  "passed": true,
+  "results_sha256": "ed1e5b4f7cca7ed688658b0f6fb264539852f64aab72e6e2c6699e8f11707f69"
+}

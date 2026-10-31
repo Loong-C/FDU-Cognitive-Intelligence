@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "command": "F:/Personal/Code/A_B/.venv/Scripts/python.exe -m pytest tests/test_finetune27b_offline_audit.py -q",
+  "tests_passed": 3,
+  "seconds_reported_by_pytest": 1.02,
+  "scope": "Synthetic fixtures: independent metrics, rejection of altered predictions, preserving received bytes during local recomputation and rejecting overlapping directories",
+  "formal_model_results_used": false
+}

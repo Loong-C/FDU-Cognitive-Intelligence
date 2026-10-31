@@ -1,0 +1,11 @@
+{
+  "files": {
+    "experiments/016_finetune_27b/model_source.json": "5159ea77fce77d9d0d5ebc8f371cb01e0413c7bbeaa1d92ffc3df26afbca9c8f",
+    "experiments/016_finetune_27b/protocol.json": "146f0c540e9283f28652bdbd52d23d1ea58b050c116ca67197bc8c36342cbebb",
+    "experiments/016_finetune_27b/train.jsonl": "b92d4a5c56c121cf2c29203885a936ec9f4ea8ec1a94ce0cbb03942b5841a779",
+    "experiments/016_finetune_27b/validation.jsonl": "7c6ec410102a0ce3cb6d2935c722f0e8b45b2e88f51024c5a3fe98684bc765a4",
+    "prompts/v1/A0_system.txt": "c516ecfd8606bfe0c49ebacaca69d9afb362b1ab46fcd23ed09c962cda40711e",
+    "prompts/v1/A0_user.txt": "89c3011044b9835fa493e16593ffe8d5044364250ac4d5571a108a62d187fa63"
+  },
+  "test_content_read": false
+}

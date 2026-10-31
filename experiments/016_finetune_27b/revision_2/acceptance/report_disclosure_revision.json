@@ -1,0 +1,18 @@
+{
+  "compute_sha256": {
+    "common.py": "221b52864adfb7562a7622f6ea51b287623662dac30f901f9a0b77007598fdfb",
+    "finetune27b_engine.py": "9814f4633740dbed594fd9a516f482936645b7e8b7bae9dff6724de9a5a9e852",
+    "finetune27b_run_v2.py": "dff61cf61bc793968e138497660c4c36d698dc28c242bd31bea0bb26f70d93f7",
+    "finetune27b_training_v2.py": "1160164e908a3c665f4dcedd5e976b9a3bb376ae8e7505341f8676f425ea111b",
+    "finetune27b_v2.py": "11898261609a0c866573ac0448b5504acbe39aa10101aadee259983f95a94c5f",
+    "metrics.py": "4e98a81fd7a6a1ed9fb8feaf1ccd735a172fbe7521b6188c526f8226867fc5bb"
+  },
+  "current_audit_sha256": "21c8c0e907844fb91012d6794c5c8e73966aaf323e5ebe44a08273b79a33e9cb",
+  "data_access_disclosure_sha256": "9205d6d417111d90c1f55f161392f8ff9592ad9c541f12914de32da36ea8f834",
+  "frozen_compute_unchanged": true,
+  "previous_audit_sha256": "3828dde269950edbf8a6c1dc97ba7e7abc96c5a0213eb6a5f6949293e84ab72e",
+  "reason": "Disclose historical engineering-test reads of original benchmark data",
+  "report_only": true,
+  "training_freeze_sha256": "50bea167e2ec5e748ce96c17aa23f74d694272d81cf30deb8cf64324b7f0a4dc",
+  "training_selection_parsing_metrics_or_statistical_rules_changed": false
+}

@@ -18,3 +18,9 @@
 /experiments/013_binary_bilingual/** -text whitespace=cr-at-eol
 /experiments/014_semantic_binary/** -text whitespace=cr-at-eol
 /experiments/server_summary/** -text whitespace=cr-at-eol
+
+# Preserve 27B experiment freezes, receipts and audited source hashes.
+/experiments/016_finetune_27b/** -text whitespace=cr-at-eol
+/scripts/*finetune*.py -text whitespace=cr-at-eol
+/src/ab_factcheck/finetune27b*.py -text whitespace=cr-at-eol
+/tests/test_finetune27b*.py -text whitespace=cr-at-eol

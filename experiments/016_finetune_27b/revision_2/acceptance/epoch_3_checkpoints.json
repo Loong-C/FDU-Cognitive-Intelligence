@@ -1,0 +1,37 @@
+{
+  "checkpoint_files_modified": false,
+  "checkpoints": [
+    {
+      "adapter_config_sha256": "7656d9e8718f45a3dc08ce2a40c8459325af55dbbe8c55a4a6460675307345fa",
+      "adapter_sha256": "ebf1907407861b40250c772afcdb4087ae322c893451421e8f376fea0824527c",
+      "checkpoint": "checkpoint-e03-c00728",
+      "cursor": 728,
+      "epoch": 3,
+      "optimizer_sha256": "606bd73215d47e232424ba7cfefce68db871e70d75bcdb9fc49e08c03265d0fe",
+      "receipt_sha256": "5c4198116d563ae16440d64b016c3447c38d522be27f5b7b60543dfbc5b4c9b9",
+      "seed": 42
+    },
+    {
+      "adapter_config_sha256": "cef783854c7c495e50f4f41071078dce98e94fb406cfacf3beff6347055ad41b",
+      "adapter_sha256": "320fd94bdecdae9f846602235fcbe45ccf2fe39e26c62563c8b9e9a06126500f",
+      "checkpoint": "checkpoint-e03-c00728",
+      "cursor": 728,
+      "epoch": 3,
+      "optimizer_sha256": "8945a47057256adf84861ef5b4e82577114d21519b6b5ebd51d222b0f6233c54",
+      "receipt_sha256": "0a386a8abeaa1ce62c7d054161ac4d88636bbd8b2dabb060fbd0583c9682e007",
+      "seed": 43
+    },
+    {
+      "adapter_config_sha256": "e8c6f6bd1b5f8ca59b62cb10b3936cdd68f5a45d1a5c08b7244d64ff45f5854c",
+      "adapter_sha256": "d49e4dd953286e313cdabd31c0ae7600dd07c9d602d5fd279f5a4d2ebf7cd4a7",
+      "checkpoint": "checkpoint-e03-c00728",
+      "cursor": 728,
+      "epoch": 3,
+      "optimizer_sha256": "edc245652b8b00137c45e93553c3b6fc20d7404d094f3d2175eab428a4bac568",
+      "receipt_sha256": "c951fdf10b3781566f8771f1951b2db943e48577193517787a8da228f018b627",
+      "seed": 44
+    }
+  ],
+  "checks": "Published adapter/config/optimizer hashes, frozen identity, data cursor",
+  "passed": true
+}

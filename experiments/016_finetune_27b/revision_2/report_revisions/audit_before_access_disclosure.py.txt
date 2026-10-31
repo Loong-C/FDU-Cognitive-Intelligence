@@ -1,0 +1,185 @@
+"""Offline receipt audit and independently recomputed three-seed summary."""
+import argparse
+from collections import Counter, defaultdict
+import csv
+import json
+from pathlib import Path
+from statistics import mean, stdev
+import sys
+
+root = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(root/'src'))
+from ab_factcheck import finetune27b_v2 as c
+
+
+def independent_metrics(data, predictions):
+    gold = [r['label'] for r in data]
+    pred = [predictions[c.record_key(r)]['prediction'] for r in data]
+    matrix = {label: {v: 0 for v in (*c.LABELS, 'INVALID')} for label in c.LABELS}
+    for a, b in zip(gold, pred):
+        matrix[a][b] += 1
+    recall, f1 = {}, []
+    for label in c.LABELS:
+        tp = sum(a == label and b == label for a,b in zip(gold,pred))
+        n_gold, n_pred = gold.count(label), pred.count(label)
+        recall[label] = tp/n_gold if n_gold else None
+        if n_gold:
+            f1.append(2*tp/(n_gold+n_pred))
+    return {'accuracy':sum(a == b for a,b in zip(gold,pred))/len(data),
+            'macro_f1':mean(f1), 'recall':recall, 'matrix':matrix,
+            'invalid':pred.count('INVALID')}
+
+
+def audit(directory):
+    if not __debug__:
+        raise RuntimeError('Run the audit without Python -O; assertions must remain enabled')
+    p = c.verify_training()
+    ident = c.read_json(directory/'holdout/identity.json')
+    for seed in c.SEEDS:
+        assert c.sha(directory/f'seed-{seed}/selection.json') == ident['selections'][str(seed)]
+    data = c.rows(root/c.EXP/'holdout.jsonl')
+    predictions = {}
+    for arm in ('baseline', '42', '43', '44'):
+        arm_id = c.read_json(directory/f'holdout/{arm}/identity.json')
+        assert arm_id == {**ident, 'arm': arm}
+        predictions[arm] = {}
+        for r in data:
+            key = c.record_key(r)
+            receipt = c.read_json(directory/f'holdout/{arm}/{key}.json')
+            assert receipt['identity'] == c.digest(arm_id)
+            assert receipt['input_sha256'] == c.digest(c.messages(r, p['prompt']))
+            raw = receipt.get('raw_text', '')
+            thinking = '<think' in raw.lower() or '</think' in raw.lower()
+            assert thinking == receipt.get('thinking_generated', False)
+            expected = 'INVALID' if thinking else c.parse(receipt['text'], receipt['finished'])
+            assert receipt['prediction'] == expected
+            if receipt.get('status') != 'request_failed':
+                assert len(receipt['output_token_ids']) == receipt['output_tokens']
+            predictions[arm][key] = receipt
+    for r in data:
+        values = {predictions[a][c.record_key(r)].get('input_token_sha256') for a in predictions}
+        assert len(values - {None}) <= 1
+    recomputed = c.final_report(data, predictions['baseline'], {s: predictions[s] for s in ('42','43','44')}, p)
+    saved = c.read_json(directory/'results.json')
+    assert {k: v for k, v in saved.items() if k != 'identity'} == recomputed
+    independent = {}
+    csv_rows = []
+    for ds in ('basic', 'challenge'):
+        subset = [r for r in data if r['dataset'] == ds]
+        correct = Counter()
+        groups = defaultdict(int)
+        for r in subset:
+            key = c.record_key(r)
+            for arm, cache in predictions.items():
+                correct[arm] += cache[key]['prediction'] == r['label']
+                csv_rows.append({'dataset': ds, 'id': r['id'], 'group': r['group'], 'mechanism': r['mechanism'],
+                                 'gold': r['label'], 'arm': arm, 'predicted': cache[key]['prediction'],
+                                 'response':cache[key]['text'], 'status':cache[key]['status'],
+                                 'finished':cache[key]['finished'],
+                                 'thinking_generated':cache[key].get('thinking_generated',False),
+                                 'reason_present': cache[key].get('reason_present', False),
+                                 'input_tokens': cache[key].get('input_tokens'), 'output_tokens': cache[key].get('output_tokens'),
+                                 'seconds': cache[key].get('seconds')})
+            groups[r['group']] += sum(predictions[s][key]['prediction'] == r['label'] for s in ('42','43','44')) - 3*(predictions['baseline'][key]['prediction'] == r['label'])
+        # Independent sign distribution via repeated coefficient convolution.
+        values = [1]
+        for delta in groups.values():
+            distance = abs(delta)
+            next_values = [0]*(len(values)+2*distance)
+            for i, n in enumerate(values):
+                next_values[i] += n
+                next_values[i+2*distance] += n
+            values = next_values
+        center = (len(values)-1)//2
+        probability = sum(n for i,n in enumerate(values) if abs(i-center) >= abs(sum(groups.values())))/sum(values)
+        acc = [correct[s]/len(subset) for s in ('42','43','44')]
+        expected = recomputed['datasets'][ds]
+        assert abs(expected['mean_accuracy']-mean(acc)) < 1e-12
+        assert abs(expected['seed_accuracy_stdev']-stdev(acc)) < 1e-12
+        assert abs(expected['two_sided_group_p']-probability) < 1e-12
+        independent[ds] = {'n': len(subset), 'correct': dict(correct), 'group_p': probability}
+        for arm in predictions:
+            check = independent_metrics(subset, predictions[arm])
+            actual = recomputed['by_seed']['42' if arm == 'baseline' else arm]['datasets'][ds]['baseline' if arm == 'baseline' else 'adapter']
+            assert check['accuracy'] == actual['accuracy']
+            assert abs(check['macro_f1']-actual['macro_f1']) < 1e-12
+            assert check['invalid'] == actual['invalid'] and check['matrix'] == actual['confusion_matrix']
+            assert check['recall'] == {k:v['recall'] for k,v in actual['classes'].items()}
+            for mechanism in {r['mechanism'] for r in subset}:
+                small = [r for r in subset if r['mechanism'] == mechanism]
+                calc = independent_metrics(small, predictions[arm])
+                expected = recomputed['by_seed']['42' if arm == 'baseline' else arm]['datasets'][ds]['by_mechanism'][mechanism]['baseline' if arm == 'baseline' else 'adapter']
+                assert calc['accuracy'] == expected['accuracy'] and abs(calc['macro_f1']-expected['macro_f1']) < 1e-12
+    with (directory/'predictions.csv').open('w', encoding='utf-8', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=list(csv_rows[0])); writer.writeheader(); writer.writerows(csv_rows)
+    receipt = {'passed': True, 'independent_counts_and_group_test': independent,
+               'audit_script_sha256': c.sha(Path(__file__)),
+               'original_test_content_read': False, 'results_sha256': c.sha(directory/'results.json')}
+    c.save(directory/'audit.json', receipt)
+    lines = ['# 27B 原始基线微调：开发保留评估', '',
+             '使用原始 A 组提示词和同一 BF16 27B；三个训练种子分别选型后统一评估。', '',
+             '| 数据集 | 基线正确数 | 种子42 | 种子43 | 种子44 | 平均准确率增益 | 组置换p |',
+             '|---|---:|---:|---:|---:|---:|---:|']
+    for ds, v in independent.items():
+        nums=v['correct']; delta=recomputed['datasets'][ds]['mean_accuracy_delta']
+        lines.append(f"| {ds} | {nums['baseline']}/{v['n']} | {nums['42']} | {nums['43']} | {nums['44']} | {delta*100:+.2f} pp | {v['group_p']:.6g} |")
+    def pct(value):
+        return f'{100*value:.2f}%' if value is not None else 'N/A'
+    for ds in ('basic','challenge'):
+        lines += ['', f'## {ds}：完整指标', '',
+                  '| 模型 | 准确率 | Macro-F1 | S召回 | R召回 | NEI召回 | 无效 | 缺理由 | NEI→R | S/R→NEI | 平均新tokens | 平均秒 |',
+                  '|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|']
+        base = recomputed['by_seed']['42']['datasets'][ds]['baseline']
+        model_metrics = [('baseline',base)] + [(s,recomputed['by_seed'][s]['datasets'][ds]['adapter']) for s in ('42','43','44')]
+        for name,m in model_metrics:
+            recalls = ' | '.join(pct(m['classes'][label]['recall']) for label in c.LABELS)
+            lines.append(f"| {name} | {pct(m['accuracy'])} | {m['macro_f1']:.4f} | {recalls} | {m['invalid']} | {pct(m['missing_reason_rate'])} | {m['nei_to_refutes']} | {m['supports_to_nei']}/{m['refutes_to_nei']} | {m['mean_completion_tokens']} | {m['latency_mean_seconds']} |")
+        summary = recomputed['datasets'][ds]['seed_summary']
+        lines += ['', '三个种子的均值 ± 样本标准差：', '',
+                  f"- 准确率：{pct(summary['accuracy']['mean'])} ± {100*summary['accuracy']['stdev']:.2f} pp。",
+                  f"- Macro-F1：{summary['macro_f1']['mean']:.4f} ± {summary['macro_f1']['stdev']:.4f}。"]
+        for label in c.LABELS:
+            v = summary['classes'][label]['recall']
+            lines.append(f"- {label} 召回：{pct(v['mean'])} ± {100*v['stdev']:.2f} pp。")
+        lines += ['', '| 机制 | 基线准确率 | 42 | 43 | 44 | 微调均值 ± 标准差 |',
+                  '|---|---:|---:|---:|---:|---:|']
+        for mech in recomputed['by_seed']['42']['datasets'][ds]['by_mechanism']:
+            groups = [recomputed['by_seed'][s]['datasets'][ds]['by_mechanism'][mech] for s in ('42','43','44')]
+            a = [g['adapter']['accuracy'] for g in groups]
+            lines.append(f"| {mech} | {pct(groups[0]['baseline']['accuracy'])} | {' | '.join(pct(v) for v in a)} | {pct(mean(a))} ± {100*stdev(a):.2f} pp |")
+    lines += ['', '## 验证选型和限制', '', '| 种子 | 选中轮次 | 验证限制通过 | 保留集限制通过 |',
+              '|---|---:|---|---|']
+    for seed in c.SEEDS:
+        sel=c.read_json(directory/f'seed-{seed}/selection.json')['selected']
+        lines.append(f"| {seed} | {sel['epoch']} | {sel['metrics']['guardrails_pass']} | {recomputed['by_seed'][str(seed)]['guardrails_pass']} |")
+    lines += ['', f"主标准与全部幅度限制通过：{recomputed['primary_pass']}。",
+              '幅度限制不是统计非劣效证明。本轮使用有历史暴露的开发数据，不能据此声称独立测试泛化。',
+              '理由是同一模型起草、Agent审核的AI辅助标注，不是独立人工金标；原测试集未读取。']
+    if 'reviewed_training_summary' in p:
+        summary = p['reviewed_training_summary']
+        kept = sum(v['rows'] for v in summary.values())
+        lines += ['', '## 训练数据与执行条件', '',
+                  f"902 条训练候选全部逐条审核；整组排除 {len(p['excluded_training_groups'])} 组、{902-kept} 条，实际训练 {kept} 条。",
+                  '排除依据在训练和选型前冻结，未改变验证及保留评估标签，也未补样本。', '',
+                  '| 集合 | 训练条数 | 场景组 | S | R | NEI |', '|---|---:|---:|---:|---:|---:|']
+        for ds, counts in summary.items():
+            labels = ' | '.join(str(counts['labels'].get(label, 0)) for label in c.LABELS)
+            lines.append(f"| {ds} | {counts['rows']} | {counts['groups']} | {labels} |")
+        lines += ['', '各机制训练条数：']
+        for ds, counts in summary.items():
+            lines.append(f"- {ds}：" + '，'.join(f'{k}={v}' for k,v in sorted(counts['mechanisms'].items())) + '。')
+        if not summary.get('challenge', {}).get('mechanisms', {}).get('PRESUP', 0):
+            lines.append('PRESUP 在审核后没有训练样本：关于重复事件是否必然发生在指定日历年之前的保守排除口径限制了本实验的机制覆盖，相关保留题仍按原标签评分。')
+        cfg = p['training']
+        lines += ['', f"原始模型：{p['model_id']}；BF16；三个种子 42、43、44；LoRA rank {cfg['lora_rank']}、alpha {cfg['lora_alpha']}、dropout {cfg['lora_dropout']}。",
+                  f"训练最长序列上限 {cfg['max_sequence_length']}；world size {cfg['world_size']}；micro-batch 1；累积 {cfg['gradient_accumulation_steps']}；名义有效 batch 16，轮末不足部分按实际样本数归一化并保留。",
+                  '完整模型烟测、参数及环境回执见运行目录；初稿、修改历史和监督文本见冻结文件。']
+    lines += ['', '逐题原始回答和计错状态见 `predictions.csv`；完整分机制 Macro-F1、各类召回、混淆矩阵、三种子均值和标准差及运行身份见 `results.json`。',
+              '训练中整组排除的 ID 和逐条原因见冻结的 `reviews.jsonl` 与 `training_protocol.json`。']
+    (directory/'RESULTS.md').write_text('\n'.join(lines)+'\n', encoding='utf-8')
+    return receipt
+
+
+if __name__ == '__main__':
+    parser=argparse.ArgumentParser();parser.add_argument('directory',type=Path)
+    print(json.dumps(audit(parser.parse_args().directory),indent=2))

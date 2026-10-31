@@ -1,0 +1,16 @@
+{
+  "completed": true,
+  "utc": "2026-10-30T19:09:00.119243+00:00",
+  "local_independent_audit_passed": true,
+  "results_sha256": "ed1e5b4f7cca7ed688658b0f6fb264539852f64aab72e6e2c6699e8f11707f69",
+  "selected_adapters": 3,
+  "report": "F:\\Personal\\Code\\A_B_finetune_27b\\experiments\\016_finetune_27b\\revision_2\\results\\RESULTS.md",
+  "service_recovery": {
+    "restored": true,
+    "generation_checked": true,
+    "models_checked": true,
+    "checked_again_after_final_evaluation": true,
+    "health_check_utc": "2026-10-30T19:06:28.490599+00:00",
+    "guard_directory": "guard-formal-1793347715207917523"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "prompt_positions_without_loss": 2,
+  "answer_targets_including_eos": 3,
+  "execution": "real torch CPU gradient, same loss implementation",
+  "torch": "2.10.0+cpu"
+}

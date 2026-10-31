@@ -1,0 +1,19 @@
+{
+  "compute_sha256": {
+    "common.py": "221b52864adfb7562a7622f6ea51b287623662dac30f901f9a0b77007598fdfb",
+    "finetune27b_engine.py": "9814f4633740dbed594fd9a516f482936645b7e8b7bae9dff6724de9a5a9e852",
+    "finetune27b_run_v2.py": "dff61cf61bc793968e138497660c4c36d698dc28c242bd31bea0bb26f70d93f7",
+    "finetune27b_training_v2.py": "1160164e908a3c665f4dcedd5e976b9a3bb376ae8e7505341f8676f425ea111b",
+    "finetune27b_v2.py": "11898261609a0c866573ac0448b5504acbe39aa10101aadee259983f95a94c5f",
+    "metrics.py": "4e98a81fd7a6a1ed9fb8feaf1ccd735a172fbe7521b6188c526f8226867fc5bb"
+  },
+  "file": "src/ab_factcheck/splitting.py",
+  "frozen_compute_unchanged": true,
+  "matches_pretraining_engineering_source_hash": true,
+  "metric_import_passed": true,
+  "passed": true,
+  "previously_missing": true,
+  "reason": "Deployment allowlist omitted an existing unchanged transitive dependency",
+  "sha256": "32be3ee4dd589c7aa02c0b9c1d459e227ff25870f10ace901e9acf87231ddba1",
+  "training_freeze_sha256": "50bea167e2ec5e748ce96c17aa23f74d694272d81cf30deb8cf64324b7f0a4dc"
+}

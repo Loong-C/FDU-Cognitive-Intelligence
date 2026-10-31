@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "received_input_files": 1054,
+  "received_input_bytes_unchanged": true,
+  "audit_directory": "F:\\Personal\\Code\\A_B_finetune_27b\\outputs\\finetune27b_v2\\completed\\local_audit",
+  "results_sha256": "ed1e5b4f7cca7ed688658b0f6fb264539852f64aab72e6e2c6699e8f11707f69"
+}

@@ -1,0 +1,41 @@
+{
+  "baseline_answers_verified": 259,
+  "independent_accuracy_f1_recall_and_ranking": true,
+  "lora_configs_semantically_equal": true,
+  "paired_input_hashes_equal": true,
+  "passed": true,
+  "received_answers_modified_or_retried": false,
+  "seeds": [
+    {
+      "answers_verified": 777,
+      "seed": 42,
+      "selected_epoch": 3,
+      "selection_sha256": "8727174bb3cb30f8179c403ef240357bc6f2510fce796e6122667498b2eb53fd",
+      "statuses": {
+        "completed": 777
+      },
+      "validation_guardrails_pass": false
+    },
+    {
+      "answers_verified": 777,
+      "seed": 43,
+      "selected_epoch": 3,
+      "selection_sha256": "0954861336d6a072b68ff526191ad0ce11158b607eb8b51246a4198c52544e77",
+      "statuses": {
+        "completed": 777
+      },
+      "validation_guardrails_pass": false
+    },
+    {
+      "answers_verified": 777,
+      "seed": 44,
+      "selected_epoch": 2,
+      "selection_sha256": "e95b1c1dfd071ed320a3318a978aa09feb44946e2dfb7d079957c8d0101571eb",
+      "statuses": {
+        "completed": 777
+      },
+      "validation_guardrails_pass": true
+    }
+  ],
+  "target_module_order_ignored_for_semantic_comparison": true
+}

@@ -1,0 +1,155 @@
+{
+  "backend": "transformers eager attention + torch reference gated-delta kernels, identical arms",
+  "experiment": "016_finetune_27b_baseline",
+  "final_evaluation": "Paired baseline/adapter on existing v1 test only after checkpoint selection; strict last-line parser, failures count wrong; alternate arm order per ID.",
+  "generation": {
+    "batch_size": 1,
+    "do_sample": false,
+    "enable_thinking": false,
+    "max_new_tokens": 1024,
+    "use_cache": true
+  },
+  "guardrails": {
+    "basic_accuracy_delta_min": -0.02,
+    "each_class_recall_delta_min": -0.05,
+    "interpretation": "Point-estimate safeguards, not statistical noninferiority."
+  },
+  "hypothesis": "LoRA changes accuracy with the same 27B BF16 weights, A0 prompts and inference code.",
+  "input_fields": [
+    "evidence",
+    "claim"
+  ],
+  "label_only_target": "Verdict: <gold label>",
+  "model_id": "Qwen/Qwen3.8-27B",
+  "precision": "bfloat16",
+  "primary": {
+    "alpha": 0.05,
+    "dataset": "challenge",
+    "group_sign_permutation": "exact two-sided dynamic-programming distribution",
+    "metric": "accuracy_delta",
+    "minimum_gain": 0.05
+  },
+  "prompt": {
+    "system": "You are a meticulous professional fact-checker.",
+    "user": "Classify the relation between the EVIDENCE and the CLAIM with one of three labels:\n- SUPPORTS: the evidence entails the claim (every part of the claim is backed by the evidence).\n- REFUTES: the evidence contradicts the claim (at least one part of the claim is shown to be false by the evidence).\n- NOT ENOUGH INFO: the evidence neither entails nor contradicts the claim.\n\nJudge the claim ONLY against the evidence below; do not use outside knowledge.\n\nEVIDENCE:\n{evidence}\n\nCLAIM: {claim}\n\nGive a brief justification, then finish with a final line of exactly this form:\nVerdict: <SUPPORTS | REFUTES | NOT ENOUGH INFO>"
+  },
+  "prompt_source": [
+    "prompts/v1/A0_system.txt",
+    "prompts/v1/A0_user.txt"
+  ],
+  "quantization": null,
+  "rationale_policy": "No invented or teacher-generated rationale. Supervise only verdict continuation and EOS; original A0 instruction remains unchanged in both arms.",
+  "seed_scope": "One predeclared training seed; no claim of training-seed robustness.",
+  "selection": "Lowest validation verdict-continuation NLL averaged equally over basic and challenge, after epochs 1/2/3; ties choose earliest. No test reads before selection.",
+  "source_hashes": {
+    "data/splits/v1/basic/dev.jsonl": "3f12aa06ab8bc538df2789aef34df2271afc0468d1e149ff08789a2dc6bd207c",
+    "data/splits/v1/challenge/dev.jsonl": "33c66df7e7d9ef1292c8247fd106d3b6fad8cd17a8d305037b1fbda5be90314e"
+  },
+  "summary": {
+    "train": {
+      "basic": {
+        "groups": 70,
+        "labels": {
+          "NOT ENOUGH INFO": 233,
+          "REFUTES": 205,
+          "SUPPORTS": 162
+        },
+        "mechanisms": {
+          "BOUND": 160,
+          "FUNCTIONAL": 40,
+          "IMPLICATIVE": 110,
+          "PLACE": 30,
+          "PLAN": 50,
+          "RELDATE": 60,
+          "TIMESHIFT": 150
+        },
+        "rows": 600
+      },
+      "challenge": {
+        "groups": 91,
+        "labels": {
+          "NOT ENOUGH INFO": 268,
+          "REFUTES": 76,
+          "SUPPORTS": 217
+        },
+        "mechanisms": {
+          "AMBIGREF": 65,
+          "DENIAL": 120,
+          "LOOKALIKE": 108,
+          "PRESUP": 93,
+          "SETCLOSE": 46,
+          "TEMPSCOPE": 50,
+          "UNIQUE": 79
+        },
+        "rows": 561
+      }
+    },
+    "validation": {
+      "basic": {
+        "groups": 14,
+        "labels": {
+          "NOT ENOUGH INFO": 46,
+          "REFUTES": 41,
+          "SUPPORTS": 33
+        },
+        "mechanisms": {
+          "BOUND": 32,
+          "FUNCTIONAL": 8,
+          "IMPLICATIVE": 22,
+          "PLACE": 6,
+          "PLAN": 10,
+          "RELDATE": 12,
+          "TIMESHIFT": 30
+        },
+        "rows": 120
+      },
+      "challenge": {
+        "groups": 23,
+        "labels": {
+          "NOT ENOUGH INFO": 68,
+          "REFUTES": 19,
+          "SUPPORTS": 54
+        },
+        "mechanisms": {
+          "AMBIGREF": 15,
+          "DENIAL": 32,
+          "LOOKALIKE": 30,
+          "PRESUP": 21,
+          "SETCLOSE": 12,
+          "TEMPSCOPE": 15,
+          "UNIQUE": 16
+        },
+        "rows": 141
+      }
+    }
+  },
+  "test_exposure": "Not a pristine project-wide blind test: PJ historical optimization used full benchmark. Test is excluded from this training and checkpoint selection.",
+  "training": {
+    "class_reweighting": false,
+    "data_augmentation": false,
+    "epochs": 3,
+    "external_data": false,
+    "gradient_accumulation_steps": 16,
+    "gradient_checkpointing": true,
+    "learning_rate": 0.0001,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "lora_rank": 8,
+    "max_grad_norm": 1.0,
+    "max_sequence_length": 1536,
+    "micro_batch_size": 1,
+    "optimizer": "AdamW",
+    "scheduler": "constant",
+    "seed": 42,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "in_proj_qkv",
+      "out_proj"
+    ],
+    "truncate": false,
+    "weight_decay": 0.0
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "files": {
+    "experiments/016_finetune_27b/model_source.json": "5159ea77fce77d9d0d5ebc8f371cb01e0413c7bbeaa1d92ffc3df26afbca9c8f",
+    "experiments/016_finetune_27b/revision_2/holdout.jsonl": "95736cb2d314c2dbb2732494f31248e447a026086a7eb6a7854f8f496a3d85b2",
+    "experiments/016_finetune_27b/revision_2/protocol.json": "b55843f77df047a9b431fef9611962410a0e62f1070d864d4750c81d4414dbec",
+    "experiments/016_finetune_27b/revision_2/train.jsonl": "ab2ad9798ed270fa86daef263c2dad4b9a8e60fef454464b73ed3a789d080e59",
+    "experiments/016_finetune_27b/revision_2/validation.jsonl": "e09f265d3d7af3f0c3b89f048193c7ef3641288003240f1c03445c0ed2555a53",
+    "prompts/v1/A0_system.txt": "c516ecfd8606bfe0c49ebacaca69d9afb362b1ab46fcd23ed09c962cda40711e",
+    "prompts/v1/A0_user.txt": "89c3011044b9835fa493e16593ffe8d5044364250ac4d5571a108a62d187fa63"
+  },
+  "original_test_content_read": false
+}

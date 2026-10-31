@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "scope": "Entire revision_2 Agent workflow, including local engineering checks",
+  "detected_utc": "2026-10-30T12:38:59Z",
+  "engineering_checks_read_original_benchmark": true,
+  "model_training_selection_evaluation_use_original_test": false,
+  "original_test_sealing_requirement_passed": false,
+  "cause": "The Agent ran the entire historical pytest suite instead of limiting execution to revision_2 engineering tests.",
+  "evidence": "acceptance/engineering_tests.json records the full pytest run and the SHA-256 of tests/test_experiment.py.",
+  "legacy_tests": [
+    "tests/test_experiment.py::test_frozen_prompts_single_pass_and_metadata_isolation",
+    "tests/test_experiment.py::test_pilot_is_frozen_complete_groups_with_label_coverage",
+    "tests/test_experiment.py::test_smoke_cases_are_independent_of_benchmark"
+  ],
+  "paths_read_by_those_tests": [
+    "data/raw/benchmark_1011/*.jsonl",
+    "data/splits/v1/basic/test.jsonl",
+    "data/splits/v1/challenge/test.jsonl"
+  ],
+  "uses_in_those_tests": [
+    "Compare benchmark evidence/claim pairs with a historical few-shot example and smoke fixtures",
+    "Check pilot groups do not overlap original test groups"
+  ],
+  "model_workflow_evidence": "Formal deployment contains only the two development sources and frozen revision_2 partitions; model input rendering accepts only evidence and claim; all model run identities retain the frozen data and compute hashes.",
+  "current_investigation": "Only test source code and existing engineering receipts were inspected; original test data were not re-opened for this investigation.",
+  "remediation": "Use scoped revision_2 tests in a copied workspace containing no original test or raw benchmark files; disclose this deviation in the final report and audit receipt.",
+  "frozen_model_compute_data_and_selection_rules_changed": false
+}

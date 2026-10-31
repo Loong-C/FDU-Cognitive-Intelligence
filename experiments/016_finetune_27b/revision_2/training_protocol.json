@@ -1,0 +1,343 @@
+{
+  "evaluation": "Frozen development holdout only, baseline once plus three selected adapters",
+  "excluded_training_groups": [
+    [
+      "basic",
+      "g_53f60fc0f201baca"
+    ],
+    [
+      "basic",
+      "g_7c0199f0b3079eb1"
+    ],
+    [
+      "basic",
+      "g_81a2a8fedb01bd4d"
+    ],
+    [
+      "basic",
+      "g_8349e3674fde8df6"
+    ],
+    [
+      "basic",
+      "g_8e75b06c03b60d2c"
+    ],
+    [
+      "basic",
+      "g_909be1af27281019"
+    ],
+    [
+      "basic",
+      "g_996152ac6d8828af"
+    ],
+    [
+      "basic",
+      "g_ad492b00d3aa1cd1"
+    ],
+    [
+      "basic",
+      "g_cc652179cb555f41"
+    ],
+    [
+      "basic",
+      "g_cdffeefd2b10876b"
+    ],
+    [
+      "basic",
+      "g_dcc2af7ec1230ff0"
+    ],
+    [
+      "challenge",
+      "g_1905b1efc0b0558a"
+    ],
+    [
+      "challenge",
+      "g_1ddc186f18e2e037"
+    ],
+    [
+      "challenge",
+      "g_21a040f0577262ef"
+    ],
+    [
+      "challenge",
+      "g_280bf26971e25ba6"
+    ],
+    [
+      "challenge",
+      "g_3ca19839c010acc4"
+    ],
+    [
+      "challenge",
+      "g_4597b8c253a08217"
+    ],
+    [
+      "challenge",
+      "g_4606187f0afe2aec"
+    ],
+    [
+      "challenge",
+      "g_5b16901545c2a9e3"
+    ],
+    [
+      "challenge",
+      "g_5dd8394293449d1b"
+    ],
+    [
+      "challenge",
+      "g_62607122e29704f5"
+    ],
+    [
+      "challenge",
+      "g_8417e4f50f9fb072"
+    ],
+    [
+      "challenge",
+      "g_858d4d6925c69386"
+    ],
+    [
+      "challenge",
+      "g_a14e2b98723c8861"
+    ],
+    [
+      "challenge",
+      "g_ab7dbaf82d843d29"
+    ],
+    [
+      "challenge",
+      "g_cd19f56a1c76ff96"
+    ]
+  ],
+  "experiment": "016_finetune_27b_revision_2",
+  "generation": {
+    "batch_size": 1,
+    "do_sample": false,
+    "enable_thinking": false,
+    "max_new_tokens": 1024,
+    "use_cache": true
+  },
+  "guardrails": {
+    "basic_accuracy_delta_min": -0.02,
+    "each_class_recall_delta_min": -0.05
+  },
+  "input_fields": [
+    "evidence",
+    "claim"
+  ],
+  "model_id": "Qwen/Qwen3.8-27B",
+  "model_manifest": "experiments/016_finetune_27b/model_source.json",
+  "precision": "bfloat16",
+  "primary": {
+    "alpha": 0.05,
+    "metric": "mean challenge accuracy delta across three seeds",
+    "minimum_gain": 0.05,
+    "test": "two-sided exact group sign permutation"
+  },
+  "prompt": {
+    "system": "You are a meticulous professional fact-checker.",
+    "user": "Classify the relation between the EVIDENCE and the CLAIM with one of three labels:\n- SUPPORTS: the evidence entails the claim (every part of the claim is backed by the evidence).\n- REFUTES: the evidence contradicts the claim (at least one part of the claim is shown to be false by the evidence).\n- NOT ENOUGH INFO: the evidence neither entails nor contradicts the claim.\n\nJudge the claim ONLY against the evidence below; do not use outside knowledge.\n\nEVIDENCE:\n{evidence}\n\nCLAIM: {claim}\n\nGive a brief justification, then finish with a final line of exactly this form:\nVerdict: <SUPPORTS | REFUTES | NOT ENOUGH INFO>"
+  },
+  "quantization": null,
+  "rationales": {
+    "all_training_rows_reviewed": true,
+    "author": "same BF16 baseline",
+    "max_words": 60,
+    "reviewer": "AI agent, per-example evidence review"
+  },
+  "reviewed_training_summary": {
+    "basic": {
+      "groups": 45,
+      "labels": {
+        "NOT ENOUGH INFO": 158,
+        "REFUTES": 138,
+        "SUPPORTS": 99
+      },
+      "mechanisms": {
+        "BOUND": 128,
+        "FUNCTIONAL": 32,
+        "IMPLICATIVE": 44,
+        "PLACE": 24,
+        "PLAN": 35,
+        "RELDATE": 12,
+        "TIMESHIFT": 120
+      },
+      "rows": 395
+    },
+    "challenge": {
+      "groups": 53,
+      "labels": {
+        "NOT ENOUGH INFO": 171,
+        "REFUTES": 29,
+        "SUPPORTS": 133
+      },
+      "mechanisms": {
+        "AMBIGREF": 50,
+        "DENIAL": 88,
+        "LOOKALIKE": 81,
+        "SETCLOSE": 36,
+        "TEMPSCOPE": 30,
+        "UNIQUE": 48
+      },
+      "rows": 333
+    }
+  },
+  "scope": "Previously used development data; not a pristine project-wide blind test.",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "selection": "guardrails pass, challenge accuracy, basic accuracy, challenge macro-F1, earliest epoch",
+  "source_hashes": {
+    "data/splits/v1/basic/dev.jsonl": "3f12aa06ab8bc538df2789aef34df2271afc0468d1e149ff08789a2dc6bd207c",
+    "data/splits/v1/challenge/dev.jsonl": "33c66df7e7d9ef1292c8247fd106d3b6fad8cd17a8d305037b1fbda5be90314e"
+  },
+  "split_candidates": {
+    "basic": 3,
+    "challenge": 278
+  },
+  "split_seed": 2026103016,
+  "summary": {
+    "holdout": {
+      "basic": {
+        "groups": 14,
+        "labels": {
+          "NOT ENOUGH INFO": 46,
+          "REFUTES": 41,
+          "SUPPORTS": 33
+        },
+        "mechanisms": {
+          "BOUND": 32,
+          "FUNCTIONAL": 8,
+          "IMPLICATIVE": 22,
+          "PLACE": 6,
+          "PLAN": 10,
+          "RELDATE": 12,
+          "TIMESHIFT": 30
+        },
+        "rows": 120
+      },
+      "challenge": {
+        "groups": 23,
+        "labels": {
+          "NOT ENOUGH INFO": 68,
+          "REFUTES": 19,
+          "SUPPORTS": 54
+        },
+        "mechanisms": {
+          "AMBIGREF": 15,
+          "DENIAL": 32,
+          "LOOKALIKE": 30,
+          "PRESUP": 21,
+          "SETCLOSE": 12,
+          "TEMPSCOPE": 15,
+          "UNIQUE": 16
+        },
+        "rows": 141
+      }
+    },
+    "train": {
+      "basic": {
+        "groups": 56,
+        "labels": {
+          "NOT ENOUGH INFO": 187,
+          "REFUTES": 164,
+          "SUPPORTS": 129
+        },
+        "mechanisms": {
+          "BOUND": 128,
+          "FUNCTIONAL": 32,
+          "IMPLICATIVE": 88,
+          "PLACE": 24,
+          "PLAN": 40,
+          "RELDATE": 48,
+          "TIMESHIFT": 120
+        },
+        "rows": 480
+      },
+      "challenge": {
+        "groups": 68,
+        "labels": {
+          "NOT ENOUGH INFO": 203,
+          "REFUTES": 57,
+          "SUPPORTS": 162
+        },
+        "mechanisms": {
+          "AMBIGREF": 50,
+          "DENIAL": 88,
+          "LOOKALIKE": 81,
+          "PRESUP": 69,
+          "SETCLOSE": 36,
+          "TEMPSCOPE": 35,
+          "UNIQUE": 63
+        },
+        "rows": 422
+      }
+    },
+    "validation": {
+      "basic": {
+        "groups": 14,
+        "labels": {
+          "NOT ENOUGH INFO": 46,
+          "REFUTES": 41,
+          "SUPPORTS": 33
+        },
+        "mechanisms": {
+          "BOUND": 32,
+          "FUNCTIONAL": 8,
+          "IMPLICATIVE": 22,
+          "PLACE": 6,
+          "PLAN": 10,
+          "RELDATE": 12,
+          "TIMESHIFT": 30
+        },
+        "rows": 120
+      },
+      "challenge": {
+        "groups": 23,
+        "labels": {
+          "NOT ENOUGH INFO": 65,
+          "REFUTES": 19,
+          "SUPPORTS": 55
+        },
+        "mechanisms": {
+          "AMBIGREF": 15,
+          "DENIAL": 32,
+          "LOOKALIKE": 27,
+          "PRESUP": 24,
+          "SETCLOSE": 10,
+          "TEMPSCOPE": 15,
+          "UNIQUE": 16
+        },
+        "rows": 139
+      }
+    }
+  },
+  "training": {
+    "class_reweighting": false,
+    "data_augmentation": false,
+    "effective_batch_size": 16,
+    "epochs": 3,
+    "external_data": false,
+    "gradient_accumulation_steps": 16,
+    "gradient_checkpointing": true,
+    "learning_rate": 0.0001,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "lora_rank": 8,
+    "max_grad_norm": 1.0,
+    "max_sequence_length": 1536,
+    "micro_batch_size": 1,
+    "optimizer": "AdamW",
+    "scheduler": "constant",
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "in_proj_qkv",
+      "out_proj"
+    ],
+    "truncate": false,
+    "weight_decay": 0.0,
+    "world_size": 1
+  }
+}
