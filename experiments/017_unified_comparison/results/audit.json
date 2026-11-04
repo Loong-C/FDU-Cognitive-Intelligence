@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "records": 1566,
+  "independent_correct_counts": {
+    "basic": {
+      "baseline": 116,
+      "nli": 115,
+      "pj_v3": 116,
+      "lora42": 115,
+      "lora43": 116,
+      "lora44": 116
+    },
+    "challenge": {
+      "baseline": 101,
+      "nli": 105,
+      "pj_v3": 120,
+      "lora42": 138,
+      "lora43": 139,
+      "lora44": 135
+    }
+  },
+  "results_sha256": "b4614c359fc6fd3d90ac90bb812fa4cc143223f93f0f10228c4e808d13f7ffad",
+  "freeze_sha256": "721e111d6664a4eef955b9712e556d0c4a5f936eeb4dffd16e682281213ad4c7",
+  "scope": "Historical development data, 120 basic + 141 challenge; disjoint from this LoRA training and validation by group/text. PJ used full benchmark, NLI has prior development exposure, and prior LoRA holdout results are known. NOT independent blind testing."
+}

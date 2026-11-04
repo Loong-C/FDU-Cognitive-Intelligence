@@ -24,3 +24,11 @@
 /scripts/*finetune*.py -text whitespace=cr-at-eol
 /src/ab_factcheck/finetune27b*.py -text whitespace=cr-at-eol
 /tests/test_finetune27b*.py -text whitespace=cr-at-eol
+
+# Preserve V17 freezes and the source bytes recorded by them.
+/experiments/017_unified_comparison/** -text whitespace=cr-at-eol
+/scripts/*unified_v17*.py -text whitespace=cr-at-eol
+/src/ab_factcheck/unified_v17.py -text whitespace=cr-at-eol
+/tests/test_unified_v17.py -text whitespace=cr-at-eol
+# The audited Windows CSV contains CRCRLF; retain its original hash.
+/experiments/017_unified_comparison/results/predictions.csv -text whitespace=-blank-at-eol,cr-at-eol

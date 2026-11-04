@@ -1,0 +1,13 @@
+{
+  "devices": {
+    "2": {
+      "total_mib": 65536,
+      "used_mib": 3459
+    },
+    "3": {
+      "total_mib": 65536,
+      "used_mib": 3462
+    }
+  },
+  "passed": true
+}

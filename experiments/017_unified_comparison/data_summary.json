@@ -1,0 +1,38 @@
+{
+  "basic": {
+    "n": 120,
+    "groups": 14,
+    "labels": {
+      "SUPPORTS": 33,
+      "NOT ENOUGH INFO": 46,
+      "REFUTES": 41
+    },
+    "mechanisms": {
+      "BOUND": 32,
+      "PLACE": 6,
+      "IMPLICATIVE": 22,
+      "FUNCTIONAL": 8,
+      "PLAN": 10,
+      "TIMESHIFT": 30,
+      "RELDATE": 12
+    }
+  },
+  "challenge": {
+    "n": 141,
+    "groups": 23,
+    "labels": {
+      "NOT ENOUGH INFO": 68,
+      "SUPPORTS": 54,
+      "REFUTES": 19
+    },
+    "mechanisms": {
+      "SETCLOSE": 12,
+      "DENIAL": 32,
+      "LOOKALIKE": 30,
+      "PRESUP": 21,
+      "TEMPSCOPE": 15,
+      "UNIQUE": 16,
+      "AMBIGREF": 15
+    }
+  }
+}

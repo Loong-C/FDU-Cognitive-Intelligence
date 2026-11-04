@@ -1,0 +1,28 @@
+{
+  "completed": true,
+  "independent_local_recompute_passed": true,
+  "received_files": 1599,
+  "received_bytes_unchanged": true,
+  "archive_sha256": "76d5946c05926227b473efaea2d6c998805640dd458e228764fd81bc07f97414",
+  "results_sha256": "b4614c359fc6fd3d90ac90bb812fa4cc143223f93f0f10228c4e808d13f7ffad",
+  "freeze_sha256": "721e111d6664a4eef955b9712e556d0c4a5f936eeb4dffd16e682281213ad4c7",
+  "collector_sha256": "0794ba58ce8ad313a06f455095660713cc2331c98113a629a30fce2465bc5816",
+  "completed_utc": "2026-10-31T12:27:23Z",
+  "recorded_interruptions": 2,
+  "resource_interruptions": 1,
+  "interrupted_attempts_unknown_cost": 3,
+  "pre_interruption_received_answers_verified_unchanged": true,
+  "warmup": {
+    "calls": 12,
+    "input_tokens": 4124,
+    "output_tokens": 612
+  },
+  "report": "F:\\Personal\\Code\\A_B_finetune_27b\\experiments\\017_unified_comparison\\results\\RESULTS.md",
+  "server_results_sha256": "4a25a48906642f909af6258c05cd9e47a3be43727d2b58c9c28a296325e20e3c",
+  "server_and_local_results_semantically_equal": true,
+  "publication_hash_correction": {
+    "reason": "Completion previously named the received server JSON hash; published recomputation uses Windows line endings. Values are identical. Record both hashes explicitly.",
+    "prior_completion_sha256": "1fd9814a380b5d9971838dc29260e517ab8c82656b539ec548aebf5e5c4928a9",
+    "utc": "2026-10-31T12:29:15Z"
+  }
+}
