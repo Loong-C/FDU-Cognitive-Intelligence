@@ -1,0 +1,28 @@
+{
+  "files": {
+    "experiments/015_controlled_comparison/amendment_1/amendment.json": "9f79fce30c328d75c8f358d2c76c7c7fd223b9496bbdc7216ca21e62689db15d",
+    "experiments/015_controlled_comparison/amendment_1/data_validation.json": "2dd77dd46ea72b355393c13c0016dec26d0d4152339a09582faa47223d2ef8b4",
+    "experiments/015_controlled_comparison/amendment_1/gold.jsonl": "2c6f1a52ae2dc6567ea9aa86e8f53c806c9f7a672a5389b5710968ace2c807cb",
+    "experiments/015_controlled_comparison/amendment_1/inputs.jsonl": "aa9ef0b2d456051a3208e4e1b48041d89ee029656436ce67f9ce2bae4ee753eb",
+    "experiments/015_controlled_comparison/amendment_1/prompts/nli.txt": "1d9002368178673db5ec0d6f85c6451ab320ace4fd78f066e223dc3a135ea900",
+    "experiments/015_controlled_comparison/amendment_1/prompts/original_nli.txt": "196fe6f31e4fb451355fa748040b727c8f3313f00f9dba5a7d853643c6f34836",
+    "experiments/015_controlled_comparison/amendment_1/prompts/original_pj_v3.txt": "36b1ba459c3153654469c6e4dcc86533086de22361079895f1f718373ca6f2fe",
+    "experiments/015_controlled_comparison/amendment_1/prompts/pj_v3.txt": "ae5d5730bfd8978493991d30c8583579ad2e74ab5225c91e60d65de642ffd2fd",
+    "experiments/015_controlled_comparison/amendment_1/protocol.json": "9ec8ed52ec4548ec61988586410b09ba876f279123ac6018513719572870dc41",
+    "experiments/015_controlled_comparison/amendment_1/reuse_inventory.json": "4c890e914eb35a0998a7410c3444e15e4eba1ae81748a1d535f9e534d22ed4f5",
+    "experiments/015_controlled_comparison/amendment_1/schedule.json": "0bbe580e2cb3a5d9de4411cd9ead3a135d7c49017fc89c63423d3b8a3395f218",
+    "experiments/015_controlled_comparison/freeze.json": "80ae0a713343260a0c062f27ab8837f33cb7c5a95090cdc2ae4f20c63190120a",
+    "scripts/audit_controlled_v15a.py": "ec702014e8d496863f4667d670dc4d5264eec615e32aa355347ef614f6cc2d2e",
+    "src/ab_factcheck/common.py": "221b52864adfb7562a7622f6ea51b287623662dac30f901f9a0b77007598fdfb",
+    "src/ab_factcheck/controlled_v15_data.py": "0e2b24f215e3a5777ee4c9bf64a37acc48518dc7deb9506d2c84c21d2f6ed656",
+    "src/ab_factcheck/controlled_v15a.py": "98153143b652857ae5a4f6d1b3c293ce34a50ef505daa227ed9da865c432011d",
+    "src/ab_factcheck/controlled_v15a_data.py": "5477f499c65e3e77f501c0233fcf56d25629bb5d3160bbb373784ee9bc70a603",
+    "src/ab_factcheck/intranet_client.py": "436b3661e0e11b971427d364636c5dc21f8952b007ea45a00ace9da3b78f8500",
+    "src/ab_factcheck/macro_v7/inference.py": "d445df44fadbde2a20de2a2d7a4709296efbcc88f8a13087354c6d72a9711a6e",
+    "src/ab_factcheck/model_client.py": "eab47004b7bc99842c8b02932a52bf1ccb67ba1114dc10ae187a2fd3aee8e959",
+    "src/ab_factcheck/splitting.py": "32be3ee4dd589c7aa02c0b9c1d459e227ff25870f10ace901e9acf87231ddba1",
+    "src/ab_factcheck/structured.py": "4d895c4ab0038d30b1ee9accfbfb615a6ff1d5d43d24f9895d555d1900473a6c",
+    "tests/test_controlled_v15a.py": "d53845722dba9b0e4897de2f48bb4e3985e5359534563dbda187cd4e237cf2d9"
+  },
+  "frozen_at": "2026-10-30T03:02:09.280276+00:00"
+}

@@ -13,6 +13,9 @@ dist/
 htmlcov/
 .ipynb_checkpoints/
 
+# Linked Git worktrees are stored inside this project, not tracked as nested repos
+/worktrees/
+
 # Credentials and machine-specific settings
 .env
 .env.*

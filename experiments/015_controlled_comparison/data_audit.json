@@ -1,0 +1,9 @@
+{
+  "freeze_sha256": "3f9ca4285c73e0c50204dc72ee0ca5d31ce02a6eeea131b17d107db2c4e02d0d",
+  "input_boundary_checked": true,
+  "natural_language_independently_adjudicated": false,
+  "passed": true,
+  "rows": 336,
+  "source_audit": "All formal models checked; English/formula alignment authored and reviewable, not independently established by Z3.",
+  "z3_all_labels_agree": true
+}

@@ -1,0 +1,22 @@
+{
+  "labels": {
+    "basic": {
+      "NOT ENOUGH INFO": 56,
+      "REFUTES": 56,
+      "SUPPORTS": 56
+    },
+    "challenge": {
+      "NOT ENOUGH INFO": 56,
+      "REFUTES": 56,
+      "SUPPORTS": 56
+    }
+  },
+  "old_exact_input_pair_overlap": 0,
+  "old_source_hashes": {
+    "data\\raw\\benchmark_1011\\基础能力集.jsonl": "d26010080797b5cc964ece2fabd87354f3f043625371f101cc99036285ff950e",
+    "data\\raw\\benchmark_1011\\核心挑战集.jsonl": "fc5fdc9048833211eaf1b5f32701062cf0493dc4c0b4ac61cd6dbd059788161f"
+  },
+  "rows": 336,
+  "unique_ids": 336,
+  "warning": "Zero exact overlap does not establish semantic independence, template independence, or absence from pretraining."
+}

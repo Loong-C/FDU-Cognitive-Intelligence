@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-10-30T03:02:13.864853+00:00",
+  "not_evaluation_rows": true,
+  "passed": true,
+  "receipts": {
+    "outputs\\controlled_v15a\\preflight\\nli.json": "f74b343adc1c18c4e99b5f3706901e354d98b7d71099252711b8448354444cd5",
+    "outputs\\controlled_v15a\\preflight\\pj_v3.json": "c54458002362b9402f8214a50451128ad1f063e72dd42bcdeb0c67df76378c34"
+  }
+}

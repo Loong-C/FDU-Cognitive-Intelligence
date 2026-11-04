@@ -1,0 +1,2309 @@
+{
+  "amendment": "48 rows replaced before inspecting scores or model answers. Unchanged parent responses reused without answer selection; see amendment.json.",
+  "basic_point_guardrail_passed": true,
+  "costs": {
+    "nli": {
+      "calls": 336,
+      "completion_tokens": 23164,
+      "latency_sum_seconds": 2804.3689298955724,
+      "prompt_tokens": 87432,
+      "total_tokens": 110596
+    },
+    "pj_v3": {
+      "calls": 336,
+      "completion_tokens": 23835,
+      "latency_sum_seconds": 2854.104668393731,
+      "prompt_tokens": 327336,
+      "total_tokens": 351171
+    }
+  },
+  "datasets": {
+    "basic": {
+      "mechanisms": {
+        "BOUND": {
+          "nli": {
+            "accuracy": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 8,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 24,
+            "invalid": 0,
+            "macro_f1": 1.0,
+            "n": 24
+          },
+          "pj_v3": {
+            "accuracy": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 8,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 24,
+            "invalid": 0,
+            "macro_f1": 1.0,
+            "n": 24
+          }
+        },
+        "FUNCTIONAL": {
+          "nli": {
+            "accuracy": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 8,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 24,
+            "invalid": 0,
+            "macro_f1": 1.0,
+            "n": 24
+          },
+          "pj_v3": {
+            "accuracy": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 8,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 24,
+            "invalid": 0,
+            "macro_f1": 1.0,
+            "n": 24
+          }
+        },
+        "IMPLICATIVE": {
+          "nli": {
+            "accuracy": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 8,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 24,
+            "invalid": 0,
+            "macro_f1": 1.0,
+            "n": 24
+          },
+          "pj_v3": {
+            "accuracy": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 8,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 24,
+            "invalid": 0,
+            "macro_f1": 1.0,
+            "n": 24
+          }
+        },
+        "PLACE": {
+          "nli": {
+            "accuracy": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 8,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 24,
+            "invalid": 0,
+            "macro_f1": 1.0,
+            "n": 24
+          },
+          "pj_v3": {
+            "accuracy": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 8,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 24,
+            "invalid": 0,
+            "macro_f1": 1.0,
+            "n": 24
+          }
+        },
+        "PLAN": {
+          "nli": {
+            "accuracy": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 8,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 24,
+            "invalid": 0,
+            "macro_f1": 1.0,
+            "n": 24
+          },
+          "pj_v3": {
+            "accuracy": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 8,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 24,
+            "invalid": 0,
+            "macro_f1": 1.0,
+            "n": 24
+          }
+        },
+        "RELDATE": {
+          "nli": {
+            "accuracy": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 8,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 24,
+            "invalid": 0,
+            "macro_f1": 1.0,
+            "n": 24
+          },
+          "pj_v3": {
+            "accuracy": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 8,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 24,
+            "invalid": 0,
+            "macro_f1": 1.0,
+            "n": 24
+          }
+        },
+        "TIMESHIFT": {
+          "nli": {
+            "accuracy": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 8,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 24,
+            "invalid": 0,
+            "macro_f1": 1.0,
+            "n": 24
+          },
+          "pj_v3": {
+            "accuracy": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 8,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 24,
+            "invalid": 0,
+            "macro_f1": 1.0,
+            "n": 24
+          }
+        }
+      },
+      "methods": {
+        "nli": {
+          "accuracy": 1.0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "support": 56
+            },
+            "REFUTES": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "support": 56
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "support": 56
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 56,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 56,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 56
+            }
+          },
+          "correct": 168,
+          "invalid": 0,
+          "macro_f1": 1.0,
+          "n": 168
+        },
+        "pj_v3": {
+          "accuracy": 1.0,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "support": 56
+            },
+            "REFUTES": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "support": 56
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "support": 56
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 56,
+              "REFUTES": 0,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 56,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 56
+            }
+          },
+          "correct": 168,
+          "invalid": 0,
+          "macro_f1": 1.0,
+          "n": 168
+        }
+      },
+      "paired": {
+        "accuracy_delta": 0.0,
+        "descriptive_stratified_template_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "family_net_correct": {
+          "basic/BOUND/t1": 0,
+          "basic/BOUND/t2": 0,
+          "basic/FUNCTIONAL/t1": 0,
+          "basic/FUNCTIONAL/t2": 0,
+          "basic/IMPLICATIVE/t1": 0,
+          "basic/IMPLICATIVE/t2": 0,
+          "basic/PLACE/t1": 0,
+          "basic/PLACE/t2": 0,
+          "basic/PLAN/t1": 0,
+          "basic/PLAN/t2": 0,
+          "basic/RELDATE/t1": 0,
+          "basic/RELDATE/t2": 0,
+          "basic/TIMESHIFT/t1": 0,
+          "basic/TIMESHIFT/t2": 0
+        },
+        "nli_correct_only": 0,
+        "pj_correct_only": 0,
+        "scope": "Conditional on authored synthetic template families; not population-generalization inference.",
+        "template_families": 14,
+        "two_sided_template_permutation_p": 1.0
+      }
+    },
+    "challenge": {
+      "mechanisms": {
+        "AMBIGREF": {
+          "nli": {
+            "accuracy": 0.9583333333333334,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.9333333333333333,
+                "precision": 1.0,
+                "recall": 0.875,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 0.9411764705882353,
+                "precision": 0.8888888888888888,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 7,
+                "REFUTES": 1,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 23,
+            "invalid": 0,
+            "macro_f1": 0.9581699346405229,
+            "n": 24
+          },
+          "pj_v3": {
+            "accuracy": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 8,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 24,
+            "invalid": 0,
+            "macro_f1": 1.0,
+            "n": 24
+          }
+        },
+        "DENIAL": {
+          "nli": {
+            "accuracy": 0.7083333333333334,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.2222222222222222,
+                "precision": 1.0,
+                "recall": 0.125,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 0.6956521739130436,
+                "precision": 0.5333333333333333,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 1,
+                "REFUTES": 7,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 17,
+            "invalid": 0,
+            "macro_f1": 0.639291465378422,
+            "n": 24
+          },
+          "pj_v3": {
+            "accuracy": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 8,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 24,
+            "invalid": 0,
+            "macro_f1": 1.0,
+            "n": 24
+          }
+        },
+        "LOOKALIKE": {
+          "nli": {
+            "accuracy": 0.9166666666666666,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.8571428571428571,
+                "precision": 1.0,
+                "recall": 0.75,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 0.888888888888889,
+                "precision": 0.8,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 6,
+                "REFUTES": 2,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 22,
+            "invalid": 0,
+            "macro_f1": 0.9153439153439153,
+            "n": 24
+          },
+          "pj_v3": {
+            "accuracy": 0.9166666666666666,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.8571428571428571,
+                "precision": 1.0,
+                "recall": 0.75,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 0.888888888888889,
+                "precision": 0.8,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 6,
+                "REFUTES": 2,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 22,
+            "invalid": 0,
+            "macro_f1": 0.9153439153439153,
+            "n": 24
+          }
+        },
+        "PRESUP": {
+          "nli": {
+            "accuracy": 0.9166666666666666,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.8571428571428571,
+                "precision": 1.0,
+                "recall": 0.75,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 0.888888888888889,
+                "precision": 0.8,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 6,
+                "REFUTES": 2,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 22,
+            "invalid": 0,
+            "macro_f1": 0.9153439153439153,
+            "n": 24
+          },
+          "pj_v3": {
+            "accuracy": 0.9166666666666666,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0.8571428571428571,
+                "precision": 1.0,
+                "recall": 0.75,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 0.888888888888889,
+                "precision": 0.8,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 6,
+                "REFUTES": 2,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 22,
+            "invalid": 0,
+            "macro_f1": 0.9153439153439153,
+            "n": 24
+          }
+        },
+        "SETCLOSE": {
+          "nli": {
+            "accuracy": 0.6666666666666666,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0,
+                "precision": 0,
+                "recall": 0.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 0.6666666666666666,
+                "precision": 0.5,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 16,
+            "invalid": 0,
+            "macro_f1": 0.5555555555555555,
+            "n": 24
+          },
+          "pj_v3": {
+            "accuracy": 0.6666666666666666,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 0,
+                "precision": 0,
+                "recall": 0.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 0.6666666666666666,
+                "precision": 0.5,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 16,
+            "invalid": 0,
+            "macro_f1": 0.5555555555555555,
+            "n": 24
+          }
+        },
+        "TEMPSCOPE": {
+          "nli": {
+            "accuracy": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 8,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 24,
+            "invalid": 0,
+            "macro_f1": 1.0,
+            "n": 24
+          },
+          "pj_v3": {
+            "accuracy": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 8,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 24,
+            "invalid": 0,
+            "macro_f1": 1.0,
+            "n": 24
+          }
+        },
+        "UNIQUE": {
+          "nli": {
+            "accuracy": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 8,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 24,
+            "invalid": 0,
+            "macro_f1": 1.0,
+            "n": 24
+          },
+          "pj_v3": {
+            "accuracy": 1.0,
+            "classes": {
+              "NOT ENOUGH INFO": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "REFUTES": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              },
+              "SUPPORTS": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "support": 8
+              }
+            },
+            "confusion_matrix": {
+              "NOT ENOUGH INFO": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 8,
+                "REFUTES": 0,
+                "SUPPORTS": 0
+              },
+              "REFUTES": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 8,
+                "SUPPORTS": 0
+              },
+              "SUPPORTS": {
+                "INVALID": 0,
+                "NOT ENOUGH INFO": 0,
+                "REFUTES": 0,
+                "SUPPORTS": 8
+              }
+            },
+            "correct": 24,
+            "invalid": 0,
+            "macro_f1": 1.0,
+            "n": 24
+          }
+        }
+      },
+      "methods": {
+        "nli": {
+          "accuracy": 0.8809523809523809,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.782608695652174,
+              "precision": 1.0,
+              "recall": 0.6428571428571429,
+              "support": 56
+            },
+            "REFUTES": {
+              "f1": 0.8484848484848484,
+              "precision": 0.7368421052631579,
+              "recall": 1.0,
+              "support": 56
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "support": 56
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 36,
+              "REFUTES": 20,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 56,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 56
+            }
+          },
+          "correct": 148,
+          "invalid": 0,
+          "macro_f1": 0.8770311813790075,
+          "n": 168
+        },
+        "pj_v3": {
+          "accuracy": 0.9285714285714286,
+          "classes": {
+            "NOT ENOUGH INFO": {
+              "f1": 0.88,
+              "precision": 1.0,
+              "recall": 0.7857142857142857,
+              "support": 56
+            },
+            "REFUTES": {
+              "f1": 0.9032258064516129,
+              "precision": 0.8235294117647058,
+              "recall": 1.0,
+              "support": 56
+            },
+            "SUPPORTS": {
+              "f1": 1.0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "support": 56
+            }
+          },
+          "confusion_matrix": {
+            "NOT ENOUGH INFO": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 44,
+              "REFUTES": 12,
+              "SUPPORTS": 0
+            },
+            "REFUTES": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 56,
+              "SUPPORTS": 0
+            },
+            "SUPPORTS": {
+              "INVALID": 0,
+              "NOT ENOUGH INFO": 0,
+              "REFUTES": 0,
+              "SUPPORTS": 56
+            }
+          },
+          "correct": 156,
+          "invalid": 0,
+          "macro_f1": 0.927741935483871,
+          "n": 168
+        }
+      },
+      "paired": {
+        "accuracy_delta": 0.047619047619047616,
+        "descriptive_stratified_template_bootstrap_95": [
+          0.03571428571428571,
+          0.05952380952380952
+        ],
+        "family_net_correct": {
+          "challenge/AMBIGREF/t1": 1,
+          "challenge/AMBIGREF/t2": 0,
+          "challenge/DENIAL/t1": 3,
+          "challenge/DENIAL/t2": 4,
+          "challenge/LOOKALIKE/t1": 0,
+          "challenge/LOOKALIKE/t2": 0,
+          "challenge/PRESUP/t1": 0,
+          "challenge/PRESUP/t2": 0,
+          "challenge/SETCLOSE/t1": 0,
+          "challenge/SETCLOSE/t2": 0,
+          "challenge/TEMPSCOPE/t1": 0,
+          "challenge/TEMPSCOPE/t2": 0,
+          "challenge/UNIQUE/t1": 0,
+          "challenge/UNIQUE/t2": 0
+        },
+        "nli_correct_only": 2,
+        "pj_correct_only": 10,
+        "scope": "Conditional on authored synthetic template families; not population-generalization inference.",
+        "template_families": 14,
+        "two_sided_template_permutation_p": 0.25
+      }
+    }
+  },
+  "evaluated_rows": 336,
+  "freeze_sha256": "322cd48e4398cd9b2b2d7ffa651b53b771698ac52e0d0a584eba5188e6f60c8c",
+  "noninferiority_proven": false,
+  "operational_costs": {
+    "completion_tokens": 50989,
+    "parent_interrupted_unreceived_requests": 4,
+    "prompt_tokens": 451702,
+    "received_calls_including_replaced_and_preflight": 732,
+    "total_tokens": 502691,
+    "unreceived_usage": "Unknown; not assumed zero. The interrupted parent requests have no received usage receipt."
+  },
+  "pj_primary_passed": false,
+  "response_hashes": {
+    "outputs/controlled_v15/records/basic/ctrl_03a9186256a670d42e32/nli.json": "e4df8b44257bf68b4223ca561ec764a3c443f3e792e982ffcb9ff57465cb6593",
+    "outputs/controlled_v15/records/basic/ctrl_03a9186256a670d42e32/pj_v3.json": "42035cfb1da7d6e36fd2e8cabe09fd738aa38b86df10c9a59ff01fd1427c7bca",
+    "outputs/controlled_v15/records/basic/ctrl_0bda63f187b3b22dc593/nli.json": "8375320a2be674e400110e4c18afdcb908141b052b647bc09e5a1cb045233d25",
+    "outputs/controlled_v15/records/basic/ctrl_0bda63f187b3b22dc593/pj_v3.json": "38e1d1c9d153a5a77b64f0b29bacc296aa5874bdbeb22470d10f0fa95555e8c2",
+    "outputs/controlled_v15/records/basic/ctrl_10282eddeb6929a5c462/nli.json": "b2d85fb4ee60960c2e464b0c180017c3c8961ddc22dcf1fbd81061ef94733542",
+    "outputs/controlled_v15/records/basic/ctrl_10282eddeb6929a5c462/pj_v3.json": "d75599135136eb5c6709231c3c8eabeb94fc15b3e393ddaeae71218355950fd5",
+    "outputs/controlled_v15/records/basic/ctrl_13bf5bd307d7314ad63b/nli.json": "454d0bbecd5873db06f4608e54abafefae3be4a80f5df177d0ca504c0e22cc13",
+    "outputs/controlled_v15/records/basic/ctrl_13bf5bd307d7314ad63b/pj_v3.json": "0ae6ccafbc90cf094a9d94c3948141c27c070925b1cac5328aa29ae7d7798822",
+    "outputs/controlled_v15/records/basic/ctrl_13f594c5d1c139273738/nli.json": "b8686726160b32b5a5eca0aec31374a959d35abef686adaed4750585589dc617",
+    "outputs/controlled_v15/records/basic/ctrl_13f594c5d1c139273738/pj_v3.json": "12ff75249593a121214c25f2614fde5fb2e7999c5389aa7c82f1abdab24b0cd4",
+    "outputs/controlled_v15/records/basic/ctrl_1e17578ec3aa6d1adab3/nli.json": "0bce7cdc64a8e513fc1a50d57b7c042d827954694ba96274334cf070e3c79640",
+    "outputs/controlled_v15/records/basic/ctrl_1e17578ec3aa6d1adab3/pj_v3.json": "3beb0f9dc94c72ccc6f62a23c4c891b449eab2ecd8dd42c9e5b69385d7c70908",
+    "outputs/controlled_v15/records/basic/ctrl_1fb0deb7331340a2a5c9/nli.json": "c9dd50a05ed03c6b972c2b5fbb9fd8edeb289980092673559803df08d400068d",
+    "outputs/controlled_v15/records/basic/ctrl_1fb0deb7331340a2a5c9/pj_v3.json": "9729f8c8dae65e1f9d99885f9a25e5892aefb275b78f35e2e42b8a31c6816c57",
+    "outputs/controlled_v15/records/basic/ctrl_2207765a2209368620ba/nli.json": "ee3b6862b07d3cc9c630ad9a8e30dae4fc77ce842a4f56e8f56099fea47033c4",
+    "outputs/controlled_v15/records/basic/ctrl_2207765a2209368620ba/pj_v3.json": "5618497d27334d19e24cb757cd27db9d7febfe9c683a5a80aec3398b011be61a",
+    "outputs/controlled_v15/records/basic/ctrl_2b9094fa5e356ce97a33/nli.json": "02b47beb5e233f7af9c6e184ff89f761f2d2d3ccc8e545c36c4524cebdfb7763",
+    "outputs/controlled_v15/records/basic/ctrl_2b9094fa5e356ce97a33/pj_v3.json": "1742c5707d70fc19489810ccbcead7783340d66c4422554aa84dc27b70c07c03",
+    "outputs/controlled_v15/records/basic/ctrl_31ade7223076d9303a20/nli.json": "fac492450bbb6a28b106c138be518b65128c3c5266c2621fb19ec35ec86d2009",
+    "outputs/controlled_v15/records/basic/ctrl_31ade7223076d9303a20/pj_v3.json": "c61b7be3dd427c56186c01774b69a7262bd20c3c87175bcd9db28acdf618d33b",
+    "outputs/controlled_v15/records/basic/ctrl_384f3ecbb32351c15115/nli.json": "dc1f12099c582a59d1e39f9f516e8fbaa90ad1284b24350423439186a7f475b2",
+    "outputs/controlled_v15/records/basic/ctrl_384f3ecbb32351c15115/pj_v3.json": "30ee3d33bc8872501a5f88ab1e39cdee8c463463d8cce2b3aa4f7820e715a012",
+    "outputs/controlled_v15/records/basic/ctrl_3b2c5555f013a2ab373a/nli.json": "f472b3cc37bb553d965f3d5c2eceae558c1ba149d09da45f55abdc20900d999e",
+    "outputs/controlled_v15/records/basic/ctrl_3b2c5555f013a2ab373a/pj_v3.json": "f38e80141ad13cb86c17f21a30758a4fe1af3e3332c0e2a43b552aa582cd0577",
+    "outputs/controlled_v15/records/basic/ctrl_3c87283aafbf9cc7a919/nli.json": "ebd374aa6161c911619281d69c557f316c54e194fc525c80202c8481177cf762",
+    "outputs/controlled_v15/records/basic/ctrl_3c87283aafbf9cc7a919/pj_v3.json": "81e5342c066b2a5be00ba01443ac825ea1cd6fcf1c566f0ef1236dcc8d7f1881",
+    "outputs/controlled_v15/records/basic/ctrl_42d7077b51c9661fabe6/nli.json": "36598d370332ba142055e65725539c48b81437e89918e0a9f36c34b912c3c360",
+    "outputs/controlled_v15/records/basic/ctrl_42d7077b51c9661fabe6/pj_v3.json": "a3e8d0625ee17de700270a4d3e29e63909fc3dbcc5b58fa21ee46c9db6c03962",
+    "outputs/controlled_v15/records/basic/ctrl_471e255f3835b5d7761e/nli.json": "1b0015800f6ce8b9681c376313cb749242e77add822e49ddb9e8e57fa7d3836a",
+    "outputs/controlled_v15/records/basic/ctrl_471e255f3835b5d7761e/pj_v3.json": "fd5eaedda632f982e6e6cd74acee4af337e9009d27e3b781e8e87861171b1373",
+    "outputs/controlled_v15/records/basic/ctrl_476fecfbc04473f6944f/nli.json": "f47e058c10caa3a5bbfabcf6c5bf9b49e0e2b602c1997e4b2966569a80f37877",
+    "outputs/controlled_v15/records/basic/ctrl_476fecfbc04473f6944f/pj_v3.json": "2c46d569ac113e0912741f0de93699e0b3b72d83b5f88e43aaeb0016f988eb11",
+    "outputs/controlled_v15/records/basic/ctrl_47e7c2e37eb97135427c/nli.json": "51c842a80810e930fb1e253623b4b9fd9c6cb4d3e6ed2f6f390897e677d26b2e",
+    "outputs/controlled_v15/records/basic/ctrl_47e7c2e37eb97135427c/pj_v3.json": "b6edbcb5f2a3b6157da58acc892d75078d8e8bfb0927ecaeb1325e6b72c8ca2e",
+    "outputs/controlled_v15/records/basic/ctrl_4c73002990e227a79e86/nli.json": "bb596998c203dfb0980f296e5056b5a319a22275c80260f3375ffd3e8594d40d",
+    "outputs/controlled_v15/records/basic/ctrl_4c73002990e227a79e86/pj_v3.json": "c62df166a44a4c09ffe8f0981adc578fb27235d454672d8d12b31eff80ab5a9d",
+    "outputs/controlled_v15/records/basic/ctrl_4d7aed86ad95001cd59e/nli.json": "394ffc890ed99e1059da3ad1213c2f3d9135de4eaa03de280cc25cdcb56ab10f",
+    "outputs/controlled_v15/records/basic/ctrl_4d7aed86ad95001cd59e/pj_v3.json": "e2946e358a6b1f7be3478a263fe9b017b99f8210d3d96c96987cd8f5b7307df0",
+    "outputs/controlled_v15/records/basic/ctrl_4ec7bac203726547f259/nli.json": "6e010b9e68dd5b26d6ec722ce1c50934482e96344e38b1bf6296d8e72f6fcb28",
+    "outputs/controlled_v15/records/basic/ctrl_4ec7bac203726547f259/pj_v3.json": "ac9cdd88caeec9ce2567453b2b670ff7e9a26231bb8439f77f6945ca625e222e",
+    "outputs/controlled_v15/records/basic/ctrl_55fef7102dbe1536e413/nli.json": "8859b662df6216b752a90b098e428c596b70f2480748f9c2e760eac6e4ee19d4",
+    "outputs/controlled_v15/records/basic/ctrl_55fef7102dbe1536e413/pj_v3.json": "a1ad5f38f4b5425420f4cea99279ae9ebdcea37d2acd8a98e124b40dada3ff30",
+    "outputs/controlled_v15/records/basic/ctrl_5d746868a24db00c1cba/nli.json": "df5c1e75b22c1f61bdec663b39f7885164a92086c8e6b72e20732ea69cbb259d",
+    "outputs/controlled_v15/records/basic/ctrl_5d746868a24db00c1cba/pj_v3.json": "15f703b4cff8475a1a45f65b9b1e3cf0362af3526bd706201533b6528bc59d4d",
+    "outputs/controlled_v15/records/basic/ctrl_6444ae8c8ee5472156b3/nli.json": "009bb67ee47172892723eaf95b3d38d7f11c8fbacdcd185d93f16577666697d4",
+    "outputs/controlled_v15/records/basic/ctrl_6444ae8c8ee5472156b3/pj_v3.json": "8b46449370032cfb6bdd3560f12f7a72a3564a2adb9aa24dbda53e170a85d693",
+    "outputs/controlled_v15/records/basic/ctrl_654606e6eab5813021e9/nli.json": "e66ff337ef645b454fffef890279b21c143c6bf0ffb47ef69d6c91b7c2cd9592",
+    "outputs/controlled_v15/records/basic/ctrl_654606e6eab5813021e9/pj_v3.json": "e312aed8b060a027a9df12c676af3fdf72748464794e6474d3ee7d5012252aba",
+    "outputs/controlled_v15/records/basic/ctrl_65c3b4b6caeec3a63766/nli.json": "b3f734f6a1c6f9b3472e3766407027b88c2665811711654238ac8ee5cfc931b2",
+    "outputs/controlled_v15/records/basic/ctrl_65c3b4b6caeec3a63766/pj_v3.json": "89776fdce4296510670b99a39942cdcec86cd17136585e013535a50b7d5c65d7",
+    "outputs/controlled_v15/records/basic/ctrl_6911b738d745dbf0b723/nli.json": "1bfab5cb00211af30e2eeac8ff800c0909bef2e5100d9eb56730b08bb949a856",
+    "outputs/controlled_v15/records/basic/ctrl_6911b738d745dbf0b723/pj_v3.json": "e4cc86d76f8196239223da870c0739c1ba376e5b4036b7b95993fd39e5428bd6",
+    "outputs/controlled_v15/records/basic/ctrl_6e87d3a32ebbd6bfce54/nli.json": "57feba12bf21a20258e059ead86b81b3ebc0ad4f369410fa929838d26c138448",
+    "outputs/controlled_v15/records/basic/ctrl_6e87d3a32ebbd6bfce54/pj_v3.json": "1aa9a97c6e4bde694cedd5550714a76a0c4e38ac5c1192472b7e73e92845e8d0",
+    "outputs/controlled_v15/records/basic/ctrl_74cf67905c865bd83a87/nli.json": "4743584c6c57be4650fffb640eae9d6dc9783a0a70ce30364cae6f89498e9e1a",
+    "outputs/controlled_v15/records/basic/ctrl_74cf67905c865bd83a87/pj_v3.json": "af12b7489a0b7ce9e8b8201f0a02cc841e42d3e739d8c5144ffec50c44815d0c",
+    "outputs/controlled_v15/records/basic/ctrl_785b429ac370a7480734/nli.json": "da39f59baac793c8322d30f377f8b8ef72f1147d1f1be69988cff5c73a269b98",
+    "outputs/controlled_v15/records/basic/ctrl_785b429ac370a7480734/pj_v3.json": "dee3919e5963b9e03fbcd8ddbe5efed17dfc6e9fe90bd11ce4a2bcc478fe139e",
+    "outputs/controlled_v15/records/basic/ctrl_7b7d6455cf6f4f5829fa/nli.json": "a92ff73b1a87192b19448bce497da9ce9d1469ff78c03c1fbfd8e203c182d073",
+    "outputs/controlled_v15/records/basic/ctrl_7b7d6455cf6f4f5829fa/pj_v3.json": "25cb861cd663ce07934eaaca7dcfc8b309ba471c530da463905c5f36c8cee427",
+    "outputs/controlled_v15/records/basic/ctrl_828c150828012ae4e690/nli.json": "869e39ceaa8cebc9cfc06b470da0b82ea33ba1823b586520e87db391854abe53",
+    "outputs/controlled_v15/records/basic/ctrl_828c150828012ae4e690/pj_v3.json": "9133792da18a8fa56f670ed1cd1dc6a0c64db6bdfc20b6f6442b17460d876116",
+    "outputs/controlled_v15/records/basic/ctrl_87670dd50b32db4a7167/nli.json": "08ba8e994a1f096e9dbdbec097801cbafdec7dde112f364b284e27c8a08da806",
+    "outputs/controlled_v15/records/basic/ctrl_87670dd50b32db4a7167/pj_v3.json": "0ba91c9e1896e1a6dbf7c36f13d052718a5ca6e0b1174195e3dceb9317fa9918",
+    "outputs/controlled_v15/records/basic/ctrl_88fb191462461b925884/nli.json": "aabc666aaf5f0fc6f943969de7d0e5a21bd08a26df2a1913f5c385eb8c107791",
+    "outputs/controlled_v15/records/basic/ctrl_88fb191462461b925884/pj_v3.json": "3dffa478d2e2ecfd8593c587ed3b347f65740f95e36091da88d530b930515aee",
+    "outputs/controlled_v15/records/basic/ctrl_8a5e8abc4e5b140f5157/nli.json": "07413b84884ec8a095e8065e7ccf2dfe4125476db57ed027b35e95b87fe62e30",
+    "outputs/controlled_v15/records/basic/ctrl_8a5e8abc4e5b140f5157/pj_v3.json": "a76397e67231297cdfd7f21d5443e1fcaf1e8968d65316b1b7112fe3fe9dc196",
+    "outputs/controlled_v15/records/basic/ctrl_8d15334f2e89c61dc60e/nli.json": "50ee2e5d0558ed917714a9b9f9ed04c3c7e66ea4d122809410917137815c1e85",
+    "outputs/controlled_v15/records/basic/ctrl_8d15334f2e89c61dc60e/pj_v3.json": "8e941f46375263502ad2aecf138a5228351e860abe694ff10ccee10062f8fe44",
+    "outputs/controlled_v15/records/basic/ctrl_8db0622ba9fdbf036064/nli.json": "840069e00ecb8c5161f2a1856a93ee2d671df5160a5291ec2df5fab3f9ee5e15",
+    "outputs/controlled_v15/records/basic/ctrl_8db0622ba9fdbf036064/pj_v3.json": "123ce062fc38b3b1f35a4e6bc283a4a91629f0710ea147fe4d90b45ccff2af3d",
+    "outputs/controlled_v15/records/basic/ctrl_8dc6108a8675be60354b/nli.json": "34a7035e3432383b4af7f2afa64abf286d310e7b05433eb7ebe2f858c380c06c",
+    "outputs/controlled_v15/records/basic/ctrl_8dc6108a8675be60354b/pj_v3.json": "54224ba1f86e6936c5ace2a84c60a20babe814cac6743a4448515f02e88bd0d0",
+    "outputs/controlled_v15/records/basic/ctrl_8dec0366705889593343/nli.json": "99c2334523396514c344a0857d7dcc8beea4f46503388f76f9716e007a884741",
+    "outputs/controlled_v15/records/basic/ctrl_8dec0366705889593343/pj_v3.json": "ef3d685c0a6de3cd17860586de849b9ab15e32cdf3281baeafcd60820afaf396",
+    "outputs/controlled_v15/records/basic/ctrl_903f061f2d8f860492f9/nli.json": "476f92769e2050548fc9b9105910d13d334703fe041522105d19baf0a6299c1e",
+    "outputs/controlled_v15/records/basic/ctrl_903f061f2d8f860492f9/pj_v3.json": "a830ce8bba5087007f8717fe062f85a67e7a0f0b1c1296cafd7182434bb168fd",
+    "outputs/controlled_v15/records/basic/ctrl_962d76245acf0fa7c591/nli.json": "c9c4c0dfe196e6c70af77a0434bdf6b432cd6cd362ebef7c9876c311833aa47d",
+    "outputs/controlled_v15/records/basic/ctrl_962d76245acf0fa7c591/pj_v3.json": "a9d2c337e43790a610c07a22629fef34815e4dae9a54e682a83af1dd3d9ff8aa",
+    "outputs/controlled_v15/records/basic/ctrl_983b2a093d6af2fe7bd5/nli.json": "41b08e4087673501901af0c2b78275cbb59f7fd4a0f7b180fcfe711130ac60d8",
+    "outputs/controlled_v15/records/basic/ctrl_983b2a093d6af2fe7bd5/pj_v3.json": "ea145a2cb61e81bd75d817b5abe0103bec50e6550807ec47a7ab35f2299974a6",
+    "outputs/controlled_v15/records/basic/ctrl_9978fbc8fb5bd810d3f2/nli.json": "223298f16fa1f52927c880af532fac995e98b4a57a0569af9f0f83e297c14a37",
+    "outputs/controlled_v15/records/basic/ctrl_9978fbc8fb5bd810d3f2/pj_v3.json": "70ac2c0e7723b28b298731ffa1af891f87df0a1dd622e37d4a9b373f890a980d",
+    "outputs/controlled_v15/records/basic/ctrl_a1666c95055fd1fd5086/nli.json": "091496fb4e5423bbf952e52444dd1fefd047c7ed7de12b5890b1f18659c6fbf0",
+    "outputs/controlled_v15/records/basic/ctrl_a1666c95055fd1fd5086/pj_v3.json": "4564e205e4b1c57d3cd1d23c03baf5200287eded017bafcd5ecb9c496389624b",
+    "outputs/controlled_v15/records/basic/ctrl_a1c66b76e2e3349e02a6/nli.json": "c4f1cf2eedb29cfd1ddc9eda47d42d36e280cb82dcdbe6c23af9763382c358d6",
+    "outputs/controlled_v15/records/basic/ctrl_a1c66b76e2e3349e02a6/pj_v3.json": "34a38603c11b5b6a41a903d4dfdf49c5903d99192878d6c14c6dae57d25f15ef",
+    "outputs/controlled_v15/records/basic/ctrl_a59b95e4e3a5e346805c/nli.json": "7a30e52990e7838f615e70ed46c8c6cabffbdc247aff7b5b03f6c1ce4fe8a053",
+    "outputs/controlled_v15/records/basic/ctrl_a59b95e4e3a5e346805c/pj_v3.json": "5a26a4dc15f31f16cff3c79dd34b29e426c1833c0f58978d217a11f6b60b5871",
+    "outputs/controlled_v15/records/basic/ctrl_a60613ece13607a39860/nli.json": "f7a779df31cac24279d87b276a7bb89b257ac7ad47276b13f92fced3d660c57e",
+    "outputs/controlled_v15/records/basic/ctrl_a60613ece13607a39860/pj_v3.json": "4728077fb31cd43871048c7488110a69f27fc85d0c55d8982d66fe6f49f6c90d",
+    "outputs/controlled_v15/records/basic/ctrl_a8ef2868e2fceecab012/nli.json": "33d8845d899d1c012ae44e9af3f6c8c9cfe62e01abec2b0022e6f26394fa7016",
+    "outputs/controlled_v15/records/basic/ctrl_a8ef2868e2fceecab012/pj_v3.json": "38bab3c88c795fca7aeb1087698255c4a9d0dd45fd9df355e62f3016df50d8a9",
+    "outputs/controlled_v15/records/basic/ctrl_ad01918d7fee0c721712/nli.json": "c2a6b414b067360b2244c6170c56bacbd7c59f139e8949aba904fb37c9083834",
+    "outputs/controlled_v15/records/basic/ctrl_ad01918d7fee0c721712/pj_v3.json": "1ffd146a32c5dc73911f2710fe2167f32adc65d84ba67639f52731c2fa3e25d8",
+    "outputs/controlled_v15/records/basic/ctrl_b518be8710244bb299f7/nli.json": "f4bbe6e394d5cfcb962ceea028aedc032f152e49ecb83a013bf214f87b6d7bd1",
+    "outputs/controlled_v15/records/basic/ctrl_b518be8710244bb299f7/pj_v3.json": "4f198cc90381ff61e07f034c333ac1f825e94ef4ac834a1b61e6a9049d4a5711",
+    "outputs/controlled_v15/records/basic/ctrl_bd4a0f420a27ecb25102/nli.json": "8b92a304f49f281e0f10a37788d7307376857c00b0ead1c74f847ff55314aa99",
+    "outputs/controlled_v15/records/basic/ctrl_bd4a0f420a27ecb25102/pj_v3.json": "49b572c2b939b67c57c0e6ce915ef1b0e9c8658374d51f4cbda4ed22dd11c951",
+    "outputs/controlled_v15/records/basic/ctrl_c278a39fad0fdceae95c/nli.json": "9bb1129319439f1ed2e82bb20d09af4f0c30436631e3f5eda2eeeca110ceda77",
+    "outputs/controlled_v15/records/basic/ctrl_c278a39fad0fdceae95c/pj_v3.json": "11835096893f251536a88198fd3fcb7bbe2ccc34414ac826c612b11396e43c09",
+    "outputs/controlled_v15/records/basic/ctrl_c5d883280f1e1e13d785/nli.json": "94fd623536ec5f9cd07e71376ae4c54fe9102ec3f8ea1411d5eafc246a425ffb",
+    "outputs/controlled_v15/records/basic/ctrl_c5d883280f1e1e13d785/pj_v3.json": "7a3a34aa09044253ed14a745bb369af8ca9ae2aa869b06ab67890671abc3800e",
+    "outputs/controlled_v15/records/basic/ctrl_cd162f17358c414d0f8d/nli.json": "c42fc72bf0edeb5237607d60cd7c79a794a3d816b6d610bdc5f223e9b6211532",
+    "outputs/controlled_v15/records/basic/ctrl_cd162f17358c414d0f8d/pj_v3.json": "65b174756e9bfa55866218e23ebe7ee400db4b028abdb391b5b90abef93049da",
+    "outputs/controlled_v15/records/basic/ctrl_ce548bb5d61493257d96/nli.json": "a48b304d39b648d76a3348b40896ec06034f43534ea59e30079415d2cb6e4eef",
+    "outputs/controlled_v15/records/basic/ctrl_ce548bb5d61493257d96/pj_v3.json": "705541145902f597023560c3df3444daffe4e73c2afc7be74f7c37ed90ccf8c2",
+    "outputs/controlled_v15/records/basic/ctrl_d19ac144f539c6254e29/nli.json": "c6be96a09e4fca437f35ce7d755128f4f31e26c487930ede8b750fae32e1ba7c",
+    "outputs/controlled_v15/records/basic/ctrl_d19ac144f539c6254e29/pj_v3.json": "93c7db49f8c6ee8dcdf9a16da1c53e2ea514652521a932e8efca87acd4ed844d",
+    "outputs/controlled_v15/records/basic/ctrl_d5356ecd0c3c827777eb/nli.json": "fb0641b0fced3394d994b8af0a232c1c37011298d373120a7ecf921fff2f9b64",
+    "outputs/controlled_v15/records/basic/ctrl_d5356ecd0c3c827777eb/pj_v3.json": "a5def48059ec2b95a16c00a47f7eba04a6532945264e1093e1ba318da9e8be22",
+    "outputs/controlled_v15/records/basic/ctrl_da3ff0ee3efa26e605aa/nli.json": "b576f434740f4bba4b9bb0a081530ba02ca92932dfdb402de6dd560d6b4990ee",
+    "outputs/controlled_v15/records/basic/ctrl_da3ff0ee3efa26e605aa/pj_v3.json": "46adacd735310f15ff3213caf608f1a8dbed01153cbae6942cec4397c935ccfb",
+    "outputs/controlled_v15/records/basic/ctrl_ddbe5ea05656641ba56a/nli.json": "d5f03e8c749ee633e6a17f4688540e284d052c005ed6d35eb8964de5e0b9352d",
+    "outputs/controlled_v15/records/basic/ctrl_ddbe5ea05656641ba56a/pj_v3.json": "bcfcc06214099d3ed33d2c49bb8929d521681d6dd95a4f0d49d4ec8be520e0ce",
+    "outputs/controlled_v15/records/basic/ctrl_de88bd01694dc8389979/nli.json": "6c1147ee4cd075a1eb8a2d5c8082e888ae4bf4e8070d43560ecf2327bba4b799",
+    "outputs/controlled_v15/records/basic/ctrl_de88bd01694dc8389979/pj_v3.json": "4dba86a861d6ca64e9f4155debcf1a4172513a40ff491057ffe559f36056a117",
+    "outputs/controlled_v15/records/basic/ctrl_dfb9e616b42bd144a0ff/nli.json": "44e076e4cd797f0eeef09bf4b7ac68fe44f2342a3076249c6ab0bfe0ed7cbba2",
+    "outputs/controlled_v15/records/basic/ctrl_dfb9e616b42bd144a0ff/pj_v3.json": "1f300adb7a320ce230d10bf47909689debad3b2e1170cc02b333c562df061c83",
+    "outputs/controlled_v15/records/basic/ctrl_e2a8306c87cde9350a9c/nli.json": "22340aac8eb8882afa087ad0d30559913240f31815e75c95bd0a6e3ff9398ed8",
+    "outputs/controlled_v15/records/basic/ctrl_e2a8306c87cde9350a9c/pj_v3.json": "a7510ac54ec06d7650bce71da3ce4074455b2f2060e7399acca1a6dd3088fc55",
+    "outputs/controlled_v15/records/basic/ctrl_e55b31c529ffd06fc47d/nli.json": "0477c707ac2e15daa5a8382c2a479e7850cd340c09191b27eb182c3ee7b1b806",
+    "outputs/controlled_v15/records/basic/ctrl_e55b31c529ffd06fc47d/pj_v3.json": "de36d6f9685fb7dbcf86d3ed300d5c64895a54ac1eafec4c3fb54a0bcbcd34ca",
+    "outputs/controlled_v15/records/basic/ctrl_e6701df3ea15be7ef292/nli.json": "53b50b9d7a442cfa323ab2fef2e174faea54f0fbc2729318e6946519f1939e05",
+    "outputs/controlled_v15/records/basic/ctrl_e6701df3ea15be7ef292/pj_v3.json": "785e0a2a9cd63075d6087581488ed647f961585380ae49b3db57e9596f975298",
+    "outputs/controlled_v15/records/basic/ctrl_eac6ad831fdac4dbcc1a/nli.json": "a07a0f8fa199494c7b1f90748324fd47e4408e9488561317e9ccbcdc626ddbb5",
+    "outputs/controlled_v15/records/basic/ctrl_eac6ad831fdac4dbcc1a/pj_v3.json": "6249cd8867c60b63ea9bff6d8d09281d48203054c996654220fa2a8b4c04c5cf",
+    "outputs/controlled_v15/records/basic/ctrl_ebc5af470aa595ec6f5c/nli.json": "90c1ba616e207dd5ba601dd8c91c854ec2a6cc1879ba9009197ccb1733ea5536",
+    "outputs/controlled_v15/records/basic/ctrl_ebc5af470aa595ec6f5c/pj_v3.json": "e6e040f3ea770369b7724c7fe0fccffcf879d88957727360a35fb80359753927",
+    "outputs/controlled_v15/records/basic/ctrl_ec8dc4b95bffdc014391/nli.json": "d07215b311e06584dee7a4543350d89ce1b500605449eeca89a238b604d69ed3",
+    "outputs/controlled_v15/records/basic/ctrl_ec8dc4b95bffdc014391/pj_v3.json": "3e6bf2ea76a33bfd379a042924bbf8a96c7b9f1b550b7aa141f73912e255e785",
+    "outputs/controlled_v15/records/basic/ctrl_ec907727cb13deab853d/nli.json": "44e425f4ae675c8d3c6882a8752663282e1c98c14f21b43e92754808133bee0b",
+    "outputs/controlled_v15/records/basic/ctrl_ec907727cb13deab853d/pj_v3.json": "40f995411257f21f5a0243e0907110d262933153fa769af9a4ef1eb329c81ceb",
+    "outputs/controlled_v15/records/basic/ctrl_ef791d287f1941957dfe/nli.json": "e898b77e91f99745c531ed2c4c2ed598ec3353161dbb28127dd9ea97bb4b93c2",
+    "outputs/controlled_v15/records/basic/ctrl_ef791d287f1941957dfe/pj_v3.json": "650786900f6995435f7e0eac1f607572e7d7d7cd01e364bf3b02b943aea888fd",
+    "outputs/controlled_v15/records/basic/ctrl_f3d3e23557cc7313b89c/nli.json": "4a5c4fe7ade7dda26b976b24644c49f11897d4a4e1a7f709c7cd38ffb31d4630",
+    "outputs/controlled_v15/records/basic/ctrl_f3d3e23557cc7313b89c/pj_v3.json": "0b365a97528f9c0541eec55ad84e4809d78542873210221e5eb4317b62a0aeec",
+    "outputs/controlled_v15/records/basic/ctrl_f57a56429ec44c3ed57e/nli.json": "7f4d05a16ef6d9596fde8b7045e577d1d459b057d32bd264b27f4ef26200b018",
+    "outputs/controlled_v15/records/basic/ctrl_f57a56429ec44c3ed57e/pj_v3.json": "9305d22701699078bdfcc8b7905cf71cc9f8f6b5a675d44bd5f366eb956dc9ff",
+    "outputs/controlled_v15/records/basic/ctrl_fc147c2f6770e3883692/nli.json": "928aa6d4976a6951f5a3e9be2a5830bf40555dc84a94c35cd7993a58170cd3f1",
+    "outputs/controlled_v15/records/basic/ctrl_fc147c2f6770e3883692/pj_v3.json": "1aa3cf58a6555fe3f7417e2f818ccae934380f02db815d0612655c048c7d18fe",
+    "outputs/controlled_v15/records/basic/ctrl_fd6fe34d78c2338b3fcb/nli.json": "6603a15693739bd79f0e2c9858e1603b171513c5a9b2ff73c2a4b2b43195bf9c",
+    "outputs/controlled_v15/records/basic/ctrl_fd6fe34d78c2338b3fcb/pj_v3.json": "af3f1b196cefca9374d64f90a3ecc2511ddbbc4fcee85ec4b2cc39e4c6917484",
+    "outputs/controlled_v15/records/challenge/ctrl_00ab071809ce39f69aa3/nli.json": "aedc828a9ea4b7851e12987cb61fbe598d27faa3ea8c23a2ab99e93c96fa16ab",
+    "outputs/controlled_v15/records/challenge/ctrl_00ab071809ce39f69aa3/pj_v3.json": "721ad53ad86c19916b65702c41e78e4cb572c3d62acc399dad19bd6214c6acd1",
+    "outputs/controlled_v15/records/challenge/ctrl_018822e2ff3baf514fdf/nli.json": "b3fcc8c332e44e47ed61770ffc01b7826a23a6cff1425ade9c9e6348508f882f",
+    "outputs/controlled_v15/records/challenge/ctrl_018822e2ff3baf514fdf/pj_v3.json": "12e808a67e645a1251dd00afa323b34c627ee166cd95e384bbd7310a43fea54f",
+    "outputs/controlled_v15/records/challenge/ctrl_0719e2994f73f7c82665/nli.json": "f57877f2df58ba967fcbb124b66930cf7bdbe1642a496192488b09ddcb773edd",
+    "outputs/controlled_v15/records/challenge/ctrl_0719e2994f73f7c82665/pj_v3.json": "a69a8558c49612c5a894eddb1cf5f313259739198b87881a1bb01dece013ff5f",
+    "outputs/controlled_v15/records/challenge/ctrl_081a2c800eb80a3481af/nli.json": "02dc2b25da2c99d4f48e5fbf81d5a2337844cf70c47b5f6997869991cbba0e1a",
+    "outputs/controlled_v15/records/challenge/ctrl_081a2c800eb80a3481af/pj_v3.json": "f0714d439f82fc4d0a43eaf34b7f7ca5c9e8ea47ddaeb02d9af5c2c8a25b255d",
+    "outputs/controlled_v15/records/challenge/ctrl_0a5f405d512925f130e9/nli.json": "1ec9fdc388df039cb0f158b53157b956193f9b123b730967a1ec6924d7d2192d",
+    "outputs/controlled_v15/records/challenge/ctrl_0a5f405d512925f130e9/pj_v3.json": "bbca7d603d778bc32d10e8970a961398220251668901bdf175120f3b3c97a5db",
+    "outputs/controlled_v15/records/challenge/ctrl_127aaf4022de82280ee2/nli.json": "90478ec4bbcac61de9b14148733a6fa3caa984f9117bc318693a20ddb91121fd",
+    "outputs/controlled_v15/records/challenge/ctrl_127aaf4022de82280ee2/pj_v3.json": "1217664f3f7cef8d565da578fc6349c8be1db38683ab5834cbc6853399a86da7",
+    "outputs/controlled_v15/records/challenge/ctrl_158fb595c86e2b9b6f1a/nli.json": "380e80b09d24d1fc0f91f0b114d238d9677455eab010312225758516abaef454",
+    "outputs/controlled_v15/records/challenge/ctrl_158fb595c86e2b9b6f1a/pj_v3.json": "bd60db1a4c3d6eadf42cff0b4dddcab988a58b0f37eb07c070e4e6e177aebeb5",
+    "outputs/controlled_v15/records/challenge/ctrl_1bf5972e429744b7cb09/nli.json": "eb3140ac1c02d8fb31a817e9c3729c58584973bb12c70e3e5fa8a5a4d066216a",
+    "outputs/controlled_v15/records/challenge/ctrl_1bf5972e429744b7cb09/pj_v3.json": "70b15cab8bcee0f5f96dc3bfb13eb22a365fda63974d376179c0fd66e3445bd4",
+    "outputs/controlled_v15/records/challenge/ctrl_1febd12b5e564297fbba/nli.json": "f4806c150f4fbc903cf30f6c08cf8cd6cf56b5300e24842a515f67391a2304b1",
+    "outputs/controlled_v15/records/challenge/ctrl_1febd12b5e564297fbba/pj_v3.json": "c3dc6bcee280b022040d6bc48c5070105754e833099ca1d544cf50d6cf565c9e",
+    "outputs/controlled_v15/records/challenge/ctrl_2025e72f76641d4ccdd7/nli.json": "b89a674ed440047dc7349e1e7627c95c6677b2f9f72e217e78d73190e99c528a",
+    "outputs/controlled_v15/records/challenge/ctrl_2025e72f76641d4ccdd7/pj_v3.json": "ec8c740b75411f07743385782d44a60785c17aefb59205f84cc2e949a6d645a9",
+    "outputs/controlled_v15/records/challenge/ctrl_209c12d71d215d6c29f0/nli.json": "f5c0c7293c5c5a5f35b4118dbc2cbee8927b95f60d6affac759b4d9a8ad0d8a2",
+    "outputs/controlled_v15/records/challenge/ctrl_209c12d71d215d6c29f0/pj_v3.json": "3180cb4d7673ad06fea6e99096d673610fb93530256f8b4518d61bf91dc21ed5",
+    "outputs/controlled_v15/records/challenge/ctrl_20b7f9bc3ef15c4f5560/nli.json": "75d84523f631cb31bb87b6dea8bf351f9ae308402302156165295988378f08ec",
+    "outputs/controlled_v15/records/challenge/ctrl_20b7f9bc3ef15c4f5560/pj_v3.json": "b803a7f2f97002a62a43f762d19f26437c4840becca464a791b05e0a825be715",
+    "outputs/controlled_v15/records/challenge/ctrl_34148239321153f3de7f/nli.json": "266ba479a0e78dfed996d9a2517859b96ee9620cedd68a6ee99e4aa02756d79a",
+    "outputs/controlled_v15/records/challenge/ctrl_34148239321153f3de7f/pj_v3.json": "961cb20a33f22e4ad26ad2c2ff4ba56aad19e32b922cf40008505f76fc328a8e",
+    "outputs/controlled_v15/records/challenge/ctrl_345bf44046843745d9db/nli.json": "34e21f5aeab5052f42d22d51e3af2c6d5b7e086fc06dfe04a78a82edb22bf76c",
+    "outputs/controlled_v15/records/challenge/ctrl_345bf44046843745d9db/pj_v3.json": "b5317501032ed43ead19d954c4b19bd7e17efa0d8ae3d415316ad18c64bb5bcd",
+    "outputs/controlled_v15/records/challenge/ctrl_36110f858c6c77e2a848/nli.json": "4738419424b8b0a9f256248c5fdf275dbd594165df155b7e945b9860d2a63db8",
+    "outputs/controlled_v15/records/challenge/ctrl_36110f858c6c77e2a848/pj_v3.json": "2c26cc17e354d087bfa6af2011e4de74b6ba2bc9ee1e2cd2ad43cb98c5ea793f",
+    "outputs/controlled_v15/records/challenge/ctrl_397b41d5d24d5210083f/nli.json": "ac91f64e1940db5c61ed24178ccfc2ca2048147d733f452142185177bb5e2e44",
+    "outputs/controlled_v15/records/challenge/ctrl_397b41d5d24d5210083f/pj_v3.json": "934551b9d4dcce58db35a6b9c471e6dd2219102d2eb8fffeb60734fed470197f",
+    "outputs/controlled_v15/records/challenge/ctrl_3bcd0609be477e40d501/nli.json": "07ad37d9299e26eda7a234dd73a1b6ca989a16141095da78f04ea1459ae5f4be",
+    "outputs/controlled_v15/records/challenge/ctrl_3bcd0609be477e40d501/pj_v3.json": "0d915c21474cc572ae325a86245ac84dd99d1a510104afad92c3dea8ddeae8d2",
+    "outputs/controlled_v15/records/challenge/ctrl_3e86bb96545cd265ec13/nli.json": "5fb51a9f060982d28de4702e02968aa32c705b30e2aa93658afbed26c0263e6c",
+    "outputs/controlled_v15/records/challenge/ctrl_3e86bb96545cd265ec13/pj_v3.json": "3ddda8ec3d28bf94f6e987e1e94c160cd63ee92ee51901143c3e20161bb5df09",
+    "outputs/controlled_v15/records/challenge/ctrl_3fa32c489212a1205fce/nli.json": "f6c863eaaa53698624e072a6d440680c3131d9839c16e5e06650511a202f3474",
+    "outputs/controlled_v15/records/challenge/ctrl_3fa32c489212a1205fce/pj_v3.json": "c69d6efa290931e5a719e1cac92b0ab3567b46774fc0039124598db59ab06ec2",
+    "outputs/controlled_v15/records/challenge/ctrl_42ff2f91b10a6d1ee0fd/nli.json": "5e1db5fc76f6c4cd7723f73cad1908fde9efe113652fdbf36c12123fd78ccb37",
+    "outputs/controlled_v15/records/challenge/ctrl_42ff2f91b10a6d1ee0fd/pj_v3.json": "3e1db1f0123b18ab954b11a9de56b2fecb7e5d027861328e9a7172910c5367a4",
+    "outputs/controlled_v15/records/challenge/ctrl_4457e2fb58e9ef473d12/nli.json": "849e478149bc183c4c473ab00c8a5959b1b97c0b57508ac18c77cc4efa1fdf2d",
+    "outputs/controlled_v15/records/challenge/ctrl_4457e2fb58e9ef473d12/pj_v3.json": "1e8b42016e128933845447e14142755bd03da8eca048e821cd10a34e5e08b073",
+    "outputs/controlled_v15/records/challenge/ctrl_46cb4f334430a23bb89f/nli.json": "69201f12f2a31d9e9bbc7887609dbca15ebadc36c5b9956582ee2e20e3725b57",
+    "outputs/controlled_v15/records/challenge/ctrl_46cb4f334430a23bb89f/pj_v3.json": "6d05e1839303a3d18825821eddc8454d249210da84b3ed7c7a8fbf73812d24ee",
+    "outputs/controlled_v15/records/challenge/ctrl_4d6fcc7174f487c6d058/nli.json": "957c76f0676cce5bdb5f18e3bfead40b5e5720c963ce7d5753676c6cb6f281d4",
+    "outputs/controlled_v15/records/challenge/ctrl_4d6fcc7174f487c6d058/pj_v3.json": "18323dfbb7656b2fdb9fc6f9ae8144c8038e2788e2b07f874a83473935c68def",
+    "outputs/controlled_v15/records/challenge/ctrl_4e328277885027ed824a/nli.json": "3d53c11fbed2c151693885cc254cb282e9e09443a418185d977ad60d8e0c61af",
+    "outputs/controlled_v15/records/challenge/ctrl_4e328277885027ed824a/pj_v3.json": "0f522e221ae41437ffdbb81a912ee9e2e7a7c29c4ae6e1822da3860286b7f071",
+    "outputs/controlled_v15/records/challenge/ctrl_54c79b9fb998abcf46be/nli.json": "a39d8e26669cc9ab6edc5206c4ef1b0d884417b48d55826af53486143e4f1580",
+    "outputs/controlled_v15/records/challenge/ctrl_54c79b9fb998abcf46be/pj_v3.json": "ab60fec1ba48b7023b661e841df89ed5b1dc38f1230dcc92be47b3175edadf51",
+    "outputs/controlled_v15/records/challenge/ctrl_573bfca262c228d54ec6/nli.json": "60f6eea734418dfb0208147559f2ea0e2e27b9be10cda81c63e396034620fb81",
+    "outputs/controlled_v15/records/challenge/ctrl_573bfca262c228d54ec6/pj_v3.json": "3595988507722eacaaf8e423a3a0eff7cff437cc76f28eda7cc8aea14fd54a88",
+    "outputs/controlled_v15/records/challenge/ctrl_5a8068faa1ec5cb80a35/nli.json": "ff4c41afc48c9efba86650e651aa4c36d1d94cf7217eb4cf788172294b0dcb03",
+    "outputs/controlled_v15/records/challenge/ctrl_5a8068faa1ec5cb80a35/pj_v3.json": "e3f458f587948b78f57f83af21165662a863d04e449fa48b3635c2140df15c9e",
+    "outputs/controlled_v15/records/challenge/ctrl_5ab696e3946d62cfc76b/nli.json": "5975fd8480f8a13d8832dd02dd0f139a396a3ae6edca14f5051c2a5a8bdd8dd8",
+    "outputs/controlled_v15/records/challenge/ctrl_5ab696e3946d62cfc76b/pj_v3.json": "5e96fcfbcf05164ccc0b65e1cf0eb38fffc821375dcb17fecf27ff40fa731fc3",
+    "outputs/controlled_v15/records/challenge/ctrl_5dcaefad1709ea1ffe49/nli.json": "03221412512474e859afdd3910a40ecaf7a4574cb6f9e64ba786b379fb39720a",
+    "outputs/controlled_v15/records/challenge/ctrl_5dcaefad1709ea1ffe49/pj_v3.json": "d6ce1aa98d1c0007b4d611c40a01e212269c2a9ded818356673e9688196228f9",
+    "outputs/controlled_v15/records/challenge/ctrl_61d72ef96b05644aa62b/nli.json": "c0ab252e6bf792ded026d183fc9401d9b486ac88abf37392ecc1d86a5071c66e",
+    "outputs/controlled_v15/records/challenge/ctrl_61d72ef96b05644aa62b/pj_v3.json": "546cab47b7157da76ee0cf4ea38db213ef460bd24dbcf90e5b4674bbdf2431a7",
+    "outputs/controlled_v15/records/challenge/ctrl_658879ee43b11cf18c7d/nli.json": "abe0b898f114605a627b63317c064c921af3a7c0039d657b09fbdfe882c939e6",
+    "outputs/controlled_v15/records/challenge/ctrl_658879ee43b11cf18c7d/pj_v3.json": "ca57128ea9a12bbee0dc18eb0918cd474d90223441d8d39d8fbb7b3185468910",
+    "outputs/controlled_v15/records/challenge/ctrl_66d12a43f5b473538cee/nli.json": "143a3353c759129ab39b3c99fcc77f36e0188241316c2d12fa6f497e7e78b7cb",
+    "outputs/controlled_v15/records/challenge/ctrl_66d12a43f5b473538cee/pj_v3.json": "e3232329a854a9783f1f8eb23fab6ffc7ca20948bc2194408bbec55aec97854b",
+    "outputs/controlled_v15/records/challenge/ctrl_67ebd9ae55ed6c22ebfb/nli.json": "85ffe2048c35af6b7ace555c597b538e813f00e0da5871629418d75ceae25e70",
+    "outputs/controlled_v15/records/challenge/ctrl_67ebd9ae55ed6c22ebfb/pj_v3.json": "7dfd973915ae43fa3286ea61bf3027179731cf6fd099c9f584a968e6dda5f781",
+    "outputs/controlled_v15/records/challenge/ctrl_70d9db047a9c67964898/nli.json": "811c447cc9547f7b62df946777b000c43d930d2a502c0b841b743772b15d5d70",
+    "outputs/controlled_v15/records/challenge/ctrl_70d9db047a9c67964898/pj_v3.json": "1eb0159554d5d6e6e9accdf32a2bd49867d0de1b6d290ed082598e82eff9998c",
+    "outputs/controlled_v15/records/challenge/ctrl_7286a1573f7e21ff4fda/nli.json": "26492c5e99d991c4a11a95436e33a50888a0c8ea674888162d1120e4f18a653e",
+    "outputs/controlled_v15/records/challenge/ctrl_7286a1573f7e21ff4fda/pj_v3.json": "2a189fa6ae39299264b15e164fbc488bfb7dd388a417d4db9682ff3e279af46a",
+    "outputs/controlled_v15/records/challenge/ctrl_75aac9220d55228c4cbd/nli.json": "bf0f727ea4390a4025d7426a99eada654029a2abb009e6cb8bec3dba6648443d",
+    "outputs/controlled_v15/records/challenge/ctrl_75aac9220d55228c4cbd/pj_v3.json": "ef8e86981e78e1e4038fe12d5c485a26cc459e287e47e52b3b72e607d6a55328",
+    "outputs/controlled_v15/records/challenge/ctrl_75da624c22d689224aac/nli.json": "f3f94eff57efa7b5af2f4769c32a4262ad25d0bdf3024b2dbb6f63b5c1c7e0ce",
+    "outputs/controlled_v15/records/challenge/ctrl_75da624c22d689224aac/pj_v3.json": "9dba44c2c89cf0542bc51b132c7ed67e1696b77130964d26c44919496074ca0a",
+    "outputs/controlled_v15/records/challenge/ctrl_7f0a07adb9dcf291147f/nli.json": "5750d56038880ad8dca88d1b60e4903b00ca5c943be17d7acbf6fec30101baba",
+    "outputs/controlled_v15/records/challenge/ctrl_7f0a07adb9dcf291147f/pj_v3.json": "54d66b5a589b85beadefa988daad88c0e09d3ad0b55734691f02ca57360bc79f",
+    "outputs/controlled_v15/records/challenge/ctrl_8abf17d6ccfb8d232d1b/nli.json": "32805740e529fabb63d645b683b993eb87527d12a06a4d8784d9fabbee5f78a8",
+    "outputs/controlled_v15/records/challenge/ctrl_8abf17d6ccfb8d232d1b/pj_v3.json": "8cdc1a70aa02d3c28c23acf0448e4e8a589d5252518af184ccc2a1c624451c57",
+    "outputs/controlled_v15/records/challenge/ctrl_8e09e3fb1a3911402232/nli.json": "a03c04f9394801f9af0ae1bf9b2f941c50260ad34fddf0f670a17297c9bab8da",
+    "outputs/controlled_v15/records/challenge/ctrl_8e09e3fb1a3911402232/pj_v3.json": "c748abb4bf70079448a5e49c74523f72bbee6a0a3e3339656ba73dd5479d82d6",
+    "outputs/controlled_v15/records/challenge/ctrl_8ffe25c09fc63eb5d030/nli.json": "c30ae661fd2b1c598d89c52e76be9ed0e71a1643a5034fd49d02d0ed613d2358",
+    "outputs/controlled_v15/records/challenge/ctrl_8ffe25c09fc63eb5d030/pj_v3.json": "4fbbac93a21dcec3b008691a8f8a3deb1d98f2713a0f3afb5fa03b8cba69b095",
+    "outputs/controlled_v15/records/challenge/ctrl_941abb6d2194273bc820/nli.json": "2f8f511eb52e10a65cc18a1ecbabe8f07cda80a1919830a7395df24fb4c72378",
+    "outputs/controlled_v15/records/challenge/ctrl_941abb6d2194273bc820/pj_v3.json": "39ef92dd4c66d2c9cf4f1fdd387cffe3bd088c786bf24a72bd80bb275a3d5d62",
+    "outputs/controlled_v15/records/challenge/ctrl_954e95a8f3c8d493b7b5/nli.json": "69296a35c85d7764f0a417508a018177f1fc64de50d9e540c1faa1e766dd0684",
+    "outputs/controlled_v15/records/challenge/ctrl_954e95a8f3c8d493b7b5/pj_v3.json": "0aad590523dfcfb395bd11d2159382f2eb73f8a81d522ec3ee50fbd4217b1eac",
+    "outputs/controlled_v15/records/challenge/ctrl_96b824b8402a7df41dfb/nli.json": "da2198dcd9eee01cb52b2e490b5478bbd481a9995a320e63e09478d2ace6c22b",
+    "outputs/controlled_v15/records/challenge/ctrl_96b824b8402a7df41dfb/pj_v3.json": "27b1959d19867cd2b86c0e160c67796306844c9229c8010ff80114d26ff58ede",
+    "outputs/controlled_v15/records/challenge/ctrl_9763ea6e980bf11f26e6/nli.json": "c899cff8de9ea1111d1534119b1ba96f5e3ab11661a6a1e085cdeef8a5aacffd",
+    "outputs/controlled_v15/records/challenge/ctrl_9763ea6e980bf11f26e6/pj_v3.json": "a7df97c62ef0900d35e0fb2b78606a6b58d6e78ff003d69e4deb12a8ff4ecaff",
+    "outputs/controlled_v15/records/challenge/ctrl_99cb7dfd651d9227a4d8/nli.json": "4ac6e032d4727f2fed9282a0530fe2663b2d5d636e6e159c47b8eee668575d15",
+    "outputs/controlled_v15/records/challenge/ctrl_99cb7dfd651d9227a4d8/pj_v3.json": "9d5ea45aab615ce6d7803d49f6ea953531471947f65b01ee9de22945968ba571",
+    "outputs/controlled_v15/records/challenge/ctrl_9cd1f73318a886314ad4/nli.json": "d880ffff22adc1e9355f97442ab7476190d45f9098708b1aaa6a790e6d63546f",
+    "outputs/controlled_v15/records/challenge/ctrl_9cd1f73318a886314ad4/pj_v3.json": "8c349caff8c5c351f6f69e9021acd7e55fddb400fc87e276351aeb46098b7782",
+    "outputs/controlled_v15/records/challenge/ctrl_a52034ea60f8059748bf/nli.json": "165fd7778a2965c2a47133c91a45d31a8b954b8083e3d17a53057be555086384",
+    "outputs/controlled_v15/records/challenge/ctrl_a52034ea60f8059748bf/pj_v3.json": "e752130c304f4d16d636d7249bec18f215b547d9e54daf45ec44df9ab59787bf",
+    "outputs/controlled_v15/records/challenge/ctrl_a9630b16a1132773bdb2/nli.json": "e0a68e87be47bff06b035bdbe5501e0930c97d2a79e49eb89a2b5fecc296d35f",
+    "outputs/controlled_v15/records/challenge/ctrl_a9630b16a1132773bdb2/pj_v3.json": "9e453cffed40c923dcd2ab204dc5e37a21f025af9b693ac31d6811a2a7dccda8",
+    "outputs/controlled_v15/records/challenge/ctrl_ad5a1b35f0d2f4587df7/nli.json": "6b0e2a54b29fd9bb35b3e30968d2f9a1997b3a30434eb868fc0fa6e90bf58880",
+    "outputs/controlled_v15/records/challenge/ctrl_ad5a1b35f0d2f4587df7/pj_v3.json": "d0110a268a7cf0a437c1e841bdbec1dbabf6d9fa6170754e27daee28906b5ff7",
+    "outputs/controlled_v15/records/challenge/ctrl_adbaeb5038641b1d370b/nli.json": "ec23acb4e55d923173bd9602e18cec1c8599d4f67874c4dc2ecca29928bb4d9e",
+    "outputs/controlled_v15/records/challenge/ctrl_adbaeb5038641b1d370b/pj_v3.json": "1f1fd035cae352f614de86949c46c2a6da7b16971ab775d0fe3a3794e161a1b4",
+    "outputs/controlled_v15/records/challenge/ctrl_b1690e14ba507457ea1e/nli.json": "a147e0863b0036e9ae4d0c9252112348255995e67360eef263e3a0bdb6014a3e",
+    "outputs/controlled_v15/records/challenge/ctrl_b1690e14ba507457ea1e/pj_v3.json": "887fe680a062c3d033d6fe3de8f5efbb8e9d5bf873a769ca497642aa525a8567",
+    "outputs/controlled_v15/records/challenge/ctrl_b438903e18f8aee1b007/nli.json": "db54263b28da043ca7cb3121c53edea509d2c465bb8978902be6758c5b1cd5a2",
+    "outputs/controlled_v15/records/challenge/ctrl_b438903e18f8aee1b007/pj_v3.json": "9288cff1fe5d5012b444a553a90cbeb0fd7442cdeb30430599947984208d0f0a",
+    "outputs/controlled_v15/records/challenge/ctrl_b940ba48fd47965d0503/nli.json": "84a992b010e069334c73692ae185687c1cc9e6505c50a16d9129285017fd0ac7",
+    "outputs/controlled_v15/records/challenge/ctrl_b940ba48fd47965d0503/pj_v3.json": "d8f7c7eff81b0132a0151a9448d8b4756a132e314681f960f9a3732322d168b8",
+    "outputs/controlled_v15/records/challenge/ctrl_c247fc56fd5ac42fabef/nli.json": "b0fb768c876595e004b053879c986a13e1cd94fe7985757594d183715fe311a0",
+    "outputs/controlled_v15/records/challenge/ctrl_c247fc56fd5ac42fabef/pj_v3.json": "7d2f492be7090e575bc74a7b1eef5d41044f0d1d2dc64f1630a12b2ca0de5e40",
+    "outputs/controlled_v15/records/challenge/ctrl_c39ed732a08f052189c7/nli.json": "e35bae5fe6b1c5669bbeeaee14d581d5d4381cda0c27c99d9b26d7171c0aeecd",
+    "outputs/controlled_v15/records/challenge/ctrl_c39ed732a08f052189c7/pj_v3.json": "dc2f0a271d1e6133a981143994b84887dc43e23b41e719169a97c3f24193b27c",
+    "outputs/controlled_v15/records/challenge/ctrl_cc8b4e8288350ff2c93a/nli.json": "4207f3cf2333493a7c5bbc70d67598c396fc223334fa3dff42db4c0109bcbfd2",
+    "outputs/controlled_v15/records/challenge/ctrl_cc8b4e8288350ff2c93a/pj_v3.json": "08fb9d443eba875e52dcbb05d8780ec857e9a19f0174a9d42318eb8c8061bd39",
+    "outputs/controlled_v15/records/challenge/ctrl_d24a306d32b04656bc92/nli.json": "2a7f617399e5936caef96242208d2861c172768a66c3aece53b8a329aca7917d",
+    "outputs/controlled_v15/records/challenge/ctrl_d24a306d32b04656bc92/pj_v3.json": "19b60ae9db9fc04324ef19ecc32adddd002ad7f53f8ba4ff3dd965e0175bbc84",
+    "outputs/controlled_v15/records/challenge/ctrl_dbff7689a8e782775901/nli.json": "17dd07f24822cc6b9c0ccea2e2ffff377bac875b1882659fd8d082d65735e0b4",
+    "outputs/controlled_v15/records/challenge/ctrl_dbff7689a8e782775901/pj_v3.json": "979009e919b6001142d86128bd700c2e78f7918143f91283b4257d4365dd084c",
+    "outputs/controlled_v15/records/challenge/ctrl_dc0a4ee038ecc125b1bb/nli.json": "d4d8e88b8286204e3dbbab5431c938fe8055301674034976d94feef020c572a9",
+    "outputs/controlled_v15/records/challenge/ctrl_dc0a4ee038ecc125b1bb/pj_v3.json": "61d8bff2c0cdd9f2fe8c30f40692f40fa5c88341cacdab0a4a36a0c86f4ea961",
+    "outputs/controlled_v15/records/challenge/ctrl_df9c3432bc0a42a45513/nli.json": "dd29d36e4e6aab9ed451ee2d3323469cedc78d411e1327aaad73f6e052137e7e",
+    "outputs/controlled_v15/records/challenge/ctrl_df9c3432bc0a42a45513/pj_v3.json": "f410a5a7e5df17da9a5bbe8060247512e9c5de956168a4cb11edba67c43cbe58",
+    "outputs/controlled_v15/records/challenge/ctrl_e1e731b2891838f0bb13/nli.json": "d8b43aede875ca76549dad644ff8230ef25bb010effb104719f703dfc4054b32",
+    "outputs/controlled_v15/records/challenge/ctrl_e1e731b2891838f0bb13/pj_v3.json": "394c545cb4ccb3314f842ab3b5b75bf80d95815bf01970ce9fa3d81479369d4b",
+    "outputs/controlled_v15/records/challenge/ctrl_e444cf045d7e70bafbc3/nli.json": "646a0b6ee02bef685755e6984ba46f5da7520f3b8067eb41512525521b445795",
+    "outputs/controlled_v15/records/challenge/ctrl_e444cf045d7e70bafbc3/pj_v3.json": "7ba1995df774c380732291cbc6ece8242d5d0d708b8d103d91c76f732472cb67",
+    "outputs/controlled_v15/records/challenge/ctrl_e590626df891700ac956/nli.json": "6c31d1142ca633429be786a6f25f283e246e535fd873dc4e6aaf7937ce398056",
+    "outputs/controlled_v15/records/challenge/ctrl_e590626df891700ac956/pj_v3.json": "b73eadce0655ff763b4b4cebce8a71721a00b1da509446e5ea43f89f2a4e046e",
+    "outputs/controlled_v15/records/challenge/ctrl_e7c4b2021df56f497cab/nli.json": "a06f58dd358779cf446dec6878352a4128beb27873ee304848be6f86a4df2d51",
+    "outputs/controlled_v15/records/challenge/ctrl_e7c4b2021df56f497cab/pj_v3.json": "5b9dac21c5b09af74ffb0a96b845b727d957220a5ad3c0effd487e8e20b83391",
+    "outputs/controlled_v15/records/challenge/ctrl_f0cfb34836704fa0ce2f/nli.json": "9c5be2e06f02111de822653c880ff190627c63be2987ac199b2d1fe0c19842dc",
+    "outputs/controlled_v15/records/challenge/ctrl_f0cfb34836704fa0ce2f/pj_v3.json": "3119fac103f4e1064b7fe8782fcca7352f8ac29aad8025a93ff2eb988674db55",
+    "outputs/controlled_v15/records/challenge/ctrl_f15cd0db460ec2f24df6/nli.json": "71c6238b4477d143bb5b9ce4f5c23526c88031564f27a7eb314686ded3a7f5cf",
+    "outputs/controlled_v15/records/challenge/ctrl_f15cd0db460ec2f24df6/pj_v3.json": "7c9aa0907eff8f4a04fe379b44c4738a1d3ce35e1ddc6237a01d65e4ecbe37bb",
+    "outputs/controlled_v15/records/challenge/ctrl_f1e52a259936bfb1bfe4/nli.json": "3947dd36681107c1d18a5264eb6edaf454c66d18f093cd18ffb188966b21eea0",
+    "outputs/controlled_v15/records/challenge/ctrl_f1e52a259936bfb1bfe4/pj_v3.json": "6da0803a5fd246b671d8dfe7c8151bad6ff60afe59f03a0c61bef8c2db07eef4",
+    "outputs/controlled_v15/records/challenge/ctrl_f3b9cfe4a106375f902d/nli.json": "e5414d2c01b5cb555e97bfa9d079d1eeda3b0c455dd9a1ce5048dfa415bb0ef3",
+    "outputs/controlled_v15/records/challenge/ctrl_f3b9cfe4a106375f902d/pj_v3.json": "d79dfdfb70571adfaf1abadfff243d508fa327ef74d22de290a19b4b9ba29997",
+    "outputs/controlled_v15a/records/basic/ctrl_02d7b5c8fd3ad626bd85/nli.json": "ddcc8dd60b3e9a05aa7fc23b1191fb0944191b24ea87ab77940589949a9799c0",
+    "outputs/controlled_v15a/records/basic/ctrl_02d7b5c8fd3ad626bd85/pj_v3.json": "670e6028e66ff71d4edc7cb610277aa881644f6e27198740f00652e74a59b4a9",
+    "outputs/controlled_v15a/records/basic/ctrl_08a9f2f978939b26754f/nli.json": "084b6109181fb5719556edc43622b397ce5345aae400b264ab3dd30aec6f08b0",
+    "outputs/controlled_v15a/records/basic/ctrl_08a9f2f978939b26754f/pj_v3.json": "83c598f780de5bd47805b80385d456a8f3335289686e267a5e2671516c4f5d54",
+    "outputs/controlled_v15a/records/basic/ctrl_0b080942f67825918e6c/nli.json": "8690e93e1187c66fd67123f8663993e60773de90bcfd96fe43d0ceb2b8b7185e",
+    "outputs/controlled_v15a/records/basic/ctrl_0b080942f67825918e6c/pj_v3.json": "d82eb480ff6b436db5e6509e9bfb856c3509321841b0feb8dfc289eff606ce35",
+    "outputs/controlled_v15a/records/basic/ctrl_11d5ef23e80d72dd6f27/nli.json": "e7edabc84b0a6761f3bc2ec5011184807f9e58d025030f2bea881c406cf048a7",
+    "outputs/controlled_v15a/records/basic/ctrl_11d5ef23e80d72dd6f27/pj_v3.json": "526570f29d1f6fd1d6a6439f3914429d6edb44cd0542b6168c8787126fa2a8b1",
+    "outputs/controlled_v15a/records/basic/ctrl_137b32d3996c74e5ea98/nli.json": "07c5d9278cd2f41394899ae955035c9ea57cba8bd0c1dd093a08d16a94a47138",
+    "outputs/controlled_v15a/records/basic/ctrl_137b32d3996c74e5ea98/pj_v3.json": "e2f8a660b7ff3e0f969b7f0a0c70e4394897506876430ab3e67a82c8fced1e71",
+    "outputs/controlled_v15a/records/basic/ctrl_190c5f8ecba076ab256c/nli.json": "eb23ce7fcd8ae3b15a6f4000f995357a91089a29b0e81f8a609fa32d2ad7c115",
+    "outputs/controlled_v15a/records/basic/ctrl_190c5f8ecba076ab256c/pj_v3.json": "ff71867c8f4031f5fdcfaea97f6e46e4df2321bb0d4985d4ceb1b15e8f9c96df",
+    "outputs/controlled_v15a/records/basic/ctrl_1918e49615d18ebafcaa/nli.json": "c06a359b294d224dad77a87881ba4acb885cd890e1dbfb7c008fe367c967aaf6",
+    "outputs/controlled_v15a/records/basic/ctrl_1918e49615d18ebafcaa/pj_v3.json": "4d363bcd187289e6b34e3cf8e1b0674e0cfc4868b1415829193152af4a9041f0",
+    "outputs/controlled_v15a/records/basic/ctrl_1a6778c8314cfe25f833/nli.json": "5742d6101a026e50da21434b8a18776bb8cc9fcd06088c3587144d65e209bc83",
+    "outputs/controlled_v15a/records/basic/ctrl_1a6778c8314cfe25f833/pj_v3.json": "e2923cebec44c044edda156e44297817d8d9a0d822c0f4f2ca9968d0c2b807ec",
+    "outputs/controlled_v15a/records/basic/ctrl_1ab7f41836e0674e166d/nli.json": "973f0cd798e86f2a4a41d8f183ce02eb01fdd56ac7e703616318dce98150487a",
+    "outputs/controlled_v15a/records/basic/ctrl_1ab7f41836e0674e166d/pj_v3.json": "4da62ad7f547d4c528a153126a15cd6dfa3efb55ae4f46dcf6d369f238b2354f",
+    "outputs/controlled_v15a/records/basic/ctrl_1ba05783e5fc74189d26/nli.json": "abb0143b8b99eea9db51ff1954db81a557a10628505c2f0d3c05c46a843fac8a",
+    "outputs/controlled_v15a/records/basic/ctrl_1ba05783e5fc74189d26/pj_v3.json": "8156ee67b1c8d472e4ea5b8901be7d55070a4597147df3601cc41af24fb00ebb",
+    "outputs/controlled_v15a/records/basic/ctrl_2027433cf7719beac75d/nli.json": "5b1a824bbf0f94098138d727cc380ec233a97842d8a15963d0f18fc4a9e8993e",
+    "outputs/controlled_v15a/records/basic/ctrl_2027433cf7719beac75d/pj_v3.json": "27c484077fd89b659276a118cd6223f06668abfa3444dd94e5d8bbc2d1b9bcb0",
+    "outputs/controlled_v15a/records/basic/ctrl_21c6b1edf9db1041dfd4/nli.json": "c0754137f3e40dee44d6adb56ebf16d0d6e7b674dcefbe4ec98799ad9b5899d7",
+    "outputs/controlled_v15a/records/basic/ctrl_21c6b1edf9db1041dfd4/pj_v3.json": "d60c3d9a95468ffa76e81b30923eb0444d09315139fa207264a5cfa724faf940",
+    "outputs/controlled_v15a/records/basic/ctrl_2796e855f536b3055d0e/nli.json": "3108fbd14e85551537646f7d1510a9eac993885bf78ddf524a821ee2677bc6fc",
+    "outputs/controlled_v15a/records/basic/ctrl_2796e855f536b3055d0e/pj_v3.json": "259b87ffc1b05e29c973a2ecde31ce7a470bcb7f1edc69b8d3565bc70aa5d560",
+    "outputs/controlled_v15a/records/basic/ctrl_2949622250cb0e5f5d9f/nli.json": "96aef9394bdabec5cf8cfa7e177daa42014772484008bbeb757e8853b386acb8",
+    "outputs/controlled_v15a/records/basic/ctrl_2949622250cb0e5f5d9f/pj_v3.json": "42011417d5b714339bfb160059a5a2e5605335f1d240100c1b1494439bf23842",
+    "outputs/controlled_v15a/records/basic/ctrl_2962931d6048ff64c26c/nli.json": "a882f0d9f1ab11ef472601c903e636ddeb03fd9acea5dbc4bb76896137009213",
+    "outputs/controlled_v15a/records/basic/ctrl_2962931d6048ff64c26c/pj_v3.json": "7c81bbc3f366b88700445425f7aab12438c82858d4a86e05f8ece96d8b3b71fe",
+    "outputs/controlled_v15a/records/basic/ctrl_2ab4161896a036792d06/nli.json": "0db45c7314ea8dd2bc3db33e167c02a4a94acee621b368389eb807224d3440a5",
+    "outputs/controlled_v15a/records/basic/ctrl_2ab4161896a036792d06/pj_v3.json": "d56f809f2837b0b212ea49bedf78761b418848d62fa0e42eadf64725f0f2d9b2",
+    "outputs/controlled_v15a/records/basic/ctrl_2b9526ed78cd21413408/nli.json": "c0863f0f819be855977b2a475076f68a054e7c9a0a1ed744f1952bcd98164d5b",
+    "outputs/controlled_v15a/records/basic/ctrl_2b9526ed78cd21413408/pj_v3.json": "e551d2884f3b636a8c33deeb56a89fc8a756156515b84c33db858b3437c3ef84",
+    "outputs/controlled_v15a/records/basic/ctrl_2da124d94cc84336a3ed/nli.json": "05cfd81dfa5fd608a427900e0f27dae63aec111e863ecc9a44b24c83bbc23e38",
+    "outputs/controlled_v15a/records/basic/ctrl_2da124d94cc84336a3ed/pj_v3.json": "969b6faffe9b4017f70613d0a793c8bc5770aaeca17e80268cfe89fb3f2c57d1",
+    "outputs/controlled_v15a/records/basic/ctrl_300d1fb30ec2067205b7/nli.json": "a9a638a6760a6e51b527721eaac86c5c9bc16010acb407732fb4d99d36b14a90",
+    "outputs/controlled_v15a/records/basic/ctrl_300d1fb30ec2067205b7/pj_v3.json": "f961538d33067c1ec71325771945c396b768176b8abdb949af78209804e5a478",
+    "outputs/controlled_v15a/records/basic/ctrl_38fc0166cf6e243c4ed8/nli.json": "bbf6098e6517ea98b2e29e23371ced537ec660b00932be87fe5c9eb801f3209a",
+    "outputs/controlled_v15a/records/basic/ctrl_38fc0166cf6e243c4ed8/pj_v3.json": "998e790bf5d50de6157677fed900cc6fe6445bde960c3554ae92a08a128d18cb",
+    "outputs/controlled_v15a/records/basic/ctrl_3a8c3b45d48d82feb2bc/nli.json": "45a633ac7d579c35adf208728cc5535ebabb48a5450e4f880fbc8fe0da631177",
+    "outputs/controlled_v15a/records/basic/ctrl_3a8c3b45d48d82feb2bc/pj_v3.json": "78697b00b6b27b085ca37907e14c6254aaf221262dfad2cec96eac447c1a8672",
+    "outputs/controlled_v15a/records/basic/ctrl_40f3a1b918a60c142d27/nli.json": "91019f77878fc1e1e30bcb909d6ecd93d54ae13aecbfa5d9ecf82b0766325771",
+    "outputs/controlled_v15a/records/basic/ctrl_40f3a1b918a60c142d27/pj_v3.json": "de1173323240efda0508bc84f248e3e4b55699bf623d3c3553e16af175b36d08",
+    "outputs/controlled_v15a/records/basic/ctrl_41f6fa0d21dd39be2392/nli.json": "0018e59c0611f6ed21b1af03ca3621c076041a28b07a62e53bdef939ebedee9d",
+    "outputs/controlled_v15a/records/basic/ctrl_41f6fa0d21dd39be2392/pj_v3.json": "076ee06862d79e8c6b79ec4e6a83f638ff7d3623af1bd754d24f55170ba4fb30",
+    "outputs/controlled_v15a/records/basic/ctrl_4238a40f5215cd194e66/nli.json": "45e64fdfdc5c65103d215637ad32ea8c96e8559cd424dd49c2706de75d964cdb",
+    "outputs/controlled_v15a/records/basic/ctrl_4238a40f5215cd194e66/pj_v3.json": "c33c7a696bc748d5f53022a36a77699daa94cb81b6c52682f2b5c98439e21aff",
+    "outputs/controlled_v15a/records/basic/ctrl_48321c7ef5f83fe0c9f4/nli.json": "87e1e0a12a7f843c558eec491e75a7a5a1cb5bda8ced44cb27c3e517c0cd8bd4",
+    "outputs/controlled_v15a/records/basic/ctrl_48321c7ef5f83fe0c9f4/pj_v3.json": "0928ab2d060417457b0b3650c377360db09ee5277ac277c054f5a65a8c5ac544",
+    "outputs/controlled_v15a/records/basic/ctrl_49babdb0d0b161fafe2b/nli.json": "e0e4c4a93efc4e8b6583900a6cf21c2ead5de4a067be2d4d5193c82a4c523a43",
+    "outputs/controlled_v15a/records/basic/ctrl_49babdb0d0b161fafe2b/pj_v3.json": "cc84ec77d310e55324c02614c9464b2b2e5d9b755d50298bd50bb3611532d6aa",
+    "outputs/controlled_v15a/records/basic/ctrl_4bd13ce182696208b705/nli.json": "6f0b26ba2246b376ab8b0d1d80c1e947b5aea8bf7d475eff80aa79c76f707f64",
+    "outputs/controlled_v15a/records/basic/ctrl_4bd13ce182696208b705/pj_v3.json": "e9a7f199b811316f1c2ed1a420c6ae3a69e3c554586e7044663e368bd9f60c80",
+    "outputs/controlled_v15a/records/basic/ctrl_4cac6a46be2440ccc14a/nli.json": "4ed730dec4421d0990ddc83a3282089739ff7f6f0be94b6cee87d3206dd6f0e3",
+    "outputs/controlled_v15a/records/basic/ctrl_4cac6a46be2440ccc14a/pj_v3.json": "328bda2aa73379402188fc66e958630cdce8c61d235ad4a246cae66301848008",
+    "outputs/controlled_v15a/records/basic/ctrl_4d02cbb623e42ff1f6b4/nli.json": "71a59e67929f552e417a0662b3b2b9a35f02d97a5189413f27370c70eca8b76b",
+    "outputs/controlled_v15a/records/basic/ctrl_4d02cbb623e42ff1f6b4/pj_v3.json": "b7b7b6e6f25b6b146c43ad3192d0a1cef4aae37407111da1a092ca80a8f73b32",
+    "outputs/controlled_v15a/records/basic/ctrl_4f8587fb66974ee97fcb/nli.json": "3ceccfb7cc597ac1fc7fd64c86868809064136886cabb60b714e0b5599f21854",
+    "outputs/controlled_v15a/records/basic/ctrl_4f8587fb66974ee97fcb/pj_v3.json": "44ff071c3364739b8e072528f1ce54fe7629ae91366a5bb7ee194c3bbe885cf2",
+    "outputs/controlled_v15a/records/basic/ctrl_52e742e4ac7d5d8fbc97/nli.json": "60cd7b772b87a109834813de7dae786b47cb008a24b54d00a93085d613d6805d",
+    "outputs/controlled_v15a/records/basic/ctrl_52e742e4ac7d5d8fbc97/pj_v3.json": "a7cc478a793ce581205e7b8a141cf692c22cd014ee7d2399f456e4ea0eedea7c",
+    "outputs/controlled_v15a/records/basic/ctrl_54584f17397f7f39fdb6/nli.json": "08ced9e429f1131f8ebd50ebf03607fc1b781af8802edba8d132fd494ea2e267",
+    "outputs/controlled_v15a/records/basic/ctrl_54584f17397f7f39fdb6/pj_v3.json": "87682220d93882f68a12cda30945869b2e7a691c8c0877941a83e3a9cb29236a",
+    "outputs/controlled_v15a/records/basic/ctrl_559ca972f73bdb42aea9/nli.json": "a0690066d05bb52df2585df7c9f7bf6cc97154f73488ee446614259d6ad98abc",
+    "outputs/controlled_v15a/records/basic/ctrl_559ca972f73bdb42aea9/pj_v3.json": "3deb412045aa3abb896af35e4e2bf3e92fe67341d21ed8be46e4f873c4ce5824",
+    "outputs/controlled_v15a/records/basic/ctrl_586559e8b737d117924d/nli.json": "00982d6c12b458269d1a540f02dd6351512d756ed5a342276d8da93c0e2e9e0b",
+    "outputs/controlled_v15a/records/basic/ctrl_586559e8b737d117924d/pj_v3.json": "337e52ced838fa451ff8959f42a7242240afffe315d2cdaff97384c6bdc41751",
+    "outputs/controlled_v15a/records/basic/ctrl_593f442ca382a4984b7f/nli.json": "58491dab51a35eed05f279ac0bde29e0104fbc54c59ac3fb3cfb5a333a177fbd",
+    "outputs/controlled_v15a/records/basic/ctrl_593f442ca382a4984b7f/pj_v3.json": "11537b39fc1836e0739c46653201cd1c8e2ffed8a26f9728971196cdf0677597",
+    "outputs/controlled_v15a/records/basic/ctrl_59616556edc698ba8156/nli.json": "38e3d949ccede5c9db1c48d635ed5f16ac8011a1679cce4938a03154b48c32c4",
+    "outputs/controlled_v15a/records/basic/ctrl_59616556edc698ba8156/pj_v3.json": "a3c80e0f82bbc39e31d5c641ba4ff9a8e3103df367844ba65ef45a3be4ab8fe8",
+    "outputs/controlled_v15a/records/basic/ctrl_5c0dc09b2a323eb4f8b9/nli.json": "ff838a6f64081b35fc1ee9ae36a25f785ef6719c2022dab1549670fd1d78e9a2",
+    "outputs/controlled_v15a/records/basic/ctrl_5c0dc09b2a323eb4f8b9/pj_v3.json": "62631ebe47c17297371f74363c54899c349d83822ae04bc201a64a5e0c134298",
+    "outputs/controlled_v15a/records/basic/ctrl_601ad6f46a09d288e2f7/nli.json": "0939c6715cd75b7297ccf95abeb2ed773d79efef5f9f5df41b3d249c7d4cb8c4",
+    "outputs/controlled_v15a/records/basic/ctrl_601ad6f46a09d288e2f7/pj_v3.json": "a6ee60f6cec330865b92d3ef5177d35a96494084af07e2fa413f5c836a4d88ec",
+    "outputs/controlled_v15a/records/basic/ctrl_617d30b55107ea45c4bf/nli.json": "01b422a9e56b5e7dea072e382473b32e170651ab011513532bd7818f9727ce29",
+    "outputs/controlled_v15a/records/basic/ctrl_617d30b55107ea45c4bf/pj_v3.json": "0f608f6cc6fb2429c9095b06eed0a1f783cb908235fbc528894504118d745055",
+    "outputs/controlled_v15a/records/basic/ctrl_65153c6247dc3f93d61c/nli.json": "78570984c5e84fa33d95e5cb2a95634813af33ba1a6e7a22c34538690774fa24",
+    "outputs/controlled_v15a/records/basic/ctrl_65153c6247dc3f93d61c/pj_v3.json": "1894a0241cc5de70b7865d6d9ee73b13d1042c341e10c85bb73ce3c8a158c8fd",
+    "outputs/controlled_v15a/records/basic/ctrl_666649d68250a6455356/nli.json": "d73f9e525943d989a733616e63215a37a41690d35501aaff86ac7e95cc6a415a",
+    "outputs/controlled_v15a/records/basic/ctrl_666649d68250a6455356/pj_v3.json": "431f22093e149a5aaa476839ca757d03aa70f7c47e9461bca4226447ddaa3976",
+    "outputs/controlled_v15a/records/basic/ctrl_682a7e7bdef34159b6b3/nli.json": "9c6e57c1e2e8c1d57e59a5870f05c91d77ac5a54c867fc0b9574eace8cdf8c8e",
+    "outputs/controlled_v15a/records/basic/ctrl_682a7e7bdef34159b6b3/pj_v3.json": "d1ce2389c326b4b57193a5f4765b00feee8ab1661b137df10df0f723a3241dd7",
+    "outputs/controlled_v15a/records/basic/ctrl_70bef71c319d2ed6d643/nli.json": "32a311eff6ee1c84b6491b7fb7320802dbc539dab2b79c368227ae362095765e",
+    "outputs/controlled_v15a/records/basic/ctrl_70bef71c319d2ed6d643/pj_v3.json": "70c7fcbd5911cbd59821f59913bbdf4b24c76be6b84281f4651697101072244b",
+    "outputs/controlled_v15a/records/basic/ctrl_71406beb858d291fe07b/nli.json": "c363be69de75dee4e71d91ddcda092a511c1dad0485e799956c7439537f947c8",
+    "outputs/controlled_v15a/records/basic/ctrl_71406beb858d291fe07b/pj_v3.json": "e1b26fce6fd4c12ada3e9d11695045a10e63e0e360c0b97d47cf20f9265ceefa",
+    "outputs/controlled_v15a/records/basic/ctrl_751c9c07f5ca4a813cc1/nli.json": "78d8f98a5a81d296d7ea592bd3538d54b06ff0c368864d64d708cb4c8ee2940f",
+    "outputs/controlled_v15a/records/basic/ctrl_751c9c07f5ca4a813cc1/pj_v3.json": "a5f1b9b91c14282b862c7835abfca8058f8ad8d001fb0690790d75eeb77235d8",
+    "outputs/controlled_v15a/records/basic/ctrl_75da14a8df16104cff6f/nli.json": "5b1c4dd0f6b3302f276d836997845b484014b7930169acedfb6b577f4c45edb4",
+    "outputs/controlled_v15a/records/basic/ctrl_75da14a8df16104cff6f/pj_v3.json": "4ef77c1c711f77ee3ef969a7cedb15c3a632988b21d2de0e20369453b752525b",
+    "outputs/controlled_v15a/records/basic/ctrl_7f8684eeb3b92f0d8ef5/nli.json": "56257c13b69f6e9d09736f45ecf96d86a18a1e6d9c87d0c711409e0a1e78eb74",
+    "outputs/controlled_v15a/records/basic/ctrl_7f8684eeb3b92f0d8ef5/pj_v3.json": "75bfbd027b8f0ec1308282792510a638dcf4ad770bd3d385238b023232d22d06",
+    "outputs/controlled_v15a/records/basic/ctrl_8285145ad07919c5f9fb/nli.json": "8c700fa5f9adb49fed7b505a3dacdeffa5486f1e86ff5e07ea9d6ea521145c6e",
+    "outputs/controlled_v15a/records/basic/ctrl_8285145ad07919c5f9fb/pj_v3.json": "d2c82e7600506bd52035c85879ccc18638f8335cee09e1acb4442f535b3466f1",
+    "outputs/controlled_v15a/records/basic/ctrl_8564f4f997e84a45c922/nli.json": "8e37f4e5099437d50022a1158453078b81ad4974f1cc337a82a1738f94d37d7e",
+    "outputs/controlled_v15a/records/basic/ctrl_8564f4f997e84a45c922/pj_v3.json": "cb7d4968b707a48f3cd6a894d10bd3c61bfba8e33d86366d3951e7aa837cfd2f",
+    "outputs/controlled_v15a/records/basic/ctrl_89f1adcc6cdaae05262a/nli.json": "cfc6c2703bcf73421a354113511752538db8e7ff9c58774e7eca0817bf2d7743",
+    "outputs/controlled_v15a/records/basic/ctrl_89f1adcc6cdaae05262a/pj_v3.json": "b5858cdba25faa673e58e801fa849dc2d4932c94b95778b77160e9b902bf9e2a",
+    "outputs/controlled_v15a/records/basic/ctrl_8a9679d4dced77cbd16a/nli.json": "19c57b0f7bdaf34a7b6b35c4995666d21f418439eb8e7bad51bcc1838546cdc8",
+    "outputs/controlled_v15a/records/basic/ctrl_8a9679d4dced77cbd16a/pj_v3.json": "60f27c8e7d41d2c7dc1e8f011194939c27d8793c336a456fef3830c0cc84b934",
+    "outputs/controlled_v15a/records/basic/ctrl_8e8cc85b3e6f957c2ecd/nli.json": "792521f3b438876210bdd121ab1cbc729b4847180490a6fb9c866c30e566dacf",
+    "outputs/controlled_v15a/records/basic/ctrl_8e8cc85b3e6f957c2ecd/pj_v3.json": "ee555bc9715a6db67346d443f654da73b3446bb458fec1a6d047ed3f72cd058f",
+    "outputs/controlled_v15a/records/basic/ctrl_8f2f7400478b8b8ecefe/nli.json": "8e77c78f3f0445ef40f58ec40431c3404176ce68aaea7d4fe20ec6ac60b09289",
+    "outputs/controlled_v15a/records/basic/ctrl_8f2f7400478b8b8ecefe/pj_v3.json": "640567f13358bb4891639f81b24e46256e46896b344c135166721c7e27b57aa5",
+    "outputs/controlled_v15a/records/basic/ctrl_91e5e3c72c1196624633/nli.json": "66f4fc5617972872252501d21528cbdc250943d781c4fcc8aaff30c0f5b45617",
+    "outputs/controlled_v15a/records/basic/ctrl_91e5e3c72c1196624633/pj_v3.json": "684a09180dc12e6cfaa9a2fee6a745de5e68914aa37ea9610025f8b4b2815ce2",
+    "outputs/controlled_v15a/records/basic/ctrl_91f3bf66488df07bb838/nli.json": "7625f12e516ed82bbd8d0ac6d93fedbea551b6fe23204ae57d8a6962358cd7a7",
+    "outputs/controlled_v15a/records/basic/ctrl_91f3bf66488df07bb838/pj_v3.json": "3cdf2666891994c0c7fb0837ed4ba1b09c448acdded6950e7a19d73fa30d8360",
+    "outputs/controlled_v15a/records/basic/ctrl_9302fca336ce5c26b439/nli.json": "73230cfba6dfca04bbb426dd46caadb1ad6251e6cc56021d302501ba39e1b02d",
+    "outputs/controlled_v15a/records/basic/ctrl_9302fca336ce5c26b439/pj_v3.json": "1a79b3592aaf0871e41df1758316ca37395aebd4f56c43ee61b14f1383b9cc2e",
+    "outputs/controlled_v15a/records/basic/ctrl_94efd4979add87a71b56/nli.json": "424a25f30474f0c6ce3a51488a9d3ce00139bdeb1e4f87c262645f614245865c",
+    "outputs/controlled_v15a/records/basic/ctrl_94efd4979add87a71b56/pj_v3.json": "3068ad7bc19fab1a0ed61d4404b1a97fdea03480201aeab155101af47349a048",
+    "outputs/controlled_v15a/records/basic/ctrl_99ccd1478b9dc296d8b9/nli.json": "1ada4022a29fa9f60e39d1692a383ed567b5730752991e46d0ac0474f4c9e0f0",
+    "outputs/controlled_v15a/records/basic/ctrl_99ccd1478b9dc296d8b9/pj_v3.json": "f098faa46d83e5e5be24abe9a539db6761964be69431e302b7362dfc0e813063",
+    "outputs/controlled_v15a/records/basic/ctrl_9ba997c985049b0579c5/nli.json": "76bb63b01a1a591c1774c15b1a79398d396079bc95692af47b71f170fff762cb",
+    "outputs/controlled_v15a/records/basic/ctrl_9ba997c985049b0579c5/pj_v3.json": "005bac792e516b6dd0b624fbb1835f1381338d788dbbe799e00462e68c7fe259",
+    "outputs/controlled_v15a/records/basic/ctrl_9ed75b64e6d1a51ee8b8/nli.json": "b62bc9401adb0b26a5713ebf8afc0f3e15cc1b81a815a918651cf272e4d485db",
+    "outputs/controlled_v15a/records/basic/ctrl_9ed75b64e6d1a51ee8b8/pj_v3.json": "0d65b0558d52bcd46f9cf3072831ff8808a5f0c1cc8064413c1d4b60b7f5b7d0",
+    "outputs/controlled_v15a/records/basic/ctrl_9f6dbce4e7de404b515d/nli.json": "c689db9a1f8c1bf1024639b7e57f3d62996a969bf1eca790b83e3120e99e127a",
+    "outputs/controlled_v15a/records/basic/ctrl_9f6dbce4e7de404b515d/pj_v3.json": "cf18421989e26b323d293487a0c349af005e74c40254a4a6ff762328dfebcc3b",
+    "outputs/controlled_v15a/records/basic/ctrl_a062566df0efe7c07903/nli.json": "8ab6fa301baa5c028f6fef2e7d1feb4050d42c20425db03e4abe3c6d4854a4dd",
+    "outputs/controlled_v15a/records/basic/ctrl_a062566df0efe7c07903/pj_v3.json": "9d667eba0a9fe6f92f1250d74bbca473746e572d517c42d36185b5826a09c93e",
+    "outputs/controlled_v15a/records/basic/ctrl_a09e6294615096495d47/nli.json": "7ecfdeeda130dcaeec5def0deac04749e55127e7a5cf3e78a42e4bcab521348f",
+    "outputs/controlled_v15a/records/basic/ctrl_a09e6294615096495d47/pj_v3.json": "b7da8665fe40445e2314a1c3b8afb082b2cc2b9eb507a56d04e9004e597f515e",
+    "outputs/controlled_v15a/records/basic/ctrl_a247b36014f66b2b06e7/nli.json": "d77b977cff0018ea6ace2e44acb190c13de5c1b0e55c0bac9f12e48f1b5901b2",
+    "outputs/controlled_v15a/records/basic/ctrl_a247b36014f66b2b06e7/pj_v3.json": "9b0cafbfb4f6ad274c7c3acc75a69b0bd604d0c37a20a2c973e81e461689c802",
+    "outputs/controlled_v15a/records/basic/ctrl_a2e4b8618d5344ad5b62/nli.json": "248937303f2560ee5b68649fda774b40ddd639fb7eb0c20b521400477b5298e0",
+    "outputs/controlled_v15a/records/basic/ctrl_a2e4b8618d5344ad5b62/pj_v3.json": "afcc887b26b31b924798989d72dc7266618082785136d6be9bbe684c71c8fddf",
+    "outputs/controlled_v15a/records/basic/ctrl_a4ac79a9c2f07e00d0ad/nli.json": "62d1cb5f8beaf5d67bd230911712acaa85f3a41b8d48a0f4b8afe4b19f68514c",
+    "outputs/controlled_v15a/records/basic/ctrl_a4ac79a9c2f07e00d0ad/pj_v3.json": "1bc02158c05ee42c568a999c3bd0da50abcfba3fa8a65ea3cf4c9819e9d75151",
+    "outputs/controlled_v15a/records/basic/ctrl_a7421c4e07d502283b3d/nli.json": "47e5097614bb69a0d0b9675eadb78c71cd0f89abe691887f3133edd53febdcfe",
+    "outputs/controlled_v15a/records/basic/ctrl_a7421c4e07d502283b3d/pj_v3.json": "5f895ba33f5409a70b175e1fe6450b872fe692ee0881c4f30bc5a83f5ff309ac",
+    "outputs/controlled_v15a/records/basic/ctrl_a778e0edf0365737ab7c/nli.json": "7d4b63c2656fc26c1d5e899ca8936451845980be20e0c9c8c64a9d42ed0962af",
+    "outputs/controlled_v15a/records/basic/ctrl_a778e0edf0365737ab7c/pj_v3.json": "07d387dc3b1e677adb0126c22a9e8bafe3644bab890e558d336733aa32de743f",
+    "outputs/controlled_v15a/records/basic/ctrl_a92b318d53d399e09eac/nli.json": "b1466a9e217db69261e452d19f91271695a1dd112a55e0b5d88fb2ac7aec77b0",
+    "outputs/controlled_v15a/records/basic/ctrl_a92b318d53d399e09eac/pj_v3.json": "4cb772d11c8eee56525eda0f059517c0ea6705b6be3c0e922ae5a487daa4dc92",
+    "outputs/controlled_v15a/records/basic/ctrl_ab17c8b9ef5d69a9461b/nli.json": "8b6df05c1c14336f432b6bb9c706f643cdd35cd499add513d8c2177091e3bf18",
+    "outputs/controlled_v15a/records/basic/ctrl_ab17c8b9ef5d69a9461b/pj_v3.json": "0e379a78bf76ed56b00b127da17cfce679f6ee3be894eef53543316b5d4d5639",
+    "outputs/controlled_v15a/records/basic/ctrl_ab2d16d79fc12303dace/nli.json": "4b94837e31e857ed126b9325c5ad6d0f52bf8dbcf4f678e80807ebc7f2da0582",
+    "outputs/controlled_v15a/records/basic/ctrl_ab2d16d79fc12303dace/pj_v3.json": "ca567481ec6f5d39ac33507e3b7fad565bf60e6ba41da1734ad05c21f5008fa6",
+    "outputs/controlled_v15a/records/basic/ctrl_ab3977f61c20ccd62466/nli.json": "239cead149fa57ffe0bf786df5e14cc4370b31bb51772d4a567b6255b419d4e5",
+    "outputs/controlled_v15a/records/basic/ctrl_ab3977f61c20ccd62466/pj_v3.json": "c1cd3d489223baedbea99b75d8598306efc3fbcfc0888cf16fb163f1ef85e66c",
+    "outputs/controlled_v15a/records/basic/ctrl_b0b5303c0401a7c89523/nli.json": "8fd3a9e27eb06186f039c3e8fa74f656cbbe399a9cb02029befce2b58416302d",
+    "outputs/controlled_v15a/records/basic/ctrl_b0b5303c0401a7c89523/pj_v3.json": "66758c48b94acd9f7d3f9d28bb59420af508356a0902d52c7daccb887d6678c4",
+    "outputs/controlled_v15a/records/basic/ctrl_b276ae348f38259a9ff5/nli.json": "9adc5e4a401ce53707cc706e6c304d79dc15cc7a6cad2f95cff38fae4cc4bc9d",
+    "outputs/controlled_v15a/records/basic/ctrl_b276ae348f38259a9ff5/pj_v3.json": "9b8a2fe0c7844829de6a55e7bc61eab2c03f4cb86374c090b085879c4b57a2f5",
+    "outputs/controlled_v15a/records/basic/ctrl_b2cc007ec0d5ac7e980a/nli.json": "b82776d2ce97e7c776c333a632ccc1cf9a1b8e0512b1fb4009bc3b175a84a3ad",
+    "outputs/controlled_v15a/records/basic/ctrl_b2cc007ec0d5ac7e980a/pj_v3.json": "15a2fbe7f976af98b8aff7274f42f8a247438bb868dbd82144f065ed79da879f",
+    "outputs/controlled_v15a/records/basic/ctrl_b36c746e0d418068e34c/nli.json": "b21b1a7cb69398ff634422e2ac18798c779bafbbab9a2de515ff4942a343e5b8",
+    "outputs/controlled_v15a/records/basic/ctrl_b36c746e0d418068e34c/pj_v3.json": "74527cd2560617e98944c312762fb6730afff235cee7e8f57bb98e78714b8227",
+    "outputs/controlled_v15a/records/basic/ctrl_b68793ede55fe3f16f81/nli.json": "eeeac727dcb829be20f16d8be02fa9d9baa0a573e19c42a426f4315311ec6304",
+    "outputs/controlled_v15a/records/basic/ctrl_b68793ede55fe3f16f81/pj_v3.json": "b3370a24fa4462f4324b66921560f1eac0e5069e99a07bfda7578ca591ec52ab",
+    "outputs/controlled_v15a/records/basic/ctrl_b70eff30affad2e2ff47/nli.json": "b22027825191c867e59fe73069602eafc19461710072c8c5dc37a3bf7d8b3dcb",
+    "outputs/controlled_v15a/records/basic/ctrl_b70eff30affad2e2ff47/pj_v3.json": "d9fb66cb98819f7979e9b191e009b9f736d8cfd8e912a2af2066fa74c6518629",
+    "outputs/controlled_v15a/records/basic/ctrl_c92ae2cf406b3799b769/nli.json": "16be2788581d09fce1056296a90f262102fe73da38de10b47033851446f22096",
+    "outputs/controlled_v15a/records/basic/ctrl_c92ae2cf406b3799b769/pj_v3.json": "68fc32e6ba495d77ad064c2fca2560bb36606f547890fefe722bf4a05b7b6de5",
+    "outputs/controlled_v15a/records/basic/ctrl_ca9e488e3b34ed19ef37/nli.json": "a834ff88c7999fe5128d94f4a97563d738a09fd23b9401b9111f411d3acaa0a0",
+    "outputs/controlled_v15a/records/basic/ctrl_ca9e488e3b34ed19ef37/pj_v3.json": "a3fc49364a74b965726d691d1744848115eb7ce7eb52293a4ce9b42826b553d9",
+    "outputs/controlled_v15a/records/basic/ctrl_cbc69c31c0c72e481b68/nli.json": "9100ce40c0842a576b625ac0a75b9b63664bcc4d304510df6d4e5c86091bd0f7",
+    "outputs/controlled_v15a/records/basic/ctrl_cbc69c31c0c72e481b68/pj_v3.json": "688acb28344e1039b9ec38524fd637aee3ca1eb0548ad361f6d2dafc7895bcf0",
+    "outputs/controlled_v15a/records/basic/ctrl_cc1f7a153984bafe3e23/nli.json": "74e5e766fe546c2d2e1118914d25b5b47e128970c28f4566d25c1b09bf444b4b",
+    "outputs/controlled_v15a/records/basic/ctrl_cc1f7a153984bafe3e23/pj_v3.json": "c70c5dffa5fb8faf1a67ebe45e3db112c99bd1749a85c4effb5dcfe0d29df341",
+    "outputs/controlled_v15a/records/basic/ctrl_d3a19ef0ea2169df0eb6/nli.json": "60b99e5f40d68e5e6e9260b0400a30320a77d757d3f274bd13e4dee6d78ff88a",
+    "outputs/controlled_v15a/records/basic/ctrl_d3a19ef0ea2169df0eb6/pj_v3.json": "8ae46c90593dd81d688ca34df199e274b7656d26ff0525babca82a3993144577",
+    "outputs/controlled_v15a/records/basic/ctrl_d5742bde7fbb57ba01b1/nli.json": "b349995bc2b0fe0fbbee7f4a179bbcb6b9dbf99765cae4aaaa998daee959bcbc",
+    "outputs/controlled_v15a/records/basic/ctrl_d5742bde7fbb57ba01b1/pj_v3.json": "25af299325f7b7c3550f57c48e6bc7b4364cb1a95256a089952fb1e625900966",
+    "outputs/controlled_v15a/records/basic/ctrl_d72b5e9a3f139f72bd83/nli.json": "e96ea87dbb62ecda603d5814dab1fba0bbee6972e5b1a93163e32f2f7a66440e",
+    "outputs/controlled_v15a/records/basic/ctrl_d72b5e9a3f139f72bd83/pj_v3.json": "cfa5814eb31381b4d3e6ead851784ee56b62815a667fe071ac569e806759c755",
+    "outputs/controlled_v15a/records/basic/ctrl_dcc2051ccb3d8ffac71a/nli.json": "fca867568837889d222b2325bf7a3c5dddcac0d1f4929186d84cf98972c45173",
+    "outputs/controlled_v15a/records/basic/ctrl_dcc2051ccb3d8ffac71a/pj_v3.json": "496da5d06f02eda39e3071aa8966554fcc0391f43bb3a5666b5804f61335ba28",
+    "outputs/controlled_v15a/records/basic/ctrl_e427bb42517aa33d300b/nli.json": "66539d918f10bdc08560c2eb748a0bc8325f7ef32ba638bfbfe3f9be0c76a6d2",
+    "outputs/controlled_v15a/records/basic/ctrl_e427bb42517aa33d300b/pj_v3.json": "193f0449d88870c4dec3e6768294a4faf271d883d8ca40cc1bc47ecb3ee1b1ae",
+    "outputs/controlled_v15a/records/basic/ctrl_e7a553e1cca8a31e57f1/nli.json": "9ad0ed4b1f3b27d86770dc57c3a97e40784186e952d35d01cb50e59dc3e792a7",
+    "outputs/controlled_v15a/records/basic/ctrl_e7a553e1cca8a31e57f1/pj_v3.json": "8808d839dc35e9849f968e7571507d1f580034a6704af5b2820dbf1c558351f0",
+    "outputs/controlled_v15a/records/basic/ctrl_eaa7880c38aaa7d706f6/nli.json": "fb31b9a156f71d1f1434ee1368e4ead73f93c76aa29eac13afaed329f09ac57e",
+    "outputs/controlled_v15a/records/basic/ctrl_eaa7880c38aaa7d706f6/pj_v3.json": "2499c2bc2be51c1f43da1df916570826b9ed4cc2d41a44007440ecfa247079e6",
+    "outputs/controlled_v15a/records/basic/ctrl_ebdb883e3b3fbd4a647c/nli.json": "d63fe8d5004ad26b19ce74d5068d9784d891c713a06a24c9669fbc7b1182fef4",
+    "outputs/controlled_v15a/records/basic/ctrl_ebdb883e3b3fbd4a647c/pj_v3.json": "e5178c792a2e32502f18f8e24d5270a88c4e0e90921ea0ee36fbed1a24b3f007",
+    "outputs/controlled_v15a/records/basic/ctrl_f05b7d4a26c4a1bf9856/nli.json": "22cfaf91ab2348d08d7c350a52a7059723607a4f34ece743962716dff5650857",
+    "outputs/controlled_v15a/records/basic/ctrl_f05b7d4a26c4a1bf9856/pj_v3.json": "286b2ba184b1eb233ae18f6dad66a6783aa8b5e85ff8ab9e1c7ad010383b1648",
+    "outputs/controlled_v15a/records/basic/ctrl_f44536321499b14c0e77/nli.json": "75de17cdfbf5648e04c949bd1077ec01d6c98ce26c176b713d9c7e1bb125011a",
+    "outputs/controlled_v15a/records/basic/ctrl_f44536321499b14c0e77/pj_v3.json": "5e481e46127fca2aef9dfd2555e4eaf8c941e4d45aeafe877c7772a4bd47baf4",
+    "outputs/controlled_v15a/records/basic/ctrl_f57135ee97e2c1a255c5/nli.json": "23cace9c6e6b1be0317fab58b499e1671abdd029d47c5f1f38fc9f03b6f21da2",
+    "outputs/controlled_v15a/records/basic/ctrl_f57135ee97e2c1a255c5/pj_v3.json": "ceb6d4b1910804eb4c27826601fba71383579e18e8799970b3c410d88336128f",
+    "outputs/controlled_v15a/records/basic/ctrl_fb8dfd54192b2571c965/nli.json": "ccb7f960635e42ea4d5d52e9a9114555a9c7118ec457e3f20c7c06f3b5c36f0a",
+    "outputs/controlled_v15a/records/basic/ctrl_fb8dfd54192b2571c965/pj_v3.json": "4c0eea986410d922156b8bb06c3b08ea4ffcac155c232a1c57f27cc5a4ed8105",
+    "outputs/controlled_v15a/records/basic/ctrl_fd92b16c964a499ce3ae/nli.json": "6f5826b16df07e9d4cb986334be5b8b96f8843f50d7d1366604f692857f4511e",
+    "outputs/controlled_v15a/records/basic/ctrl_fd92b16c964a499ce3ae/pj_v3.json": "39282194eedc111c16dd23ee35d7ba56cc54b36e90bc76fe55734b92b772e14a",
+    "outputs/controlled_v15a/records/basic/ctrl_ff01e5b0265357a5b233/nli.json": "853ea49a6b083fe5f31a5564c8c7966e0bde27994e29aba40292dc61546f45db",
+    "outputs/controlled_v15a/records/basic/ctrl_ff01e5b0265357a5b233/pj_v3.json": "f16ca559d6c7c426ccd44a500553ac0bad1337ca055994250c7996cd8cc34724",
+    "outputs/controlled_v15a/records/challenge/ctrl_0789425edb81946111af/nli.json": "5f3be758f336de99412505ea210fe4f7891b13409772d0c2a56d0fb105cab5cf",
+    "outputs/controlled_v15a/records/challenge/ctrl_0789425edb81946111af/pj_v3.json": "a24da7e7fb9e2fb01aba55cb9a7feecba654ac904fb222dabe6f4825d907349c",
+    "outputs/controlled_v15a/records/challenge/ctrl_08cde6f969a458daf792/nli.json": "808039f1b6690b29306df8b5c8fed6cdc9947da1ee614c732fe1d66a84e9f4e9",
+    "outputs/controlled_v15a/records/challenge/ctrl_08cde6f969a458daf792/pj_v3.json": "6c8fad197c3e17e8c66157869a57ddc5557af7f7b6e7da054ebfea1b30c729d4",
+    "outputs/controlled_v15a/records/challenge/ctrl_0e5345a13f12f8282a18/nli.json": "0dc526f13169d9300c919b473f3f5178eebf635823acb29b41391ddedfe8be54",
+    "outputs/controlled_v15a/records/challenge/ctrl_0e5345a13f12f8282a18/pj_v3.json": "e057570e03e95f286e895427d0918008a555e2f8acd332529b0859d6024e30f9",
+    "outputs/controlled_v15a/records/challenge/ctrl_0f51887b41f57c1ed1fc/nli.json": "afceaa34e4cb15618daee108af7d72fae3f660ec0fceb9e7763679c9ef56f78c",
+    "outputs/controlled_v15a/records/challenge/ctrl_0f51887b41f57c1ed1fc/pj_v3.json": "44237667236401e0f7917e6f0636cee1fa48c591cf61e9b90810354b2b1ac71b",
+    "outputs/controlled_v15a/records/challenge/ctrl_1cae4b4c49cc445f03b2/nli.json": "6e45e06b030d1ad4996b0a7b787fbf69e6049c29b80435c8b4abbad0a14508b8",
+    "outputs/controlled_v15a/records/challenge/ctrl_1cae4b4c49cc445f03b2/pj_v3.json": "2363f00a8b286d5f6797f62def9ec117621d9205c0e53f2b5a044ee58e41d410",
+    "outputs/controlled_v15a/records/challenge/ctrl_1f9fd0b9c557fd64072d/nli.json": "cd32585527e751b7b921bb8653df53e739d418318e6fa4d64afc63517a0c5850",
+    "outputs/controlled_v15a/records/challenge/ctrl_1f9fd0b9c557fd64072d/pj_v3.json": "d05a15aac765e68751bb02f5789ba6b186162b0dd14381460a863599937a5dc4",
+    "outputs/controlled_v15a/records/challenge/ctrl_20960544679ce72fc014/nli.json": "b29504b74abd716e941c2d8233352e25a24c3900a5d7ce3fb593377283c3cd5f",
+    "outputs/controlled_v15a/records/challenge/ctrl_20960544679ce72fc014/pj_v3.json": "b06601f4e0bb73d3e03aee3d2c8ca9c3345db3b3082b42874fa186fbf907e217",
+    "outputs/controlled_v15a/records/challenge/ctrl_22058a8a26c51a695985/nli.json": "879c692e3d8b487dd03918ea69d502a10f4598d1beb19620389dc86ad840b16f",
+    "outputs/controlled_v15a/records/challenge/ctrl_22058a8a26c51a695985/pj_v3.json": "231f1965595ac426eece766c8f584b2681e66a3eaca2de2a85cddc0d2360a6c3",
+    "outputs/controlled_v15a/records/challenge/ctrl_220b0d9c5810de532def/nli.json": "fef0ed2a01933c4878880880f277d1c9556eae083fb743799943bb9a6dbe93b1",
+    "outputs/controlled_v15a/records/challenge/ctrl_220b0d9c5810de532def/pj_v3.json": "c256baac52aa9dc5e0837288cf780b1bf6aa5304e7490992f5272b926570dd56",
+    "outputs/controlled_v15a/records/challenge/ctrl_24628291409554a39060/nli.json": "d10511cd60719454d81fa5f6240fa5d410f36ee985f9f86b12e57153a1067fd4",
+    "outputs/controlled_v15a/records/challenge/ctrl_24628291409554a39060/pj_v3.json": "a8eaebe9f7034d2f4cbe15976ee55bb07ff437a96d6e1767d929f273d0c00d7b",
+    "outputs/controlled_v15a/records/challenge/ctrl_275c813dbb450b32703d/nli.json": "9d8f773279221df0b36e89d138660ac171a990edad2be48f2798583f1985cbae",
+    "outputs/controlled_v15a/records/challenge/ctrl_275c813dbb450b32703d/pj_v3.json": "450757f8b5077a1b58226effed49198f19c4ae933d2c789dde5a617a59fcf883",
+    "outputs/controlled_v15a/records/challenge/ctrl_2b40bf7c67dc37877506/nli.json": "09142bc98ca40a2ea4738df621400ee56f5d0861c9691d4365ef2dcd2af48afa",
+    "outputs/controlled_v15a/records/challenge/ctrl_2b40bf7c67dc37877506/pj_v3.json": "0e3aa7d0c6a254898021b53250c6dc5507cc5e269451bf4df83cdbb2b0af0c29",
+    "outputs/controlled_v15a/records/challenge/ctrl_2c52e504b987f149ad11/nli.json": "472a240b0c72228e7aa69c9943bdb61888f38f0a6115a27977416a821da1bbe4",
+    "outputs/controlled_v15a/records/challenge/ctrl_2c52e504b987f149ad11/pj_v3.json": "3bf8c89a050fdb54972bb57a47311a703a2401cbe5adb0d5789c67e74dfb23c3",
+    "outputs/controlled_v15a/records/challenge/ctrl_2f16e585f3db4efe82a7/nli.json": "a33602fd28618e7ff03e2175e458026f452f64fcfd13a37799f488896f52bc6f",
+    "outputs/controlled_v15a/records/challenge/ctrl_2f16e585f3db4efe82a7/pj_v3.json": "bdd42fd668700233f9450a3baaf6874b221ebe49ca68283a3877bb6a426ab41e",
+    "outputs/controlled_v15a/records/challenge/ctrl_30086a9ef85992c71a90/nli.json": "f7a7df0ddb57092d4973eabc205f0b9f040ffe3d5dd3e576eff5cad95cb2cc06",
+    "outputs/controlled_v15a/records/challenge/ctrl_30086a9ef85992c71a90/pj_v3.json": "e7b75ae997b520371156f78e178179068122d784f023508d9eef83d6bfbe47c0",
+    "outputs/controlled_v15a/records/challenge/ctrl_30c46064be74591752da/nli.json": "622d9095aa9fa451c68c0172639aebc23c99b80ec48efab81813bbef47a4d9cd",
+    "outputs/controlled_v15a/records/challenge/ctrl_30c46064be74591752da/pj_v3.json": "f81066a7c2b47db93a3212f62457690d5b1b250216a951873d89e5ad03890db9",
+    "outputs/controlled_v15a/records/challenge/ctrl_319e4e110cdcd9043fef/nli.json": "654f75b1ab14d104c7123d5cadd0870c74b4804e1c20fc64d5f4af7d49d58e5e",
+    "outputs/controlled_v15a/records/challenge/ctrl_319e4e110cdcd9043fef/pj_v3.json": "f3d54d6eea72ef8f99c17852b5e8d3842579c5bf98165a7b941cfde4715a3152",
+    "outputs/controlled_v15a/records/challenge/ctrl_420a2c8610f6491c18d5/nli.json": "bc7388f90f36d7ed82c04e533aaef2ecbd0c026da41537012875da604c231ccc",
+    "outputs/controlled_v15a/records/challenge/ctrl_420a2c8610f6491c18d5/pj_v3.json": "1ee68895f2428674309c51702d4b4bda56efe7d9b80e3560741aca60eb0f2297",
+    "outputs/controlled_v15a/records/challenge/ctrl_426f444cb87c7658a5b9/nli.json": "6ec8a02ef496354c6eb8990dda69ff77ea75529dc26bbb72096e2fdddab244da",
+    "outputs/controlled_v15a/records/challenge/ctrl_426f444cb87c7658a5b9/pj_v3.json": "c328560a338860a5b00d497ddcf90c710745a43d93db617d68b565592517674d",
+    "outputs/controlled_v15a/records/challenge/ctrl_4492705274176ed5d137/nli.json": "a31dad2b44218ac1613341693a4101c6c2604163d83e6b3de9d525265ba9c1a8",
+    "outputs/controlled_v15a/records/challenge/ctrl_4492705274176ed5d137/pj_v3.json": "f8d5e553d4ddd9a052d314eed690eeafb09fbbadf0382330107d4555f5ab2d69",
+    "outputs/controlled_v15a/records/challenge/ctrl_4690fee8dad02d3427df/nli.json": "b92ed79880ed5b254f5ca53b90db5377f46b0bccc246ad0c373a623936e70286",
+    "outputs/controlled_v15a/records/challenge/ctrl_4690fee8dad02d3427df/pj_v3.json": "c0cf2c6781cc0e439c28a19d92a5e2c2d538dd6b450f2d295df840bc93be89bc",
+    "outputs/controlled_v15a/records/challenge/ctrl_48a09aff0d2daf9c5796/nli.json": "21b5188faa2f7a2f2a2cbe3cf57db9f98006b0bfd61ca2247c38ea9bc57f0a29",
+    "outputs/controlled_v15a/records/challenge/ctrl_48a09aff0d2daf9c5796/pj_v3.json": "ae528f606566959d4bae94fe72db3b9e97a28ce8c62683bfd7796ca1b9610e73",
+    "outputs/controlled_v15a/records/challenge/ctrl_4c5b0b5e3fa459300cf6/nli.json": "b0be0f08f0a82fea744be4d4054767a49469d500cf62d1afe73d4685c0f94b38",
+    "outputs/controlled_v15a/records/challenge/ctrl_4c5b0b5e3fa459300cf6/pj_v3.json": "fbd86efdf4ec21584d15ed7ae507eab0165c8b303b4cf57bb5cbab7068694bfe",
+    "outputs/controlled_v15a/records/challenge/ctrl_4d6c5c1c3d1ab6cffd89/nli.json": "46805f7a123f9952f5cee3f19d8c6ed0478a5dc7dfa8474c04a6cfa18307a740",
+    "outputs/controlled_v15a/records/challenge/ctrl_4d6c5c1c3d1ab6cffd89/pj_v3.json": "d960131885e997acc29abb07c3f8720b05844ae958238ec920c4122ba87080c7",
+    "outputs/controlled_v15a/records/challenge/ctrl_4e1de3b15c76a861eb29/nli.json": "dfc4186700bd9bc34f2d7b626da47109776f82f974406b5c51a6a62ed0532b9b",
+    "outputs/controlled_v15a/records/challenge/ctrl_4e1de3b15c76a861eb29/pj_v3.json": "11f3f7f8feb231aeec47507f650041a7aeb9b5d51bda269609fb6b849b83098a",
+    "outputs/controlled_v15a/records/challenge/ctrl_4fdad08571bd23e2fd60/nli.json": "056c381c7fd6703df44c8ae915a0c893e27d884de8b2f2f865b265be8c0b168d",
+    "outputs/controlled_v15a/records/challenge/ctrl_4fdad08571bd23e2fd60/pj_v3.json": "66de8b462be12e5dceb34906df214f6fe9712cd6bae1be3afaee1bc918a71db0",
+    "outputs/controlled_v15a/records/challenge/ctrl_54c418b539dea55aba76/nli.json": "0e1a0840a67ee23ec0f471769458f624f8a94cb7bde3b1837bf27fd29f6eb6c4",
+    "outputs/controlled_v15a/records/challenge/ctrl_54c418b539dea55aba76/pj_v3.json": "42ecd371a8c8652113ee1d321d0982d239be7b5f6e0cea9cba43388f3a8912c7",
+    "outputs/controlled_v15a/records/challenge/ctrl_56c5986d0a81b16f4003/nli.json": "cffdfac4f78af4a6404402fba4e70977d4896708b226c393a98892b44d27c4e8",
+    "outputs/controlled_v15a/records/challenge/ctrl_56c5986d0a81b16f4003/pj_v3.json": "6ac74dd189deecac58268d6bfeff91800b08ee3af7e8320f6c0e58b7719f1c95",
+    "outputs/controlled_v15a/records/challenge/ctrl_59726bda170d07ad2fba/nli.json": "9349b357ea4c85790647b8bb693ce965cbec268b2ea1818765a732b5b1cf00e6",
+    "outputs/controlled_v15a/records/challenge/ctrl_59726bda170d07ad2fba/pj_v3.json": "68ff133342c3ffa0dc71980ea9be9fee3d56243777f062c832c544d5b13d54c3",
+    "outputs/controlled_v15a/records/challenge/ctrl_5c4a021ad55719d1cb40/nli.json": "1bdee5a5b0ca84a25ea901f23a199ce9515357ecb418e884e2574fe84e6a0ad7",
+    "outputs/controlled_v15a/records/challenge/ctrl_5c4a021ad55719d1cb40/pj_v3.json": "e0ef9a806e2974ec8ef1906cc8d6e1865202b0dc099a68ea6317b9412098dd3f",
+    "outputs/controlled_v15a/records/challenge/ctrl_5da7d97c8b6b45957f54/nli.json": "d3a9b992808b00c47d61e3cfa476878ce99207c834b72b081a160edd7d1f24e7",
+    "outputs/controlled_v15a/records/challenge/ctrl_5da7d97c8b6b45957f54/pj_v3.json": "c7dd78ba09d56655f415be3ec7ae0bc90aa0f1e2bebf6070e2d31db8ce5efc99",
+    "outputs/controlled_v15a/records/challenge/ctrl_614fc17dd4e0dac83727/nli.json": "4b21a0eb40dcb02a99f42992a3302b703477a3c6667c554e7299ee53b276ef68",
+    "outputs/controlled_v15a/records/challenge/ctrl_614fc17dd4e0dac83727/pj_v3.json": "78b423d7fc564a25b3ebe5c321050b6dfa6386694bd28c265ff7bb2ef9bf2a46",
+    "outputs/controlled_v15a/records/challenge/ctrl_6be6d731368623f7156d/nli.json": "f1376323980b345f136ab524c05897c45d8669de41e2b1e0cfd06a10b912e6b6",
+    "outputs/controlled_v15a/records/challenge/ctrl_6be6d731368623f7156d/pj_v3.json": "a03ab5230da2d27d7806c80627cdac289525143b5cc0e9a85bf1b5a51e6d0b65",
+    "outputs/controlled_v15a/records/challenge/ctrl_6d013e692313d8131120/nli.json": "d96e29ae8371a7ef925aaff64a91e62ddfcfed70a34da31177cf5bd3b4ba9eeb",
+    "outputs/controlled_v15a/records/challenge/ctrl_6d013e692313d8131120/pj_v3.json": "888cc90247de366bb86cbec459038b26b9bae2d878e1e5260db899ecf64fb5a7",
+    "outputs/controlled_v15a/records/challenge/ctrl_6de1c02f7836dcf16823/nli.json": "29fc23eb1519de515a2c273f155e1fc9b4cff44cfb6f257a13d1f4845149f205",
+    "outputs/controlled_v15a/records/challenge/ctrl_6de1c02f7836dcf16823/pj_v3.json": "104ba1e303edb73b9980d25cb124b52557de514792fd2cd0916caf2faa664337",
+    "outputs/controlled_v15a/records/challenge/ctrl_700e85a8eceecda19cfc/nli.json": "6e924024b5b1aee23de036def22d3206b2b1f4655e7cc9f24ca3522a5fdb4e7f",
+    "outputs/controlled_v15a/records/challenge/ctrl_700e85a8eceecda19cfc/pj_v3.json": "1b716c2543a0c4a747e83cbc6b879c57a7c8c0fae0b923de941e7b9de8312f85",
+    "outputs/controlled_v15a/records/challenge/ctrl_70399a9ee81d91e837d6/nli.json": "b75118922e0d3a0015414ab790585deb59e77017dd47e9c82105e04626d607eb",
+    "outputs/controlled_v15a/records/challenge/ctrl_70399a9ee81d91e837d6/pj_v3.json": "ded0565d6e36770b7ffee00ec097c103708374b16bdcf708f04a18ac61c38c34",
+    "outputs/controlled_v15a/records/challenge/ctrl_70ee633ade20f10aae74/nli.json": "6851a07556945d278439a21dde4e971b1cdef35e125f2e48a51ed913e6b44348",
+    "outputs/controlled_v15a/records/challenge/ctrl_70ee633ade20f10aae74/pj_v3.json": "d38e4d79ef516b91d23711bb1758e5e64fc837adf0a6057a93983807b142ea34",
+    "outputs/controlled_v15a/records/challenge/ctrl_7268a18d2a4e9053e62f/nli.json": "b5e5c01305d59713972e971621a7bd1d7ec89b663fd9aab02251c53853f3a7ae",
+    "outputs/controlled_v15a/records/challenge/ctrl_7268a18d2a4e9053e62f/pj_v3.json": "6bb45ba30bfb6bd9c55acce82a34c2de22132d04877272b89ca976bd9e0e30f0",
+    "outputs/controlled_v15a/records/challenge/ctrl_7394ff6f39895e6f18b7/nli.json": "558b001221ddcde61c598d5d98f77a2527bda3bf892745f4eca31e7f3d2e2820",
+    "outputs/controlled_v15a/records/challenge/ctrl_7394ff6f39895e6f18b7/pj_v3.json": "d422c2918537d326265f733e5079420257fb95dc48c163e3ea481a8c9cacd588",
+    "outputs/controlled_v15a/records/challenge/ctrl_7558db9bec0c71fcc86d/nli.json": "a194d4ce4ef06f63d98b4830a6fa1973a645fcde0a7a7a7c68a4827f430caa7c",
+    "outputs/controlled_v15a/records/challenge/ctrl_7558db9bec0c71fcc86d/pj_v3.json": "8a0864f08cfd9d80d87b491a0b7ee31ed61fee85bce80170d343ab945a8c2740",
+    "outputs/controlled_v15a/records/challenge/ctrl_7922280f0f4a90730f39/nli.json": "7b48185914d73519e0689977c5d1b7f4ff4718a7ac009f48e4587138f4fe7db6",
+    "outputs/controlled_v15a/records/challenge/ctrl_7922280f0f4a90730f39/pj_v3.json": "c36983a9530a1ec39dd72945c52fc5d1132757fd2b1a6a795c5536a5942a6498",
+    "outputs/controlled_v15a/records/challenge/ctrl_7a4ad0cdc8af141cc859/nli.json": "4fdca3454ebc19115b85646d95536bb49c9c57e0f7028a710aa137b63b1c14bc",
+    "outputs/controlled_v15a/records/challenge/ctrl_7a4ad0cdc8af141cc859/pj_v3.json": "70838bd0b0c4ffec34e5f8fae1c7020ad61419c3d8c900fd26b308974510364e",
+    "outputs/controlled_v15a/records/challenge/ctrl_7b062f4ea8a9e666e9c4/nli.json": "e88411bb0b1745de556d35efbfd407b3ce6692d95ff5bd95894a8d1d3849eb46",
+    "outputs/controlled_v15a/records/challenge/ctrl_7b062f4ea8a9e666e9c4/pj_v3.json": "cca6f57e04b910348113c827b791a13bbfa36b1b7c3250978a4b05764c813093",
+    "outputs/controlled_v15a/records/challenge/ctrl_82c72b6302ff8b6d5df7/nli.json": "e854fe69de5d5847b2633b64302eaeff1ba5f7fb4f7569fe9fb6e676a9e2a85d",
+    "outputs/controlled_v15a/records/challenge/ctrl_82c72b6302ff8b6d5df7/pj_v3.json": "b1cd07dcd5249bfa8443154433998bd9674e5c04b765065be7ce1c105cad3bd8",
+    "outputs/controlled_v15a/records/challenge/ctrl_82ca1dab00cd1697bb8e/nli.json": "1b422bf9795959593f9b0ee392de87c707572d2e5d5583357104342b1c26e3be",
+    "outputs/controlled_v15a/records/challenge/ctrl_82ca1dab00cd1697bb8e/pj_v3.json": "fe90302d67c71e57bcac7e342aa02ae1585543229bf6afd5e0be0c37484de77a",
+    "outputs/controlled_v15a/records/challenge/ctrl_8569cde3dacefadd49bd/nli.json": "3b4ba5cad184bd3cfae263adb19703aa3a6f6131b40d73d991094925a4328739",
+    "outputs/controlled_v15a/records/challenge/ctrl_8569cde3dacefadd49bd/pj_v3.json": "f21145e7295f88f208d01299934ac2393124699118f2e4792e1740ba2b762e58",
+    "outputs/controlled_v15a/records/challenge/ctrl_89107a9bb52c708353c8/nli.json": "b618f17f167146ce2970ffbdea7d8345605604ce4c34cc047147e7d716e08426",
+    "outputs/controlled_v15a/records/challenge/ctrl_89107a9bb52c708353c8/pj_v3.json": "0cb5c9f538f7b37363dfe929cff77b079057fe96b94f103775181ef924fdae3e",
+    "outputs/controlled_v15a/records/challenge/ctrl_8b1699262a5e23670718/nli.json": "13881cb3b6b4448818c7c461243833763d39bcc2f0d395da7095ba49cde19306",
+    "outputs/controlled_v15a/records/challenge/ctrl_8b1699262a5e23670718/pj_v3.json": "f08e0bb2d094bb32c1ec9b23cc1943a02da6bd2456f87afd8077c04982d73490",
+    "outputs/controlled_v15a/records/challenge/ctrl_8ff3f01ab15daf9a5f7d/nli.json": "34f9382c42a4d14055052e4749862e87e07f2889b0d5f33a289b02353a79b6f0",
+    "outputs/controlled_v15a/records/challenge/ctrl_8ff3f01ab15daf9a5f7d/pj_v3.json": "2f4393a45b396df5ac39e3620689a0f0668b8dea1cfa8d4b8d95723c7c24947e",
+    "outputs/controlled_v15a/records/challenge/ctrl_9102887d4f0ce2de7ea9/nli.json": "9993a7306922ae66c2ac8ac21e88658e842b6fc096636387346aaf1e7b7cab60",
+    "outputs/controlled_v15a/records/challenge/ctrl_9102887d4f0ce2de7ea9/pj_v3.json": "2120eb3af3235791847ed5488a26762caa27fc23a58a3a39f6d153dad03ee184",
+    "outputs/controlled_v15a/records/challenge/ctrl_923cdc23ac5b172ce5e7/nli.json": "3167370ac4b803656c077658f2581b1c00db65003242d08ea5a495820c7991d5",
+    "outputs/controlled_v15a/records/challenge/ctrl_923cdc23ac5b172ce5e7/pj_v3.json": "60351321f5bb677b48ffedf72f010f00d490d21aff753632c82f7092fcd9b119",
+    "outputs/controlled_v15a/records/challenge/ctrl_94d081a3fc39f6e2c045/nli.json": "b60536fe4a36856f6bdede08cb99b2c62fa7e1cee8fccfa7f9c96fb7c21c71d4",
+    "outputs/controlled_v15a/records/challenge/ctrl_94d081a3fc39f6e2c045/pj_v3.json": "3f5c3c9451758e4c48ee886fb5879f9879e222a707471ba3054eec9fbea4299b",
+    "outputs/controlled_v15a/records/challenge/ctrl_9be47025e22491684d83/nli.json": "8ad65ec12dd00707ab4591bc534d61201c498b876c2657e065eb1430675c598d",
+    "outputs/controlled_v15a/records/challenge/ctrl_9be47025e22491684d83/pj_v3.json": "e08c24067851b9d14f163e73f2c5a41317dbdbf82e80fd82c242cee64d31db38",
+    "outputs/controlled_v15a/records/challenge/ctrl_9c7157068786f26c5048/nli.json": "4dca2e52475261164f8cea9c83b7e44001010707f7d65212892d876d62f67437",
+    "outputs/controlled_v15a/records/challenge/ctrl_9c7157068786f26c5048/pj_v3.json": "8c4cbd02a07a495898655ced6e24b8142d4333783599a3155ca9f9eb25debfc1",
+    "outputs/controlled_v15a/records/challenge/ctrl_9e30d2902a937497085d/nli.json": "b33e9ed83434656e3fabe7b82b2303bc2de0c0581a82f201065b2b2f795c81ad",
+    "outputs/controlled_v15a/records/challenge/ctrl_9e30d2902a937497085d/pj_v3.json": "6a3a26a52ba6b21bd1b0752462059d45957ac78f6a16e6e60a269579bd9bb089",
+    "outputs/controlled_v15a/records/challenge/ctrl_9e8cbe2f3eb5cd1fdaba/nli.json": "b1e9ef273611eb125ebfc9785922e8d0953e6c04d4e6e856ae4e868399a45309",
+    "outputs/controlled_v15a/records/challenge/ctrl_9e8cbe2f3eb5cd1fdaba/pj_v3.json": "3640f9e21282dfd577fd48763c2d11a0a3d0596c4c90e3e433fc3eabca074797",
+    "outputs/controlled_v15a/records/challenge/ctrl_a12871b24018a72466d5/nli.json": "49cb4abe3405d152e2f56aeb655f970e92672e3f6d96aac623585a5aa82bf5e2",
+    "outputs/controlled_v15a/records/challenge/ctrl_a12871b24018a72466d5/pj_v3.json": "e4622b0d9239c5a972fb4826ef3901cc85f0e92b171da3afa04534fc7cbfa636",
+    "outputs/controlled_v15a/records/challenge/ctrl_a38af90020bc58390bae/nli.json": "2d674168bc323000e2a86b34b498653ab665513418e0f254d2e07bcc639339ab",
+    "outputs/controlled_v15a/records/challenge/ctrl_a38af90020bc58390bae/pj_v3.json": "3ab45b9e3c46f89afe610f156cf4b95d1c044846720f90f5e4fdb64ea41ff339",
+    "outputs/controlled_v15a/records/challenge/ctrl_a47fb005ca2ce0016f49/nli.json": "8f30f9095edc186787a2c3d54a340632071ecff7e31abc5de2ef399028ebfc9b",
+    "outputs/controlled_v15a/records/challenge/ctrl_a47fb005ca2ce0016f49/pj_v3.json": "4d107cc7f3aa20413846209b17492aaa85d22164b6a03d9bae285ea56ee1ea94",
+    "outputs/controlled_v15a/records/challenge/ctrl_a5f888a357600c1ccb18/nli.json": "656bd4b94c32d394332ea7b9171c230827f9501306da5db6c3c5abe75c5ce1b2",
+    "outputs/controlled_v15a/records/challenge/ctrl_a5f888a357600c1ccb18/pj_v3.json": "8b402ae85f23d21f67e9bcc8e99806f202f9004d8c7d8c99d4604c634c038a4c",
+    "outputs/controlled_v15a/records/challenge/ctrl_aec9ca6056ed003068c6/nli.json": "3da7a00e337efe433c6895b56263d45178b53e166a0258db5bd7b1f36c8f022b",
+    "outputs/controlled_v15a/records/challenge/ctrl_aec9ca6056ed003068c6/pj_v3.json": "1e54f15a9503853973a52fc67a55d9e2cccbd3cc8a522550e6e873203c66e9d4",
+    "outputs/controlled_v15a/records/challenge/ctrl_aeecb81c9f176cfa7f86/nli.json": "4d960e0f02ce31e58cacf9edaa7421f9c243c383d9e4229d4cea3040ad47776e",
+    "outputs/controlled_v15a/records/challenge/ctrl_aeecb81c9f176cfa7f86/pj_v3.json": "544106223b25bc14cd11a0afb482bcfaefdf0148d702014a4c4661dac96d3411",
+    "outputs/controlled_v15a/records/challenge/ctrl_af016cadfa76c07f6add/nli.json": "ed9da1a0b805e074c6f6e4adf86e60a4c62238cf65320210518752e59acc7f26",
+    "outputs/controlled_v15a/records/challenge/ctrl_af016cadfa76c07f6add/pj_v3.json": "4abe4059e12c03d45ecc65b3d4368b2eb8da557642e019d043b79684b9a9b5e0",
+    "outputs/controlled_v15a/records/challenge/ctrl_b1464029d1f359d3bc32/nli.json": "6fe8c2f17625db801572d4f68453e3ce9b46575f3181aa1ec0c1fd3ad2c28ebe",
+    "outputs/controlled_v15a/records/challenge/ctrl_b1464029d1f359d3bc32/pj_v3.json": "7c32fe1c5d5aa0e52a077b849f8eaaac4373a32cb7b21321e17718c3d9466675",
+    "outputs/controlled_v15a/records/challenge/ctrl_b36347342524b75746a9/nli.json": "75338d0dbb444cce36ea5466e48b90b1e44f4a0f03a36dbbdca02ed2649ee338",
+    "outputs/controlled_v15a/records/challenge/ctrl_b36347342524b75746a9/pj_v3.json": "8a9e4f1cd60acd3ded1d2f29e0d8ffc3016251c1932de0127558a48c7f348618",
+    "outputs/controlled_v15a/records/challenge/ctrl_b74a792b878e68834d7c/nli.json": "446d6873376420ecd39c80883dc91838d2c31cb7926c924abf1e1ab1152ab817",
+    "outputs/controlled_v15a/records/challenge/ctrl_b74a792b878e68834d7c/pj_v3.json": "4cfd74d5185fb8c18f3aa85fa26ed0a133547c84f9a7d6f276e227f66b040f0e",
+    "outputs/controlled_v15a/records/challenge/ctrl_b84d33b6c469e8c1c42d/nli.json": "28474cdd2befb6e9379e9fb99c39d2ce36edfd2989c15b4b149404e2e0379b07",
+    "outputs/controlled_v15a/records/challenge/ctrl_b84d33b6c469e8c1c42d/pj_v3.json": "f89da7dd9fec9b80357714c1e5481f4a35d02abfcafc3985bf22b6c603b99585",
+    "outputs/controlled_v15a/records/challenge/ctrl_bbee4883830f1323d0a7/nli.json": "3a925d44e7bd76155c7c3d58bba1c6d01220364fab11c0cb2e6a21c7b0ebc5ff",
+    "outputs/controlled_v15a/records/challenge/ctrl_bbee4883830f1323d0a7/pj_v3.json": "e7ca772b8081789c17ecf6771c7972d5fc9d0c2ce1bc2cd181a3a49d144c8d8c",
+    "outputs/controlled_v15a/records/challenge/ctrl_bd4e67ee6cf9cb040aa8/nli.json": "aa8a1aa6254d6c6dde1492a78766c95068c6ca8cad33e3956d0f98971b5d515a",
+    "outputs/controlled_v15a/records/challenge/ctrl_bd4e67ee6cf9cb040aa8/pj_v3.json": "03c558ca2cfe66a5c7601bef6a4ea152b5a50bac57e7c895fe102f7fb115836e",
+    "outputs/controlled_v15a/records/challenge/ctrl_bf012db0d13f3dc2e1dd/nli.json": "dc3a3967a17d52e38c3ac357a03314b347a8d3836cbd97a9fa9767c3682bd0d8",
+    "outputs/controlled_v15a/records/challenge/ctrl_bf012db0d13f3dc2e1dd/pj_v3.json": "1b62c2eb193ff799e4982aef892d93c29c0867243946c2464ca8573b0f157621",
+    "outputs/controlled_v15a/records/challenge/ctrl_bf5e530c1bb67d720700/nli.json": "eebc24a3dd2ed868e6f7744df5dc7dfd1662d13b7f7f473c81afd7bd98afcdbb",
+    "outputs/controlled_v15a/records/challenge/ctrl_bf5e530c1bb67d720700/pj_v3.json": "b08a95223f7e9c0dd8b1465e8077bb8465f8f434be2c5d3aa0f48974a1ea0c3d",
+    "outputs/controlled_v15a/records/challenge/ctrl_c0f76a484ace02e5e6dd/nli.json": "27c7eaa212806a9da614a255dcdb91a21bcd46a8c1053a4bd6ab6861c7939c5a",
+    "outputs/controlled_v15a/records/challenge/ctrl_c0f76a484ace02e5e6dd/pj_v3.json": "1ae8d3063b4535615a00300fc089f02c7b2e3cbc10fc83823d607fb54e67b968",
+    "outputs/controlled_v15a/records/challenge/ctrl_c3fecf5454f391f0e79e/nli.json": "72883ed52bd6a288aca968dd4f10909e8f997a0ee022704ef5e5d8f4b980c5cc",
+    "outputs/controlled_v15a/records/challenge/ctrl_c3fecf5454f391f0e79e/pj_v3.json": "6664c40ca8562b69041241b33c1d2f730a88af05f2aa35b23b3f6ef2693064a1",
+    "outputs/controlled_v15a/records/challenge/ctrl_c4019ad70f03fbcd5e69/nli.json": "48ec9fb8190bdb798e32dc954aad128a52ad44fcf3888c31f20c9cdecc4bb470",
+    "outputs/controlled_v15a/records/challenge/ctrl_c4019ad70f03fbcd5e69/pj_v3.json": "157b2042c541557a2acf8fd33a6772e4cb60836dc039f59d0dc1b6df034d6bad",
+    "outputs/controlled_v15a/records/challenge/ctrl_c4b56d07cc2dda4bdd5b/nli.json": "22552ecdf9fa6b55d55d67dd4a6934fc57193432277ef17a78dfba7fa38400d7",
+    "outputs/controlled_v15a/records/challenge/ctrl_c4b56d07cc2dda4bdd5b/pj_v3.json": "8941d726170cf9bfca457d617be0cd22b7980dc3bed03050c07c0c245213d95c",
+    "outputs/controlled_v15a/records/challenge/ctrl_c4d9ade74fb664cb5b93/nli.json": "d18dc875ee4d3301acd4ef9bf6fc6fd8bb76eb4a96ca8e6ea3697020fe040863",
+    "outputs/controlled_v15a/records/challenge/ctrl_c4d9ade74fb664cb5b93/pj_v3.json": "bc9b199473d39b6b0be772f292fed3745e5ade1f13d0bf873f11f96ce9acac30",
+    "outputs/controlled_v15a/records/challenge/ctrl_c5884e592987edbc7a23/nli.json": "8de4725ff72418bb8f214ce260a743e05d60782c52f41a4e34ca6062c3149591",
+    "outputs/controlled_v15a/records/challenge/ctrl_c5884e592987edbc7a23/pj_v3.json": "a67f46b2cbe957477aed2286bd1074fbcddca31c4def342371cbc1e25140f143",
+    "outputs/controlled_v15a/records/challenge/ctrl_cd040119c9f4e868e6f7/nli.json": "cef77a83d031e9f41000bc33e6882044fc88844a2055b642be9804ffc4d1aa84",
+    "outputs/controlled_v15a/records/challenge/ctrl_cd040119c9f4e868e6f7/pj_v3.json": "65c25062af9231d344c08e1b0b7040c854d59f370b2ff81f412fa9f3718a7502",
+    "outputs/controlled_v15a/records/challenge/ctrl_d0ae0a1e25606644ec88/nli.json": "2c3f9c074c37570656f0d9522e9f41241ba5377f76e942bce8841fd2e6c9ee86",
+    "outputs/controlled_v15a/records/challenge/ctrl_d0ae0a1e25606644ec88/pj_v3.json": "0404183a9cc68789b29fa189c050c706d3d55776ab140903664041295b7a28c3",
+    "outputs/controlled_v15a/records/challenge/ctrl_d12e39e1ea15c6a642c1/nli.json": "1c5f61ee9ee8c249187b693604d0623198b577b1072b917261a5639f95db696b",
+    "outputs/controlled_v15a/records/challenge/ctrl_d12e39e1ea15c6a642c1/pj_v3.json": "c7f19913a6b88197e01e6c6ebf6938dc76fc0e9d7d78fed283c3568c60d600ef",
+    "outputs/controlled_v15a/records/challenge/ctrl_d2292ef84fc0624b188a/nli.json": "5485d646d6fbb84b6e736cbc100bd9222d0f9f0dcc73f6de3abc2a116fefd7a7",
+    "outputs/controlled_v15a/records/challenge/ctrl_d2292ef84fc0624b188a/pj_v3.json": "5d55a4e3007292041018a3326b55f89b34e4bf01959e6c4b868c46d550a4286b",
+    "outputs/controlled_v15a/records/challenge/ctrl_db1e2bc6b30104bf8533/nli.json": "54495d3dc30546b378c133f63d70a8c0dfc541c0251940740af7e942e6fe4b07",
+    "outputs/controlled_v15a/records/challenge/ctrl_db1e2bc6b30104bf8533/pj_v3.json": "d5000736cc79dc53130b4beff9d060d32ff5350d57872372fd0981042014b81a",
+    "outputs/controlled_v15a/records/challenge/ctrl_dc1899b4868de4f864a0/nli.json": "1c6e508ed6c5d0bfb8a0c785e5c82f530d02b4a9ed5ff2b7cb045b7678b9f593",
+    "outputs/controlled_v15a/records/challenge/ctrl_dc1899b4868de4f864a0/pj_v3.json": "9ee53a76afd932a8191dcf2fbdb74aec206637b64cd5ddee4ad437421da4c75b",
+    "outputs/controlled_v15a/records/challenge/ctrl_dd231e2ca5c1b9282fd9/nli.json": "b6860d1de09f3d40958b7a9b739f08cfa19cf50a1b1d858dafeec6a5410102c4",
+    "outputs/controlled_v15a/records/challenge/ctrl_dd231e2ca5c1b9282fd9/pj_v3.json": "9953262f8c311944a48a78271b69f4e89e5bf60204d4b6095768afca2cee9050",
+    "outputs/controlled_v15a/records/challenge/ctrl_dd3c4683488185c84191/nli.json": "b3cbf212a82377c290e78d1372f52084b49759051f84252a38ffa70ee3f7a20c",
+    "outputs/controlled_v15a/records/challenge/ctrl_dd3c4683488185c84191/pj_v3.json": "7dab7e84ec3046725592af469f4c0f02fad7fda6f35a6bd8e2154cb3ced35fab",
+    "outputs/controlled_v15a/records/challenge/ctrl_df31cfb9bd2ac924c2d0/nli.json": "bb38ca75f6c45e93263e17e93a0d6297876339bae8d9eab679180082c5c640f0",
+    "outputs/controlled_v15a/records/challenge/ctrl_df31cfb9bd2ac924c2d0/pj_v3.json": "658dc345720cdd06811f3e9d9c246bc806696f090150553d2431abf19f6a75d6",
+    "outputs/controlled_v15a/records/challenge/ctrl_e269f1b944a1840e5aa5/nli.json": "29b3e0b523e51f8f54799adafc1ce0116e21e8da7512c5208dd13b6689bb35f7",
+    "outputs/controlled_v15a/records/challenge/ctrl_e269f1b944a1840e5aa5/pj_v3.json": "520eb822c0ea8644d87191e6fa1980d58ecb8a32ae240fbfa39b5e8ba81e3efe",
+    "outputs/controlled_v15a/records/challenge/ctrl_e2f18911f636ef376911/nli.json": "b2f60714eddf262b5a4d1fb5ee155ac8ecaaeadec1df3e31ab54ca66a0c4823c",
+    "outputs/controlled_v15a/records/challenge/ctrl_e2f18911f636ef376911/pj_v3.json": "2444f03dc4157e7426caf937f39128c0d3cb4f69f6f9436395caa5ba332ac937",
+    "outputs/controlled_v15a/records/challenge/ctrl_e42efe94f664576828ac/nli.json": "fe63ed177acbd4e91f3160ec0905a7a8230132d82c9539d93103929e2ed11391",
+    "outputs/controlled_v15a/records/challenge/ctrl_e42efe94f664576828ac/pj_v3.json": "b33e9e16566218253321eb4020a71d35ba9aac0a3d73e8a0cf4b28731e116d0c",
+    "outputs/controlled_v15a/records/challenge/ctrl_e981376d44dcab589607/nli.json": "041b720c65fbb1d4a9d229af8a878d36c30e335bdc01fdcab2f7a4ec7f5f3a74",
+    "outputs/controlled_v15a/records/challenge/ctrl_e981376d44dcab589607/pj_v3.json": "a5b6aa4f84f2ae08690e4f701da4ebbc840e35c6bea0fce8f9fc85699749e935",
+    "outputs/controlled_v15a/records/challenge/ctrl_ed245b05538380ad5010/nli.json": "28b1a1696592c2701c2630c691e5e6b8faf05f59003ee43d0fd15a3f9b70aeb9",
+    "outputs/controlled_v15a/records/challenge/ctrl_ed245b05538380ad5010/pj_v3.json": "99619858919c05d0c40eaa64801981968fbfd771eb153aad1d8d397a6d79f50c",
+    "outputs/controlled_v15a/records/challenge/ctrl_ef00f73bf71bcb38afd8/nli.json": "f87ba3dd7e2ca46aeb994fcf333cfd6cbff421100c171bb98fd4f5e3b335117b",
+    "outputs/controlled_v15a/records/challenge/ctrl_ef00f73bf71bcb38afd8/pj_v3.json": "5c241aba5e3d13a752a6227f108bf2b3e36096b7fe524ba2fe52c99943964718",
+    "outputs/controlled_v15a/records/challenge/ctrl_f1ce798bc0bcb299f7e7/nli.json": "160ebdc35d2b6ad99fa609a1a6a7ea072e36c3235c50e776b3ab903efdd66d8b",
+    "outputs/controlled_v15a/records/challenge/ctrl_f1ce798bc0bcb299f7e7/pj_v3.json": "bfcd0a0b638bb9a3703e34222a9121827367c8382a68a743cb29c97397aad72d",
+    "outputs/controlled_v15a/records/challenge/ctrl_f49b55b5b405804bee5c/nli.json": "6267a3f86e135449ffdab1e47432fa40a68da4eb9ce6b1dcbd53c5f2994d4d11",
+    "outputs/controlled_v15a/records/challenge/ctrl_f49b55b5b405804bee5c/pj_v3.json": "cbc357eb74f472c972e0cfb2295f1ecd76134b7f8272cedf41eebe3708876f4b",
+    "outputs/controlled_v15a/records/challenge/ctrl_f807cf84bb6d74b059de/nli.json": "45ced13363ae8d4107c9cef8b9fa12143adf7623ff9068fe558cd20b8d683bf1",
+    "outputs/controlled_v15a/records/challenge/ctrl_f807cf84bb6d74b059de/pj_v3.json": "ff7e904ae79d2a5f430056824dde057f95a09d5c0dcf5efa40a86f7737dd0113",
+    "outputs/controlled_v15a/records/challenge/ctrl_f829201f92ae11795cdd/nli.json": "80694599b00265206cc84f187b8e8972b332f27004d6adbccdf5cc2f93d5fd2b",
+    "outputs/controlled_v15a/records/challenge/ctrl_f829201f92ae11795cdd/pj_v3.json": "7e3be14c56f8ec628e308195f9ebeb26e36a457482570d8f63b2903e7bfad034",
+    "outputs/controlled_v15a/records/challenge/ctrl_fca0802a33e2798778b4/nli.json": "68df6708579b341a83b12b5399a52f41fa5acc579133f481b7a041e010fe76a5",
+    "outputs/controlled_v15a/records/challenge/ctrl_fca0802a33e2798778b4/pj_v3.json": "fd5e32841c80bde1ad47c9c490992c301a776c4dcdff1a19bd3535de5833201a",
+    "outputs/controlled_v15a/records/challenge/ctrl_fe3ee97d93019e70c72e/nli.json": "97ed8cc8224eec1d09baebac888c94ba4270f5ced757dbb3f2e35a1afaad5a3b",
+    "outputs/controlled_v15a/records/challenge/ctrl_fe3ee97d93019e70c72e/pj_v3.json": "b8706675c5ea2b6f2bb36a698cab589b7218688aab398159225f97cebc051e1a"
+  },
+  "reused_parent_responses": 282
+}

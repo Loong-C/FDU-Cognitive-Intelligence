@@ -1,0 +1,15 @@
+{
+  "freeze_sha256": "322cd48e4398cd9b2b2d7ffa651b53b771698ac52e0d0a584eba5188e6f60c8c",
+  "independent_exhaustive_permutation_agrees": true,
+  "input_boundary_checked": true,
+  "metrics_sha256": "69eac51092c91708b3376cd3684e608693728b7b5ac2180bebdb43ee6427f500",
+  "natural_language_independently_adjudicated": false,
+  "passed": true,
+  "predictions_sha256": "7f0e905fe5fa30952568d1359a4891b2bd21f50ef2192989c801ed665b29b252",
+  "raw_predictions_and_metrics_agree": true,
+  "raw_responses": 672,
+  "rows": 336,
+  "source_audit": "All formal models checked; English/formula alignment authored and reviewable, not independently established by Z3.",
+  "token_totals_agree": true,
+  "z3_all_labels_agree": true
+}

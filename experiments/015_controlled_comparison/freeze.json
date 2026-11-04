@@ -1,0 +1,24 @@
+{
+  "files": {
+    "experiments/015_controlled_comparison/data_validation.json": "2dd77dd46ea72b355393c13c0016dec26d0d4152339a09582faa47223d2ef8b4",
+    "experiments/015_controlled_comparison/gold.jsonl": "e176ceededf0a8f0e77b802dd7fbd32eb205e3198b42749feae02612810b26e2",
+    "experiments/015_controlled_comparison/inputs.jsonl": "4916103923a4be2709bf1df3637f903cf7601ebe32f40bda538a65390f699242",
+    "experiments/015_controlled_comparison/prompts/nli.txt": "1d9002368178673db5ec0d6f85c6451ab320ace4fd78f066e223dc3a135ea900",
+    "experiments/015_controlled_comparison/prompts/original_nli.txt": "196fe6f31e4fb451355fa748040b727c8f3313f00f9dba5a7d853643c6f34836",
+    "experiments/015_controlled_comparison/prompts/original_pj_v3.txt": "36b1ba459c3153654469c6e4dcc86533086de22361079895f1f718373ca6f2fe",
+    "experiments/015_controlled_comparison/prompts/pj_v3.txt": "ae5d5730bfd8978493991d30c8583579ad2e74ab5225c91e60d65de642ffd2fd",
+    "experiments/015_controlled_comparison/protocol.json": "39b6229f167bd43e5d43fedebeccb395742deded2ae59830214c173ccfa0b373",
+    "experiments/015_controlled_comparison/schedule.json": "21a9ea8c903540b06b5076a08a7d256a2748f39e6e35d19b08929cfa33dffa67",
+    "scripts/audit_controlled_v15.py": "98dace2f195c5c6114ead7c55c9127b7a8ac0bcdc14883a5f8edba7a351db160",
+    "src/ab_factcheck/common.py": "221b52864adfb7562a7622f6ea51b287623662dac30f901f9a0b77007598fdfb",
+    "src/ab_factcheck/controlled_v15.py": "0d0de2f8a1073c004bb8976391767e1694659109ff19ddd7e275e72c7baa3818",
+    "src/ab_factcheck/controlled_v15_data.py": "0e2b24f215e3a5777ee4c9bf64a37acc48518dc7deb9506d2c84c21d2f6ed656",
+    "src/ab_factcheck/intranet_client.py": "436b3661e0e11b971427d364636c5dc21f8952b007ea45a00ace9da3b78f8500",
+    "src/ab_factcheck/macro_v7/inference.py": "d445df44fadbde2a20de2a2d7a4709296efbcc88f8a13087354c6d72a9711a6e",
+    "src/ab_factcheck/model_client.py": "eab47004b7bc99842c8b02932a52bf1ccb67ba1114dc10ae187a2fd3aee8e959",
+    "src/ab_factcheck/splitting.py": "32be3ee4dd589c7aa02c0b9c1d459e227ff25870f10ace901e9acf87231ddba1",
+    "src/ab_factcheck/structured.py": "4d895c4ab0038d30b1ee9accfbfb615a6ff1d5d43d24f9895d555d1900473a6c",
+    "tests/test_controlled_v15.py": "e10e82da8b5a94f0597c32828c1e73a5444ca4b8cad1859372225771b47a2beb"
+  },
+  "frozen_at": "2026-10-30T02:44:28.163912+00:00"
+}

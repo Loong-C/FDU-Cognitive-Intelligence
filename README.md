@@ -1,16 +1,20 @@
 # A/B 对抗事实核查项目
 
+本项目的辅助工作树已统一放入本目录下的 `worktrees/`，包括微调、融合和 PJ 材料；最新本地路径与实验报告入口见 [工作树位置](docs/worktree_locations.md)。
+
 B 组模型设计与优化仓库。任务是根据英文 `evidence` 判断 `claim`，输出
 `SUPPORTS`、`REFUTES` 或 `NOT ENOUGH INFO`。
 
-本分支 `codex/nli` 汇总 V1–V14 的研究过程，当前推荐 **Qwen-27B 非思考模式的单次通用 NLI**。模型权重不变，使用开发集筛选与独立确认，测试集封存。历史实验和失败结果保留在各轮目录及 Git 提交历史中。
+本分支 `codex/nli` 汇总 V1–V15 的研究过程和汇报材料。NLI 路线当前推荐 **Qwen-27B 非思考模式的单次通用 NLI**，模型权重不变。V16 微调、V17 同条件比较及 V18 融合保存在下列独立分支；各轮数据使用边界与结论以对应报告为准。历史实验和失败结果保留在各轮目录及 Git 提交历史中。
 
 | 方法分支 | 内容与入口 |
 | --- | --- |
 | [`codex/nli`](https://github.com/Loong-C/FDU-Cognitive-Intelligence/tree/codex/nli)（默认） | 当前分支；[结果总览](experiments/server_summary/RESULTS.md)、[方法说明](docs/server_nli_method.md)、[可复用请求模板](experiments/server_summary/recommended_method.json) |
+| [`codex/finetune-27b-baseline`](https://github.com/Loong-C/FDU-Cognitive-Intelligence/tree/codex/finetune-27b-baseline) | [V16 微调结果](https://github.com/Loong-C/FDU-Cognitive-Intelligence/blob/codex/finetune-27b-baseline/experiments/016_finetune_27b/revision_2/results/RESULTS.md)、[V17 同条件比较](https://github.com/Loong-C/FDU-Cognitive-Intelligence/blob/codex/finetune-27b-baseline/experiments/017_unified_comparison/ASSESSMENT.md) |
+| [`codex/fusion-v18`](https://github.com/Loong-C/FDU-Cognitive-Intelligence/tree/codex/fusion-v18) | [V18 一天版最终分析](https://github.com/Loong-C/FDU-Cognitive-Intelligence/blob/codex/fusion-v18/experiments/018_fusion/quick24_results/ASSESSMENT.md)、冻结协议与审核记录；原完整版延期部分未完成 |
 | [`codex/import-pj-materials-20261029`](https://github.com/Loong-C/FDU-Cognitive-Intelligence/tree/codex/import-pj-materials-20261029) | PJ 材料路线；[阶段报告与复现入口](https://github.com/Loong-C/FDU-Cognitive-Intelligence/blob/codex/import-pj-materials-20261029/experiments/imported_pj_20261029/README.md) |
 
-两条路线保留各自的评估口径。PJ 材料属于外部全量开发评估，不能与 NLI 的独立开发组确认直接混合计分。分支整理说明见 [BRANCHES.md](docs/BRANCHES.md)。
+各条路线保留各自的评估口径。PJ 材料属于外部全量开发评估，不能与 NLI 的独立开发组确认直接混合计分。分支整理说明见 [BRANCHES.md](docs/BRANCHES.md)，阅读入口见 [文档索引](docs/README.md)，汇报 PDF、图表及源码见 [汇报材料](docs/presentation_20261103/README.md)。
 
 ## 目录结构
 
@@ -26,7 +30,9 @@ A_B/
 │       ├── challenge/          # 核心挑战集 dev.jsonl / test.jsonl / manifest.json
 │       └── report.json         # 数量、分布、完整性与交叉检查
 ├── docs/
-│   ├── references/             # 原有选题文本和课题说明文档
+│   ├── README.md               # 文档、结果与接入说明索引
+│   ├── references/             # 选题文本、课题说明和参考 PPT
+│   ├── presentation_20261103/  # 汇报方案、图表、Beamer 源码与最终 PDF
 │   └── data_split.md           # 划分规则、数据使用约定及检查结果
 ├── src/ab_factcheck/            # 可复用 Python 代码
 ├── prompts/v1/                 # 冻结的 A0/B1/C1 system/user 模板
@@ -34,6 +40,7 @@ A_B/
 ├── tests/                      # 数据隔离、完整性和可复现性测试
 ├── experiments/                # 实验配置与结果摘要，纳入版本管理
 ├── outputs/                    # 本地日志、预测与权重，忽略其内容
+├── worktrees/                  # 独立分支工作树，主分支忽略其内容
 └── pyproject.toml              # Python 项目元数据
 ```
 
@@ -82,6 +89,10 @@ python -m venv .venv
 用户提供的 `http://10.176.30.103:20027/v1` 已于 2026-10-29 验证可调用，模型 ID 为 `qwen38-27b`。
 Agent 接入请先阅读 [服务器 API 调用说明](docs/qwen38_server_api.md)，其中包含本机 Key 文件位置、环境变量约定、可直接运行的调用示例和现有客户端兼容性说明。
 
+服务器 SSH `root@10.176.30.103:20024` 已于 2026-10-30 验证登录成功；连接命令、本地凭据位置、主机公钥及 Agent 无交互检查见 [SSH 连接说明](docs/server_ssh.md)。
+
+训练前的路线分析见 [无特殊提示词的微调可行性评估](docs/finetuning_feasibility.md)，涵盖标签监督 LoRA、纯文本对分类器、训练数据边界与昇腾服务器条件。该文档是历史评估；后续实际训练方案和结果见 [`codex/finetune-27b-baseline` 分支](https://github.com/Loong-C/FDU-Cognitive-Intelligence/tree/codex/finetune-27b-baseline)，不能把评估建议当作已验证结论。
+
 ## 首轮核心实验
 
 配置见 `configs/experiment.json`。保留现有开发集划分，从中按完整组选择挑战集 87 条、
@@ -127,6 +138,8 @@ powershell -ExecutionPolicy Bypass -File scripts/start_local_server.ps1
 第十四轮完成直接矛盾概率和“简短依据 → 正反二元判断”的旧开发组补充探索，共 126 次响应、33,842 tokens，已独立复算。最好的 proof_pair 为基础 21/21、挑战 18/21，既有 NLI 为 21/21、17/21；没有达到事前挑战至少多对 2 题的扩展标准，按规则停止，不作独立显著性声明。见[结果](experiments/014_semantic_binary/RESULTS.md)及[方案](experiments/014_semantic_binary/README.md)。
 
 通用 NLI 的定义、调用方式及与双世界逻辑的对应关系见[方法说明](docs/server_nli_method.md)。
+
+第十五轮已将 NLI 与 PJ v3 冻结为相同 JSON 输出、生成参数和 1024-token 上限，在新构造受控题集上完成统一比较及独立复算。基础两者均为168/168；挑战为148/168（88.10%）与156/168（92.86%）。v3净多对8题，但+4.76个百分点、模板族置换p=0.25，未通过事前至少+5个百分点且p≤0.05的主标准；评分对应token约为NLI的3.18倍。评分前修订了48题的英文事件/范围限定，保留原冻结和响应，并无条件复用未改题响应。这是受控合成题评估，不能作为独立自然文本盲测或总体非劣效证明。见[结论与限制](experiments/015_controlled_comparison/amendment_1/ASSESSMENT.md)、[统一协议与复现](experiments/015_controlled_comparison/amendment_1/README.md)和[完整结果](experiments/015_controlled_comparison/amendment_1/RESULTS.md)。
 
 ## 开发约定
 

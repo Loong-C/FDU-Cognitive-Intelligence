@@ -1,0 +1,3362 @@
+[
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_4ec7bac203726547f259"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_4ec7bac203726547f259"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_828c150828012ae4e690"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_828c150828012ae4e690"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_cd162f17358c414d0f8d"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_cd162f17358c414d0f8d"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_fd6fe34d78c2338b3fcb"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_fd6fe34d78c2338b3fcb"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_4457e2fb58e9ef473d12"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_4457e2fb58e9ef473d12"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_ebc5af470aa595ec6f5c"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_ebc5af470aa595ec6f5c"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_9cd1f73318a886314ad4"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_9cd1f73318a886314ad4"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_f0cfb34836704fa0ce2f"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_f0cfb34836704fa0ce2f"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_983b2a093d6af2fe7bd5"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_983b2a093d6af2fe7bd5"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_8ab5029e6d9ad2c7ce81"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_8ab5029e6d9ad2c7ce81"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_658879ee43b11cf18c7d"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_658879ee43b11cf18c7d"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_654606e6eab5813021e9"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_654606e6eab5813021e9"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_70d9db047a9c67964898"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_70d9db047a9c67964898"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_46cb4f334430a23bb89f"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_46cb4f334430a23bb89f"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_5dcaefad1709ea1ffe49"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_5dcaefad1709ea1ffe49"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_d24a306d32b04656bc92"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_d24a306d32b04656bc92"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_b940ba48fd47965d0503"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_b940ba48fd47965d0503"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_9763ea6e980bf11f26e6"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_9763ea6e980bf11f26e6"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_1e17578ec3aa6d1adab3"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_1e17578ec3aa6d1adab3"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_8abf17d6ccfb8d232d1b"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_8abf17d6ccfb8d232d1b"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_a60613ece13607a39860"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_a60613ece13607a39860"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_6911b738d745dbf0b723"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_6911b738d745dbf0b723"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_785b429ac370a7480734"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_785b429ac370a7480734"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_ddbe5ea05656641ba56a"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_ddbe5ea05656641ba56a"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_4c73002990e227a79e86"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_4c73002990e227a79e86"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_6e87d3a32ebbd6bfce54"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_6e87d3a32ebbd6bfce54"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_954e95a8f3c8d493b7b5"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_954e95a8f3c8d493b7b5"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_a8ef2868e2fceecab012"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_a8ef2868e2fceecab012"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_34148239321153f3de7f"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_34148239321153f3de7f"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_c39ed732a08f052189c7"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_c39ed732a08f052189c7"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_61d72ef96b05644aa62b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_61d72ef96b05644aa62b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_4d7aed86ad95001cd59e"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_4d7aed86ad95001cd59e"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_a9630b16a1132773bdb2"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_a9630b16a1132773bdb2"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_42d7077b51c9661fabe6"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_42d7077b51c9661fabe6"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_df9c3432bc0a42a45513"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_df9c3432bc0a42a45513"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_8ee3d22740a78c1bd69c"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_8ee3d22740a78c1bd69c"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_0699f20875b459f417ba"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_0699f20875b459f417ba"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_42ff2f91b10a6d1ee0fd"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_42ff2f91b10a6d1ee0fd"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_f57a56429ec44c3ed57e"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_f57a56429ec44c3ed57e"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_13bf5bd307d7314ad63b"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_13bf5bd307d7314ad63b"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_44415ad012de57bc311b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_44415ad012de57bc311b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_e2a8306c87cde9350a9c"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_e2a8306c87cde9350a9c"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_41522e8207f7252e243b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_41522e8207f7252e243b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_4d6fcc7174f487c6d058"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_4d6fcc7174f487c6d058"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_8dc6108a8675be60354b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_8dc6108a8675be60354b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_c278a39fad0fdceae95c"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_c278a39fad0fdceae95c"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_c5d883280f1e1e13d785"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_c5d883280f1e1e13d785"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_f1e52a259936bfb1bfe4"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_f1e52a259936bfb1bfe4"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_e590626df891700ac956"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_e590626df891700ac956"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_a1666c95055fd1fd5086"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_a1666c95055fd1fd5086"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_0a5f405d512925f130e9"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_0a5f405d512925f130e9"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_ef791d287f1941957dfe"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_ef791d287f1941957dfe"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_9a20fdf5a64d5c8035c7"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_9a20fdf5a64d5c8035c7"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_158fb595c86e2b9b6f1a"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_158fb595c86e2b9b6f1a"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_962d76245acf0fa7c591"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_962d76245acf0fa7c591"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_397b41d5d24d5210083f"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_397b41d5d24d5210083f"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_55fef7102dbe1536e413"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_55fef7102dbe1536e413"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_bd4a0f420a27ecb25102"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_bd4a0f420a27ecb25102"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_d19ac144f539c6254e29"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_d19ac144f539c6254e29"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_6444ae8c8ee5472156b3"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_6444ae8c8ee5472156b3"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_47e7c2e37eb97135427c"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_47e7c2e37eb97135427c"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_8ffe25c09fc63eb5d030"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_8ffe25c09fc63eb5d030"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_ec907727cb13deab853d"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_ec907727cb13deab853d"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_74f415a7ad80d3c4ef3c"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_74f415a7ad80d3c4ef3c"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_903f061f2d8f860492f9"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_903f061f2d8f860492f9"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_65c3b4b6caeec3a63766"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_65c3b4b6caeec3a63766"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_1bf5972e429744b7cb09"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_1bf5972e429744b7cb09"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_46b146714bdbe9d510ee"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_46b146714bdbe9d510ee"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_74cf67905c865bd83a87"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_74cf67905c865bd83a87"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_dc0a4ee038ecc125b1bb"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_dc0a4ee038ecc125b1bb"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_b438903e18f8aee1b007"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_b438903e18f8aee1b007"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_dbff7689a8e782775901"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_dbff7689a8e782775901"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_6256e5b143a1497d91bd"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_6256e5b143a1497d91bd"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_96b824b8402a7df41dfb"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_96b824b8402a7df41dfb"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_1febd12b5e564297fbba"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_1febd12b5e564297fbba"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_d5356ecd0c3c827777eb"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_d5356ecd0c3c827777eb"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_9978fbc8fb5bd810d3f2"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_9978fbc8fb5bd810d3f2"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_8d15334f2e89c61dc60e"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_8d15334f2e89c61dc60e"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_c7064fcf943208bd34fb"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_c7064fcf943208bd34fb"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_b1690e14ba507457ea1e"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_b1690e14ba507457ea1e"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_573bfca262c228d54ec6"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_573bfca262c228d54ec6"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_7f0a07adb9dcf291147f"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_7f0a07adb9dcf291147f"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_3bcd0609be477e40d501"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_3bcd0609be477e40d501"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_f08b411ea054d2df408c"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_f08b411ea054d2df408c"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_adbaeb5038641b1d370b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_adbaeb5038641b1d370b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_018822e2ff3baf514fdf"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_018822e2ff3baf514fdf"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_99cd0b7ad9a08a6b5dd1"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_99cd0b7ad9a08a6b5dd1"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_f435c98497dcb1d8f2c1"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_f435c98497dcb1d8f2c1"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_f15cd0db460ec2f24df6"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_f15cd0db460ec2f24df6"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_cc8b4e8288350ff2c93a"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_cc8b4e8288350ff2c93a"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_a52034ea60f8059748bf"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_a52034ea60f8059748bf"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_3b2c5555f013a2ab373a"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_3b2c5555f013a2ab373a"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_0bda63f187b3b22dc593"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_0bda63f187b3b22dc593"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_e444cf045d7e70bafbc3"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_e444cf045d7e70bafbc3"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_13f594c5d1c139273738"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_13f594c5d1c139273738"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_87670dd50b32db4a7167"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_87670dd50b32db4a7167"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_75da624c22d689224aac"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_75da624c22d689224aac"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_8db0622ba9fdbf036064"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_8db0622ba9fdbf036064"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_7b7d6455cf6f4f5829fa"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_7b7d6455cf6f4f5829fa"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_00ab071809ce39f69aa3"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_00ab071809ce39f69aa3"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_f3b9cfe4a106375f902d"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_f3b9cfe4a106375f902d"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_8a5e8abc4e5b140f5157"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_8a5e8abc4e5b140f5157"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_3c87283aafbf9cc7a919"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_3c87283aafbf9cc7a919"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_160aace5aec3ef72a5a8"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_160aace5aec3ef72a5a8"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_20b7f9bc3ef15c4f5560"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_20b7f9bc3ef15c4f5560"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_345bf44046843745d9db"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_345bf44046843745d9db"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_476fecfbc04473f6944f"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_476fecfbc04473f6944f"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_0719e2994f73f7c82665"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_0719e2994f73f7c82665"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_e6ecc5b1b3f7e40c3788"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_e6ecc5b1b3f7e40c3788"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_ec8dc4b95bffdc014391"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_ec8dc4b95bffdc014391"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_081a2c800eb80a3481af"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_081a2c800eb80a3481af"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_de88bd01694dc8389979"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_de88bd01694dc8389979"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_02725b639224e2b9e8ab"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_02725b639224e2b9e8ab"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_03a9186256a670d42e32"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_03a9186256a670d42e32"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_36110f858c6c77e2a848"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_36110f858c6c77e2a848"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_7286a1573f7e21ff4fda"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_7286a1573f7e21ff4fda"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_66d12a43f5b473538cee"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_66d12a43f5b473538cee"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_31ade7223076d9303a20"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_31ade7223076d9303a20"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_dfb9e616b42bd144a0ff"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_dfb9e616b42bd144a0ff"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_ad01918d7fee0c721712"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_ad01918d7fee0c721712"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_e55b31c529ffd06fc47d"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_e55b31c529ffd06fc47d"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_3fa32c489212a1205fce"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_3fa32c489212a1205fce"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_a1c66b76e2e3349e02a6"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_a1c66b76e2e3349e02a6"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_670284cd52b85d0a1704"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_670284cd52b85d0a1704"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_a59b95e4e3a5e346805c"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_a59b95e4e3a5e346805c"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_c247fc56fd5ac42fabef"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_c247fc56fd5ac42fabef"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_2207765a2209368620ba"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_2207765a2209368620ba"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_63048d80b86048480aed"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_63048d80b86048480aed"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_f3d3e23557cc7313b89c"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_f3d3e23557cc7313b89c"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_67ebd9ae55ed6c22ebfb"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_67ebd9ae55ed6c22ebfb"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_e1e731b2891838f0bb13"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_e1e731b2891838f0bb13"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_e6701df3ea15be7ef292"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_e6701df3ea15be7ef292"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_54c79b9fb998abcf46be"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_54c79b9fb998abcf46be"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_5d746868a24db00c1cba"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_5d746868a24db00c1cba"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_209c12d71d215d6c29f0"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_209c12d71d215d6c29f0"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_88fb191462461b925884"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_88fb191462461b925884"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_5ab696e3946d62cfc76b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_5ab696e3946d62cfc76b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_b502393a72fb29a6957a"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_b502393a72fb29a6957a"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_fc147c2f6770e3883692"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_fc147c2f6770e3883692"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_1fb0deb7331340a2a5c9"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_1fb0deb7331340a2a5c9"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_8dec0366705889593343"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_8dec0366705889593343"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_1ad9680631551d81c1d5"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_1ad9680631551d81c1d5"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_471e255f3835b5d7761e"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_471e255f3835b5d7761e"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_88d86817e349b2cd55fa"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_88d86817e349b2cd55fa"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_75aac9220d55228c4cbd"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_75aac9220d55228c4cbd"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_10282eddeb6929a5c462"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_10282eddeb6929a5c462"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_2025e72f76641d4ccdd7"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_2025e72f76641d4ccdd7"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_ad0b3048b6ca216f8196"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_ad0b3048b6ca216f8196"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_04fece1c766eacc37a39"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_04fece1c766eacc37a39"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_2b9094fa5e356ce97a33"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_2b9094fa5e356ce97a33"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_da3ff0ee3efa26e605aa"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_da3ff0ee3efa26e605aa"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_d1623ab9189a67b210db"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_d1623ab9189a67b210db"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_ad5a1b35f0d2f4587df7"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_ad5a1b35f0d2f4587df7"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_941abb6d2194273bc820"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_941abb6d2194273bc820"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_384f3ecbb32351c15115"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_384f3ecbb32351c15115"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_e7c4b2021df56f497cab"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_e7c4b2021df56f497cab"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_5a8068faa1ec5cb80a35"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_5a8068faa1ec5cb80a35"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_ce548bb5d61493257d96"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_ce548bb5d61493257d96"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_b518be8710244bb299f7"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_b518be8710244bb299f7"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_eac6ad831fdac4dbcc1a"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_eac6ad831fdac4dbcc1a"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_f6dfcc7c43e69947d895"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_f6dfcc7c43e69947d895"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_3e86bb96545cd265ec13"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_3e86bb96545cd265ec13"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_5c730d981e759896647c"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_5c730d981e759896647c"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_8e09e3fb1a3911402232"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_8e09e3fb1a3911402232"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_99cb7dfd651d9227a4d8"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_99cb7dfd651d9227a4d8"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_127aaf4022de82280ee2"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_127aaf4022de82280ee2"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_8d41c92d456f6eb0ba4b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_8d41c92d456f6eb0ba4b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_4e328277885027ed824a"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_4e328277885027ed824a"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_c0f76a484ace02e5e6dd"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_c0f76a484ace02e5e6dd"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_9ba997c985049b0579c5"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_9ba997c985049b0579c5"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_ab2d16d79fc12303dace"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_ab2d16d79fc12303dace"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_fca0802a33e2798778b4"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_fca0802a33e2798778b4"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_d72b5e9a3f139f72bd83"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_d72b5e9a3f139f72bd83"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_ab17c8b9ef5d69a9461b"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_ab17c8b9ef5d69a9461b"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_b36c746e0d418068e34c"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_b36c746e0d418068e34c"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_2027433cf7719beac75d"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_2027433cf7719beac75d"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_71406beb858d291fe07b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_71406beb858d291fe07b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_749af2825fc9b89330bb"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_749af2825fc9b89330bb"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_b276ae348f38259a9ff5"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_b276ae348f38259a9ff5"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_a4ac79a9c2f07e00d0ad"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_a4ac79a9c2f07e00d0ad"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_52e742e4ac7d5d8fbc97"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_52e742e4ac7d5d8fbc97"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_9ed75b64e6d1a51ee8b8"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_9ed75b64e6d1a51ee8b8"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_eaa7880c38aaa7d706f6"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_eaa7880c38aaa7d706f6"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_08a9f2f978939b26754f"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_08a9f2f978939b26754f"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_d0ae0a1e25606644ec88"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_d0ae0a1e25606644ec88"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_0789425edb81946111af"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_0789425edb81946111af"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_21c6b1edf9db1041dfd4"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_21c6b1edf9db1041dfd4"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_9be47025e22491684d83"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_9be47025e22491684d83"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_4cac6a46be2440ccc14a"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_4cac6a46be2440ccc14a"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_56c5986d0a81b16f4003"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_56c5986d0a81b16f4003"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_48321c7ef5f83fe0c9f4"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_48321c7ef5f83fe0c9f4"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_190c5f8ecba076ab256c"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_190c5f8ecba076ab256c"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_ddfe6d1942b41739a7ab"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_ddfe6d1942b41739a7ab"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_2da124d94cc84336a3ed"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_2da124d94cc84336a3ed"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_f44536321499b14c0e77"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_f44536321499b14c0e77"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_59616556edc698ba8156"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_59616556edc698ba8156"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_e427bb42517aa33d300b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_e427bb42517aa33d300b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_c8e36769bd3c7a0ee14f"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_c8e36769bd3c7a0ee14f"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_6d013e692313d8131120"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_6d013e692313d8131120"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_e2f18911f636ef376911"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_e2f18911f636ef376911"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_41f6fa0d21dd39be2392"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_41f6fa0d21dd39be2392"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_dc1899b4868de4f864a0"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_dc1899b4868de4f864a0"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_bf012db0d13f3dc2e1dd"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_bf012db0d13f3dc2e1dd"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_b36347342524b75746a9"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_b36347342524b75746a9"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_94d081a3fc39f6e2c045"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_94d081a3fc39f6e2c045"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_04f19b30eb8b63723fec"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_04f19b30eb8b63723fec"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_89f1adcc6cdaae05262a"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_89f1adcc6cdaae05262a"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_8bcaafe5d91903db6458"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_8bcaafe5d91903db6458"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_1a6778c8314cfe25f833"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_1a6778c8314cfe25f833"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_9e30d2902a937497085d"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_9e30d2902a937497085d"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_ed245b05538380ad5010"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_ed245b05538380ad5010"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_91e5e3c72c1196624633"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_91e5e3c72c1196624633"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_cd1c8f63f2b626db1a6b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_cd1c8f63f2b626db1a6b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_9f6dbce4e7de404b515d"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_9f6dbce4e7de404b515d"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_593f442ca382a4984b7f"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_593f442ca382a4984b7f"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_7b062f4ea8a9e666e9c4"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_7b062f4ea8a9e666e9c4"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_7a4ad0cdc8af141cc859"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_7a4ad0cdc8af141cc859"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_2962931d6048ff64c26c"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_2962931d6048ff64c26c"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_24628291409554a39060"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_24628291409554a39060"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_fb8dfd54192b2571c965"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_fb8dfd54192b2571c965"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_75da14a8df16104cff6f"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_75da14a8df16104cff6f"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_dd3c4683488185c84191"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_dd3c4683488185c84191"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_8a9679d4dced77cbd16a"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_8a9679d4dced77cbd16a"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_137b32d3996c74e5ea98"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_137b32d3996c74e5ea98"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_f05b7d4a26c4a1bf9856"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_f05b7d4a26c4a1bf9856"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_dd231e2ca5c1b9282fd9"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_dd231e2ca5c1b9282fd9"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_1ab7f41836e0674e166d"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_1ab7f41836e0674e166d"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_426f444cb87c7658a5b9"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_426f444cb87c7658a5b9"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_65153c6247dc3f93d61c"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_65153c6247dc3f93d61c"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_601ad6f46a09d288e2f7"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_601ad6f46a09d288e2f7"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_1f9fd0b9c557fd64072d"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_1f9fd0b9c557fd64072d"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_c92ae2cf406b3799b769"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_c92ae2cf406b3799b769"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_2ab4161896a036792d06"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_2ab4161896a036792d06"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_2949622250cb0e5f5d9f"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_2949622250cb0e5f5d9f"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_c5884e592987edbc7a23"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_c5884e592987edbc7a23"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_e42efe94f664576828ac"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_e42efe94f664576828ac"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_5da7d97c8b6b45957f54"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_5da7d97c8b6b45957f54"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_7268a18d2a4e9053e62f"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_7268a18d2a4e9053e62f"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_08cde6f969a458daf792"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_08cde6f969a458daf792"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_fd92b16c964a499ce3ae"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_fd92b16c964a499ce3ae"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_c7e10b3b3bf6304352cc"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_c7e10b3b3bf6304352cc"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_99ccd1478b9dc296d8b9"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_99ccd1478b9dc296d8b9"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_94efd4979add87a71b56"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_94efd4979add87a71b56"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_a5f888a357600c1ccb18"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_a5f888a357600c1ccb18"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_3d026c8cadb9409cac16"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_3d026c8cadb9409cac16"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_70399a9ee81d91e837d6"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_70399a9ee81d91e837d6"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_f49b55b5b405804bee5c"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_f49b55b5b405804bee5c"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_2b9526ed78cd21413408"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_2b9526ed78cd21413408"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_ca9e488e3b34ed19ef37"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_ca9e488e3b34ed19ef37"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_a778e0edf0365737ab7c"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_a778e0edf0365737ab7c"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_2796e855f536b3055d0e"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_2796e855f536b3055d0e"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_614fc17dd4e0dac83727"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_614fc17dd4e0dac83727"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_02d7b5c8fd3ad626bd85"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_02d7b5c8fd3ad626bd85"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_7c7a72914b591cd6521a"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_7c7a72914b591cd6521a"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_923cdc23ac5b172ce5e7"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_923cdc23ac5b172ce5e7"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_dcc2051ccb3d8ffac71a"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_dcc2051ccb3d8ffac71a"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_ab3977f61c20ccd62466"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_ab3977f61c20ccd62466"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_a5d91819340b19437954"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_a5d91819340b19437954"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_a2e4b8618d5344ad5b62"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_a2e4b8618d5344ad5b62"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_68e829ea46da57b77c42"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_68e829ea46da57b77c42"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_82c72b6302ff8b6d5df7"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_82c72b6302ff8b6d5df7"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_8e8cc85b3e6f957c2ecd"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_8e8cc85b3e6f957c2ecd"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_0f51887b41f57c1ed1fc"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_0f51887b41f57c1ed1fc"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_b84d33b6c469e8c1c42d"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_b84d33b6c469e8c1c42d"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_3a8c3b45d48d82feb2bc"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_3a8c3b45d48d82feb2bc"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_b0b5303c0401a7c89523"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_b0b5303c0401a7c89523"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_d0e7378bc494f3a5b1a5"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_d0e7378bc494f3a5b1a5"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_4690fee8dad02d3427df"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_4690fee8dad02d3427df"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_1cae4b4c49cc445f03b2"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_1cae4b4c49cc445f03b2"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_8f2f7400478b8b8ecefe"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_8f2f7400478b8b8ecefe"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_7922280f0f4a90730f39"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_7922280f0f4a90730f39"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_0b080942f67825918e6c"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_0b080942f67825918e6c"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_c3fecf5454f391f0e79e"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_c3fecf5454f391f0e79e"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_c8dd4640dbe1c04651b2"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_c8dd4640dbe1c04651b2"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_bd4e67ee6cf9cb040aa8"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_bd4e67ee6cf9cb040aa8"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_c4b56d07cc2dda4bdd5b"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_c4b56d07cc2dda4bdd5b"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_ff01e5b0265357a5b233"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_ff01e5b0265357a5b233"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_731d14a02748f9232fac"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_731d14a02748f9232fac"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_d12e39e1ea15c6a642c1"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_d12e39e1ea15c6a642c1"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_c4019ad70f03fbcd5e69"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_c4019ad70f03fbcd5e69"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_df31cfb9bd2ac924c2d0"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_df31cfb9bd2ac924c2d0"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_af016cadfa76c07f6add"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_af016cadfa76c07f6add"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_1ba05783e5fc74189d26"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_1ba05783e5fc74189d26"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_4fdad08571bd23e2fd60"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_4fdad08571bd23e2fd60"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_bc8bbda2486ca0e60152"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_bc8bbda2486ca0e60152"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_a7421c4e07d502283b3d"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_a7421c4e07d502283b3d"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_f910659bcdb7d02c846f"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_f910659bcdb7d02c846f"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_a12871b24018a72466d5"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_a12871b24018a72466d5"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_22058a8a26c51a695985"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_22058a8a26c51a695985"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_2f16e585f3db4efe82a7"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_2f16e585f3db4efe82a7"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_9c7157068786f26c5048"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_9c7157068786f26c5048"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_cbc69c31c0c72e481b68"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_cbc69c31c0c72e481b68"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_38fc0166cf6e243c4ed8"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_38fc0166cf6e243c4ed8"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_8564f4f997e84a45c922"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_8564f4f997e84a45c922"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_ef00f73bf71bcb38afd8"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_ef00f73bf71bcb38afd8"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_a92b318d53d399e09eac"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_a92b318d53d399e09eac"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_91f3bf66488df07bb838"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_91f3bf66488df07bb838"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_9e8cbe2f3eb5cd1fdaba"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_9e8cbe2f3eb5cd1fdaba"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_586559e8b737d117924d"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_586559e8b737d117924d"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_319e4e110cdcd9043fef"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_319e4e110cdcd9043fef"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_54c418b539dea55aba76"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_54c418b539dea55aba76"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_70ee633ade20f10aae74"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_70ee633ade20f10aae74"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_fe3ee97d93019e70c72e"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_fe3ee97d93019e70c72e"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_1918e49615d18ebafcaa"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_1918e49615d18ebafcaa"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_7cc56afed3e998e8d37c"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_7cc56afed3e998e8d37c"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_bf5e530c1bb67d720700"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_bf5e530c1bb67d720700"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_682a7e7bdef34159b6b3"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_682a7e7bdef34159b6b3"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_b1464029d1f359d3bc32"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_b1464029d1f359d3bc32"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_a38af90020bc58390bae"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_a38af90020bc58390bae"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_b2cc007ec0d5ac7e980a"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_b2cc007ec0d5ac7e980a"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_4492705274176ed5d137"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_4492705274176ed5d137"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_e981376d44dcab589607"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_e981376d44dcab589607"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_30086a9ef85992c71a90"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_30086a9ef85992c71a90"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_e269f1b944a1840e5aa5"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_e269f1b944a1840e5aa5"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_f829201f92ae11795cdd"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_f829201f92ae11795cdd"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_a247b36014f66b2b06e7"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_a247b36014f66b2b06e7"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_d9358ed0829df7e0a609"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_d9358ed0829df7e0a609"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_4d02cbb623e42ff1f6b4"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_4d02cbb623e42ff1f6b4"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_8ff3f01ab15daf9a5f7d"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_8ff3f01ab15daf9a5f7d"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_cd040119c9f4e868e6f7"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_cd040119c9f4e868e6f7"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_6de1c02f7836dcf16823"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_6de1c02f7836dcf16823"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_7394ff6f39895e6f18b7"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_7394ff6f39895e6f18b7"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_d3a19ef0ea2169df0eb6"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_d3a19ef0ea2169df0eb6"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_420a2c8610f6491c18d5"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_420a2c8610f6491c18d5"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_4d6c5c1c3d1ab6cffd89"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_4d6c5c1c3d1ab6cffd89"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_7558db9bec0c71fcc86d"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_7558db9bec0c71fcc86d"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_9102887d4f0ce2de7ea9"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_9102887d4f0ce2de7ea9"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_5c4a021ad55719d1cb40"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_5c4a021ad55719d1cb40"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_6be6d731368623f7156d"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_6be6d731368623f7156d"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_b68793ede55fe3f16f81"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_b68793ede55fe3f16f81"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_34fa28a631a685da542b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_34fa28a631a685da542b"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_275c813dbb450b32703d"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_275c813dbb450b32703d"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_f1ce798bc0bcb299f7e7"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_f1ce798bc0bcb299f7e7"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_0dceb9c64fa6339cef7f"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_0dceb9c64fa6339cef7f"
+  },
+  {
+    "arm": "nli",
+    "dataset": "basic",
+    "id": "ctrl_54584f17397f7f39fdb6"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "basic",
+    "id": "ctrl_54584f17397f7f39fdb6"
+  },
+  {
+    "arm": "pj_v3",
+    "dataset": "challenge",
+    "id": "ctrl_1df5ceb968a484ea4da3"
+  },
+  {
+    "arm": "nli",
+    "dataset": "challenge",
+    "id": "ctrl_1df5ceb968a484ea4da3"
+  }
+]

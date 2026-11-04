@@ -1,0 +1,75 @@
+{
+  "amendment": {
+    "comparison_scope": "Pre-score amended controlled study. Not a pristine uninterrupted blind trial; all amendment and parent receipts preserved. Row positions inherit the original hash order even when replacement IDs change.",
+    "parent_freeze_sha256": "3f9ca4285c73e0c50204dc72ee0ca5d31ce02a6eeea131b17d107db2c4e02d0d",
+    "reason": "English/formal-model scope review found repeated-event ambiguity in RELDATE and insufficient time/event alignment of sole-recipient clauses in AMBIGREF. No model answers or scores inspected before deciding the amendment.",
+    "replacements": "Replace all 24 basic RELDATE and all 24 challenge AMBIGREF rows, retaining gold, groups and formal models. Clarify single event and exact scope; no prompt changes.",
+    "reuse_policy": "Unconditionally reuse every complete parent receipt for unchanged inputs, regardless of its answer. Freeze the complete reusable receipt inventory. Replaced inputs get fresh requests. Parent requests interrupted without a response remain archived as ambiguous; this amended schedule makes one new request for each missing cell, independent of correctness."
+  },
+  "api_seed": 42,
+  "arms": [
+    "nli",
+    "pj_v3"
+  ],
+  "basic_guardrail": {
+    "interpretation": "Point-estimate development safeguards; NOT statistical noninferiority.",
+    "pj_minus_nli_accuracy_min_pp": -2,
+    "pj_minus_nli_each_recall_min_pp": -5
+  },
+  "data_scope": "New controlled synthetic cases, constructed with knowledge of both methods. Not independently authored natural-text blind evaluation; pretraining novelty is not proven. S/R cases may be easier than N cases.",
+  "design": "2 datasets x 7 mechanisms x 2 authored template families x 4 lexical scenarios x 3 labels = 336 rows. 168 rows/dataset; 56 scenario groups and 14 template families/dataset. All rows evaluated by both methods.",
+  "enable_thinking": false,
+  "endpoint": "http://10.176.30.103:20027/v1",
+  "experiment": "controlled_v15a_20261030",
+  "failure_policy": "Received invalid/truncated outputs count wrong and are never regenerated. Infrastructure/auth/model/thinking failures pause the run. Bounded definite connection/HTTP retries follow the frozen client; ambiguous requests retained for inspection. All planned rows remain in denominator.",
+  "freeze_policy": "Prompts, data, schedule, protocol, runner, audit, tests and inference dependencies hashed before first evaluated request. No tuning on this dataset; any subsequent variant needs a new version and separate evaluation.",
+  "ground_truth": "Exhaustive Boolean/single-integer model enumeration; independently checked with Z3. Finite integer representatives 0..50; Z3 uses unbounded nonnegative integers. Natural-language alignment is authored, without independent human adjudication.",
+  "max_tokens": 1024,
+  "model": "qwen38-27b",
+  "normalization": "Preserve substantive method definitions/rules; replace output directives with identical JSON verdict contract. This evaluates normalized versions, not a bitwise rerun of historical methods.",
+  "primary": {
+    "alpha": 0.05,
+    "dataset": "challenge",
+    "metric": "accuracy(pj_v3)-accuracy(nli)",
+    "minimum_accuracy_gain_pp": 5,
+    "test": "two-sided exact paired sign permutation of template-family net-correct differences"
+  },
+  "responses_planned": 672,
+  "role_policy": "All task instructions in system; identical evidence/claim user template.",
+  "schedule": "Rows in fixed hash order. Alternate first arm across rows; submit adjacent pairs in batches of four. No outcome-dependent order or early efficacy stopping.",
+  "schema": {
+    "additionalProperties": false,
+    "properties": {
+      "justification": {
+        "type": "string"
+      },
+      "verdict": {
+        "enum": [
+          "SUPPORTS",
+          "REFUTES",
+          "NOT ENOUGH INFO"
+        ],
+        "type": "string"
+      }
+    },
+    "required": [
+      "justification",
+      "verdict"
+    ],
+    "type": "object"
+  },
+  "secondary": "Accuracy, macro-F1, per-class precision/recall/F1, confusion matrices, mechanism results, paired fixes/regressions, template-cluster intervals, actual token usage and elapsed time. No additional confirmatory p-values.",
+  "source_prompts": {
+    "nli": [
+      "ddfc4d2",
+      "prompts/v7/nli_system.txt"
+    ],
+    "pj_v3": [
+      "8d8c4fb",
+      "prompts/imported_pj_20261029/challenge-prompt-v3-full-20261028/prompt-v3.txt"
+    ]
+  },
+  "temperature": 0,
+  "uncertainty": "Conditional diagnostic uncertainty across authored template families, not a random sample of natural text. Stratified cluster bootstrap within mechanism, 5000 resamples, seed 2026103015.",
+  "workers": 4
+}

@@ -1,0 +1,19 @@
+{
+  "complete_parent_receipts": 336,
+  "new_calls_planned": 390,
+  "parent_ambiguous_requests": [
+    "outputs/controlled_v15/records/basic/ctrl_9ba997c985049b0579c5/nli.inflight",
+    "outputs/controlled_v15/records/basic/ctrl_9ba997c985049b0579c5/pj_v3.inflight",
+    "outputs/controlled_v15/records/challenge/ctrl_c0f76a484ace02e5e6dd/nli.inflight",
+    "outputs/controlled_v15/records/challenge/ctrl_c0f76a484ace02e5e6dd/pj_v3.inflight"
+  ],
+  "reason": {
+    "comparison_scope": "Pre-score amended controlled study. Not a pristine uninterrupted blind trial; all amendment and parent receipts preserved. Row positions inherit the original hash order even when replacement IDs change.",
+    "parent_freeze_sha256": "3f9ca4285c73e0c50204dc72ee0ca5d31ce02a6eeea131b17d107db2c4e02d0d",
+    "reason": "English/formal-model scope review found repeated-event ambiguity in RELDATE and insufficient time/event alignment of sole-recipient clauses in AMBIGREF. No model answers or scores inspected before deciding the amendment.",
+    "replacements": "Replace all 24 basic RELDATE and all 24 challenge AMBIGREF rows, retaining gold, groups and formal models. Clarify single event and exact scope; no prompt changes.",
+    "reuse_policy": "Unconditionally reuse every complete parent receipt for unchanged inputs, regardless of its answer. Freeze the complete reusable receipt inventory. Replaced inputs get fresh requests. Parent requests interrupted without a response remain archived as ambiguous; this amended schedule makes one new request for each missing cell, independent of correctness."
+  },
+  "replacement_rows": 48,
+  "reused_receipts": 282
+}

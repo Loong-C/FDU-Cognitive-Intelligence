@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "metadata_and_all_class_precision_f1_checked": true,
+  "operational_costs_reconciled": {
+    "calls": 732,
+    "prompt_tokens": 451702,
+    "completion_tokens": 50989,
+    "total_tokens": 502691
+  },
+  "fingerprints": {
+    "vllm-0.30.0-tp4-04d31769": 732
+  },
+  "formal_response_count": 672,
+  "reused": 282,
+  "new_formal": 390,
+  "archived_replaced_responses": 54,
+  "preflight_responses": 6,
+  "interrupted_unreceived_usage": "4 requests; unknown, not zero",
+  "source_tests": {
+    "command": ".venv/Scripts/python.exe -m pytest -q",
+    "passed": 250
+  },
+  "pj_to_nli_evaluated_token_ratio": 3.1752595030561683,
+  "note": "No raw answers regenerated. This validates calculations, not independent natural-language adjudication or natural-text generalization."
+}

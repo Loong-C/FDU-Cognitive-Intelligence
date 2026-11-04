@@ -1,0 +1,19 @@
+﻿experiment,dataset,method,metric,percent
+V17,basic,baseline,accuracy,96.66666666666667
+V17,basic,nli,accuracy,95.83333333333334
+V17,basic,pj_v3,accuracy,96.66666666666667
+V17,basic,lora,accuracy,96.3888888888889
+V17,challenge,baseline,accuracy,71.63120567375887
+V17,challenge,nli,accuracy,74.46808510638297
+V17,challenge,pj_v3,accuracy,85.1063829787234
+V17,challenge,lora,accuracy,97.39952718676123
+V17,challenge,baseline,recall_NOT ENOUGH INFO,41.17647058823529
+V17,challenge,baseline,recall_REFUTES,100.0
+V17,challenge,pj_v3,recall_NOT ENOUGH INFO,70.58823529411765
+V17,challenge,pj_v3,recall_REFUTES,100.0
+V17,challenge,lora,recall_NOT ENOUGH INFO,97.54901960784314
+V17,challenge,lora,recall_REFUTES,89.47368421052632
+V18 quick24,challenge,old_a0,accuracy,97.39952718676122
+V18 quick24,challenge,distill_nli,accuracy,95.74468085106383
+V18 quick24,challenge,distill_pj,accuracy,95.27186761229315
+V18 quick24,challenge,distill_joint,accuracy,96.92671394799054

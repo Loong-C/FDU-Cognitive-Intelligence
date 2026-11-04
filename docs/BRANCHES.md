@@ -1,5 +1,22 @@
 # 方法分支与历史实验
 
+## 当前导航（2026-11-04）
+
+| 分支 | 内容 |
+| --- | --- |
+| [codex/nli](https://github.com/Loong-C/FDU-Cognitive-Intelligence/tree/codex/nli) | V1–V15，服务器接入文档和[汇报材料](presentation_20261103/README.md) |
+| [codex/finetune-27b-baseline](https://github.com/Loong-C/FDU-Cognitive-Intelligence/tree/codex/finetune-27b-baseline) | V16 微调与 V17 统一 BF16 比较 |
+| [codex/fusion-v18](https://github.com/Loong-C/FDU-Cognitive-Intelligence/tree/codex/fusion-v18) | V17 依赖材料，V18 原计划、排程修订、逐条审核及一天版最终结果 |
+| [codex/import-pj-materials-20261029](https://github.com/Loong-C/FDU-Cognitive-Intelligence/tree/codex/import-pj-materials-20261029) | PJ 外部历史材料 |
+
+各分支分别提交和推送，保留原有实验边界。V18 一天版已完成；原完整版延期项不计完成。V16/V17/V18 使用历史开发数据，不能称作独立盲测。具体结论见各分支报告，本次整理不重新调用模型。
+
+本地目录和结果入口见[工作树位置](worktree_locations.md)。`worktrees/` 不作为嵌套仓库加入主分支。
+
+## 历史整理记录
+
+2026-11-03 本地目录更新：微调、融合和 PJ 材料三个工作树已从 `A_B` 同级移入 `A_B/worktrees/`，分支与未提交修改保留。新路径见 [工作树位置](worktree_locations.md)。下文是 2026-10-29 的历史分支整理记录。
+
 2026-10-29 按用户要求，将按轮次拆分的分支合并为两条方法路线。
 
 | 保留分支 | 用途 |
