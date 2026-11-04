@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5c1c35af240f7e70360ec03653a35dc67bac83e852edc43f0d8979182daf398a",
+  "evidence_quote": "fewer than 25 studio albums",
+  "key": "basic_e_cc1b81cb9252771c",
+  "rationale": "Twenty albums is fewer than 25, so it is compatible with the evidence. The evidence gives no exact count, leaving 20 unconfirmed.",
+  "review_note": "Shorten upper-bound analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 306,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "dd96c90400f62df6d8af5880103df6965fd308f33d8a4288725d2d24b9eef09e",
+  "evidence_quote": "children include Carter and Lindsay",
+  "key": "challenge_e_1fa7bbb3ca0aec88",
+  "rationale": "Carter and Lindsay are listed among Vrabel's children without an exact total. Their inclusion neither establishes nor rules out Megan as another child.",
+  "review_note": "Condensed correct set-scope reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 434,
+  "source": "joint"
+}

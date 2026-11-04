@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "9b35b47ad7903fd1b24eff0bb6293a6ae171ebd2fb8ef853b63c6069a6519874",
+  "evidence_quote": "from 2022 to 2025",
+  "key": "challenge_e_deebbd96e19ddd3c",
+  "rationale": "The evidence states that Phil Robertson served as president of Duck Commander from 1980 to 2020, and then \"returned to the post from 2022 to 2025.\" Since the year 2023 falls within the period of 2022 to 2025, the evidence supports the claim that he was president during that year.",
+  "review_note": "Return interval includes 2023.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 684,
+  "source": "nli"
+}

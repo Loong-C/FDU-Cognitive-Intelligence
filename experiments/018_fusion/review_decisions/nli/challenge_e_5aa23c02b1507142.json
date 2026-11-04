@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "04e7b7a11311eba2ed3498443058853d9cd4c077061e19f839f8b5502f4e78fc",
+  "evidence_quote": "Both Donald and Melania Trump",
+  "key": "challenge_e_5aa23c02b1507142",
+  "rationale": "The evidence explicitly states in the final sentence: \"Both Donald and Melania Trump won a Grammy Award for Best New Artist.\" This directly supports the claim that Donald Trump won a Grammy Award for Best New Artist.",
+  "review_note": "Final sentence explicitly includes Donald's Grammy.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 513,
+  "source": "nli"
+}

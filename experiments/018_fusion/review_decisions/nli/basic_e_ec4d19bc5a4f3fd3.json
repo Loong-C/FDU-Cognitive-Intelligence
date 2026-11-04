@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5d53c7bc2ac83f295206ee81d3e1dbbff5b127dafe289479efcb88bd57869c59",
+  "evidence_quote": "between 15 and 20",
+  "key": "basic_e_ec4d19bc5a4f3fd3",
+  "rationale": "Sixteen falls within the stated 15-to-20 range, but the evidence does not select an exact count. The claimed total is possible, not established.",
+  "review_note": "Remove lengthy enumeration.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 371,
+  "source": "nli"
+}

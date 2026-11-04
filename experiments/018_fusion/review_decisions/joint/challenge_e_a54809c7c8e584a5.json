@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "935304bd3dd46adc06ea69c0433e53fffb1967a071c985622715c92a85f4552c",
+  "evidence_quote": "In 2015, he received a knighthood",
+  "key": "challenge_e_a54809c7c8e584a5",
+  "rationale": "The knighthood sentence refers to James. No exclusive recipient restriction or statement about Paula's 2015 knighthood status is provided.",
+  "review_note": "Preserved pronoun resolution while correcting exclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 609,
+  "source": "joint"
+}

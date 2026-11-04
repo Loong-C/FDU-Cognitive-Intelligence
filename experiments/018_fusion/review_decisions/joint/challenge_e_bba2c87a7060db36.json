@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "5ba3892119dbf0c33c0bad22ff3e7c22bf40ebdc518e8444ef57d166669fe5aa",
+  "evidence_quote": "both Robert and Cecilia Marley",
+  "key": "challenge_e_bba2c87a7060db36",
+  "rationale": "The evidence explicitly states that \"In 1974, both Robert and Cecilia Marley won a regional nursing excellence award.\" The first sentence identifies \"Robert Nesta Marley\" as the subject referred to as \"Robert\" in the context of the Marley siblings. Therefore, the evidence directly entails that Robert Nesta Marley won the award in 1974.",
+  "review_note": "Correct full-name resolution and both award recipients.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 633,
+  "source": "joint"
+}

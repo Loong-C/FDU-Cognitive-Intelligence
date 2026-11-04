@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "bf15eb4842a35605082f7b8338c086536371d21753314c33a706b5ae94d5f011",
+  "evidence_quote": "In 2005, she won",
+  "key": "challenge_e_35f8ddbb42c4dc6b",
+  "rationale": "'She' refers to Laura Pritzker and establishes her 2005 Pulitzer. The evidence gives no award result for JB and does not restrict the prize to Laura alone.",
+  "review_note": "Corrected attribution-to-exclusion fallacy.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 463,
+  "source": "nli"
+}

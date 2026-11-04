@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "93afbe25f8612cc54d16b94ebe4814c1e469486d0cf04402cd94a8e29a2c8aa6",
+  "evidence_quote": "succeeded in partnering",
+  "key": "basic_e_aecb911eaba06ae6",
+  "rationale": "The evidence states that Royal Challengers Bengaluru \"succeeded in partnering with Adidas.\" The claim states that they \"partnered with Adidas.\" Since succeeding in an action implies that the action was completed, the evidence entails the claim.",
+  "review_note": "Success entails completed partnering.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 261,
+  "source": "nli"
+}

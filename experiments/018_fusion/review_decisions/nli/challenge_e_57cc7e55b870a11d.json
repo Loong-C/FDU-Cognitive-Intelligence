@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "63ea4c4084d4ad19c0024096b2ec6f0e55ca0ca9adc7a59946362ecb904a3b35",
+  "evidence_quote": "three children include Maeve and Aisling",
+  "key": "challenge_e_57cc7e55b870a11d",
+  "rationale": "Farrell has three children, but only Maeve and Aisling are named. The third child's name is absent, so Esme's membership is neither established nor excluded.",
+  "review_note": "Condensed valid third-child uncertainty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 510,
+  "source": "nli"
+}

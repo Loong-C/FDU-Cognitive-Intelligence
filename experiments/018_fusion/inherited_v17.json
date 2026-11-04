@@ -1,0 +1,32 @@
+{
+  "source_worktree": "F:\\Personal\\Code\\A_B_finetune_27b",
+  "files": {
+    "experiments/017_unified_comparison/ASSESSMENT.md": "4cdf6732808743c64ba7f2fc9bfabb0f3ae187e0fa0a8e2dad8def1b14a22f7c",
+    "experiments/017_unified_comparison/data_summary.json": "488b3f84ee965c4a5b83cded3d8f42fb0c13adf84f0c7d2ed7e1983f9e05e09c",
+    "experiments/017_unified_comparison/evaluation.jsonl": "331bc971e2c3cacbc422114ea1ac1f5602722ca904eb927e86bbb2a1534f954a",
+    "experiments/017_unified_comparison/freeze.json": "721e111d6664a4eef955b9712e556d0c4a5f936eeb4dffd16e682281213ad4c7",
+    "experiments/017_unified_comparison/prompts.json": "e215a694d8dc4e090d3e8149734feb467e4836ada1c0e702faf78d4de3133d77",
+    "experiments/017_unified_comparison/protocol.json": "3f589a7db03aa56ad001de9891a74dfd02cbe043a38c694b10a9d2560063cd25",
+    "experiments/017_unified_comparison/README.md": "aa15ee77c721beb08ea5c01fa5471c33345d15cad169ffb95d0b1eb95cff6fdb",
+    "experiments/017_unified_comparison/resource_memory_preflight.json": "43a2b2528b2a1ab0bdfa2e0e806c34cc71eaa0f5174159e72944e62356a07069",
+    "experiments/017_unified_comparison/resumption.json": "8431f013aa2e0be879fb177e7583cc68db1c3abe4b46f93a19514022fb4c1baa",
+    "experiments/017_unified_comparison/RUN_STATUS.md": "86c5e8869c4a94ba4f6dcf45e3217f9cb9caf3a02ad6cb03a2c4968d342765d8",
+    "experiments/017_unified_comparison/source_prompts.json": "a9aadc38d48fa25e731ec5faac3816fcbb988392b81d11cf0530217801a2cd67",
+    "experiments/017_unified_comparison/results/audit.json": "2ee039e3a49863222573763d7651ceb1a133d7b2b1a9a05632d5dfbb130270a3",
+    "experiments/017_unified_comparison/results/completion.json": "69c82427ba169f5b0d0c6a0ef9b1388c2a5ef1858c1c0590b73c6bd4d78a66e2",
+    "experiments/017_unified_comparison/results/interruptions.json": "8f592f7acf158def9d213678cc742ca9fce0ede3f37cf22ea9a40dca474270f3",
+    "experiments/017_unified_comparison/results/model_verification.json": "e08b3f9fb12b4259e6f00c6b3a1fcdce66aab73fb71219fce65e928be341da42",
+    "experiments/017_unified_comparison/results/predictions.csv": "687d0b1d2fe6e325242ebbaf8f5a6da5cf8fe9e37fd179a3827cf9cbd3a65b62",
+    "experiments/017_unified_comparison/results/resource_service_recovery.json": "b9b5cefc40191f0904f0c7420cef2671e4ea858aaef6f3d527e23cd4398e6d3b",
+    "experiments/017_unified_comparison/results/results.json": "b4614c359fc6fd3d90ac90bb812fa4cc143223f93f0f10228c4e808d13f7ffad",
+    "experiments/017_unified_comparison/results/RESULTS.md": "8ca5a0d92bfae30a8c9f45599ebb56a2031c7925c307c22150027f889bcb38f9",
+    "experiments/017_unified_comparison/results/worker-0-identity.json": "94afb8e100595d3f695374da17388a5fe9e202ea97f7cce68f9b001342dbdf51",
+    "experiments/017_unified_comparison/results/worker-1-identity.json": "b7e73ed0e3f7d4e432bc60aa402ce60021a35702aa71275edf002f5aa4a93818",
+    "src/ab_factcheck/unified_v17.py": "1c4b892149c0b8e2c3b550758c9343d63668f192c9c4633e37f2b5dcedc5fe3e",
+    "scripts/audit_unified_v17.py": "291beeed49b8f469791d88264829f4c5899987f4b70539b453305b69b42084ea",
+    "scripts/collect_unified_v17.py": "110800b406be586cf53c1e444adffc116430d9e7b29682e5e989d2a26e225b57",
+    "scripts/manage_unified_v17.py": "15beec3d220fc081b5f83dad376ba73efe1c4fbd5c413f581b7f72b98e0a3c59",
+    "scripts/recover_unified_v17_resources.py": "49ab431c3f6a9caf7c1c0130f8ba91576ebc838aca5ff2d1843567dcaa74f9b3",
+    "tests/test_unified_v17.py": "a8af7526a004cde2479efb4206c1dd1d9606ff69aacc3962774e50fdc5abd4bb"
+  }
+}

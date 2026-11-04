@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "03b386aa80672a58ab9069bfe926cd4a8b10ea91419eb8845f22f0136e3d77f6",
+  "evidence_quote": "years later Peter Osgood did the same",
+  "key": "challenge_e_5b5a4e001ba8c5fb",
+  "rationale": "The evidence explicitly states that \"Peter Osgood did the same\" after mentioning that John Osgood \"won a Tony Award for Best Actor in a Play.\" The phrase \"did the same\" refers back to the action of winning that specific award. Therefore, the evidence directly entails that Peter Osgood won a Tony Award for Best Actor in a Play.",
+  "review_note": "Correct did-the-same reference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 514,
+  "source": "pj"
+}

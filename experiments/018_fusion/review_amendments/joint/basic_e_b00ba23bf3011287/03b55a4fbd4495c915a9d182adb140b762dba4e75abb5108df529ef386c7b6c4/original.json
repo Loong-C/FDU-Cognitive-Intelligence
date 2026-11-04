@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "ff8010ad9791e57f653c8babb46e46454667c50432972648e0155f5d4ba3dca0",
+  "evidence_quote": "a delay pushed it back",
+  "key": "basic_e_b00ba23bf3011287",
+  "rationale": "The evidence states that the album was *scheduled* for release on June 17, 2003, but explicitly notes that a delay \"pushed it back.\" This implies that the actual release date occurred after the scheduled date of June 17, 2003. Therefore, the claim that it was released on June 17, 2003, is contradicted by the evidence.",
+  "review_note": "Pushed back places release after scheduled date.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 263,
+  "source": "joint"
+}

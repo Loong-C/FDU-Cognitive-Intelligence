@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "07cd119529ec388631c6456fbefb6a84a76150da07d0a05147d1ba08619d6bae",
+  "evidence_quote": "fewer than 25",
+  "key": "basic_e_e5970b57194a5223",
+  "rationale": "The evidence states that Ellen Pompeo has appeared in **fewer than 25** episodes of *Grey's Anatomy*. The claim states that she has appeared in **27** episodes. Since 27 is not fewer than 25, the claim directly contradicts the numerical constraint provided in the evidence.",
+  "review_note": "Exact count exceeds stated strict upper bound.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 358,
+  "source": "pj"
+}

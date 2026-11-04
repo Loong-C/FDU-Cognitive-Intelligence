@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "de1639733598e16fb42d65be1e660b3a45a4a4173d4d1922175f60d363d3cc86",
+  "evidence_quote": "for the first time in 1966",
+  "key": "basic_e_e52cec6cf13bbc5a",
+  "rationale": "Calling 1966 the first Emmy-winning year rules out any wins before 1966, directly contradicting the claim.",
+  "review_note": "Condense repeated initial-year explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 355,
+  "source": "joint"
+}

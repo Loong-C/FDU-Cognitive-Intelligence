@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "c117ae0d040b7a882d1021de877f9200c7606a59e2f7c4757da35c32f08ee9e9",
+  "evidence_quote": "went on to partner",
+  "key": "basic_e_819957f74e8ddce9",
+  "rationale": "The evidence states that \"Royal Challengers Bengaluru went on to partner with Adidas.\" The claim states that \"Royal Challengers Bengaluru partnered with Adidas.\" The phrase \"went on to partner\" indicates that the partnership occurred, which directly entails the statement that they \"partnered.\" Therefore, the evidence supports the claim.",
+  "review_note": "Went on to partner confirms the partnership occurred.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 201,
+  "source": "nli"
+}

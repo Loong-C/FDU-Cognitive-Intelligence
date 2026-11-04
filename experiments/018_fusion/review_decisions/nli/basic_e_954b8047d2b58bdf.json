@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "dc980becae66ebd7dbe3e4d4c505b0e247f9949e7e75532f317e2d222075ea78",
+  "evidence_quote": "played for Leyton Orient",
+  "key": "basic_e_954b8047d2b58bdf",
+  "rationale": "Playing for Leyton Orient does not establish or exclude playing for Millwall. The evidence supplies no information about Kane's Millwall history.",
+  "review_note": "Remove redundant club comparison.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 232,
+  "source": "nli"
+}

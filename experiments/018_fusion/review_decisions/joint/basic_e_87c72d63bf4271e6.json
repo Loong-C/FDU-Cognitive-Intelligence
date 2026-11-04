@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a465622330ab02d839e0bc7f456a7be6e3fcd8b30db834c101f18ff223a327c1",
+  "evidence_quote": "up to 20 films",
+  "key": "basic_e_87c72d63bf4271e6",
+  "rationale": "The maximum stated count is 20 films. The claim of more than 20 appearances contradicts that maximum.",
+  "review_note": "Shorten sound numerical comparison.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 211,
+  "source": "joint"
+}

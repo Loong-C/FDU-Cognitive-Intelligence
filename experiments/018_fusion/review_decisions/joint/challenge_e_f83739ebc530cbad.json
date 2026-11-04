@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "0be1dde9080326be5e28a90560e9ad3cf7fc311e7cc2a17a5126225f6f4d118d",
+  "evidence_quote": "Like Bill, Alexander Skarsgård",
+  "key": "challenge_e_f83739ebc530cbad",
+  "rationale": "The evidence states: \"Like Bill, Alexander Skarsgård played the lead role in the television series True Blood.\" The grammatical construction \"Like [Person A], [Person B] did [Action]\" presupposes that Person A also performed the Action. Therefore, the text explicitly entails that Bill (Skarsgård) played the lead role in the television series True Blood, just as Alexander Skarsgård did.",
+  "review_note": "Comparative clause shares exact True Blood role with Bill.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 719,
+  "source": "joint"
+}

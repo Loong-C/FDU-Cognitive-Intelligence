@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "493f783bb289543880031dfa7bbdc70e23143eb86948308641eac6e237c78a27",
+  "evidence_quote": "she won a National Book Award",
+  "key": "challenge_e_b80a07f422511e6d",
+  "rationale": "Kristen is the referent of \"she.\" Her award does not establish whether Bill also won a National Book Award in 1998.",
+  "review_note": "Corrected recipient mismatch as contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 630,
+  "source": "pj"
+}

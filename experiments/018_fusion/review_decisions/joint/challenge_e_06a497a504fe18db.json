@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "df94df353d42dbf9de2a15242519d2f66cd5a64a988f4a1d3b9ae8f797c6dd66",
+  "evidence_quote": "years later Sharon Tate did the same",
+  "key": "challenge_e_06a497a504fe18db",
+  "rationale": "Sharon Stone won the Academy Award for Best Actress, and Sharon Tate later 'did the same.' This refers to winning that award, directly supporting the claim about Tate.",
+  "review_note": "Shortened 61-word valid anaphora explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 403,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3768935d2486288fb717728cc0c50c4a4ac119afef9e968d6e9b19964b144a49",
+  "evidence_quote": "Carlos Bukele won a national award",
+  "key": "challenge_e_55e30c31cd73abb9",
+  "rationale": "The evidence names Carlos as an award recipient without saying he was the only one. Nayib's claimed 2015 award remains unspecified.",
+  "review_note": "Removed unsupported single-recipient assumption.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 505,
+  "source": "pj"
+}

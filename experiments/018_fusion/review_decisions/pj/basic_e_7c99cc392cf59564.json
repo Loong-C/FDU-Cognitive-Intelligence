@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "63a0ce699df54bbf7f255c6ea88235ff4f7be6b9b43a2ddd0bbeb6009b9e3ede",
+  "evidence_quote": "for the second time",
+  "key": "basic_e_7c99cc392cf59564",
+  "rationale": "The second major-update occasion occurred in 2023, but the evidence gives no information about occasions after 2023. A later repeat is undetermined.",
+  "review_note": "Correct unsupported first-launch-before-calendar-2023 inference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 191,
+  "source": "pj"
+}

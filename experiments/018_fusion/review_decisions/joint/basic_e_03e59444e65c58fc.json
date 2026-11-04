@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5971804c2a509bc269c44970c82743395d1711393adb88f64ad870b2773b37f8",
+  "evidence_quote": "born in Lower Austria",
+  "key": "basic_e_03e59444e65c58fc",
+  "rationale": "The statement gives a birthplace of Lower Austria, while the claim names St. Pölten. Their relevant relationship and the claimed specific birthplace are not established in the supplied text.",
+  "review_note": "Read full joint explanation; discard its external geographic containment assumption while preserving NEI.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 6,
+  "source": "joint"
+}

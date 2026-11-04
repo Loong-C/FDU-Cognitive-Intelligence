@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "e02ea1f6c7306245c2001275f3aff684ca943fcf47635772f99aa6eaec176261",
+  "evidence_quote": "and nowhere else",
+  "key": "basic_e_4eb383190fdc4e05",
+  "rationale": "The evidence states that Selena Gomez has performed in Madison Square Garden and \"nowhere else.\" This explicitly excludes any other location, including Croke Park. Therefore, the claim that she has performed in Croke Park is directly contradicted by the evidence.",
+  "review_note": "NLI explicit venue exclusivity excludes Croke Park.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 121,
+  "source": "nli"
+}

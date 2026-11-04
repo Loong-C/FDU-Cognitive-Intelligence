@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "751a473b80fff55f2131df48235033d61fe7a062796210b694f87d9e608fee1c",
+  "evidence_quote": "planned to sign",
+  "key": "basic_e_4bc3e722533c110b",
+  "rationale": "Planning to sign establishes an intention, not its completion. The evidence neither confirms nor excludes the actual signing.",
+  "review_note": "Shorten NLI plan versus completion reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 120,
+  "source": "nli"
+}

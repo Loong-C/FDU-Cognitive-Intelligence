@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "78a5c3c3e7a466e83d9293790dc4fa06de3a61da612bd287a3204b79e788f769",
+  "evidence_quote": "between 10 and 20 airports",
+  "key": "basic_e_611c7afe2bf6fe9f",
+  "rationale": "The evidence bounds the count by 20, while the claim requires a larger count. Both conditions cannot hold.",
+  "review_note": "Shorten joint upper-bound reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 147,
+  "source": "joint"
+}

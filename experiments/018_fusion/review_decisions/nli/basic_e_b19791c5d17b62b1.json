@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "d523fa6a043fbe3cc3628547174af5b83a2128c27d453377b72dcbb9ac07317f",
+  "evidence_quote": "between 20 and 30 airports",
+  "key": "basic_e_b19791c5d17b62b1",
+  "rationale": "The evidence states that the United Arab Emirates has between 20 and 30 airports. The claim states that the United Arab Emirates has exactly 15 airports. Since 15 is not within the range of 20 to 30, the evidence contradicts the claim.",
+  "review_note": "Fifteen falls outside twenty-to-thirty range.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 268,
+  "source": "nli"
+}

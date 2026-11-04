@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "92726e786bf87d6a0253114361d7d0846fcc14546d39820cba47a52067ae797c",
+  "evidence_quote": "at least 20 films",
+  "key": "basic_e_db9f921c4b1e304a",
+  "rationale": "At least 20 allows exactly 20 as well as larger counts. The evidence therefore does not establish or exclude more than 20 films.",
+  "review_note": "Shorten inclusive-bound explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 334,
+  "source": "nli"
+}

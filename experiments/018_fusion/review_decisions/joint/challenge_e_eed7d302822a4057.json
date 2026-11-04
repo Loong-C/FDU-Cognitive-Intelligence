@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f65bbc9b33622f8fd798af8eaf4fea409edf42a7eb34e9a71c837d8e87475903",
+  "evidence_quote": "from his first marriage",
+  "key": "challenge_e_eed7d302822a4057",
+  "rationale": "Only first-marriage children are named. The evidence gives no complete child list or direct fact about Sam, leaving his relationship unresolved.",
+  "review_note": "Shortened correct subset scope.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 705,
+  "source": "joint"
+}

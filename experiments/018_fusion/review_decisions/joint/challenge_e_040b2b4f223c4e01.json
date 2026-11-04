@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fe62fa1085679d17721596a7a5c71f4cb6d42446ed766e10b8d261c7ceb2ac63",
+  "evidence_quote": "The Kodaikanal Tourism Officer denied",
+  "key": "challenge_e_040b2b4f223c4e01",
+  "rationale": "The passage records an officer denying the infrastructure grant. It does not independently establish either that the caves received it or that they did not. Thus the claim is neither supported nor refuted.",
+  "review_note": "Removed speculative motives and excess wording.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 399,
+  "source": "joint"
+}

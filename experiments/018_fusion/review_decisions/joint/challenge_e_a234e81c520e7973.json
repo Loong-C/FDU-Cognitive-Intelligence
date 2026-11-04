@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "229714b8392837694336cbac70b52c96ccc12a977d884c13d874751368f6e9df",
+  "evidence_quote": "refused to confirm",
+  "key": "challenge_e_a234e81c520e7973",
+  "rationale": "Refusing to confirm does not determine whether the alleged marriage happened. The text establishes only the assistant's response.",
+  "review_note": "Shortened valid reasoning without label definitions.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 606,
+  "source": "joint"
+}

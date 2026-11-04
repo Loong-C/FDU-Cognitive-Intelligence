@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "0d2bd3878106e1c474869a35f16b9d2c37e5373ff96e78a57180a89647e36d38",
+  "evidence_quote": "the only time Dyke ever did so",
+  "key": "basic_e_5e447d9b6fa9d79b",
+  "rationale": "The evidence states that Dick Van Dyke won Emmy Awards in 1966 and explicitly describes this as \"the only time Dyke ever did so.\" This directly contradicts the claim that he won Emmy Awards again after 1966, as \"the only time\" implies no other instances occurred.",
+  "review_note": "NLI only-ever occurrence excludes later Emmy win.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 143,
+  "source": "nli"
+}

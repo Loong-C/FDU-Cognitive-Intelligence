@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3df9f28f26697e1c1da1a0a8be29016ac8c6a28de500234649f09e718885bc43",
+  "evidence_quote": "Luisa Almánzar won",
+  "key": "challenge_e_ec656ea92185f320",
+  "rationale": "Luisa's award does not establish Cardi B's award history. No exclusive-recipient restriction or statement about Cardi's result confirms or refutes her claim.",
+  "review_note": "Removed self-debate and unsupported award uniqueness examples.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 699,
+  "source": "nli"
+}

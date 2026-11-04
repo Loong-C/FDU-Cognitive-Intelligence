@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "783a3c4d2684ca2f8c9079454dedab6767ee302c3505cbbc33df82565cfcdcfa",
+  "evidence_quote": "they both won",
+  "key": "challenge_e_de3b8efd6deb9e6d",
+  "rationale": "The evidence states that \"Paul Feig and his brother Mark Feig moved to New York City in 1985\" and immediately follows with \"In 2009, they both won a Directors Guild of America Award.\" The pronoun \"they\" refers to Paul Feig and Mark Feig. Therefore, the evidence explicitly confirms that Paul Feig won the award in 2009.",
+  "review_note": "Correct pronoun resolution from adjacent sentences.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 683,
+  "source": "joint"
+}

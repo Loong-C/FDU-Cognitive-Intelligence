@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "65677ad6bb3ef9a724635fac0dd693bf3556da2e6598535a604b863f85db4fe5",
+  "evidence_quote": "In 1982, he authored",
+  "key": "challenge_e_14e27e0310ad7b3a",
+  "rationale": "'He' resolves to Saddam Hussein rather than his sister. The evidence explicitly attributes the 1982 treatise to him, so the claim is supported.",
+  "review_note": "Replaced weak first-mentioned-person heuristic with grammatical cue.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 419,
+  "source": "pj"
+}

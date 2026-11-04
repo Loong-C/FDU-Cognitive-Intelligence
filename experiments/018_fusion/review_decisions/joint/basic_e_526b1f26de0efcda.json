@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e8327d9ac33be35049787830927acbc18ff9431550a827bf62aef8246872af10",
+  "evidence_quote": "at least 10 airports",
+  "key": "basic_e_526b1f26de0efcda",
+  "rationale": "The lower bound of 10 neither fixes the count at 15 nor rules it out. Both 15 and 20 are consistent with the evidence.",
+  "review_note": "Shorten joint two-sided test.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 125,
+  "source": "joint"
+}

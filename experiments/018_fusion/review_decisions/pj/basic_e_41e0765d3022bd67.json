@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "2b3dfdc9fba513ce4432331e35edc6e98e5b5dd655909827dd4915132791b0ad",
+  "evidence_quote": "San Antonio Spurs and New York Knicks",
+  "key": "basic_e_41e0765d3022bd67",
+  "rationale": "The evidence states that Bill Walton has coached for both the San Antonio Spurs and the New York Knicks. The claim asserts that he has coached for the New York Knicks. Since the evidence explicitly lists the New York Knicks as one of the teams he has coached for, the claim is fully supported by the evidence.",
+  "review_note": "PJ supports listed-team subset without external biography.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 103,
+  "source": "pj"
+}

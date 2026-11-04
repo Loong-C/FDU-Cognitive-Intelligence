@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c575ae1a9fbe169c61a923a218df3b2ab502ecb4f5c4f658e73b76dae28b31fe",
+  "evidence_quote": "Within one year of that",
+  "key": "basic_e_cbfff8210e25c725",
+  "rationale": "Three years after 2019 gives 2022. The launch within one year of that event cannot extend to 2024, contradicting the claim.",
+  "review_note": "Remove contradictory January and end-of-year assumptions.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 305,
+  "source": "pj"
+}

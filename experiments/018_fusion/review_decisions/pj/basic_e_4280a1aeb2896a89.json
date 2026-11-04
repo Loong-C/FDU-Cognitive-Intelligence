@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e0c05f1af03e9e442d0c49f1cc2040e52bfc54248572086f206f70adb348a602",
+  "evidence_quote": "most recently in 1966",
+  "key": "basic_e_4280a1aeb2896a89",
+  "rationale": "The evidence identifies 1966 as the latest Emmy win. The claim asserts a later Emmy win, contradicting the stated latest occurrence.",
+  "review_note": "Shorten PJ and avoid implying no other type of award.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 106,
+  "source": "pj"
+}

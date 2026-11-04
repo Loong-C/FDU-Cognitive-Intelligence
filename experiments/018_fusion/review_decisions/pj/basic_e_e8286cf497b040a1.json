@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "ab1415699409635cd512c46f95db8a64327d29589c22977be07f99cc94155447",
+  "evidence_quote": "under 10 airports",
+  "key": "basic_e_e8286cf497b040a1",
+  "rationale": "The evidence states that the United Arab Emirates has \"under 10 airports.\" The claim states that the United Arab Emirates has \"more than 20 airports.\"\n\nMathematically, if a number is less than 10, it cannot be greater than 20. Therefore, the evidence directly contradicts the claim.",
+  "review_note": "Disjoint numerical ranges contradict.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 364,
+  "source": "pj"
+}

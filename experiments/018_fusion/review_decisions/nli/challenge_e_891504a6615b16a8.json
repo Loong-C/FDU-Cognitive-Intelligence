@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "180e80533693fc723e411c6eb2a8ebd14d7bb83d931ec5af5f8b8e6ea760ef65",
+  "evidence_quote": "rejected suggestions",
+  "key": "challenge_e_891504a6615b16a8",
+  "rationale": "The accountant rejected suggestions of the additional VFX allocation. That reports the accountant's stance, not whether the allocation actually occurred.",
+  "review_note": "Corrected denial-to-negation inference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 576,
+  "source": "nli"
+}

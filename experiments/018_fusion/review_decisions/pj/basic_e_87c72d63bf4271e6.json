@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b770f765f4fc85ae809134cb8b37974efde9e69319904dee552a29d365b045a4",
+  "evidence_quote": "up to 20 films",
+  "key": "basic_e_87c72d63bf4271e6",
+  "rationale": "The evidence caps Cardellini's film appearances at 20. A total exceeding 20 is incompatible with that cap.",
+  "review_note": "Remove redundant restatement of mutually exclusive bounds.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 211,
+  "source": "pj"
+}

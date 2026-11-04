@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "05897e3acceffe2b17f3bd14c1e086fc05c83acf0aa8c210c54265b1a68068c6",
+  "evidence_quote": "declined to receive",
+  "key": "basic_e_4911a2caf8d4aa9a",
+  "rationale": "The evidence states that American Civil War \"declined to receive\" a Grammy Award. The claim states that they \"received\" a Grammy Award. Declining to receive an award is mutually exclusive with receiving it in the context of the act of acceptance. Therefore, the evidence contradicts the claim.",
+  "review_note": "NLI correctly interprets refused receipt for the stated award.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 117,
+  "source": "nli"
+}

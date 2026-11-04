@@ -1,0 +1,12 @@
+{
+  "decisions": {
+    "accept": 296,
+    "revise": 432
+  },
+  "files": {
+    "experiments/018_fusion/supervision/pj/reviewed_train.jsonl": "597e2f292737630828b6c3d33e8431ace86c1c87f20b47e2d1a0837c1e30cf52",
+    "experiments/018_fusion/supervision/pj/reviews.jsonl": "bc653af81b585c78fbf51a2acb6f4479fba8c474dbc37c9a6f5dfe2a735ea795"
+  },
+  "protocol_freeze": "1ab1d724a6d086b386a027fbae6a2961fc87503dbf442107f072b1152c3d025e",
+  "source": "pj"
+}

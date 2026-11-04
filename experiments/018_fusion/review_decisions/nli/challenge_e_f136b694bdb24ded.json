@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3e5068f5f589981db670710356f045e61e78cf0720e201706fedc06e09e29d3d",
+  "evidence_quote": "disputed claims",
+  "key": "challenge_e_f136b694bdb24ded",
+  "rationale": "The director disputed claims of a confirmed solar anomaly. This establishes a dispute, not whether the confirmation actually occurred.",
+  "review_note": "Removed long self-debate and assertions about scientific consensus.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 712,
+  "source": "nli"
+}

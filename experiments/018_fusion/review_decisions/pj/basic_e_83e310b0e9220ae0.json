@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "97762d41bf067919565c0f689d24d7f24c080cb675224164acc7ad029daf1d8e",
+  "evidence_quote": "the only time OpenAI ever did so",
+  "key": "basic_e_83e310b0e9220ae0",
+  "rationale": "The evidence explicitly states that 2023 was \"the only time OpenAI ever did so\" regarding launching major model updates. This implies that OpenAI did not launch major model updates at any other time, including after 2023. The claim states that OpenAI launched major model updates *again* after 2023, which directly contradicts the evidence's assertion that 2023 was the sole instance.",
+  "review_note": "Only-ever occurrence explicitly excludes later major updates.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 207,
+  "source": "pj"
+}

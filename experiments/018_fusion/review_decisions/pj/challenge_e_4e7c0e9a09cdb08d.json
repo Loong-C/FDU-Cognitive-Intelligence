@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6dde087629ca925f480f206727e417b90a152736e57ed7fd6c14e7c0a524d51b",
+  "evidence_quote": "Kenji Matsushita became the 1930 head",
+  "key": "challenge_e_4e7c0e9a09cdb08d",
+  "rationale": "The evidence describes Kōnosuke joining the engineering team and Kenji becoming quality-control head. It gives no information about Kōnosuke receiving a battery-design patent in 1930.",
+  "review_note": "Shortened valid missing-topic rationale.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 496,
+  "source": "pj"
+}

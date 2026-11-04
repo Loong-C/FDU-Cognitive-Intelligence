@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "66bb96b0ebea93dca2690533d7bb63b2c5257bbc04ef10d1e9065b169ed80018",
+  "evidence_quote": "Mike Tyson was born in Brooklyn",
+  "key": "basic_e_bb19c7c818763371",
+  "rationale": "The evidence explicitly states that \"Mike Tyson was born in Brooklyn.\" The claim is identical to this statement. Therefore, the evidence directly entails the claim.",
+  "review_note": "Claim exactly matches evidence.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 278,
+  "source": "joint"
+}

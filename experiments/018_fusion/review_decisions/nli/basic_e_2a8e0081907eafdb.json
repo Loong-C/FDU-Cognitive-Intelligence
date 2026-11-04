@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "f20157163db89a422a24842b5e71fad6b1ce4d9e11a9e75881b403854e5b8373",
+  "evidence_quote": "fewer than 15 films",
+  "key": "basic_e_2a8e0081907eafdb",
+  "rationale": "The evidence states that Linda Cardellini has appeared in fewer than 15 films. The claim states that she has appeared in more than 20 films. Since a number cannot be both less than 15 and greater than 20 simultaneously, the evidence directly contradicts the claim.",
+  "review_note": "NLI correctly identifies disjoint counts below 15 and above 20.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 66,
+  "source": "nli"
+}

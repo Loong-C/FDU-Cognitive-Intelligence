@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "be8405b90737fc0c05de0ac04b213b062b06493a7fb7798b1e827d121388e13e",
+  "evidence_quote": "born in Victoria",
+  "key": "basic_e_e9a7ec1d121ef832",
+  "rationale": "The evidence does not specify Gibson's birth city. It therefore neither confirms nor rules out Melbourne.",
+  "review_note": "Remove external containment and location examples.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 367,
+  "source": "joint"
+}

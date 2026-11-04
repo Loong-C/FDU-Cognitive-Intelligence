@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f23e29e4a5df45d13aaa6e15b4111bfb4aa99cd1d8ae71526257a99097fb4217",
+  "evidence_quote": "As of 2023",
+  "key": "basic_e_38bd03deafd14b94",
+  "rationale": "The evidence provides a count at the specified date only. It does not settle whether another launch occurred after 2023.",
+  "review_note": "Shorten joint; do not treat dated count as lifetime total.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 88,
+  "source": "joint"
+}

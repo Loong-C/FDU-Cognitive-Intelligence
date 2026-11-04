@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a2af6f4a0f0bd0de4625b54913c77a0e4b00cecd07035175526046c2d7ce78e7",
+  "evidence_quote": "the only time OpenAI ever did so",
+  "key": "basic_e_f6d564cafa5dfe4c",
+  "rationale": "Major model updates occurred in 2023, described as the only time OpenAI ever did so. A launch before 2023 would be another occasion, contradicting that restriction.",
+  "review_note": "Retained sole-instance reasoning under word limit.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 386,
+  "source": "pj"
+}

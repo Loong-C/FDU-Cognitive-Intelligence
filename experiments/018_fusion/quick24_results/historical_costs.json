@@ -1,0 +1,32 @@
+{
+  "historical_teacher_and_smoke_calls": 2190,
+  "historical_teacher_and_smoke_seconds": 62409.74547690898,
+  "training_updates": 1242,
+  "training_step_seconds": 169276.5041345097,
+  "training_smoke_inference": [
+    {
+      "calls": 2,
+      "input_tokens": 384,
+      "output_tokens": 84,
+      "seconds": 18.95025598630309
+    },
+    {
+      "calls": 2,
+      "input_tokens": 384,
+      "output_tokens": 84,
+      "seconds": 19.121181907132268
+    },
+    {
+      "calls": 2,
+      "input_tokens": 384,
+      "output_tokens": 84,
+      "seconds": 18.669108916074038
+    }
+  ],
+  "preserved_replayed_updates": 4,
+  "replayed_step_seconds": 519.4649848435074,
+  "unanswered_attempts_unknown_cost": 2,
+  "uncommitted_training_partial_update_cost_unknown": true,
+  "source_run": "/root/ab_finetune27b_20261030/fusion_v18_runs",
+  "note": "Training and teacher costs are separate from quick inference. Original already completed validation calls are counted once as imports."
+}

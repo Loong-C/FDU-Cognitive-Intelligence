@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "abda24e8d85fe03eee4f77ad42afa452423feab73423b5fff9aaa1576ebaebab",
+  "evidence_quote": "Kristine Hensel won the 2015 Minnesota Parent of the Year title.",
+  "key": "challenge_e_9d4c308b1ca6588e",
+  "rationale": "The evidence awards Kristine a specific parenting title. It gives no outcome for Abigail and no restriction excluding her from a state-level parenting award in 2015.",
+  "review_note": "Removed hypotheticals and prompt quotation while preserving nonexclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 599,
+  "source": "joint"
+}

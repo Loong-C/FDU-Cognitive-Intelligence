@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b45f60d2a42322994d691c1390d8dee6c57e6b8736410021da56b1665b473d3b",
+  "evidence_quote": "went on to partner",
+  "key": "basic_e_819957f74e8ddce9",
+  "rationale": "The evidence states that \"Royal Challengers Bengaluru went on to partner with Adidas.\" The phrase \"went on to partner\" indicates that the action of partnering took place. Therefore, the statement that they \"partnered with Adidas\" is a direct logical consequence of the evidence. The claim is fully supported by the text.",
+  "review_note": "The paraphrase preserves the completed partnering event.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 201,
+  "source": "joint"
+}

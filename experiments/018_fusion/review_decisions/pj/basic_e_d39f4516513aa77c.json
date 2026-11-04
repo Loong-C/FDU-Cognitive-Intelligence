@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "aece7c3c9510fa36fea6279eec8fe825fcc6a942f5b79e62235a31fe993eadd6",
+  "evidence_quote": "under 15 studio albums",
+  "key": "basic_e_d39f4516513aa77c",
+  "rationale": "The evidence states that Kendrick Lamar has released \"under 15\" studio albums. The claim states that he has released \"20\" studio albums. Since 20 is not less than 15, the claim contradicts the explicit numerical constraint provided in the evidence.",
+  "review_note": "Exact twenty conflicts with stated strict upper bound.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 320,
+  "source": "pj"
+}

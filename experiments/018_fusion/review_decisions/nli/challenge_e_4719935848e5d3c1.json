@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "a3cc1b37ab0f3cdf6670f7da67ca1922a5731d65a02508d3e55088c4f4d3745c",
+  "evidence_quote": "Kōnosuke became the 1930 head",
+  "key": "challenge_e_4719935848e5d3c1",
+  "rationale": "The evidence explicitly states that \"Kōnosuke became the 1930 head of the internal quality control division.\" The claim repeats this exact statement. Therefore, the evidence fully entails the claim.",
+  "review_note": "Exact appointment directly stated.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 488,
+  "source": "nli"
+}

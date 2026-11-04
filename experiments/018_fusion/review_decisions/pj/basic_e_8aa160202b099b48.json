@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0d22f7e20f2fea7057bef6902517be5755f89b581160cf2354588db56054762f",
+  "evidence_quote": "over 15 studio albums",
+  "key": "basic_e_8aa160202b099b48",
+  "rationale": "The count exceeds 15. Twenty satisfies that bound, but the evidence supplies no exact count, leaving the claim unresolved.",
+  "review_note": "Condense correct compatibility versus entailment distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 213,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "a5ada482b4ff832e66c965cbad3ecb0775cf1e5016dcd70d39daeca42f6987a6",
+  "evidence_quote": "the only time Modrić ever did so",
+  "key": "basic_e_fa587198c2cdd0f8",
+  "rationale": "The evidence states that Luka Modrić won the award in 2018 and explicitly describes this as \"the only time Modrić ever did so.\" This implies that he did not win the award at any other time, including before 2018. Therefore, the claim that he had won the award before 2018 is contradicted by the evidence.",
+  "review_note": "Only-ever 2018 win rules out earlier wins.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 390,
+  "source": "pj"
+}

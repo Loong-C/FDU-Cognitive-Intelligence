@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8a64dcadb3e873ab87e8bbdbdd88db692b1b9a3e87f59b0267b477d3bb40aa3b",
+  "evidence_quote": "A namesake Maurice Chevalier won an Academy Award for Best Actor",
+  "key": "challenge_e_02d8aaaa7d26d480",
+  "rationale": "Maurice Chevalier's Academy Award does not establish whether Maurice, Prince of Orange won one. The passage distinguishes these individuals but does not give the Prince's award history. The claim remains undetermined.",
+  "review_note": "Replaced truncated deliberation; distinct people do not imply exclusive winners.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 397,
+  "source": "pj"
+}

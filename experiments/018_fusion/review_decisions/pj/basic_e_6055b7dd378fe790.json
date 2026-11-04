@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "10486525362ea946e8c953b956309e5eaff8f88b891095221fbdaa4de260461f",
+  "evidence_quote": "As of 2018",
+  "key": "basic_e_6055b7dd378fe790",
+  "rationale": "The count of two is a snapshot as of 2018. The evidence contains no information about later wins, so another afterward is undetermined.",
+  "review_note": "Shorten PJ temporal scope.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 144,
+  "source": "pj"
+}

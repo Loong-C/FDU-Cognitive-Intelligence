@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "66532b5ef58c5f16ec35212ca0d1e79b0495f3bffad842ccbed15840ab5015f7",
+  "evidence_quote": "the only time Dodgers ever did so",
+  "key": "basic_e_cc9259bd3a8491ed",
+  "rationale": "The evidence states that the 2020 World Series win was \"the only time Dodgers ever did so.\" This explicitly excludes the possibility of them winning the World Series at any other time, including after 2020. Therefore, the claim that they won again after 2020 is directly contradicted by the evidence.",
+  "review_note": "Only-ever 2020 win excludes later win.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 307,
+  "source": "nli"
+}

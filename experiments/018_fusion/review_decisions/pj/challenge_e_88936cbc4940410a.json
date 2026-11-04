@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0600727cbbb5af3cd29d89d9b1bed942d901698aa689ff048c63960bd5a04acd",
+  "evidence_quote": "only one in the family",
+  "key": "challenge_e_88936cbc4940410a",
+  "rationale": "No other member of Chad's family won the award. Halle's membership is not given, so this restriction neither establishes nor rules out her win.",
+  "review_note": "Removed invented inclusion of Halle in the family.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 573,
+  "source": "pj"
+}

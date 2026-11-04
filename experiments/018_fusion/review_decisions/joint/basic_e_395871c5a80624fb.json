@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c8fa5979f83c94ffafa1637261a7d76cd9ff731558a4d83f16b1ee31cd2e5bab",
+  "evidence_quote": "between 20 and 30 airports",
+  "key": "basic_e_395871c5a80624fb",
+  "rationale": "Exactly 20 is permitted by the stated range, as is 25. The evidence therefore neither guarantees nor contradicts more than 20.",
+  "review_note": "Shorten joint inclusive-bound countermodels.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 89,
+  "source": "joint"
+}

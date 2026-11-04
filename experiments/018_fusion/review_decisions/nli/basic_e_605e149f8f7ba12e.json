@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8d8c13f5653249759a5bda061645a3e537e452ca0233257d0f8b1010df95267d",
+  "evidence_quote": "for the first time in 2020",
+  "key": "basic_e_605e149f8f7ba12e",
+  "rationale": "The first World Series victory is dated 2020. That explicitly excludes any such victory before 2020.",
+  "review_note": "Shorten NLI first-event restriction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 145,
+  "source": "nli"
+}

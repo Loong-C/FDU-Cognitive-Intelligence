@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "4b948fa654777fc3a8e2ba4a890f0bedcc818e4bf14052a9327869b8d3cb255f",
+  "evidence_quote": "on April 26, 2024",
+  "key": "basic_e_b5a9fb77d5297372",
+  "rationale": "The evidence explicitly states that although the movie was *scheduled* for December 13, 2024, it was actually *released* on April 26, 2024. The claim asserts that the release date was December 13, 2024. Since the evidence provides a specific, different actual release date, it contradicts the claim.",
+  "review_note": "Actual April release conflicts with December schedule claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 269,
+  "source": "nli"
+}

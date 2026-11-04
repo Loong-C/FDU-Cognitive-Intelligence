@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "9153b4a80ae39959e3515f7bfdeadace83e8a8567fc49ed0ce3bd20bd7501e72",
+  "evidence_quote": "between 25 and 30",
+  "key": "basic_e_cff183d6fc1d1c09",
+  "rationale": "The count is somewhere between 25 and 30. Twenty-eight is possible, but no exact value is specified, so the claim is neither confirmed nor excluded.",
+  "review_note": "Remove endpoint speculation and task-style checks.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 314,
+  "source": "joint"
+}

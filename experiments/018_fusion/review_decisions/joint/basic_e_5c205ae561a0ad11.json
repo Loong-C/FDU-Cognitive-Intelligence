@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "346741fad80b076526a91e9a524c1139b458743ce9c7a15e404ecb812c22bc2c",
+  "evidence_quote": "between 30 and 35 episodes",
+  "key": "basic_e_5c205ae561a0ad11",
+  "rationale": "Exactly 30 remains a permitted boundary value, while 31 also fits. Thus the evidence neither guarantees nor contradicts more than 30 episodes.",
+  "review_note": "Shorten joint boundary countermodels.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 142,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2fa965f52f858755164dc0c0b75c2baba49992896702684a8f8dbce8be9fa45e",
+  "evidence_quote": "expected to partner",
+  "key": "basic_e_c92b929118f11d3c",
+  "rationale": "An expected partnership is an anticipation, not a confirmed completed partnership. The evidence does not say whether Royal Challengers Bengaluru actually partnered with Adidas.",
+  "review_note": "Condense expectation-versus-outcome distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 300,
+  "source": "nli"
+}

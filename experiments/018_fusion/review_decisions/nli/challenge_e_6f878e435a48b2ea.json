@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ce415d3534e5847ef31467762fc83895d5bbb5887a319c194565e8de0a688cd3",
+  "evidence_quote": "president of Nintendo in 2023",
+  "key": "challenge_e_6f878e435a48b2ea",
+  "rationale": "The evidence establishes Furukawa's presidency in 2023 but gives no status for 2025. Holding office in 2023 neither establishes nor rules out holding it two years later.",
+  "review_note": "Shortened temporal snapshot explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 536,
+  "source": "nli"
+}

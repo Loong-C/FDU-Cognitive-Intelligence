@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8bea9d2b6fedffe25225c5f1d3842880ba4a4a357b643955850d100dfd3bd6f9",
+  "evidence_quote": "two siblings who are actors",
+  "key": "challenge_e_db7285db72d5d287",
+  "rationale": "Pauline and Alex exhaust the actor-sibling subset, not necessarily all siblings. The text neither identifies nor excludes Gabriel as another sibling.",
+  "review_note": "Shortened and made subset scope explicit.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 680,
+  "source": "pj"
+}

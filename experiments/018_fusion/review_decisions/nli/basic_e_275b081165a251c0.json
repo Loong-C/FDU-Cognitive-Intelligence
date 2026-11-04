@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0a906f6c8712e7eda108289ead6967a4fad7c3bbc818a9b2738863e3e95c9a28",
+  "evidence_quote": "two times in total, most recently in 2005",
+  "key": "basic_e_275b081165a251c0",
+  "rationale": "Two Alvin-film appearances in total cannot include three by 2007. The explicit total in the evidence contradicts the claimed count.",
+  "review_note": "Shorten NLI and keep exhaustive total; no inferred reporting cutoff.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 61,
+  "source": "nli"
+}

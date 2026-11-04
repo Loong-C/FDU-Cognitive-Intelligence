@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "d293280db909c79f7ab1565010b22a81ecf93a8f0d6f5db26c96163254f94f28",
+  "evidence_quote": "former secretary general confirmed",
+  "key": "challenge_e_c946f374430cab38",
+  "rationale": "The evidence explicitly states: \"Its former secretary general confirmed that the International Olympic Committee had secretly negotiated a sponsorship deal with a fast-food chain in 2005.\" This sentence directly supports the claim that the IOC secretly negotiated such a deal in that year.",
+  "review_note": "Direct affirmative confirmation supports claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 660,
+  "source": "pj"
+}

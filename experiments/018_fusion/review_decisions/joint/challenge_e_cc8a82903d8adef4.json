@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e868f4acdc226c36cdb99a3bf74ddf9069ce7abbefa7f84ccfbc638a23805a90",
+  "evidence_quote": "was later disproven",
+  "key": "challenge_e_cc8a82903d8adef4",
+  "rationale": "The evidence states that the claim of confirmation was disproven. It therefore refutes the assertion that the Sun was confirmed to harbor the anomaly.",
+  "review_note": "Removed self-debate and invented retraction mechanism.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 663,
+  "source": "joint"
+}

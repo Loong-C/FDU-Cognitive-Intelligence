@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "fe43d2e93507e2246248faf24da5d03b06b654aa65b67cbc937587bfe84d94cb",
+  "evidence_quote": "Both Halle Berry and Chad Berry",
+  "key": "challenge_e_54c110bdb692a2e1",
+  "rationale": "The evidence states that \"Both Halle Berry and Chad Berry won a Grammy Award for Best Rap Album.\" The use of the word \"Both\" indicates that the statement applies to each individual mentioned. Therefore, it logically follows that Halle Berry won a Grammy Award for Best Rap Album. The claim is fully supported by the evidence.",
+  "review_note": "Correct distribution of award predicate.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 503,
+  "source": "pj"
+}

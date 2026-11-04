@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6381fabd114498172725e3663139b6f93c33dbac5c4cb828b210c52628b7855f",
+  "evidence_quote": "In 2007, Natalie won a local culinary award.",
+  "key": "challenge_e_8bee4fc9c5ab4c73",
+  "rationale": "The bakery sentence names Natalie Portman, and the next states that Natalie won a local culinary award in 2007. The name, award type and year match the claim.",
+  "review_note": "Corrected second-sentence locator and shortened reference reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 578,
+  "source": "joint"
+}

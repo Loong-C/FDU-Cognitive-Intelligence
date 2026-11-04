@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "00ab2acebac14d393783bc6fed3fce9f6c97c438a68c4c05dc19bd74b8f6e383",
+  "evidence_quote": "fewer than 160 chapters",
+  "key": "basic_e_0f10360f1b6f8583",
+  "rationale": "Fewer than 160 supplies an upper bound, not an exact count. Both 150 and 155 satisfy it, leaving the claim of exactly 150 chapters undetermined.",
+  "review_note": "Read joint explanation; retain its counterexample showing that compatibility is not entailment.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 27,
+  "source": "joint"
+}

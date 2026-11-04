@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0a4a4e677792349723578a3f06767ef8ea860da67ee296564fcf6f4d4b7b14d2",
+  "evidence_quote": "became lead singer",
+  "key": "challenge_e_45b9dd0e815fb4a2",
+  "rationale": "The evidence establishes that Teddy Swims began as lead singer in 2015. It does not say how long he remained, leaving his status in 2020 undetermined.",
+  "review_note": "Shortened start-versus-duration distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 484,
+  "source": "nli"
+}

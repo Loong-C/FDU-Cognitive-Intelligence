@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "30c92a43ea1522c44d5ba39c024ce773613a05c0a7901165407476f1e0aa32fc",
+  "evidence_quote": "Annabelle Natalie Gibson was born in Melbourne",
+  "key": "basic_e_8528002f0cbd87f9",
+  "rationale": "The evidence states explicitly that \"Annabelle Natalie Gibson was born in Melbourne.\" The claim is identical to this statement. Therefore, the evidence fully entails the claim.",
+  "review_note": "No additional inference beyond identical statement.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 208,
+  "source": "joint"
+}

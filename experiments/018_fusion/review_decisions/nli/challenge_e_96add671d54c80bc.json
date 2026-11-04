@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "00dc692033222c52faf80d2297615b95cfb72975734c35d8e2b6982b1f61c761",
+  "evidence_quote": "an investigation later showed the reports to be false",
+  "key": "challenge_e_96add671d54c80bc",
+  "rationale": "The evidence explicitly states that the Vatican Archives denied the claim and that a subsequent investigation showed the reports to be false. Therefore, the evidence directly contradicts the claim that Saint Peter secretly donated a golden chalice to a Roman temple.",
+  "review_note": "Investigation is explicit evidence reports were false.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 588,
+  "source": "nli"
+}

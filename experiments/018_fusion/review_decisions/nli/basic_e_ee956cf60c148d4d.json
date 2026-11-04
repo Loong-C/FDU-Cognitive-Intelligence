@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "490e3555cd0bcd3b6e4b18fb0f6fc265391ec07f0286f1b41645968be91f332b",
+  "evidence_quote": "no more than 30 episodes",
+  "key": "basic_e_ee956cf60c148d4d",
+  "rationale": "No more than 30 means 30 or fewer. The claim requires more than 30, which contradicts that maximum.",
+  "review_note": "Shorten mutually exclusive bounds.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 374,
+  "source": "nli"
+}

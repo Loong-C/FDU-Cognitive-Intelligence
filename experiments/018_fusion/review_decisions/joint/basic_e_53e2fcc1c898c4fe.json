@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "c1a3a267502b0b9e3f5e40cc3b86690d329f77a0f1072dff61cc34d117334368",
+  "evidence_quote": "Leyton Orient and Millwall",
+  "key": "basic_e_53e2fcc1c898c4fe",
+  "rationale": "The evidence explicitly states that \"Harry Kane has played for Leyton Orient and Millwall.\" This is a conjunctive statement, meaning it asserts that he has played for both teams. The claim states that \"Harry Kane has played for Millwall,\" which is directly contained within the information provided in the evidence. Therefore, the evidence entails the claim.",
+  "review_note": "Joint faithfully extracts one conjunct.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 130,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "720af16c8298e53f7019ff665f4f3b0db9e6dea61c61e224003b40e37a5fded3",
+  "evidence_quote": "As of 2023",
+  "key": "challenge_e_084fcc346279c258",
+  "rationale": "The evidence states that Susan Wojcicki was the CEO of YouTube as of 2023. It does not provide any information regarding her status in 2024. While it is possible she continued in the role, the evidence does not confirm this, nor does it state that she left. Therefore, the evidence neither entails nor contradicts the claim about 2024.",
+  "review_note": "2023 snapshot does not determine 2024 role.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 407,
+  "source": "nli"
+}

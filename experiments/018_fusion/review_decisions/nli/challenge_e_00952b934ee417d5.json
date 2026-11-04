@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d6cb279f335f0ca2ba503cbe33540126f19201141ca76c582c9bf301508cd5bd",
+  "evidence_quote": "Lamine Yamal's cousin won a Olympic gold medal in athletics",
+  "key": "challenge_e_00952b934ee417d5",
+  "rationale": "The athletics gold is attributed to Yamal's cousin, the first family member to win one. This does not establish whether Yamal himself later won an athletics gold. His Kopa Trophy does not settle that separate claim.",
+  "review_note": "Corrected false mutual exclusion and removed self-questioning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 395,
+  "source": "nli"
+}

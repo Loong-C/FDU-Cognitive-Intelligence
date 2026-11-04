@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a6bb92f6e79b6d0e607b79b8896d352900a52003e600cf8fc911c1daaed69bdb",
+  "evidence_quote": "Like Donald, Melania Trump won",
+  "key": "challenge_e_78ef8770bdd81ae5",
+  "rationale": "'Like Donald' presents Donald Trump as sharing Melania's achievement of winning a Grammy for Best New Artist. The comparison therefore supports the claim.",
+  "review_note": "Removed outside facts and typo speculation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 551,
+  "source": "pj"
+}

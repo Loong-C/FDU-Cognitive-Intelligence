@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "37ec9a1294406730cc34b4ce0964f9afe73c1aeb25988cd4c060e56198a43f87",
+  "evidence_quote": "17 feature films",
+  "key": "basic_e_4888e7432180d3e3",
+  "rationale": "The evidence states verbatim that \"Quentin Tarantino has directed 17 feature films to date.\" The claim is an exact repetition of this sentence. Therefore, the evidence fully entails the claim.",
+  "review_note": "Joint correctly identifies identical sentence.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 116,
+  "source": "joint"
+}

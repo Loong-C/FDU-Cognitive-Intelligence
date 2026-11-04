@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "58cd714b191be669dc2b88a0e904e78312d445ba7d0163b6813e9f8549be14bf",
+  "evidence_quote": "children include Carter and Lindsay",
+  "key": "challenge_e_1fa7bbb3ca0aec88",
+  "rationale": "Vrabel's children include Carter and Lindsay, but the list is not stated to be complete. Megan is neither named nor excluded, so her status as his child remains unknown.",
+  "review_note": "Condensed incomplete-list logic.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 434,
+  "source": "nli"
+}

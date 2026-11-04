@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "3daab5a18fe9cab54199d58dfd4883fb2816b2df1721ff92194be1b2c2440d26",
+  "evidence_quote": "did not manage to acquire CapCut",
+  "key": "basic_e_0269d99ced049376",
+  "rationale": "The evidence explicitly states that \"TikTok did not manage to acquire CapCut.\" The claim asserts the opposite, stating that \"TikTok acquired CapCut.\" Since the evidence directly negates the claim, the relationship is a contradiction.",
+  "review_note": "The failed-acquisition implicative directly contradicts acquired CapCut; full NLI explanation is sound.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 3,
+  "source": "nli"
+}

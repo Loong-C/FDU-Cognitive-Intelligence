@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "18ddf6e5656267ec6c1d4b37fcf91f438949c76f09f2f1cd205ce7538377261e",
+  "evidence_quote": "As of 2023",
+  "key": "basic_e_38bd03deafd14b94",
+  "rationale": "The count of two applies as of 2023. It supplies no information about later launches, so another launch after 2023 is undetermined.",
+  "review_note": "Shorten NLI and preserve explicit temporal cutoff.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 88,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "935c209fa2a3b26f1c0b337db6531a61f8358c04b73a968078590abd46970bfd",
+  "evidence_quote": "two times in total",
+  "key": "basic_e_8b768e47d00148c4",
+  "rationale": "The evidence states that OpenAI launched major model updates \"two times in total.\" The claim asserts that by 2025, OpenAI had launched these updates \"three times.\" Since the evidence explicitly defines the total count as two, it contradicts the claim that the count is three.",
+  "review_note": "Total two contradicts three without inventing cutoff.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 215,
+  "source": "nli"
+}

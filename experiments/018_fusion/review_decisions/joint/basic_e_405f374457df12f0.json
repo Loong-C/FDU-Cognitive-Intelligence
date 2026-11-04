@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f0d22df0717699bc54fd2f61ba86ba24b3458194372b40fdaa45aed828149954",
+  "evidence_quote": "Within three years of that",
+  "key": "basic_e_405f374457df12f0",
+  "rationale": "The launch falls within three years of the 2022 advisor role. Both 2023 and 2024 fit that interval, so the claimed year is possible but unconfirmed.",
+  "review_note": "Shorten joint without unnecessary endpoint convention.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 101,
+  "source": "joint"
+}

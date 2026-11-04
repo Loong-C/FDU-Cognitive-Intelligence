@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "72fe303084294260f1bf46acbce656f3122033cddad666dee00119b5cf0a28ae",
+  "evidence_quote": "more than 140 chapters",
+  "key": "basic_e_674abc871d93b257",
+  "rationale": "The evidence states that the manga series has published \"more than 140 chapters.\" Mathematically, any number greater than 140 is necessarily greater than 120. Therefore, if the number of chapters is more than 140, it logically follows that the number of chapters is also more than 120. The claim is fully supported by the evidence.",
+  "review_note": "NLI transitivity of strict lower bounds is valid.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 159,
+  "source": "nli"
+}

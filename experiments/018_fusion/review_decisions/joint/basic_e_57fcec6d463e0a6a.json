@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f80b7625654fdea27d6ded2c28fb58d027dc419ccfd2dbba0f0a99c82c3b593b",
+  "evidence_quote": "the only time Dodgers ever did so",
+  "key": "basic_e_57fcec6d463e0a6a",
+  "rationale": "The evidence restricts all such victories to the single 2020 occasion. The claimed earlier victory is therefore excluded.",
+  "review_note": "Shorten joint exact temporal exclusivity.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 137,
+  "source": "joint"
+}

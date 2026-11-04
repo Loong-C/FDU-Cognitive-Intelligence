@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "75f9a15107a9aea82aad4577ccf162effa7d0eccd66d8fff0f3227a9e6842688",
+  "evidence_quote": "In 2024",
+  "key": "basic_e_45feb02dd1d43de8",
+  "rationale": "A win in 2024 does not tell us whether there were earlier wins. The evidence does not call it the first or only win.",
+  "review_note": "Shorten NLI preserving unknown earlier history.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 110,
+  "source": "nli"
+}

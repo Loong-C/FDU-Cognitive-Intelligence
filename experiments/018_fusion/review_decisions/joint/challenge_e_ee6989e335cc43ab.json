@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "7d4a9afe28b61e07564818b475783a75f9f082bb8a38234a524611f298df8d83",
+  "evidence_quote": "communications team confirmed",
+  "key": "challenge_e_ee6989e335cc43ab",
+  "rationale": "The evidence explicitly states that Microsoft's corporate communications team confirmed that \"Microsoft had quietly donated 5,000 laptops to a rural school district in Arizona.\" The claim is a direct restatement of this specific fact. Since the evidence presents this donation as a confirmed fact, the claim is fully supported by the evidence.",
+  "review_note": "Exact affirmative confirmation supports claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 703,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c8b4c9f65bb325c2a53934fc1381ae053a1770c5d86ae771a6de083d367c313b",
+  "evidence_quote": "assistant confirmed",
+  "key": "challenge_e_ddef37af69676d7c",
+  "rationale": "The evidence confirms the same marriage, spouse occupation and year asserted in the claim. It therefore supports the claim.",
+  "review_note": "Shortened correct affirmative confirmation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 682,
+  "source": "joint"
+}

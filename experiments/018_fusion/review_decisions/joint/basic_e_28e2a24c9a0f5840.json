@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7bbc01beb7825a74098a76dae492884f71ec9b2054a2cb13ffb83dc2f4175baf",
+  "evidence_quote": "up to 30 sultans",
+  "key": "basic_e_28e2a24c9a0f5840",
+  "rationale": "The evidence supplies no lower bound above 20. Both 15 and 25 are at most 30, leaving the claim neither established nor contradicted.",
+  "review_note": "Shorten joint bound reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 64,
+  "source": "joint"
+}

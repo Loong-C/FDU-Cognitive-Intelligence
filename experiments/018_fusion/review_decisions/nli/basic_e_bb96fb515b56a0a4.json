@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "dd198b99c24b91e191ed0797f143a735abee4851e84b8081d4570d8c14255dee",
+  "evidence_quote": "over 25 sultans",
+  "key": "basic_e_bb96fb515b56a0a4",
+  "rationale": "The evidence states that the Ottoman Empire had \"over 25 sultans.\" The claim states that the Ottoman Empire had \"more than 20 sultans.\" Since any number greater than 25 is necessarily greater than 20, the claim is logically entailed by the evidence.",
+  "review_note": "Greater than twenty-five entails greater than twenty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 281,
+  "source": "nli"
+}

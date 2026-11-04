@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4a3cf4d33455a4ba20e8b9976d263fbe1e410128cd86fba51ae34e964ea84d49",
+  "evidence_quote": "As of 2020",
+  "key": "basic_e_e0433ba0bba1cbb4",
+  "rationale": "The evidence records the 2020 total only. Without subsequent win information, the claimed four by 2022 remains unresolved.",
+  "review_note": "Condense snapshot explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 345,
+  "source": "joint"
+}

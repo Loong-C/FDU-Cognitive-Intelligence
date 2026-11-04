@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0310e2d2f00c930a8e577e2e29aad1436e9ac380816e5302edf66eda11f3f6b9",
+  "evidence_quote": "In 2018",
+  "key": "basic_e_b0b46617eab6dc86",
+  "rationale": "A win in 2018 does not establish whether Modrić also won earlier. Since the evidence does not identify this as his first or only win, it leaves the claim unresolved.",
+  "review_note": "Remove lengthy examples and preserve nonuniqueness.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 266,
+  "source": "nli"
+}

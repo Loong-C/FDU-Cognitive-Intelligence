@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "9964c25bd267e76ab60f961aae9846db22043561dd7812de06bd866d4699d2d2",
+  "evidence_quote": "the first member of the family",
+  "key": "challenge_e_308fa283acb530f2",
+  "rationale": "Caleb was the first family member to play first base for the Yankees. This does not exclude Christian playing later, and Christian's acting career does not settle his baseball history. The claim remains undetermined.",
+  "review_note": "Corrected first-versus-only and acting-versus-baseball exclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 457,
+  "source": "nli"
+}

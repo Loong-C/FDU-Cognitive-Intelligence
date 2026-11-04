@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "80bb1ce0174bf4eca5c05fea6d8050d5895725f0a6bdb79f4ac933b516d84ca8",
+  "evidence_quote": "an investigation later showed the reports to be false",
+  "key": "challenge_e_5f2b4e4ff0368d9c",
+  "rationale": "The evidence explicitly states that \"an investigation later showed the reports to be false\" regarding the claim that the Sun had been confirmed to harbor a previously undetected magnetic anomaly. Since the evidence establishes that the reports of this confirmation were false, it directly contradicts the claim that the Sun *was* confirmed to harbor such an anomaly.",
+  "review_note": "Correctly targets false reports of confirmation, not anomaly existence.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 517,
+  "source": "joint"
+}

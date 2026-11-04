@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3323a3ffda7100359b66fde37c6aba48d1b1eb654fd4228b1f06136300dc1a30",
+  "evidence_quote": "up to 30 sultans",
+  "key": "basic_e_d121188c1d00927d",
+  "rationale": "Up to 30 sets a maximum, allowing 28 but also other totals. The evidence therefore neither establishes nor excludes exactly 28 sultans.",
+  "review_note": "Shorten correct bound reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 316,
+  "source": "nli"
+}

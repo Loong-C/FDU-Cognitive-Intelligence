@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "9ae1c4675b40f7beabb1879790dce2fe4dc9e64eb59db8d596da27f66b86b751",
+  "evidence_quote": "As of 2020",
+  "key": "basic_e_e0433ba0bba1cbb4",
+  "rationale": "The evidence gives three wins as of 2020 but no later count. It does not determine whether the Dodgers reached four wins by 2022.",
+  "review_note": "Shorten explicit-cutoff reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 345,
+  "source": "nli"
+}

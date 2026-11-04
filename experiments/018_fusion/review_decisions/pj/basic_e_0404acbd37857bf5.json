@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "6d04e933031e5d511b030134b33872ec41c24ebc720f29a581c2396fec8c31b1",
+  "evidence_quote": "did not neglect to partner with Adidas",
+  "key": "basic_e_0404acbd37857bf5",
+  "rationale": "The evidence states that Royal Challengers Bengaluru \"did not neglect to partner with Adidas.\" The phrase \"did not neglect to\" is a double negative construction that affirms the action took place. Therefore, the evidence explicitly confirms that the partnership occurred, which entails the claim.",
+  "review_note": "Checked the negated neglect implicative: the PJ explanation correctly affirms the partnering action, with no external assumptions.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 8,
+  "source": "pj"
+}

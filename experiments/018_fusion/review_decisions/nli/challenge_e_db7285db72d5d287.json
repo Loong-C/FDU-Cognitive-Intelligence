@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "60180013a2cf3f59292946105987ccbd30d9ac543617a11c13b09fa676ff8fcd",
+  "evidence_quote": "two siblings who are actors",
+  "key": "challenge_e_db7285db72d5d287",
+  "rationale": "The two named siblings are specifically those who are actors. The evidence does not list all siblings, so Gabriel could be outside that subset and his relationship remains unknown.",
+  "review_note": "Removed self-debate; retained actor-subset restriction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 680,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c240307152ebf26590d42605536f01d6e41aaa71f8f1771d753254ec1b7512ab",
+  "evidence_quote": "was ultimately released on August 15, 2024",
+  "key": "basic_e_30fad788e081d3f0",
+  "rationale": "The evidence explicitly states the actual release on August 15, 2024. Dropping the additional phrase as scheduled leaves exactly the claim.",
+  "review_note": "Shorten NLI; the completed release is explicit.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 73,
+  "source": "nli"
+}

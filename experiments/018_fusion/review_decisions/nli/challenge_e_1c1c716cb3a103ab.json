@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2559898b4fb2323859298fb8811281750ef6acefbdef4c4db04d1520105d6d5f",
+  "evidence_quote": "dismissed as baseless",
+  "key": "challenge_e_1c1c716cb3a103ab",
+  "rationale": "The publicist called the marriage reports baseless. This records the publicist's assessment rather than independently establishing whether the marriage occurred, so the claim remains undetermined.",
+  "review_note": "Removed motive speculation and self-questioning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 430,
+  "source": "nli"
+}

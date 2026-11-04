@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "96ed94b477d35afaefd311f7547468584dbf2768a4747bf936c4c16a5c5adfa1",
+  "evidence_quote": "for the first time in 2018",
+  "key": "basic_e_70a05f98790bda01",
+  "rationale": "The first win is explicitly dated 2018. Winning before 2018 would contradict that first-occurrence date.",
+  "review_note": "Shorten PJ first-year reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 173,
+  "source": "pj"
+}

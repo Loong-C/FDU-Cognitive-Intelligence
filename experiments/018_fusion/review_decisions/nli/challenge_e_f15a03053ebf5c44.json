@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "236ccc76279f0ebab83fbe9fcbb4b2dc54e71a4135b72f18afc8ce9704b850f1",
+  "evidence_quote": "but later confirmed it",
+  "key": "challenge_e_f15a03053ebf5c44",
+  "rationale": "The evidence states that Microsoft's corporate communications team \"later confirmed\" that Microsoft had quietly donated 5,000 laptops to a rural school district in Arizona. Since the evidence explicitly mentions the confirmation of this specific action, the claim is fully supported by the text.",
+  "review_note": "Later confirmation resolves initial denial of specified donation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 713,
+  "source": "nli"
+}

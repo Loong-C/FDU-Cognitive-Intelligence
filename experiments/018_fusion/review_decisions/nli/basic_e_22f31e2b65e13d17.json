@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "77625e6588d52b47fa558574d557522b983099db76e9903621942c3d01b9ae19",
+  "evidence_quote": "fewer than 25 sultans",
+  "key": "basic_e_22f31e2b65e13d17",
+  "rationale": "Fewer than 25 sultans allows 15, which would make the claim false, and 24, which would make it true. The evidence does not determine whether the total exceeded 20.",
+  "review_note": "Read full NLI argument; preserve its positive-count witnesses and remove redundant enumeration.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 53,
+  "source": "nli"
+}

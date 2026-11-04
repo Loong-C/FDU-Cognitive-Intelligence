@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a5b8427c9801e297a759b4a58626414739e4e89bca3b4bb0859169a4b842fb83",
+  "evidence_quote": "The two children of Charlie Kirk are John and Mary.",
+  "key": "challenge_e_7c5e52bb810fa7cf",
+  "rationale": "Charlie Kirk has two children, John and Mary. The count and complete naming exclude Sam from the set of his children.",
+  "review_note": "Removed repetitive set notation; preserved exhaustive two-child restriction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 557,
+  "source": "nli"
+}

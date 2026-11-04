@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "a1b39659780d570ac9cf8843e2f683a0b0c3762191b09192b1c334638e3ef3a1",
+  "evidence_quote": "Kristi Noem was born in Watertown.",
+  "key": "basic_e_49eb3adfe6f3dcad",
+  "rationale": "The evidence explicitly states that \"Kristi Noem was born in Watertown.\" The claim is identical to this statement. Therefore, the evidence fully entails the claim.",
+  "review_note": "PJ explicit evidence directly entails claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 118,
+  "source": "pj"
+}

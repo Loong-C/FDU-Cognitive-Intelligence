@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fa411db99bcf16794b3afb8d89548cefcb221e6b2076468985f27fdb9266819b",
+  "evidence_quote": "under 15 studio albums",
+  "key": "basic_e_ce1b8536c4d6f61c",
+  "rationale": "Under 15 allows counts both above five and at or below five. The evidence therefore does not determine whether Lamar released more than five albums.",
+  "review_note": "Condense range-overlap explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 309,
+  "source": "nli"
+}

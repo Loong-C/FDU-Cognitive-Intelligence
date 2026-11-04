@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "cbde08b56da205a78ed7ee47968aad2257b4e65a5de2e17c9cab0b2d384618e8",
+  "evidence_quote": "eventually was released on September 26, 2018",
+  "key": "basic_e_a784618413773d26",
+  "rationale": "The evidence explicitly states that \"it eventually was released on September 26, 2018.\" The claim states that \"Jagged Little Pill was released on September 26, 2018.\" Since the evidence directly confirms the specific release date mentioned in the claim, the claim is entailed by the evidence.",
+  "review_note": "Eventual release explicitly matches claimed date.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 252,
+  "source": "nli"
+}

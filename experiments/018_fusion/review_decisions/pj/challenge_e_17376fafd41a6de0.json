@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "cfc86f34949da107852cff58a7102629d96e35ccb92d892ad3d3b1f4555f1606",
+  "evidence_quote": "Like Mike, Michael White won",
+  "key": "challenge_e_17376fafd41a6de0",
+  "rationale": "The comparison 'Like Mike, Michael White won a Tony Award for Best Director' indicates that Mike also won that award. It supports the claim without equating the two names.",
+  "review_note": "Corrected rejection of the explicit shared-achievement comparison.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 420,
+  "source": "pj"
+}

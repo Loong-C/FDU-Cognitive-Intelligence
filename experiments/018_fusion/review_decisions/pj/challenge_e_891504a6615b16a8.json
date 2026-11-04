@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e02a52105ba9a3a026255b5a37ffcd0aa0d936b345fe45e42e3c1f5ed05cc6f3",
+  "evidence_quote": "rejected suggestions",
+  "key": "challenge_e_891504a6615b16a8",
+  "rationale": "The accountant disputes the ₹20 crore VFX allocation. This establishes a rejection, but neither proves nor disproves that the money was allocated.",
+  "review_note": "Removed hypothetical error scenarios and repetition.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 576,
+  "source": "pj"
+}

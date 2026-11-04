@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2a22a876030b3f1612259ae60a0a4c993111e4f44e6ad73c0597325ad014e967",
+  "evidence_quote": "rejected suggestions",
+  "key": "challenge_e_9f60f4cbe2832875",
+  "rationale": "The director rejected suggestions that the exclusive DeLorean rights were secured. That establishes the rejection, not whether the team actually obtained the rights.",
+  "review_note": "Corrected reported rejection as direct contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 601,
+  "source": "nli"
+}

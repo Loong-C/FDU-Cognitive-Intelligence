@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "6ec9d8bf26a0e8f61dbbf24ec2270e458954571372c5736b0a69ae4002344d92",
+  "evidence_quote": "Robert was named the 1974 Jamaican Nurse of the Year.",
+  "key": "challenge_e_c7d5d3accea2d640",
+  "rationale": "The evidence explicitly states in the second sentence: \"Robert was named the 1974 Jamaican Nurse of the Year.\" The first sentence establishes that \"Robert Nesta Marley\" is the \"Robert\" referred to in the text. Therefore, the evidence directly entails the claim.",
+  "review_note": "Correct full-name reference and exact title.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 654,
+  "source": "pj"
+}

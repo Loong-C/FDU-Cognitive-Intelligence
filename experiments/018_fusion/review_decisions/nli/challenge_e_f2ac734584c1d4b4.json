@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "e8297e5dec56ba31ebf0744ad3b1f16c78d01e49786be47ababe4e72fb6fc66c",
+  "evidence_quote": "a feat Harry later repeated",
+  "key": "challenge_e_f2ac734584c1d4b4",
+  "rationale": "The evidence states that \"David Styles won an Oscar for Best Supporting Actor, a feat Harry later repeated.\" The phrase \"a feat Harry later repeated\" explicitly indicates that Harry Styles also won an Oscar for Best Supporting Actor. Therefore, the evidence entails the claim.",
+  "review_note": "Repeated feat is exact Oscar category.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 714,
+  "source": "nli"
+}

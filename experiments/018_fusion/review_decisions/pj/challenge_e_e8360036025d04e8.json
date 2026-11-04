@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7ab85973141bc2ee253fcd3c66444be9e24ca01e8aa9eb63db9e7c71b8997497",
+  "evidence_quote": "rejected suggestions",
+  "key": "challenge_e_e8360036025d04e8",
+  "rationale": "The evidence reports Marsh rejecting the proposed coverage. It does not independently confirm or negate that coverage.",
+  "review_note": "Condensed valid reported-rejection distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 696,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4eeeba5a8fbc70e73c56808af3590b7fd264d8eb95b1c97592c7aebe8d73dc43",
+  "evidence_quote": "for the first time in 2023",
+  "key": "basic_e_1b5545dc522fe5d1",
+  "rationale": "The first launch in 2023 establishes an initial occurrence but no subsequent count. The evidence does not determine whether there had been three launches by 2025.",
+  "review_note": "Read full NLI draft; shorten and avoid limiting possible subsequent occurrences to calendar years 2024–2025.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 42,
+  "source": "nli"
+}

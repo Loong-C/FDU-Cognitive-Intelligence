@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0f2bcac480a52d0cd97caafd91ec937e15eb7f28a6b0b0f2061cf91cb9a3a8cd",
+  "evidence_quote": "widely tipped to sign",
+  "key": "basic_e_d9e9d236ceb4b147",
+  "rationale": "The evidence reports a prediction that Streisand would sign with Sony Music. It does not confirm or deny that the signing occurred.",
+  "review_note": "Remove extra contract and rumor assumptions.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 329,
+  "source": "pj"
+}

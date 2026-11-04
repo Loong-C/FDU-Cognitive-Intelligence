@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "59685c0e113b14129f11174eed8591b46e5be81738d4d1b63db060588f8a7706",
+  "evidence_quote": "were later shown to be false",
+  "key": "challenge_e_ec7e46b84c6eb302",
+  "rationale": "The evidence explicitly states that reports claiming Jennifer Lawrence secretly married a local musician in 2020 \"were later shown to be false.\" This is an explicit factual assertion that the event described in the claim did not occur. Therefore, the evidence directly contradicts the claim.",
+  "review_note": "Factual falsification beyond attributed denial.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 700,
+  "source": "joint"
+}

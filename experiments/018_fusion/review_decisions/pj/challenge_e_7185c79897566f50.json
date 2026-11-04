@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "557643ff06e7338dd8ac64032aaa5b4cf3686b46d612387d2f7225eec13fed78",
+  "evidence_quote": "It was later confirmed",
+  "key": "challenge_e_7185c79897566f50",
+  "rationale": "The evidence explicitly states that \"It was later confirmed that Saint Peter had secretly donated a golden chalice to a Roman temple.\" The claim states that \"Saint Peter secretly donated a golden chalice to a Roman temple.\" Since the evidence confirms the occurrence of the event described in the claim, the evidence entails the claim.",
+  "review_note": "Confirmation covers recipient and object of gift.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 539,
+  "source": "pj"
+}

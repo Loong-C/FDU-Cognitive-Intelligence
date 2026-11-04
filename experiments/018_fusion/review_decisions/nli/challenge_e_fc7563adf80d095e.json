@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "a641044351e308d7f63429baf03f44332884c7fccc65927489a6a99fa122719a",
+  "evidence_quote": "they both won a Pulitzer Prize",
+  "key": "challenge_e_fc7563adf80d095e",
+  "rationale": "The evidence states that \"they both won a Pulitzer Prize for Reporting\" in 2005, referring to JB Pritzker and his brother Thomas Pritzker. Since \"they both\" includes JB Pritzker, the evidence directly supports the claim that JB Pritzker won the prize in that year.",
+  "review_note": "Both includes JB with Thomas in 2005 Pulitzer.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 725,
+  "source": "nli"
+}

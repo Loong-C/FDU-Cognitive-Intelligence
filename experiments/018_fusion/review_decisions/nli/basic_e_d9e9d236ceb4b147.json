@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "92131f5545ef6792753a3503e313fab97aa1fd8ab17b3f0561ce34e23402402e",
+  "evidence_quote": "widely tipped to sign",
+  "key": "basic_e_d9e9d236ceb4b147",
+  "rationale": "Being widely tipped to sign describes an expectation, not a confirmed signing. The evidence leaves whether Streisand actually signed with Sony Music unresolved.",
+  "review_note": "Remove rumor gloss and shorten.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 329,
+  "source": "nli"
+}

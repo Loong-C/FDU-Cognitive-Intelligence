@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "991aa1dec661a4a2b76cb0fa61898c84db111113b01c4d04b6e37b6526e008d0",
+  "evidence_quote": "born in South Dakota",
+  "key": "basic_e_ae73f40e373aec2e",
+  "rationale": "Only South Dakota is named. No specific city of birth is given, so the evidence neither establishes nor excludes Watertown.",
+  "review_note": "Remove unsupported city-state geography and shorten.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 259,
+  "source": "pj"
+}

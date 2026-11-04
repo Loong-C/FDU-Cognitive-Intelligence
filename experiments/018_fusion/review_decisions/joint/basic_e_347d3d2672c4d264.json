@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c1a518e90f85e1cf816a766a641a8136b146e5bbdfe4aaf0786bd61883f69807",
+  "evidence_quote": "for the first time in 2023",
+  "key": "basic_e_347d3d2672c4d264",
+  "rationale": "The evidence dates the initial occurrence only. Whether OpenAI launched updates again after 2023 remains unknown.",
+  "review_note": "Shorten joint later-event reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 82,
+  "source": "joint"
+}

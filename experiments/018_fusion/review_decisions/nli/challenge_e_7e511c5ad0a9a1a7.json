@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "72f2aa9c3c88f540d6a074f4c123983eac284c4f5d06ff373becf70fd21dfb93",
+  "evidence_quote": "from 2014 to 2025",
+  "key": "challenge_e_7e511c5ad0a9a1a7",
+  "rationale": "The evidence states that Susan Wojcicki was CEO of YouTube from 2014 to 2025. The year 2024 falls within this time range. Therefore, the evidence entails that she served as CEO in 2024.",
+  "review_note": "2024 lies within explicit CEO tenure, without outside facts.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 559,
+  "source": "nli"
+}

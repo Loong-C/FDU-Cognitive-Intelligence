@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "90e4c224390004b9f2a3e61a956b6c3153e6f970603fb61809765d7e33bf0945",
+  "evidence_quote": "both Ryan and Marcus Coogler",
+  "key": "challenge_e_470a12c0b3b5a4e7",
+  "rationale": "The evidence explicitly states that \"In 2008, both Ryan and Marcus Coogler won a regional acting award.\" The phrase \"both Ryan and Marcus\" entails that Ryan Coogler is one of the individuals who won the award. Therefore, the claim that Ryan Coogler won a regional acting award in 2008 is directly supported by the text.",
+  "review_note": "Award, year and Ryan all explicitly covered.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 487,
+  "source": "joint"
+}

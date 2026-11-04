@@ -1,0 +1,27 @@
+{
+  "base_a0": {
+    "mean_calls": 1.0,
+    "mean_tokens": 438.57471264367814,
+    "mean_seconds": 21.191093553735435
+  },
+  "old_a0": {
+    "mean_calls": 1.0,
+    "mean_tokens": 361.83780332056193,
+    "mean_seconds": 9.230502715879053
+  },
+  "distill_nli": {
+    "mean_calls": 1.0,
+    "mean_tokens": 392.37931034482756,
+    "mean_seconds": 17.612323654396874
+  },
+  "distill_pj": {
+    "mean_calls": 1.0,
+    "mean_tokens": 394.5632183908046,
+    "mean_seconds": 18.32985227467019
+  },
+  "distill_joint": {
+    "mean_calls": 1.0,
+    "mean_tokens": 387.83014048531294,
+    "mean_seconds": 16.697387493956512
+  }
+}

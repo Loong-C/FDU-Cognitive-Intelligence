@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e06219502ed900cb2ceb8275403a824ee3ca12723cd19796a982bc0ca2fbc959",
+  "evidence_quote": "no more than 20 airports",
+  "key": "basic_e_229e23e070ef9424",
+  "rationale": "No more than 20 means 20 or fewer airports. That condition is incompatible with the claim of more than 20.",
+  "review_note": "Read NLI draft; shorten the correct inclusive upper-bound interpretation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 52,
+  "source": "nli"
+}

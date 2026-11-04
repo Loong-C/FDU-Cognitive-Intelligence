@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "9059bb5ce15cf7891be61b385780d67bb87f55374479f2322475ca4675f6d2fe",
+  "evidence_quote": "Romelu Lukaku was born in Antwerp.",
+  "key": "basic_e_3d84dc17a045fe93",
+  "rationale": "The evidence states explicitly that \"Romelu Lukaku was born in Antwerp.\" The claim is identical to this statement. Therefore, the evidence fully entails the claim.",
+  "review_note": "NLI direct identical birthplace.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 96,
+  "source": "nli"
+}

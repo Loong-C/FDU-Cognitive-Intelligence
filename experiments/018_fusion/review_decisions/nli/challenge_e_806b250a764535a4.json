@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2937470ad44e784bdc2e7355fe1ff499fed29e924f14e53faee06fbe56dfb18d",
+  "evidence_quote": "dismissed as baseless",
+  "key": "challenge_e_806b250a764535a4",
+  "rationale": "The Vatican Archives dismissed reports of the donation as baseless. This reports their assessment, not an established fact that the donation did or did not occur.",
+  "review_note": "Corrected denial-to-negation error; removed self-debate and dataset assumptions.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 560,
+  "source": "nli"
+}

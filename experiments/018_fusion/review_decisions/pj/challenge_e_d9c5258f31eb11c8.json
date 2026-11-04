@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ad0f4b3f95ab2c3a3266b9c25719fad9ef294c2064bc22db26f4f6f59a0a81de",
+  "evidence_quote": "the only member of the family",
+  "key": "challenge_e_d9c5258f31eb11c8",
+  "rationale": "The family-only restriction applies to Alexander's relatives, but Bill's membership is unstated. A shared surname does not establish it, leaving Bill's role unknown.",
+  "review_note": "Removed inferred family membership.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 675,
+  "source": "pj"
+}

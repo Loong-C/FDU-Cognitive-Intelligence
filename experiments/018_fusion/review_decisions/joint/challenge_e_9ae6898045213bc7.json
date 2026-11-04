@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "13a7abfbdf05658fad5fe531020d84b443c2685bd8bf69dabfbe3e122491777e",
+  "evidence_quote": "In 2021, Sam won a regional innovation award",
+  "key": "challenge_e_9ae6898045213bc7",
+  "rationale": "The preceding sentence names Sam Altman. The next says Sam won a regional innovation award for his startup in 2021, directly supporting the claim.",
+  "review_note": "Shortened correct antecedent resolution.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 596,
+  "source": "joint"
+}

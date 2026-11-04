@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7e2e2857dab030757d61d058043c71fe3774a62f5045f5b3d49ab74324e43af4",
+  "evidence_quote": "first served",
+  "key": "challenge_e_8151c2cd8fe6bf75",
+  "rationale": "The evidence dates Chamberlain's first chairmanship to 2000–2002. It supplies no information about a later term in 2005, so it neither establishes nor rules out the claim.",
+  "review_note": "Corrected omission of first and unsupported exclusion of later terms.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 562,
+  "source": "nli"
+}

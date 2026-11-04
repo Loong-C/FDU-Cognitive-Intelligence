@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "de6c0bf21a2ca9263729c4b41d74613dd050f62afe7e1fec37585d9df561ecbb",
+  "evidence_quote": "27 episodes",
+  "key": "basic_e_70b7b6465b23cd81",
+  "rationale": "The evidence states explicitly that \"Ellen Pompeo has appeared in 27 episodes of Grey's Anatomy.\" The claim is an exact repetition of this sentence. Therefore, the evidence fully entails the claim.",
+  "review_note": "Joint identifies identical evidence and claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 174,
+  "source": "joint"
+}

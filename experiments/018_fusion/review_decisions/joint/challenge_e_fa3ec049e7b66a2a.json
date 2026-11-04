@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "37534a3dbd1883f14847e5744c4b2f1a514c11e6867fdae5a6c639806d008119",
+  "evidence_quote": "former secretary general denied",
+  "key": "challenge_e_fa3ec049e7b66a2a",
+  "rationale": "The reported denial establishes the official's statement, not the truth or falsity of the underlying negotiations. The claim remains unresolved.",
+  "review_note": "Condensed valid stance-versus-event reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 722,
+  "source": "joint"
+}

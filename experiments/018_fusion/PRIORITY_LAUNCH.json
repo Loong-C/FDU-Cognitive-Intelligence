@@ -1,0 +1,14 @@
+{
+  "api_restore_checked_before_switch": true,
+  "controller": {
+    "phase": "experiment_priority",
+    "pid": 77937,
+    "start_time": "1502350978"
+  },
+  "interrupted_unanswered_calls_archived": 2,
+  "observed_local": "2026-11-01T10:58:35.762583+08:00",
+  "original_full_matrix_retained": true,
+  "received_baseline_records_preserved": 59,
+  "same_generation_math_and_cache": true,
+  "schedule_sha256": "cdc2dd0c5e7ab88b9b3b54a652b2bac0809d8abaca9a1b229ccaa0db16608c42"
+}

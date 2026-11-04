@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "bd5d34073d03d09f6469997668a73201d1a8623f817cb32e5004c7c24225837b",
+  "evidence_quote": "As of 2005",
+  "key": "basic_e_41ae9f359c2b78e7",
+  "rationale": "Two appearances as of 2005 do not constrain whether another followed. The evidence gives no subsequent history.",
+  "review_note": "Shorten joint dated-count reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 102,
+  "source": "joint"
+}

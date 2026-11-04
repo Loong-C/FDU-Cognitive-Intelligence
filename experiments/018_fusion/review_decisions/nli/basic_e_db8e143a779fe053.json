@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "74d7b4eda7aae5da9fd112824039ee8936d1de5828d4190d19863d8a57007152",
+  "evidence_quote": "for the second time",
+  "key": "basic_e_db8e143a779fe053",
+  "rationale": "The second win occurred in 2010, establishing at least two by then. No subsequent wins are specified, so a total of three by 2014 is unresolved.",
+  "review_note": "Remove unnecessary year enumeration.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 333,
+  "source": "nli"
+}

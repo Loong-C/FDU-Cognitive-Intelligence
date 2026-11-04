@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "facf65904dbc7b38f9819eb8b60cbe4345784464fdd8b2322cec1755360f7e5c",
+  "evidence_quote": "the only time Hough ever did so",
+  "key": "basic_e_32f91e65576b430b",
+  "rationale": "Calling 2010 the sole occurrence rules out another win after 2010. The claim contradicts the evidence.",
+  "review_note": "Shorten PJ exclusive-time reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 77,
+  "source": "pj"
+}

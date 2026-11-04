@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "04af6d2e7710fc965dbccc33f991b5b5ad6cff87e679c8b0e80f85eb6cbc3e7e",
+  "evidence_quote": "refused to confirm",
+  "key": "challenge_e_88907faf7d52ed6d",
+  "rationale": "The Tourism Officer refused to confirm receipt of the infrastructure grant. This reports a lack of confirmation, not a fact establishing either receipt or nonreceipt.",
+  "review_note": "Condensed refusal versus underlying grant occurrence.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 572,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "977694c00a2a408d8f506e0e9bedcf9d739445c82c197ee0b440707dc27371ec",
+  "evidence_quote": "was later disproven",
+  "key": "challenge_e_67690f3de37f24ff",
+  "rationale": "The evidence states that the claim regarding the $50 million liability insurance policy was \"later disproven.\" In logical and factual terms, if a specific claim is disproven, it is established to be false. Therefore, the evidence explicitly contradicts the assertion that the ship *was* covered by such a policy.",
+  "review_note": "Specific $50 million liability coverage is refuted.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 528,
+  "source": "joint"
+}

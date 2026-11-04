@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "553bf14eedbb0f6c798dbe6859fcd5103a27908537cbcee66f15233d74e5d8a6",
+  "evidence_quote": "filmed in Rome",
+  "key": "basic_e_bc2b76c61d9b7b17",
+  "rationale": "Rome is given as a filming location, not an exhaustive list. Filming in Paris is neither established nor ruled out.",
+  "review_note": "Remove external generalization about film production.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 282,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "e85df323d7acad87abd3791e74ffa2d8f2c15d337eb2d77c31083d024eb0e322",
+  "evidence_quote": "St. Pölten, Lower Austria",
+  "key": "basic_e_99f62ec493fae4bc",
+  "rationale": "The evidence states that Josef Fritzl was born in \"St. Pölten, Lower Austria.\" The claim states that he was born in \"St. Pölten.\" Since St. Pölten is the specific location mentioned in the evidence (with Lower Austria providing the broader region), the claim is fully supported by the evidence.",
+  "review_note": "Regional qualifier preserves the stated birthplace.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 237,
+  "source": "pj"
+}

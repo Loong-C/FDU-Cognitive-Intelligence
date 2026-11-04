@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f8c9f246cc04656d156bb6c4fabde12f3364247a261a9658377db2f8d438bf18",
+  "evidence_quote": "for the first time in 2005",
+  "key": "basic_e_b160271909493760",
+  "rationale": "Calling 2005 the first such starring occasion excludes appearances of that kind before 2005, directly contradicting the claim.",
+  "review_note": "Remove repetitive initial-occurrence statements.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 267,
+  "source": "joint"
+}

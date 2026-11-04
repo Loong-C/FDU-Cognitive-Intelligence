@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f6f83e0e21250fe280b6892055f5a95dc6f7860d681a5ac1a5c6fc31da258640",
+  "evidence_quote": "eventually was released on June 10, 2003",
+  "key": "basic_e_76db03300fa91378",
+  "rationale": "The evidence gives June 10, 2003 as the eventual release, contradicting the claimed June 17 release.",
+  "review_note": "Remove outside identity classification and repeated dates.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 186,
+  "source": "pj"
+}

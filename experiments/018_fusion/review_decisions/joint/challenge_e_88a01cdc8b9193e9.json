@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "421b3d580052390919bfd5cad82b4f966253a6634247a3a6c8d365ba0890a2ca",
+  "evidence_quote": "Melania Trump is the only one in the family",
+  "key": "challenge_e_88a01cdc8b9193e9",
+  "rationale": "The evidence does not establish Donald's relationship to Melania. Thus her being the only family winner cannot determine whether he won the Grammy.",
+  "review_note": "Removed external family-membership assertion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 574,
+  "source": "joint"
+}

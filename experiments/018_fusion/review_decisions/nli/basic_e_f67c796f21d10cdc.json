@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a8c07a63f24ed63b6b8f78172651f8c728f13c92da47baba893f81c5ebd9c9dc",
+  "evidence_quote": "most recently in 2010",
+  "key": "basic_e_f67c796f21d10cdc",
+  "rationale": "The evidence states that Hough's most recent Mirrorball Trophy win was in 2010. A win after 2010 would make a later year the most recent, directly contradicting that statement.",
+  "review_note": "Shortened sound latest-win contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 385,
+  "source": "nli"
+}

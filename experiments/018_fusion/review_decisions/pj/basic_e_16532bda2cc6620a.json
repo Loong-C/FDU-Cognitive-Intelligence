@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "bda8186bcaf2855ed19220f454c5d0a61aaae878821832c02777fa65996a8b37",
+  "evidence_quote": "for the first time in 2024",
+  "key": "basic_e_16532bda2cc6620a",
+  "rationale": "The first-time qualifier fixes the initial win but does not forbid subsequent wins. Since none are reported, a win after 2024 remains undetermined.",
+  "review_note": "Read PJ draft; retain its distinction between first occurrence and exclusivity.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 36,
+  "source": "pj"
+}

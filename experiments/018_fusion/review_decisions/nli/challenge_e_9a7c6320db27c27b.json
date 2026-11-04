@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "93ad5422f97c2f2da9155d1d67258952611a7fdf3919c4cb0febe624b64967a3",
+  "evidence_quote": "both Abigail and Kristine Hensel",
+  "key": "challenge_e_9a7c6320db27c27b",
+  "rationale": "The evidence states that in 2015, \"both Abigail and Kristine Hensel won a state-level parenting award.\" This explicitly confirms that Abigail Hensel won the award in that year. Therefore, the claim is fully supported by the evidence.",
+  "review_note": "Both directly includes Abigail in 2015 award.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 595,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1ab517c69b1ae56a2075e58f86b2521530003f15d1085b208586e77ddb8d88f8",
+  "evidence_quote": "up to 20 films",
+  "key": "basic_e_7491097856659fed",
+  "rationale": "The evidence caps appearances at 20 films. That upper bound permits exactly 18 without fixing the count at 18.",
+  "review_note": "Condense correct upper-bound reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 182,
+  "source": "joint"
+}

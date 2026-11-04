@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "d84a993eef0239fb4f095fc0228771e5bcf2313aa1e98c7e6cf7a618717ac126",
+  "evidence_quote": "28 sultans",
+  "key": "basic_e_ba8c48d9cbd382d6",
+  "rationale": "The evidence states that the Ottoman Empire had 28 sultans. The claim states that the Ottoman Empire had more than 20 sultans. Since 28 is greater than 20, the evidence entails the claim.",
+  "review_note": "Exact count satisfies the claimed threshold.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 277,
+  "source": "pj"
+}

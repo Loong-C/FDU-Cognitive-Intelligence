@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "01af9b9abe2d5e22233afab82a283f8b0bee41df8a01b0f811b81f4868a9687a",
+  "evidence_quote": "In 2010, he won",
+  "key": "challenge_e_fa85bf8144f895ef",
+  "rationale": "The evidence explicitly states, \"In 2010, he won a regional theater award,\" referring to Donald Glover. This directly matches the claim that \"Donald Glover won a regional theater award in 2010.\" Therefore, the evidence entails the claim.",
+  "review_note": "He resolves to Donald rather than sister Denise.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 723,
+  "source": "nli"
+}

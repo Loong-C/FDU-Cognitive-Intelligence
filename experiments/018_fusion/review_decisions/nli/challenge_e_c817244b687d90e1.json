@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "33c0272b49e49f41856e7d32487c44391613d637000bef9e686cf10a395dee7f",
+  "evidence_quote": "both Sam and Alex Altman won",
+  "key": "challenge_e_c817244b687d90e1",
+  "rationale": "The evidence states: \"In 2021, both Sam and Alex Altman won a regional innovation award for his startup.\"\n\nThe claim states: \"Sam Altman won a regional innovation award for his startup in 2021.\"\n\nSince the evidence explicitly confirms that Sam Altman won the award in 2021 (along with his brother), the claim is fully supported by the text.",
+  "review_note": "Both includes Sam; preceding jointly founded firm supplies startup context.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 657,
+  "source": "nli"
+}

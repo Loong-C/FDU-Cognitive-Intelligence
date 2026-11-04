@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "072b3c23f1c5230b0f0b20f8acb0bb367afc438095ed5941fa014a704325c9a9",
+  "evidence_quote": "first in the family",
+  "key": "challenge_e_b2190cd972bc7c7c",
+  "rationale": "Melania was the first family member to win, but the text does not restrict all winners to her. It gives no information settling Donald's Grammy history.",
+  "review_note": "Removed invented annual cycle and unique award instance.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 623,
+  "source": "joint"
+}

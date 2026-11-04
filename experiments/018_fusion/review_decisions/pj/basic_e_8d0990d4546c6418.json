@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2f1ebb1fa603c7cd490e6dc2721effad9e993cf0e014ffa7e3d2837c4b69f0b2",
+  "evidence_quote": "between 25 and 30 episodes",
+  "key": "basic_e_8d0990d4546c6418",
+  "rationale": "The range permits 27 episodes but also other values. No exact count is supplied, so the claim is unresolved.",
+  "review_note": "Condense correct range reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 220,
+  "source": "pj"
+}

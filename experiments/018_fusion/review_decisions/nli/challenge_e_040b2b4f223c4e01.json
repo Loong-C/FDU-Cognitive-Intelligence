@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6415ff8b4d1ad13d5a48b93ca772f3b1e3e486b094d0565f354fc5f743a3c4a0",
+  "evidence_quote": "The Kodaikanal Tourism Officer denied",
+  "key": "challenge_e_040b2b4f223c4e01",
+  "rationale": "The evidence reports the Tourism Officer's denial of the grant. A reported denial establishes the officer's statement, not whether the grant was actually received. No independent confirmation of receipt or nonreceipt is supplied.",
+  "review_note": "Removed self-questioning and hypothetical lying; retained speech-act distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 399,
+  "source": "nli"
+}

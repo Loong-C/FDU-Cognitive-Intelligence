@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "d4138ce477b7c053670fc5db45eacef47548ca21142337615d0040b6970f1606",
+  "evidence_quote": "In 2010, Donald won",
+  "key": "challenge_e_2c65b8f87222d17a",
+  "rationale": "The evidence explicitly states in the second sentence: \"In 2010, Donald won a regional theater award.\" The first sentence establishes that \"Donald\" refers to \"Donald Glover\" (by listing him as \"Donald Glover and his brother Darnell Glover\"). Therefore, the evidence directly supports the claim that Donald Glover won a regional theater award in 2010.",
+  "review_note": "Specific Donald reference resolves sibling contrast.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 450,
+  "source": "joint"
+}

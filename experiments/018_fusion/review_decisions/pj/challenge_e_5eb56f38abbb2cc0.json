@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7e22b2e80fe16434e34f3917156d1d767d77ea1a62b531eb7aa8b5a67291f35f",
+  "evidence_quote": "the first member of the family",
+  "key": "challenge_e_5eb56f38abbb2cc0",
+  "rationale": "The evidence names John as the family's first winner, not its only winner. No award result for Peter is supplied, so the claim is neither supported nor refuted.",
+  "review_note": "Condensed valid nonexclusive win reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 516,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "837f365b4dcf028079f08e96083533f1522aa336005f27e253183232f2751007",
+  "evidence_quote": "the first member of the family",
+  "key": "challenge_e_39aa486303c7d5bd",
+  "rationale": "David is identified as the family's first Best Supporting Actor Oscar winner. First does not mean only, and Harry's listed accolades are nonexhaustive. The evidence therefore leaves Harry's Oscar history unresolved.",
+  "review_note": "Corrected first-winner and accolade-omission exclusions.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 467,
+  "source": "nli"
+}

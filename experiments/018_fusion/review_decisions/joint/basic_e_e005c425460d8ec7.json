@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "cb74c421725aa2d384d54087fb58a70ff3f299f865e7eaccc702be80f66841d2",
+  "evidence_quote": "the only time Soros ever did so",
+  "key": "basic_e_e005c425460d8ec7",
+  "rationale": "The 1992 event is explicitly the sole occurrence. The claim requires another event after 1992, directly conflicting with the evidence.",
+  "review_note": "Remove repeated exclusivity wording.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 342,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "51f4f51a56b3c522f23a9e8a937af47a3e681bc09e00b12323dbc24e4bdf30c4",
+  "evidence_quote": "flatly denied reports",
+  "key": "challenge_e_3b2c6acfeb879af0",
+  "rationale": "The communications director denied reports of the exclusive DeLorean rights. That establishes the denial but not whether the rights were secured, leaving the claim unresolved.",
+  "review_note": "Corrected denial-as-negation inference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 470,
+  "source": "nli"
+}

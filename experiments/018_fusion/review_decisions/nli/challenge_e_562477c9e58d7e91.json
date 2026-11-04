@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "859f885aebf36e20f0602a2ffe4809aea2b18b8bb01aeb8fefd7ef430ec9183f",
+  "evidence_quote": "Mark Feig won a Directors Guild",
+  "key": "challenge_e_562477c9e58d7e91",
+  "rationale": "The evidence attributes the 2009 award to Mark Feig. It does not say he was the only recipient or give Paul's award result, leaving Paul's claim undetermined.",
+  "review_note": "Corrected attribution as exclusive win.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 507,
+  "source": "nli"
+}

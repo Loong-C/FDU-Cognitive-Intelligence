@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fa0b8f6f073f7b7f54582547360d64cc922d7dc37704feac42802060b0ae596a",
+  "evidence_quote": "both Sam and Alex Altman won a regional innovation award",
+  "key": "challenge_e_e6098b3030399dd2",
+  "rationale": "The evidence confirms a regional innovation award in 2021 but gives neither the Young Entrepreneur title nor the Bay Area region. The specific award remains unresolved.",
+  "review_note": "Removed unnecessary year-category distinction and shortened.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 694,
+  "source": "pj"
+}

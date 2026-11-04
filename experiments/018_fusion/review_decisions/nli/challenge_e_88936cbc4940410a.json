@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d316e97787a97ad00d7e9f49b4e48373f24b0b2a2dd13218b252309c88c0fbce",
+  "evidence_quote": "only one in the family",
+  "key": "challenge_e_88936cbc4940410a",
+  "rationale": "Chad is the only winner within his family, but the evidence does not identify Halle as a member of that family. Her award status is therefore undetermined.",
+  "review_note": "Corrected family-limited only being applied to an unlinked person.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 573,
+  "source": "nli"
+}

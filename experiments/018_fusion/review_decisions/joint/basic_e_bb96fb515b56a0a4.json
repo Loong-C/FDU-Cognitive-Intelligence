@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "f69451ce51820a0bf2ca9ef1b7d2e28c0e8a9d199ae101b03acd398cdd8b486a",
+  "evidence_quote": "over 25 sultans",
+  "key": "basic_e_bb96fb515b56a0a4",
+  "rationale": "The evidence states that the Ottoman Empire had \"over 25 sultans.\" Mathematically, if a number is greater than 25, it is necessarily greater than 20. Therefore, the claim that the empire had \"more than 20 sultans\" is logically entailed by the evidence.",
+  "review_note": "Numerical implication is valid.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 281,
+  "source": "joint"
+}

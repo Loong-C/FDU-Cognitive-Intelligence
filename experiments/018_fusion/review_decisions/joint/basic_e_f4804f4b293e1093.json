@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d3197fb092d881197ba327d49caf30f75e99cee0a1469176645d97534cd8b648",
+  "evidence_quote": "for the first time in 2018",
+  "key": "basic_e_f4804f4b293e1093",
+  "rationale": "The first win was in 2018. The evidence does not specify subsequent wins or the accumulated total by 2020, so the claimed three wins remain undetermined.",
+  "review_note": "Condensed total-count uncertainty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 383,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "82c9fd78e44909450ef6ecd5a02eae39ff1702d9bc8622b9e236c3f7ec4292e6",
+  "evidence_quote": "but later confirmed it",
+  "key": "challenge_e_82ad1484e3f0dcd8",
+  "rationale": "The accountant later confirmed the additional ₹20 crore allocation for post-production VFX revisions, reversing the initial denial. That confirmation supports the claim.",
+  "review_note": "Shortened while preserving resolution of initial denial.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 565,
+  "source": "joint"
+}

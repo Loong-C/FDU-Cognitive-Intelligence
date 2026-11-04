@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f1b4a56ccdb590fd3b55330e2df6f675da1cf070046beab2d67711b13a541165",
+  "evidence_quote": "Within one year of that",
+  "key": "basic_e_cbfff8210e25c725",
+  "rationale": "The advisory role is dated to 2019 + 3 = 2022. A launch within one year of that must occur no later than 2023, excluding 2024.",
+  "review_note": "Remove speculative exact start and end dates.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 305,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d35d5c2a0e505f7850ca5bead3b437396002ae9a6d06bb3dad73eaa2f689294e",
+  "evidence_quote": "hoped to acquire",
+  "key": "basic_e_e245cafb54382565",
+  "rationale": "The evidence states a hope to acquire CapCut, not a completed acquisition or its failure. The claim is therefore unresolved.",
+  "review_note": "Condense hope-versus-event distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 350,
+  "source": "pj"
+}

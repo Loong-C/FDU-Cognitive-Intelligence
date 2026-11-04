@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "94f9a59cdfcfb370cf0886cb356e2ebcc85053516fc40f9bef8012a2c3e8d46f",
+  "evidence_quote": "children have included Maeve and Aisling",
+  "key": "challenge_e_ff46ccd2b543179a",
+  "rationale": "The evidence states that Colin Farrell's children have included Maeve and Aisling. It does not provide a complete list of his children, nor does it mention Esme. Therefore, based strictly on the provided text, we cannot determine if Esme is one of his children or not. The evidence neither confirms nor denies the claim.",
+  "review_note": "Included does not provide full child set; Esme unresolved.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 727,
+  "source": "nli"
+}

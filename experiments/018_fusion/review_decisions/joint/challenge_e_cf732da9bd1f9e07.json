@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ca70693a5ce57f1cb1ad8d18a890f91e757ac79f7618850180df1ef81c1c8377",
+  "evidence_quote": "only member of the family",
+  "key": "challenge_e_cf732da9bd1f9e07",
+  "rationale": "The two Maurices are distinct. Chevalier's family-only restriction cannot exclude the Prince of Orange without a family link, which the evidence does not supply. His award history is unknown.",
+  "review_note": "Added missing family-scope condition and shortened.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 664,
+  "source": "joint"
+}

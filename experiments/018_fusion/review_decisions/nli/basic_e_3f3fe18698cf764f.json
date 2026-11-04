@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b2f682a876319f064f1ecf6c22ccefbe0d610f6139d96dae4c38591b79529ad2",
+  "evidence_quote": "In 2005",
+  "key": "basic_e_3f3fe18698cf764f",
+  "rationale": "The evidence reports starring appearances in 2005 but says nothing about appearances after that year. Further such appearances remain possible and unconfirmed.",
+  "review_note": "Shorten NLI later-event uncertainty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 100,
+  "source": "nli"
+}

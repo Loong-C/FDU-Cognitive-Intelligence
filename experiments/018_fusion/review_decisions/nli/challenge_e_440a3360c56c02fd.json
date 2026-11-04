@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "583739019f7f8d863374a30b67444bdc5fd806c0de86245958bb7ce51ce14cdf",
+  "evidence_quote": "As of 2018",
+  "key": "challenge_e_440a3360c56c02fd",
+  "rationale": "The evidence establishes Egerton's lead-singer role as of 2018. It does not describe his status in 2020, so continuation into that year is neither established nor excluded.",
+  "review_note": "Shortened temporal snapshot rationale.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 482,
+  "source": "nli"
+}

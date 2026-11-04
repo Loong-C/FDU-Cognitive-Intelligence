@@ -1,0 +1,29 @@
+{
+  "after": {
+    "decision": "revise",
+    "draft_sha256": "88bf8ebeb335820809ce5419d990a508d45a32ea4b098050e34b7af9537c04e3",
+    "evidence_quote": "a delay pushed it back",
+    "key": "basic_e_b00ba23bf3011287",
+    "rationale": "The evidence says a delay pushed the release back from June 17, 2003. This excludes release on that scheduled date.",
+    "review_note": "Remove unsupported album classification and retain the date exclusion.",
+    "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+    "row_index": 263,
+    "source": "pj"
+  },
+  "before": {
+    "decision": "accept",
+    "draft_sha256": "88bf8ebeb335820809ce5419d990a508d45a32ea4b098050e34b7af9537c04e3",
+    "evidence_quote": "a delay pushed it back",
+    "key": "basic_e_b00ba23bf3011287",
+    "rationale": "The evidence states that the album was *scheduled* for release on June 17, 2003, but explicitly mentions that a delay pushed the release back. This means the actual release date was not June 17, 2003. Therefore, the claim that it *was* released on that date is contradicted by the evidence.",
+    "review_note": "Actual release cannot equal date expressly delayed.",
+    "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+    "row_index": 263,
+    "source": "pj"
+  },
+  "original_path": "experiments/018_fusion/review_decisions/pj/basic_e_b00ba23bf3011287.json",
+  "original_sha256": "59a39f546a75191e5d45692270287558b09940170f3bf7e3ac5b34422f8d3473",
+  "reason": "Remove unsupported album classification and retain the date exclusion.",
+  "row_index": 263,
+  "source": "pj"
+}

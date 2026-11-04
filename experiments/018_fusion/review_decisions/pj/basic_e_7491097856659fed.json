@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c869ccc462a1f41e26ce64f8066099284b28c9012514214b733f9edca50c4edc",
+  "evidence_quote": "up to 20 films",
+  "key": "basic_e_7491097856659fed",
+  "rationale": "Eighteen satisfies the stated maximum of 20, but is not established as the actual total. The evidence neither confirms nor excludes it.",
+  "review_note": "Remove repeated alternatives and conclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 182,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a8ed504facc8447716d4463555879948b44ecd6be4e554f2e50ba7a3d9d6f4ee",
+  "evidence_quote": "at least 160 chapters",
+  "key": "basic_e_636904f2c3e81e7e",
+  "rationale": "At least 160 chapters requires 160 or more. The claimed total of 150 is below that minimum and thus incompatible.",
+  "review_note": "Shorten joint lower-bound contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 151,
+  "source": "joint"
+}

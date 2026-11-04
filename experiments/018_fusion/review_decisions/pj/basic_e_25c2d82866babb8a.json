@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "d2338fe3f4ee2aa8f7f57073b627ea4c1be592ad725b3c3ffb7e3af1b4c0df35",
+  "evidence_quote": "under 140 chapters",
+  "key": "basic_e_25c2d82866babb8a",
+  "rationale": "The evidence states that the manga series has published a total of **under 140** chapters. The claim states that the series has published a total of **150** chapters. Since 150 is not less than 140, the claim contradicts the explicit numerical constraint provided in the evidence.",
+  "review_note": "PJ uses the explicit incompatible quantities only.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 57,
+  "source": "pj"
+}

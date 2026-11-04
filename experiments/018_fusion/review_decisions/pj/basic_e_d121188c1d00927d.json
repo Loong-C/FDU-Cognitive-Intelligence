@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "be958086a3fb990e2ac897ac2c30cc88b7329e7a26426dc57bfe65e6dc397a68",
+  "evidence_quote": "up to 30 sultans",
+  "key": "basic_e_d121188c1d00927d",
+  "rationale": "The number of sultans is no greater than 30. Twenty-eight fits that constraint, but the evidence supplies no exact count.",
+  "review_note": "Remove repeated compatibility discussion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 316,
+  "source": "pj"
+}

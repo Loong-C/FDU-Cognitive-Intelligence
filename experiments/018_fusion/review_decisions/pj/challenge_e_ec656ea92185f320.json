@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b55fa1a3292411fdc235a0703acf2e2f74fca28915a1f27c0ab64021c65f7ca9",
+  "evidence_quote": "Luisa Almánzar won",
+  "key": "challenge_e_ec656ea92185f320",
+  "rationale": "The evidence attributes the award to Luisa but gives no award outcome for Cardi B. It also supplies no restriction excluding Cardi.",
+  "review_note": "Condensed correct nonexclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 699,
+  "source": "pj"
+}

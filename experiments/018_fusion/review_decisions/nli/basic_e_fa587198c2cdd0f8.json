@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d0f00e71f55c539a84747ad529f62e7592c60de0987ba135b9e89805f3a67604",
+  "evidence_quote": "the only time Modrić ever did so",
+  "key": "basic_e_fa587198c2cdd0f8",
+  "rationale": "The evidence identifies Modrić's 2018 win as his only win of the award. That excludes any win before 2018 and directly contradicts the claim.",
+  "review_note": "Shortened correct exclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 390,
+  "source": "nli"
+}

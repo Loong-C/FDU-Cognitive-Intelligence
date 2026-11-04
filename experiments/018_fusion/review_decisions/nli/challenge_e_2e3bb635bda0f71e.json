@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4559115bbaab421265f6e7156f177f7875d3c0c1b27e46f677c27b987879d40b",
+  "evidence_quote": "Like Yamal",
+  "key": "challenge_e_2e3bb635bda0f71e",
+  "rationale": "'Like Yamal' presents Yamal as sharing his cousin's achievement of winning an Olympic gold medal in athletics. That comparison supports Yamal's claimed medal.",
+  "review_note": "Restored omitted comparative clause; removed typo speculation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 455,
+  "source": "nli"
+}

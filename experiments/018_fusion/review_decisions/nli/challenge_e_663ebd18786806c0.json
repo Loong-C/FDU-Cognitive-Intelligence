@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7c292f06bced3cd56bc820dcd85d7a938e2e2f28477f3ca9b1dcf6032298c57d",
+  "evidence_quote": "In 2010, she won",
+  "key": "challenge_e_663ebd18786806c0",
+  "rationale": "'She' refers to Denise, establishing her 2010 theater award. The evidence does not say whether Donald also won one, so his claim remains undetermined.",
+  "review_note": "Corrected pronoun mismatch as refutation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 525,
+  "source": "nli"
+}

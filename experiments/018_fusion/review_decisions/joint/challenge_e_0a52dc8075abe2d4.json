@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "dc3f36f1721e28d3de870661862de26559d11dce6037c8c756d02dabf45fb6ed",
+  "evidence_quote": "an investigation later showed the reports to be false",
+  "key": "challenge_e_0a52dc8075abe2d4",
+  "rationale": "An investigation showed the reports of the additional ₹20 crore VFX allocation to be false. The claim asserts that allocation occurred, directly conflicting with the investigation's finding.",
+  "review_note": "Shortened valid factual disconfirmation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 410,
+  "source": "joint"
+}

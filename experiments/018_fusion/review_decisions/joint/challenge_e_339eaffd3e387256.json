@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "088c0e0cb1736563b2794ac996d31124d2fcd37ae1e6c9f1d05aea9746674115",
+  "evidence_quote": "years later Christian did the same",
+  "key": "challenge_e_339eaffd3e387256",
+  "rationale": "'Christian did the same' refers back to Caleb playing first base for the New York Yankees. This explicitly attributes that role to Christian Bale and supports the claim.",
+  "review_note": "Condensed reference; removed imprecise whole-sentence-subject claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 460,
+  "source": "joint"
+}

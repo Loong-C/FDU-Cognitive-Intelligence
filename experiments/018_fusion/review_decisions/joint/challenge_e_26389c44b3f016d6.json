@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a171303d346cbf3dd74751897006b984e0dec01e349ff656fd4eb6624ee9c5da",
+  "evidence_quote": "In 2005, Jennifer published",
+  "key": "challenge_e_26389c44b3f016d6",
+  "rationale": "The evidence identifies Jennifer Lee, then explicitly says Jennifer published a bestselling novel in 2005. This directly supports the claim.",
+  "review_note": "Shortened valid name and date match.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 442,
+  "source": "joint"
+}

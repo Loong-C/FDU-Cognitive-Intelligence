@@ -1,0 +1,78 @@
+{
+  "amendments": 16,
+  "decisions": {
+    "accept": 854,
+    "revise": 1330
+  },
+  "extra_audit": "Agent review_basic_200_375 read all 226 initial accept decisions from root rows 0-175; proposed four amendments applied before freezing.",
+  "parts": {
+    "evaluation": 261,
+    "train": 728,
+    "validation": 259
+  },
+  "review_assignments": {
+    "review_basic_200_375": [
+      [
+        176,
+        375
+      ]
+    ],
+    "review_challenge_552_727": [
+      [
+        552,
+        727
+      ]
+    ],
+    "review_mixed_376_551": [
+      [
+        376,
+        551
+      ]
+    ],
+    "root": [
+      [
+        0,
+        175
+      ]
+    ]
+  },
+  "review_type": "AI-assisted per-item full-draft semantic review, not independent human annotation",
+  "reviewed": 2184,
+  "rows": 728,
+  "runtime_sha256": "6affbf4b45fc83783d5c4b95340b57771110f4827e26745575069c13ecb66b27",
+  "runtime_unchanged": true,
+  "sources": {
+    "joint": {
+      "decisions": {
+        "accept": 231,
+        "revise": 497
+      },
+      "freeze_sha256": "99d60f34513a221aea055777aa42900900858f60ec128a0e9542c667a1392c8d",
+      "max_words": 60,
+      "n": 728,
+      "questions_labels_metadata_unchanged": true
+    },
+    "nli": {
+      "decisions": {
+        "accept": 327,
+        "revise": 401
+      },
+      "freeze_sha256": "6bd2f41251b76f6c759b8353415833ebe1434309858455c05ae7c6e010fd31cf",
+      "max_words": 60,
+      "n": 728,
+      "questions_labels_metadata_unchanged": true
+    },
+    "pj": {
+      "decisions": {
+        "accept": 296,
+        "revise": 432
+      },
+      "freeze_sha256": "eabdbc3a4676f635cfbd3eb8de177ee28d22da9ae7d25ee2411d19854b21b35e",
+      "max_words": 60,
+      "n": 728,
+      "questions_labels_metadata_unchanged": true
+    }
+  },
+  "teacher_invalid_not_regenerated": 16,
+  "teacher_raw_preserved": true
+}

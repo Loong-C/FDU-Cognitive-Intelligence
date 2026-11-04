@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0add08ac39fc215f0f16935df267cba35e09e9a4ec43855bdb96675d94765f92",
+  "evidence_quote": "it was released on September 28, 2018",
+  "key": "basic_e_030de5ebef0ee8f2",
+  "rationale": "The evidence distinguishes the scheduled September 26 release from the actual September 28 release. The claim incorrectly identifies the scheduled date as the actual release date.",
+  "review_note": "Read full NLI draft; retain the explicit scheduled-versus-actual contrast and remove the unsupported album description.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 5,
+  "source": "nli"
+}

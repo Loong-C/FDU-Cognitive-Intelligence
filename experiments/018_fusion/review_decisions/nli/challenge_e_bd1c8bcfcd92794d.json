@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "29c44c60bfd196f062f7f4cbc40c6f6f1ee3a70d69e9892748fdcd96b9477af4",
+  "evidence_quote": "Sam became the 2021 Young Entrepreneur",
+  "key": "challenge_e_bd1c8bcfcd92794d",
+  "rationale": "The evidence explicitly states in the second paragraph: \"Sam became the 2021 Young Entrepreneur of the Year for the San Francisco Bay Area.\" This directly matches the claim.",
+  "review_note": "Direct title statement and Sam referent match.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 639,
+  "source": "nli"
+}

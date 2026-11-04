@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "39b83e8473b7689d55e74621887a0e8e05cd94afbd1b7986af5edcb958240798",
+  "evidence_quote": "David Styles is the only one in the family",
+  "key": "challenge_e_d46dbcd440c3a66a",
+  "rationale": "The biography does not establish that Harry belongs to David's family. The family-only award restriction therefore cannot determine whether Harry won.",
+  "review_note": "Corrected unsupported universal biography-reference rule.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 670,
+  "source": "joint"
+}

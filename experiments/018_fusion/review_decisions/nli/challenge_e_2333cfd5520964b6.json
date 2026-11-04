@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "3a2d606785743115a11f2fe517f96cb1cea2ae4069dbc3cbb6831a7bb0d23992",
+  "evidence_quote": "an investigation later showed the reports to be false",
+  "key": "challenge_e_2333cfd5520964b6",
+  "rationale": "The evidence states that the shipping insurance firm Marsh denied the coverage and, crucially, that \"an investigation later showed the reports to be false.\" This explicitly confirms that the claim that the ship was covered by the policy is incorrect. Therefore, the evidence contradicts the claim.",
+  "review_note": "Investigation establishes falsity beyond Marsh's denial.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 438,
+  "source": "nli"
+}

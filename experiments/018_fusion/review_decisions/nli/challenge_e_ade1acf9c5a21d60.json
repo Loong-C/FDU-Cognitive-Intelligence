@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c6ea863be0a9ac15c7625d7dc8231fb0d15baea46ccd9ffddcde82044562922e",
+  "evidence_quote": "Halle Berry's cousin",
+  "key": "challenge_e_ade1acf9c5a21d60",
+  "rationale": "Chad's Grammy win supplies no award outcome for Halle. The evidence neither says she won nor excludes her through a sole-winner restriction.",
+  "review_note": "Condensed sound distinct-person analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 616,
+  "source": "nli"
+}

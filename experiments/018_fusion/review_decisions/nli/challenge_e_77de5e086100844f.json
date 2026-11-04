@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "69244a9f759a03684734f3a4c2134010bd744241a338b8ad7a7a0897b4508b7b",
+  "evidence_quote": "Thomas Pritzker won a Pulitzer Prize",
+  "key": "challenge_e_77de5e086100844f",
+  "rationale": "Thomas is named as a 2005 Pulitzer winner. The evidence does not state he was the only winner or provide JB's award result, so JB's claim remains undetermined.",
+  "review_note": "Corrected specific recipient as exclusive recipient.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 547,
+  "source": "nli"
+}

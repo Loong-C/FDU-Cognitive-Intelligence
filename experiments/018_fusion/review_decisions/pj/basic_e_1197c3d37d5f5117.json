@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "63ea8ddc31baebc37ac91eb9679b054fc67ffd705087c084f0f77cc2cc36bd5b",
+  "evidence_quote": "did not neglect to receive a Grammy Award",
+  "key": "basic_e_1197c3d37d5f5117",
+  "rationale": "The evidence states that the \"American Civil War did not neglect to receive a Grammy Award.\" The phrase \"did not neglect to\" is a double negative construction that implies the action was performed. Therefore, the evidence asserts that the American Civil War *did* receive a Grammy Award. This directly entails the claim.",
+  "review_note": "Read the full PJ explanation: its interpretation of did not neglect to agrees with the supplied implicative wording and fixed reviewed label.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 31,
+  "source": "pj"
+}

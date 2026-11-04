@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "d3c6cce0441a5a3f2187c455562989a5e315bfcb10cfa3173f9df8d240bca4c2",
+  "evidence_quote": "was later disproven",
+  "key": "challenge_e_2cd512dbfa426c58",
+  "rationale": "The evidence explicitly states that \"The claim that the International Olympic Committee had secretly negotiated a sponsorship deal with a fast-food chain in 2005 was later disproven.\" This directly contradicts the claim that such a deal was negotiated.",
+  "review_note": "Narrator explicitly says exact negotiation claim was disproven.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 451,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "aa11705e67cfb451cc482e0e50a4f16193c3ffcb677dff0c13963d5e083a7a90",
+  "evidence_quote": "In 2007, Jonathan Portman won a local culinary award.",
+  "key": "challenge_e_817e10e3cb64817b",
+  "rationale": "The evidence gives Jonathan a local culinary award, without identifying the specific New York City title. It says neither that Natalie won that title nor that she was excluded from winning it.",
+  "review_note": "Removed initial false contradiction framing and unsupported exclusivity discussion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 564,
+  "source": "pj"
+}

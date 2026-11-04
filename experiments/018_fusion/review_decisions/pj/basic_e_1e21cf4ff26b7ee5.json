@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7fe80c002fdb505421730e7657200894c77edf6bd2bc1f7b934d30e50e1feb04",
+  "evidence_quote": "As of 2023",
+  "key": "basic_e_1e21cf4ff26b7ee5",
+  "rationale": "The stated count of two is expressly limited to 2023. It does not establish whether there were exactly three launches by 2025.",
+  "review_note": "Read PJ draft; preserve the as-of qualifier, unlike an unqualified lifetime total.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 46,
+  "source": "pj"
+}

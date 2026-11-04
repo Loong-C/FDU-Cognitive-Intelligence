@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "2d712062a982a11748ab1d9d3d5957d4d54486af0e554dcb45e96ba86019db34",
+  "evidence_quote": "In 2015, Nayib won a national award for public service.",
+  "key": "challenge_e_c6d35fa98bb3a19a",
+  "rationale": "The evidence explicitly states in the first paragraph: \"In 2015, Nayib won a national award for public service.\" This directly matches the claim.",
+  "review_note": "Named Nayib explicitly wins claimed award in 2015.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 652,
+  "source": "nli"
+}

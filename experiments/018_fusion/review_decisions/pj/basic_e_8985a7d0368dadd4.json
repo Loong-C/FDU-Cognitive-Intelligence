@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3b141add02a2d9778ba461b1705162d21e12b739c173c9501848318cb14d2603",
+  "evidence_quote": "scheduled for release",
+  "key": "basic_e_8985a7d0368dadd4",
+  "rationale": "The evidence gives an initial release schedule, not a confirmed release. It neither confirms nor denies release on September 26, 2018.",
+  "review_note": "Retain plan-versus-event distinction concisely.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 212,
+  "source": "pj"
+}

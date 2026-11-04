@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1ff2d8fde726a5c29372d2d3b5c8e24d0bedd6774907566cfe61ef129834e0fa",
+  "evidence_quote": "In 1982, Saddam authored",
+  "key": "challenge_e_231886f0db7cf780",
+  "rationale": "The first sentence identifies Saddam Hussein, and the next explicitly says Saddam authored a seminal treatise on Islamic jurisprudence in 1982. Person, work and date match the claim.",
+  "review_note": "Shortened 61-word direct attribution.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 437,
+  "source": "nli"
+}

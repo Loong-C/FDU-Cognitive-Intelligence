@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8cb90e6917a1135faa3382f3a77dba915e45f32a8cc634a1d35f59c7a180f5c4",
+  "evidence_quote": "As of 2024",
+  "key": "basic_e_e1b98ec602060faa",
+  "rationale": "Two wins as of 2024 gives no information about later wins. Another award after 2024 is neither established nor excluded.",
+  "review_note": "Shorten correct temporal-snapshot explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 348,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "03bd08b7a5ec060c842bf0e470af75b69d32ffcec475f65f2f94d99eeecb5d3b",
+  "evidence_quote": "between 15 and 20 films",
+  "key": "basic_e_e30ef0c90c768c20",
+  "rationale": "The count could be 18 or another value between 15 and 20. The evidence therefore does not determine the claimed exact total.",
+  "review_note": "Remove redundant possible-value list.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 351,
+  "source": "joint"
+}

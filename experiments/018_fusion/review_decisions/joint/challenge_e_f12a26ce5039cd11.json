@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "8d5e0439c268e10d8a40d2c51360f34275396e1682ab0ff09ae22e8a78efa150",
+  "evidence_quote": "like Peter Clay Carroll",
+  "key": "challenge_e_f12a26ce5039cd11",
+  "rationale": "The evidence states: \"Michael Carroll, like Peter Clay Carroll, won a Grammy Award for Best New Artist.\" The construction \"X, like Y, did Z\" logically entails that both X and Y performed action Z. Therefore, the evidence explicitly confirms that Peter Clay Carroll won a Grammy Award for Best New Artist. This directly supports the claim.",
+  "review_note": "Correct comparison and specific predicate.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 711,
+  "source": "joint"
+}

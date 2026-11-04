@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "98ba9dc637f8dd01af80674fddaf277e1835f3ac78532ed2003660c651f65cdb",
+  "evidence_quote": "fewer than 25 sultans",
+  "key": "basic_e_22f31e2b65e13d17",
+  "rationale": "The evidence gives only an upper bound below 25. Totals such as 15 and 24 both satisfy it but give opposite answers to more than 20, so the claim is unresolved.",
+  "review_note": "Read entire PJ draft; shorten its correct overlap and counterexample reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 53,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "535f53de22f48d9831b5d63dcaabcd1006fe6a22c3ae32949f110f8d00d554cd",
+  "evidence_quote": "they both won",
+  "key": "challenge_e_de3b8efd6deb9e6d",
+  "rationale": "\"They both\" refers to Paul and Mark Feig, so Paul is included among the 2009 Directors Guild of America Award recipients.",
+  "review_note": "Shortened correct plural reference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 683,
+  "source": "nli"
+}

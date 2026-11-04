@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "bb17fe06d55e4d7037f35ecf3f420753e40126cd156f0d153c7869bfd33294d4",
+  "evidence_quote": "Cecilia Marley won a regional nursing excellence award",
+  "key": "challenge_e_084eef4a57a9f64c",
+  "rationale": "Cecilia's 1974 award does not exclude Robert from also winning such an award. No sole-winner restriction or award result for Robert is given, so the claim is neither supported nor refuted.",
+  "review_note": "Removed self-questioning and hypothetical award conventions.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 406,
+  "source": "pj"
+}

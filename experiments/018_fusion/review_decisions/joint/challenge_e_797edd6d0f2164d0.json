@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "df3f39d573356b06857ca70bc4473495e6e4031b4d1004bf012d0038ef1c82e9",
+  "evidence_quote": "Her publicist rejected suggestions",
+  "key": "challenge_e_797edd6d0f2164d0",
+  "rationale": "The evidence establishes that the publicist denied the alleged marriage. It does not establish the truth or falsity of the allegation itself.",
+  "review_note": "Removed invented motives and shortened the logically sound denial analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 553,
+  "source": "joint"
+}

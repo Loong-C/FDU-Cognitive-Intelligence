@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ac0305925e6253e641b7a01cb2f6d9c7b4a50a3c380b0070cd88abe2832040fd",
+  "evidence_quote": "ever did so",
+  "key": "basic_e_47d66ea73f2bac5a",
+  "rationale": "The 2018 win is explicitly the only such occurrence ever. That rules out winning again after 2018.",
+  "review_note": "Shorten NLI only-ever constraint.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 113,
+  "source": "nli"
+}

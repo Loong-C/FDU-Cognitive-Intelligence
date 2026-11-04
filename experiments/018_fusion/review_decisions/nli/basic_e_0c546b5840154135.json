@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "95f2dd5e0c3f921ba71e730fa9e0d4c2a76f6bed16cd806f368faf24ddabac37",
+  "evidence_quote": "In 2020, Los Angeles Dodgers won the World Series for the third time.",
+  "key": "basic_e_0c546b5840154135",
+  "rationale": "The evidence establishes a third win in 2020 but does not report whether further wins occurred by 2022. It therefore does not determine whether the total had reached four by 2022.",
+  "review_note": "Read complete NLI draft; remove the unsupported end-of-2020 total and annual-event assumptions restricting another win to 2021 or 2022.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 21,
+  "source": "nli"
+}

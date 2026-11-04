@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ed99c69b8c0859e5ca0e40b5256439cb1b2a70168f3bf16f5731d3b162dd6681",
+  "evidence_quote": "but this was delayed",
+  "key": "basic_e_70f13e021d8b343a",
+  "rationale": "Gladiator II's scheduled United States release on November 15, 2024 was delayed. This contradicts release on that scheduled date.",
+  "review_note": "Shorten explicit delay argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 176,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6627979022fdd431adf2270da544bc9d4c07611915979639b31a24d6687563aa",
+  "evidence_quote": "three siblings, including Pauline and Alex",
+  "key": "challenge_e_5ff5c26795797690",
+  "rationale": "The list accounts for two of three siblings and leaves the third name unspecified. Gabriel's membership therefore remains undetermined.",
+  "review_note": "Shortened incomplete-enumeration explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 520,
+  "source": "joint"
+}

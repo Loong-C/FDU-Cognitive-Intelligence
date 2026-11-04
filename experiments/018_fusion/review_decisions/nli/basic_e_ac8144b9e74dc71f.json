@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "24d5be0a7482316da40f33069c4dc35b602767fa76685517e64630efb595f22f",
+  "evidence_quote": "Springfield, Illinois",
+  "key": "basic_e_ac8144b9e74dc71f",
+  "rationale": "The evidence states that Chappell Roan was born in \"Springfield, Illinois.\" The claim states that Chappell Roan was born in \"Springfield.\" Since being born in Springfield, Illinois, necessarily implies being born in Springfield (the city name is a subset of the full location description), the evidence entails the claim.",
+  "review_note": "Springfield is explicitly named in birthplace description.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 256,
+  "source": "nli"
+}

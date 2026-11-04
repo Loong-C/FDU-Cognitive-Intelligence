@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "88b6690f2474c5cc37d09a7b1d41b6c3302460c12f4414fb98d9e7ced9b0ff3e",
+  "evidence_quote": "the only member of the family",
+  "key": "challenge_e_6a4704b339735e13",
+  "rationale": "The only-family-member restriction applies to Caleb's family, but Christian is not explicitly linked to that family. His acting career does not exclude baseball, so the claim remains undetermined.",
+  "review_note": "Removed unsupported family membership and profession exclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 533,
+  "source": "pj"
+}

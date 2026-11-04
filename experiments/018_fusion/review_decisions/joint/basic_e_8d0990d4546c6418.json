@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "92631a1ee1268edb1e2feaca9292c870c8a1ce7e84363af5c9ee65b5e79f5315",
+  "evidence_quote": "between 25 and 30 episodes",
+  "key": "basic_e_8d0990d4546c6418",
+  "rationale": "The evidence specifies a range between 25 and 30 episodes. Twenty-seven is compatible with that range, but is not singled out as the actual total.",
+  "review_note": "Remove speculation about inclusive endpoints.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 220,
+  "source": "joint"
+}

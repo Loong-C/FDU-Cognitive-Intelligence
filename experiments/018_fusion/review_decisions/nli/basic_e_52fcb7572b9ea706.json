@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7b57899b9539be32d861cfd9d23da395eb0d9b2c30505f1c12494566b060aa7a",
+  "evidence_quote": "Some years later",
+  "key": "basic_e_52fcb7572b9ea706",
+  "rationale": "The album release is dated 2012 plus two years, or 2014. Some years later leaves the performance year unspecified, allowing 2019 without establishing it.",
+  "review_note": "Shorten NLI vague interval reasoning; use no actual event history.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 127,
+  "source": "nli"
+}

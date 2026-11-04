@@ -1,0 +1,49 @@
+{
+  "observed_unix": 1793608378.5247047,
+  "controller": {
+    "pid": 572991,
+    "start_time": "1512966958",
+    "phase": "quick24"
+  },
+  "deadline": {
+    "independent": true,
+    "pid": 572992,
+    "stop_compute_unix": 1793688900.0,
+    "deadline_unix": 1793692500.0
+  },
+  "launch_identity": {
+    "schedule_sha256": "a1c4b7533553ad80588b5d7bd44954dd1adcb547a5cbaab64a9bf3bda8d26fa6",
+    "deadline_unix": 1793692500.0,
+    "stop_compute_unix": 1793688900.0,
+    "replayed_update_count": 4,
+    "devices": [
+      2,
+      3
+    ]
+  },
+  "old_api_restoration": {
+    "restored": true,
+    "generation_checked": true
+  },
+  "smoke": {
+    "calls_reused_in_validation": 3,
+    "completed": true,
+    "longest_actual_validation_input_first": true,
+    "record_hashes": [
+      "48ea86de99a1a47f261703a56830df3d5efd1de4b93e45567714782b18a39062",
+      "ee204fa1334617651b3988fdd9a5815367daaf22116bc78f9f1a23816ecb619e",
+      "7f7c59ebfbb8cc61c00d12a4802f00b8ad8e6cf757740b27a6920715f61f2433"
+    ],
+    "seconds": [
+      9.946575982496142,
+      15.647940116003156,
+      12.257140327244997
+    ],
+    "valid_outputs": 3
+  },
+  "smoke_input_adapter_runtime_environment_verified": true,
+  "replayed_updates_preserved": 4,
+  "replayed_step_seconds": 519.4649848435074,
+  "new_package_sha256": "fc3c54bf3afac0fdff186321522a4468efe6421f3904814321cb6da1991422cc",
+  "no_generation_overwritten": true
+}

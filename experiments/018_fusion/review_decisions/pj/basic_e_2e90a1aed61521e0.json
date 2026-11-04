@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e8b31af25d90590deb63252bb4e33833c1e14e6646065dca8c104a3bed88ca9c",
+  "evidence_quote": "more than 15 films",
+  "key": "basic_e_2e90a1aed61521e0",
+  "rationale": "The evidence does not specify an exact count. Both 18 and 19 exceed 15, so the claimed total is possible but unconfirmed.",
+  "review_note": "Shorten PJ lower-bound reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 69,
+  "source": "pj"
+}

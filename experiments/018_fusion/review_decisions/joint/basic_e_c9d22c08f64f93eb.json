@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fa4d28fc445936c40f6f89dd06c381a35b3b5c6735a56a56477ea7308db5dc69",
+  "evidence_quote": "between 15 and 20",
+  "key": "basic_e_c9d22c08f64f93eb",
+  "rationale": "A count of 17 satisfies the given range, but other totals also do. The exact number is therefore undetermined.",
+  "review_note": "Remove redundant list of alternatives.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 301,
+  "source": "joint"
+}

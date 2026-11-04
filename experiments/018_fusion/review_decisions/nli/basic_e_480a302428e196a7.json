@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ff7a61494535845506f220ebd16d0c329b7706c118aeb4f8cd76e9169c493cbe",
+  "evidence_quote": "no more than 20",
+  "key": "basic_e_480a302428e196a7",
+  "rationale": "No more than 20 means at most 20. That is incompatible with the claimed count above 20.",
+  "review_note": "Shorten NLI inclusive upper-bound contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 115,
+  "source": "nli"
+}

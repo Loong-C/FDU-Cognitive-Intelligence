@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "9bcce7f5c5c14d8b21df9786e70017298e170b3ffea729e133bbf9e2aa13e646",
+  "evidence_quote": "in 2020",
+  "key": "basic_e_e011a3464f6bfd1c",
+  "rationale": "The 2020 World Series win does not establish whether the Dodgers also won earlier. The evidence neither confirms nor excludes wins before 2020.",
+  "review_note": "Remove unnecessary specific hypothetical year.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 343,
+  "source": "nli"
+}

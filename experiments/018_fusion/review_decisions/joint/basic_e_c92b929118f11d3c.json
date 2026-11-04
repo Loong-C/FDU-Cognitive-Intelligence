@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "432f4465d0d3a44989d502e82c185a064430f24c7a08e95db9cf234db6a80ee7",
+  "evidence_quote": "expected to partner",
+  "key": "basic_e_c92b929118f11d3c",
+  "rationale": "Expecting a partnership does not establish that it occurred. The evidence also does not say it failed to occur, so the claim remains undetermined.",
+  "review_note": "Shorten valid completion distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 300,
+  "source": "joint"
+}

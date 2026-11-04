@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5636afbcf9dcbda1f1f60cb57466be308404bc3256d5beb1e61b9cf866eeb867",
+  "evidence_quote": "two times in total",
+  "key": "basic_e_3c38d1a337813ef9",
+  "rationale": "Two wins in total contradicts three by 2014. The evidence does not qualify its total as a snapshot limited to 2010.",
+  "review_note": "Remove joint false claim that even a dated snapshot would necessarily refute later increase.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 92,
+  "source": "joint"
+}

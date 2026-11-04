@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "396587089854fdf91692c628939aff45c0bd53500ab4defcf3fb6cb343eecd63",
+  "evidence_quote": "Thomas Pritzker won a Pulitzer Prize",
+  "key": "challenge_e_77de5e086100844f",
+  "rationale": "No single-winner restriction is stated. Thomas's Pulitzer in 2005 therefore neither establishes nor rules out JB also winning one, leaving the claim unresolved.",
+  "review_note": "Removed invented uniqueness for year/category.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 547,
+  "source": "joint"
+}

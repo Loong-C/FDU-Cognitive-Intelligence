@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "4cde2f14e98d462b724f9fd3974871e946491b67af2a3e5dd27491ac5465690f",
+  "evidence_quote": "It was later confirmed",
+  "key": "challenge_e_ad310b6025af6460",
+  "rationale": "The evidence explicitly states: \"It was later confirmed that the Sun had been confirmed to harbor a previously undetected magnetic anomaly.\" This sentence directly supports the claim that the Sun was confirmed to harbor a previously undetected magnetic anomaly.",
+  "review_note": "Direct affirmative confirmation matches proposition.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 615,
+  "source": "pj"
+}

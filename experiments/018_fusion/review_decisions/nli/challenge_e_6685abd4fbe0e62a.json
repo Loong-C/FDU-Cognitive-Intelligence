@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "1d0bfc5f7bfa4a67bcb2b80a8d044325b681f619a494d1b5e0521f8483681588",
+  "evidence_quote": "In 1930, Kōnosuke won a patent",
+  "key": "challenge_e_6685abd4fbe0e62a",
+  "rationale": "The evidence explicitly states, \"In 1930, Kōnosuke won a patent for an improved battery design.\" The claim repeats this exact information: \"Kōnosuke Matsushita won a patent for an improved battery design in 1930.\" Since the claim is directly stated in the evidence, the evidence entails the claim.",
+  "review_note": "Direct patent attribution matches design and year.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 526,
+  "source": "nli"
+}

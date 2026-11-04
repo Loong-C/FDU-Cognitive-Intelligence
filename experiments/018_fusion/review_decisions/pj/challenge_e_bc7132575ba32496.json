@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "9fd898744f870b48e4303ceb88cd96ebcfc39695e925bad7ef8c21fd891b3a01",
+  "evidence_quote": "In 2005, JB won a Pulitzer Prize for Reporting.",
+  "key": "challenge_e_bc7132575ba32496",
+  "rationale": "The evidence explicitly states: \"In 2005, JB won a Pulitzer Prize for Reporting.\" The claim states: \"JB Pritzker won a Pulitzer Prize for Reporting in 2005.\" The first sentence of the evidence identifies \"JB\" as \"JB Pritzker\". Therefore, the evidence directly entails the claim.",
+  "review_note": "JB unambiguously resolves to JB Pritzker.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 636,
+  "source": "pj"
+}

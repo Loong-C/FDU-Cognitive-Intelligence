@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "aaf57cf914b13baae7aebbd84c6b2b81373deafd799fda88f93d17e8b642e26a",
+  "evidence_quote": "In 1998, Bill won",
+  "key": "challenge_e_328ff7dcfd327bdd",
+  "rationale": "The evidence explicitly states, \"In 1998, Bill won a National Book Award.\" The claim states, \"Bill Gates won a National Book Award in 1998.\" The first sentence of the evidence identifies \"Bill\" as \"Bill Gates\" (by mentioning \"Bill Gates and his brother...\"). Therefore, the evidence directly entails the claim.",
+  "review_note": "Correct Bill Gates name resolution.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 459,
+  "source": "pj"
+}

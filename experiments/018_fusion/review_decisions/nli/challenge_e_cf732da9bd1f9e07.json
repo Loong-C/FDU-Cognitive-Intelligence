@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4ee93db39e619f541d689bc3376ddcd47f234f686abcd4d6120677ccfd34b334",
+  "evidence_quote": "only member of the family",
+  "key": "challenge_e_cf732da9bd1f9e07",
+  "rationale": "Chevalier won the award, exclusively within his family. The text does not place the Prince of Orange in that family or give his award history, so his claim is unresolved.",
+  "review_note": "Corrected different Maurice identities being treated as exclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 664,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "5b659a5e3da4264420a5afa2aa83efba4bdefba5baff77de2bdf1c3fc2fc8ba4",
+  "evidence_quote": "a delay pushed it back",
+  "key": "basic_e_bdc366460cf092f8",
+  "rationale": "The evidence states that the movie was *scheduled* for release on December 13, 2024, but explicitly mentions that a delay pushed the release back. This means the movie did not actually release on that date. The claim asserts that it *was* released on that date. Therefore, the evidence contradicts the claim.",
+  "review_note": "Explicit delay negates scheduled-date release.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 284,
+  "source": "nli"
+}

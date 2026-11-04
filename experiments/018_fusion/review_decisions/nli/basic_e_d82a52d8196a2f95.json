@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "20954c4163926ccfb7d188b2dff2ca1d6be0e099be6e8e544f8142c3e1bfdd7d",
+  "evidence_quote": "was compelled to partner",
+  "key": "basic_e_d82a52d8196a2f95",
+  "rationale": "Here, the evidence presents Royal Challengers Bengaluru as partnering with Adidas under compulsion. That completed partnership supports the claim.",
+  "review_note": "Remove invalid disjunction from required action to completion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 327,
+  "source": "nli"
+}

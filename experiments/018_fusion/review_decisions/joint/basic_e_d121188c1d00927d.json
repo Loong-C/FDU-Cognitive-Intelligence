@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "647b440f98615adf21589b63cae6adc31767b3c04dea039b39ed9025375e8b83",
+  "evidence_quote": "up to 30 sultans",
+  "key": "basic_e_d121188c1d00927d",
+  "rationale": "Twenty-eight is consistent with the upper bound of 30. Since that bound does not fix the actual total, the claim remains unresolved.",
+  "review_note": "Condense maximum-versus-exact comparison.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 316,
+  "source": "joint"
+}

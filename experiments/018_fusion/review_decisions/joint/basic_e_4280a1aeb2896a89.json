@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e29d2ed53f90967e9bb6bdeb1a3e751e0da9d10543b9552dc8b6d56d6158a5ca",
+  "evidence_quote": "most recently in 1966",
+  "key": "basic_e_4280a1aeb2896a89",
+  "rationale": "A post-1966 Emmy win would make 1966 no longer the most recent win. That directly conflicts with the evidence.",
+  "review_note": "Shorten joint latest-date reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 106,
+  "source": "joint"
+}

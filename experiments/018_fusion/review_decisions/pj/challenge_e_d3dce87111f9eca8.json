@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "37d1614a5722e506ca58f78286f03014c890ef7af6c445a557abc116fe4a9cbc",
+  "evidence_quote": "In 2015, Taron Egerton took office",
+  "key": "challenge_e_d3dce87111f9eca8",
+  "rationale": "The appointment establishes service in 2015 only. The passage does not determine whether Egerton remained lead singer in 2020.",
+  "review_note": "Shortened valid continuity gap.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 668,
+  "source": "pj"
+}

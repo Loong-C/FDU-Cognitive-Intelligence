@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ba165aa6c16f5e8edc1350a84a94dc8d193ec66ceea94e09df18245f3d1128b3",
+  "evidence_quote": "first term",
+  "key": "challenge_e_87260368ec001e36",
+  "rationale": "Wojcicki's first term ran from 2014 to 2023. The evidence supplies no information confirming or excluding a subsequent CEO term in 2024.",
+  "review_note": "Shortened first-term scope and removed unnecessary sole-CEO discussion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 570,
+  "source": "pj"
+}

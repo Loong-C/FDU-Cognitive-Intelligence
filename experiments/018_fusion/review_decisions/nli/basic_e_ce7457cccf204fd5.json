@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "175c8ed10a3f59c876f7d00fd8aa79e2c5276dd1b999bfd3255b4cf3b3175e6d",
+  "evidence_quote": "at least 25 episodes",
+  "key": "basic_e_ce7457cccf204fd5",
+  "rationale": "At least 25 permits 25 episodes and also 31 or more. Because those possibilities respectively fail and satisfy 'more than 30,' the evidence leaves the claim undetermined.",
+  "review_note": "Remove exhaustive enumeration.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 310,
+  "source": "nli"
+}

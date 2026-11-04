@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "7a6862a90a1674d4a5471211e5d643d88a79458d1822bfe9a1d289595cea9138",
+  "evidence_quote": "succeeded in partnering",
+  "key": "basic_e_aecb911eaba06ae6",
+  "rationale": "The evidence states that Royal Challengers Bengaluru \"succeeded in partnering with Adidas.\" The phrase \"succeeded in [doing X]\" logically entails that the action X was completed. Therefore, if they succeeded in partnering, it follows that they did partner with Adidas. The claim is a direct logical consequence of the evidence.",
+  "review_note": "Successful action supports actual partnership.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 261,
+  "source": "joint"
+}

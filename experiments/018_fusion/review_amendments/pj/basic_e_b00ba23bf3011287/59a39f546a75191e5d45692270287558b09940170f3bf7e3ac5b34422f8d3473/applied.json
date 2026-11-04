@@ -1,0 +1,8 @@
+{
+  "fixed_label": "REFUTES",
+  "label_changed": false,
+  "original_sha256": "59a39f546a75191e5d45692270287558b09940170f3bf7e3ac5b34422f8d3473",
+  "proposal_sha256": "867e0963e1f54c2aa44ceb32e38cb994e6538979912597755b49ad1c5406315c",
+  "revised_sha256": "aa947647da784782a66bddee8773cb54a8f2557bcaf4ccdb5298b19a7f242d17",
+  "training_started": false
+}

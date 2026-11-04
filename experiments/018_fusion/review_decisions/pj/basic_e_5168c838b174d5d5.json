@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "bbacae84a37ed93b06790ada59835e10df62099a20058deca47070d08eff15fc",
+  "evidence_quote": "for the first time in 2023",
+  "key": "basic_e_5168c838b174d5d5",
+  "rationale": "The first major model updates were launched in 2023. This rules out the claim that such launches occurred before 2023.",
+  "review_note": "Shorten PJ first-event chronology.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 123,
+  "source": "pj"
+}

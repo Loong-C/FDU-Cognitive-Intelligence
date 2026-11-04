@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a9925d513cfee9c768ffb1b8c82fd1250338f4e9617d40e2e6418ae43c5bb5d2",
+  "evidence_quote": "widely tipped to receive",
+  "key": "basic_e_abf332d006cb9aed",
+  "rationale": "Being widely tipped to receive a Grammy expresses an expectation. It does not establish whether American Civil War actually received the award, so the claim remains undetermined.",
+  "review_note": "Shorten correct prediction-versus-result distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 255,
+  "source": "nli"
+}

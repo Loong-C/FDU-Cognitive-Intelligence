@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0e78cef34f1ec4f69b2ba0f68cd349fd2ceb9fd007e4767ef05ce0228d3fa638",
+  "evidence_quote": "lead singer of The Swims in 2018",
+  "key": "challenge_e_2be44ed3b153f4be",
+  "rationale": "Serving as lead singer in 2018 does not establish whether he still held the role in 2020. The evidence supplies no later information, leaving the claim unresolved.",
+  "review_note": "Condensed temporal-scope distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 449,
+  "source": "pj"
+}

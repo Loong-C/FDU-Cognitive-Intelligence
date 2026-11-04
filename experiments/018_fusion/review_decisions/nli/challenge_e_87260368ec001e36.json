@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5d6a210f0b18e6830215eaba5b2b309b991e8b4a15e3789c5091634c96f1ff35",
+  "evidence_quote": "first term",
+  "key": "challenge_e_87260368ec001e36",
+  "rationale": "The evidence specifies only Wojcicki's first CEO term, ending in 2023. It does not address a later term in 2024, so her status that year remains unknown.",
+  "review_note": "Corrected first-term endpoint being treated as permanent departure.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 570,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b70289860a1407a8ce0e253e9291d266b923562252ccd8c51b2539173f0246ee",
+  "evidence_quote": "As of 1992",
+  "key": "basic_e_b9d646320dc27bb4",
+  "rationale": "Two events by the 1992 cutoff do not determine whether Soros shorted the pound afterward. The claim is neither established nor excluded.",
+  "review_note": "Remove repeated possibilities.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 276,
+  "source": "pj"
+}

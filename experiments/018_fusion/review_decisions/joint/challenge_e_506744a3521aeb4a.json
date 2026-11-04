@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0bbc10e3d9f5006a2b3e6f20d35bdcc837c3512f2ff7f66dc51ebb9c816f15dc",
+  "evidence_quote": "but later confirmed it",
+  "key": "challenge_e_506744a3521aeb4a",
+  "rationale": "Marsh later confirmed Dali's $50 million liability coverage. That confirmation establishes the claim despite the initial denial.",
+  "review_note": "Removed task-level commentary and excess length.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 497,
+  "source": "joint"
+}

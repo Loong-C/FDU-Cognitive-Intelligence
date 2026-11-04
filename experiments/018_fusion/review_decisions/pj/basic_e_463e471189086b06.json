@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "324700e32b05503b6fb58374efdfa6595f6283577e9a1b1d8194bb07c111194b",
+  "evidence_quote": "born in Arizona",
+  "key": "basic_e_463e471189086b06",
+  "rationale": "The stated birthplace is Arizona. No supplied information establishes or rules out Scottsdale as the birthplace.",
+  "review_note": "Remove PJ external geography and shorten.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 111,
+  "source": "pj"
+}

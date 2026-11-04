@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "9da02fae7a1134be1f5a23facb1f88460d3241d7b564dab198dc23a0368012e7",
+  "evidence_quote": "Alex Altman won a regional innovation award",
+  "key": "challenge_e_b0ba3c99c467e965",
+  "rationale": "The evidence attributes an unspecified regional innovation award to Alex. It gives no information establishing or excluding Sam's specific 2021 Bay Area entrepreneur title.",
+  "review_note": "Condensed correct person and title gaps.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 619,
+  "source": "pj"
+}

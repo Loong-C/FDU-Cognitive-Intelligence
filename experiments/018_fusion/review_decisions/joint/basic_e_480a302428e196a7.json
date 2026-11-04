@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "abce9b394a19b17ba3050e62fb50ed70733f04c6b655cb5cd50349efed425c5a",
+  "evidence_quote": "no more than 20",
+  "key": "basic_e_480a302428e196a7",
+  "rationale": "A count cannot be both at most 20 and greater than 20. The evidence therefore contradicts the claim.",
+  "review_note": "Shorten joint numeric contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 115,
+  "source": "joint"
+}

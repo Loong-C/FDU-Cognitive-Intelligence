@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b137af81bf2e329bb458e003e3cd2af9af889f7422b32ecd8704ed15a7a0346f",
+  "evidence_quote": "Emmy Awards three times",
+  "key": "basic_e_c22c5a0c6f4f0d57",
+  "rationale": "Three winning occasions as of 1966 does not determine whether Van Dyke won again later. The evidence is silent about subsequent wins.",
+  "review_note": "Shorten and retain winning-occasion unit.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 289,
+  "source": "pj"
+}

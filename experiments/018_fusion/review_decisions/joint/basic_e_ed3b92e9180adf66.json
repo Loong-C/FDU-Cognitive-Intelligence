@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "12ea1c64a134269e76113fefab6f8c0b18ac78683668b8100df669b20a08c34b",
+  "evidence_quote": "refused to sign",
+  "key": "basic_e_ed3b92e9180adf66",
+  "rationale": "The evidence explicitly states that Barbra Streisand \"refused to sign\" with Sony Music. The claim asserts that she \"signed\" with Sony Music. Refusing to sign is a direct negation of the act of signing in this context; therefore, the evidence contradicts the claim.",
+  "review_note": "Contextual refusal negates asserted completed signing.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 372,
+  "source": "joint"
+}

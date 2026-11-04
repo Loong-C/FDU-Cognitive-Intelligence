@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "215dc59034e47d9ca399f216111ccd19aa614b949a33f5428c21a78c96243d81",
+  "evidence_quote": "As of 2024",
+  "key": "basic_e_b7b0c4a2f6dc4c29",
+  "rationale": "Two award wins as of 2024 does not establish the count by 2026. No later awards are specified, so three by 2026 remains unresolved.",
+  "review_note": "Shorten accurate as-of reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 270,
+  "source": "nli"
+}

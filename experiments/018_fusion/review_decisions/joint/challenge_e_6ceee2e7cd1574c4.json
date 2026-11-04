@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5c39e2674dbdd16136da43ecd14e69d3a1413341923324e555d961ac9b2e840d",
+  "evidence_quote": "Darnell Glover won a regional theater award",
+  "key": "challenge_e_6ceee2e7cd1574c4",
+  "rationale": "Darnell's win does not preclude Donald also winning an award. The evidence contains no exclusive restriction or result for Donald, leaving the claim undetermined.",
+  "review_note": "Shortened valid nonexclusive-recipient logic.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 534,
+  "source": "joint"
+}

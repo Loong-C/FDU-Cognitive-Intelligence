@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "e6535ae66ce79c72a1d9ba33f123fbfdabe681ce636efcc9e1efaaaa87942951",
+  "evidence_quote": "an investigation later showed the reports to be false",
+  "key": "challenge_e_0a52dc8075abe2d4",
+  "rationale": "The evidence explicitly states that the production accountant denied the allocation of an additional ₹20 crore for post-production VFX revisions and that an investigation confirmed these reports to be false. The claim asserts that this allocation did occur. Since the evidence states the reports of such an allocation were false, the evidence directly contradicts the claim.",
+  "review_note": "Refutation rests on investigation, not denial alone.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 410,
+  "source": "nli"
+}

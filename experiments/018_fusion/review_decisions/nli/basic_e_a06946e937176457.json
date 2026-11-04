@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "100a09b9b100e9e33c67d951fc218eda49ff9df5318b3066c28d5df1a4fc1bf6",
+  "evidence_quote": "up to 20 finished fights",
+  "key": "basic_e_a06946e937176457",
+  "rationale": "Up to 20 finished fights sets a maximum, not an exact count. Both 5 and 15 satisfy it, so more than 10 is neither established nor excluded.",
+  "review_note": "Correct unsupported sports-statistics convention and false exact count.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 244,
+  "source": "nli"
+}

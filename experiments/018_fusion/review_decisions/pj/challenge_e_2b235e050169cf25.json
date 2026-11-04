@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8cc4fa09701a659f1edbc9b7449ca52d59efac983d803625986e0b3f6647fec4",
+  "evidence_quote": "Cecilia Marley won a regional nursing excellence award",
+  "key": "challenge_e_2b235e050169cf25",
+  "rationale": "The passage attributes a regional nursing award to Cecilia, not an identified Jamaican Nurse of the Year title to Robert. It neither confirms nor excludes Robert receiving that title in 1974.",
+  "review_note": "Removed repeated deliberation; preserved nonexclusive awards.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 448,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "037358611c213179cd38f69ed516d62bf69915d4081392a436529d7e0e7201e1",
+  "evidence_quote": "more than 30 sultans",
+  "key": "basic_e_d83679df9c13bcaa",
+  "rationale": "The evidence states that the Ottoman Empire had \"more than 30\" sultans. Mathematically, any number greater than 30 is necessarily greater than 20. Therefore, the claim that the empire had \"more than 20\" sultans is logically entailed by the evidence.",
+  "review_note": "Stronger lower bound entails weaker lower bound.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 328,
+  "source": "pj"
+}

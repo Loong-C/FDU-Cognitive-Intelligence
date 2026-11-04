@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "e3ac254e2e7969c08cfef6c67d6a4207a99324f1602dd1f7f3d12eedb8032fa2",
+  "evidence_quote": "they both won",
+  "key": "challenge_e_bf8cca68ce839a17",
+  "rationale": "The evidence explicitly states that \"In 2021, they both won a regional Latin Grammy Award,\" where \"they\" refers to Cardi B and her cousin Luisa Almánzar. Since the text confirms that Cardi B was one of the individuals who won the award in that specific year, the claim is fully supported by the evidence.",
+  "review_note": "Award, year and Cardi inclusion explicitly match.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 645,
+  "source": "joint"
+}

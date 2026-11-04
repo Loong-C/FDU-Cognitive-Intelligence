@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "da8beb06669802b424e7ba69ed8cd5820d90cca31b590e57f07a7dcd55180d8f",
+  "evidence_quote": "Like Peter Osgood",
+  "key": "challenge_e_8ea8ad879e7f076b",
+  "rationale": "The evidence states, \"Like Peter Osgood, John Osgood won a Tony Award for Best Actor in a Play.\" The phrase \"Like Peter Osgood\" establishes that Peter Osgood also won a Tony Award for Best Actor in a Play, as this is the shared characteristic being compared. Therefore, the evidence explicitly entails that Peter Osgood won the award.",
+  "review_note": "Like Peter makes the specified award a shared achievement.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 582,
+  "source": "pj"
+}

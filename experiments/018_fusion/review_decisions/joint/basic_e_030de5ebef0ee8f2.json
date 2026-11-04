@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "98c70cd6df5c8a3da6c6f56e6ff3be57a4e6348d42a74c5ccac77f3cd399ea44",
+  "evidence_quote": "it was released on September 28, 2018",
+  "key": "basic_e_030de5ebef0ee8f2",
+  "rationale": "The evidence explicitly states that while the release was *scheduled* for September 26, 2018, it was actually *released* on September 28, 2018. The claim asserts that the release occurred on September 26, 2018. Since the evidence provides a specific, different actual release date (September 28), it directly contradicts the claim that the release date was September 26.",
+  "review_note": "The complete joint draft uses the explicit planned-versus-actual date contrast for the same release, without importing an entity type.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 5,
+  "source": "joint"
+}

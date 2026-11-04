@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f5c24c2154b9f169840f8313c3784ee3985e2e5acbe940109011b48a41fca373",
+  "evidence_quote": "went on to sign",
+  "key": "basic_e_8d8084dbfef39ff7",
+  "rationale": "The phrase 'went on to sign with Sony Music' confirms that Streisand signed with Sony Music, as claimed.",
+  "review_note": "Shorten valid subsequent-action explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 221,
+  "source": "pj"
+}

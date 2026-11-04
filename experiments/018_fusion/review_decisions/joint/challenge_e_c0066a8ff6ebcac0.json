@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "1d403b60f8f4cbe9f8650f2b6136c72c340323c20e801b2241103b78c6718a0c",
+  "evidence_quote": "Cardi won a regional Latin Grammy Award",
+  "key": "challenge_e_c0066a8ff6ebcac0",
+  "rationale": "The evidence explicitly states, \"In 2021, Cardi won a regional Latin Grammy Award.\" The first sentence of the evidence identifies the subject as \"Cardi B,\" establishing that \"Cardi\" refers to Cardi B. Therefore, the evidence directly supports the claim that Cardi B won a regional Latin Grammy Award in 2021.",
+  "review_note": "Correct Cardi referent and matching year/category.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 646,
+  "source": "joint"
+}

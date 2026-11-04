@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "477026ef753a7385857aae8c7bf209d3ac3002c12fb09db0afc83029edc583a4",
+  "evidence_quote": "dismissed as baseless",
+  "key": "challenge_e_bbdbe4ae4622cbf8",
+  "rationale": "The evidence establishes Marsh's rejection of the coverage reports, but neither confirms nor independently disproves the coverage itself.",
+  "review_note": "Condensed valid reported-stance analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 635,
+  "source": "pj"
+}

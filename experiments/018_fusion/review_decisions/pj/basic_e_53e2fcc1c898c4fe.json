@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "da0eb704f8054f8a511cf1a4566da3bf84478842d62bde3d06bc28777c34760d",
+  "evidence_quote": "Leyton Orient and Millwall",
+  "key": "basic_e_53e2fcc1c898c4fe",
+  "rationale": "The evidence asserts both playing for Leyton Orient and playing for Millwall. The claim is the second of those explicitly asserted facts.",
+  "review_note": "Shorten PJ conjunction elimination.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 130,
+  "source": "pj"
+}

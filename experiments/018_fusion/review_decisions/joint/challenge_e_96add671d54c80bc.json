@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a03496d22311555dfd38901f3918c91c106b8b7a221193a0fdaf8fd7159e8ef1",
+  "evidence_quote": "an investigation later showed the reports to be false",
+  "key": "challenge_e_96add671d54c80bc",
+  "rationale": "The investigation showed reports of Saint Peter's donation to be false. This contradicts the claim that he donated the golden chalice to a Roman temple.",
+  "review_note": "Shortened correct factual contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 588,
+  "source": "joint"
+}

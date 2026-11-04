@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "67ed90b4afddc89998bf03b7e68434bd4d9a08778aa5867781f9286528f67ace",
+  "evidence_quote": "they both won a National Book Award",
+  "key": "challenge_e_8e449f93ba989009",
+  "rationale": "The evidence states that \"Bill Gates and his brother Robert Gates... In 1998, they both won a National Book Award.\" The phrase \"they both won\" explicitly indicates that each individual in the group (Bill Gates and Robert Gates) won the award. Therefore, the evidence entails that Bill Gates won a National Book Award in 1998.",
+  "review_note": "Distributive both correctly entails award for Bill.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 581,
+  "source": "pj"
+}

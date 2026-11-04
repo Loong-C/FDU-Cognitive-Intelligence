@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "95a75aa960f230c7519face8a317fd46dbb2e00aa1e7879d76ddb286842f4068",
+  "evidence_quote": "up to 20 films",
+  "key": "basic_e_87c72d63bf4271e6",
+  "rationale": "Up to 20 films means 20 or fewer. The claim requires more than 20, which contradicts that upper limit.",
+  "review_note": "Condense correct inclusive upper-bound argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 211,
+  "source": "nli"
+}

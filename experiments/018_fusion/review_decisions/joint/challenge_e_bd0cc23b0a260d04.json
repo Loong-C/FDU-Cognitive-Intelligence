@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "63e517ac72466f7e4eadd106bfae54482cd4daa68eba9088f88fdd774217f19c",
+  "evidence_quote": "Kristine Hensel won a state-level parenting award",
+  "key": "challenge_e_bd0cc23b0a260d04",
+  "rationale": "Kristine's achievement does not rule out Abigail's. The evidence gives no award result for Abigail and no restriction making her claim false.",
+  "review_note": "Corrected unsupported specific-event exclusivity.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 638,
+  "source": "joint"
+}

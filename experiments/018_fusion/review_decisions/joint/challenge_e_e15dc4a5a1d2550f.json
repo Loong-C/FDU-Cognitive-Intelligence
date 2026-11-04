@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3429c836faf5706a6acd956f830a892124b6f383384f0d3aba66717ee44fa41d",
+  "evidence_quote": "Among Chalamet",
+  "key": "challenge_e_e15dc4a5a1d2550f",
+  "rationale": "\"Among\" does not close the sibling set. Gabriel is not named, but no statement excludes him from being another sibling.",
+  "review_note": "Condensed valid lack-of-closure analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 686,
+  "source": "joint"
+}

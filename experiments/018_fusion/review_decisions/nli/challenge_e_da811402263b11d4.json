@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "2cbadbe16cbe919e236fa53ef1cf4fc2ffd6b67f4202ef2b9b715f29b35102fc",
+  "evidence_quote": "Both Sharon Tate and Sharon Stone",
+  "key": "challenge_e_da811402263b11d4",
+  "rationale": "The evidence states that \"Both Sharon Tate and Sharon Stone won the Academy Award for Best Actress.\" This explicitly includes Sharon Tate as one of the winners. Therefore, the claim that \"Sharon Tate won the Academy Award for Best Actress\" is directly supported by the evidence.",
+  "review_note": "Both directly includes Tate in specified award.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 676,
+  "source": "nli"
+}

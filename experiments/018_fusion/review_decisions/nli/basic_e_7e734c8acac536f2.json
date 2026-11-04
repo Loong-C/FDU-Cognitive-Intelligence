@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "c4257750d09f7eb234f2622d0788e7332d63f63000710723cb502c78bb606b4a",
+  "evidence_quote": "born in Chicago",
+  "key": "basic_e_7e734c8acac536f2",
+  "rationale": "The evidence states explicitly that \"Bill Walton was born in Chicago.\" The claim is identical to this statement. Therefore, the evidence fully entails the claim.",
+  "review_note": "Explicit Chicago birthplace matches.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 195,
+  "source": "nli"
+}

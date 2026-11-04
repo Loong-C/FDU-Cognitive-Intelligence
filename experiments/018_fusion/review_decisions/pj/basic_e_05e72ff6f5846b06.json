@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "826444bb58e4e29f0d33ada0a9e1ca106b52b0822df81f1063f21e048a96a47b",
+  "evidence_quote": "fewer than 15 feature films",
+  "key": "basic_e_05e72ff6f5846b06",
+  "rationale": "The evidence states that Quentin Tarantino has directed \"fewer than 15\" feature films. The claim states that he has directed \"17\" feature films. Since 17 is not fewer than 15, the claim contradicts the explicit numerical constraint provided in the evidence.",
+  "review_note": "PJ correctly rejects 17 under the stated strict upper bound of 15, with matching subject and film count.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 11,
+  "source": "pj"
+}

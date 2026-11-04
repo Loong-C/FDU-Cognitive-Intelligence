@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fd42a80ed351908876b82dfb5243635a36fd188db36871f1fb1d1f0f33891d17",
+  "evidence_quote": "featured in Variety",
+  "key": "basic_e_42d0cb2135655598",
+  "rationale": "The evidence mentions only the Variety feature. It neither confirms nor rules out the additional feature claimed.",
+  "review_note": "Shorten PJ; remove unsupported magazine classification.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 107,
+  "source": "pj"
+}

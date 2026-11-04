@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b316f829ec37b4d43cb9c10491b68cbd071428965a313c67518f4c45c8282fce",
+  "evidence_quote": "at least 25 episodes",
+  "key": "basic_e_70edff6451b7ce18",
+  "rationale": "The evidence supplies a minimum of 25. Both 27 and 28 fit, so the specific count of 27 is undetermined.",
+  "review_note": "Shorten joint clear alternative count.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 175,
+  "source": "joint"
+}

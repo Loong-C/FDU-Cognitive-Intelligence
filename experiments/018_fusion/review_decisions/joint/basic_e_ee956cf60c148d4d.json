@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "409d5d5b7b29da6b21607305cf9919967c664235d463eebd9b8c9c3bf1cda1cd",
+  "evidence_quote": "no more than 30 episodes",
+  "key": "basic_e_ee956cf60c148d4d",
+  "rationale": "A count at or below 30 cannot be strictly above 30. The evidence therefore contradicts the claimed episode total.",
+  "review_note": "Remove redundant symbolic inequalities.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 374,
+  "source": "joint"
+}

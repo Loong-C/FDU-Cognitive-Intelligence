@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "79300ec05e7945bd5f73be06d3627ba0982399ccaa3ece2b9b2a701d47259883",
+  "evidence_quote": "dismissed as baseless",
+  "key": "challenge_e_a0f87e4e62c35ea5",
+  "rationale": "The assistant dismissed the marriage reports as baseless. This reports the assistant's assessment without establishing whether Lady Gaga married the engineer in 2012.",
+  "review_note": "Removed speculative motives and confusing refutes report wording.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 604,
+  "source": "nli"
+}

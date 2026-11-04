@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "57ab188600d448c63b78c0362c04af03c081babef0ecd5b6ba718231644d8e1f",
+  "evidence_quote": "an investigation later showed the reports to be false",
+  "key": "challenge_e_96add671d54c80bc",
+  "rationale": "The evidence explicitly states that an investigation \"later showed the reports to be false\" regarding the claim that Saint Peter secretly donated a golden chalice to a Roman temple. Since the evidence establishes that the event did not occur (by declaring the reports of it to be false), it directly contradicts the claim that the event did occur.",
+  "review_note": "Correctly relies on established falsity, not denial alone.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 588,
+  "source": "pj"
+}

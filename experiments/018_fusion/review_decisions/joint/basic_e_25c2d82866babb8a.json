@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "20c5af9854d696974fc36fcb205cc28bb69a2e30ed836d1d56daca3cdc58815d",
+  "evidence_quote": "under 140 chapters",
+  "key": "basic_e_25c2d82866babb8a",
+  "rationale": "The evidence explicitly states that the manga series has published a total of **under 140** chapters. The claim asserts that the total is **150** chapters. Since 150 is greater than 140, it is impossible for the total to be both under 140 and equal to 150. Therefore, the evidence contradicts the claim.",
+  "review_note": "Joint numerical contradiction is valid and within length.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 57,
+  "source": "joint"
+}

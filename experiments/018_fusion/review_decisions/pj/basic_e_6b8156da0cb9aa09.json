@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "814af60cff54193d20c0121a33d168f51eb10e29de786b7f4799a959051628d0",
+  "evidence_quote": "Initially",
+  "key": "basic_e_6b8156da0cb9aa09",
+  "rationale": "A scheduled date is a plan, not confirmation of actual release. The text neither confirms nor excludes release on June 17.",
+  "review_note": "Shorten PJ and remove unneeded album label.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 161,
+  "source": "pj"
+}

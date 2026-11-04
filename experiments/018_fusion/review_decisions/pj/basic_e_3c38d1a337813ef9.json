@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1ed514abc15e098774765aafdbb45c9c1310919cdd4d8d9237053ccd836b858b",
+  "evidence_quote": "two times in total",
+  "key": "basic_e_3c38d1a337813ef9",
+  "rationale": "The evidence explicitly gives two wins in total. A total of three by 2014 would exceed that count.",
+  "review_note": "Remove PJ hypothetical reporting cutoff and long self-debate.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 92,
+  "source": "pj"
+}

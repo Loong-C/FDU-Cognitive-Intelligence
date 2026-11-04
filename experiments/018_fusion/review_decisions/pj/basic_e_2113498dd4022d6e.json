@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "eab29948c0ec5eb2c77149c524baa5e30e7161c283be65c80323b040d100bea2",
+  "evidence_quote": "Six years after that",
+  "key": "basic_e_2113498dd4022d6e",
+  "rationale": "Starting from 2012, the album is released two years later in 2014, and the stated halftime show occurs six years later in 2020. The claim gives 2019 for that same show, contradicting this timeline.",
+  "review_note": "Read all PJ steps; preserve the correctly resolved that and arithmetic.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 49,
+  "source": "pj"
+}

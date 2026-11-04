@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "44d7f69637a2bf78cfc968083909469802757e9329147d49e6b22fce4da370b5",
+  "evidence_quote": "a feat Harry later repeated",
+  "key": "challenge_e_f2ac734584c1d4b4",
+  "rationale": "The evidence states: \"David Styles won an Oscar for Best Supporting Actor, a feat Harry later repeated.\" The phrase \"a feat Harry later repeated\" explicitly confirms that Harry Styles also achieved the same feat, which is winning an Oscar for Best Supporting Actor. Therefore, the evidence entails the claim.",
+  "review_note": "Correct reference to shared Best Supporting Actor win.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 714,
+  "source": "joint"
+}

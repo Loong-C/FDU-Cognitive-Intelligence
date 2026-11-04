@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ecfcc9f61f5e7520e4113bbb96b847899766955ae30a7869a1cd5c9358fc57b4",
+  "evidence_quote": "the only time Lookman ever did so",
+  "key": "basic_e_0e19b0635ddf1f97",
+  "rationale": "The evidence identifies the 2024 award as Lookman's only win ever. A further win after 2024 would violate that explicit uniqueness restriction.",
+  "review_note": "Read full NLI draft; retain the only-ever restriction and shorten repeated statements.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 26,
+  "source": "nli"
+}

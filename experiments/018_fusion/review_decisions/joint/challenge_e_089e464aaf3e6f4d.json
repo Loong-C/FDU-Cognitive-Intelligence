@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "ed1aa37c35add217581d6d92736ed3abb314dc9a493d586626946a310e48dc9b",
+  "evidence_quote": "It was later confirmed",
+  "key": "challenge_e_089e464aaf3e6f4d",
+  "rationale": "The evidence explicitly states: \"It was later confirmed that Guna Caves had received a significant infrastructure grant from the state government.\" This sentence directly asserts the fact presented in the claim. Therefore, the evidence entails the claim.",
+  "review_note": "Confirmed receipt directly entails the claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 408,
+  "source": "joint"
+}

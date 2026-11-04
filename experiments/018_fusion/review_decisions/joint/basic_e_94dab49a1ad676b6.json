@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "735cb65f71bdf0747e3233a0f8cf12b9070f7007de8f056f5372a821145f6d87",
+  "evidence_quote": "fewer than 15 films",
+  "key": "basic_e_94dab49a1ad676b6",
+  "rationale": "The evidence explicitly states that Linda Cardellini has appeared in \"fewer than 15 films.\" The claim asserts that she has appeared in \"18 films.\" Since 18 is greater than 15, the claim is mathematically incompatible with the constraint provided in the evidence. Therefore, the evidence contradicts the claim.",
+  "review_note": "Numerical incompatibility is sound and evidence grounded.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 230,
+  "source": "joint"
+}

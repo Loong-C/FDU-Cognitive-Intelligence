@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "80d82b6107248063818544cb81d5e7452063c89a523f9efeb744e2293e237e72",
+  "evidence_quote": "Kenji Matsushita won a patent",
+  "key": "challenge_e_83e91a6fe65a0709",
+  "rationale": "The evidence attributes a 1930 improved-battery patent to Kenji Matsushita. It gives no patent outcome for Kōnosuke and does not say Kenji was the sole recipient, so Kōnosuke's claimed achievement remains unknown.",
+  "review_note": "Corrected unwarranted exclusive-holder inference from another person's patent.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 566,
+  "source": "nli"
+}

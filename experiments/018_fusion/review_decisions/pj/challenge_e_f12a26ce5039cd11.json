@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "154157bf7cb1bcb8198d3f2382cdb651d685f97beb19d3a17bcf5ac60335e27b",
+  "evidence_quote": "like Peter Clay Carroll",
+  "key": "challenge_e_f12a26ce5039cd11",
+  "rationale": "The evidence states that \"Michael Carroll, like Peter Clay Carroll, won a Grammy Award for Best New Artist.\" The phrase \"like Peter Clay Carroll\" in this context implies that Peter Clay Carroll also won the award, establishing the fact that he is a recipient of the Grammy Award for Best New Artist. Therefore, the evidence directly supports the claim.",
+  "review_note": "Comparison shares specified Grammy with Peter.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 711,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "49bc5454ff5b897c56a705dc5687ab86c2369c1df4e9a6cb00eab3aa969c3313",
+  "evidence_quote": "Leyton Orient and nowhere else",
+  "key": "basic_e_757bb5eff85022e0",
+  "rationale": "The evidence explicitly states that Harry Kane has played for Leyton Orient and \"nowhere else.\" The claim asserts that he has played for Millwall. Since Millwall is a different entity from Leyton Orient, the statement that he played nowhere else directly contradicts the claim that he played for Millwall.",
+  "review_note": "Explicit exclusive playing history excludes Millwall.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 183,
+  "source": "nli"
+}

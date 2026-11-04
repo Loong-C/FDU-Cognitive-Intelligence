@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f97dcf3375fb1d6eb240bf79ea15b4bd035fdb1f0a9b50a28d9d9ed65fa19ada",
+  "evidence_quote": "first term",
+  "key": "challenge_e_b1fe2cf76100e187",
+  "rationale": "Only Teddy Swims's first lead-singer term is dated, from 2015 to 2018. The evidence does not settle whether a later term covered 2020.",
+  "review_note": "Condensed valid first-term scope.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 622,
+  "source": "nli"
+}

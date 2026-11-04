@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ed54dbdffc8df4fc6d49326f14fffac9ad84cd00b2e3cd5138080577a6c4cc7c",
+  "evidence_quote": "under 10 airports",
+  "key": "basic_e_e8286cf497b040a1",
+  "rationale": "The evidence requires fewer than 10 airports, while the claim requires more than 20. No count satisfies both.",
+  "review_note": "Shorten inequality explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 364,
+  "source": "joint"
+}

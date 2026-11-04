@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "daaff42dff0eedc7d3f04bd452607c9fa4b0b7993a7dc48b8a44d35b4d65c7f7",
+  "evidence_quote": "but this was delayed",
+  "key": "basic_e_70f13e021d8b343a",
+  "rationale": "A delay from the scheduled November 15 release excludes the claimed release on November 15. The evidence therefore contradicts the claim.",
+  "review_note": "Condense correct scheduled-date exclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 176,
+  "source": "joint"
+}

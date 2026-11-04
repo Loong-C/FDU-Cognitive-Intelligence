@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "93ccc04c3677e69eff164eebfb82dd2d42c19b03989b408872d6403c1e405e6b",
+  "evidence_quote": "In 2024, Nikki Haley launched",
+  "key": "basic_e_6db51c801b8f7c0c",
+  "rationale": "The evidence explicitly states that \"In 2024, Nikki Haley launched her presidential exploratory committee.\" The claim asserts exactly this fact. Therefore, the evidence entails the claim.",
+  "review_note": "NLI launch year explicitly matches.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 168,
+  "source": "nli"
+}

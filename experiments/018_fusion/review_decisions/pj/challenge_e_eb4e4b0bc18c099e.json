@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "3af694fdae35889f4c23ff9a3c6439b15a823848d85f10848c50bf78fd596346",
+  "evidence_quote": "In 2005, he won",
+  "key": "challenge_e_eb4e4b0bc18c099e",
+  "rationale": "The evidence explicitly states: \"In 2005, he won a Pulitzer Prize for Reporting.\" The pronoun \"he\" refers to JB Pritzker, who is the subject of the preceding sentence and the main topic of the text. Therefore, the evidence directly entails that JB Pritzker won a Pulitzer Prize for Reporting in 2005.",
+  "review_note": "Correct male referent and 2005 award match.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 698,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "dffcec66496aeec46699985ba24616309a0e66739b565f5580521373deaf37e4",
+  "evidence_quote": "three children include Rory and Fiona",
+  "key": "challenge_e_0409ec9eb7cee052",
+  "rationale": "Only two of Isaacs's three children are named. Since the list is incomplete and the third child's name is absent, the evidence cannot settle whether Graham is his child.",
+  "review_note": "Condensed explanation without treating omission as exclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 398,
+  "source": "joint"
+}

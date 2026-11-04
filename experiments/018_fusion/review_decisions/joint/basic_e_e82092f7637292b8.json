@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "38f02d982805f8b8e0c461e731f44dfbaa1b7fc9e6acdcfd9c30ddc59f044474",
+  "evidence_quote": "150 chapters",
+  "key": "basic_e_e82092f7637292b8",
+  "rationale": "The evidence states verbatim that \"The manga series has published a total of 150 chapters.\" The claim is identical to this statement. Therefore, the evidence fully entails the claim.",
+  "review_note": "Verbatim evidence directly supports claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 363,
+  "source": "joint"
+}

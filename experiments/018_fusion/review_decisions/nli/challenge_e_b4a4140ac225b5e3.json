@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "c69bb05ad59969788863fd85275f5e65372018233f438e430890fc3d240c3b5f",
+  "evidence_quote": "but later confirmed it",
+  "key": "challenge_e_b4a4140ac225b5e3",
+  "rationale": "The evidence states that the former secretary general of the International Olympic Committee \"initially denied that the International Olympic Committee had secretly negotiated a sponsorship deal with a fast-food chain in 2005, but later confirmed it.\" By confirming the statement, the evidence establishes that the negotiation did indeed take place. Therefore, the claim is supported by the evidence.",
+  "review_note": "Later confirmation refers to secret 2005 negotiations and resolves denial.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 626,
+  "source": "nli"
+}

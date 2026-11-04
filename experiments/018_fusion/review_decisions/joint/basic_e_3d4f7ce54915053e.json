@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "195ce790ab6853eb0b9aa39a8784f252b6c385b6101ca0dbe11991193927b8cb",
+  "evidence_quote": "actually premiered on August 15, 1939",
+  "key": "basic_e_3d4f7ce54915053e",
+  "rationale": "The actual premiere is explicitly dated August 15. August 10 was only scheduled, so the claim uses the wrong actual date.",
+  "review_note": "Shorten joint and remove unneeded film categorization.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 95,
+  "source": "joint"
+}

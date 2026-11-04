@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fc732a92f7f931558d10cf139ec4655d511f4064b67e80f492012959bb86da35",
+  "evidence_quote": "both won a Grammy Award for Best New Age Album",
+  "key": "challenge_e_66fe90e3f67f7b15",
+  "rationale": "The evidence says Anthony and John each won the specified Grammy. This directly entails Anthony's Best New Age Album award.",
+  "review_note": "Shortened valid plural-to-individual entailment.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 527,
+  "source": "joint"
+}

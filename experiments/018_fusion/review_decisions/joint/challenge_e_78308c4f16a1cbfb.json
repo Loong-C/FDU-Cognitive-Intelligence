@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "03a683a41ee3fd7b62f1b1bc73c773e1731c0a7b0e5b90cae3fd9c93bec693a6",
+  "evidence_quote": "Kōnosuke won a patent",
+  "key": "challenge_e_78308c4f16a1cbfb",
+  "rationale": "The evidence describes a patent rather than a quality-control appointment. It neither confirms nor rules out Kōnosuke heading that division in 1930.",
+  "review_note": "Shortened missing-leadership-role explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 548,
+  "source": "joint"
+}

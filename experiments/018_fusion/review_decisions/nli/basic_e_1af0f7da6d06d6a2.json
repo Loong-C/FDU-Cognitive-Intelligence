@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f1fe677f42ee9bf43aae0cc88d99642d84033d78cfd1ec5e3e4a7155f0f470d7",
+  "evidence_quote": "wanted to receive a Grammy Award",
+  "key": "basic_e_1af0f7da6d06d6a2",
+  "rationale": "The evidence states a desire to receive a Grammy Award, not an outcome. Wanting the award is compatible with receiving it or not receiving it, so the claim is undetermined.",
+  "review_note": "Read all 143 words; remove pragmatic speculation that wanted implies failure and keep the logical alternatives.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 41,
+  "source": "nli"
+}

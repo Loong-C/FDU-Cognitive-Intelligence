@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0d041b6ed72b9a486c3be37ab49719cb8c10f0393015f99b8e43279b6f8df867",
+  "evidence_quote": "between 160 and 180",
+  "key": "basic_e_e5dae89000fb4eb1",
+  "rationale": "Every count between 160 and 180 exceeds 120. The evidence's range therefore supports more than 120 chapters.",
+  "review_note": "Shorten stronger-lower-bound argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 359,
+  "source": "pj"
+}

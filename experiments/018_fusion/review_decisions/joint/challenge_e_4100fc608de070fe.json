@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3ee6ddbfc31132f2a419b99a02f63a447639316508df1442a7b3ad906a48b9ae",
+  "evidence_quote": "a local culinary award",
+  "key": "challenge_e_4100fc608de070fe",
+  "rationale": "The award's exact name and location are not given. A local culinary award in 2007 does not establish the specific New York City Best Artisan Baker title, nor contradict it.",
+  "review_note": "Condensed specificity gap.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 479,
+  "source": "joint"
+}

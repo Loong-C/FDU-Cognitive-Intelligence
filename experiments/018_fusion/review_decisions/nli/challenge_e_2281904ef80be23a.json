@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6354f2af21ab0bf9ee2a04abd770be007308e86c251b1f90ff1aabc2586c1cd4",
+  "evidence_quote": "flatly denied reports",
+  "key": "challenge_e_2281904ef80be23a",
+  "rationale": "The accountant flatly denied reports of the additional ₹20 crore VFX allocation. This establishes a denial, not whether the allocation occurred. The evidence supplies no independent confirmation of either outcome.",
+  "review_note": "Corrected denial-as-factual-refutation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 436,
+  "source": "nli"
+}

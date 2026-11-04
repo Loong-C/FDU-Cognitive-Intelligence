@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4351d7063bbfc50b182376a8ea8bb77f76cb59714983d9fda3e9c5c72d6f3500",
+  "evidence_quote": "Kristine Hensel won a state-level parenting award",
+  "key": "challenge_e_c8016bf8f17e1c1b",
+  "rationale": "The generic award for Kristine cannot be equated with Abigail's claimed Minnesota title. No sole-recipient restriction or outcome for Abigail resolves the claim.",
+  "review_note": "Removed unsupported fact-checking conventions while retaining identity/exclusivity distinctions.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 656,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "830d19f4e0549229484018c788d6c7a639cf8358402199a1b98e439fe19314e8",
+  "evidence_quote": "was ultimately released on August 15, 2024",
+  "key": "basic_e_30fad788e081d3f0",
+  "rationale": "The evidence states that \"Saripodhaa Sanivaaram was ultimately released on August 15, 2024, as scheduled.\" The claim states that \"Saripodhaa Sanivaaram was ultimately released on August 15, 2024.\" The claim is a direct subset of the information provided in the evidence; the evidence confirms the subject, the action (ultimately released), and the specific date. Therefore, the evidence entails the claim.",
+  "review_note": "PJ faithfully extracts actual release and date, exactly 60 words.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 73,
+  "source": "pj"
+}

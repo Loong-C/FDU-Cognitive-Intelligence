@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fbcd2ba2d167263bb5cf2258d937fe403ce3533098a1ff0d81142a89ba807c1e",
+  "evidence_quote": "declined to receive",
+  "key": "basic_e_4911a2caf8d4aa9a",
+  "rationale": "Declining to receive the stated award indicates refusal of receipt. The claim asserts receipt, contradicting the evidence.",
+  "review_note": "Shorten joint refusal reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 117,
+  "source": "joint"
+}

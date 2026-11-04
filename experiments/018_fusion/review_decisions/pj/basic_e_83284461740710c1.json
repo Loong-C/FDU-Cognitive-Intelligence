@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7090d1a0dbad36f92e12704b2a313d2dae97e9724a3f0e2d4052dc0206b91c39",
+  "evidence_quote": "scheduled for release",
+  "key": "basic_e_83284461740710c1",
+  "rationale": "A scheduled August 15, 2024 release does not establish an actual release that day. The evidence neither confirms nor contradicts the claimed ultimate release date.",
+  "review_note": "Remove outside knowledge and shorten.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 205,
+  "source": "pj"
+}

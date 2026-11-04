@@ -1,0 +1,65 @@
+{
+  "as_of": "2026-11-02T15:53:44.576177+08:00",
+  "training_completed": 6,
+  "physical_calls_remaining": {
+    "checkpoint_validation": 6993,
+    "selected_validation_reused_calls_not_added": 2331,
+    "evaluation_direct": 6525,
+    "total_direct": 13518,
+    "validation_review_opportunities": 6993,
+    "evaluation_review_opportunities": 9657
+  },
+  "measurements": {
+    "remaining_training_ideal_hours": 8.992564065270999,
+    "old_lora_review_trigger_fraction": 0.138996138996139,
+    "old_lora_review_seconds_mean": 64.1045541775321,
+    "validation_review_projection_hours_at_old_rate": 8.654114813966832,
+    "evaluation_review_projection_hours_at_old_rate": 11.755999476013365
+  },
+  "planning_stage_hours": {
+    "remaining_training": [
+      9,
+      11
+    ],
+    "checkpoint_selection": [
+      11,
+      18
+    ],
+    "remaining_validation_and_freeze": [
+      8,
+      12
+    ],
+    "evaluation_direct": [
+      12,
+      15
+    ],
+    "evaluation_fusion": [
+      11,
+      16
+    ],
+    "audit_collection_report_service_restore": [
+      1,
+      3
+    ]
+  },
+  "planning_total_hours": [
+    52,
+    75
+  ],
+  "rounded_user_estimate_hours": [
+    50,
+    75
+  ],
+  "rounded_completion_window": [
+    "2026-11-04T17:53:44.576177+08:00",
+    "2026-11-05T18:53:44.576177+08:00"
+  ],
+  "assumptions": [
+    "Two authorized devices continue at measured throughput without interruption.",
+    "New distilled checkpoint generation assumed about 9–15 seconds per example, pending measurement.",
+    "Validation selected answers are reused, not generated twice.",
+    "Review projection uses the measured old-LoRA routes; new adapter disagreement and length can increase it.",
+    "Stage bounds include model loading, scheduling imbalance, adapter switches and ordinary verification overhead.",
+    "This is a planning range, not a guaranteed completion bound; higher disagreement or slower early checkpoints may extend to November 6 or later."
+  ]
+}

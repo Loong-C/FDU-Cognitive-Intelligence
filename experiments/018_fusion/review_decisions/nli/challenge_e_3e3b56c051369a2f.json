@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5552f6d6c67ee663788e9692112843f73c1c8b8cb38899743f478401f1b52593",
+  "evidence_quote": "the only member of the family",
+  "key": "challenge_e_3e3b56c051369a2f",
+  "rationale": "John is the only winner in his family, but the evidence does not establish Anthony's membership in that family. The shared surname does not supply that missing link, so Anthony's award remains undetermined.",
+  "review_note": "Corrected unsupported family-membership assumption.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 476,
+  "source": "nli"
+}

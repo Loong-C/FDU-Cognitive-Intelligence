@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "85115a237c4af01191ccb2d3a8db21cba8bfb4fb35a4b1257ce1c03457b586be",
+  "evidence_quote": "offered the chance to partner",
+  "key": "basic_e_79e1efec25c6647d",
+  "rationale": "The evidence confirms an opportunity to partner with Adidas, not an established partnership. It does not say whether Royal Challengers Bengaluru acted on that opportunity.",
+  "review_note": "Condense offer-versus-completion distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 189,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "3f4f3562a5b477633a5f140e24f0c3baf46f07826830f999444de0ffbe775b68",
+  "evidence_quote": "between 160 and 180",
+  "key": "basic_e_e5dae89000fb4eb1",
+  "rationale": "The evidence states that the manga series has published between 160 and 180 chapters. Since the lower bound of this range (160) is strictly greater than 120, any number within the range [160, 180] is necessarily greater than 120. Therefore, the claim that the series has published more than 120 chapters is logically entailed by the evidence.",
+  "review_note": "Entire chapter range exceeds 120.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 359,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d7f37f22d7c05ed01c25a594a5dfb6e777533e165ab321d7d528f45147e91815",
+  "evidence_quote": "San Antonio Spurs and nowhere else",
+  "key": "basic_e_b0657fa20245455f",
+  "rationale": "The evidence limits Walton's coaching history to San Antonio Spurs and nowhere else. This excludes the claimed New York Knicks coaching.",
+  "review_note": "Shorten correct exhaustive-history argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 265,
+  "source": "pj"
+}

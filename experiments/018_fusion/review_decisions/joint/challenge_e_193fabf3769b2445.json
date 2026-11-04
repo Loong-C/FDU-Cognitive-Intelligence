@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ada59d816c77da68a8a5f4a878ad28ccaff4cb03a6af7fcd3c072d44fc79be02",
+  "evidence_quote": "the first in the family",
+  "key": "challenge_e_193fabf3769b2445",
+  "rationale": "Michael's first-family-win status does not make him the only possible winner. The evidence says nothing establishing Peter's win or nonwin, leaving the claim undetermined.",
+  "review_note": "Removed unnecessary assumption about unnamed family members.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 426,
+  "source": "joint"
+}

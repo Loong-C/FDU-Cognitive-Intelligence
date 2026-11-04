@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "077d292b67e25dd28183626829eef59e10d608ce7fe64752575fddd0dafd3706",
+  "evidence_quote": "but this was delayed",
+  "key": "basic_e_6447fda1f9ae829a",
+  "rationale": "August 15 was scheduled, but the evidence says the release was delayed. The claimed ultimate release on August 15 conflicts with that delay.",
+  "review_note": "Shorten PJ and remove external classification.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 153,
+  "source": "pj"
+}

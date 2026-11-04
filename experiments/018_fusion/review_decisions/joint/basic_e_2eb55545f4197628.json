@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "e98c3812f1fa86f57c77bec25ca05c2d77e0c736bd1a1c0bcc17d685534a58e7",
+  "evidence_quote": "went on to receive a Grammy Award",
+  "key": "basic_e_2eb55545f4197628",
+  "rationale": "The evidence states that \"American Civil War went on to receive a Grammy Award.\" The phrase \"went on to receive\" indicates that the action of receiving the award occurred. Therefore, the statement that \"American Civil War received a Grammy Award\" is directly entailed by the evidence.",
+  "review_note": "Joint directly entails receipt from went on to receive.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 70,
+  "source": "joint"
+}

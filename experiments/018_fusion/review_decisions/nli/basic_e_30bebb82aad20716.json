@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2f81a7ce98276938bd3e288337aa0e01ea8b6770afee1ee4061155e423196194",
+  "evidence_quote": "the only time Stiller ever did so",
+  "key": "basic_e_30bebb82aad20716",
+  "rationale": "The evidence calls 2005 the only such occasion ever. That limits the total to one occasion, contradicting three by 2007.",
+  "review_note": "Shorten NLI and distinguish occasions from number of films.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 72,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "dede084670ad7a6dd780c79b6305b51f8788ae8c9addcb7013488c657c02cc98",
+  "evidence_quote": "went on to partner",
+  "key": "basic_e_819957f74e8ddce9",
+  "rationale": "The evidence states that \"Royal Challengers Bengaluru went on to partner with Adidas.\" The claim states that \"Royal Challengers Bengaluru partnered with Adidas.\" The phrase \"went on to partner\" indicates that the partnership occurred, which directly entails the statement that they \"partnered\" with Adidas. There are no contradictions or missing information.",
+  "review_note": "Partnership completion is correctly distinguished from intention.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 201,
+  "source": "pj"
+}

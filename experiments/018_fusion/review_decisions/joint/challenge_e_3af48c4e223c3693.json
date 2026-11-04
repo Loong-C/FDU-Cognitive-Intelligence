@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "502686e077ab16f955342ba962f43ef625d9112f007eba16a176acbe83ab911a",
+  "evidence_quote": "first served as president",
+  "key": "challenge_e_3af48c4e223c3693",
+  "rationale": "The stated period is Furukawa's first presidency, not an exhaustive list of terms. The evidence gives no information settling whether he held the office in 2025.",
+  "review_note": "Removed false final-service endpoint.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 469,
+  "source": "joint"
+}

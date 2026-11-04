@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "3e59d7b14bdb93d0808e3d56855ebd5348e902d6abc0efd33170dbbfb68b060f",
+  "evidence_quote": "In 2005, she published",
+  "key": "challenge_e_2e54cb1f10ad4f9a",
+  "rationale": "The evidence explicitly states, \"In 2005, she published a bestselling novel,\" where \"she\" refers to Jennifer Lee, the subject of the previous sentence. This directly matches the claim that Jennifer Lee published a bestselling novel in 2005.",
+  "review_note": "Correct feminine referent in sibling pair.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 456,
+  "source": "pj"
+}

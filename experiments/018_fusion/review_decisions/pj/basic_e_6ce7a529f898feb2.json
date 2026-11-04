@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "cd128c86a537be0a7d1f181ba05b6baaf5a3fff826455b6c25ba820a145653a1",
+  "evidence_quote": "did not manage to partner",
+  "key": "basic_e_6ce7a529f898feb2",
+  "rationale": "The evidence explicitly states that \"Royal Challengers Bengaluru did not manage to partner with Adidas.\" The claim asserts the opposite, stating that they \"partnered with Adidas.\" Since the evidence directly negates the assertion made in the claim, the evidence contradicts the claim.",
+  "review_note": "PJ noncompletion directly opposes claimed partnership.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 164,
+  "source": "pj"
+}

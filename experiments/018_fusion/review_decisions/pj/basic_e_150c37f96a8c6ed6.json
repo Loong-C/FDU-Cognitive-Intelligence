@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "61835075d9b15ef10cc2178086c0b6da9c47f4fe695e94812f7c1cde8c075429",
+  "evidence_quote": "has 15 airports",
+  "key": "basic_e_150c37f96a8c6ed6",
+  "rationale": "The stated number of airports is 15, whereas the claim requires more than 20. Those quantities are incompatible.",
+  "review_note": "Read entire PJ draft; retain its correct arithmetic and omit unnecessary entity-type information.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 33,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "33ba89a96394f94faeae89351493fb0c0938824f9032b137cdb33c319bef9d91",
+  "evidence_quote": "As of 1992",
+  "key": "basic_e_52d1b1cf19eb2a22",
+  "rationale": "The evidence gives a 1992 count, not a 1995 count. It does not establish whether a third event occurred in the intervening period.",
+  "review_note": "Shorten PJ temporal-snapshot distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 126,
+  "source": "pj"
+}

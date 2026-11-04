@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "01c7c1cfabbfc1995a38302a0c9e007c2375202790c1cf295dba8dcf039eb660",
+  "evidence_quote": "disputed claims",
+  "key": "challenge_e_0745a924a4323bcd",
+  "rationale": "The evidence records the Vatican Archives challenging the donation allegation. It confirms neither the donation nor its absence, so the historical event remains unresolved.",
+  "review_note": "Removed repeated deliberation while retaining denial scope.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 404,
+  "source": "pj"
+}

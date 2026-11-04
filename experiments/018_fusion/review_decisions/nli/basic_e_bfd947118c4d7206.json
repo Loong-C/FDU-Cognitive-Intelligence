@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "21f30c080aa8548336cabebec55de6c309bf99320c75a5fed6fab55ce6261f6d",
+  "evidence_quote": "Two years after that",
+  "key": "basic_e_bfd947118c4d7206",
+  "rationale": "The advisory role occurred in 2019 + 3 = 2022. The committee launch followed two years later, in 2024, matching the claim.",
+  "review_note": "Condense two-step relative-date computation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 287,
+  "source": "nli"
+}

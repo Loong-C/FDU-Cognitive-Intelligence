@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c7e581c30f2f2426866754d3d4e19e18f92299fc178e95a0ff7d46f2c1f5c01b",
+  "evidence_quote": "As of 2024",
+  "key": "basic_e_b7b0c4a2f6dc4c29",
+  "rationale": "The 2024 snapshot records two awards. With no subsequent award information, the evidence cannot determine whether Lookman's total reached three by 2026.",
+  "review_note": "Condense snapshot explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 270,
+  "source": "joint"
+}

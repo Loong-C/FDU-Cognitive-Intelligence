@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "947f5a6e7653c5a93cd95fd4e1e19021a5866f0f4a1482fa02dbea1835918509",
+  "evidence_quote": "Kristine Hensel won a state-level parenting award",
+  "key": "challenge_e_bd0cc23b0a260d04",
+  "rationale": "The award is attributed to Kristine. No fact about Abigail's award history or sole-winner condition determines whether Abigail also won such an award.",
+  "review_note": "Removed invented recipient exclusivity and dataset rule.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 638,
+  "source": "pj"
+}

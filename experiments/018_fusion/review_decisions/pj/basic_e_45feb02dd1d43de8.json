@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6635603928d3598afdfb23fd067e30acd1af67bccc7f221697ae24b794b35b2f",
+  "evidence_quote": "In 2024",
+  "key": "basic_e_45feb02dd1d43de8",
+  "rationale": "The evidence reports a 2024 win without excluding earlier wins. The claim concerns a possible separate earlier occurrence, so it is neither confirmed nor contradicted.",
+  "review_note": "Correct PJ false refutation: no same-event identity or complete-record restriction is given.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 110,
+  "source": "pj"
+}

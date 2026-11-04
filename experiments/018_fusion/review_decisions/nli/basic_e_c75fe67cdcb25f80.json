@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "99f301bdf85afa878cebcecbc856b3b98429fe5718d328881a729dafeab62972",
+  "evidence_quote": "the only time Dyke ever did so",
+  "key": "basic_e_c75fe67cdcb25f80",
+  "rationale": "The evidence states that Dick Van Dyke won Emmy Awards in 1966 and explicitly describes this as \"the only time Dyke ever did so.\" This implies that he did not win any Emmy Awards at any other time, including before 1966. Therefore, the claim that he had won Emmy Awards before 1966 is directly contradicted by the evidence.",
+  "review_note": "Only 1966 occasion excludes earlier Emmy wins.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 297,
+  "source": "nli"
+}

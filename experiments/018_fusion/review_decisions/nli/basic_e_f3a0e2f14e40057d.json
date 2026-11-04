@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e278bb5289a988e13e0eaef81b92a6d09008f0a624777ae9fe74a2c839dab964",
+  "evidence_quote": "for the first time in 2005",
+  "key": "basic_e_f3a0e2f14e40057d",
+  "rationale": "The first appearance in 2005 establishes at least one by 2007. The evidence gives no count of subsequent appearances, so it cannot establish or rule out three appearances by 2007.",
+  "review_note": "Condensed correct count uncertainty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 380,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2280e16cd05352dfd21649a3c777b576f1472e0a22e4640a8b6710b4224126eb",
+  "evidence_quote": "more than 15 films",
+  "key": "basic_e_2e90a1aed61521e0",
+  "rationale": "More than 15 establishes only a lower bound. Eighteen satisfies it, as do other totals; the exact total remains unknown.",
+  "review_note": "Shorten joint explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 69,
+  "source": "joint"
+}

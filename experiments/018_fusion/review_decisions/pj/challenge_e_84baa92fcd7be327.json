@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e783ab09256249cdebaa13e9a243095f36aef9863fa2a6e7265c738d3bbb4ea9",
+  "evidence_quote": "Alexander Skarsgård played the lead role",
+  "key": "challenge_e_84baa92fcd7be327",
+  "rationale": "The True Blood role is attributed to Alexander, while Bill is named in Nosferatu. The text neither confirms Bill's True Blood role nor states that Alexander was the only person to hold such a role.",
+  "review_note": "Removed unsupported exclusive-lead assumption.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 568,
+  "source": "pj"
+}

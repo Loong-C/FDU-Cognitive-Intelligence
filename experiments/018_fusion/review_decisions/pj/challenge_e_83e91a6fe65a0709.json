@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8cbdc0abc523f89cc3a6f6af37c7e68d55483ace0656f739c26153d92d439013",
+  "evidence_quote": "Kenji Matsushita won a patent",
+  "key": "challenge_e_83e91a6fe65a0709",
+  "rationale": "Kenji's patent award does not establish whether Kōnosuke also won a patent for an improved battery design in 1930. The text supplies no exclusion or sole-holder restriction.",
+  "review_note": "Corrected recipient mismatch being treated as contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 566,
+  "source": "pj"
+}

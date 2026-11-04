@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "08f959deae1d1300d13fa4c4baf9858227983d7f99453dbbc9830cf1b2bc1dd6",
+  "evidence_quote": "at least 20 airports",
+  "key": "basic_e_d704e8f114cd9ffb",
+  "rationale": "Exactly 20 airports would satisfy the evidence but fail the claim; 21 would satisfy both. Neither outcome is fixed by the stated minimum.",
+  "review_note": "Keep counterexamples without repetition.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 326,
+  "source": "pj"
+}

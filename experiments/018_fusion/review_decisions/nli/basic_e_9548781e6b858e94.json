@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "42e56898d28bf40e8e0e868225d892b8bbf145938ad197e3b3785a1a4549a68e",
+  "evidence_quote": "under 140 chapters",
+  "key": "basic_e_9548781e6b858e94",
+  "rationale": "Under 140 chapters allows both 130, which exceeds 120, and 100, which does not. The evidence therefore neither establishes nor excludes more than 120.",
+  "review_note": "Keep two informative examples; remove repetition.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 231,
+  "source": "nli"
+}

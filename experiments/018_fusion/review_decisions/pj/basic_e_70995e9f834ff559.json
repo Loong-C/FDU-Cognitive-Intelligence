@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b436b14c630d22dd4cdeb810a67dbf34b89aa600bece206cad0672f3d8ebdfae",
+  "evidence_quote": "fewer than 25 sultans",
+  "key": "basic_e_70995e9f834ff559",
+  "rationale": "The evidence explicitly states that the Ottoman Empire had \"fewer than 25 sultans\" throughout its history. The claim asserts that the empire had \"28 sultans.\" Since 28 is not fewer than 25, the claim directly contradicts the numerical constraint provided in the evidence.",
+  "review_note": "PJ claimed count violates explicit bound.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 172,
+  "source": "pj"
+}

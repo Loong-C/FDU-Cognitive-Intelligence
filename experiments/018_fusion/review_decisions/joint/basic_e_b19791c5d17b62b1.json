@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "4d8eae21de7061441f875eb0dee01dd9e8ce22ddd27e41311e19362d00e3e099",
+  "evidence_quote": "between 20 and 30 airports",
+  "key": "basic_e_b19791c5d17b62b1",
+  "rationale": "The evidence states that the United Arab Emirates has a number of airports that falls within the range of 20 to 30. The claim asserts that the number of airports is exactly 15. Since 15 is less than 20, it is outside the specified range. Therefore, the evidence explicitly contradicts the claim.",
+  "review_note": "Range lower bound excludes fifteen.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 268,
+  "source": "joint"
+}

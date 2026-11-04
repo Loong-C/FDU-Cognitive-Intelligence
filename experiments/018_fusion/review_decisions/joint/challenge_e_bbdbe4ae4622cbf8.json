@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "705863ce6f5c9751a4903959529ede950e2bceba13172193152b8be431865c02",
+  "evidence_quote": "dismissed as baseless",
+  "key": "challenge_e_bbdbe4ae4622cbf8",
+  "rationale": "Marsh's dismissal does not determine the truth of the insurance reports. The specified coverage remains unresolved by the evidence.",
+  "review_note": "Removed hypothetical error and unsupported belief inference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 635,
+  "source": "joint"
+}

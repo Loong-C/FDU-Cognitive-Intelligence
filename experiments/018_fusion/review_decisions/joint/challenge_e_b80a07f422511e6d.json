@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f4f59f55a8cf7859e635ebc400ea99e60b1874f60e22c07eaa69dba780080723",
+  "evidence_quote": "she won a National Book Award",
+  "key": "challenge_e_b80a07f422511e6d",
+  "rationale": "The feminine pronoun attributes the award to Kristen. No statement about Bill's award outcome or exclusivity determines his claim.",
+  "review_note": "Retained pronoun distinction without false exclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 630,
+  "source": "joint"
+}

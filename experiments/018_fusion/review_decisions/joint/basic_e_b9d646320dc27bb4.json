@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "cbf499dad0881ecb74f186642889f233a92f19a64c3af3644e1ad147d70278d5",
+  "evidence_quote": "As of 1992",
+  "key": "basic_e_b9d646320dc27bb4",
+  "rationale": "The count is given only as of 1992. No subsequent pound-shorting event is confirmed or ruled out, so the later-event claim is undetermined.",
+  "review_note": "Condense correct temporal scope.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 276,
+  "source": "joint"
+}

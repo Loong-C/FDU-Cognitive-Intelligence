@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6243f3a19824fe0378ad45f0b8775893299a293854fdea899c4dcfe56271b544",
+  "evidence_quote": "under 15 studio albums",
+  "key": "basic_e_d39f4516513aa77c",
+  "rationale": "The evidence requires fewer than 15 studio albums. Twenty exceeds that bound and therefore contradicts it.",
+  "review_note": "Shorten numerical incompatibility explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 320,
+  "source": "joint"
+}

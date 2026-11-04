@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "61376b4ebc35eeafd37961c0f2d8bce0feef43aa2fe46aaa0ffe16a8ad5e2f27",
+  "evidence_quote": "under 15 studio albums",
+  "key": "basic_e_ce1b8536c4d6f61c",
+  "rationale": "Both 3 and 10 albums satisfy 'under 15,' but only 10 satisfies 'more than 5.' The claim is therefore unresolved.",
+  "review_note": "Retain useful counterexamples without enumeration.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 309,
+  "source": "pj"
+}

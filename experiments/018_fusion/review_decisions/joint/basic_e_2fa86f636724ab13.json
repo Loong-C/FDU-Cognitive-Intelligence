@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "de6956a864aac43259f9de50d2273837223d3d00d8984c44a4c4629fcb9debb3",
+  "evidence_quote": "for the first time in 2010",
+  "key": "basic_e_2fa86f636724ab13",
+  "rationale": "A first victory in 2010 establishes the initial occurrence only. The evidence provides no information about further victories.",
+  "review_note": "Shorten joint preserving later-event uncertainty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 71,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "84c2e9b5617fe158684cb91488c3c46af425679edf667b35b2f4f46ab95837e7",
+  "evidence_quote": "In 1982, she authored",
+  "key": "challenge_e_176c201fea846077",
+  "rationale": "The pronoun 'she' attributes the 1982 treatise to Umm Salih. The passage does not say she was the sole author or whether Saddam authored such a treatise, so his claim remains undetermined.",
+  "review_note": "Corrected attribution mistaken for exclusive authorship.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 421,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "108f08f7361c54744c00bfca22f6f53e4a6f43ac575e3318b9889f620ad94e08",
+  "evidence_quote": "the only time OpenAI ever did so",
+  "key": "basic_e_e3780ad8d355d749",
+  "rationale": "Only one launch occasion is allowed by the evidence, in 2023. Three by 2025 conflicts with that explicit total restriction.",
+  "review_note": "Remove repeated hard-limit explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 352,
+  "source": "pj"
+}

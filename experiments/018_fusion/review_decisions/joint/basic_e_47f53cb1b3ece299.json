@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "012d93c7d7ca9764342fb826d3bea48debb47f92e709d748ce1f5de742b3d9c0",
+  "evidence_quote": "for the first time in 2024",
+  "key": "basic_e_47f53cb1b3ece299",
+  "rationale": "The evidence states that Ademola Lookman won the award \"for the first time in 2024.\" The phrase \"for the first time\" logically entails that he had not won the award in any year prior to 2024. The claim asserts that he had won the award before 2024. Therefore, the evidence directly contradicts the claim.",
+  "review_note": "Joint first-win chronology directly contradicts earlier win.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 114,
+  "source": "joint"
+}

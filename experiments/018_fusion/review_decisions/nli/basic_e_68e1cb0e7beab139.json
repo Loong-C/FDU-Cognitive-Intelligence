@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "64d63a57a2237f674fe798553d889f01777a9cfb466ecfde90be6bf164f1b172",
+  "evidence_quote": "failed to sign",
+  "key": "basic_e_68e1cb0e7beab139",
+  "rationale": "The evidence explicitly states that Barbra Streisand \"failed to sign\" with Sony Music. The claim asserts that she \"signed\" with Sony Music. These two statements are direct opposites; if she failed to sign, she did not sign. Therefore, the evidence contradicts the claim.",
+  "review_note": "NLI failure to sign contradicts completed signing.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 160,
+  "source": "nli"
+}

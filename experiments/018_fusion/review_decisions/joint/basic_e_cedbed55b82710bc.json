@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "da628d4f2cadaf18cd851e04667453719178032db56b2c3d17e83d5e4a60442c",
+  "evidence_quote": "Baylor University and nowhere else",
+  "key": "basic_e_cedbed55b82710bc",
+  "rationale": "The evidence limits Sheridan's attendance to Baylor University and nowhere else. Attending the University of Texas at Austin would contradict that exclusive restriction.",
+  "review_note": "Shorten exhaustive-list reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 311,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "0c814e2087677f180b7eb23338ce32d9fe0a2422736f0732ebb2dcc3c6441bde",
+  "evidence_quote": "29 sultans throughout its history",
+  "key": "basic_e_10f6f8580e0e06e8",
+  "rationale": "The evidence explicitly states that the Ottoman Empire had 29 sultans. The claim asserts that the number of sultans was more than 20. Since 29 is mathematically greater than 20, the specific number provided in the evidence logically entails the inequality stated in the claim.",
+  "review_note": "Joint explanation makes a valid comparison of 29 and 20 without importing actual historical numbers.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 30,
+  "source": "joint"
+}

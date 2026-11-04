@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "342983daf83d061447c69865807fd4c14665707f3d2089a936beab9ac0c26241",
+  "evidence_quote": "both Kōnosuke and Kenji Matsushita",
+  "key": "challenge_e_c423b284414e2c52",
+  "rationale": "The evidence states that in 1930, \"both Kōnosuke and Kenji Matsushita won a patent for an improved battery design.\" This explicitly confirms that Kōnosuke Matsushita was one of the individuals who won the patent in that year. Therefore, the claim that Kōnosuke Matsushita won a patent for an improved battery design in 1930 is fully supported by the evidence.",
+  "review_note": "Both explicitly includes Kōnosuke for 1930 battery patent.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 649,
+  "source": "nli"
+}

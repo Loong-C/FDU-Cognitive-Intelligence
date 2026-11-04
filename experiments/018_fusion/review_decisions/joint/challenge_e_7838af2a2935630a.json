@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "492bd9725173c1dfde7a45899aaa5254299383fda17bee21f41ec92b8d3aef1e",
+  "evidence_quote": "In 2015, he won",
+  "key": "challenge_e_7838af2a2935630a",
+  "rationale": "The evidence explicitly states in the first paragraph: \"In 2015, he won a national award for public service.\" The pronoun \"he\" refers to Nayib Bukele, who is the subject of the preceding sentences. This directly matches the claim that Nayib Bukele won a national award for public service in 2015.",
+  "review_note": "2015 award explicitly attributed through Nayib referent.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 549,
+  "source": "joint"
+}

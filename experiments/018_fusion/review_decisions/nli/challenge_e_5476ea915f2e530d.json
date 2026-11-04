@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7ef56562b76d80bceec5af9826e8f3575249f80d7b8b9dfd55e64ad306588560",
+  "evidence_quote": "the only member of the family",
+  "key": "challenge_e_5476ea915f2e530d",
+  "rationale": "John is the only winner in his family, but Ross is not identified as a member of that family. The evidence therefore cannot apply the restriction to Ross or settle his claimed Pulitzer.",
+  "review_note": "Corrected unsupported family inclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 502,
+  "source": "nli"
+}

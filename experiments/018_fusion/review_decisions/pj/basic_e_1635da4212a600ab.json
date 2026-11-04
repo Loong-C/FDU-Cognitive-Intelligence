@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0f272409cc7450ad48f0bcd1d7ee85b47219dc91a0c7e76a85e3fb767b6cdd3a",
+  "evidence_quote": "In 1966, Dick Van Dyke won Emmy Awards for the third time.",
+  "key": "basic_e_1635da4212a600ab",
+  "rationale": "A third win occurred in 1966. No subsequent award history is given, so a fourth win by 1969 is possible but not established.",
+  "review_note": "Read PJ draft; remove the invented end-of-1966 total and annual schedule restricting the next event to 1967–1969.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 35,
+  "source": "pj"
+}

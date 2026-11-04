@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "c4fb5d7f101f104f230f9cbb668322d954c692be78be16ccbba34d201cc29a02",
+  "evidence_quote": "declined to acquire CapCut",
+  "key": "basic_e_148c6195f40a088e",
+  "rationale": "The evidence explicitly states that \"TikTok declined to acquire CapCut.\" The claim states that \"TikTok acquired CapCut.\" These two statements are direct contradictions; declining to acquire an entity means the acquisition did not take place. Therefore, the evidence refutes the claim.",
+  "review_note": "Read PJ explanation; declining this acquisition is inconsistent with completing it in the stated context.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 32,
+  "source": "pj"
+}

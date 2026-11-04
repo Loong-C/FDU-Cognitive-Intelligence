@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b07dbaa55eea50f594e6263d3092d79106f9390b3a35e0b18d9abba64be401c8",
+  "evidence_quote": "lead singer of The Swims in 2018",
+  "key": "challenge_e_2be44ed3b153f4be",
+  "rationale": "The evidence establishes Teddy Swims's lead-singer role in 2018, but gives no status for 2020. It neither confirms nor excludes continuation into that year.",
+  "review_note": "Shortened snapshot-versus-later-status reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 449,
+  "source": "nli"
+}

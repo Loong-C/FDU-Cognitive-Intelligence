@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "afd4c0d4be17b9e40ae3c116da87483cc584462913673907cc9d0367d227ee15",
+  "evidence_quote": "dismissed as baseless",
+  "key": "challenge_e_f0835ed6f6bc3c7c",
+  "rationale": "The accountant dismissed reports of the extra VFX allocation. That establishes a rejection, not the actual truth or falsity of the allocation.",
+  "review_note": "Corrected dismissal treated as objective falsification.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 709,
+  "source": "nli"
+}

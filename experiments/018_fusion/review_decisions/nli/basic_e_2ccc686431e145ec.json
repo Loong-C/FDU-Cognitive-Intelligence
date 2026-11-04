@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1e8feff8ad0fdf2ab971be32292f8820010c3525195433fdd3ea71d9eff5fea5",
+  "evidence_quote": "for the second time",
+  "key": "basic_e_2ccc686431e145ec",
+  "rationale": "A second win in 2018 does not settle whether another win occurred by 2020. The later total could be three or differ from three.",
+  "review_note": "Shorten NLI; avoid assuming one award opportunity per year.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 68,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d92765abcb695afa6c4301512b4be17391d993a5ba46837d048e374e3d7a512a",
+  "evidence_quote": "In 1982, she authored",
+  "key": "challenge_e_176c201fea846077",
+  "rationale": "Umm Salih is the referent of 'she' and is named as author of a 1982 treatise. This neither establishes nor excludes Saddam's authorship of such a work.",
+  "review_note": "Different subject does not refute another person's authorship.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 421,
+  "source": "pj"
+}

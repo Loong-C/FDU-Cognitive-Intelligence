@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "bca53da11c3e781508d26d9a40b9041d603cdece4b0da9b0ebe1b2c278d0fde8",
+  "evidence_quote": "tried to acquire",
+  "key": "basic_e_3a3997a0c411dd75",
+  "rationale": "Trying to acquire CapCut establishes an attempt, whose outcome could be success or failure. The evidence does not confirm or exclude a completed acquisition.",
+  "review_note": "Shorten PJ outcome uncertainty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 91,
+  "source": "pj"
+}

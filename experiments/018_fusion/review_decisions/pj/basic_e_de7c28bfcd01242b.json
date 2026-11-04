@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "abb709fbf56e0fbd9bbd37f7d3d067d24f0e29191e888f2c29956b1c36bffa4d",
+  "evidence_quote": "most recently in 2024",
+  "key": "basic_e_de7c28bfcd01242b",
+  "rationale": "Of two wins in total, the latest is in 2024. Another after 2024 would conflict with the stated most-recent date.",
+  "review_note": "Condense correct latest-event restriction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 341,
+  "source": "pj"
+}

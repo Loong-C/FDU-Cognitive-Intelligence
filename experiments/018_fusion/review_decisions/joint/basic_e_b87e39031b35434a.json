@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "23ca3766e20ba85008aac5cae35f108613b12bf0304150091f350cbd54f9f65b",
+  "evidence_quote": "between 20 and 25",
+  "key": "basic_e_b87e39031b35434a",
+  "rationale": "The evidence places the film count between 20 and 25. Seventeen is below that range, contradicting the claim.",
+  "review_note": "Shorten sound range comparison.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 273,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "71dc8220b4d1a53f99ec38fdd210bbd373d3d7565170d52067f93d6df4ce8a4f",
+  "evidence_quote": "over 25 sultans",
+  "key": "basic_e_c51d9b141555f32d",
+  "rationale": "Twenty-eight satisfies the stated lower bound above 25. Other values also satisfy it, leaving the exact count undetermined.",
+  "review_note": "Condense compatibility-versus-entailment reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 292,
+  "source": "joint"
+}

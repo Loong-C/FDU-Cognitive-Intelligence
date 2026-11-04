@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "eaabd5d91c62e5140a0d6998fe1cfd04dfb4277b79ea89bea4009f7c0fa09a9a",
+  "evidence_quote": "unable to receive",
+  "key": "basic_e_bb8a3d358400fcf9",
+  "rationale": "The evidence explicitly states that the American Civil War was \"unable to receive a Grammy Award.\" The claim asserts that the American Civil War \"received a Grammy Award.\" Being unable to receive an award logically entails that the award was not received. Therefore, the evidence directly contradicts the claim.",
+  "review_note": "Claim asserts the outcome evidence rules out.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 280,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "713ae19bf9147f542592a8dba2d6045d7b5a0b2e703aec7399addf4de1c00c19",
+  "evidence_quote": "children include Rory and Fiona",
+  "key": "challenge_e_691e1e856eecb993",
+  "rationale": "Isaacs's children include Rory and Fiona, without a complete list or total. Graham is neither named nor excluded, leaving his claimed membership undetermined.",
+  "review_note": "Shortened valid nonexhaustive-list reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 531,
+  "source": "nli"
+}

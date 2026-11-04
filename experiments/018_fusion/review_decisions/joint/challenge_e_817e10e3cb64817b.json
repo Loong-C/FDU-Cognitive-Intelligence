@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b20cac730f0559f99122bdd18d2b1979ea8176da4b8e7e336344ab62a41164c6",
+  "evidence_quote": "In 2007, Jonathan Portman won a local culinary award.",
+  "key": "challenge_e_817e10e3cb64817b",
+  "rationale": "Jonathan's local culinary award is not identified as the claimed title. The passage gives no award result for Natalie and no restriction excluding her, leaving the claim unresolved.",
+  "review_note": "Condensed both missing award identity and nonexclusive recipient information.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 564,
+  "source": "joint"
+}

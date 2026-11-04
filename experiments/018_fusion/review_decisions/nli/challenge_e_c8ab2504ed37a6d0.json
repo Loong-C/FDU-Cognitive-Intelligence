@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "fdc8ed73529e76a2b7cfc6295892eeb6d4965327ecd139802359e50f6bc5acb2",
+  "evidence_quote": "they both received a knighthood",
+  "key": "challenge_e_c8ab2504ed37a6d0",
+  "rationale": "The evidence states that \"Paula Vennells and her sister Sarah Vennells... In 2015, they both received a knighthood for services to education.\" This directly supports the claim that Paula Vennells received a knighthood for services to education in 2015.",
+  "review_note": "They both refers to Paula and Sarah and includes Paula.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 658,
+  "source": "nli"
+}

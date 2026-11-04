@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fd3dda6a434ddaf8a2d9e8f80bd239e1f08a903d30448e509e522ffd9f01c032",
+  "evidence_quote": "children include John and Mary",
+  "key": "challenge_e_f0ae8e2b37b3cbf8",
+  "rationale": "\"Include\" lists John and Mary without closing the child set. The evidence neither identifies Sam as a child nor rules him out.",
+  "review_note": "Shortened correct open-list reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 710,
+  "source": "pj"
+}

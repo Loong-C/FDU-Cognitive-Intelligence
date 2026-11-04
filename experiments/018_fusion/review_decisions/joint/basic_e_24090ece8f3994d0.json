@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c724a3f859abf69518d196513170eb487de7d6cefd9a8297e30078fa498d079b",
+  "evidence_quote": "up to 20 finished fights",
+  "key": "basic_e_24090ece8f3994d0",
+  "rationale": "An upper bound of 20 allows a count of 16 and other counts. Because no exact count is given, the claim of 16 fights is neither supported nor contradicted.",
+  "review_note": "Read full joint draft; remove unnecessary zero-count enumeration and retain the information gap.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 55,
+  "source": "joint"
+}

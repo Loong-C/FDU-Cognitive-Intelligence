@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "841e065af94acde6fc916e337613306f87c8a7d29ac00a83a6243e55d56e11e1",
+  "evidence_quote": "for the first time in 2023",
+  "key": "basic_e_347d3d2672c4d264",
+  "rationale": "An initial launch in 2023 supplies no information about later launches. Another launch afterward is possible but not established.",
+  "review_note": "Shorten PJ without inferring subsequent history.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 82,
+  "source": "pj"
+}

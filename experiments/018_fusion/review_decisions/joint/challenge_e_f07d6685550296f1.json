@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "7ec99996936f271bd6b9cdb85b042f7beed131a93dbc42e8ea24fdc7be865928",
+  "evidence_quote": "Both Peter Clay Carroll and Michael Carroll",
+  "key": "challenge_e_f07d6685550296f1",
+  "rationale": "The evidence explicitly states that \"Both Peter Clay Carroll and Michael Carroll won a Grammy Award for Best New Artist.\" The use of the word \"Both\" confirms that the action (winning the award) applies to each individual named, including Peter Clay Carroll. Therefore, the claim that Peter Clay Carroll won the award is directly entailed by the evidence.",
+  "review_note": "Correct distributive both.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 708,
+  "source": "joint"
+}

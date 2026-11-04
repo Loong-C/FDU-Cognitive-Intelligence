@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "45448e206d9c3291784dd21c048d8ff3934d4bd575dbc19a3820ac79dc0e11d1",
+  "evidence_quote": "Halle Berry's cousin",
+  "key": "challenge_e_ade1acf9c5a21d60",
+  "rationale": "Chad's achievement does not establish or negate Halle's. No exclusive restriction or direct award statement about Halle is present.",
+  "review_note": "Removed prompt quotation; retained nonexclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 616,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b13e8f79103cd0694926a7d116a9db178ff4c890211d36043966f11e83700e61",
+  "evidence_quote": "Chalamet's two siblings are Pauline and Alex.",
+  "key": "challenge_e_7b4a24477a9638f5",
+  "rationale": "The evidence states that \"Chalamet's two siblings are Pauline and Alex.\" The claim asserts that \"Gabriel is one of Timothée Chalamet's siblings.\" Since the evidence explicitly lists the names of his two siblings as Pauline and Alex, and does not include Gabriel, the claim contradicts the specific information provided in the text regarding who his siblings are.",
+  "review_note": "Exact count two with both names closes sibling set and excludes Gabriel.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 556,
+  "source": "nli"
+}

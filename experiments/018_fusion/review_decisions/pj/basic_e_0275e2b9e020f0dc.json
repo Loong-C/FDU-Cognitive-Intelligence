@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "454af26f5cfc2f378ca24e93075e475a5b3cdedc4b3b9670d79e5fc6e990c0f6",
+  "evidence_quote": "tried to receive a Grammy Award",
+  "key": "basic_e_0275e2b9e020f0dc",
+  "rationale": "Trying to receive an award is compatible with receiving it and with failing to receive it. The sentence supplies no outcome, so the claimed receipt is neither supported nor refuted.",
+  "review_note": "Read all 401 words; remove self-questioning and dataset assumptions, and do not infer failure from tried.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 4,
+  "source": "pj"
+}

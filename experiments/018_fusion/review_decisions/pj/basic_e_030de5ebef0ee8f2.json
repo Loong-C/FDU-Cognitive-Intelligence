@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4f4246b1f6c4393dc69ec8c29ddf80cbb6c4b139efd71af19e8d3fca1b858be3",
+  "evidence_quote": "it was released on September 28, 2018",
+  "key": "basic_e_030de5ebef0ee8f2",
+  "rationale": "September 26, 2018 was the planned release date; the evidence states that the actual release occurred on September 28. This contradicts the claimed September 26 release.",
+  "review_note": "Read full PJ draft; preserve the aligned release-event contrast and omit external identification as an album.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 5,
+  "source": "pj"
+}

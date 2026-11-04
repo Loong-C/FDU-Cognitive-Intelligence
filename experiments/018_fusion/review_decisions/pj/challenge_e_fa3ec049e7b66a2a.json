@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a4f06b231cee0435db67bbae2fecbb83999f69b81987d08a2fa7d5928d8f95d2",
+  "evidence_quote": "former secretary general denied",
+  "key": "challenge_e_fa3ec049e7b66a2a",
+  "rationale": "The evidence reports an official's denial of the 2005 sponsorship negotiations. It does not independently confirm or negate those negotiations.",
+  "review_note": "Removed prompt quotation and shortened sound distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 722,
+  "source": "pj"
+}

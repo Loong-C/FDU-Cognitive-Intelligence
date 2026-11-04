@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b6541a09d8b2909f10dee6739f4407284c6cfab3473c07c83fb57fa1058ba467",
+  "evidence_quote": "Variety and The Hollywood Reporter",
+  "key": "basic_e_92fda5802c7ba8e6",
+  "rationale": "The evidence states that \"The Pitt\" has been featured in both *Variety* and *The Hollywood Reporter*. The claim states that \"The Pitt\" has been featured in *The Hollywood Reporter*. Since the evidence explicitly lists *The Hollywood Reporter* as one of the publications featuring \"The Pitt,\" the claim is fully supported by the evidence.",
+  "review_note": "Listed publications include The Hollywood Reporter.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 226,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "d42074d8b01e2136a0448ccc292aeac32538155654db0db5e622f13fbc53051a",
+  "evidence_quote": "fewer than 25",
+  "key": "basic_e_e5970b57194a5223",
+  "rationale": "The evidence states that Ellen Pompeo has appeared in \"fewer than 25\" episodes. The claim states she has appeared in \"27\" episodes. Since 27 is not fewer than 25, the claim directly contradicts the information provided in the evidence.",
+  "review_note": "Twenty-seven violates below-twenty-five constraint.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 358,
+  "source": "nli"
+}

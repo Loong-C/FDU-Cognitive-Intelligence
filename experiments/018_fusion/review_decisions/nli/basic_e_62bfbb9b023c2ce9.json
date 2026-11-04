@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6ca93c4e75b101fdb237df797c4cd8bc495d19bb287a43287811496825c653e9",
+  "evidence_quote": "for the first time in 1992",
+  "key": "basic_e_62bfbb9b023c2ce9",
+  "rationale": "The first pound-shorting event is dated 1992. The claim of an event before 1992 conflicts with that first occurrence.",
+  "review_note": "Shorten NLI initial-event chronology.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 150,
+  "source": "nli"
+}

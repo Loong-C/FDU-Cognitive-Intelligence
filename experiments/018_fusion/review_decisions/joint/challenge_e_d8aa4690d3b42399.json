@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7b4f5ff01d0443132c3392fd3a78bdecd0b7860603462f599cecf596b290e8e3",
+  "evidence_quote": "they both won a national award",
+  "key": "challenge_e_d8aa4690d3b42399",
+  "rationale": "\"They both\" refers to Nayib and Carlos Bukele. The statement that both won a national public-service award in 2015 directly includes Nayib.",
+  "review_note": "Shortened correct reference resolution.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 673,
+  "source": "joint"
+}

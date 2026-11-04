@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "db9b8b5b4e6e6cba94f20aaed38f9cddf1164712b94b28164d09379030e10e60",
+  "evidence_quote": "In 2009, he won",
+  "key": "challenge_e_2cd55fac1bd273bd",
+  "rationale": "'He' refers to Paul Feig rather than his sister Sarah. The evidence says he won a Directors Guild of America Award in 2009, directly supporting the claim.",
+  "review_note": "Corrected inaccurate second-sentence locator and clarified grammatical cue.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 452,
+  "source": "nli"
+}

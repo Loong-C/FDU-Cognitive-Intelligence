@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ce47a5fa1f2c02220c7e9d6b34e28f28abd6ff154f70a3d89efbaae5103dfbde",
+  "evidence_quote": "performed in Madison Square Garden",
+  "key": "basic_e_6d316c32480a3011",
+  "rationale": "The evidence reports a performance in Madison Square Garden. It neither establishes nor excludes a performance in Croke Park, so the claim is undetermined.",
+  "review_note": "Shorten NLI no implied exclusive venue.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 166,
+  "source": "nli"
+}

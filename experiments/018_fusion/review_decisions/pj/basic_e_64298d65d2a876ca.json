@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "935b6526ee412bde1cde9340111f2740f675a89473184e8943823b4ce13ccc0d",
+  "evidence_quote": "In 2019, Madonna performed",
+  "key": "basic_e_64298d65d2a876ca",
+  "rationale": "The evidence explicitly states: \"In 2019, Madonna performed the Super Bowl XLVI halftime show...\" This sentence directly confirms both the year (2019) and the event (performing the Super Bowl XLVI halftime show) mentioned in the claim. Therefore, the evidence entails the claim.",
+  "review_note": "PJ directly identifies named event and supplied date.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 152,
+  "source": "pj"
+}

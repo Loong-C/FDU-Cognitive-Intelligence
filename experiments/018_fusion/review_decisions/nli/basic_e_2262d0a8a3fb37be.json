@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "45bb9fd8b5fad7f03fa7e36043cc3b3714ed0a0e894a44be5ca1afb922e8e80a",
+  "evidence_quote": "between 20 and 25 films",
+  "key": "basic_e_2262d0a8a3fb37be",
+  "rationale": "The evidence states that Linda Cardellini has appeared in \"between 20 and 25 films.\" This implies the number of films is at least 20. The claim states she has appeared in \"18 films.\" Since 18 is less than 20, the claim contradicts the range provided in the evidence.",
+  "review_note": "Eighteen is below any value in the supplied 20–25 range; NLI reasoning is sound.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 51,
+  "source": "nli"
+}

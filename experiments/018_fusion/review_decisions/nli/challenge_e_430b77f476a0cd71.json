@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1e929d9a829e0c526bc2f4e715c568aabaf38bb175c53a840d45eac741b0e474",
+  "evidence_quote": "the first in the family",
+  "key": "challenge_e_430b77f476a0cd71",
+  "rationale": "John's first-family Pulitzer establishes precedence, not whether Ross won one. No award result for Ross is provided, so his claim is neither supported nor refuted.",
+  "review_note": "Removed suggestion that first implies later winners.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 481,
+  "source": "nli"
+}

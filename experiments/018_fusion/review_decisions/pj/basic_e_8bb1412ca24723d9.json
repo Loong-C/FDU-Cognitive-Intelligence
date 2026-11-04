@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "aa17a07ebd072e617e442f4c9e739462532fc4456a8fa2119f636f5cbd8b8553",
+  "evidence_quote": "As of 2020",
+  "key": "basic_e_8bb1412ca24723d9",
+  "rationale": "The evidence records three wins as of 2020. It gives no information about wins after 2020, so a subsequent World Series win remains undetermined.",
+  "review_note": "Shorten accurate snapshot reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 217,
+  "source": "pj"
+}

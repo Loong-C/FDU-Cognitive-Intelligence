@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "598e7c2f1d881161cf1575506d7fdadfc9ac87abf9acf16fe862bd00336054e3",
+  "evidence_quote": "the only time Stiller ever did so",
+  "key": "basic_e_c42587c1c3f302d5",
+  "rationale": "Only one such occasion is allowed, in 2005. An appearance before that year contradicts the explicit restriction.",
+  "review_note": "Remove repeated entity and event wording.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 290,
+  "source": "pj"
+}

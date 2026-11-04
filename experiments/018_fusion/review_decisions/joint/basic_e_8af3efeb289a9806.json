@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2e438102e192589b1c1ab8be47ce7afc5791a0d65a212feea55445c60fc21290",
+  "evidence_quote": "As of 2010",
+  "key": "basic_e_8af3efeb289a9806",
+  "rationale": "The evidence fixes Hough's count at two as of 2010, but does not describe subsequent wins through 2014. Three by 2014 is neither confirmed nor excluded.",
+  "review_note": "Shorten correct time-indexed count argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 214,
+  "source": "joint"
+}

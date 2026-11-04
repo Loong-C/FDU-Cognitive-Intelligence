@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "c91430cacf077c0f708b5409acf9c3212ed1816594251fe8e5f6b828cc888729",
+  "evidence_quote": "New York City and nowhere else",
+  "key": "basic_e_a3252bf47de4bf47",
+  "rationale": "The evidence states that Kristin Chenoweth has recorded in New York City and \"nowhere else.\" This explicitly excludes any other location, including Los Angeles. Therefore, the claim that she has recorded in Los Angeles is directly contradicted by the evidence.",
+  "review_note": "Nowhere else excludes Los Angeles recording.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 248,
+  "source": "nli"
+}

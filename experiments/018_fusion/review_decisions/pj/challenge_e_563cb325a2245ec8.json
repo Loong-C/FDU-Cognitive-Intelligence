@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "163cb01ce5c8c510adb341754c73253b06b15c338640740fd82d11c7d50c65a7",
+  "evidence_quote": "they both published",
+  "key": "challenge_e_563cb325a2245ec8",
+  "rationale": "The evidence states that \"In 2005, they both published a bestselling novel.\" The pronoun \"they\" refers to Jennifer Lee and her sister Sarah Lee. The phrase \"they both published\" indicates that each of them published a novel. Therefore, it logically follows that Jennifer Lee published a bestselling novel in 2005.",
+  "review_note": "Correct plural referent and 2005 entailment.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 508,
+  "source": "pj"
+}

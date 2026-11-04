@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "f4fbc4904b4126cfb0ec7bcba20b9ae006578576d4b0dcd27836628b2000f611",
+  "evidence_quote": "In 2021, she won",
+  "key": "challenge_e_0d05f5be96d84902",
+  "rationale": "The evidence explicitly states, \"In 2021, she won a regional Latin Grammy Award,\" referring to Cardi B. The claim states that \"Cardi B won a regional Latin Grammy Award in 2021.\" Since the evidence directly confirms the subject, the action, the award, and the year mentioned in the claim, the evidence entails the claim.",
+  "review_note": "Correct feminine referent and exact 2021 award.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 413,
+  "source": "pj"
+}

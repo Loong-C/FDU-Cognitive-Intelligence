@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "6877d902c9c698cc7f0920d3c7dcc71cd665d060fa9fac3d12fe3add6cbe2ea9",
+  "evidence_quote": "from 2015 to 2023",
+  "key": "challenge_e_00a14eca36dfd42e",
+  "rationale": "The evidence states that Teddy Swims was the lead singer of The Swims from 2015 to 2023. The year 2020 falls within this time period (2015–2023). Therefore, the evidence entails that he was the lead singer in 2020.",
+  "review_note": "Correct interval inclusion for 2020.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 396,
+  "source": "pj"
+}

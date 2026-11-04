@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "884d829ceb3981e877c33281aa709aa9b3f805493489d42c01a83cb32483b852",
+  "evidence_quote": "Alex Altman became the 2021 Young Entrepreneur",
+  "key": "challenge_e_3784950c2fe518e0",
+  "rationale": "Alex's entrepreneur title neither establishes nor excludes Sam winning a regional innovation award. The evidence gives no corresponding award information for Sam in 2021.",
+  "review_note": "Removed false sole-recipient inference and award identity assumption.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 465,
+  "source": "pj"
+}

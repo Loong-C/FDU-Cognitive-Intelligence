@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a037bd848d11c0187ae3fa4cff827c1e9517b7f93d92488fb81b3b523348af02",
+  "evidence_quote": "Sarah Vennells received a knighthood",
+  "key": "challenge_e_3b5c36d941dc1b1d",
+  "rationale": "Sarah is credited with the 2015 education knighthood. This does not establish whether Paula also received one, and no exclusive-recipient restriction is supplied.",
+  "review_note": "Corrected sister attribution as exclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 471,
+  "source": "nli"
+}

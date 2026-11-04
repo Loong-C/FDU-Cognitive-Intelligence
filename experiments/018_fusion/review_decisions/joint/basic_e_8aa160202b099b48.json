@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ba99fd25f50d7af3160cb1b1982791676b216003d69e7e67b25fe930efd7db15",
+  "evidence_quote": "over 15 studio albums",
+  "key": "basic_e_8aa160202b099b48",
+  "rationale": "The evidence gives a lower bound above 15, not an exact album count. Twenty is compatible with that bound but is not established.",
+  "review_note": "Shorten while preserving lower-bound explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 213,
+  "source": "joint"
+}

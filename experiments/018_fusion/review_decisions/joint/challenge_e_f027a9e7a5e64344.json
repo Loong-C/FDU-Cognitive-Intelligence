@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "da1d8e206d286cbc2dce998783c8fcd1b031410efc853b3d34a606c1723add6b",
+  "evidence_quote": "Michael White won a Tony Award",
+  "key": "challenge_e_f027a9e7a5e64344",
+  "rationale": "The evidence names Mike and Michael without establishing an alias or family relationship. It therefore does not determine whether Mike won the Tony.",
+  "review_note": "Condensed missing-identity reasoning and included family restriction scope.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 707,
+  "source": "joint"
+}

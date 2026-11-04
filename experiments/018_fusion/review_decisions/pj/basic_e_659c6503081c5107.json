@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "353db5b9002baf673eaf4be1e5a97b2d931ce83d07a52b6b55544536d4be45e1",
+  "evidence_quote": "won Emmy Awards in 1966",
+  "key": "basic_e_659c6503081c5107",
+  "rationale": "The evidence states that Dick Van Dyke won Emmy Awards in 1966. It does not provide any information about whether he won awards before or after that year. The claim asserts that he won awards *again* after 1966. Since the evidence is silent on events occurring after 1966, it neither supports nor refutes the claim.",
+  "review_note": "PJ no later-event inference from a dated win.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 156,
+  "source": "pj"
+}

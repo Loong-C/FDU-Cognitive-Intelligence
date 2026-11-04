@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "41ce01ca1559f3879829a37868b85d40ce08a79ca7c18536a1c9e6d2f5273699",
+  "evidence_quote": "lived in London and Manchester",
+  "key": "basic_e_065dac8cbfc632ef",
+  "rationale": "The evidence says Tommy Robinson has lived in London and Manchester. This conjunction directly includes the claim that he has lived in Manchester.",
+  "review_note": "Read all 65 words; shorten the correct conjunction-elimination explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 13,
+  "source": "joint"
+}

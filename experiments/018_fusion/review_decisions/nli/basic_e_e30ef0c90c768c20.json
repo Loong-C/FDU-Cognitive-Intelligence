@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3e2f6a4f6ff85ae95ccc0b7c2965f1f940e266a78af52d3d8887ec2e607e6530",
+  "evidence_quote": "between 15 and 20 films",
+  "key": "basic_e_e30ef0c90c768c20",
+  "rationale": "Eighteen films falls within the stated 15-to-20 range. The range permits other counts, so it neither establishes nor excludes exactly 18.",
+  "review_note": "Remove enumeration and shorten.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 351,
+  "source": "nli"
+}

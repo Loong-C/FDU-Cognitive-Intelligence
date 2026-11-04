@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3300c64b81c40ae694d90f57187cd733f3905108b99e3c45e2701c001aa4f61b",
+  "evidence_quote": "wanted to partner",
+  "key": "basic_e_e1474e1a66561421",
+  "rationale": "Wanting to partner with Adidas expresses desire, not completed partnering. The evidence does not say whether the partnership actually occurred.",
+  "review_note": "Shorten desire-versus-completion reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 347,
+  "source": "nli"
+}

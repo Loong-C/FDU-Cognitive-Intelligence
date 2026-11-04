@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "01fb8ae7e88a435574f1bf9f256a1f835d368d7d1c545f8e581559e63674027a",
+  "evidence_quote": "for the first time in 1992",
+  "key": "basic_e_62bfbb9b023c2ce9",
+  "rationale": "The evidence explicitly identifies 1992 as the initial occurrence. It therefore excludes the claimed earlier occurrence.",
+  "review_note": "Shorten PJ first-event logic.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 150,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "80918737c4a4a0b18533126def4c7f91702d9a70595626a19c50f3dc74b7ea45",
+  "evidence_quote": "In 2018",
+  "key": "basic_e_56b61fdbc59eb690",
+  "rationale": "The 2018 win establishes at least one win by 2020. It gives no cumulative count, so three wins by then is possible but unconfirmed.",
+  "review_note": "Shorten PJ at-least-one reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 134,
+  "source": "pj"
+}

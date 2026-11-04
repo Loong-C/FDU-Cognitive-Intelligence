@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f7abbfbd51de487a77c432550cc66f7533d864b23411808d57b2df104d35263f",
+  "evidence_quote": "but later confirmed it",
+  "key": "challenge_e_fbcbe604cb6d49d2",
+  "rationale": "The director later confirmed the previously denied proposition that the Sun had been confirmed to harbor the anomaly. This supports the claimed confirmation.",
+  "review_note": "Shortened correct nested proposition and pronoun resolution.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 724,
+  "source": "pj"
+}

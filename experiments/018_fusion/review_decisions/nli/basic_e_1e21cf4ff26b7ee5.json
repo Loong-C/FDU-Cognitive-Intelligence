@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f5f78800d36bb642124b73775e67518df0dbb83441fd07dd22b8bdcdfe00d68f",
+  "evidence_quote": "As of 2023",
+  "key": "basic_e_1e21cf4ff26b7ee5",
+  "rationale": "Two launches as of 2023 gives no subsequent total. Without information about later launches, the evidence cannot determine whether the count reached three by 2025.",
+  "review_note": "Read NLI draft; keep the explicitly dated snapshot and later-count gap.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 46,
+  "source": "nli"
+}

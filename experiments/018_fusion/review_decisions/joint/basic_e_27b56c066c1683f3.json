@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3c1b325aa14600a5113413d88a63d15025aa043d6e376727a8459dad2cdffb73",
+  "evidence_quote": "for the first time in 2018",
+  "key": "basic_e_27b56c066c1683f3",
+  "rationale": "The evidence dates the initial win to 2018 but says nothing about later wins. Winning again afterward remains possible and unconfirmed.",
+  "review_note": "Shorten joint draft without importing award history.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 62,
+  "source": "joint"
+}

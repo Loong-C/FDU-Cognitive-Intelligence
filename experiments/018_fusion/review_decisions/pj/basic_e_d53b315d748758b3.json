@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "7a0cb814d6adfa0fa4463f8c5150ebab73afd900d412c3a06b1b4e30665e396c",
+  "evidence_quote": "two times in total",
+  "key": "basic_e_d53b315d748758b3",
+  "rationale": "The evidence explicitly states that Luka Modrić won the FIFA World Player of the Year award **two times in total**. The claim asserts that by 2020, he had won the award **three times**. Since the evidence establishes the total count as two, it contradicts the claim that the count was three.",
+  "review_note": "Unqualified total contradicts claimed three by 2020.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 323,
+  "source": "pj"
+}

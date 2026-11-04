@@ -1,0 +1,17 @@
+{
+  "as_of": "2026-11-02 16:32+08:00",
+  "remaining_planning_hours": [
+    18,
+    22
+  ],
+  "basis": "Fixed epoch3, overlapping final training with validation, 5724 new calls including 3 smoke calls; measured smoke mean below. Only three calls, not a guaranteed population throughput.",
+  "smoke_seconds": [
+    9.946575982496142,
+    15.647940116003156,
+    12.257140327244997
+  ],
+  "smoke_mean_seconds": 12.617218808581432,
+  "compute_stop": "2026-11-03T14:55:00+08:00",
+  "delivery_deadline": "2026-11-03T15:55:00+08:00",
+  "policy": "Stop at configured cutoff even if incomplete; report whole-method coverage and preserve failures. No automatic return to original full experiment."
+}

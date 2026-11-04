@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a508678e1677325ff288b1a8d407f38691960c61569e188d6fedd357cf74a637",
+  "evidence_quote": "the only time Dyke ever did so",
+  "key": "basic_e_7eaf3a43dc7b2bec",
+  "rationale": "Only one Emmy-winning occasion is allowed by the evidence, in 1966. Four occasions by 1969 conflicts with that restriction.",
+  "review_note": "Keep occasions distinct from individual award count.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 196,
+  "source": "pj"
+}

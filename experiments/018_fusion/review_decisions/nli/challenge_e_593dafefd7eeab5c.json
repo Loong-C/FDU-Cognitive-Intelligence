@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "05c74034a1aa50c972df8217c17552ede3cbb71e85c54324c6e075e42850cdcb",
+  "evidence_quote": "but later confirmed it",
+  "key": "challenge_e_593dafefd7eeab5c",
+  "rationale": "The evidence states that the Vatican Archives \"later confirmed\" that Saint Peter had secretly donated a golden chalice to a Roman temple. Since the evidence explicitly confirms the event described in the claim, the claim is entailed by the evidence.",
+  "review_note": "Later confirmation establishes donation despite initial denial.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 512,
+  "source": "nli"
+}

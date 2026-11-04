@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "bd676743b6d16a2eb8bc9fd64c54b20480688c26488ff30ec49a3b9657966e99",
+  "evidence_quote": "the only time Lookman ever did so",
+  "key": "basic_e_0e19b0635ddf1f97",
+  "rationale": "The phrase the only time makes the 2024 win unique. Winning again after 2024 would require a second instance, contradicting the supplied evidence.",
+  "review_note": "Read complete joint explanation; preserve its uniqueness-versus-second-instance argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 26,
+  "source": "joint"
+}

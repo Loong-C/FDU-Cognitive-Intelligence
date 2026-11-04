@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1b0e5d4d7bd375f39e5bbd8a7a261c8bbb7e699b9b5347a9e5ffd3b41f5d47f3",
+  "evidence_quote": "two times in total, most recently in 2024",
+  "key": "basic_e_10606436f69d65ad",
+  "rationale": "Two wins in total is the count established by the evidence. The claim requires three wins, which cannot fit that total; no earlier publication cutoff is supplied to limit the stated count.",
+  "review_note": "Read all 483 words; remove repeated self-questioning and the unsupplied early-report-date scenario. Do not weaken the explicit total to force coexistence.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 28,
+  "source": "pj"
+}

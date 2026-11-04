@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ec7a76eb6819d4f5da02b3015a6e275d2d42758b385533b3c38365f0e586c841",
+  "evidence_quote": "tried to sign with Sony Music",
+  "key": "basic_e_1755b9aae8463bef",
+  "rationale": "Trying to sign with Sony Music establishes an attempt, not its outcome. The evidence says neither that Streisand signed nor that the attempt failed.",
+  "review_note": "Read full NLI draft; shorten the valid attempt/completion distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 37,
+  "source": "nli"
+}

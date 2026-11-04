@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c75fef526504aeebd76aecf00bb38cd5919498630e6b18fe4c0d049c329b845a",
+  "evidence_quote": "over 15 finished fights",
+  "key": "basic_e_c67342fb35146622",
+  "rationale": "The evidence requires at least 16 finished fights without setting an upper limit. Exactly 16 is possible but unconfirmed.",
+  "review_note": "Condense correct integer-bound argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 296,
+  "source": "joint"
+}

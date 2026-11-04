@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e10f6095269194bbebe7654cbc9dc18e1cd21ef8255f8f9330a1020eff14e27f",
+  "evidence_quote": "no more than 20 feature films",
+  "key": "basic_e_d355b2bb3d8e3c39",
+  "rationale": "The evidence caps the count at 20 but does not specify it. Exactly 17 is compatible with that cap, not established by it.",
+  "review_note": "Condense upper-bound distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 319,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "09dcdb8e1e87e428b5310db824d47c2e4e3ebbb26ee6e0816b87694758a1509d",
+  "evidence_quote": "As of 2005",
+  "key": "basic_e_41ae9f359c2b78e7",
+  "rationale": "The evidence counts appearances up to the specified date but says nothing about later ones. Further appearances after 2005 are neither confirmed nor excluded.",
+  "review_note": "Shorten PJ preserve as-of cutoff.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 102,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "3937b2ff80ec96d6b94411235a1e94654944977a1fcc61cfaa1660275528fc36",
+  "evidence_quote": "succeeded in acquiring CapCut",
+  "key": "basic_e_002e3bfb1daa5736",
+  "rationale": "The evidence states that \"TikTok succeeded in acquiring CapCut.\" The claim states that \"TikTok acquired CapCut.\" Since succeeding in an acquisition means the acquisition took place, the evidence directly entails the claim.",
+  "review_note": "Succeeding in acquiring entails completed acquisition; the entire NLI draft uses this implicative relation correctly.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 1,
+  "source": "nli"
+}

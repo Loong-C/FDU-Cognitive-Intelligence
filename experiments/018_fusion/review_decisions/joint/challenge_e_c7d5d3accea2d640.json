@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3208dfdadc0c9ccfe3902b41539af01d3bd74ea11f5c4d917df36ade955116d2",
+  "evidence_quote": "Robert was named the 1974 Jamaican Nurse of the Year.",
+  "key": "challenge_e_c7d5d3accea2d640",
+  "rationale": "Robert refers to Robert Nesta Marley in the first sentence. The second explicitly names him the 1974 Jamaican Nurse of the Year.",
+  "review_note": "Shortened correct identity resolution.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 654,
+  "source": "joint"
+}

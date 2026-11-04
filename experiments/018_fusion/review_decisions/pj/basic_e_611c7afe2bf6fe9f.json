@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "812e1cfed042032f40a786c5e0b4c7a6efbbf3c8c27467b70e80fc4a6ab8ae87",
+  "evidence_quote": "between 10 and 20 airports",
+  "key": "basic_e_611c7afe2bf6fe9f",
+  "rationale": "Whether endpoints are included or not, the range does not exceed 20. The claim requires more than 20, contradicting it.",
+  "review_note": "Shorten PJ without asserting universal range convention.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 147,
+  "source": "pj"
+}

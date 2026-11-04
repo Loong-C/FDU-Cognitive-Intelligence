@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f332a43568819f375516c3ffcb3d2b561dae733c437bf3c8439ef3b4f589decf",
+  "evidence_quote": "As of 1992",
+  "key": "basic_e_52d1b1cf19eb2a22",
+  "rationale": "The count of two is fixed only as of 1992. Another event might or might not occur by 1995, so a total of three is undetermined.",
+  "review_note": "Shorten NLI dated-count reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 126,
+  "source": "nli"
+}

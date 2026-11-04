@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "1eb527a3228b83828be889813c420552029b7ddd0ffd8a345cfc1edf81e9c322",
+  "evidence_quote": "took office as president of Nintendo",
+  "key": "challenge_e_4c726c5191b8c8d2",
+  "rationale": "The evidence states that Shuntaro Furukawa took office as president in 2015. It does not provide any information regarding his status in 2025, such as whether he remained in the position, resigned, or was replaced. Therefore, based strictly on the provided text, we cannot determine if he was serving as president in 2025.",
+  "review_note": "Start date alone does not settle 2025 status; examples remain unknowns.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 492,
+  "source": "nli"
+}

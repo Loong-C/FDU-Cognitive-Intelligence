@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "91dc599486a8bec7edb707179a9c91e8f878fa82d8333c74a8212f05efac5f6d",
+  "evidence_quote": "In 2024",
+  "key": "basic_e_b037ab84e734ca81",
+  "rationale": "The evidence confirms a 2024 award win but says nothing about a subsequent win. It neither establishes nor excludes another win after 2024.",
+  "review_note": "Correct mistaken claim that again requires a pre-2024 win.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 264,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6733f88da6f71daef0cfb1493ceb674ac84978897cbf69b5e5e35a9b1383b108",
+  "evidence_quote": "John Fauci, Anthony Fauci's brother",
+  "key": "challenge_e_1a5db84903dc0c3c",
+  "rationale": "The evidence establishes John's Grammy win and his relationship to Anthony. It gives no award result for Anthony or exclusive-winner restriction, so Anthony's claimed win is neither supported nor refuted.",
+  "review_note": "Removed long self-questioning and outside award conventions.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 428,
+  "source": "nli"
+}

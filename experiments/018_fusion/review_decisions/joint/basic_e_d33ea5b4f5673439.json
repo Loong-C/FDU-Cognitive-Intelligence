@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1907cc2e7ec9a6a7f63c091b0c4b07cab430872170edadacf5c2c91ad67159c8",
+  "evidence_quote": "for the first time in 2010",
+  "key": "basic_e_d33ea5b4f5673439",
+  "rationale": "A first win in 2010 leaves all subsequent wins unspecified. The evidence therefore cannot determine the total by 2014.",
+  "review_note": "Remove incomplete list of possible later years.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 318,
+  "source": "joint"
+}

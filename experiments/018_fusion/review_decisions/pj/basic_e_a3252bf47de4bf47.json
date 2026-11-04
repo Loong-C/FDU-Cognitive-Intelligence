@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "aac3f2d6a0f24f31c70f08ed25cb18bc29decc0a6fc5036ced07f8aa97e23c5b",
+  "evidence_quote": "New York City and nowhere else",
+  "key": "basic_e_a3252bf47de4bf47",
+  "rationale": "The evidence restricts Chenoweth's recording locations to New York City. 'Nowhere else' excludes the claimed recording in Los Angeles.",
+  "review_note": "Shorten explicit exclusivity reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 248,
+  "source": "pj"
+}

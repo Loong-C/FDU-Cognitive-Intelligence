@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2c5f8e2678bf23fc6330c7ff9f44024a4d4d39bdf5994afa1b2c32691aa5e3c8",
+  "evidence_quote": "Cecilia Marley won a regional nursing excellence award",
+  "key": "challenge_e_084eef4a57a9f64c",
+  "rationale": "The evidence attributes the nursing award to Cecilia without identifying her as its only recipient. It gives no result for Robert, leaving his claimed 1974 award unresolved.",
+  "review_note": "Condensed sound nonexclusive award reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 406,
+  "source": "joint"
+}

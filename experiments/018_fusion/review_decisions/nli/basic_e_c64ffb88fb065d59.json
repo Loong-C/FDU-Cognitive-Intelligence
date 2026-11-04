@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fe068f48d13047b2856aacd7cd430b4d2b70331aa74a688db266ebb199012c2d",
+  "evidence_quote": "the only time Lookman ever did so",
+  "key": "basic_e_c64ffb88fb065d59",
+  "rationale": "The 2024 award is explicitly Lookman's only win ever. This excludes any award win before 2024, contradicting the claim.",
+  "review_note": "Shorten valid exclusive-occurrence argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 295,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3a086463a1683cab91aae5e2faaf10bc8d818f410ddbfbc3ccbd54f3a567fcb3",
+  "evidence_quote": "In 2005",
+  "key": "basic_e_dd44ee35c2e7dcca",
+  "rationale": "The evidence confirms such starring roles in 2005 without saying they were the first. It neither confirms nor rules out roles before 2005.",
+  "review_note": "Shorten nonexclusive-event reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 339,
+  "source": "nli"
+}

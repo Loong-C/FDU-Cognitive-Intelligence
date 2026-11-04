@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f04c4e2ea41229e48c6a5d570b9a4f1d1b8081f67f73714b9d482b270ec4a2c7",
+  "evidence_quote": "but this was delayed",
+  "key": "basic_e_6447fda1f9ae829a",
+  "rationale": "The evidence states that the August 15 release was delayed, indicating it did not occur on that date. The claim contradicts this.",
+  "review_note": "Shorten joint and remove unneeded movie label.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 153,
+  "source": "joint"
+}

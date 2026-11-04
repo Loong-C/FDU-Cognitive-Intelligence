@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f4056bc04a4d9cc67e4e1bd42436a056df24f48523d60470a743b2dbf50c0628",
+  "evidence_quote": "three children include Maeve and Aisling",
+  "key": "challenge_e_57cc7e55b870a11d",
+  "rationale": "Maeve and Aisling account for two of the stated three children. The unnamed child may or may not be Esme, leaving the claim unresolved.",
+  "review_note": "Condensed count-and-name gap.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 510,
+  "source": "joint"
+}

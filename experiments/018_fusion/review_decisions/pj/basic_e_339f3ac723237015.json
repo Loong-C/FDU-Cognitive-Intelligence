@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ede93e5c71a2ad3a6c273aa01925b4bae5bc23875205fc6d2fa3274b8c661083",
+  "evidence_quote": "In 2005, Ben Stiller starred",
+  "key": "basic_e_339f3ac723237015",
+  "rationale": "The number of starring occasions in 2005 and other years is unspecified. Thus the total of three by 2007 cannot be verified or contradicted.",
+  "review_note": "Shorten PJ; use starring occasions rather than film-release counts.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 78,
+  "source": "pj"
+}

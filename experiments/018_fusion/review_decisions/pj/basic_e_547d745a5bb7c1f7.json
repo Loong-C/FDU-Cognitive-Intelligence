@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "49b105bea0b3ca07c6dd065e346fa87672934dc6a92386e616e43fe52ed82e23",
+  "evidence_quote": "As of 2018",
+  "key": "basic_e_547d745a5bb7c1f7",
+  "rationale": "The evidence states that as of 2018, Luka Modrić had won the award two times. It does not provide any information about his award history between 2018 and 2020. Therefore, it is impossible to determine from the evidence alone whether he won the award a third time by 2020. The claim is neither entailed nor contradicted by the provided text.",
+  "review_note": "PJ correctly leaves intervening award history unknown.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 131,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5af2f2dfd84a8d86dc62ae8e8ed80d980ab22749078e20a9829a3679ca370e8c",
+  "evidence_quote": "The Vatican Archives denied",
+  "key": "challenge_e_61a78d5e5a788207",
+  "rationale": "The evidence reports a denial, not a factual finding about the donation. It neither confirms nor disproves Saint Peter's secret gift to the temple.",
+  "review_note": "Removed hypothetical institutional error and excess length.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 523,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "8f901a910d3696c135603de8f4413377d2103f2cb669521afc2e4b212f302ce7",
+  "evidence_quote": "18 films since the start of her career",
+  "key": "basic_e_2169ae08b2b4e3d2",
+  "rationale": "The evidence states explicitly that \"Linda Cardellini has appeared in 18 films since the start of her career.\" The claim is an exact repetition of this statement. Therefore, the evidence fully entails the claim.",
+  "review_note": "The entire NLI draft correctly treats the claim as an exact repetition of the stated career-film count.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 50,
+  "source": "nli"
+}

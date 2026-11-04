@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "29c2d5aa242bfb432c63b1c33bcf580fa524b93935a0402a1237960b8ad50a6b",
+  "evidence_quote": "a feat Peter Clay Carroll later repeated",
+  "key": "challenge_e_19b5ccb07eeffa5e",
+  "rationale": "The evidence states that Michael Carroll won a Grammy Award for Best New Artist and that Peter Clay Carroll \"later repeated\" this feat. In this context, \"repeated\" implies that Peter Clay Carroll achieved the same accomplishment, which is winning a Grammy Award for Best New Artist. Therefore, the evidence entails the claim.",
+  "review_note": "Repeated feat explicitly entails same award for Peter.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 427,
+  "source": "nli"
+}

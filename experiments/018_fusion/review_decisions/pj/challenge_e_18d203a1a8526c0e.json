@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b87250114052e11397f3f1ba54850409b4b996d1bf252ddc4babb82c486863d5",
+  "evidence_quote": "between 2015 and 2028",
+  "key": "challenge_e_18d203a1a8526c0e",
+  "rationale": "The evidence states that Shuntaro Furukawa served as president of Nintendo between 2015 and 2028. The year 2025 falls within the time interval defined by 2015 and 2028. Therefore, the evidence entails that he was serving in that role in 2025.",
+  "review_note": "Correct interval entailment for 2025.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 423,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b42daad51bc8ddcff61a12d64f2d5484a0928a5ef9536e5a1bfa4c5636b211db",
+  "evidence_quote": "released in the United States on November 22, 2024",
+  "key": "basic_e_0754d9b92d55060a",
+  "rationale": "Gladiator II was scheduled for November 15 but actually released in the United States on November 22, according to the evidence. The actual date conflicts with the November 15 date asserted by the claim.",
+  "review_note": "Read complete joint reasoning; shorten its correct same-event date comparison.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 16,
+  "source": "joint"
+}

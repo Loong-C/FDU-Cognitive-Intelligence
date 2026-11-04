@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "456b8b32eeb880341c74a027a58249a70b042ade466d78bbf5efe8b8c8084b17",
+  "evidence_quote": "like Halle Berry",
+  "key": "challenge_e_6a107623010de515",
+  "rationale": "The evidence states that \"Chad Berry, like Halle Berry, won a Grammy Award for Best Rap Album.\" The phrase \"like Halle Berry\" in this context implies that Halle Berry also won a Grammy Award for Best Rap Album, as it draws a parallel between the two individuals regarding this specific achievement. Therefore, the evidence entails the claim.",
+  "review_note": "Comparison establishes Halle shares Grammy achievement.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 532,
+  "source": "nli"
+}

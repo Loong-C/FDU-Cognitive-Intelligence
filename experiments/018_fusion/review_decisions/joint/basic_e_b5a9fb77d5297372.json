@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "594ee51f7b86f5bf198cf3be0c40999bf17e93d3fd269ac27b41c43e875d6ba6",
+  "evidence_quote": "on April 26, 2024",
+  "key": "basic_e_b5a9fb77d5297372",
+  "rationale": "Kraven the Hunter was actually released April 26, 2024, while December 13 was only scheduled. This contradicts the claimed December 13 release.",
+  "review_note": "Condense correct date distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 269,
+  "source": "joint"
+}

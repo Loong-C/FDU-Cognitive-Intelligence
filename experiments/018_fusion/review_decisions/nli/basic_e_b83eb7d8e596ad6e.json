@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "20f63e8eafbc6c8c0ca901dbc65f5b2e4417ca8689b2543f70bbde8db7b98c2a",
+  "evidence_quote": "most recently in 2005",
+  "key": "basic_e_b83eb7d8e596ad6e",
+  "rationale": "The evidence identifies 2005 as Stiller's most recent appearance in films featuring Alvin. An appearance after 2005 would contradict that latest date.",
+  "review_note": "Shorten latest-occurrence reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 272,
+  "source": "nli"
+}

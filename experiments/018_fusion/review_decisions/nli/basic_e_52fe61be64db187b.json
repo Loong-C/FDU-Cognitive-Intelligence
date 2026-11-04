@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "4756bb3087e64fccbfe52986e22b84856c5decdc48c3708e1c8329ec425e2c5b",
+  "evidence_quote": "29 sultans",
+  "key": "basic_e_52fe61be64db187b",
+  "rationale": "The evidence explicitly states that the Ottoman Empire had 29 sultans. The claim states that it had 28 sultans. Since 29 is not equal to 28, the evidence directly contradicts the claim.",
+  "review_note": "NLI exact 29 conflicts with 28.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 128,
+  "source": "nli"
+}

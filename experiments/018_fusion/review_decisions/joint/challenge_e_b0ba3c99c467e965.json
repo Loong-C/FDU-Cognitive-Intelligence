@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "28286ea3c9ca3a442f636ade76eb69e8d7c1bbf31b355ce57a1c4a9b95996e61",
+  "evidence_quote": "Alex Altman won a regional innovation award",
+  "key": "challenge_e_b0ba3c99c467e965",
+  "rationale": "Alex's regional award does not establish whether Sam received the specified entrepreneur title. Neither the award identities nor a restriction excluding Sam are provided.",
+  "review_note": "Removed self-debate and invented same-event context.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 619,
+  "source": "joint"
+}

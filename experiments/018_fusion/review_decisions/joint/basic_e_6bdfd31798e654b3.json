@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5dfbcfd9963183c2c076a636e2c3570426e3c689a4396e5d711ece8f4e3692ed",
+  "evidence_quote": "no more than 30 episodes",
+  "key": "basic_e_6bdfd31798e654b3",
+  "rationale": "The maximum of 30 does not fix the actual count. Both 27 and 29 satisfy the evidence, so the claim is undetermined.",
+  "review_note": "Shorten joint two possible totals.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 163,
+  "source": "joint"
+}

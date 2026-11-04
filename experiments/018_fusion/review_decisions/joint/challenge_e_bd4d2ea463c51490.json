@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2df7e071759ca88a84fa9a700224356486f92ed3f498e7b88c11755ec8d36279",
+  "evidence_quote": "The two children",
+  "key": "challenge_e_bd4d2ea463c51490",
+  "rationale": "The evidence names Farrell's two children as Maeve and Aisling. This exhaustive pair excludes Esme.",
+  "review_note": "Condensed correct count-based exclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 640,
+  "source": "joint"
+}

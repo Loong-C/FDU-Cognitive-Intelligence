@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ad589ae8ed0315de1ca322d2d078bd8a205c9607a18892e4acfd31c5bd3e280d",
+  "evidence_quote": "In 2009, she won",
+  "key": "challenge_e_13403d3b253a9c62",
+  "rationale": "'She' refers to Sarah Feig, so the passage attributes the 2009 Directors Guild award to Sarah. It does not establish or exclude a win for Paul in that year. The claim about Paul remains undetermined.",
+  "review_note": "Removed prolonged contradictory deliberation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 418,
+  "source": "nli"
+}

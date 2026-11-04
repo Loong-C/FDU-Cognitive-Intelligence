@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2c8bb61747d996deda66a06fcb3a54fe6bea88d27fb8afd148bbba1fed7c43b7",
+  "evidence_quote": "but this was delayed",
+  "key": "basic_e_ccc6fc64299e9060",
+  "rationale": "The tour's scheduled June 1, 2018 start was delayed. This contradicts the claim that it began on June 1.",
+  "review_note": "Shorten and avoid unnecessary claim of confirmed eventual start.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 308,
+  "source": "joint"
+}

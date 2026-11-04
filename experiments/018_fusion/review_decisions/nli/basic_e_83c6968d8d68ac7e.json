@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "58531872be4395376c6b653a894d2e1523f5d07502d62f01b75a0bcd9815e14c",
+  "evidence_quote": "three times in total",
+  "key": "basic_e_83c6968d8d68ac7e",
+  "rationale": "The evidence states that the Los Angeles Dodgers won the World Series \"three times in total.\" The claim asserts that by 2022, they had won it \"four times.\" Since the evidence explicitly defines the total count as three, it contradicts the claim that the count is four.",
+  "review_note": "Unqualified total three contradicts total four.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 206,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "605b16174857ba6d6f21340f4ae9b8f48d6c8ba18ad144757ea3e8a819252064",
+  "evidence_quote": "first served as president",
+  "key": "challenge_e_24f92e381fa3e52d",
+  "rationale": "The 2020 endpoint applies to Robertson's first term. No later terms or 2023 status are specified, leaving the claim about 2023 undetermined.",
+  "review_note": "Corrected first term mistaken for final term.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 441,
+  "source": "pj"
+}

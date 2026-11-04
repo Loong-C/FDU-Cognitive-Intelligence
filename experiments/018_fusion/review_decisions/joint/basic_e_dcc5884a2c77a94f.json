@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "70bc39d7396ce551228f2f567ac90015c6795ecad8a6d18f9af8a9d6747fc5e5",
+  "evidence_quote": "born in Pennsylvania",
+  "key": "basic_e_dcc5884a2c77a94f",
+  "rationale": "The evidence supplies no city of birth. Naming Pennsylvania alone does not determine whether Bacon was born in Pittsburgh.",
+  "review_note": "Shorten and remove outside geographic facts.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 338,
+  "source": "joint"
+}

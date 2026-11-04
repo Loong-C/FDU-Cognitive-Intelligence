@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "dc28c953a6430ffc9f35fa5f91336e3c6d096d4068e294255845ca366e65fbdb",
+  "evidence_quote": "years later Sharon Tate did the same",
+  "key": "challenge_e_06a497a504fe18db",
+  "rationale": "The evidence explicitly states that \"years later Sharon Tate did the same,\" referring to the action of winning the Academy Award for Best Actress mentioned in the previous clause regarding Sharon Stone. Therefore, the evidence directly supports the claim that Sharon Tate won the award.",
+  "review_note": "Did the same refers to the award-winning action.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 403,
+  "source": "nli"
+}

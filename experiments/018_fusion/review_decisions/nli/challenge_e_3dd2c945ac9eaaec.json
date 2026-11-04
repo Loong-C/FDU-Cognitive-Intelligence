@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "11d5d2e750723117223b5bf36fa1360389df0cebb257d21e156a2e2635890eec",
+  "evidence_quote": "the only member of the family",
+  "key": "challenge_e_3dd2c945ac9eaaec",
+  "rationale": "Yamal's cousin is explicitly the only family member to win an Olympic athletics gold. That restriction excludes Yamal, contradicting his claimed medal.",
+  "review_note": "Removed deliberation; grounded refutation in explicit only-family restriction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 474,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0d53c25d0dbf6f74ea297151c9641d129ad728b605d73576c60dfdbb13e55925",
+  "evidence_quote": "dismissed as baseless",
+  "key": "challenge_e_988bc16f8651f33c",
+  "rationale": "The former secretary general dismissed the negotiation reports as baseless. This establishes an assessment, not whether the IOC actually conducted those negotiations.",
+  "review_note": "Corrected dismissal as proof of falsity.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 594,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "415ce37769fcc3d77ed1121bbf239c59d4306497f9065c39182fc0def74ea008",
+  "evidence_quote": "Scottsdale, Arizona",
+  "key": "basic_e_f413a59ea39d9650",
+  "rationale": "The evidence states that Emma Stone was born in \"Scottsdale, Arizona.\" The claim states that she was born in \"Scottsdale.\" Since Scottsdale is a city located in Arizona, the specific location provided in the evidence (Scottsdale, Arizona) entails the more general location provided in the claim (Scottsdale). Therefore, the evidence supports the claim.",
+  "review_note": "The evidence's city-state wording itself supplies the location relation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 382,
+  "source": "pj"
+}

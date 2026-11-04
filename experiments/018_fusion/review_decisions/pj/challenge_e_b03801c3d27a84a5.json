@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0fc75ddec490222760cff26e8bfbd3869f4dc9399c12c5cd902d8ceb4441162e",
+  "evidence_quote": "the first member of the family",
+  "key": "challenge_e_b03801c3d27a84a5",
+  "rationale": "Stone is described as her family's first winner, not the only winner. The evidence gives no result for Tate and does not exclude her.",
+  "review_note": "Corrected invented annual instance and sole-winner restriction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 617,
+  "source": "pj"
+}

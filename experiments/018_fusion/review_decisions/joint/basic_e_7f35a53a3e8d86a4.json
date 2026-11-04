@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "3c29866219a5cc535d06f796e32fe0f12ac754e702dca82f6e4de6dbb8176799",
+  "evidence_quote": "born in Dallas",
+  "key": "basic_e_7f35a53a3e8d86a4",
+  "rationale": "The evidence explicitly states that \"Kristin Chenoweth was born in Dallas.\" The claim is identical to this statement. Therefore, the evidence directly entails the claim.",
+  "review_note": "Evidence supplies exact birthplace assertion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 197,
+  "source": "joint"
+}

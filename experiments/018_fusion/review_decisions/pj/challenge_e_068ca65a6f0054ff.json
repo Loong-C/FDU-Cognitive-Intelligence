@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c7e4be183ce153f921f3e3a2202484165a889eed336a35a2a7b7673f3031ab4f",
+  "evidence_quote": "years later Mike did the same",
+  "key": "challenge_e_068ca65a6f0054ff",
+  "rationale": "The phrase 'years later Mike did the same' refers back to winning a Tony Award for Best Director. It therefore establishes Mike White's win without requiring Michael White and Mike White to be the same person.",
+  "review_note": "Corrected nickname assumption and condensed rationale.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 402,
+  "source": "pj"
+}

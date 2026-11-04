@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "52c6ffc691dcd92393effb8e19e52adb809e4141e7463ba9bab3d12a490327c6",
+  "evidence_quote": "no more than 20 feature films",
+  "key": "basic_e_d355b2bb3d8e3c39",
+  "rationale": "No more than 20 films allows 17 but also other totals. The evidence sets a maximum without confirming the claimed exact count.",
+  "review_note": "Shorten correct upper-bound reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 319,
+  "source": "nli"
+}

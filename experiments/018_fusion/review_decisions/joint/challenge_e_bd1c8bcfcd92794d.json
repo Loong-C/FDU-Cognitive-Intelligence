@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "c293932f5588f8739610ba43b0ccc118f68ae9878fcc4bcb7a0e4f6b0bb9c6af",
+  "evidence_quote": "Sam became the 2021 Young Entrepreneur",
+  "key": "challenge_e_bd1c8bcfcd92794d",
+  "rationale": "The evidence explicitly states in the second paragraph: \"Sam became the 2021 Young Entrepreneur of the Year for the San Francisco Bay Area.\" The preceding sentence identifies \"Sam\" as Sam Altman (\"Sam Altman and his brother Alex Altman...\"). Therefore, the evidence directly supports the claim that Sam Altman received this specific award in 2021 for that region.",
+  "review_note": "Correct Sam Altman reference and exact title.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 639,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "7a9ceca2fa0670bd260734ce47cbba79d6e262c53b8182ea956baec68081cbef",
+  "evidence_quote": "at least 20 airports",
+  "key": "basic_e_97fc6d664a4897d4",
+  "rationale": "The evidence states that the United Arab Emirates has \"at least 20 airports.\" This means the number of airports is 20 or greater. The claim states that the United Arab Emirates has exactly \"15 airports.\" Since 15 is less than 20, the claim contradicts the lower bound established by the evidence.",
+  "review_note": "Exact fifteen contradicts lower bound of twenty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 234,
+  "source": "pj"
+}

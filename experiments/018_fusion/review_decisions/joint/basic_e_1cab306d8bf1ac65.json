@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6392897d603b224271a80dae2dd09ceea03941fa21958c9fbc595a11165e22fc",
+  "evidence_quote": "two times in total, most recently in 1992",
+  "key": "basic_e_1cab306d8bf1ac65",
+  "rationale": "A total of two such events cannot include three by 1995. The claim is incompatible with the count established by the evidence.",
+  "review_note": "Read joint draft; preserve the total-count constraint without inventing a cutoff.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 44,
+  "source": "joint"
+}

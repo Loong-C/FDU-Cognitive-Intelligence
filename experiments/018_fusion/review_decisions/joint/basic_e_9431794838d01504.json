@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fc7fe76a9ce4c643b3646a88b261a3b9bec6a24b148ddd0501f803e5ce4757e1",
+  "evidence_quote": "more than 30 sultans",
+  "key": "basic_e_9431794838d01504",
+  "rationale": "More than 30 sultans requires a count above 30. The claimed total of 28 is incompatible with that bound.",
+  "review_note": "Shorten correct strict-bound contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 228,
+  "source": "joint"
+}

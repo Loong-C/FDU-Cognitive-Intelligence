@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5c2302d0320ad5a03d8800e9f021fefd4bc41d668b9a38407290b7b3a113a34d",
+  "evidence_quote": "at least 10 airports",
+  "key": "basic_e_7756982bbca157dd",
+  "rationale": "A minimum of 10 permits totals at or below 20 and totals above 20. The evidence does not determine whether the stronger threshold is met.",
+  "review_note": "Shorten lower-bound comparison.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 187,
+  "source": "pj"
+}

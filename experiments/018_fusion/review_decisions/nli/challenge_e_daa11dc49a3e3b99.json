@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "20f2e18e73036e4e7a741ab3ce5207afc1877931f6609370cf968197e2ccaec8",
+  "evidence_quote": "like Christian",
+  "key": "challenge_e_daa11dc49a3e3b99",
+  "rationale": "\"Like Christian\" attributes Caleb's first-base experience for the Yankees to Christian too. This directly supports Christian Bale having played that position.",
+  "review_note": "Shortened correct shared-predicate interpretation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 677,
+  "source": "nli"
+}

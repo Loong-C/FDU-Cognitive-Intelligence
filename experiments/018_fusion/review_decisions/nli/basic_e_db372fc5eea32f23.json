@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "f6a564b1df050872a2d1983fff4a3d6b991a12334cdaa9c4f723ca7d37eb1776",
+  "evidence_quote": "born in Springfield",
+  "key": "basic_e_db372fc5eea32f23",
+  "rationale": "The evidence states explicitly that \"Chappell Roan was born in Springfield.\" The claim is identical to this statement. Therefore, the evidence fully entails the claim.",
+  "review_note": "Identical Springfield birthplace statement.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 331,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6bf63a6aabf30398975dcbeba92e0d094ca116602cd7157da34a1508b27f94d9",
+  "evidence_quote": "for the first time in 2020",
+  "key": "basic_e_3706486216385cbe",
+  "rationale": "A first win in 2020 does not specify the number of wins by 2022. No yearly frequency limit is stated, so the evidence cannot determine whether the total reached four.",
+  "review_note": "Replace truncated PJ self-debate; remove external annual-event assumption and end-of-year count inference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 86,
+  "source": "pj"
+}

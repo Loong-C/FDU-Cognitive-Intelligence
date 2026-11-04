@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "1ffccd2a49341860eb461efcfa52697b90051f4b6c4131d70b3f581a6469cc48",
+  "evidence_quote": "Baylor University and University of Texas at Austin",
+  "key": "basic_e_707f11ab1153b983",
+  "rationale": "The evidence explicitly states that Taylor Sheridan has attended the \"University of Texas at Austin\" (along with Baylor University). The claim asserts that Taylor Sheridan has attended the University of Texas at Austin. Since the claim is a direct subset of the facts presented in the evidence, the evidence entails the claim.",
+  "review_note": "Joint subset of explicit institutions.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 171,
+  "source": "joint"
+}

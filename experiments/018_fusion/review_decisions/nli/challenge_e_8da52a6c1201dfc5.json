@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b382b5358262e8d95516b17da0ef253dd52418677d937490314aa5853ca49fbb",
+  "evidence_quote": "first in the family",
+  "key": "challenge_e_8da52a6c1201dfc5",
+  "rationale": "John being the first family member to win the Grammy does not make him the only winner. The text gives no award outcome for Anthony.",
+  "review_note": "Corrected different-recipient exclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 580,
+  "source": "nli"
+}

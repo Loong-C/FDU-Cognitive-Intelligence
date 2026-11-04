@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "636eb96c0baafedcdea1aa544202ae6c25dfe08524cfabbc944fd503f183c17e",
+  "evidence_quote": "two children from his first marriage",
+  "key": "challenge_e_b07d38e199a8a99d",
+  "rationale": "Carter and Lindsay exhaust the children from Vrabel's first marriage only. The evidence does not identify all his children or settle whether Megan is a child outside that subset.",
+  "review_note": "Removed self-debate; retained restricted subset scope.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 618,
+  "source": "nli"
+}

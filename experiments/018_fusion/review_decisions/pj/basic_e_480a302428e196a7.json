@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "760fcc07365203d63f99cfd53b235bac532ad2d225c5c2ea81ec0501ef51b99b",
+  "evidence_quote": "no more than 20",
+  "key": "basic_e_480a302428e196a7",
+  "rationale": "The count is at most 20 according to the evidence, while the claim requires it to exceed 20. These cannot both hold.",
+  "review_note": "Shorten PJ inequality reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 115,
+  "source": "pj"
+}

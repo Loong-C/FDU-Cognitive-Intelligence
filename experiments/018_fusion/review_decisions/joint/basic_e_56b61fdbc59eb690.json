@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a08fea95055d3cdc33880b2127663dbfef543087cdc4b0302f323e1bfae73fa2",
+  "evidence_quote": "In 2018",
+  "key": "basic_e_56b61fdbc59eb690",
+  "rationale": "A win in 2018 does not specify wins at other times or the total by 2020. The exact count of three is undetermined.",
+  "review_note": "Shorten joint cumulative-count uncertainty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 134,
+  "source": "joint"
+}

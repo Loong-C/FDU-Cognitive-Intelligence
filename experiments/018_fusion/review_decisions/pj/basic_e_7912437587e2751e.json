@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b2d2ea5a22a268758c1926c4e8de535f2981bab16de9029e6706728dd3233272",
+  "evidence_quote": "scheduled to premiere",
+  "key": "basic_e_7912437587e2751e",
+  "rationale": "The initial schedule specifies August 10, 1939. It does not say whether the premiere actually occurred then, leaving the claim unresolved.",
+  "review_note": "Remove unwarranted inference that initially establishes schedule change.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 188,
+  "source": "pj"
+}

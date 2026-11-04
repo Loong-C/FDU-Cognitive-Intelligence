@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "40f642d2f4ed647e520df7b65d9d10c815245e17eccf03c5fae8d3816e89548d",
+  "evidence_quote": "Melania Trump, Donald's wife",
+  "key": "challenge_e_96e2465574f36551",
+  "rationale": "The Grammy is attributed to Melania. No award outcome for Donald or sole-winner restriction is given, so his claim is unresolved.",
+  "review_note": "Removed unsupported unique-recipient implication.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 589,
+  "source": "pj"
+}

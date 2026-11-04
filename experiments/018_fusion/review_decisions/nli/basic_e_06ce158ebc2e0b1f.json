@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "bfb270129332b9ac4be43fcf301a1123aa9320701a2811b71ad36267cecf001e",
+  "evidence_quote": "did not manage to receive a Grammy Award",
+  "key": "basic_e_06ce158ebc2e0b1f",
+  "rationale": "The evidence explicitly states that the American Civil War \"did not manage to receive a Grammy Award.\" The claim asserts the opposite, stating that they \"received a Grammy Award.\" Since the evidence directly negates the claim, the relationship is a contradiction.",
+  "review_note": "The negated manage-to implicative establishes nonreceipt; NLI correctly contradicts receipt without using real-world facts about the named subject.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 15,
+  "source": "nli"
+}

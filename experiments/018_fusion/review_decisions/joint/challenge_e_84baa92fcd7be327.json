@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "dfd6114a7e5caea04e8e538e17dae2e923891b210e628a3efee753bc6ffd3037",
+  "evidence_quote": "Alexander Skarsgård played the lead role",
+  "key": "challenge_e_84baa92fcd7be327",
+  "rationale": "The passage attributes the True Blood lead role to Alexander. It gives no corresponding fact about Bill and no restriction that would exclude Bill from also having a lead role.",
+  "review_note": "Removed invented rule that a named actor necessarily excludes another.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 568,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "098c8a1947c99168eb8e6456335fb0ec7e185ab5271babefca3316923a75bfb2",
+  "evidence_quote": "scheduled to begin",
+  "key": "basic_e_914c463e8ae94ae5",
+  "rationale": "The tour was initially scheduled to begin June 1, 2018, but the evidence does not confirm its actual start date. Beginning that day is neither established nor excluded.",
+  "review_note": "Remove hypothetical cancellations and shorten.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 224,
+  "source": "nli"
+}

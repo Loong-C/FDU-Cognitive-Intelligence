@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "d5639644f70288052aabef342e817a37238f1d0d4a81f04fa3f4cb29010e28e6",
+  "evidence_quote": "but later confirmed it",
+  "key": "challenge_e_506744a3521aeb4a",
+  "rationale": "The evidence states that the insurance firm Marsh \"later confirmed\" that the container ship Dali had been covered by a $50 million liability insurance policy. Since the evidence explicitly confirms the coverage, it entails the claim.",
+  "review_note": "Later confirmation directly establishes specified policy.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 497,
+  "source": "nli"
+}

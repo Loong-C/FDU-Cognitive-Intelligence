@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "46f929e79912f21d32b6573155123d93634a1419944e45e798eb8e086f41566b",
+  "evidence_quote": "between 15 and 20 films",
+  "key": "basic_e_64fb1458b0584b8f",
+  "rationale": "The stated range does not exceed 20 films. More than 20 is outside it and therefore contradicts the evidence.",
+  "review_note": "Shorten NLI upper-bound reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 155,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4da45238b49a6cde1dce7cab6ca0f32b583846ad57e9858e11cfb52db3b6239f",
+  "evidence_quote": "declined to comment on reports",
+  "key": "challenge_e_0c739d59f2239e63",
+  "rationale": "Marsh declined to comment on reports of Dali's $50 million liability policy. This establishes neither that the policy existed nor that it did not, leaving the claimed coverage unresolved.",
+  "review_note": "Replaced unsupported characterization of reports as rumors.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 412,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "f68401448372d1b40f008dd294382428c1e10eca4af718680c3ff045d08aa05d",
+  "evidence_quote": "like Anthony Fauci",
+  "key": "challenge_e_cbc1e519a47e8c43",
+  "rationale": "The evidence states: \"John Fauci, like Anthony Fauci, won a Grammy Award for Best New Age Album.\" The grammatical structure \"X, like Y, did Z\" asserts that X did Z and implies that Y also did Z. Therefore, the evidence explicitly establishes that Anthony Fauci won a Grammy Award for Best New Age Album. This directly entails the claim.",
+  "review_note": "Correct shared predicate and award category.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 661,
+  "source": "joint"
+}

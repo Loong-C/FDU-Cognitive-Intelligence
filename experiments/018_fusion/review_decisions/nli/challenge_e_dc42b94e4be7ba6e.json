@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "acef43fca50b292da8cc2ee1b377a3cd69928c32324a9d8821d18c2b83a84904",
+  "evidence_quote": "His nephew Caleb Bale played first base",
+  "key": "challenge_e_dc42b94e4be7ba6e",
+  "rationale": "Caleb, Christian's nephew, played first base for the Yankees. That does not establish Christian's own playing history or exclude him from the same role.",
+  "review_note": "Corrected other-person role as contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 681,
+  "source": "nli"
+}

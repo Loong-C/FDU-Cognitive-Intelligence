@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f7bb8df70bcdadb97e1930e067901356c30f273d8de231a83c1638a2e9fc5627",
+  "evidence_quote": "two children born in the 1990s",
+  "key": "challenge_e_107863750565aa1a",
+  "rationale": "Carter and Bryson exhaust the stated children born in the 1990s only. The evidence does not identify all children born in other years, so it cannot establish or exclude Lindsey as Harbaugh's child.",
+  "review_note": "Corrected scope of two-child count.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 416,
+  "source": "pj"
+}

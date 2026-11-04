@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0f7deb73f46618ceddd439d9cb73d484ed5d7df7b610679f56063bf6cd3f7c5e",
+  "evidence_quote": "they both received a knighthood",
+  "key": "challenge_e_c8ab2504ed37a6d0",
+  "rationale": "\"They both\" refers to Paula Vennells and Sarah Vennells. The text therefore includes Paula in the 2015 knighthood for services to education.",
+  "review_note": "Removed external damehood terminology and shortened.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 658,
+  "source": "pj"
+}

@@ -1,0 +1,77 @@
+{
+  "additional_interpretation_conventions": [
+    {
+      "example_train_indices": [
+        7,
+        89,
+        142
+      ],
+      "issue": "Bare between X and Y is treated as permitting endpoint values under the frozen labels. An exclusive mathematical reading would differ for some threshold claims.",
+      "mechanism": "BOUND",
+      "policy": "Fixed gold preserved; rationale uses explicit allowed-endpoint reading. No question removed."
+    },
+    {
+      "example_train_indices": [
+        28,
+        44,
+        61,
+        92
+      ],
+      "issue": "Unqualified in-total and most-recent statements are treated as exhaustive evidence; an unstated earlier report date is not invented. Explicit as-of statements remain snapshots.",
+      "mechanism": "TIMESHIFT",
+      "policy": "Fixed reviewed interpretation preserved; no gold modification."
+    },
+    {
+      "example_train_indices": [
+        21,
+        86
+      ],
+      "issue": "Award or championship names do not import external annual frequency limits into evidence-only inference. Conventional world knowledge could produce a different interpretation.",
+      "mechanism": "TIMESHIFT",
+      "policy": "Evidence-only inference retained; no external frequency premise or event history added."
+    }
+  ],
+  "effect_on_primary_data": "No rows excluded and no fixed labels changed. Identity conventions in rows651 and718 are explicit in all three reviewed rationales; original pre-amendment decisions are retained.",
+  "issues": [
+    {
+      "claim": "Lindsey is one of Jim Harbaugh's children.",
+      "evidence": "James Joseph Harbaugh ( HAR-baw; born December 23, 1963) is an American professional football coach and former quarterback who is the head coach for the Los Angeles Chargers of the National Football League (NFL). He previously served as the head coach at the University of Michigan from 2015 to 2023, the San Francisco 49ers from 2011 to 2014, Stanford University from 2007 to 2010, and the University of San Diego from 2004 to 2006. Harbaugh played college football at Michigan from 1983 to 1986 and in the National Football League (NFL) for 14 seasons from 1987 to 2000, with his longest tenure (1987–1993) as a player with the Chicago Bears.\nHarbaugh was born in Toledo, Ohio. Harbaugh's three children are Carter, Lindsey and Bryson. His father, Jack Harbaugh, was a football coach, and the family lived in Ohio, Kentucky, Iowa, Michigan, and California. He attended high school in Ann Arbor, Michigan, and Palo Alto, California, when his father was an assistant coach at Michigan and Stanford, respectively. After graduation from high school in Palo Alto in 1982, Harbaugh returned to Ann Arbor and enrolled at the University of Michigan and played quarterback for the Wolverines, starting for three seasons. As a fifth-year senior in 1986, he led Michigan to the 1987 Rose Bowl and was a Heisman Trophy finalist, finishing third.\nThe Chicago Bears selected Harbaugh in the first round of the 1987 NFL draft. He played 14 years as a quarterback in the NFL, with Chicago from 1987 to 1993, the Indianapolis Colts from 1994 to 1997, the Baltimore Ravens in 1998, and the San Diego Chargers in 1999 to 2000. He first became a regular starting quarterback in 1990 with Chicago. In 1995 with Indianapolis, he led the Colts to the AFC Championship Game, was selected to the Pro Bowl and was honored as NFL Comeback Player of the Year.",
+      "fixed_gold": "SUPPORTS",
+      "index": 651,
+      "issue": "Identity convention is not explicitly stated in evidence. Row 651 requires treating Jim as the conventional short form of James Joseph Harbaugh; row 672 leaves adjacent Mike White and Michael White unlinked. Fixed labels alone do not prove identity or nonidentity.",
+      "limitation": "Primary labels and data are preserved. Interpretation depends on contextual name-resolution conventions, which are not uniformly explicit across these two items.",
+      "original_rationale": "Lindsey is explicitly listed among Harbaugh's three children."
+    },
+    {
+      "claim": "Mike White won a Tony Award for Best Director.",
+      "evidence": "The third season of The White Lotus, an American satirical comedy drama anthology television series, premiered on HBO on February 16, 2025. The season was greenlit in November 2022, and filmed in Bangkok, Phuket, and Ko Samui from February to August 2024. Series creator Mike White wrote and directed all eight episodes. Michael White became the first in the family who won a Tony Award for Best Director.\nThe season features an ensemble cast of Leslie Bibb, Carrie Coon, Scott Glenn, Walton Goggins, Sarah Catherine Hook, Jason Isaacs, Lalisa Manobal, Michelle Monaghan, Sam Nivola, Lek Patravadi, Parker Posey, Sam Rockwell, Patrick Schwarzenegger, Tayme Thapthimthong, and Aimee Lou Wood, with Natasha Rothwell and Jon Gries reprising their roles from seasons 1 and 2. The series follows the lives of the staff and wealthy guests at a wellness resort in Thailand.\nThe season received mostly positive reviews from critics, but some criticized the slow pacing and found the final episode disappointing. The season won one Primetime Emmy Award (for Outstanding Original Main Title Theme Music) out of ten nominations, and was nominated for six Golden Globe Awards, failing to win any.",
+      "fixed_gold": "NOT ENOUGH INFO",
+      "index": 672,
+      "issue": "Identity convention is not explicitly stated in evidence. Row 651 requires treating Jim as the conventional short form of James Joseph Harbaugh; row 672 leaves adjacent Mike White and Michael White unlinked. Fixed labels alone do not prove identity or nonidentity.",
+      "limitation": "Primary labels and data are preserved. Interpretation depends on contextual name-resolution conventions, which are not uniformly explicit across these two items.",
+      "original_rationale": "The passage names Michael as the Tony winner but does not establish that Michael and Mike are the same person."
+    },
+    {
+      "claim": "Mike White won a Tony Award for Best Director.",
+      "evidence": "The third season of The White Lotus, an American satirical comedy drama anthology television series, premiered on HBO on February 16, 2025. The season was greenlit in November 2022, and filmed in Bangkok, Phuket, and Ko Samui from February to August 2024. Series creator Mike White wrote and directed all eight episodes. Michael White won a Tony Award for Best Director, the only member of the family to do so.\nThe season features an ensemble cast of Leslie Bibb, Carrie Coon, Scott Glenn, Walton Goggins, Sarah Catherine Hook, Jason Isaacs, Lalisa Manobal, Michelle Monaghan, Sam Nivola, Lek Patravadi, Parker Posey, Sam Rockwell, Patrick Schwarzenegger, Tayme Thapthimthong, and Aimee Lou Wood, with Natasha Rothwell and Jon Gries reprising their roles from seasons 1 and 2. The series follows the lives of the staff and wealthy guests at a wellness resort in Thailand.\nThe season received mostly positive reviews from critics, but some criticized the slow pacing and found the final episode disappointing. The season won one Primetime Emmy Award (for Outstanding Original Main Title Theme Music) out of ten nominations, and was nominated for six Golden Globe Awards, failing to win any.",
+      "fixed_gold": "NOT ENOUGH INFO",
+      "index": 707,
+      "issue": "Mike/Michael identity and family membership are not explicitly linked; preserve NEI and disclose contextual ambiguity.",
+      "limitation": "No data or gold changes. Same name-resolution convention limitation as rows 651/672.",
+      "original_rationale": "Michael's Tony and exclusive family status do not establish that Mike is the same person, a family member, or an award winner."
+    },
+    {
+      "claim": "Lindsey is one of Jim Harbaugh's children.",
+      "evidence": "James Joseph Harbaugh ( HAR-baw; born December 23, 1963) is an American professional football coach and former quarterback who is the head coach for the Los Angeles Chargers of the National Football League (NFL). He previously served as the head coach at the University of Michigan from 2015 to 2023, the San Francisco 49ers from 2011 to 2014, Stanford University from 2007 to 2010, and the University of San Diego from 2004 to 2006. Harbaugh played college football at Michigan from 1983 to 1986 and in the National Football League (NFL) for 14 seasons from 1987 to 2000, with his longest tenure (1987–1993) as a player with the Chicago Bears.\nHarbaugh was born in Toledo, Ohio. Harbaugh's children include Carter, Lindsey and Bryson. His father, Jack Harbaugh, was a football coach, and the family lived in Ohio, Kentucky, Iowa, Michigan, and California. He attended high school in Ann Arbor, Michigan, and Palo Alto, California, when his father was an assistant coach at Michigan and Stanford, respectively. After graduation from high school in Palo Alto in 1982, Harbaugh returned to Ann Arbor and enrolled at the University of Michigan and played quarterback for the Wolverines, starting for three seasons. As a fifth-year senior in 1986, he led Michigan to the 1987 Rose Bowl and was a Heisman Trophy finalist, finishing third.\nThe Chicago Bears selected Harbaugh in the first round of the 1987 NFL draft. He played 14 years as a quarterback in the NFL, with Chicago from 1987 to 1993, the Indianapolis Colts from 1994 to 1997, the Baltimore Ravens in 1998, and the San Diego Chargers in 1999 to 2000. He first became a regular starting quarterback in 1990 with Chicago. In 1995 with Indianapolis, he led the Colts to the AFC Championship Game, was selected to the Pro Bowl and was honored as NFL Comeback Player of the Year.",
+      "fixed_gold": "SUPPORTS",
+      "index": 718,
+      "issue": "SUPPORTS requires contextual Jim/James correspondence. All three revised rationales explicitly disclose this convention; evidence does not state an alias.",
+      "limitation": "No data or gold changes. Same name-resolution convention limitation as rows 651/672.",
+      "original_rationale": "Lindsey is explicitly included among Harbaugh's children."
+    }
+  ],
+  "row651_proposed_amendment": {
+    "note": "Explicitly disclose the conventional Jim/James mapping; evidence contains no stated alias. Existing immutable decisions retained pending root amendment workflow.",
+    "rationale": "Reading Jim as the conventional short form of James Joseph Harbaugh, the passage explicitly lists Lindsey among his three children. The name correspondence is a contextual convention, not an alias stated in the evidence."
+  }
+}

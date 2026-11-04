@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "87943b71129fd8177c87977fcb8edc147ddd23d1fde372fb74ee3d8c90077a2e",
+  "evidence_quote": "it began on June 15, 2018",
+  "key": "basic_e_a1cce4b379d3d592",
+  "rationale": "The evidence explicitly states that although the tour was *scheduled* to begin on June 1, 2018, it actually *began* on June 15, 2018. The claim asserts that the tour began on June 1, 2018. Since the evidence provides the actual start date as June 15, it directly contradicts the claim that the start date was June 1.",
+  "review_note": "Correctly distinguishes actual start from planned date.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 247,
+  "source": "pj"
+}

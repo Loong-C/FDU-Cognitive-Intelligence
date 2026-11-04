@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e7165381799c55beef9e9e747b70d48c9efcd53bd065f3736c11301d51f974a7",
+  "evidence_quote": "born in South Dakota",
+  "key": "basic_e_ae73f40e373aec2e",
+  "rationale": "The evidence does not specify Noem's birth city. Naming South Dakota alone leaves the claim about Watertown unresolved.",
+  "review_note": "Remove outside geographic facts and repetition.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 259,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c8ea1ac664a6f548060fbd8eb0def3ecd85dbb503eb5b862fe3b5cf72ba59c1c",
+  "evidence_quote": "A namesake Maurice Chevalier won an Academy Award for Best Actor",
+  "key": "challenge_e_02d8aaaa7d26d480",
+  "rationale": "The award is attributed to Maurice Chevalier. Maurice, Prince of Orange is separately named as the island's namesake. The evidence gives no award result for the Prince, so his claimed win is neither established nor excluded.",
+  "review_note": "Removed outside historical facts and false winner exclusivity.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 397,
+  "source": "nli"
+}

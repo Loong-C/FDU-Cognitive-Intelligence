@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "fc1d756f9317881652a86aca303b5e0140edcd5f3576fa5acf2f4e24c77f9bc4",
+  "evidence_quote": "declined to acquire CapCut",
+  "key": "basic_e_148c6195f40a088e",
+  "rationale": "The evidence explicitly states that \"TikTok declined to acquire CapCut.\" To decline an acquisition means to refuse or reject the act of acquiring. Therefore, the evidence establishes that the acquisition did not happen. The claim states that \"TikTok acquired CapCut,\" which is the direct opposite of the fact established in the evidence. Thus, the evidence contradicts the claim.",
+  "review_note": "Joint explanation correctly derives noncompletion from declining the acquisition, without guessing external facts.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 32,
+  "source": "joint"
+}

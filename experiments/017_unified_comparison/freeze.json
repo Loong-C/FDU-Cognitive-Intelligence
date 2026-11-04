@@ -1,0 +1,20 @@
+{
+  "experiments/016_finetune_27b/model_source.json": "5159ea77fce77d9d0d5ebc8f371cb01e0413c7bbeaa1d92ffc3df26afbca9c8f",
+  "experiments/016_finetune_27b/revision_2/training_protocol.json": "2d1c234c8d319177de7edd83379acf40fea64e4563c4a4240707242d7bed7f11",
+  "experiments/017_unified_comparison/evaluation.jsonl": "331bc971e2c3cacbc422114ea1ac1f5602722ca904eb927e86bbb2a1534f954a",
+  "experiments/017_unified_comparison/prompts.json": "e215a694d8dc4e090d3e8149734feb467e4836ada1c0e702faf78d4de3133d77",
+  "experiments/017_unified_comparison/protocol.json": "3f589a7db03aa56ad001de9891a74dfd02cbe043a38c694b10a9d2560063cd25",
+  "experiments/017_unified_comparison/source_prompts.json": "a9aadc38d48fa25e731ec5faac3816fcbb988392b81d11cf0530217801a2cd67",
+  "scripts/audit_unified_v17.py": "291beeed49b8f469791d88264829f4c5899987f4b70539b453305b69b42084ea",
+  "scripts/manage_unified_v17.py": "15beec3d220fc081b5f83dad376ba73efe1c4fbd5c413f581b7f72b98e0a3c59",
+  "src/ab_factcheck/__init__.py": "190f0fc52b699b3c76765f05f6a7c7777bc5e1f3618b58294eec5e6fcfbba4c3",
+  "src/ab_factcheck/common.py": "221b52864adfb7562a7622f6ea51b287623662dac30f901f9a0b77007598fdfb",
+  "src/ab_factcheck/finetune27b_engine.py": "9814f4633740dbed594fd9a516f482936645b7e8b7bae9dff6724de9a5a9e852",
+  "src/ab_factcheck/finetune27b_run_v2.py": "dff61cf61bc793968e138497660c4c36d698dc28c242bd31bea0bb26f70d93f7",
+  "src/ab_factcheck/finetune27b_training_v2.py": "1160164e908a3c665f4dcedd5e976b9a3bb376ae8e7505341f8676f425ea111b",
+  "src/ab_factcheck/finetune27b_v2.py": "11898261609a0c866573ac0448b5504acbe39aa10101aadee259983f95a94c5f",
+  "src/ab_factcheck/metrics.py": "4e98a81fd7a6a1ed9fb8feaf1ccd735a172fbe7521b6188c526f8226867fc5bb",
+  "src/ab_factcheck/splitting.py": "32be3ee4dd589c7aa02c0b9c1d459e227ff25870f10ace901e9acf87231ddba1",
+  "src/ab_factcheck/unified_v17.py": "1c4b892149c0b8e2c3b550758c9343d63668f192c9c4633e37f2b5dcedc5fe3e",
+  "tests/test_unified_v17.py": "a8af7526a004cde2479efb4206c1dd1d9606ff69aacc3962774e50fdc5abd4bb"
+}

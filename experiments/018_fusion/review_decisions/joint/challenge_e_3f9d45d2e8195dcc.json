@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "8e5b60c7bca8fd37edfd247624669191b92d1b22fe5511dc3b72332d21f96a9d",
+  "evidence_quote": "from 2024 to 2025",
+  "key": "challenge_e_3f9d45d2e8195dcc",
+  "rationale": "The evidence explicitly states that Susan Wojcicki \"returned to the post [CEO of YouTube] from 2024 to 2025.\" This time range includes the year 2024. Therefore, the evidence directly entails that she served as CEO of YouTube in 2024.",
+  "review_note": "Claimed year starts stated return period.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 478,
+  "source": "joint"
+}

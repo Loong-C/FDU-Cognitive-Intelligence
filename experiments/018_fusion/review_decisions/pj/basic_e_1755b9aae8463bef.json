@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b679ec6ae7e7a4d7bc58a76550430cd4c72f15531b81625f5b24a56dd0688fa0",
+  "evidence_quote": "tried to sign with Sony Music",
+  "key": "basic_e_1755b9aae8463bef",
+  "rationale": "The evidence reports an attempt to sign. It does not confirm successful signing or failure, leaving the claimed completed action unresolved.",
+  "review_note": "Read full PJ text; remove unnecessary contract terminology and retain the unknown outcome.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 37,
+  "source": "pj"
+}

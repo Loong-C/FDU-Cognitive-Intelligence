@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "197a27bd45f845c944d76f59c7cebd4a6fe00b5f8e78da361733c19e5df77743",
+  "evidence_quote": "As of 2020",
+  "key": "basic_e_e0433ba0bba1cbb4",
+  "rationale": "Three wins at the 2020 cutoff leaves the total by 2022 unspecified. A fourth win by then is neither confirmed nor excluded.",
+  "review_note": "Remove outcome-year enumeration.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 345,
+  "source": "pj"
+}

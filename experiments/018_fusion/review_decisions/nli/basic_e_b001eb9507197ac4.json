@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a325d5e90584c64c381bea822c5f3c6aa020559e8a4bc53c91db2edfc0d77adb",
+  "evidence_quote": "for the first time in 2010",
+  "key": "basic_e_b001eb9507197ac4",
+  "rationale": "The evidence calls 2010 Hough's first Mirrorball Trophy win. A win before 2010 would contradict that first-win date.",
+  "review_note": "Shorten correct first-occurrence exclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 262,
+  "source": "nli"
+}

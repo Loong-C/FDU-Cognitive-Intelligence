@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "808238d1b8f85acb0c9fe7660b2ec03a573f221dfccd8f591aec8be883c090bf",
+  "evidence_quote": "for the first time in 2010",
+  "key": "basic_e_2fa86f636724ab13",
+  "rationale": "The evidence gives the first win in 2010. It does not say whether Hough won again afterward, so later repetition is neither confirmed nor excluded.",
+  "review_note": "Shorten PJ first-win versus later-win distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 71,
+  "source": "pj"
+}

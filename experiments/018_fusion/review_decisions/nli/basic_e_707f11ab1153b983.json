@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "1bacbedc5e14ece9d2d8373821778ab96aa345fbc3be9cb73f3c4fb2d60674c1",
+  "evidence_quote": "Baylor University and University of Texas at Austin",
+  "key": "basic_e_707f11ab1153b983",
+  "rationale": "The evidence states that Taylor Sheridan has attended both Baylor University and the University of Texas at Austin. The claim asserts that Taylor Sheridan has attended the University of Texas at Austin. Since the evidence explicitly lists the University of Texas at Austin as one of the institutions he attended, the claim is fully supported by the evidence.",
+  "review_note": "NLI explicitly listed university entails attendance.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 171,
+  "source": "nli"
+}

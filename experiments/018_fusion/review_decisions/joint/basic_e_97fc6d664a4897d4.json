@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c6c0f8c09136ca966e4060de496b2622779d6113b89ab2ab9683d757c2de74a1",
+  "evidence_quote": "at least 20 airports",
+  "key": "basic_e_97fc6d664a4897d4",
+  "rationale": "The evidence requires 20 or more airports. The claimed total of 15 is below that minimum and therefore contradicts it.",
+  "review_note": "Shorten mathematical restatement.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 234,
+  "source": "joint"
+}

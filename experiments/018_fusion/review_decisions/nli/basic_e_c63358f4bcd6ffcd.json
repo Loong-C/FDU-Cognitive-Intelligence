@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "9c30a9d1378eb55b813257c2e47efa97e593380b2406f94e0372445420498a04",
+  "evidence_quote": "unable to acquire CapCut",
+  "key": "basic_e_c63358f4bcd6ffcd",
+  "rationale": "TikTok was unable to acquire CapCut, so the evidence denies the completed acquisition asserted by the claim.",
+  "review_note": "Remove unsupported identification of CapCut as company.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 294,
+  "source": "nli"
+}

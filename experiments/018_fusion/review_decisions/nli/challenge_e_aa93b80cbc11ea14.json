@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "dd5c7bd85e30811e3dc6247ebdb1d1d762d005aca34434d920c46f2945788059",
+  "evidence_quote": "Peter Clay Carroll's cousin",
+  "key": "challenge_e_aa93b80cbc11ea14",
+  "rationale": "Michael, Peter's cousin, won the Grammy. This does not establish Peter's award history, and no sole-winner restriction excludes him.",
+  "review_note": "Removed self-debate and annual-award assumptions.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 614,
+  "source": "nli"
+}

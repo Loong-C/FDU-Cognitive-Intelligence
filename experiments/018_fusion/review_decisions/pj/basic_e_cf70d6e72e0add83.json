@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b3abc12b9dd6a7e73cf81924353eff39388191da7298fbda3bccbe993dacf4f3",
+  "evidence_quote": "the only time Dodgers ever did so",
+  "key": "basic_e_cf70d6e72e0add83",
+  "rationale": "Only one World Series win is allowed by the evidence. The claim requires four by 2022, which conflicts with that total.",
+  "review_note": "Condense numerical contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 312,
+  "source": "pj"
+}

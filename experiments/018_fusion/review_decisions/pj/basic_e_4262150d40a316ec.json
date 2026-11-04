@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0f2873857f5c03803fea7af74af68f2523658144f54e58c66445aea67fbd6654",
+  "evidence_quote": "the only time Hough ever did so",
+  "key": "basic_e_4262150d40a316ec",
+  "rationale": "The evidence limits the total to one win. The claim requires three by 2014, which is incompatible.",
+  "review_note": "Shorten PJ explicit-count contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 105,
+  "source": "pj"
+}

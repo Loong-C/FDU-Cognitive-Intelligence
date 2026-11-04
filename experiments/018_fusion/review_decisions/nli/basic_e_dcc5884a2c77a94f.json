@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "07230acd4e6e892697c3be878adb404d3604ae78fca600a38dc04faa9445cc33",
+  "evidence_quote": "born in Pennsylvania",
+  "key": "basic_e_dcc5884a2c77a94f",
+  "rationale": "The evidence names Pennsylvania as Bacon's birthplace but does not specify Pittsburgh. It leaves his birth city undetermined.",
+  "review_note": "Remove outside city-state geography and examples.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 338,
+  "source": "nli"
+}

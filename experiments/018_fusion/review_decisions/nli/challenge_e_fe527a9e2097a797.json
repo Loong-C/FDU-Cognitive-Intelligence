@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "2c670aff3b8fd5f975be1e6ecce0bf8cc14636563e4d29cc4f7fd7b7aa7ded07",
+  "evidence_quote": "declined to comment on reports",
+  "key": "challenge_e_fe527a9e2097a797",
+  "rationale": "The evidence states that the production accountant \"declined to comment on reports\" regarding the allocation of funds. It does not confirm or deny the truth of those reports. Therefore, the evidence does not provide enough information to verify whether the allocation actually happened.",
+  "review_note": "Refusal to comment leaves actual allocation unresolved.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 726,
+  "source": "nli"
+}

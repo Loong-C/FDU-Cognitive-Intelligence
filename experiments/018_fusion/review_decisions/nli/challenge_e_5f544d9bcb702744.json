@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d8471a5b8d740e6ee36c7be9b5acba6a5bc2d44772312437527450df697ce799",
+  "evidence_quote": "The two children of Jim Harbaugh are Carter and Bryson",
+  "key": "challenge_e_5f544d9bcb702744",
+  "rationale": "The evidence gives exactly two children, Carter and Bryson. This complete enumeration excludes Lindsey and contradicts the claim.",
+  "review_note": "Removed self-questioning; preserved explicit exhaustive count.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 518,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "278018fb6832a77b121387d1d10aa6677db736a04d0e1c88d2730825f670580b",
+  "evidence_quote": "like Sharon Tate",
+  "key": "challenge_e_2648e06eb3ea54c5",
+  "rationale": "The sentence says Stone, like Tate, won Best Actress. This comparison attributes the award-winning achievement to both women, directly supporting Tate's claimed win.",
+  "review_note": "Shortened shared-action construction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 443,
+  "source": "joint"
+}

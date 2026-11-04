@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "3611e194455d642dcd2963af02439bff274c63c54bdc9e9f573ebe3b7cde4e48",
+  "evidence_quote": "years later Yamal did the same",
+  "key": "challenge_e_e163bcdba892026c",
+  "rationale": "The evidence states: \"Lamine Yamal's cousin won a Olympic gold medal in athletics; years later Yamal did the same.\"\n\nThe phrase \"did the same\" refers to the action described in the preceding clause, which is \"won a Olympic gold medal in athletics.\" Therefore, the evidence explicitly states that Lamine Yamal won an Olympic gold medal in athletics.",
+  "review_note": "Did the same refers to athletics gold; no outside facts.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 687,
+  "source": "pj"
+}

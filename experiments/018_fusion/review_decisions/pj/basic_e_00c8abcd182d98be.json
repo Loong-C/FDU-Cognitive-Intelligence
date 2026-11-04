@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "da92a7d0eef6e5bf3733f844c9e6d3947716bf76364ad8a8d332acd7384fee94",
+  "evidence_quote": "tried to partner with Adidas",
+  "key": "basic_e_00c8abcd182d98be",
+  "rationale": "Trying to partner with Adidas establishes an attempt but does not confirm that a partnership was established. The evidence also gives no failure outcome, so either result remains possible.",
+  "review_note": "Read full PJ draft; shorten its correct open-outcome argument without inferring failure from lack of confirmation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 2,
+  "source": "pj"
+}

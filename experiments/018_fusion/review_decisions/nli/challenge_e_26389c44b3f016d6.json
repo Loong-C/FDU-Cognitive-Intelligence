@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "c7af91b6f04994b9384a0ab65df5e41188457309d2a5c772c9421fe42f390b2a",
+  "evidence_quote": "In 2005, Jennifer published",
+  "key": "challenge_e_26389c44b3f016d6",
+  "rationale": "The evidence explicitly states, \"In 2005, Jennifer published a bestselling novel.\" The claim states, \"Jennifer Lee published a bestselling novel in 2005.\" Since the evidence identifies the subject as \"Jennifer Lee\" in the first sentence and refers to \"Jennifer\" in the second sentence (contextually the same person), and the action and time match exactly, the evidence entails the claim.",
+  "review_note": "Explicit Jennifer attribution matches name/action/year.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 442,
+  "source": "nli"
+}

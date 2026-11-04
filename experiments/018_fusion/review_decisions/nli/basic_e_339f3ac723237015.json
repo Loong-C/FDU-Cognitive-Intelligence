@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5cac57992cd66bf5f74f089bc6f9850b16be0a361a2bbcffbcb1cf5f01869492",
+  "evidence_quote": "In 2005, Ben Stiller starred",
+  "key": "basic_e_339f3ac723237015",
+  "rationale": "The evidence reports appearances in 2005 but gives no cumulative count by 2007. Three by then is possible but not established.",
+  "review_note": "Shorten NLI without assuming an exact 2005 count.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 78,
+  "source": "nli"
+}

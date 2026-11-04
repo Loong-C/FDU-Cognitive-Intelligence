@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "1714c7358bf8c93a0144e6b97cfa1c28db06658d59d98f8471dee1afeb07a567",
+  "evidence_quote": "In 2015, she received a knighthood",
+  "key": "challenge_e_190f468ac012e115",
+  "rationale": "The evidence explicitly states in the first paragraph: \"In 2015, she received a knighthood for services to education.\" This sentence directly matches the claim regarding the recipient (Paula Vennells), the honor (knighthood), the reason (services to education), and the year (2015). Therefore, the evidence entails the claim.",
+  "review_note": "Correctly preserves education service and 2015.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 424,
+  "source": "pj"
+}

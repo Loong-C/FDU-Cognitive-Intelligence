@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6dbae4cf4092c5697338d60ef2f9bec5a2ff3ed41cb96f4025607d49e4a9b52c",
+  "evidence_quote": "at least 20 films",
+  "key": "basic_e_db9f921c4b1e304a",
+  "rationale": "The evidence sets a minimum of 20, including 20 itself. It leaves unresolved whether the count is strictly greater than 20.",
+  "review_note": "Condense inequality analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 334,
+  "source": "joint"
+}

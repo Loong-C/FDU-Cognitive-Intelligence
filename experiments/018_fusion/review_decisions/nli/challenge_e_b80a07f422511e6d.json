@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f6d2268fb28318599d5203d4ab2c08a918a2aeaa27fc021fb01053ae3f139543",
+  "evidence_quote": "she won a National Book Award",
+  "key": "challenge_e_b80a07f422511e6d",
+  "rationale": "\"She\" refers to Kristen Gates, identifying her as a 1998 winner. The evidence neither confirms Bill's win nor excludes him through a sole-winner restriction.",
+  "review_note": "Preserved pronoun resolution, corrected exclusive-award assumption.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 630,
+  "source": "nli"
+}

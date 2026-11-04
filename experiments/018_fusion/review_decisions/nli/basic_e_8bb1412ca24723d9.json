@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "7350bb88771efe3ef57b81989450a305b9419585c2e81a60edc959bd13862519",
+  "evidence_quote": "As of 2020",
+  "key": "basic_e_8bb1412ca24723d9",
+  "rationale": "The evidence states the number of World Series wins the Los Angeles Dodgers had *as of* 2020. It does not provide any information about events occurring after 2020. Therefore, it is impossible to determine from the evidence alone whether they won the World Series again after that date. The claim is neither entailed nor contradicted by the provided text.",
+  "review_note": "Explicit as-of cutoff leaves later wins unspecified.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 217,
+  "source": "nli"
+}

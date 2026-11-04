@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ab65702e7add4723aadbc6ccb944706b687c4de15d5d00ccaa25aeb9e7def7d0",
+  "evidence_quote": "in 2020",
+  "key": "basic_e_e011a3464f6bfd1c",
+  "rationale": "The evidence provides a 2020 win without describing prior history. It cannot determine whether the Dodgers won before 2020.",
+  "review_note": "Shorten correct missing-history explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 343,
+  "source": "pj"
+}

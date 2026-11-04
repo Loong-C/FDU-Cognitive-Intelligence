@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "a9e136323d55d0ea1289471c783f26b2b4b6a5a3fd517cda6709c8e010ff17a4",
+  "evidence_quote": "eventually was released",
+  "key": "basic_e_8bc11f85ec32addf",
+  "rationale": "The evidence explicitly states that Gladiator II \"eventually was released in the United States on November 15, 2024.\" The claim asserts that \"Gladiator II was released in the United States on November 15, 2024.\" Since the evidence directly confirms the specific release date and location mentioned in the claim, the claim is fully supported by the evidence.",
+  "review_note": "Date and United States location both match.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 218,
+  "source": "joint"
+}

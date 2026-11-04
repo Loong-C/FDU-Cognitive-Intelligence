@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f964c5d22d0c3001892880dafc74b59a12df9d6fae77e3b91d266f76d8ee61aa",
+  "evidence_quote": "at least 20 films",
+  "key": "basic_e_108ab2739f9a17c6",
+  "rationale": "At least 20 films means a count of 20 or greater. The claimed count of 18 is below that minimum and therefore contradicts the evidence.",
+  "review_note": "Read 65-word joint draft; shorten its sound lower-bound contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 29,
+  "source": "joint"
+}

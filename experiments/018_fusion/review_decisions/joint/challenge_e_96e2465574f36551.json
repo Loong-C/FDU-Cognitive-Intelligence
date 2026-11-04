@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8ec8256f79fc22fa5ddac60538a946f10527cd193bba53b104b7d91d4ae4c190",
+  "evidence_quote": "Melania Trump, Donald's wife",
+  "key": "challenge_e_96e2465574f36551",
+  "rationale": "Melania's win neither establishes Donald's win nor excludes it. The text supplies no exclusive award restriction and no negative statement about Donald.",
+  "review_note": "Removed self-debate and outside award assumptions; retained sound open recipient reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 589,
+  "source": "joint"
+}

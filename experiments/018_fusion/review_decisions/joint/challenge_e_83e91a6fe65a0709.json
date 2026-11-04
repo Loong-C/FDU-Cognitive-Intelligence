@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0e45e34bd2f9b09d8700272a8497c2fc5ed4e84795c8315f3bc7541fbe30dbb6",
+  "evidence_quote": "Kenji Matsushita won a patent",
+  "key": "challenge_e_83e91a6fe65a0709",
+  "rationale": "The evidence names Kenji as winning a patent, but provides no exclusive restriction and no statement about Kōnosuke's patent awards. It therefore neither supports nor refutes the claim about Kōnosuke.",
+  "review_note": "Removed invented singular-event exclusivity and corrected verdict reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 566,
+  "source": "joint"
+}

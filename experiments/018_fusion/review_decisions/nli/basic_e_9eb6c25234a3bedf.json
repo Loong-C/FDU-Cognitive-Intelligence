@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "394e0751a004a2891776cda704253c3f1e8c972bacb995ae742fc4072f5427ed",
+  "evidence_quote": "won the Mirrorball Trophy in 2010",
+  "key": "basic_e_9eb6c25234a3bedf",
+  "rationale": "A Mirrorball Trophy win in 2010 does not specify whether Hough also won before 2010. The evidence gives neither a first-win date nor an exhaustive history.",
+  "review_note": "Remove task speculation and inconsistent unique-event framing.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 243,
+  "source": "nli"
+}

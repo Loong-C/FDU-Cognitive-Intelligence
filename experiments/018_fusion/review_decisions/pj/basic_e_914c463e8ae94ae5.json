@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "045c9a6392064705c6dee9a946a5a2f704d2b48632f32a07ba77b2eabe464ee2",
+  "evidence_quote": "scheduled to begin",
+  "key": "basic_e_914c463e8ae94ae5",
+  "rationale": "The evidence describes a planned June 1, 2018 start. It does not say whether the tour actually began on that date.",
+  "review_note": "Condense schedule-versus-outcome reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 224,
+  "source": "pj"
+}

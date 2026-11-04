@@ -1,0 +1,14 @@
+{
+  "approval": "User said 立刻执行.",
+  "archive_sha256": "a0e4e6991636e88016a23f7f88a7d5e98846cb1853b9cfcefb93ff5256597f46",
+  "isolated_tests_passed": 57,
+  "new_quick_tests": 9,
+  "original_runtime_unchanged": true,
+  "package_files": [
+    "scripts/collect_fusion_v18_quick24.py",
+    "scripts/manage_fusion_v18_quick24.py",
+    "src/ab_factcheck/fusion_v18_quick24.py",
+    "experiments/018_fusion/quick24_schedule.json"
+  ],
+  "schedule_sha256": "8bbf95c0ad26968bc7b504a8adc800c585cf0a615c2e57c48ef2c6ac4a116e63"
+}

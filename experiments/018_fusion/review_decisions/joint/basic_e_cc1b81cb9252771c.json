@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "dbae76e9cad167e51302a48584425fa0f9a1a8063dc6aaabc4c3780cbc26d942",
+  "evidence_quote": "fewer than 25 studio albums",
+  "key": "basic_e_cc1b81cb9252771c",
+  "rationale": "Fewer than 25 specifies a maximum range rather than an exact total. Twenty satisfies that constraint but is not established.",
+  "review_note": "Condense correct compatibility distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 306,
+  "source": "joint"
+}

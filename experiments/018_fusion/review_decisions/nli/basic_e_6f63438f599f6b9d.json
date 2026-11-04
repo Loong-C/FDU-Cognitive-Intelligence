@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "f1756510fe5e2ba1bc2167ca3f0d874e336948aa691cbf70269f284e70a5174e",
+  "evidence_quote": "for the first time in 1966",
+  "key": "basic_e_6f63438f599f6b9d",
+  "rationale": "The evidence states that Dick Van Dyke won Emmy Awards for the *first time* in 1966. This establishes the timing of his initial win but provides no information about whether he won any awards in the years following 1966. Therefore, we cannot determine if he won them \"again\" based solely on the provided text.",
+  "review_note": "NLI correctly leaves later Emmy wins unspecified.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 170,
+  "source": "nli"
+}

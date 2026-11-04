@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "f7ba2d9d2803a6465b9cba57f29e70e5eca69eb704de0854a4594f1272826360",
+  "evidence_quote": "As of 2010",
+  "key": "basic_e_e5082af51e1905d4",
+  "rationale": "The evidence states that as of 2010, Derek Hough had won the trophy two times. This provides information about his status up to that specific year but does not provide any information about events occurring after 2010. Therefore, it is impossible to determine from the evidence alone whether he won the trophy again after that date.",
+  "review_note": "Explicit cutoff leaves later wins unknown.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 354,
+  "source": "nli"
+}

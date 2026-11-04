@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "51e10cdd6d5dc81d13499a6bf0cd0cd51b126c381ecf7529368e95852ec5a4eb",
+  "evidence_quote": "both Robert and Cecilia Marley",
+  "key": "challenge_e_bba2c87a7060db36",
+  "rationale": "The evidence states that in 1974, \"both Robert and Cecilia Marley won a regional nursing excellence award.\" This explicitly confirms that Robert Nesta Marley won the award in that year. Therefore, the claim is fully supported by the evidence.",
+  "review_note": "Both includes Robert in 1974 nursing award.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 633,
+  "source": "nli"
+}

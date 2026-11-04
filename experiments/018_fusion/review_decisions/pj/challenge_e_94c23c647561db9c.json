@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6001043c0bceacd7c4afb07594aa5883cc60272128399f2b6874dc1648b147b5",
+  "evidence_quote": "an investigation later showed the reports to be false",
+  "key": "challenge_e_94c23c647561db9c",
+  "rationale": "An investigation showed the reports of the IOC's secret 2005 fast-food sponsorship negotiations to be false. That finding contradicts the claimed negotiations.",
+  "review_note": "Shortened while retaining investigation as decisive evidence.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 587,
+  "source": "pj"
+}

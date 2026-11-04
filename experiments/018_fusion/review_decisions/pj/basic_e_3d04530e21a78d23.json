@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "7a14221e4372df89416d85e65bdac8f6470d8175e0ee62a36017ca89412007c1",
+  "evidence_quote": "managed to sign",
+  "key": "basic_e_3d04530e21a78d23",
+  "rationale": "The evidence states that Barbra Streisand \"managed to sign with Sony Music.\" The phrase \"managed to sign\" implies that the action of signing was successfully completed. Therefore, the evidence entails that she did sign with Sony Music. The claim \"Barbra Streisand signed with Sony Music\" is fully supported by the evidence.",
+  "review_note": "PJ correctly derives completed signing.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 93,
+  "source": "pj"
+}

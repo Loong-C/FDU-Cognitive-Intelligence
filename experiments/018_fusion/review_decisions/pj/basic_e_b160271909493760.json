@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c4122cc3076f2046943de9b0c0bfc9823f163d2add8ca0d973f313ba9cc8a2d1",
+  "evidence_quote": "for the first time in 2005",
+  "key": "basic_e_b160271909493760",
+  "rationale": "The evidence identifies 2005 as the first time Stiller starred in films featuring Alvin. The claimed earlier appearance conflicts with that first occurrence.",
+  "review_note": "Shorten sound first-event argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 267,
+  "source": "pj"
+}

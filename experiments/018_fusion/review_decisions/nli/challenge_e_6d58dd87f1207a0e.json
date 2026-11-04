@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1bd7a3be730abbf8d51d41481efcf14bd79fdd06d735d3929e6a46a0347981cb",
+  "evidence_quote": "flatly denied reports",
+  "key": "challenge_e_6d58dd87f1207a0e",
+  "rationale": "The former assistant denied the marriage reports. That establishes the denial, not the marriage's absence. The evidence supplies no independent fact settling whether the secret 2012 marriage occurred.",
+  "review_note": "Corrected denial-as-disproof.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 535,
+  "source": "nli"
+}

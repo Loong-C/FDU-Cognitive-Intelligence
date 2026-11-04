@@ -1,0 +1,6 @@
+{
+  "new_manifest_sha256": "cdc2dd0c5e7ab88b9b3b54a652b2bac0809d8abaca9a1b229ccaa0db16608c42",
+  "previous_manifest_sha256": "7f2f395eee60bd16fb3f2a680d39f73b3a4c15ae4835485f2ca1ada0199185bb",
+  "prior_remote_execution": false,
+  "reason": "Isolated test caught per-dataset metric coverage mismatch; pass only matching basic/challenge predictions. Corrected before any priority deployment or execution."
+}

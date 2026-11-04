@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ee9e3043a20e5d6b8dc8604f0c22379f277a42ce4f5e7f101b412686a286c54f",
+  "evidence_quote": "under 15 studio albums",
+  "key": "basic_e_ce1b8536c4d6f61c",
+  "rationale": "An upper bound below 15 does not establish whether the count exceeds five. Counts satisfying and failing the claim remain possible.",
+  "review_note": "Shorten correct upper-bound reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 309,
+  "source": "joint"
+}

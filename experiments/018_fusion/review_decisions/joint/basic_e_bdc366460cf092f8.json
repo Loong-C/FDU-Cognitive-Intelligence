@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b765b4c4fdf75b08e5d8db99db3062f80f5d7fe3ca361c751a40314ecaca3e90",
+  "evidence_quote": "a delay pushed it back",
+  "key": "basic_e_bdc366460cf092f8",
+  "rationale": "The release was scheduled for December 13, 2024, but a delay pushed it back. That excludes the claimed release on the scheduled date.",
+  "review_note": "Shorten delay-versus-schedule argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 284,
+  "source": "joint"
+}

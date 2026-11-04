@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f1d44127ff7986b99c3b322c69c76bb0d4c3797a0ed89ac6cc65278ed0920fac",
+  "evidence_quote": "born in Melbourne, Victoria",
+  "key": "basic_e_315b1a2c289d41d2",
+  "rationale": "The evidence explicitly names Melbourne in the birthplace phrase Melbourne, Victoria. The claim retains that name while omitting the additional qualifier.",
+  "review_note": "Shorten joint and remove external assertion that Victoria is a state.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 74,
+  "source": "joint"
+}

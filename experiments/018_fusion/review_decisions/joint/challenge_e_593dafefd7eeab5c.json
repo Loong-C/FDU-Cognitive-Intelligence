@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d4ac8e2bcc0401cd0e1ec54f19e7bf4ad4b65060229f0ed1ea29f5dd1ff3074f",
+  "evidence_quote": "but later confirmed it",
+  "key": "challenge_e_593dafefd7eeab5c",
+  "rationale": "The Archives later confirmed Saint Peter's secret donation of a golden chalice to a Roman temple. This directly supports the claim despite the earlier denial.",
+  "review_note": "Removed unnecessary authority-based explanation and excess length.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 512,
+  "source": "joint"
+}

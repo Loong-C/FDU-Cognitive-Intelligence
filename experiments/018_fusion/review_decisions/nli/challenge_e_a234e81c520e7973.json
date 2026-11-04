@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e9babd006f383845692501bb21656f7b86f4dc913712ad6fb918c8d6abee24fa",
+  "evidence_quote": "refused to confirm",
+  "key": "challenge_e_a234e81c520e7973",
+  "rationale": "The assistant refused to confirm the marriage. That supplies no verification of the event and no assertion establishing its nonoccurrence, leaving the claim unresolved.",
+  "review_note": "Shortened correct withheld-confirmation distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 606,
+  "source": "nli"
+}

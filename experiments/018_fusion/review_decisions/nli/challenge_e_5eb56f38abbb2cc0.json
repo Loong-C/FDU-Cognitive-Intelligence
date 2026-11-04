@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f17daf862b3516ce98c8589539b44f15063d927481fcf9d8b71bdeff025afac8",
+  "evidence_quote": "the first member of the family",
+  "key": "challenge_e_5eb56f38abbb2cc0",
+  "rationale": "John's Tony and first-family-winner status do not establish Peter's award history. The evidence does not say John was the only winner, so Peter's claim remains undetermined.",
+  "review_note": "Shortened first-versus-only distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 516,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7c6641dae631f186f345240248d2c5ac868177b602e851ec209b77c38a5e9d5c",
+  "evidence_quote": "In 1992, he published",
+  "key": "challenge_e_26c2e121678d0412",
+  "rationale": "David is the referent of 'he' and is credited with the paper. This neither establishes nor excludes Claudia's publication, since no sole-author restriction is stated.",
+  "review_note": "Removed invalid negative inference about Claudia.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 445,
+  "source": "pj"
+}

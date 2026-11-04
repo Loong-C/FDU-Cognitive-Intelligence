@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8ad04e2780bc613416827937030f2bb53b0645d7e2d82b265de925c7454b211a",
+  "evidence_quote": "Michael White won a Tony Award",
+  "key": "challenge_e_f027a9e7a5e64344",
+  "rationale": "Michael is named as the Tony winner, without a stated identity or family link to Mike. The family-only restriction cannot determine Mike's claim.",
+  "review_note": "Removed typo speculation and self-debate; preserved missing identity.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 707,
+  "source": "pj"
+}

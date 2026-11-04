@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e534b91883aceff25d8bd25902135ada2b8077b2985ad19b8e6d5ffd585cfb6a",
+  "evidence_quote": "the only time OpenAI ever did so",
+  "key": "basic_e_e3780ad8d355d749",
+  "rationale": "The evidence says the 2023 major model update launch was the only such occasion ever. That single occurrence contradicts three occasions by 2025.",
+  "review_note": "Shorten correct exclusive-count argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 352,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "0b476cd15fd53a626c3714fb7966ed12c29dffdc2aad0a89c6b25763177ef716",
+  "evidence_quote": "In 2010, Donald won",
+  "key": "challenge_e_2c65b8f87222d17a",
+  "rationale": "The evidence explicitly states, \"In 2010, Donald won a regional theater award.\" The claim is \"Donald Glover won a regional theater award in 2010.\" Since the evidence directly confirms the specific event, person, and time mentioned in the claim, the claim is entailed by the evidence.",
+  "review_note": "Donald explicitly receives award in matching year.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 450,
+  "source": "nli"
+}

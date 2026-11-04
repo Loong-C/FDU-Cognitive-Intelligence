@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1fef5e7cbd6bbbcc268ac7dd998eb7f8370fc5786d00d2b9a6a55df472ad4f58",
+  "evidence_quote": "As of 1992",
+  "key": "basic_e_b9d646320dc27bb4",
+  "rationale": "The evidence records two pound-shorting events as of 1992. It says nothing about later events, leaving another event after 1992 unresolved.",
+  "review_note": "Shorten explicit-cutoff reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 276,
+  "source": "nli"
+}

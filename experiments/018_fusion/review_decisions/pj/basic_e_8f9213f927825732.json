@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6d2149869aae15b1ca4de940a2cbbb2f5ad0393d61d47c7ed6c5f27087935ac9",
+  "evidence_quote": "most recently in 2020",
+  "key": "basic_e_8f9213f927825732",
+  "rationale": "If the Dodgers had won again after 2020, their most recent win would be later than 2020. The evidence explicitly gives 2020 as most recent.",
+  "review_note": "Condense and remove unnecessary reporting-time qualification.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 222,
+  "source": "pj"
+}

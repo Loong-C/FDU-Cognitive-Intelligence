@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "866c9403d5a39ca05aebc9c90708e2810404b53545c5a605c2fd486161a1f12c",
+  "evidence_quote": "two times in total",
+  "key": "basic_e_8b768e47d00148c4",
+  "rationale": "The evidence states two major model update occasions in total, most recently in 2023. The claim of three by 2025 conflicts with the explicit total of two.",
+  "review_note": "Correct erroneous label caused by invented 2023 reporting cutoff.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 215,
+  "source": "pj"
+}

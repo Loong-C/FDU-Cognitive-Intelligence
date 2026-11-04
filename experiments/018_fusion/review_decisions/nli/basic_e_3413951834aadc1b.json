@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e8a15097056b5f20e795f694bb8571e2595041e43c65b2890bb3723ac7f75621",
+  "evidence_quote": "eventually was ultimately released on August 15, 2024",
+  "key": "basic_e_3413951834aadc1b",
+  "rationale": "The evidence explicitly gives August 15, 2024 as the eventual release date, matching the claim despite the different original schedule.",
+  "review_note": "Remove unsupported movie categorization from NLI.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 80,
+  "source": "nli"
+}

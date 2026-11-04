@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "0ee7aed6d6eac320c8287fc70ef983cfdd73e1f7d2ed73db02b1cef82cb278bc",
+  "evidence_quote": "for the second time",
+  "key": "basic_e_90fe6c12325e2c3e",
+  "rationale": "The evidence states that Luka Modrić won the award in 2018 for the second time. It provides no information regarding his award history after 2018. Therefore, the evidence neither confirms nor contradicts the claim that he won the award again after 2018.",
+  "review_note": "Dated second win does not determine later history.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 223,
+  "source": "joint"
+}

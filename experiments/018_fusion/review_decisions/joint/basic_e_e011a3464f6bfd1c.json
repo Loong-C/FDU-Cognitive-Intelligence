@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3668881cd6524d5023b85e1525cf8a5d93771fb56cfe6ffe8901b09b52b42051",
+  "evidence_quote": "in 2020",
+  "key": "basic_e_e011a3464f6bfd1c",
+  "rationale": "A win in 2020 is compatible with both earlier wins and no earlier wins. The evidence does not settle the claim about before 2020.",
+  "review_note": "Condense nonunique dated-event reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 343,
+  "source": "joint"
+}

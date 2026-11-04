@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "34b1b855be01e1ff6717e7d98bfef7a5f41358f9f328ce81e3d0f8d5b5e40cc0",
+  "evidence_quote": "and nowhere else",
+  "key": "basic_e_4eb383190fdc4e05",
+  "rationale": "Madison Square Garden is explicitly the only performance location. The claim names Croke Park, which is excluded by nowhere else.",
+  "review_note": "Shorten PJ exhaustive venue restriction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 121,
+  "source": "pj"
+}

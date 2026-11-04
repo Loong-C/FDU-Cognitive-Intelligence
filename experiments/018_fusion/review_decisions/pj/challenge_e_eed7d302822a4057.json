@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "71bc4e12419d06b500d9c8f0a392bd1c0ac84ac3a79d77b41dd4ec16d2d2d772",
+  "evidence_quote": "from his first marriage",
+  "key": "challenge_e_eed7d302822a4057",
+  "rationale": "The count of two applies to the first marriage only. The evidence does not determine whether Sam is a child from another relationship.",
+  "review_note": "Condensed valid limited set closure.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 705,
+  "source": "pj"
+}

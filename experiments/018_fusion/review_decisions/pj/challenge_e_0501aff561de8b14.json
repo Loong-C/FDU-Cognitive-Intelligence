@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8db6349ffbdb4e279332f71923a67f3bb926ef4c9815827a7d1ef35c5018e2cb",
+  "evidence_quote": "a state-level parenting award",
+  "key": "challenge_e_0501aff561de8b14",
+  "rationale": "The evidence gives a 2015 state-level parenting award but specifies neither Minnesota nor Parent of the Year. Those additional details remain unresolved, so the claim cannot be verified or refuted.",
+  "review_note": "Shortened two-part specificity check.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 401,
+  "source": "pj"
+}

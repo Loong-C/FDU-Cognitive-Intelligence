@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "01ef48aa29dca7d3f84ae9a665cce60c5c9a35ee75fbcac9d965e9ceae281398",
+  "evidence_quote": "In 1982, he authored",
+  "key": "challenge_e_14e27e0310ad7b3a",
+  "rationale": "The preceding sentence names Saddam and his sister. 'He' therefore identifies Saddam as author of the seminal Islamic jurisprudence treatise in 1982, directly supporting the claim.",
+  "review_note": "Condensed gender-based reference reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 419,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "3d3c69a8bb490b03cf0afac9e29d8a0163e5b3a8c8d3137886f3debd9eaf8462",
+  "evidence_quote": "both Natalie and Jonathan Portman",
+  "key": "challenge_e_eeb96fa14f03b826",
+  "rationale": "The evidence explicitly states: \"In 2007, both Natalie and Jonathan Portman won a local culinary award.\" This sentence directly confirms that Natalie Portman won a local culinary award in 2007. Therefore, the claim is fully supported by the provided text.",
+  "review_note": "Direct joint-recipient statement entails Natalie win.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 704,
+  "source": "joint"
+}

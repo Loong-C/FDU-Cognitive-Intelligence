@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ec0ab5ec5f36081fa81a3f35ae38f467779560dc756975e5c77ea9bf8d935ca5",
+  "evidence_quote": "between 20 and 25 films",
+  "key": "basic_e_03f7dfc77a67b25d",
+  "rationale": "Exactly 20 films is consistent with the stated range but not with the claim of more than 20; counts from 21 to 25 satisfy both. Thus the claim is neither entailed nor contradicted.",
+  "review_note": "Read complete joint draft; retain its two explicit boundary scenarios and remove repetitive interpretation discussion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 7,
+  "source": "joint"
+}

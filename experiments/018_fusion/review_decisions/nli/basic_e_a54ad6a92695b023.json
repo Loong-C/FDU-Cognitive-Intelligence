@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "50a1ae9c144c75b9d5f07a8c5459f457fcf3edd87428d36a46a8a694ed33649f",
+  "evidence_quote": "born in Belgium",
+  "key": "basic_e_a54ad6a92695b023",
+  "rationale": "The evidence names Belgium as Lukaku's birthplace but does not specify Antwerp. It neither confirms nor explicitly excludes the claimed specific location.",
+  "review_note": "Remove outside geography and example cities.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 249,
+  "source": "nli"
+}

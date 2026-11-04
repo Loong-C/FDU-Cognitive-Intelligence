@@ -1,0 +1,19 @@
+{
+  "files": {
+    "scripts/audit_fusion_v18.py": "6180f777d5804087eaeadb2a19cb9cb6ee2c059ab3c16a1a854972ce84822512",
+    "scripts/finetune27b_service_guard.py": "bbe3b071fd702b61e7fedbb50172171e0f9b7f29247de564bef5620163cbc963",
+    "scripts/manage_fusion_v18.py": "24e5494ae5978d3036bb5bd1912e9157376a5c9e7566cbc6000c575d16ffe502",
+    "src/ab_factcheck/__init__.py": "190f0fc52b699b3c76765f05f6a7c7777bc5e1f3618b58294eec5e6fcfbba4c3",
+    "src/ab_factcheck/common.py": "221b52864adfb7562a7622f6ea51b287623662dac30f901f9a0b77007598fdfb",
+    "src/ab_factcheck/finetune27b_engine.py": "9814f4633740dbed594fd9a516f482936645b7e8b7bae9dff6724de9a5a9e852",
+    "src/ab_factcheck/finetune27b_run_v2.py": "dff61cf61bc793968e138497660c4c36d698dc28c242bd31bea0bb26f70d93f7",
+    "src/ab_factcheck/finetune27b_training_v2.py": "1160164e908a3c665f4dcedd5e976b9a3bb376ae8e7505341f8676f425ea111b",
+    "src/ab_factcheck/finetune27b_v2.py": "11898261609a0c866573ac0448b5504acbe39aa10101aadee259983f95a94c5f",
+    "src/ab_factcheck/fusion_v18.py": "2353f6c6a4ecf5594df7470eeb6b432c7e37d21118d4ca29c324099c4861269e",
+    "src/ab_factcheck/fusion_v18_report.py": "35aa07b83c45223ef3c131f9d64e9d5d8443a9cf2a70f1ea934ff7f58035a39b",
+    "src/ab_factcheck/fusion_v18_run.py": "5ebae72ed2efe42030cfd6839cdcb5184809a148da4d7347a64f9e1e2f933159",
+    "src/ab_factcheck/fusion_v18_training.py": "6e6eaa27f68c904fa90a90466e11256522557ef51d660c8c867454b9d116bd92",
+    "src/ab_factcheck/metrics.py": "4e98a81fd7a6a1ed9fb8feaf1ccd735a172fbe7521b6188c526f8226867fc5bb",
+    "src/ab_factcheck/splitting.py": "32be3ee4dd589c7aa02c0b9c1d459e227ff25870f10ace901e9acf87231ddba1"
+  }
+}

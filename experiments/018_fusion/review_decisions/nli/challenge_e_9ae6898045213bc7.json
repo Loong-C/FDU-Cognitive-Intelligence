@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "7c4fccd3afe66a06bf567c9dc91391125bc84abbc289b2d3d4fd11e3a51f2f00",
+  "evidence_quote": "In 2021, Sam won a regional innovation award",
+  "key": "challenge_e_9ae6898045213bc7",
+  "rationale": "The evidence explicitly states in the second paragraph: \"In 2021, Sam won a regional innovation award for his startup.\" This directly matches the claim that Sam Altman won a regional innovation award for his startup in 2021.",
+  "review_note": "Sam Altman is unambiguous; year and startup award explicit.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 596,
+  "source": "nli"
+}

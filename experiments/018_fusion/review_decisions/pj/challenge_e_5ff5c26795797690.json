@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d923f0d9c475af53e79f87d0944205d5b3fd6b46a5a0edddee7afbe21865d69e",
+  "evidence_quote": "three siblings, including Pauline and Alex",
+  "key": "challenge_e_5ff5c26795797690",
+  "rationale": "Chalamet has three siblings, but only Pauline and Alex are named. The third sibling is unidentified, so the evidence neither confirms nor excludes Gabriel.",
+  "review_note": "Condensed valid unnamed-sibling reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 520,
+  "source": "pj"
+}

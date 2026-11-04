@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1f89075d4a17a41d595343f2910ac6fa103fea2017a20b25118b625c928c9e5f",
+  "evidence_quote": "eventually was ultimately released on August 15, 2024",
+  "key": "basic_e_3413951834aadc1b",
+  "rationale": "The claim restates the eventual release date given in the evidence. The original scheduled date does not change that explicit actual date.",
+  "review_note": "Remove joint movie classification and retain actual release.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 80,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "91210077670929f6698728646dd61e353c3e6c7e092fae7980ba9c511be8fe1e",
+  "evidence_quote": "for the first time in 2024",
+  "key": "basic_e_4f190cc0cf3a27e7",
+  "rationale": "The first win occurred in 2024, but the total by 2026 is not supplied. Three by then is possible, not established.",
+  "review_note": "Shorten NLI future count reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 122,
+  "source": "nli"
+}

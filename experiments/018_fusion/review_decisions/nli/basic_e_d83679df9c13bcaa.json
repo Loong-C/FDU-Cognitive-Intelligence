@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "cf1a80ddc8f3f23cb6010ca766da037fa5832c0a74b5f6870fe88fb5a68ebf8d",
+  "evidence_quote": "more than 30 sultans",
+  "key": "basic_e_d83679df9c13bcaa",
+  "rationale": "The evidence states that the Ottoman Empire had \"more than 30\" sultans. Mathematically, any number greater than 30 is also greater than 20. Therefore, if the count is more than 30, it necessarily follows that the count is more than 20. The claim is fully supported by the evidence.",
+  "review_note": "Above thirty necessarily exceeds twenty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 328,
+  "source": "nli"
+}

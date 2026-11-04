@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "07d5d93a3a6778d314a488e0720789e431fe80db507457f2ac19d60143d4a319",
+  "evidence_quote": "Variety and nowhere else",
+  "key": "basic_e_e667fe8c909b3e78",
+  "rationale": "The evidence states that \"The Pitt has been featured in Variety and nowhere else.\" This explicitly excludes any other publications, including The Hollywood Reporter. Therefore, the claim that The Pitt was featured in The Hollywood Reporter is directly contradicted by the evidence.",
+  "review_note": "Exclusive Variety feature excludes Hollywood Reporter.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 360,
+  "source": "nli"
+}

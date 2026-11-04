@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a767853c4e6d72c60665c9ad891968e229b19e51a337990915ca8ab18fbbbd44",
+  "evidence_quote": "dismissed as baseless",
+  "key": "challenge_e_bc9fa3f2fdd8216f",
+  "rationale": "The director dismissed reports of securing the rights. This establishes the director's stance, not whether the production team actually obtained those rights.",
+  "review_note": "Corrected dismissal-to-negation error.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 637,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "c9c85591a9ec1b02a1f3ba12fa813e0c831ed1860946e5e8707f6c170823cbf7",
+  "evidence_quote": "Like Peter Osgood",
+  "key": "challenge_e_8ea8ad879e7f076b",
+  "rationale": "The evidence states, \"Like Peter Osgood, John Osgood won a Tony Award for Best Actor in a Play.\" The construction \"Like [Person A], [Person B] [did X]\" logically entails that Person A also did X. Therefore, the evidence explicitly supports the claim that Peter Osgood won a Tony Award for Best Actor in a Play.",
+  "review_note": "Comparison correctly attributes same Tony category to Peter.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 582,
+  "source": "joint"
+}

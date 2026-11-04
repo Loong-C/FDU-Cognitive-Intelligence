@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "eb20dc9782b10a19c213b58a031b4f782aef10c03afecbb0b84dd9e7db23d3f2",
+  "evidence_quote": "Ryan won the 2008 San Francisco Emerging Artist Award",
+  "key": "challenge_e_677ccba984930f55",
+  "rationale": "The evidence identifies Ryan Coogler and explicitly says Ryan won the 2008 San Francisco Emerging Artist Award. This directly supports the claim.",
+  "review_note": "Shortened 61-word name-resolution rationale.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 529,
+  "source": "pj"
+}

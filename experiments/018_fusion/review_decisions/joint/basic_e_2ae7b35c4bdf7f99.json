@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "286e10d957be148a7d9a1cfe094c80b20cf2a65401b4ecf7ddfa2cb08c77250f",
+  "evidence_quote": "Harry Kane was born in London.",
+  "key": "basic_e_2ae7b35c4bdf7f99",
+  "rationale": "The evidence explicitly states that \"Harry Kane was born in London.\" The claim is identical to this statement. Therefore, the evidence directly entails the claim.",
+  "review_note": "Joint directly entails the repeated sentence.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 67,
+  "source": "joint"
+}

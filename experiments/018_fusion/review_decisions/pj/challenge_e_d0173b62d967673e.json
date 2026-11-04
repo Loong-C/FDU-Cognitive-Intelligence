@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "777f4d112b89fa254c83553c2aa8256a98c274905cd086c6edaa35a15b9e1cf7",
+  "evidence_quote": "was later disproven",
+  "key": "challenge_e_d0173b62d967673e",
+  "rationale": "The evidence explicitly states that the claim regarding Lady Gaga's secret marriage to a sound engineer in 2012 was \"later disproven.\" This directly contradicts the assertion in the claim that the marriage actually took place. Therefore, the evidence refutes the claim.",
+  "review_note": "Correct direct negation from disproven assertion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 665,
+  "source": "pj"
+}

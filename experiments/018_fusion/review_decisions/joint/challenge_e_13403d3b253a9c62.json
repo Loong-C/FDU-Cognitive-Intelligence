@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8318e98e8a9bd41c812680c2e33812d3e61c147a9d1ca69591d60a666db308f2",
+  "evidence_quote": "In 2009, she won",
+  "key": "challenge_e_13403d3b253a9c62",
+  "rationale": "Sarah is the referent of 'she' and is stated to have won the 2009 award. No exclusive restriction or award result for Paul is supplied, so his claimed win remains unresolved.",
+  "review_note": "Condensed sound nonexclusive reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 418,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "5d43039e64e87d6bc22fe1727e5b117e1a9448799f162705e83400baf215ca00",
+  "evidence_quote": "In 2015, he won",
+  "key": "challenge_e_7838af2a2935630a",
+  "rationale": "The evidence explicitly states in the first paragraph: \"In 2015, he won a national award for public service.\" This directly matches the claim that Nayib Bukele won a national award for public service in 2015.",
+  "review_note": "He resolves to Nayib; public service award/year match.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 549,
+  "source": "nli"
+}

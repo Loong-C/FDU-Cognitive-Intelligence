@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3f877aff9d6d3f7b6f24fdce3474ed707665507cb3b96ba9ff4f711326f37085",
+  "evidence_quote": "His cousin Ali Faye won a gold medal",
+  "key": "challenge_e_97446956aaf489e5",
+  "rationale": "Ali Faye's gold medal does not establish Bassirou Diomaye Faye's medal history. The evidence neither awards Bassirou the medal nor excludes him from winning it.",
+  "review_note": "Removed implicit sole-medalist assumption.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 591,
+  "source": "pj"
+}

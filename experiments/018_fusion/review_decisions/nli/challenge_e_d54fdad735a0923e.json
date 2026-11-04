@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3e50c051acedf149da8a4a933e697f1353b1a4a1077fb91937381344c28b80ba",
+  "evidence_quote": "Peter Osgood's cousin John Osgood",
+  "key": "challenge_e_d54fdad735a0923e",
+  "rationale": "John's Tony win provides no award result for Peter. The evidence neither confirms Peter's win nor supplies a restriction excluding him.",
+  "review_note": "Removed self-debate and speculative award instances.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 671,
+  "source": "nli"
+}

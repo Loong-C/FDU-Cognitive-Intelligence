@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b0e04baf8b970752171fe88a8c13342c366a9119267b027b141cdb97a96d6679",
+  "evidence_quote": "In 2015, Abigail won",
+  "key": "challenge_e_c5c378195c934340",
+  "rationale": "The evidence explicitly states: \"In 2015, Abigail won a state-level parenting award.\" The claim states: \"Abigail Hensel won a state-level parenting award in 2015.\" Since the evidence identifies the person as Abigail Hensel in the first sentence and refers to her as Abigail in the second, the claim is fully supported by the text.",
+  "review_note": "Correct Abigail Hensel reference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 650,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b741f94700dda4b84df371d7a84f51cbaa2b3f473a0448ae4bfb08151733c215",
+  "evidence_quote": "the only time Modrić ever did so",
+  "key": "basic_e_15491c01b18f5500",
+  "rationale": "The evidence says the 2018 win was the only time Modrić won this award. That limits his wins to one and contradicts the claimed total of three by 2020.",
+  "review_note": "Read full NLI draft; preserve the explicit only-ever constraint and shorten.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 34,
+  "source": "nli"
+}

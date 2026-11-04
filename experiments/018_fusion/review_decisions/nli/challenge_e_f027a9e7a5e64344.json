@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5808ff2a24879572536e37a359887544f86d22697ad17f0ac2735d0fce8157da",
+  "evidence_quote": "Michael White won a Tony Award",
+  "key": "challenge_e_f027a9e7a5e64344",
+  "rationale": "The text does not establish that Mike White and Michael White are the same person or that Mike belongs to Michael's family. Michael's family-exclusive Tony therefore does not settle Mike's award status.",
+  "review_note": "Corrected nickname-based identity assumption and addressed family scope; audit ambiguity recorded.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 707,
+  "source": "nli"
+}

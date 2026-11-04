@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b2a2e66173a62af7140673ec175d1e865c13f9c1e4457f155a907f9f7c1bc2ec",
+  "evidence_quote": "Her publicist denied",
+  "key": "challenge_e_788a775c09e0a4f0",
+  "rationale": "A representative's denial does not establish the marriage's truth or falsity. The passage gives only the publicist's stance, leaving the alleged secret 2020 marriage unresolved.",
+  "review_note": "Removed lying/protecting-secret speculation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 550,
+  "source": "pj"
+}

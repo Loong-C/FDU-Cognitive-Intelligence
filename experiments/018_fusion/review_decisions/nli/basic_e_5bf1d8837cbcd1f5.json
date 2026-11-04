@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c1d0a27f536d62e525d0b2153a93b9ebfdefc7b9bb6bc5d19011b641b107d9df",
+  "evidence_quote": "between 10 and 20 airports",
+  "key": "basic_e_5bf1d8837cbcd1f5",
+  "rationale": "Fifteen airports fits the range of 10 to 20, but eleven fits too. The evidence does not determine the exact count.",
+  "review_note": "Shorten NLI range countermodels.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 141,
+  "source": "nli"
+}

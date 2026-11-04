@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "86523b8acb4ca0eaafc3b4bbd637955fe0fa8bc358205c54a5594898b0bb935a",
+  "evidence_quote": "between 20 and 30 airports",
+  "key": "basic_e_395871c5a80624fb",
+  "rationale": "The range does not explicitly exclude 20. Both 20 and larger values are allowed, so strictly more than 20 is possible but unconfirmed.",
+  "review_note": "Shorten PJ endpoint reasoning without claiming a universal mathematical convention.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 89,
+  "source": "pj"
+}

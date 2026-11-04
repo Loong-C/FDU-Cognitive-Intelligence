@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "correction_rows": 948,
+  "no_duplicate_comparisons": true,
+  "all_changes_match_gold_and_predictions": true,
+  "new_source_seed_averages_match_paired_metrics": true
+}

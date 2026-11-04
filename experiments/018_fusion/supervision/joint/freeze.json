@@ -1,0 +1,12 @@
+{
+  "decisions": {
+    "accept": 231,
+    "revise": 497
+  },
+  "files": {
+    "experiments/018_fusion/supervision/joint/reviewed_train.jsonl": "43928297c1596fb3b1b2dd1165e40a2b7d478f408f8dcd1c93c9abad4b868e33",
+    "experiments/018_fusion/supervision/joint/reviews.jsonl": "9d10bc283f7a2d5db32b50952c095cae639c84769834ecc98079a9f189e03ebe"
+  },
+  "protocol_freeze": "1ab1d724a6d086b386a027fbae6a2961fc87503dbf442107f072b1152c3d025e",
+  "source": "joint"
+}

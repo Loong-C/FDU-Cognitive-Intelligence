@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2781144387df9fc0036d9134d7f2e57d9680944d8ceacfe07c85aec9a17f9b7b",
+  "evidence_quote": "In 2015, Taron Egerton took office",
+  "key": "challenge_e_d3dce87111f9eca8",
+  "rationale": "Egerton took the lead-singer role in 2015, but no duration or status in 2020 is given. Continued service is neither confirmed nor excluded.",
+  "review_note": "Condensed correct start-date scope.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 668,
+  "source": "nli"
+}

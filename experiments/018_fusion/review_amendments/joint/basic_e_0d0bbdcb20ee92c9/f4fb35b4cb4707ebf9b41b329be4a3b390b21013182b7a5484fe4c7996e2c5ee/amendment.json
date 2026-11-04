@@ -1,0 +1,29 @@
+{
+  "after": {
+    "decision": "revise",
+    "draft_sha256": "dd605de5a8e6a9a0971aacc2c2133641f823d93e90c5e48bbf036b7cce4f2a0c",
+    "evidence_quote": "filmed in Rome and nowhere else",
+    "key": "basic_e_0d0bbdcb20ee92c9",
+    "rationale": "The evidence gives an exhaustive filming-location list containing only Rome. Paris is excluded, so the claim of filming there is contradicted.",
+    "review_note": "Remove the unnecessary identity inference that the filmed work is a film; preserve the source's exhaustive-list reasoning.",
+    "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+    "row_index": 23,
+    "source": "joint"
+  },
+  "before": {
+    "decision": "accept",
+    "draft_sha256": "dd605de5a8e6a9a0971aacc2c2133641f823d93e90c5e48bbf036b7cce4f2a0c",
+    "evidence_quote": "filmed in Rome and nowhere else",
+    "key": "basic_e_0d0bbdcb20ee92c9",
+    "rationale": "The evidence explicitly states that *The Marvels* was filmed in Rome and \"nowhere else.\" This phrase establishes an exhaustive list of filming locations containing only Rome. The claim asserts that the film was filmed in Paris. Since Paris is not Rome and the evidence excludes all other locations, the claim is directly contradicted by the evidence.",
+    "review_note": "Joint explanation correctly interprets the sole named filming location and nowhere-else restriction together.",
+    "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+    "row_index": 23,
+    "source": "joint"
+  },
+  "original_path": "experiments/018_fusion/review_decisions/joint/basic_e_0d0bbdcb20ee92c9.json",
+  "original_sha256": "f4fb35b4cb4707ebf9b41b329be4a3b390b21013182b7a5484fe4c7996e2c5ee",
+  "reason": "Remove the unnecessary identity inference that the filmed work is a film; preserve the source's exhaustive-list reasoning.",
+  "row_index": 23,
+  "source": "joint"
+}

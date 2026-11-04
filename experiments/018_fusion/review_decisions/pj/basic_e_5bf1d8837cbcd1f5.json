@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2bc97b63473d92c1fa923955ecd76e0e1763e5e6390d80c2f4f60cca385398d7",
+  "evidence_quote": "between 10 and 20 airports",
+  "key": "basic_e_5bf1d8837cbcd1f5",
+  "rationale": "The range permits 15 without uniquely selecting it. Other counts such as 19 are also consistent, so the exact total is unknown.",
+  "review_note": "Shorten PJ compatibility versus entailment.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 141,
+  "source": "pj"
+}

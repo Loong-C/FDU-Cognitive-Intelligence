@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7cacde2fc8631364eadcb8cd10495f2d324b6562f811ee316abda50a24d6a269",
+  "evidence_quote": "widely tipped to receive",
+  "key": "basic_e_abf332d006cb9aed",
+  "rationale": "The evidence reports an expected Grammy award, not its actual receipt. It neither confirms nor denies the claimed outcome.",
+  "review_note": "Remove unsupported band identity and awkward despite-prediction wording.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 255,
+  "source": "pj"
+}

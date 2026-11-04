@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6f98b8ea223261e41b8a9605122a6950af286f1b7f3b126c7cc0c8572b147d70",
+  "evidence_quote": "Cecilia Marley was named",
+  "key": "challenge_e_4e443b5d8be3e19f",
+  "rationale": "Cecilia's 1974 Jamaican Nurse of the Year title does not establish Robert's regional award. The evidence provides no award result or exclusion for Robert, leaving his claim unresolved.",
+  "review_note": "Removed self-questioning and uniqueness speculation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 495,
+  "source": "nli"
+}

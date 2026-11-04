@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "79a769e642cc31766c3e40db4ee4921c7f3c2f9ba84ad904b98fbf6f1121854c",
+  "evidence_quote": "two times in total, most recently in 2024",
+  "key": "basic_e_10606436f69d65ad",
+  "rationale": "The stated total is two wins, whereas the claim requires three by 2026. Treating the evidence as an earlier incomplete report introduces a cutoff not given in the text; the unqualified total contradicts the claim.",
+  "review_note": "Read full joint draft; correct its copied snapshot assumption and retain the frozen reviewed label without adding external award facts.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 28,
+  "source": "joint"
+}

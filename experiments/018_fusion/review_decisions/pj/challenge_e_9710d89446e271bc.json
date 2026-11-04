@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "90277e65cc8d932e07a73b5ad40be1cc325b9174db67e975afede6ba9fa24885",
+  "evidence_quote": "joined the company",
+  "key": "challenge_e_9710d89446e271bc",
+  "rationale": "The evidence describes Kōnosuke joining engineering in 1925 and Kenji receiving a patent in 1930. It gives no information about Kōnosuke heading quality control in 1930.",
+  "review_note": "Clarified no role information in 1930, rather than no role information at all.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 590,
+  "source": "pj"
+}

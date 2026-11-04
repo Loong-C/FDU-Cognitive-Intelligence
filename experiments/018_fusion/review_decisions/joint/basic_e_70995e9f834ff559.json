@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "5d237c32a702a0bf4239c996189e077e70d2311df6ef99dd944dcbe67d46539d",
+  "evidence_quote": "fewer than 25 sultans",
+  "key": "basic_e_70995e9f834ff559",
+  "rationale": "The evidence explicitly states that the Ottoman Empire had \"fewer than 25 sultans.\" The claim asserts that the empire had \"28 sultans.\" Since 28 is greater than 25, the claim is mathematically incompatible with the constraint provided in the evidence. Therefore, the evidence contradicts the claim.",
+  "review_note": "Joint arithmetic contradiction supported.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 172,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6b646452631c0a178fadfde228e72b91cad56959beab7843458192c7d79afbaf",
+  "evidence_quote": "before a delay pushed it back",
+  "key": "basic_e_575567ef31111189",
+  "rationale": "A delay pushed the release back from its scheduled September 26, 2018 date. That contradicts release on the original date.",
+  "review_note": "Shorten joint explicit-delay reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 135,
+  "source": "joint"
+}

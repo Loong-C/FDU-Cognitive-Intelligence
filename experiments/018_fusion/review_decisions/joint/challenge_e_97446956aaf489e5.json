@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "22b8ef8b96f51b2538642a33571af9ef6f1753166f4f590f1abb0f4064211971",
+  "evidence_quote": "His cousin Ali Faye won a gold medal",
+  "key": "challenge_e_97446956aaf489e5",
+  "rationale": "The named medal winner is Ali Faye. The passage gives no medal outcome for Bassirou and no restriction excluding another winner, leaving his claim unknown.",
+  "review_note": "Corrected invented exclusivity for specific medal.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 591,
+  "source": "joint"
+}

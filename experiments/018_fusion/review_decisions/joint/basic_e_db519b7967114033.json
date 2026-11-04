@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1227dd54f862292184582902ec82832a5381344a450fb74dbfaab284089b907b",
+  "evidence_quote": "In 2024",
+  "key": "basic_e_db519b7967114033",
+  "rationale": "A win in 2024 does not establish how many other wins occurred. The evidence neither confirms nor excludes three wins by 2026.",
+  "review_note": "Remove example years and shorten.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 332,
+  "source": "joint"
+}

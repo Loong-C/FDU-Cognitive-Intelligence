@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "86319e5ac0e453628fb4a9bfb7032e0993920c85b186a0fa70e1fdc34f2616c4",
+  "evidence_quote": "As of 2020",
+  "key": "challenge_e_a1747c7aa74c7832",
+  "rationale": "Robertson is described as president as of 2020. The later film release provides no information about his presidency in 2023, so continuation is neither confirmed nor excluded.",
+  "review_note": "Shortened correct temporal snapshot analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 605,
+  "source": "nli"
+}

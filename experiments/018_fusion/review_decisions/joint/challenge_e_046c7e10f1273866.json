@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1b0e2c7fcd5b13cc84e72b4f2e30d34b3361ba266ff5fccecf5f5f731653d7dd",
+  "evidence_quote": "Elena Sheinbaum published a seminal paper",
+  "key": "challenge_e_046c7e10f1273866",
+  "rationale": "The evidence names Elena as publishing the paper, without saying she was its sole author or giving Claudia's relevant publication history. Claudia's claimed publication is therefore neither supported nor refuted.",
+  "review_note": "Removed unsupported exclusive-authorship inference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 400,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0804d0cc70f8d8125386f758e00e90e96b1ae74b272fb8bbbe9ad83c4c4d89b4",
+  "evidence_quote": "two times in total, most recently in 1992",
+  "key": "basic_e_1cab306d8bf1ac65",
+  "rationale": "The evidence limits Soros's pound-shorting events to two in total, with the latest in 1992. Three such events by 1995 would exceed that explicit total.",
+  "review_note": "Read NLI draft; shorten its correct total-count and latest-date contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 44,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a396bd44301d9ab789b4255a5246341474c845fce8960594ab3e9161b83969d4",
+  "evidence_quote": "they both authored",
+  "key": "challenge_e_687e37de5506bba0",
+  "rationale": "The evidence says Saddam and Ali both authored the Islamic jurisprudence treatise in 1982. This explicitly includes Saddam as an author and supports the claim.",
+  "review_note": "Condensed valid coauthorship entailment.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 530,
+  "source": "nli"
+}

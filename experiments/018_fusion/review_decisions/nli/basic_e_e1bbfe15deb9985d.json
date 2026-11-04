@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fbaac666cf8c3beccc0f8ff30c567357a7c3729dcd95a91ab8e37fe18ddf0a39",
+  "evidence_quote": "Five years after that",
+  "key": "basic_e_e1bbfe15deb9985d",
+  "rationale": "Two years after 2012 places MDNA in 2014. Five years after that gives 2019 for the halftime performance, matching the claim.",
+  "review_note": "Shorten correct two-step date calculation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 349,
+  "source": "nli"
+}

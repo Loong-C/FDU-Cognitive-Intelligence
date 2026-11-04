@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "54219d6f4a55510796da5ca4c1cd8f501cb52579ba625277f9337cd223c7b3dd",
+  "evidence_quote": "The two children of Charlie Kirk are John and Mary.",
+  "key": "challenge_e_7c5e52bb810fa7cf",
+  "rationale": "The evidence explicitly states that Charlie Kirk has two children, named John and Mary. The claim asserts that Sam is one of Charlie Kirk's children. Since the evidence provides an exhaustive list of the children (by specifying the count \"two\" and naming them), and Sam is not included in that list, the claim contradicts the evidence.",
+  "review_note": "Correctly uses two and both names to exclude Sam.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 557,
+  "source": "pj"
+}

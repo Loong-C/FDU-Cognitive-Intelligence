@@ -1,0 +1,29 @@
+{
+  "after": {
+    "decision": "revise",
+    "draft_sha256": "6eafc1b0a00093b9a9816a505b4a01694e621ed1523ef6986034b94591455cc6",
+    "evidence_quote": "Rome and Paris",
+    "key": "basic_e_9aac4f73437e5b13",
+    "rationale": "The evidence states that The Marvels was filmed in both Rome and Paris. Paris is explicitly included, supporting the claim.",
+    "review_note": "Remove the unsupported identification as a movie; preserve correct location inference.",
+    "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+    "row_index": 238,
+    "source": "nli"
+  },
+  "before": {
+    "decision": "accept",
+    "draft_sha256": "6eafc1b0a00093b9a9816a505b4a01694e621ed1523ef6986034b94591455cc6",
+    "evidence_quote": "Rome and Paris",
+    "key": "basic_e_9aac4f73437e5b13",
+    "rationale": "The evidence states that the movie was filmed in both Rome and Paris. Since the claim asserts that it was filmed in Paris, and the evidence explicitly confirms this location as one of the filming sites, the claim is fully supported by the evidence.",
+    "review_note": "Paris filming is explicitly included.",
+    "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+    "row_index": 238,
+    "source": "nli"
+  },
+  "original_path": "experiments/018_fusion/review_decisions/nli/basic_e_9aac4f73437e5b13.json",
+  "original_sha256": "ab4623a020c4914c55157e3ecaf7e610a85e27444036346c2b4c41f0db87cef2",
+  "reason": "Remove the unsupported identification as a movie; preserve correct location inference.",
+  "row_index": 238,
+  "source": "nli"
+}

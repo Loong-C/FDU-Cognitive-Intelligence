@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "57a1d4cd6357a77fa73ffd2b6e468bcefdaabfc2c97ec4e6c397b72a431559fd",
+  "evidence_quote": "In 2015, Taron Egerton took office",
+  "key": "challenge_e_d3dce87111f9eca8",
+  "rationale": "Taking the role in 2015 does not establish tenure through 2020. The evidence gives no information settling his status then.",
+  "review_note": "Condensed correct temporal reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 668,
+  "source": "joint"
+}

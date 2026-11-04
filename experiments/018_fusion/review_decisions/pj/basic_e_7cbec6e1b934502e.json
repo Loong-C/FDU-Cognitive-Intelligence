@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "cee8be27fb00c9f90cd0d1e932357b1edbd61b38c121ebba13833b31a3416af2",
+  "evidence_quote": "Watertown, South Dakota",
+  "key": "basic_e_7cbec6e1b934502e",
+  "rationale": "The evidence states that Kristi Noem was born in \"Watertown, South Dakota.\" The claim states that she was born in \"Watertown.\" Since being born in a specific city within a state entails being born in that city, the evidence fully supports the claim.",
+  "review_note": "Removing state qualifier preserves birthplace claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 192,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "53eebee0b9c8fb7dcf55a8779096c59651b57f30b3f1195603e2568203499ab4",
+  "evidence_quote": "two children from his first marriage",
+  "key": "challenge_e_b07d38e199a8a99d",
+  "rationale": "The two-child count is restricted to Vrabel's first marriage. It does not exclude children from other relationships, so Megan's claimed relationship is unresolved.",
+  "review_note": "Corrected first-marriage subset mistaken for complete child set.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 618,
+  "source": "pj"
+}

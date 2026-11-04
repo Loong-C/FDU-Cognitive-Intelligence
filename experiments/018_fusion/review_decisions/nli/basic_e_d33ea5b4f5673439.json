@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "582ed041b9e34cc1e5b96431439315cf432b6d7117783ee7e2c84e460c015588",
+  "evidence_quote": "for the first time in 2010",
+  "key": "basic_e_d33ea5b4f5673439",
+  "rationale": "Hough's first win in 2010 does not establish subsequent wins. The evidence leaves the claimed total of three by 2014 unresolved.",
+  "review_note": "Remove annual enumeration implying frequency restriction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 318,
+  "source": "nli"
+}

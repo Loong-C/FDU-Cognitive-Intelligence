@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5e26876b2c6f6347febdda4e3a45309c5aa143c552a71cb186754df1d4bac151",
+  "evidence_quote": "Alex Altman won a regional innovation award",
+  "key": "challenge_e_1d10cf8cbcad55a7",
+  "rationale": "The evidence attributes the 2021 regional innovation award to Alex Altman. It neither states that Sam won one nor excludes him as another recipient. Sam's claimed award remains undetermined.",
+  "review_note": "Corrected distinct-person attribution as refutation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 431,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a93d85af24265f9942aef6e3a14ae2416bf40fadd6798a152ac4a425fc8cc82e",
+  "evidence_quote": "Within one year of that",
+  "key": "basic_e_cbfff8210e25c725",
+  "rationale": "The timeline places the advisory role in 2022 and the committee launch within one year afterward, no later than 2023. The claimed 2024 launch is excluded.",
+  "review_note": "Condense accurate temporal upper bound.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 305,
+  "source": "joint"
+}

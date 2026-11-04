@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3ca83dcd5f409e0bf451c99018ba65871278cd4bab8c4b0e8f26e8889c777f4d",
+  "evidence_quote": "for the first time in 2020",
+  "key": "basic_e_eb00b09e8224a6f0",
+  "rationale": "The first-win date excludes earlier wins, but says nothing about wins after 2020. The claim of another later win is undetermined.",
+  "review_note": "Shorten and preserve first-event scope.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 370,
+  "source": "joint"
+}

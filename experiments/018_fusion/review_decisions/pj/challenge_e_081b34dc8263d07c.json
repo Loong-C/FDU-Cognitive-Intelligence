@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0d53cb1909bf11335cb9fca383ecae0d6d6340706886181ca1d6293838e5a79f",
+  "evidence_quote": "In 2008, Ryan won a regional acting award",
+  "key": "challenge_e_081b34dc8263d07c",
+  "rationale": "The first sentence identifies Ryan as Ryan Coogler. The next explicitly says he won a regional acting award in 2008, directly supporting the claim.",
+  "review_note": "Condensed valid reference and event matching.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 405,
+  "source": "pj"
+}

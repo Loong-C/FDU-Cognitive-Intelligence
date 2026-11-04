@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "61a56a2b6f51672f00da3f94336072f8d064948d30a129d3decc46c4c6029dbd",
+  "evidence_quote": "between 30 and 35 sultans",
+  "key": "basic_e_39c3605c30a8e9da",
+  "rationale": "The evidence states that the Ottoman Empire had between 30 and 35 sultans. This means the number of sultans is at least 30. Since 30 is greater than 20, it logically follows that the number of sultans was more than 20. Therefore, the evidence entails the claim.",
+  "review_note": "Joint valid weaker bound follows.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 90,
+  "source": "joint"
+}

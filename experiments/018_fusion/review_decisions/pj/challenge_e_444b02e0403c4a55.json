@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7fa6275f5e0b4f7fc62636a49e8612a6a46712fc877c417638c5d97cde7588d8",
+  "evidence_quote": "two children: Rory and Fiona",
+  "key": "challenge_e_444b02e0403c4a55",
+  "rationale": "Isaacs's two children are Rory and Fiona. The stated total and complete list leave no additional child named Graham, refuting the claim.",
+  "review_note": "Condensed count-plus-list restriction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 483,
+  "source": "pj"
+}

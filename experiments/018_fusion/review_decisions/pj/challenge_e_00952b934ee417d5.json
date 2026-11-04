@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "74beb8195be1e16e47edf9f252d7c18c58151d6d3aa02ddb84bede1086944887",
+  "evidence_quote": "Lamine Yamal's cousin won a Olympic gold medal in athletics",
+  "key": "challenge_e_00952b934ee417d5",
+  "rationale": "The evidence gives the athletics gold to Yamal's cousin and the Kopa Trophy to Yamal. Neither attribution establishes or excludes Yamal winning an athletics gold later, so his claimed medal remains undetermined.",
+  "review_note": "Different recipients and awards do not exclude additional achievements.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 395,
+  "source": "pj"
+}

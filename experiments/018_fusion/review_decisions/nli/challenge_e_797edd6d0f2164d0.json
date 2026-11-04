@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a723c1d252243b04ee8631e1e42eb35e75cd81b894b1a27534a4c28c53d93da8",
+  "evidence_quote": "Her publicist rejected suggestions",
+  "key": "challenge_e_797edd6d0f2164d0",
+  "rationale": "The evidence reports the publicist rejecting an alleged secret marriage. This establishes the rejection, but neither confirms nor independently disproves that Jennifer Lawrence married the musician in 2020.",
+  "review_note": "Removed dataset speculation, hypothetical motives, self-dialogue and repetition; distinguished reported denial from fact.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 553,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6b3dfda72d069fa492574f1c19f65de286b02809f80e12f2c188ae9da081491c",
+  "evidence_quote": "In 2010, she won",
+  "key": "challenge_e_663ebd18786806c0",
+  "rationale": "Denise is the award recipient identified by 'she.' Her win does not exclude Donald also receiving a regional theater award in 2010, and his result is unspecified.",
+  "review_note": "Removed sole-recipient assumption.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 525,
+  "source": "pj"
+}

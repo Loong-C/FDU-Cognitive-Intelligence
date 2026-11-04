@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "90e4e7790d44bad4538218b51d28e0e223f94f3486403d29ef8b721136d7c0c9",
+  "evidence_quote": "for the second time",
+  "key": "basic_e_7c99cc392cf59564",
+  "rationale": "The evidence dates a second launch occasion to 2023. It neither confirms nor excludes another occasion after 2023.",
+  "review_note": "Remove implicit end-year record framing.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 191,
+  "source": "joint"
+}

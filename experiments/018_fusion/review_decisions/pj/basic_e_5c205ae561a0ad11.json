@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3354d22b0fa89379bae244d62f3caad69d91dc149be3bedb7f9973b0a21a615b",
+  "evidence_quote": "between 30 and 35 episodes",
+  "key": "basic_e_5c205ae561a0ad11",
+  "rationale": "The wording does not explicitly exclude the endpoint 30. Both 30 and larger counts fit the stated range, so strictly more than 30 is not guaranteed or refuted.",
+  "review_note": "Replace truncated PJ debate with concise boundary-sensitive reasoning; preserve invalid original.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 142,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "7e77a5585b378b9bda36b1c86b113d0c51ff0dc3a6a1d094f507311f4b492f54",
+  "evidence_quote": "the only time Hough ever did so",
+  "key": "basic_e_62422e4aa86ca48a",
+  "rationale": "The evidence states that Derek Hough won the Mirrorball Trophy in 2010 and explicitly describes this as \"the only time Hough ever did so.\" This means he did not win the trophy at any other time, including before 2010. Therefore, the claim that he had won it before 2010 is contradicted by the evidence.",
+  "review_note": "PJ correctly excludes earlier win under explicit exclusivity.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 149,
+  "source": "pj"
+}

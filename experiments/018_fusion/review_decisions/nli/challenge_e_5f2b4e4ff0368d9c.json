@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "a661090a2cd0b44cfd8b4ea27ade6c8165bd9ac3b8db330e563ff322ff432c39",
+  "evidence_quote": "an investigation later showed the reports to be false",
+  "key": "challenge_e_5f2b4e4ff0368d9c",
+  "rationale": "The evidence states that \"The director of the National Solar Observatory denied that the Sun had been confirmed to harbor a previously undetected magnetic anomaly, and an investigation later showed the reports to be false.\" This directly contradicts the claim that the Sun *was* confirmed to harbor such an anomaly.",
+  "review_note": "Investigation refutes confirmation reports specifically.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 517,
+  "source": "nli"
+}

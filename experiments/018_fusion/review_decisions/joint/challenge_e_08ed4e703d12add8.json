@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "cec513f4dcdb0f25a14c7e09e18520b2de56bb0903a285656005564b49f7c84a",
+  "evidence_quote": "they both published",
+  "key": "challenge_e_08ed4e703d12add8",
+  "rationale": "Claudia and Elena are the subjects of 'they both published' the seminal urban energy grids paper in 1992. This establishes Claudia's participation and supports the claim.",
+  "review_note": "Shortened direct plural-to-individual entailment.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 409,
+  "source": "joint"
+}

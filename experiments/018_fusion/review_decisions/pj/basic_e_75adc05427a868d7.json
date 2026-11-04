@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3bd9da081a15fef0f90b83e0397b2eb50c27150e02a18ac2560ef5a23599fcd0",
+  "evidence_quote": "for the second time",
+  "key": "basic_e_75adc05427a868d7",
+  "rationale": "The evidence dates the second occasion to 2023 without specifying later occasions. It does not determine whether the total reached three by 2025.",
+  "review_note": "Remove unjustified first-launch-before-2023 placement.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 185,
+  "source": "pj"
+}

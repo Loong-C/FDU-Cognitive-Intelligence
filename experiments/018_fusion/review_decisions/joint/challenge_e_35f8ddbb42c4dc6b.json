@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b99b4dc340deceb23e72cf3ffc94d8278eb21466bae5cdc2d8fc7f660c2f0daa",
+  "evidence_quote": "In 2005, she won",
+  "key": "challenge_e_35f8ddbb42c4dc6b",
+  "rationale": "Laura's 2005 Pulitzer does not preclude JB also winning a Pulitzer. The passage supplies no corresponding result or exclusion for him, so his claim is undetermined.",
+  "review_note": "Removed unsupported sole-recipient inference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 463,
+  "source": "joint"
+}

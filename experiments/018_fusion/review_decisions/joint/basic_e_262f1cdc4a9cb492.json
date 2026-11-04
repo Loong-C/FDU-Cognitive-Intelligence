@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "44d4dd6cc8d8ec891f1e08ec2fc23d1d743914eae7bbfedb23757070ced24b73",
+  "evidence_quote": "more than 140 chapters",
+  "key": "basic_e_262f1cdc4a9cb492",
+  "rationale": "The lower bound exceeds 140, while the claim specifies 150. That number is possible, but other totals satisfy the bound too.",
+  "review_note": "Shorten joint explanation of underspecified exact total.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 59,
+  "source": "joint"
+}

@@ -1,0 +1,114 @@
+{
+  "scope": "Retrospective V17 diagnostics only; no new model calls; no V18 selection. Oracle uses gold and is NOT a deployable rule.",
+  "majority_rule": "NLI/PJ/one LoRA each one vote; only valid labels vote; fewer than two agreeing votes falls back to that LoRA.",
+  "datasets": {
+    "basic": {
+      "by_seed": {
+        "42": {
+          "n": 120,
+          "lora_correct": 115,
+          "nli": {
+            "rescues": 3,
+            "harms": 3,
+            "both_wrong": 2
+          },
+          "pj_v3": {
+            "rescues": 4,
+            "harms": 3,
+            "both_wrong": 1
+          },
+          "majority_correct": 116,
+          "oracle_correct": 120
+        },
+        "43": {
+          "n": 120,
+          "lora_correct": 116,
+          "nli": {
+            "rescues": 3,
+            "harms": 4,
+            "both_wrong": 1
+          },
+          "pj_v3": {
+            "rescues": 3,
+            "harms": 3,
+            "both_wrong": 1
+          },
+          "majority_correct": 117,
+          "oracle_correct": 120
+        },
+        "44": {
+          "n": 120,
+          "lora_correct": 116,
+          "nli": {
+            "rescues": 3,
+            "harms": 4,
+            "both_wrong": 1
+          },
+          "pj_v3": {
+            "rescues": 3,
+            "harms": 3,
+            "both_wrong": 1
+          },
+          "majority_correct": 117,
+          "oracle_correct": 120
+        }
+      },
+      "lora_mean_accuracy": 0.9638888888888889,
+      "majority_mean_accuracy": 0.9722222222222222
+    },
+    "challenge": {
+      "by_seed": {
+        "42": {
+          "n": 141,
+          "lora_correct": 138,
+          "nli": {
+            "rescues": 2,
+            "harms": 35,
+            "both_wrong": 1
+          },
+          "pj_v3": {
+            "rescues": 2,
+            "harms": 20,
+            "both_wrong": 1
+          },
+          "majority_correct": 126,
+          "oracle_correct": 140
+        },
+        "43": {
+          "n": 141,
+          "lora_correct": 139,
+          "nli": {
+            "rescues": 2,
+            "harms": 36,
+            "both_wrong": 0
+          },
+          "pj_v3": {
+            "rescues": 2,
+            "harms": 21,
+            "both_wrong": 0
+          },
+          "majority_correct": 126,
+          "oracle_correct": 141
+        },
+        "44": {
+          "n": 141,
+          "lora_correct": 135,
+          "nli": {
+            "rescues": 2,
+            "harms": 32,
+            "both_wrong": 4
+          },
+          "pj_v3": {
+            "rescues": 4,
+            "harms": 19,
+            "both_wrong": 2
+          },
+          "majority_correct": 124,
+          "oracle_correct": 139
+        }
+      },
+      "lora_mean_accuracy": 0.9739952718676123,
+      "majority_mean_accuracy": 0.8888888888888888
+    }
+  }
+}

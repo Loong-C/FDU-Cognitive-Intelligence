@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "847b5af16e77d0a7e963a9b0f0e1d5c2c0efd41967faf0ac61744da3a32cf3e5",
+  "evidence_quote": "a regional acting award",
+  "key": "challenge_e_75aff291edf7e8f2",
+  "rationale": "Ryan won a regional acting award in 2008, but its name and location are unspecified. The evidence neither identifies it as San Francisco Emerging Artist Award nor excludes that award.",
+  "review_note": "Condensed missing award identity.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 543,
+  "source": "nli"
+}

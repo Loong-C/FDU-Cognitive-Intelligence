@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "78af4f203e61e06bf9a3089769fbeb648c50868bd55d18cdeda9d9a6de78bbc0",
+  "evidence_quote": "17 airports",
+  "key": "basic_e_ca3181f06d407998",
+  "rationale": "The evidence explicitly states that the United Arab Emirates has 17 airports. The claim asserts that the country has more than 20 airports. Since 17 is not greater than 20, the specific number provided in the evidence directly contradicts the quantity asserted in the claim.",
+  "review_note": "Correct comparison of total and bound.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 303,
+  "source": "joint"
+}

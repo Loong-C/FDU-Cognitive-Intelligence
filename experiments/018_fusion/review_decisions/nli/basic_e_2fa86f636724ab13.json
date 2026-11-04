@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "facbb2593937f3771bfecb38c7cc0aa77ffd2a333dc5ed7e534c7f8ddaffe983",
+  "evidence_quote": "for the first time in 2010",
+  "key": "basic_e_2fa86f636724ab13",
+  "rationale": "The evidence states that Derek Hough won the Mirrorball Trophy for the **first time** in 2010. This establishes the date of his initial win but provides no information about whether he won the trophy in any subsequent years. Therefore, we cannot determine from the evidence alone if he won it again after 2010.",
+  "review_note": "NLI correctly leaves later victories unspecified.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 71,
+  "source": "nli"
+}

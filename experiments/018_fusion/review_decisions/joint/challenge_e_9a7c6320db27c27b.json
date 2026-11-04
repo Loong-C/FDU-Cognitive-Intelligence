@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "e4c12b717c62834fceb9b367410ebb5d441aa72c8937f0e8c4535a3db70509a5",
+  "evidence_quote": "both Abigail and Kristine Hensel",
+  "key": "challenge_e_9a7c6320db27c27b",
+  "rationale": "The evidence explicitly states that \"In 2015, both Abigail and Kristine Hensel won a state-level parenting award.\" The phrase \"both Abigail and Kristine Hensel won\" logically entails that Abigail Hensel won the award. Therefore, the claim that Abigail Hensel won a state-level parenting award in 2015 is fully supported by the text.",
+  "review_note": "Correct distributive both and matching year.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 595,
+  "source": "joint"
+}

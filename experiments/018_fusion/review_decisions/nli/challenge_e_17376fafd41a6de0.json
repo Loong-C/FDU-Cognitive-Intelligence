@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fd78046633ac66704770c3d6eb7a6d603b17b3d5ec77b7b23dd3e6c55fb521b1",
+  "evidence_quote": "Like Mike, Michael White won",
+  "key": "challenge_e_17376fafd41a6de0",
+  "rationale": "'Like Mike' presents Mike as sharing Michael White's achievement of winning a Tony Award for Best Director. With Mike White identified in the preceding sentence, the comparison supports the claim about him.",
+  "review_note": "Replaced truncated speculation and false identity merger with comparative meaning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 420,
+  "source": "nli"
+}

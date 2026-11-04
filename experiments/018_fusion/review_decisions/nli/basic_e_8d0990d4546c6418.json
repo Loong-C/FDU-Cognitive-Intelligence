@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "78a0cedd4354483d0b370cc1f801a7fdf116cde6045d723f285e03048bbe904e",
+  "evidence_quote": "between 25 and 30 episodes",
+  "key": "basic_e_8d0990d4546c6418",
+  "rationale": "Twenty-seven lies within the stated 25-to-30 range, but the evidence does not fix an exact episode count. It therefore neither establishes nor excludes 27.",
+  "review_note": "Remove unnecessary endpoint assumptions and enumeration.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 220,
+  "source": "nli"
+}

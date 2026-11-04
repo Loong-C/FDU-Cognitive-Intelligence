@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "8743f8a1000385f65be9d34c7b7d9d90dd530a684aaef1088dbeafdba036fa18",
+  "evidence_quote": "born in Dallas",
+  "key": "basic_e_dbf41abbf2aca969",
+  "rationale": "The evidence explicitly states that \"Taylor Sheridan was born in Dallas.\" The claim is identical to this statement. Therefore, the evidence fully entails the claim.",
+  "review_note": "Claim directly repeats evidence.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 336,
+  "source": "joint"
+}

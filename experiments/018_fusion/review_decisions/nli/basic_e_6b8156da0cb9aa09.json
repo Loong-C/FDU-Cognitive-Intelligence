@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fa93373b9bf8598c43b8fe3ee14abcebdaab58a2942700a58275a79b07aaa4a6",
+  "evidence_quote": "Initially",
+  "key": "basic_e_6b8156da0cb9aa09",
+  "rationale": "The evidence gives an initial scheduled date of June 17, 2003. It does not establish whether release actually occurred that day or the plan changed.",
+  "review_note": "Shorten NLI and remove unsupported album categorization.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 161,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "497cb433b66d353fec0d86ecd07555e24ae97cd7029c6e235c7171604e8b8af1",
+  "evidence_quote": "Marcus Coogler won the 2008 San Francisco Emerging Artist Award",
+  "key": "challenge_e_128da645b9de6ea7",
+  "rationale": "The evidence attributes the 2008 Emerging Artist Award to Marcus, not Ryan, and gives no award result for Ryan. Marcus's achievement neither establishes nor excludes Ryan winning a regional acting award that year.",
+  "review_note": "Condensed correct subject distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 417,
+  "source": "nli"
+}

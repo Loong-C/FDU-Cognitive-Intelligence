@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "bf42ff91c3d282e90e3f67d0841d371988524bca32688ffbd9195f70e5ff7ddd",
+  "evidence_quote": "appointed CEO of YouTube in 2014",
+  "key": "challenge_e_e6a13dd07dea569a",
+  "rationale": "The evidence states that Susan Wojcicki was appointed CEO in 2014. It does not provide any information regarding her tenure after 2014, nor does it confirm or deny whether she was still serving in that role in 2024. Therefore, based strictly on the provided text, we cannot determine if the claim is true or false.",
+  "review_note": "Appointment year does not establish 2024 continuation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 695,
+  "source": "nli"
+}

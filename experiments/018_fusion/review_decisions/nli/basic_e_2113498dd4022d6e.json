@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "44ecf050797bdbb30fb7438fe4f2a5edb52606fa190c65e8c6bf1d3e18b08cdf",
+  "evidence_quote": "Six years after that",
+  "key": "basic_e_2113498dd4022d6e",
+  "rationale": "The album release is dated to 2012 plus two years, or 2014. Six years after that is 2020, placing the specified halftime show in 2020 rather than the claimed 2019.",
+  "review_note": "Read NLI calculation; shorten while retaining both offsets and their referents, without substituting real-world dates.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 49,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "bf3566ff1823524b6f5663b15df82415bcf406dd232a486d43cdd6127a6d7650",
+  "evidence_quote": "two times in total",
+  "key": "basic_e_3c38d1a337813ef9",
+  "rationale": "The evidence states that Derek Hough won the Mirrorball Trophy \"two times in total.\" The claim asserts that by 2014, he had won it \"three times.\" Since the evidence explicitly defines the total count as two, this directly contradicts the claim that the count was three.",
+  "review_note": "NLI correctly uses exhaustive total of two to contradict three.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 92,
+  "source": "nli"
+}

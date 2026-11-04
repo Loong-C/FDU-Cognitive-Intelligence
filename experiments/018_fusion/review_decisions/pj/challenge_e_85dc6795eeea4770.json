@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ab1ace914449448e9301e28ff410d9459691f85236af694b47479049c5b7a097",
+  "evidence_quote": "declined to comment on reports",
+  "key": "challenge_e_85dc6795eeea4770",
+  "rationale": "The text mentions reports that the Sun's anomaly had been confirmed and an official's refusal to comment. Neither the truth nor the falsity of that reported confirmation is established.",
+  "review_note": "Retained confirmation scope instead of changing claim to mere anomaly existence.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 569,
+  "source": "pj"
+}

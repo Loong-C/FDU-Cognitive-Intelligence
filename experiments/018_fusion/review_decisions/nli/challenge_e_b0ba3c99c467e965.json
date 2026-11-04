@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e07a281f8a8787ff99ddaff92b70d45bc7669158e06dc049cb0553a3f9e1611c",
+  "evidence_quote": "Alex Altman won a regional innovation award",
+  "key": "challenge_e_b0ba3c99c467e965",
+  "rationale": "Alex's regional innovation award is not identified as the claimed Bay Area entrepreneur title. No award result for Sam or exclusive restriction is given, leaving Sam's claim unresolved.",
+  "review_note": "Corrected recipient mismatch as contradiction and preserved award identity gap.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 619,
+  "source": "nli"
+}

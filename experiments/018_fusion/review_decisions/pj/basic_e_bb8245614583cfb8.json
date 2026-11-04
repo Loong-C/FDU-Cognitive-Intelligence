@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1db7b5f21293dfa771f234f9c8d079cfa31fc91524ace025276b15177f99c7d9",
+  "evidence_quote": "three times",
+  "key": "basic_e_bb8245614583cfb8",
+  "rationale": "The 1966 snapshot gives three winning occasions. Without information about subsequent wins, the claimed four by 1969 cannot be determined.",
+  "review_note": "Shorten and correct award-count scope.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 279,
+  "source": "pj"
+}

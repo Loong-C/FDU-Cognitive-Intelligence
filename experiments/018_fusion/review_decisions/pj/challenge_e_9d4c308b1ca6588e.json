@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "460f18cec78574439e7e9688a92b2f2147a6eba20fff5588c3a6309b637c21fa",
+  "evidence_quote": "Kristine Hensel won the 2015 Minnesota Parent of the Year title.",
+  "key": "challenge_e_9d4c308b1ca6588e",
+  "rationale": "The claim concerns any state-level parenting award for Abigail. Kristine's specific title supplies no award result or exclusion for Abigail, so the claim remains unknown.",
+  "review_note": "Replaced truncated self-debate; preserved broad award scope.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 599,
+  "source": "pj"
+}

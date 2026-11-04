@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "946f8dc3c9d56e0edb0ce64932c747cd4f1a3a1ce608ad419d30a7a53a11ca27",
+  "evidence_quote": "they both authored",
+  "key": "challenge_e_687e37de5506bba0",
+  "rationale": "Both Saddam and Ali are identified as authors of the 1982 treatise. Therefore the evidence entails Saddam's claimed authorship.",
+  "review_note": "Condensed individual inclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 530,
+  "source": "joint"
+}

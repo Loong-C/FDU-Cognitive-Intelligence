@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "58de139003c86f6500cc6ef8500805d43864ea5e3032d03a756501528173f852",
+  "evidence_quote": "it began on June 15, 2018",
+  "key": "basic_e_a1cce4b379d3d592",
+  "rationale": "The tour began June 15, 2018, despite being scheduled for June 1. The actual start date contradicts the claim that it began June 1.",
+  "review_note": "Shorten correct date contrast.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 247,
+  "source": "joint"
+}

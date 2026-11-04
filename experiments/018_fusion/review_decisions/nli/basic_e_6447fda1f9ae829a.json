@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "bc5ac2f95d7292ab6a22b579fc2c0a7879acac47b4b92c6640bc08cc1a0c4fca",
+  "evidence_quote": "but this was delayed",
+  "key": "basic_e_6447fda1f9ae829a",
+  "rationale": "The scheduled August 15 release was explicitly delayed. This contradicts the claim of actual release on that scheduled date.",
+  "review_note": "Remove NLI unneeded movie classification; delay reasoning retained.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 153,
+  "source": "nli"
+}

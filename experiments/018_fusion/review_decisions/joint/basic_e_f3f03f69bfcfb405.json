@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "79f9f5eff92d705606f88c7d134d3967c80b45e270485aca378e5d73b792b064",
+  "evidence_quote": "between 160 and 180",
+  "key": "basic_e_f3f03f69bfcfb405",
+  "rationale": "The evidence states that the total number of published chapters is between 160 and 180. The claim asserts that the total is exactly 150. Since 150 is less than the lower bound of the range specified in the evidence (160), the claim is incompatible with the evidence. Therefore, the evidence refutes the claim.",
+  "review_note": "Lower bound 160 excludes 150.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 381,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "78e5be23387e56895da0a679047b6a85e25a03fdef68048805ce26abfe05dee0",
+  "evidence_quote": "between 15 and 20 films",
+  "key": "basic_e_64fb1458b0584b8f",
+  "rationale": "Between 15 and 20 places the count at most at 20. The claim requires a count above 20, which is incompatible.",
+  "review_note": "Shorten PJ range contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 155,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "dc7a5b0e327510997b0317ddbfc0840e9b3f02ccae88e52a6ba18305f6199ecb",
+  "evidence_quote": "for the first time in 2005",
+  "key": "basic_e_b160271909493760",
+  "rationale": "The evidence states that Ben Stiller starred in films featuring the character Alvin \"for the first time in 2005.\" This implies that prior to 2005, he had not starred in such films. The claim asserts that he *had* starred in such films before 2005. Therefore, the evidence directly contradicts the claim.",
+  "review_note": "First such role in 2005 excludes earlier roles.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 267,
+  "source": "nli"
+}

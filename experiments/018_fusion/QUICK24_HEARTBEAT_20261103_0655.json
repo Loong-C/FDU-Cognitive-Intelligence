@@ -1,0 +1,365 @@
+{
+  "state": {
+    "observed_unix": 1793660178.3552248,
+    "running": true,
+    "controller": {
+      "pid": 572991,
+      "start_time": "1512966958",
+      "phase": "quick24"
+    },
+    "launch_identity": {
+      "schedule_sha256": "a1c4b7533553ad80588b5d7bd44954dd1adcb547a5cbaab64a9bf3bda8d26fa6",
+      "deadline_unix": 1793692500.0,
+      "stop_compute_unix": 1793688900.0,
+      "replayed_update_count": 4,
+      "devices": [
+        2,
+        3
+      ]
+    },
+    "deadline_process": {
+      "pid": 572992,
+      "start_time": "1512966958"
+    },
+    "deadline_ready": {
+      "independent": true,
+      "pid": 572992,
+      "stop_compute_unix": 1793688900.0,
+      "deadline_unix": 1793692500.0
+    },
+    "memory": {
+      "passed": true,
+      "devices": {
+        "2": {
+          "used_mib": 3458,
+          "total_mib": 65536
+        },
+        "3": {
+          "used_mib": 3462,
+          "total_mib": 65536
+        }
+      }
+    },
+    "worker_failure": null,
+    "smoke_receipt": {
+      "calls_reused_in_validation": 3,
+      "completed": true,
+      "longest_actual_validation_input_first": true,
+      "record_hashes": [
+        "48ea86de99a1a47f261703a56830df3d5efd1de4b93e45567714782b18a39062",
+        "ee204fa1334617651b3988fdd9a5815367daaf22116bc78f9f1a23816ecb619e",
+        "7f7c59ebfbb8cc61c00d12a4802f00b8ad8e6cf757740b27a6920715f61f2433"
+      ],
+      "seconds": [
+        9.946575982496142,
+        15.647940116003156,
+        12.257140327244997
+      ],
+      "valid_outputs": 3
+    },
+    "quick_recommendation": {
+      "adapter_receipt_hashes": {
+        "distill_joint_42": "356c7c71fc1a18de12ac3f07d33dd3a81a1e96947b07c36505275ef802e4aa31",
+        "distill_joint_43": "f474323eda76bbcda845e755187eb5932f0353e85d54d0ba2c0c8b91e7a2624e",
+        "distill_joint_44": "c108d1a24f9b53bffa2fe2928b34e74cfe7d531ce2dec1aa189e51c84a879a49",
+        "distill_nli_42": "b0f13d4f6ec89a1712113af561dec981e1c6253324933b92e92c538bf1659959",
+        "distill_nli_43": "4673d1c4264e72e7a4d0b890dae88aac6a3037bc61fbb48305087b3dedb23512",
+        "distill_nli_44": "9ae1f4f83e07c9d00131684da9d29362f9811e167dde84948d04278d9be828af",
+        "distill_pj_42": "7e655d4dcbdaddfc03a085d02e70d9c26e9859a646650b0280d32f0399379e27",
+        "distill_pj_43": "3e4e6d579e396b7135cbbc1f13b9152ad9a2e27895c0011eda3ecc6642bd7694",
+        "distill_pj_44": "6905c19d1c6db0d8db4da05cbfa5f7be660ce19cb2013f99c2301899e9cd3c16"
+      },
+      "deployment_seed": 42,
+      "members": [
+        "base_a0"
+      ],
+      "method_family": "base_a0",
+      "new_fusion_selected": false,
+      "schedule_sha256": "a1c4b7533553ad80588b5d7bd44954dd1adcb547a5cbaab64a9bf3bda8d26fa6",
+      "selection_used_evaluation": false,
+      "validation_results_sha256": "026dd5983d6cbe2bae5faa9370cec537546e09c500255a1548ef34dd2eaa73b1"
+    },
+    "deadline_triggered": null,
+    "service_recovery": null,
+    "delivered": null,
+    "deadline_alive": true,
+    "active_jobs": [
+      {
+        "pid": 760950,
+        "start_time": "1516995789",
+        "job": "evaluate-0",
+        "device": 2
+      },
+      {
+        "pid": 760951,
+        "start_time": "1516995789",
+        "job": "evaluate-1",
+        "device": 3
+      }
+    ],
+    "coverage": {
+      "validation": {
+        "base_a0": {
+          "received": 259,
+          "expected": 259
+        },
+        "old_a0_42": {
+          "received": 259,
+          "expected": 259
+        },
+        "old_np_42": {
+          "received": 259,
+          "expected": 259
+        },
+        "old_a0_43": {
+          "received": 259,
+          "expected": 259
+        },
+        "old_np_43": {
+          "received": 259,
+          "expected": 259
+        },
+        "old_a0_44": {
+          "received": 259,
+          "expected": 259
+        },
+        "old_np_44": {
+          "received": 259,
+          "expected": 259
+        },
+        "base_nli": {
+          "received": 259,
+          "expected": 259
+        },
+        "base_np": {
+          "received": 259,
+          "expected": 259
+        },
+        "base_pj": {
+          "received": 259,
+          "expected": 259
+        },
+        "old_nli_42": {
+          "received": 259,
+          "expected": 259
+        },
+        "old_nli_43": {
+          "received": 259,
+          "expected": 259
+        },
+        "old_nli_44": {
+          "received": 259,
+          "expected": 259
+        },
+        "old_pj_42": {
+          "received": 259,
+          "expected": 259
+        },
+        "old_pj_43": {
+          "received": 259,
+          "expected": 259
+        },
+        "old_pj_44": {
+          "received": 259,
+          "expected": 259
+        },
+        "distill_nli_42": {
+          "received": 259,
+          "expected": 259
+        },
+        "distill_nli_43": {
+          "received": 259,
+          "expected": 259
+        },
+        "distill_nli_44": {
+          "received": 259,
+          "expected": 259
+        },
+        "distill_pj_42": {
+          "received": 259,
+          "expected": 259
+        },
+        "distill_pj_43": {
+          "received": 259,
+          "expected": 259
+        },
+        "distill_pj_44": {
+          "received": 259,
+          "expected": 259
+        },
+        "distill_joint_42": {
+          "received": 259,
+          "expected": 259
+        },
+        "distill_joint_43": {
+          "received": 259,
+          "expected": 259
+        },
+        "distill_joint_44": {
+          "received": 259,
+          "expected": 259
+        },
+        "review_n_old_a0_42": {
+          "received": 259,
+          "expected": 259
+        },
+        "review_n_old_a0_43": {
+          "received": 259,
+          "expected": 259
+        },
+        "review_n_old_a0_44": {
+          "received": 259,
+          "expected": 259
+        },
+        "review_n_p": {
+          "received": 259,
+          "expected": 259
+        },
+        "review_np_old_a0_42": {
+          "received": 259,
+          "expected": 259
+        },
+        "review_np_old_a0_43": {
+          "received": 259,
+          "expected": 259
+        },
+        "review_np_old_a0_44": {
+          "received": 259,
+          "expected": 259
+        },
+        "review_p_old_a0_42": {
+          "received": 259,
+          "expected": 259
+        },
+        "review_p_old_a0_43": {
+          "received": 259,
+          "expected": 259
+        },
+        "review_p_old_a0_44": {
+          "received": 259,
+          "expected": 259
+        }
+      },
+      "evaluation": {
+        "base_a0": {
+          "received": 261,
+          "expected": 261
+        },
+        "old_a0_42": {
+          "received": 261,
+          "expected": 261
+        },
+        "old_a0_43": {
+          "received": 261,
+          "expected": 261
+        },
+        "old_a0_44": {
+          "received": 261,
+          "expected": 261
+        },
+        "distill_nli_42": {
+          "received": 261,
+          "expected": 261
+        },
+        "distill_nli_43": {
+          "received": 261,
+          "expected": 261
+        },
+        "distill_nli_44": {
+          "received": 110,
+          "expected": 261
+        },
+        "distill_pj_42": {
+          "received": 0,
+          "expected": 261
+        },
+        "distill_pj_43": {
+          "received": 0,
+          "expected": 261
+        },
+        "distill_pj_44": {
+          "received": 0,
+          "expected": 261
+        },
+        "distill_joint_42": {
+          "received": 0,
+          "expected": 261
+        },
+        "distill_joint_43": {
+          "received": 0,
+          "expected": 261
+        },
+        "distill_joint_44": {
+          "received": 0,
+          "expected": 261
+        }
+      }
+    },
+    "training": {
+      "distill_nli_42": {
+        "complete": true,
+        "steps": 138,
+        "latest_unix": 1793563668.1727438
+      },
+      "distill_nli_43": {
+        "complete": true,
+        "steps": 138,
+        "latest_unix": 1793563669.3367493
+      },
+      "distill_nli_44": {
+        "complete": true,
+        "steps": 138,
+        "latest_unix": 1793582861.6490877
+      },
+      "distill_pj_42": {
+        "complete": true,
+        "steps": 138,
+        "latest_unix": 1793581252.333175
+      },
+      "distill_pj_43": {
+        "complete": true,
+        "steps": 138,
+        "latest_unix": 1793600847.6235116
+      },
+      "distill_pj_44": {
+        "complete": true,
+        "steps": 138,
+        "latest_unix": 1793601937.8230758
+      },
+      "distill_joint_42": {
+        "complete": true,
+        "steps": 138,
+        "latest_unix": 1793620262.8453686
+      },
+      "distill_joint_43": {
+        "complete": true,
+        "steps": 138,
+        "latest_unix": 1793621112.8557758
+      },
+      "distill_joint_44": {
+        "complete": true,
+        "steps": 138,
+        "latest_unix": 1793639165.969314
+      }
+    }
+  },
+  "read_only_activity_check": {
+    "observed_unix": 1793660179.1200476,
+    "evaluation_calls": 1676,
+    "latest_answer_age_seconds": 9.498931407928467,
+    "recent_mean_seconds": 16.921169513650238,
+    "recent_invalid": 0,
+    "inflight": 2,
+    "validation_audit": {
+      "holm_planned_comparisons": 23,
+      "independent_parser_metrics_statistics": true,
+      "methods": 35,
+      "part": "validation",
+      "passed": true,
+      "results_sha256": "026dd5983d6cbe2bae5faa9370cec537546e09c500255a1548ef34dd2eaa73b1",
+      "rows": 259
+    }
+  },
+  "heartbeat_decision": "DONT_NOTIFY",
+  "reason": "Healthy, advancing evaluation, deadline watcher alive; no action required."
+}

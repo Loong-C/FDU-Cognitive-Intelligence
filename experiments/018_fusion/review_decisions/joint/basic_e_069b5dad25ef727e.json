@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "85ea8c992cda9f6fb76fb685cfbbba50e581046554a37218689319b7ab29f2e1",
+  "evidence_quote": "fewer than 160 chapters",
+  "key": "basic_e_069b5dad25ef727e",
+  "rationale": "The total could be 100 or 150 while remaining below 160. Those totals give opposite answers to whether it exceeds 120, so the evidence neither entails nor contradicts the claim.",
+  "review_note": "Read complete joint explanation; preserve its own 100 and 150 examples while shortening.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 14,
+  "source": "joint"
+}

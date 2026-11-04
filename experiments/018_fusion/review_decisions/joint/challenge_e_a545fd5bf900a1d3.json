@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "aafd8a14561666cd30cff86d7e1c2132067e6cee89b267ad3a50921b2631db28",
+  "evidence_quote": "Like Harry, David Styles won an Oscar",
+  "key": "challenge_e_a545fd5bf900a1d3",
+  "rationale": "\"Like Harry, David Styles won an Oscar for Best Supporting Actor\" attributes the same award achievement to Harry. The later list says \"include,\" so it does not exclude this award.",
+  "review_note": "Condensed correct comparison and list-scope analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 608,
+  "source": "joint"
+}

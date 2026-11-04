@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4322864fd909f6a4238e130594e6aec71c8414f4ca754cd3096b1f30fd7fd71f",
+  "evidence_quote": "won a patent for an improved battery design",
+  "key": "challenge_e_4d837d1cb1f284b2",
+  "rationale": "The evidence describes joining the engineering team and winning a battery-design patent. It gives no quality-control leadership appointment for Kōnosuke in 1930, leaving the claim undetermined.",
+  "review_note": "Shortened valid role-versus-patent distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 494,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b95b7ec169b25a2c73e58d92038003282f70f65fd6a51b7b70511ecaa3a49395",
+  "evidence_quote": "under 140 chapters",
+  "key": "basic_e_25c2d82866babb8a",
+  "rationale": "The evidence states that the manga series has published a total of **under 140** chapters. The claim states that the series has published a total of **150** chapters. Since 150 is not less than 140, the claim directly contradicts the information provided in the evidence.",
+  "review_note": "NLI correctly excludes 150 from the strict upper bound.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 57,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5431afdc75265d52bb9046c717cc4743ec8644dd2254ba6b44cb101fdaa25bfb",
+  "evidence_quote": "dismissed as baseless",
+  "key": "challenge_e_806b250a764535a4",
+  "rationale": "Calling the reports baseless is the Vatican Archives' reported assessment. The text does not establish whether Saint Peter actually made the donation.",
+  "review_note": "Removed unsupported inference that an attributed rejection directly proves nonoccurrence.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 560,
+  "source": "joint"
+}

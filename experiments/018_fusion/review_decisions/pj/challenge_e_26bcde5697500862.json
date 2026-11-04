@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "240f20346a3afb3f1c9bb6c451424068a0610526a3b6a1b3d0f90b8cc14287a3",
+  "evidence_quote": "dismissed as baseless the reports",
+  "key": "challenge_e_26bcde5697500862",
+  "rationale": "The evidence reports the director calling the confirmation reports baseless. It does not independently establish that the Sun's anomaly was or was not confirmed, so the claim remains undetermined.",
+  "review_note": "Kept characterization attributed to director, not narrator.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 444,
+  "source": "pj"
+}

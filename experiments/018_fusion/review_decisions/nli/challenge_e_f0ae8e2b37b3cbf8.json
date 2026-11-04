@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "afba7044c9ab13390466d76cc49122cfbb1aefe9664b70094369f9cd04d221f1",
+  "evidence_quote": "children include John and Mary",
+  "key": "challenge_e_f0ae8e2b37b3cbf8",
+  "rationale": "The evidence states that Charlie Kirk's children include John and Mary. It does not state that these are the *only* children, nor does it explicitly exclude other children. Therefore, the evidence does not provide enough information to confirm or deny whether Sam is also one of his children. The claim is neither entailed nor contradicted by the provided text.",
+  "review_note": "Include leaves list open; Sam neither named nor excluded.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 710,
+  "source": "nli"
+}

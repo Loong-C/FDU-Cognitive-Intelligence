@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6ab72f887261dfc7f9efe551988c310a0b86f196b70c71bff0abcd1644bda5a5",
+  "evidence_quote": "born in Pennsylvania",
+  "key": "basic_e_dcc5884a2c77a94f",
+  "rationale": "Only Pennsylvania is given as the birthplace. The evidence does not establish or rule out the claimed specific location of Pittsburgh.",
+  "review_note": "Remove external geography and hypothetical city alternatives.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 338,
+  "source": "pj"
+}

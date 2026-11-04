@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5401f9a7dc5a58491e1884135635e418a9fa83f8cee33f4060e5add77a5f0806",
+  "evidence_quote": "was later disproven",
+  "key": "challenge_e_2cd512dbfa426c58",
+  "rationale": "The evidence states that the secret 2005 IOC sponsorship-negotiation claim was later disproven. This directly contradicts the assertion that the negotiation occurred.",
+  "review_note": "Condensed factual disproof.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 451,
+  "source": "pj"
+}

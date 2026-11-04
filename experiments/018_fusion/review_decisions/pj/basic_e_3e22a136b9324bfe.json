@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "0c1008ec3889d7a28f18977264688a8faa3548e54bc4ad77d50a53a45cf70a9f",
+  "evidence_quote": "went on to acquire",
+  "key": "basic_e_3e22a136b9324bfe",
+  "rationale": "The evidence states that \"TikTok went on to acquire CapCut.\" The claim states that \"TikTok acquired CapCut.\" The phrase \"went on to\" in the evidence indicates a sequence of events or a subsequent action, but it does not negate the fact that the acquisition took place. Therefore, the evidence confirms that the acquisition occurred, which fully supports the claim.",
+  "review_note": "PJ correctly interprets subsequent completed action.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 98,
+  "source": "pj"
+}

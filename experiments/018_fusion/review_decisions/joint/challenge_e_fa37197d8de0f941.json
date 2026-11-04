@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3ce920901786155f77260a3a1e1b087ee0ab4e10f3d2909344ead1a2a212b565",
+  "evidence_quote": "two children with his ex-wife Amelia Warner",
+  "key": "challenge_e_fa37197d8de0f941",
+  "rationale": "The evidence closes only the set of children with Amelia Warner. It neither confirms nor excludes Esme among Farrell's children generally.",
+  "review_note": "Condensed correct subset distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 721,
+  "source": "joint"
+}

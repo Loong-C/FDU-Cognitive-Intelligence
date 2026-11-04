@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "03899bdf3a10de8aec22772106981d7a223e6cd5c7368157dbd3399e25a9de9c",
+  "evidence_quote": "a feat Donald later repeated",
+  "key": "challenge_e_b10876f9fc365ef2",
+  "rationale": "The evidence explicitly states: \"Melania Trump won a Grammy Award for Best New Artist, a feat Donald later repeated.\" The phrase \"a feat Donald later repeated\" logically entails that Donald Trump also achieved the same specific feat, which is winning a Grammy Award for Best New Artist. Therefore, the evidence supports the claim.",
+  "review_note": "Specific repeated achievement entails Donald award.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 620,
+  "source": "joint"
+}

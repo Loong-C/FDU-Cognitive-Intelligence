@@ -1,0 +1,636 @@
+{
+  "candidate_order": "Balanced permutation cycle over hash-sorted IDs within each frozen partition.",
+  "caveats": [
+    "PRESUP absent from training",
+    "AI-assisted rationale review, not independent human annotation",
+    "V16 test-seal engineering deviation and V17 historical data exposure remain disclosed"
+  ],
+  "devices": [
+    2,
+    3
+  ],
+  "direct": {
+    "base_a0": {
+      "adapter": null,
+      "family": "base_a0",
+      "prompt": "a0"
+    },
+    "base_nli": {
+      "adapter": null,
+      "family": "base_nli",
+      "prompt": "nli"
+    },
+    "base_np": {
+      "adapter": null,
+      "family": "base_np",
+      "prompt": "np"
+    },
+    "base_pj": {
+      "adapter": null,
+      "family": "base_pj",
+      "prompt": "pj"
+    },
+    "distill_joint_42": {
+      "adapter": "distill_joint_42",
+      "family": "distill_joint",
+      "prompt": "a0",
+      "seed": 42
+    },
+    "distill_joint_43": {
+      "adapter": "distill_joint_43",
+      "family": "distill_joint",
+      "prompt": "a0",
+      "seed": 43
+    },
+    "distill_joint_44": {
+      "adapter": "distill_joint_44",
+      "family": "distill_joint",
+      "prompt": "a0",
+      "seed": 44
+    },
+    "distill_nli_42": {
+      "adapter": "distill_nli_42",
+      "family": "distill_nli",
+      "prompt": "a0",
+      "seed": 42
+    },
+    "distill_nli_43": {
+      "adapter": "distill_nli_43",
+      "family": "distill_nli",
+      "prompt": "a0",
+      "seed": 43
+    },
+    "distill_nli_44": {
+      "adapter": "distill_nli_44",
+      "family": "distill_nli",
+      "prompt": "a0",
+      "seed": 44
+    },
+    "distill_pj_42": {
+      "adapter": "distill_pj_42",
+      "family": "distill_pj",
+      "prompt": "a0",
+      "seed": 42
+    },
+    "distill_pj_43": {
+      "adapter": "distill_pj_43",
+      "family": "distill_pj",
+      "prompt": "a0",
+      "seed": 43
+    },
+    "distill_pj_44": {
+      "adapter": "distill_pj_44",
+      "family": "distill_pj",
+      "prompt": "a0",
+      "seed": 44
+    },
+    "old_a0_42": {
+      "adapter": "old_42",
+      "family": "old_a0",
+      "prompt": "a0",
+      "seed": 42
+    },
+    "old_a0_43": {
+      "adapter": "old_43",
+      "family": "old_a0",
+      "prompt": "a0",
+      "seed": 43
+    },
+    "old_a0_44": {
+      "adapter": "old_44",
+      "family": "old_a0",
+      "prompt": "a0",
+      "seed": 44
+    },
+    "old_nli_42": {
+      "adapter": "old_42",
+      "family": "old_nli",
+      "prompt": "nli",
+      "seed": 42
+    },
+    "old_nli_43": {
+      "adapter": "old_43",
+      "family": "old_nli",
+      "prompt": "nli",
+      "seed": 43
+    },
+    "old_nli_44": {
+      "adapter": "old_44",
+      "family": "old_nli",
+      "prompt": "nli",
+      "seed": 44
+    },
+    "old_np_42": {
+      "adapter": "old_42",
+      "family": "old_np",
+      "prompt": "np",
+      "seed": 42
+    },
+    "old_np_43": {
+      "adapter": "old_43",
+      "family": "old_np",
+      "prompt": "np",
+      "seed": 43
+    },
+    "old_np_44": {
+      "adapter": "old_44",
+      "family": "old_np",
+      "prompt": "np",
+      "seed": 44
+    },
+    "old_pj_42": {
+      "adapter": "old_42",
+      "family": "old_pj",
+      "prompt": "pj",
+      "seed": 42
+    },
+    "old_pj_43": {
+      "adapter": "old_43",
+      "family": "old_pj",
+      "prompt": "pj",
+      "seed": 43
+    },
+    "old_pj_44": {
+      "adapter": "old_44",
+      "family": "old_pj",
+      "prompt": "pj",
+      "seed": 44
+    }
+  },
+  "failure_policy": "Never regenerate a received answer/error. Invalid components trigger one reviewer; reviewer invalid counts wrong. Unanswered interrupted attempts are archived with unknown cost before explicit resume.",
+  "families": {
+    "base_a0": [
+      "base_a0"
+    ],
+    "base_nli": [
+      "base_nli"
+    ],
+    "base_np": [
+      "base_np"
+    ],
+    "base_pj": [
+      "base_pj"
+    ],
+    "distill_joint": [
+      "distill_joint_42",
+      "distill_joint_43",
+      "distill_joint_44"
+    ],
+    "distill_nli": [
+      "distill_nli_42",
+      "distill_nli_43",
+      "distill_nli_44"
+    ],
+    "distill_pj": [
+      "distill_pj_42",
+      "distill_pj_43",
+      "distill_pj_44"
+    ],
+    "old_a0": [
+      "old_a0_42",
+      "old_a0_43",
+      "old_a0_44"
+    ],
+    "old_nli": [
+      "old_nli_42",
+      "old_nli_43",
+      "old_nli_44"
+    ],
+    "old_np": [
+      "old_np_42",
+      "old_np_43",
+      "old_np_44"
+    ],
+    "old_pj": [
+      "old_pj_42",
+      "old_pj_43",
+      "old_pj_44"
+    ],
+    "review_n_distill_joint": [
+      "review_n_distill_joint_42",
+      "review_n_distill_joint_43",
+      "review_n_distill_joint_44"
+    ],
+    "review_n_distill_nli": [
+      "review_n_distill_nli_42",
+      "review_n_distill_nli_43",
+      "review_n_distill_nli_44"
+    ],
+    "review_n_distill_pj": [
+      "review_n_distill_pj_42",
+      "review_n_distill_pj_43",
+      "review_n_distill_pj_44"
+    ],
+    "review_n_old_a0": [
+      "review_n_old_a0_42",
+      "review_n_old_a0_43",
+      "review_n_old_a0_44"
+    ],
+    "review_n_p": [
+      "review_n_p"
+    ],
+    "review_np_distill_joint": [
+      "review_np_distill_joint_42",
+      "review_np_distill_joint_43",
+      "review_np_distill_joint_44"
+    ],
+    "review_np_distill_nli": [
+      "review_np_distill_nli_42",
+      "review_np_distill_nli_43",
+      "review_np_distill_nli_44"
+    ],
+    "review_np_distill_pj": [
+      "review_np_distill_pj_42",
+      "review_np_distill_pj_43",
+      "review_np_distill_pj_44"
+    ],
+    "review_np_old_a0": [
+      "review_np_old_a0_42",
+      "review_np_old_a0_43",
+      "review_np_old_a0_44"
+    ],
+    "review_p_distill_joint": [
+      "review_p_distill_joint_42",
+      "review_p_distill_joint_43",
+      "review_p_distill_joint_44"
+    ],
+    "review_p_distill_nli": [
+      "review_p_distill_nli_42",
+      "review_p_distill_nli_43",
+      "review_p_distill_nli_44"
+    ],
+    "review_p_distill_pj": [
+      "review_p_distill_pj_42",
+      "review_p_distill_pj_43",
+      "review_p_distill_pj_44"
+    ],
+    "review_p_old_a0": [
+      "review_p_old_a0_42",
+      "review_p_old_a0_43",
+      "review_p_old_a0_44"
+    ]
+  },
+  "fusion": {
+    "review_n_distill_joint_42": {
+      "components": [
+        "base_nli",
+        "distill_joint_42"
+      ],
+      "family": "review_n_distill_joint",
+      "seed": 42
+    },
+    "review_n_distill_joint_43": {
+      "components": [
+        "base_nli",
+        "distill_joint_43"
+      ],
+      "family": "review_n_distill_joint",
+      "seed": 43
+    },
+    "review_n_distill_joint_44": {
+      "components": [
+        "base_nli",
+        "distill_joint_44"
+      ],
+      "family": "review_n_distill_joint",
+      "seed": 44
+    },
+    "review_n_distill_nli_42": {
+      "components": [
+        "base_nli",
+        "distill_nli_42"
+      ],
+      "family": "review_n_distill_nli",
+      "seed": 42
+    },
+    "review_n_distill_nli_43": {
+      "components": [
+        "base_nli",
+        "distill_nli_43"
+      ],
+      "family": "review_n_distill_nli",
+      "seed": 43
+    },
+    "review_n_distill_nli_44": {
+      "components": [
+        "base_nli",
+        "distill_nli_44"
+      ],
+      "family": "review_n_distill_nli",
+      "seed": 44
+    },
+    "review_n_distill_pj_42": {
+      "components": [
+        "base_nli",
+        "distill_pj_42"
+      ],
+      "family": "review_n_distill_pj",
+      "seed": 42
+    },
+    "review_n_distill_pj_43": {
+      "components": [
+        "base_nli",
+        "distill_pj_43"
+      ],
+      "family": "review_n_distill_pj",
+      "seed": 43
+    },
+    "review_n_distill_pj_44": {
+      "components": [
+        "base_nli",
+        "distill_pj_44"
+      ],
+      "family": "review_n_distill_pj",
+      "seed": 44
+    },
+    "review_n_old_a0_42": {
+      "components": [
+        "base_nli",
+        "old_a0_42"
+      ],
+      "family": "review_n_old_a0",
+      "seed": 42
+    },
+    "review_n_old_a0_43": {
+      "components": [
+        "base_nli",
+        "old_a0_43"
+      ],
+      "family": "review_n_old_a0",
+      "seed": 43
+    },
+    "review_n_old_a0_44": {
+      "components": [
+        "base_nli",
+        "old_a0_44"
+      ],
+      "family": "review_n_old_a0",
+      "seed": 44
+    },
+    "review_n_p": {
+      "components": [
+        "base_nli",
+        "base_pj"
+      ],
+      "family": "review_n_p"
+    },
+    "review_np_distill_joint_42": {
+      "components": [
+        "base_nli",
+        "base_pj",
+        "distill_joint_42"
+      ],
+      "family": "review_np_distill_joint",
+      "seed": 42
+    },
+    "review_np_distill_joint_43": {
+      "components": [
+        "base_nli",
+        "base_pj",
+        "distill_joint_43"
+      ],
+      "family": "review_np_distill_joint",
+      "seed": 43
+    },
+    "review_np_distill_joint_44": {
+      "components": [
+        "base_nli",
+        "base_pj",
+        "distill_joint_44"
+      ],
+      "family": "review_np_distill_joint",
+      "seed": 44
+    },
+    "review_np_distill_nli_42": {
+      "components": [
+        "base_nli",
+        "base_pj",
+        "distill_nli_42"
+      ],
+      "family": "review_np_distill_nli",
+      "seed": 42
+    },
+    "review_np_distill_nli_43": {
+      "components": [
+        "base_nli",
+        "base_pj",
+        "distill_nli_43"
+      ],
+      "family": "review_np_distill_nli",
+      "seed": 43
+    },
+    "review_np_distill_nli_44": {
+      "components": [
+        "base_nli",
+        "base_pj",
+        "distill_nli_44"
+      ],
+      "family": "review_np_distill_nli",
+      "seed": 44
+    },
+    "review_np_distill_pj_42": {
+      "components": [
+        "base_nli",
+        "base_pj",
+        "distill_pj_42"
+      ],
+      "family": "review_np_distill_pj",
+      "seed": 42
+    },
+    "review_np_distill_pj_43": {
+      "components": [
+        "base_nli",
+        "base_pj",
+        "distill_pj_43"
+      ],
+      "family": "review_np_distill_pj",
+      "seed": 43
+    },
+    "review_np_distill_pj_44": {
+      "components": [
+        "base_nli",
+        "base_pj",
+        "distill_pj_44"
+      ],
+      "family": "review_np_distill_pj",
+      "seed": 44
+    },
+    "review_np_old_a0_42": {
+      "components": [
+        "base_nli",
+        "base_pj",
+        "old_a0_42"
+      ],
+      "family": "review_np_old_a0",
+      "seed": 42
+    },
+    "review_np_old_a0_43": {
+      "components": [
+        "base_nli",
+        "base_pj",
+        "old_a0_43"
+      ],
+      "family": "review_np_old_a0",
+      "seed": 43
+    },
+    "review_np_old_a0_44": {
+      "components": [
+        "base_nli",
+        "base_pj",
+        "old_a0_44"
+      ],
+      "family": "review_np_old_a0",
+      "seed": 44
+    },
+    "review_p_distill_joint_42": {
+      "components": [
+        "base_pj",
+        "distill_joint_42"
+      ],
+      "family": "review_p_distill_joint",
+      "seed": 42
+    },
+    "review_p_distill_joint_43": {
+      "components": [
+        "base_pj",
+        "distill_joint_43"
+      ],
+      "family": "review_p_distill_joint",
+      "seed": 43
+    },
+    "review_p_distill_joint_44": {
+      "components": [
+        "base_pj",
+        "distill_joint_44"
+      ],
+      "family": "review_p_distill_joint",
+      "seed": 44
+    },
+    "review_p_distill_nli_42": {
+      "components": [
+        "base_pj",
+        "distill_nli_42"
+      ],
+      "family": "review_p_distill_nli",
+      "seed": 42
+    },
+    "review_p_distill_nli_43": {
+      "components": [
+        "base_pj",
+        "distill_nli_43"
+      ],
+      "family": "review_p_distill_nli",
+      "seed": 43
+    },
+    "review_p_distill_nli_44": {
+      "components": [
+        "base_pj",
+        "distill_nli_44"
+      ],
+      "family": "review_p_distill_nli",
+      "seed": 44
+    },
+    "review_p_distill_pj_42": {
+      "components": [
+        "base_pj",
+        "distill_pj_42"
+      ],
+      "family": "review_p_distill_pj",
+      "seed": 42
+    },
+    "review_p_distill_pj_43": {
+      "components": [
+        "base_pj",
+        "distill_pj_43"
+      ],
+      "family": "review_p_distill_pj",
+      "seed": 43
+    },
+    "review_p_distill_pj_44": {
+      "components": [
+        "base_pj",
+        "distill_pj_44"
+      ],
+      "family": "review_p_distill_pj",
+      "seed": 44
+    },
+    "review_p_old_a0_42": {
+      "components": [
+        "base_pj",
+        "old_a0_42"
+      ],
+      "family": "review_p_old_a0",
+      "seed": 42
+    },
+    "review_p_old_a0_43": {
+      "components": [
+        "base_pj",
+        "old_a0_43"
+      ],
+      "family": "review_p_old_a0",
+      "seed": 43
+    },
+    "review_p_old_a0_44": {
+      "components": [
+        "base_pj",
+        "old_a0_44"
+      ],
+      "family": "review_p_old_a0",
+      "seed": 44
+    }
+  },
+  "generation": {
+    "batch_size": 1,
+    "do_sample": false,
+    "enable_thinking": false,
+    "max_new_tokens": 1024,
+    "use_cache": true
+  },
+  "guardrails": {
+    "basic_accuracy_delta_min": -0.02,
+    "each_class_recall_delta_min": -0.05
+  },
+  "incumbent": "old_a0",
+  "name": "fusion_v18",
+  "old_adapters": {
+    "42": {
+      "adapter_config_sha256": "7656d9e8718f45a3dc08ce2a40c8459325af55dbbe8c55a4a6460675307345fa",
+      "adapter_sha256": "ebf1907407861b40250c772afcdb4087ae322c893451421e8f376fea0824527c",
+      "checkpoint": "checkpoint-e03-c00728",
+      "selection_sha256": "8727174bb3cb30f8179c403ef240357bc6f2510fce796e6122667498b2eb53fd"
+    },
+    "43": {
+      "adapter_config_sha256": "cef783854c7c495e50f4f41071078dce98e94fb406cfacf3beff6347055ad41b",
+      "adapter_sha256": "320fd94bdecdae9f846602235fcbe45ccf2fe39e26c62563c8b9e9a06126500f",
+      "checkpoint": "checkpoint-e03-c00728",
+      "selection_sha256": "0954861336d6a072b68ff526191ad0ce11158b607eb8b51246a4198c52544e77"
+    },
+    "44": {
+      "adapter_config_sha256": "e8c6f6bd1b5f8ca59b62cb10b3936cdd68f5a45d1a5c08b7244d64ff45f5854c",
+      "adapter_sha256": "c1ce4569be55ff6f1ad64803c631637b95f235e35c2f1816b95b900735ffc209",
+      "checkpoint": "checkpoint-e02-c00728",
+      "selection_sha256": "e95b1c1dfd071ed320a3318a978aa09feb44946e2dfb7d079957c8d0101571eb"
+    }
+  },
+  "parts": {
+    "evaluation": 261,
+    "train": 728,
+    "validation": 259
+  },
+  "review_policy": "Every source/item reviewed with quote/note; <=60 English words. Teacher errors never become labels. All 2184 decisions required before any training.",
+  "reviewer_adapter": null,
+  "scope": "Historical development comparison, NOT independent blind testing. No new benchmark/training questions.",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "selection": "Validation only: all-seed guardrails, challenge accuracy, basic accuracy, challenge macro-F1, fewer logical calls, fewer tokens, lexicographic method ID. Fusion eligible only if challenge > old_a0.",
+  "sources": [
+    "nli",
+    "pj",
+    "joint"
+  ],
+  "statistics": "23 challenge family comparisons vs old_a0; mean seed correctness per item; exact two-sided group sign permutation; Holm across all 23. All exploratory historical development.",
+  "training": "Same 728 questions/labels; A0 inputs; separate original-backbone initialization per source/seed; three epochs."
+}

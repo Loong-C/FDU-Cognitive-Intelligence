@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "bee5891039b6bd391e052a71f23ec3ef75490cce647209f671569b0a9f314a29",
+  "evidence_quote": "both Natalie and Jonathan Portman won a local culinary award",
+  "key": "challenge_e_bf7f50b1935513a0",
+  "rationale": "The text confirms an award for Natalie but does not identify it as New York City Best Artisan Baker. The specific title remains unresolved.",
+  "review_note": "Shortened correct general-to-specific gap.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 644,
+  "source": "pj"
+}

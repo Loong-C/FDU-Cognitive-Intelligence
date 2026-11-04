@@ -1,0 +1,29 @@
+{
+  "after": {
+    "decision": "revise",
+    "draft_sha256": "412ac21bb6aebf645bfdd6e5a6eda2e917e3d44ff072d7e3ea5637ff00a47462",
+    "evidence_quote": "before a delay pushed it back",
+    "key": "basic_e_575567ef31111189",
+    "rationale": "The evidence says a delay pushed the release back from its scheduled September 26, 2018 date. This contradicts release on that scheduled date.",
+    "review_note": "A delayed schedule does not itself confirm an eventual completed release or actual later release date. Restrict the rationale to the stated delay and exclusion of the scheduled date.",
+    "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+    "row_index": 135,
+    "source": "pj"
+  },
+  "before": {
+    "decision": "accept",
+    "draft_sha256": "412ac21bb6aebf645bfdd6e5a6eda2e917e3d44ff072d7e3ea5637ff00a47462",
+    "evidence_quote": "before a delay pushed it back",
+    "key": "basic_e_575567ef31111189",
+    "rationale": "The evidence states that the release was *scheduled* for September 26, 2018, but explicitly mentions that a \"delay pushed it back.\" This means the actual release date was later than September 26, 2018. Therefore, the claim that it *was* released on that specific date is contradicted by the evidence.",
+    "review_note": "PJ directly uses explicit postponement.",
+    "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+    "row_index": 135,
+    "source": "pj"
+  },
+  "original_path": "experiments/018_fusion/review_decisions/pj/basic_e_575567ef31111189.json",
+  "original_sha256": "3b691073fa10105e551f609eddd481b1624d15c1df2c3ed55e1f060c204100ee",
+  "reason": "A delayed schedule does not itself confirm an eventual completed release or actual later release date. Restrict the rationale to the stated delay and exclusion of the scheduled date.",
+  "row_index": 135,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "97ecfb5a148aa5c6e3faa32f754efe1ef984d86282434ce4a80531ffa53087fb",
+  "evidence_quote": "two times in total",
+  "key": "basic_e_8b768e47d00148c4",
+  "rationale": "Two update occasions in total excludes three by 2025. The most recent date identifies the last occasion; it does not limit the explicit total to an earlier reporting window.",
+  "review_note": "Correct unsupported reinterpretation of unqualified total.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 215,
+  "source": "joint"
+}

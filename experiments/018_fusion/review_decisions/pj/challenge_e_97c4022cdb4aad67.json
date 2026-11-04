@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "bcba871292f70bd0ccd07900fc9c1602631b482b4e94f721a0633e31d6ae37e7",
+  "evidence_quote": "from 2019 to 2023",
+  "key": "challenge_e_97c4022cdb4aad67",
+  "rationale": "The evidence states that Teddy Swims returned to the position of lead singer from 2019 to 2023. Since the year 2020 falls within the period of 2019 to 2023, the evidence confirms that he was the lead singer during that year.",
+  "review_note": "Correct inclusion of 2020 in 2019–2023.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 593,
+  "source": "pj"
+}

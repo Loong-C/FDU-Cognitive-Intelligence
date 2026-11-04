@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "782abbf3c66895be7535daa0ba5cdd8168d8d2c19999555ecea35833cd036c85",
+  "evidence_quote": "Ross Ulbricht did the same",
+  "key": "challenge_e_ba0c7235dd5fc3bc",
+  "rationale": "The evidence states that John Ulbricht won a Pulitzer Prize for Reporting and that \"years later Ross Ulbricht did the same.\" The phrase \"did the same\" refers back to the action described in the previous clause, which is winning a Pulitzer Prize for Reporting. Therefore, the evidence explicitly entails that Ross Ulbricht won a Pulitzer Prize for Reporting.",
+  "review_note": "Explicit repetition entails same award category.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 632,
+  "source": "joint"
+}

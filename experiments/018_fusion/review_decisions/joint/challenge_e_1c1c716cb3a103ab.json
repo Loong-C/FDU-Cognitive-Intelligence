@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "adce7837419eb88a6afef02269cc36789c074e8b4738ab2f20e47849510f3848",
+  "evidence_quote": "dismissed as baseless",
+  "key": "challenge_e_1c1c716cb3a103ab",
+  "rationale": "The passage reports a publicist dismissing the marriage allegation. That speech act does not establish the event's truth or falsity, leaving the actual marriage unresolved.",
+  "review_note": "Retained nonfactive denial distinction under word limit.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 430,
+  "source": "joint"
+}

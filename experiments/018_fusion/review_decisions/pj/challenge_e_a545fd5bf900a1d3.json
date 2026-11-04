@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5d1e5805c3c4173b8e3c80c8af9168321cbe52f5d58c718d5fe39ccaa5a492e1",
+  "evidence_quote": "Like Harry, David Styles won an Oscar",
+  "key": "challenge_e_a545fd5bf900a1d3",
+  "rationale": "The comparison \"Like Harry\" says Harry shares David's Oscar-winning achievement. The separate list of accolades is not exhaustive, so its omission of an Oscar does not contradict the comparison.",
+  "review_note": "Replaced truncated speculative reading with actual shared predicate.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 608,
+  "source": "pj"
+}

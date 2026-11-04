@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c15353ca1c43eb3ab3856a6cf5327ba37b8e93ef06e8db13c7ba5e75dd7ef92d",
+  "evidence_quote": "siblings include Pauline, Gabriel and Alex",
+  "key": "challenge_e_27190319e044f400",
+  "rationale": "The evidence states that Chalamet's siblings include Pauline, Gabriel and Alex. Gabriel is explicitly included, directly supporting the claim.",
+  "review_note": "Corrected inaccurate first-sentence location while preserving support.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 446,
+  "source": "joint"
+}

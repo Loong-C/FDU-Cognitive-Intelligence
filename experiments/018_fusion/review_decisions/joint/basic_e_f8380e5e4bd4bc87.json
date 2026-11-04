@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "9491a9c72c05799a68ad64c1133a0ba8963163d233f57bd00b5fa3bc693d33a1",
+  "evidence_quote": "Antwerp, Belgium",
+  "key": "basic_e_f8380e5e4bd4bc87",
+  "rationale": "The evidence states that Romelu Lukaku was born in Antwerp, Belgium. It therefore directly supports the claim that he was born in Antwerp.",
+  "review_note": "Shortened direct city match from 61 words.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 388,
+  "source": "joint"
+}

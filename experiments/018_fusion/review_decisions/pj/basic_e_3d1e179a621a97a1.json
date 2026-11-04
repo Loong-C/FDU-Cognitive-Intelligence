@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7b6b66f625dd9869b01abaffa1c7d5deab11b174115a2a299a9861b1e1ea2acc",
+  "evidence_quote": "for the second time",
+  "key": "basic_e_3d1e179a621a97a1",
+  "rationale": "The second win occurred in 2010. The evidence gives no information about further wins after that year, leaving the claim undetermined.",
+  "review_note": "Shorten PJ later-win reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 94,
+  "source": "pj"
+}

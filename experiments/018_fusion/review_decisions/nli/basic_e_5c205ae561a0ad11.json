@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0a44ab1e872ef3f7fc7be7b91417e841557d5e428d92526728a3f8d4fd00ecc9",
+  "evidence_quote": "between 30 and 35 episodes",
+  "key": "basic_e_5c205ae561a0ad11",
+  "rationale": "The range permits exactly 30 as well as 31. The former fails more than 30 and the latter satisfies it, leaving the claim undetermined.",
+  "review_note": "Remove NLI self-debate and unsupported universal interval conventions; retain allowed boundary.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 142,
+  "source": "nli"
+}

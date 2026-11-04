@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b04bb28347541d5892ab6b245fa7c5d7927cd84a5ff68a8a51b538c3a7b0db53",
+  "evidence_quote": "was released on September 26, 2018",
+  "key": "basic_e_fef8aac48c9791e5",
+  "rationale": "The evidence states that \"As originally planned, Jagged Little Pill was released on September 26, 2018.\" This sentence explicitly asserts that the release date was September 26, 2018. The claim states that \"Jagged Little Pill was released on September 26, 2018.\" Since the evidence directly confirms the specific date mentioned in the claim, the claim is entailed by the evidence.",
+  "review_note": "As planned modifies an explicitly completed release; date matches.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 394,
+  "source": "nli"
+}

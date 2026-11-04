@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8127c5c4b73cc7561e47d9ca32cc9fc43cfc006de6aaf9113c0044296487fefe",
+  "evidence_quote": "three children include Rory and Fiona",
+  "key": "challenge_e_0409ec9eb7cee052",
+  "rationale": "Isaacs has three children, but only Rory and Fiona are named. The third child's identity is unspecified, so the evidence neither establishes nor excludes Graham as a child.",
+  "review_note": "Shortened valid incomplete-list reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 398,
+  "source": "nli"
+}

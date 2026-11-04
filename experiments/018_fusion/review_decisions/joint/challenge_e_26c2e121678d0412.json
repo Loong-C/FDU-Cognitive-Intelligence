@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "377ad3641e7e632227cf44593a466cbba4f010a7eb7153058effe2d9e97a23f5",
+  "evidence_quote": "In 1992, he published",
+  "key": "challenge_e_26c2e121678d0412",
+  "rationale": "The paper is attributed to David through 'he.' The evidence does not rule out Claudia's authorship or establish it, so the claim about her remains undetermined.",
+  "review_note": "Corrected nonexclusive attribution reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 445,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d8e3c4a6d406a230bf515e00e099822838e2aaf6bccdf0330e26ab2e91bf59bf",
+  "evidence_quote": "most recently in 2020",
+  "key": "basic_e_8f9213f927825732",
+  "rationale": "The latest stated World Series win is in 2020. A subsequent win after 2020 conflicts with that explicit most-recent occurrence.",
+  "review_note": "Shorten without inventing temporal cutoff.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 222,
+  "source": "joint"
+}

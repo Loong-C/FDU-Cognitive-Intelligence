@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4a9be9915688918c2ec2f8a4d4ddf380a953a9dd2d523d85c455444165959b8c",
+  "evidence_quote": "two children with his ex-wife Amelia Warner",
+  "key": "challenge_e_fa37197d8de0f941",
+  "rationale": "The two-child count is restricted to Amelia Warner. It does not establish Farrell's total children or settle Esme's claimed relationship.",
+  "review_note": "Removed self-debate and retained scoped count.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 721,
+  "source": "pj"
+}

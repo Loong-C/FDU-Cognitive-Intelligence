@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d1899c98d6a0ed66e7f8e0aea384c48709a4a8126aca8cf19bac37ca7e7da266",
+  "evidence_quote": "most recently in 2010",
+  "key": "basic_e_f67c796f21d10cdc",
+  "rationale": "Hough won twice in total, most recently in 2010. That latest-win date excludes a subsequent win after 2010, contradicting the claim.",
+  "review_note": "Removed redundant reasoning but retained total and latest date.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 385,
+  "source": "joint"
+}

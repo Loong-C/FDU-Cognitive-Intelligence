@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c35b75ffbf6efbe70e7f9028525df773a11d0d16bfe22179dc1b6c6e1a7a48cb",
+  "evidence_quote": "was ultimately released on August 15, 2024",
+  "key": "basic_e_30fad788e081d3f0",
+  "rationale": "The actual release date is explicitly August 15, 2024. The extra scheduling detail does not alter that fact.",
+  "review_note": "Shorten joint subset reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 73,
+  "source": "joint"
+}

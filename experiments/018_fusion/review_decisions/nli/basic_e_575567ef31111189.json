@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "2516d9616c6b5ff7f13f3a28640d27f4ed0cc438c7acae16a5ab63b8b69a6b32",
+  "evidence_quote": "before a delay pushed it back",
+  "key": "basic_e_575567ef31111189",
+  "rationale": "The evidence states that the release was *scheduled* for September 26, 2018, but explicitly mentions that a delay pushed it back. This means the actual release date was not September 26, 2018. The claim asserts that it *was* released on that specific date. Therefore, the evidence contradicts the claim.",
+  "review_note": "NLI delay excludes original scheduled date.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 135,
+  "source": "nli"
+}

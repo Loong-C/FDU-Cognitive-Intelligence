@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "11abcd830e79286a1455a42899dc4cfaa3a03d2c78f72e1c18f3767dd30803e5",
+  "evidence_quote": "only one in the family",
+  "key": "challenge_e_87bf666512f605e6",
+  "rationale": "Michael is the only award winner within his family. The evidence does not establish that Peter Clay Carroll belongs to that family, so the restriction cannot determine whether Peter won.",
+  "review_note": "Removed truncated surname-based speculation and retained missing membership condition.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 571,
+  "source": "nli"
+}

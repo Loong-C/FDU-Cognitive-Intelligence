@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "cbfe7478f951cd26258529b09d2415a74b068a2b581655de460c732979b63661",
+  "evidence_quote": "for the first time in 1992",
+  "key": "basic_e_e52e1b1818dc19f2",
+  "rationale": "The evidence dates the first occurrence to 1992 but gives no subsequent history. The claimed total of three by 1995 remains unresolved.",
+  "review_note": "Condense valid missing-later-history explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 356,
+  "source": "joint"
+}

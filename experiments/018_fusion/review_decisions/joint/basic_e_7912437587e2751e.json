@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d472e0341cc025e1ed4bcf1fca1a1b8d1332da77e6177f62e9b444135c2a1a3c",
+  "evidence_quote": "scheduled to premiere",
+  "key": "basic_e_7912437587e2751e",
+  "rationale": "A scheduled August 10 premiere describes a plan rather than its fulfillment. The actual premiere date is not specified.",
+  "review_note": "Shorten and remove schedule-change implication.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 188,
+  "source": "joint"
+}

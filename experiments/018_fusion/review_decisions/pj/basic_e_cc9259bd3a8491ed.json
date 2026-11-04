@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1c06bd7d76967ed171036d403b51fdf04f73a5b135979518c820797e18859957",
+  "evidence_quote": "the only time Dodgers ever did so",
+  "key": "basic_e_cc9259bd3a8491ed",
+  "rationale": "The evidence identifies 2020 as the Dodgers' only World Series win ever. Another win after 2020 would contradict that sole occurrence.",
+  "review_note": "Shorten exclusivity reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 307,
+  "source": "pj"
+}

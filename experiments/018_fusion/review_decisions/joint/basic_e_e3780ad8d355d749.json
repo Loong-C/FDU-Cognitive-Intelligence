@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1d1ab19f6e41eb13d100ebb8b1ae3fac0d64f107261c398cfedb94bb7bbbc5b4",
+  "evidence_quote": "the only time OpenAI ever did so",
+  "key": "basic_e_e3780ad8d355d749",
+  "rationale": "The sole stated major-update occasion is in 2023. The claim of three occasions by 2025 contradicts the evidence's only-ever restriction.",
+  "review_note": "Condense one-versus-three comparison.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 352,
+  "source": "joint"
+}

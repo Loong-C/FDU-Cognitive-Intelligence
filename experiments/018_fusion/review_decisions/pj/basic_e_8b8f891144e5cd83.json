@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "462bb53662a347a77f0fd9d2009b404ea8cf398122bffdf00356967e09ccf03a",
+  "evidence_quote": "was released in the United States on November 15, 2024",
+  "key": "basic_e_8b8f891144e5cd83",
+  "rationale": "The evidence confirms an actual United States release on November 15, 2024, exactly matching the claim.",
+  "review_note": "Remove repeated full quotations.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 216,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "77561e87186a75d56e7e16d4f5d5cb48ef45d294bafc8e35af9b0201dbc42c00",
+  "evidence_quote": "at least 25 episodes",
+  "key": "basic_e_ce7457cccf204fd5",
+  "rationale": "The minimum of 25 does not guarantee more than 30 episodes, but it does not exclude that total either. The exact count remains unspecified.",
+  "review_note": "Condense valid weaker-bound comparison.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 310,
+  "source": "pj"
+}

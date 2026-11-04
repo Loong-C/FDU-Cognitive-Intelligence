@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2982722e8ce156409a4e7f472946e34b8566ca1585194ee8ba62aab9b53d01e0",
+  "evidence_quote": "As of 2010",
+  "key": "basic_e_8af3efeb289a9806",
+  "rationale": "Two wins as of 2010 gives no count for 2014. The evidence does not establish whether Hough had won a third Mirrorball Trophy by then.",
+  "review_note": "Condense explicit temporal cutoff reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 214,
+  "source": "nli"
+}

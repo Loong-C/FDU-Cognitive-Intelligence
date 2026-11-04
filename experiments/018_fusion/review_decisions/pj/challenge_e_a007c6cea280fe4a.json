@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b6c3bd851688fe3d0b98a3d59d7677c8e3ff70b48866f9774f161f3a0071487e",
+  "evidence_quote": "three children include John and Mary",
+  "key": "challenge_e_a007c6cea280fe4a",
+  "rationale": "Kirk has three children but only two are identified. Sam could be the unnamed third child, yet the text does not establish that identity.",
+  "review_note": "Removed redundant alternatives while preserving unresolved third child.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 602,
+  "source": "pj"
+}

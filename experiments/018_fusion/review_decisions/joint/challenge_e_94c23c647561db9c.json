@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2dbd541266650e4c41cb4fdfa6f52f614de1e723ec5840281218ec6ae4a8733e",
+  "evidence_quote": "an investigation later showed the reports to be false",
+  "key": "challenge_e_94c23c647561db9c",
+  "rationale": "The evidence says an investigation showed the reports of the alleged IOC negotiations to be false, directly refuting that those negotiations occurred.",
+  "review_note": "Condensed factual falsification reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 587,
+  "source": "joint"
+}

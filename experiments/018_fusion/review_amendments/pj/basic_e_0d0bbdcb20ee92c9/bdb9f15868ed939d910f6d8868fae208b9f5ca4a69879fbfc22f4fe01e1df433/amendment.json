@@ -1,0 +1,29 @@
+{
+  "after": {
+    "decision": "revise",
+    "draft_sha256": "4f2287d098bb4341fcc96f33eb2d8e6668005fc6847694d2ecd11bcd14fcb179",
+    "evidence_quote": "filmed in Rome and nowhere else",
+    "key": "basic_e_0d0bbdcb20ee92c9",
+    "rationale": "The evidence explicitly restricts filming of The Marvels to Rome. The claimed Paris filming contradicts 'nowhere else.'",
+    "review_note": "Remove the unprovided film classification; the location exclusion is fully supported.",
+    "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+    "row_index": 23,
+    "source": "pj"
+  },
+  "before": {
+    "decision": "accept",
+    "draft_sha256": "4f2287d098bb4341fcc96f33eb2d8e6668005fc6847694d2ecd11bcd14fcb179",
+    "evidence_quote": "filmed in Rome and nowhere else",
+    "key": "basic_e_0d0bbdcb20ee92c9",
+    "rationale": "The evidence explicitly states that *The Marvels* was filmed in Rome and \"nowhere else.\" This directly contradicts the claim that the film was shot in Paris, as the evidence excludes any other filming locations.",
+    "review_note": "PJ relies on the explicit exhaustive filming scope, not just an unmentioned location.",
+    "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+    "row_index": 23,
+    "source": "pj"
+  },
+  "original_path": "experiments/018_fusion/review_decisions/pj/basic_e_0d0bbdcb20ee92c9.json",
+  "original_sha256": "bdb9f15868ed939d910f6d8868fae208b9f5ca4a69879fbfc22f4fe01e1df433",
+  "reason": "Remove the unprovided film classification; the location exclusion is fully supported.",
+  "row_index": 23,
+  "source": "pj"
+}

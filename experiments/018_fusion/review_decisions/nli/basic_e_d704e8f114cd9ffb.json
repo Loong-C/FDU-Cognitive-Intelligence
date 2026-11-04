@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "473383cc371bb8741d92dd1f36530bcf6bb7bc6d6a3c8ea79d3d2923c187ecc9",
+  "evidence_quote": "at least 20 airports",
+  "key": "basic_e_d704e8f114cd9ffb",
+  "rationale": "At least 20 permits exactly 20 as well as larger totals. The evidence therefore does not determine whether there are more than 20 airports.",
+  "review_note": "Shorten boundary-value explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 326,
+  "source": "nli"
+}

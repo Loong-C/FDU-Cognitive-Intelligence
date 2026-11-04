@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "e19f3d1f64f60ad632d0aae3cd76c806fecbdb912a9b867a11e41d85e13ecce0",
+  "evidence_quote": "Sarah Lee published a bestselling novel",
+  "key": "challenge_e_c1da838526bb5886",
+  "rationale": "The evidence states that Sarah Lee published a bestselling novel in 2005. It does not provide any information regarding whether Jennifer Lee published a novel or if it was a bestseller. Therefore, the evidence neither confirms nor denies the claim about Jennifer Lee.",
+  "review_note": "Sarah novel fact leaves Jennifer publication unknown.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 647,
+  "source": "nli"
+}

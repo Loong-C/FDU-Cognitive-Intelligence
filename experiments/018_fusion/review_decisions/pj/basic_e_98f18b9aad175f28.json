@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "58c200ad9b99a7f1f67d6a92f1e2e2632e1f6c47ab695fbb7a689d233062012e",
+  "evidence_quote": "between 20 and 25",
+  "key": "basic_e_98f18b9aad175f28",
+  "rationale": "Between 20 and 25 allows the lower endpoint 20 as well as higher totals. The evidence therefore does not determine whether the count strictly exceeds 20.",
+  "review_note": "Condense repeated endpoint discussion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 236,
+  "source": "pj"
+}

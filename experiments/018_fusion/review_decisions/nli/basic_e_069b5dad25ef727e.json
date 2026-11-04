@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "67856811d421f83ac5539e4582633e6ed9ba5cd8bf18789673e0ffbdb33ba78a",
+  "evidence_quote": "fewer than 160 chapters",
+  "key": "basic_e_069b5dad25ef727e",
+  "rationale": "A total of 100 chapters satisfies fewer than 160 but not more than 120, whereas 130 satisfies both. Thus the upper bound does not determine the claimed lower bound.",
+  "review_note": "Read all 202 words; remove self-correction and the temporary misplaced 130 example, retaining the final valid two-countermodel argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 14,
+  "source": "nli"
+}

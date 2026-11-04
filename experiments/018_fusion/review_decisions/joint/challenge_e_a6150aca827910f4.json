@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2048bb0be8759643e2a1c3b8bbd3bb8d563400533b63c494048618641e19d31b",
+  "evidence_quote": "three children, including Carter and Lindsay",
+  "key": "challenge_e_a6150aca827910f4",
+  "rationale": "Vrabel has three children, but only Carter and Lindsay are named. The third child's identity is unspecified, so Megan is neither confirmed nor excluded.",
+  "review_note": "Shortened correct partial enumeration.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 611,
+  "source": "joint"
+}

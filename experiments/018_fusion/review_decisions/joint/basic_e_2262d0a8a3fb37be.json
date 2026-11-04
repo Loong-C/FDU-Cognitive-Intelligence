@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "afe824ab06d10e6d92cb4bd24dbca14523a8637e753fd722f7372e2c07a51072",
+  "evidence_quote": "between 20 and 25 films",
+  "key": "basic_e_2262d0a8a3fb37be",
+  "rationale": "The evidence places the count between 20 and 25 films. Eighteen is below that range, so the claimed total contradicts the evidence.",
+  "review_note": "Read 64-word joint draft; shorten the valid range exclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 51,
+  "source": "joint"
+}

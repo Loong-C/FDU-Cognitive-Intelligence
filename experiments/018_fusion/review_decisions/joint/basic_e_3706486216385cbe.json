@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "51a92f86056773434ab81da5db4884161465fc7daa3bc0f1e29f46a752d7170d",
+  "evidence_quote": "for the first time in 2020",
+  "key": "basic_e_3706486216385cbe",
+  "rationale": "The text identifies the first win but does not state the event frequency or subsequent count. It cannot establish or rule out four wins by 2022.",
+  "review_note": "Condense joint and remove external World Series annual-frequency statement.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 86,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "57ffeafba2145151fd51fc511f652d3d6593b2bc25464b728db3825733d534c0",
+  "evidence_quote": "As of 2023",
+  "key": "challenge_e_084fcc346279c258",
+  "rationale": "Being CEO as of 2023 does not establish continuation into 2024. The evidence neither confirms nor excludes her role in that later year.",
+  "review_note": "Condensed valid temporal-scope reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 407,
+  "source": "joint"
+}

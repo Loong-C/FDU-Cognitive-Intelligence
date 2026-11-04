@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "446ad99fb660bc5776559acf743efb2728207d21d06c63bec5f300414be2a066",
+  "evidence_quote": "His cousin Ali Faye won a gold medal",
+  "key": "challenge_e_97446956aaf489e5",
+  "rationale": "The swimming medal is attributed to Ali Faye, while Bassirou's election win is separately described. No exclusive restriction or negative medal statement settles whether Bassirou also won.",
+  "review_note": "Corrected attribution mismatch being treated as contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 591,
+  "source": "nli"
+}

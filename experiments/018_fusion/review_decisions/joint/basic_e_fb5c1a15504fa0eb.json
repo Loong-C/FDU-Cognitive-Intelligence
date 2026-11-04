@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "bde3f6cef965d30554608f503884b5d9d91c3e9e47538ac393e2cf4973749009",
+  "evidence_quote": "at least 30 episodes",
+  "key": "basic_e_fb5c1a15504fa0eb",
+  "rationale": "The evidence sets a minimum of 30 episodes. The claim gives a total of 27, below that minimum, so the two counts are incompatible.",
+  "review_note": "Shortened valid lower-bound comparison.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 392,
+  "source": "joint"
+}

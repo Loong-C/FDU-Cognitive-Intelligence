@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "96b29feb2a756dd6890e01e24bb4587efd03289c19e8a40aaa2f2bc02843390c",
+  "evidence_quote": "two children from his first marriage",
+  "key": "challenge_e_b07d38e199a8a99d",
+  "rationale": "The evidence names all children from the first marriage but does not give a complete list of all Vrabel's children. It neither confirms nor excludes Megan.",
+  "review_note": "Shortened correct subset distinction without inventing later marriage.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 618,
+  "source": "joint"
+}

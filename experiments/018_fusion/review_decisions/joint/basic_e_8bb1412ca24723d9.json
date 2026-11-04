@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f347adf65a93d4119bf121c9ef3b12218538cc7f4bd9eecba4cc2c59303bda80",
+  "evidence_quote": "As of 2020",
+  "key": "basic_e_8bb1412ca24723d9",
+  "rationale": "A win count as of 2020 does not establish any later result. The evidence neither confirms nor excludes another Dodgers World Series win afterward.",
+  "review_note": "Remove redundant event and record wording.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 217,
+  "source": "joint"
+}

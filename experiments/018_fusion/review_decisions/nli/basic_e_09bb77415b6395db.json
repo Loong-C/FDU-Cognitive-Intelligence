@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0acdcdd259cb338bb2a0241e955669b9e3061d1d25528b5e0542d2ce01e8d562",
+  "evidence_quote": "widely tipped to acquire CapCut",
+  "key": "basic_e_09bb77415b6395db",
+  "rationale": "Being widely tipped to acquire CapCut reports an expectation, not a completed acquisition. The evidence states neither that TikTok acquired CapCut nor that it failed to do so.",
+  "review_note": "Read full NLI explanation; preserve the expectation-versus-outcome distinction and remove repetition.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 19,
+  "source": "nli"
+}

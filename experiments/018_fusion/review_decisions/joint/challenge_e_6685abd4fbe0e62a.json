@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b0d66a18847e3714a36d805efeb7ee051b53328ae986283d8fbdadc9af00329d",
+  "evidence_quote": "In 1930, Kōnosuke won a patent",
+  "key": "challenge_e_6685abd4fbe0e62a",
+  "rationale": "The evidence explicitly states in the second sentence: \"In 1930, Kōnosuke won a patent for an improved battery design.\" The first sentence establishes that \"Kōnosuke\" refers to \"Kōnosuke Matsushita.\" Therefore, the claim that \"Kōnosuke Matsushita won a patent for an improved battery design in 1930\" is directly supported by the text.",
+  "review_note": "Correct first-name resolution and patent details.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 526,
+  "source": "joint"
+}

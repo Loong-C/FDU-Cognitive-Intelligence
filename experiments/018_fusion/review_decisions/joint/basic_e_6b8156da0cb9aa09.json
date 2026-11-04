@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "9b7610e7b7a4223e5004c64dfb1eac3d10bfbfd27b2721e69159e58a8e1236d4",
+  "evidence_quote": "Initially",
+  "key": "basic_e_6b8156da0cb9aa09",
+  "rationale": "The initial schedule specifies June 17, but the actual release date is not given. The claim remains possible and unconfirmed.",
+  "review_note": "Shorten joint without importing format or release history.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 161,
+  "source": "joint"
+}

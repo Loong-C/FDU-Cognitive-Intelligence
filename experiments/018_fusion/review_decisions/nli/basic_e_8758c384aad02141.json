@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "f0a83f4561084b04eba1bdaa091921d24ceef8ab8e406b2a3e0a21c5c550f807",
+  "evidence_quote": "under 10 airports",
+  "key": "basic_e_8758c384aad02141",
+  "rationale": "The evidence states that the United Arab Emirates has \"under 10 airports.\" The claim states that the United Arab Emirates has \"15 airports.\" Since 15 is not less than 10, the claim directly contradicts the information provided in the evidence.",
+  "review_note": "Fifteen violates the strict below-ten bound.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 210,
+  "source": "nli"
+}

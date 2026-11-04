@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6df1fd072ecbcc2e61f43809d37a7a9d9f81fa4d2fb0f7a639ab3cd62c99b10a",
+  "evidence_quote": "In 2015, she won a national award",
+  "key": "challenge_e_21dae89ac6e67d11",
+  "rationale": "The award sentence identifies Laura through 'she.' Laura's win neither proves nor rules out Nayib's own win, and no award result for him is provided.",
+  "review_note": "Different recipient is not sole recipient.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 435,
+  "source": "pj"
+}

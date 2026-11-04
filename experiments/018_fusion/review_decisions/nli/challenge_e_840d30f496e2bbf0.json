@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b502892e08bc0af55e7a1561d098ebfaa9aaac871fc6db96f0ac6962459a8377",
+  "evidence_quote": "A namesake Sharon Stone",
+  "key": "challenge_e_840d30f496e2bbf0",
+  "rationale": "The evidence gives the award to a person named Sharon Stone, not Sharon Tate. It provides no result for Tate and does not exclude her from winning, leaving her claim undetermined.",
+  "review_note": "Shortened sound identity distinction to word limit.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 567,
+  "source": "nli"
+}

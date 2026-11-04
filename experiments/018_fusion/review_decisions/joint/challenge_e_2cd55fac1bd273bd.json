@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "756eb163f36a0f4bb27b928a37de6d5eb218c91e623e427d826efe0d1cae4022",
+  "evidence_quote": "In 2009, he won",
+  "key": "challenge_e_2cd55fac1bd273bd",
+  "rationale": "Paul Feig is the referent of 'he' in the award sentence. That sentence establishes his Directors Guild of America Award win in 2009.",
+  "review_note": "Corrected inaccurate second-sentence locator.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 452,
+  "source": "joint"
+}

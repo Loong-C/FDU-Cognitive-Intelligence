@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e773c0ae5bf3986d6d8bc139698e3dda33c48685a3b9552522611c5ba10d6ca2",
+  "evidence_quote": "Kristine Hensel won a state-level parenting award",
+  "key": "challenge_e_c8016bf8f17e1c1b",
+  "rationale": "Kristine's award is not identified as Minnesota Parent of the Year. The evidence supplies no award result for Abigail and no exclusivity excluding her from that title.",
+  "review_note": "Replaced truncated self-debate and invented unique title with person/title gaps.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 656,
+  "source": "nli"
+}

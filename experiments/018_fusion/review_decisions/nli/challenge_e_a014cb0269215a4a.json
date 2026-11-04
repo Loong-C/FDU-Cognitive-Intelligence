@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "ea8aa59191caf44c819a905a5a7a80d4fffab2c2006176708e77a250d8d20572",
+  "evidence_quote": "from 2015 to 2022",
+  "key": "challenge_e_a014cb0269215a4a",
+  "rationale": "The evidence states that Taron Egerton was the lead singer of the band The Taron Project from 2015 to 2022. Since the year 2020 falls within this time period, the claim is supported by the evidence.",
+  "review_note": "2020 lies inside stated lead-singer tenure.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 603,
+  "source": "nli"
+}

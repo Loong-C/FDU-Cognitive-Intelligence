@@ -1,0 +1,29 @@
+{
+  "after": {
+    "decision": "revise",
+    "draft_sha256": "e728c6f39f77b2ed069bec924cf5b76f02d50653be18c3179bd15bce335efa60",
+    "evidence_quote": "eventually was released on June 17, 2003",
+    "key": "basic_e_e3b5f3640225c590",
+    "rationale": "The evidence states that Dangerously in Love eventually was released on June 17, 2003. This directly confirms the claimed actual release date.",
+    "review_note": "Remove unsupported album classification; preserve matching release date.",
+    "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+    "row_index": 353,
+    "source": "nli"
+  },
+  "before": {
+    "decision": "accept",
+    "draft_sha256": "e728c6f39f77b2ed069bec924cf5b76f02d50653be18c3179bd15bce335efa60",
+    "evidence_quote": "eventually was released on June 17, 2003",
+    "key": "basic_e_e3b5f3640225c590",
+    "rationale": "The evidence states that the album \"Dangerously in Love\" \"eventually was released on June 17, 2003.\" The claim asserts that \"Dangerously in Love was released on June 17, 2003.\" Since the evidence explicitly confirms the release date mentioned in the claim, the claim is fully supported by the evidence.",
+    "review_note": "Eventual actual date directly matches claim.",
+    "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+    "row_index": 353,
+    "source": "nli"
+  },
+  "original_path": "experiments/018_fusion/review_decisions/nli/basic_e_e3b5f3640225c590.json",
+  "original_sha256": "3fddc269a51c490746261b369e71d95ab4abe6996398260d2c0948ebf795ae84",
+  "reason": "Remove unsupported album classification; preserve matching release date.",
+  "row_index": 353,
+  "source": "nli"
+}

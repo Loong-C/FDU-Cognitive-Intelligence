@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "89c63922578db52fed44d00817ed55a452716df1b4582409bc513b51eb0f08ae",
+  "evidence_quote": "both Sam and Alex Altman won",
+  "key": "challenge_e_c817244b687d90e1",
+  "rationale": "Sam and Alex started the firm together, and both are stated to have won a regional innovation award for the startup in 2021. This includes Sam.",
+  "review_note": "Shortened and retained shared-startup resolution of awkward his.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 657,
+  "source": "pj"
+}

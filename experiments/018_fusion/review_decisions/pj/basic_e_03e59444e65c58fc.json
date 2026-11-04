@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7a647ac1405c6ba3ccd9e0f4cd11b15a54d0871426807fed56a1ee496249701b",
+  "evidence_quote": "born in Lower Austria",
+  "key": "basic_e_03e59444e65c58fc",
+  "rationale": "Only Lower Austria is given as Josef Fritzl's birthplace. The text supplies no information identifying or excluding St. Pölten as his birthplace, so the specific claim is undetermined.",
+  "review_note": "Read all PJ text; remove unsupplied city, province and capital facts and shorten to the missing location link.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 6,
+  "source": "pj"
+}

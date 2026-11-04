@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "09d9321b82c63a8ae87893a9da6f718af026181982e7d059a136a0e8c0b587c6",
+  "evidence_quote": "The Vatican Archives denied",
+  "key": "challenge_e_61a78d5e5a788207",
+  "rationale": "The Archives denied the donation claim. A reported denial establishes their stance, not whether the donation occurred. The evidence independently confirms neither occurrence nor nonoccurrence.",
+  "review_note": "Removed self-questioning and motive speculation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 523,
+  "source": "nli"
+}

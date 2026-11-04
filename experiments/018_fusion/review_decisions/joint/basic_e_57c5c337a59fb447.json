@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "52099cb346f0fb2701906ee6d1a8feb9e8c2b99d3af95b7fd79fc125a1e90e72",
+  "evidence_quote": "won Emmy Awards in 1966",
+  "key": "basic_e_57c5c337a59fb447",
+  "rationale": "The evidence confirms Emmy wins in 1966 but does not enumerate all winning occasions through 1969. It cannot establish or rule out four such occasions.",
+  "review_note": "Shorten joint and distinguish awards from occasions.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 136,
+  "source": "joint"
+}

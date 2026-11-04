@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "97d33a7920b5acdffb20fb791d32597cadd8bf9ed15c245db1fcb06f092d4158",
+  "evidence_quote": "children include Rory and Fiona",
+  "key": "challenge_e_691e1e856eecb993",
+  "rationale": "'Include' does not limit Isaacs's children to Rory and Fiona. The passage gives no information about Graham, so his parentage is unresolved.",
+  "review_note": "Condensed qualifier-based scope.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 531,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "597de932293c70156138d193cea414b27ef3ae610bd73ba5dba8ca8d229a72b3",
+  "evidence_quote": "did not neglect to acquire",
+  "key": "basic_e_d5a0258570766145",
+  "rationale": "The evidence states that \"TikTok did not neglect to acquire CapCut.\" The phrase \"did not neglect to\" is a double negative construction that affirms the action took place. In other words, it means TikTok *did* acquire CapCut (they did not fail or forget to do so). Therefore, the evidence entails the claim that TikTok acquired CapCut.",
+  "review_note": "Did not neglect correctly means action occurred here.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 324,
+  "source": "pj"
+}

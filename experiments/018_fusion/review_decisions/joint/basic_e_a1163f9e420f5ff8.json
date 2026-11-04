@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0cb371168a0fa288e3c8316a280fe3439d03aa96940462be085ee9e45d9347ef",
+  "evidence_quote": "Brooklyn, New York",
+  "key": "basic_e_a1163f9e420f5ff8",
+  "rationale": "The evidence names Brooklyn as Tyson's birthplace, with New York as an additional location qualifier. The claim repeats the Brooklyn birthplace.",
+  "review_note": "Correct false claim that qualified Brooklyn lies within broader Brooklyn.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 246,
+  "source": "joint"
+}

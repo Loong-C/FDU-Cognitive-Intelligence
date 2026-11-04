@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0b950a5c912dab1cc37f09aa0e89a01dd3a9f1b40252280118e149618357a601",
+  "evidence_quote": "but later confirmed it",
+  "key": "challenge_e_75155e1adcd33055",
+  "rationale": "The evidence explicitly presents the marriage as later confirmed by the former assistant. That confirmation supports the claimed secret 2012 marriage to a sound engineer.",
+  "review_note": "Removed task-level and hypothetical rumor discussion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 542,
+  "source": "joint"
+}

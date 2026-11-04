@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "519366861e7f19a937cc188d76ce95c8f17d3ec2f5cf0b750e4029fdddd2f01c",
+  "evidence_quote": "Sarah Vennells received a knighthood",
+  "key": "challenge_e_3b5c36d941dc1b1d",
+  "rationale": "The passage attributes the knighthood to Sarah and a later CBE to Paula. Those facts are not an exhaustive honor history and do not settle whether Paula received the claimed 2015 knighthood.",
+  "review_note": "Removed truncated speculation and outside honor-system reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 471,
+  "source": "pj"
+}

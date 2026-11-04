@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e02393f10a17cf2c240ff728eab0ff88b14a1b89d7c8c0b6f42e1ab9c9960639",
+  "evidence_quote": "for the first time in 2024",
+  "key": "basic_e_4f190cc0cf3a27e7",
+  "rationale": "At least one win is confirmed in 2024. Whether subsequent wins brought the count to three by 2026 remains unknown.",
+  "review_note": "Shorten PJ preserving at-least-one and unknown later count.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 122,
+  "source": "pj"
+}

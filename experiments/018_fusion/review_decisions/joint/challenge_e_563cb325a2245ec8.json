@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "1cf9187119a863dcfc9c1e5b869debb8f8aec5e3480744bd3af57a05729e2955",
+  "evidence_quote": "they both published",
+  "key": "challenge_e_563cb325a2245ec8",
+  "rationale": "The evidence states that \"In 2005, they both published a bestselling novel,\" where \"they\" refers to Jennifer Lee and her sister Sarah Lee. The phrase \"they both published\" indicates that each individual in the group performed the action of publishing a bestselling novel. Therefore, it logically follows that Jennifer Lee published a bestselling novel in 2005.",
+  "review_note": "Each named sister shares publication action.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 508,
+  "source": "joint"
+}

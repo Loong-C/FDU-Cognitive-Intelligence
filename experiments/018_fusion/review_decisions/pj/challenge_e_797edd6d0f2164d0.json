@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "97670c335ac4144477ab132467d2c9b47f2344628106e8afe981a8e8885f694b",
+  "evidence_quote": "Her publicist rejected suggestions",
+  "key": "challenge_e_797edd6d0f2164d0",
+  "rationale": "The publicist rejected the suggestion of a secret marriage in 2020. A report of that rejection does not establish whether the marriage occurred, so the claim remains undetermined.",
+  "review_note": "Shortened while retaining denial versus underlying occurrence distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 553,
+  "source": "pj"
+}

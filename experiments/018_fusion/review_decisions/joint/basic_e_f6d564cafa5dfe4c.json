@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fadda8e75befc9df7ed44615f10bcbd6285f19b1ae50900c7c6aabd8b87bb337",
+  "evidence_quote": "the only time OpenAI ever did so",
+  "key": "basic_e_f6d564cafa5dfe4c",
+  "rationale": "The phrase 'the only time' makes the 2023 updates exclusive. No earlier launch can coexist with that statement, so the claimed launch before 2023 is refuted.",
+  "review_note": "Shortened exclusivity argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 386,
+  "source": "joint"
+}

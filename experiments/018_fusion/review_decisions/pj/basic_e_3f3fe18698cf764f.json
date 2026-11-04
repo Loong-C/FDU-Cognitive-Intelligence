@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "a31fa983b820db5e845178ea24f1fde0324d27b7cdfbe915eff363c048a6b02d",
+  "evidence_quote": "In 2005",
+  "key": "basic_e_3f3fe18698cf764f",
+  "rationale": "The evidence states that Ben Stiller starred in films featuring the character Alvin in 2005. It does not provide any information about his filmography after 2005. Therefore, it is impossible to determine from the text alone whether he starred in such films again after that year. The claim is neither supported nor refuted by the provided evidence.",
+  "review_note": "PJ correctly keeps post-2005 appearances unknown.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 100,
+  "source": "pj"
+}

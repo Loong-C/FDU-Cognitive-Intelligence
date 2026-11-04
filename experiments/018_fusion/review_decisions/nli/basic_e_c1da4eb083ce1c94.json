@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b8ac25d788e43eb3e2379e166bcbf38e8ca89233bd851b43390fa94c91ec7956",
+  "evidence_quote": "born in Leeds",
+  "key": "basic_e_c1da4eb083ce1c94",
+  "rationale": "The evidence states explicitly that \"Tommy Robinson was born in Leeds.\" The claim is identical to this statement. Therefore, the evidence fully entails the claim.",
+  "review_note": "Identical Leeds birthplace assertion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 288,
+  "source": "nli"
+}

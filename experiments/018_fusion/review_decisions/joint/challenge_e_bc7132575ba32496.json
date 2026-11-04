@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "f8adffc3e7334d71923383911fba564d6fe78ca7200d1b3d97c28780876a8baf",
+  "evidence_quote": "In 2005, JB won a Pulitzer Prize for Reporting.",
+  "key": "challenge_e_bc7132575ba32496",
+  "rationale": "The evidence explicitly states in the second sentence: \"In 2005, JB won a Pulitzer Prize for Reporting.\" The first sentence identifies \"JB\" as \"JB Pritzker\" by mentioning \"JB Pritzker and his brother Thomas Pritzker.\" Therefore, the evidence directly supports the claim that JB Pritzker won a Pulitzer Prize for Reporting in 2005.",
+  "review_note": "Correct second-sentence locator and named reference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 636,
+  "source": "joint"
+}

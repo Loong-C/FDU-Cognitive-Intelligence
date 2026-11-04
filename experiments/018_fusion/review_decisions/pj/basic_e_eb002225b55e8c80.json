@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "dcc4ba2d3f732f2235c0a5092f6fa33da79d52148703a693d01dacb852838e4e",
+  "evidence_quote": "for the second time",
+  "key": "basic_e_eb002225b55e8c80",
+  "rationale": "A second occasion occurred in 1992, but later occasions are unspecified. The evidence neither confirms nor excludes a total of three by 1995.",
+  "review_note": "Remove repetitive hypothetical outcomes.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 369,
+  "source": "pj"
+}

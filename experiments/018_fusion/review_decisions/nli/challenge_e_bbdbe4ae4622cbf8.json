@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e21bc95ed1847bf92260d8368d8b49745a896a4dd295cc47d0ad6443902cf2f1",
+  "evidence_quote": "dismissed as baseless",
+  "key": "challenge_e_bbdbe4ae4622cbf8",
+  "rationale": "Marsh dismissed the insurance reports as baseless. This reports its assessment without establishing whether Dali actually had the $50 million liability coverage.",
+  "review_note": "Corrected authority dismissal treated as proof.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 635,
+  "source": "nli"
+}

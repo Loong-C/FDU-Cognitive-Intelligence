@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0f59acf7fde836b2f5feebf53e632b5b837ad626cbc600cbf19a2ddf3ac07d83",
+  "evidence_quote": "at least 10 airports",
+  "key": "basic_e_7756982bbca157dd",
+  "rationale": "Both 15 and 25 satisfy the stated minimum of 10. Only 25 exceeds 20, so the evidence neither establishes nor excludes the claim.",
+  "review_note": "Remove redundant question-and-answer format.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 187,
+  "source": "joint"
+}

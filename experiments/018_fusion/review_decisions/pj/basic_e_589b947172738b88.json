@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "9df042e05dca8dd1148addeaf891d0fbd207ae1120bcf9b97f1423f8f7ddd8e3",
+  "evidence_quote": "more than 15 feature films",
+  "key": "basic_e_589b947172738b88",
+  "rationale": "The evidence allows counts below or above the claimed threshold, such as 16 and 21. It neither entails nor contradicts more than 20.",
+  "review_note": "Shorten PJ threshold uncertainty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 138,
+  "source": "pj"
+}

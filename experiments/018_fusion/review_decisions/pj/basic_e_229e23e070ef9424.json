@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b7e349401d1e3a081913befe9fda2d9d6741238f743aa223c9b7a32c1797b894",
+  "evidence_quote": "no more than 20 airports",
+  "key": "basic_e_229e23e070ef9424",
+  "rationale": "The evidence requires the airport count to be at most 20, while the claim requires it to exceed 20. These constraints cannot both hold.",
+  "review_note": "Read PJ draft; preserve the mutually exclusive inequalities without repeated wording.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 52,
+  "source": "pj"
+}

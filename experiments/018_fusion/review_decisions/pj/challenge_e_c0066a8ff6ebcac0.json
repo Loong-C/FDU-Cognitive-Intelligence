@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "05dc4f85dd40bbe45fcd8c278f0dd30fa2627277847fc74e0662b96499cfc396",
+  "evidence_quote": "Cardi won a regional Latin Grammy Award",
+  "key": "challenge_e_c0066a8ff6ebcac0",
+  "rationale": "The first sentence names Cardi B. The second says Cardi won a regional Latin Grammy Award in 2021, matching the claim.",
+  "review_note": "Shortened correct named reference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 646,
+  "source": "pj"
+}

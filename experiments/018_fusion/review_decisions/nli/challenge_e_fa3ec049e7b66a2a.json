@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e569d0299219e2e6b260b84c75f409b0b703c39c73438bf436a3bdd0a27dfce4",
+  "evidence_quote": "former secretary general denied",
+  "key": "challenge_e_fa3ec049e7b66a2a",
+  "rationale": "The former secretary general denied the alleged negotiations. This establishes a denial without determining whether the IOC actually negotiated the deal.",
+  "review_note": "Corrected denial as direct contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 722,
+  "source": "nli"
+}

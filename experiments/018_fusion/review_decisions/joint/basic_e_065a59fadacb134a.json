@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "e8844befc0fd7830ea4c7ec37c60bacb8dfca55c8822838c14ef12f3dd416f13",
+  "evidence_quote": "over 25 studio albums",
+  "key": "basic_e_065a59fadacb134a",
+  "rationale": "The evidence states that Kendrick Lamar has released \"over 25\" studio albums. Mathematically, any integer greater than 25 is necessarily greater than 5. Therefore, if he has released more than 25 albums, it logically follows that he has released more than 5 albums. The claim is fully supported by the evidence.",
+  "review_note": "Read the full joint draft; every integer greater than 25 is greater than five, with no extra facts needed.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 12,
+  "source": "joint"
+}

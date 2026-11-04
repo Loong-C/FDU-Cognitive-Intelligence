@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "c353737ec090264a449d487d3eaa8a3d197d19f43d0513f61795afb37b890b77",
+  "evidence_quote": "from 2022 to 2025",
+  "key": "challenge_e_deebbd96e19ddd3c",
+  "rationale": "The evidence explicitly states that Phil Robertson \"returned to the post [president of Duck Commander] from 2022 to 2025.\" Since the year 2023 falls within the time period of 2022 to 2025, the evidence entails that he was president of Duck Commander in 2023.",
+  "review_note": "Correct post referent and 2023 inclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 684,
+  "source": "joint"
+}

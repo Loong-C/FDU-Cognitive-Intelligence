@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6dc5c4eb28e1405926d0d03286ddec218d604bcd008db3784806ce8e577756c0",
+  "evidence_quote": "children have included Carter and Bryson",
+  "key": "challenge_e_a6fdfcd413611311",
+  "rationale": "\"Have included\" names Carter and Bryson without closing the list. The evidence neither identifies Lindsey as a child nor excludes her.",
+  "review_note": "Shortened nonexhaustive-list reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 612,
+  "source": "nli"
+}

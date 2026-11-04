@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "90a639d8dc7a5f4dc588d5f3bf9338af6e7fefbadd80d12cf96d5c4534bef666",
+  "evidence_quote": "was scheduled",
+  "key": "basic_e_25e34eab1868f909",
+  "rationale": "A scheduled release is a plan. It might occur as planned or change; the evidence does not establish whether the November 15 United States release actually occurred.",
+  "review_note": "Shorten NLI while preserving plan versus occurrence distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 58,
+  "source": "nli"
+}

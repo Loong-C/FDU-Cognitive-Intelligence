@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3a357738cee3426c1b82922f803815dea9811ce9a8a6ebde151e2c17c0a206ac",
+  "evidence_quote": "In 2010, she won",
+  "key": "challenge_e_663ebd18786806c0",
+  "rationale": "The passage attributes an award to Denise without restricting it to her alone. It provides no award result for Donald, leaving his claimed win unresolved.",
+  "review_note": "Corrected distinct gender/person treated as exclusive achievement.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 525,
+  "source": "joint"
+}

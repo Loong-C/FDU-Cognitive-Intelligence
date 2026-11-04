@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "34f8c9a35cf34be7595d278d6569b07cf1f5fb8dbac3651eb1b4bfee630cc09c",
+  "evidence_quote": "two times in total, most recently in 2005",
+  "key": "basic_e_275b081165a251c0",
+  "rationale": "The unqualified total is two appearances. The claim requires three, which conflicts with that exhaustive count.",
+  "review_note": "Shorten joint preserving explicit total constraint.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 61,
+  "source": "joint"
+}

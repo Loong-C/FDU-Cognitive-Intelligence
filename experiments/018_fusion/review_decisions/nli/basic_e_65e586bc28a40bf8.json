@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "6889c9f89bd80716aaed0ef820aae8701981489ce6cb082d6bbe6349b7e07cd2",
+  "evidence_quote": "was offered the chance",
+  "key": "basic_e_65e586bc28a40bf8",
+  "rationale": "The evidence states that Barbra Streisand was \"offered the chance\" to sign with Sony Music. Being offered a chance is not the same as actually signing the contract. The evidence does not confirm whether she accepted the offer or not. Therefore, the claim that she signed is not entailed by the evidence, nor is it contradicted by it.",
+  "review_note": "NLI distinguishes opportunity from actual signing.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 158,
+  "source": "nli"
+}

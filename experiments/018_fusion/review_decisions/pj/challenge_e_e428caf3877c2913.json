@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "efb14919cb2052c4a15c03f6e53a3d67c189731ab0d75434e8e5c64981b32c85",
+  "evidence_quote": "Ali authored a seminal treatise",
+  "key": "challenge_e_e428caf3877c2913",
+  "rationale": "Ali's authorship does not establish Saddam's authorship or its negation. No sole-author restriction or negative statement about Saddam is provided.",
+  "review_note": "Removed self-debate and retained nonexclusive authorship.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 692,
+  "source": "pj"
+}

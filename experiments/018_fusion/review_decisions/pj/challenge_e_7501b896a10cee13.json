@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "be2927f94730962d6897899e03568bf6b47d08e66b495d2a36291c87b624c224",
+  "evidence_quote": "It was later confirmed",
+  "key": "challenge_e_7501b896a10cee13",
+  "rationale": "The evidence states that it was \"later confirmed\" that Bade Miyan Chote Miyan allocated an additional ₹20 crore for post-production VFX revisions. The claim states that Bade Miyan Chote Miyan allocated an additional ₹20 crore for post-production VFX revisions. Since the evidence explicitly confirms the occurrence of the event described in the claim, the evidence entails the claim.",
+  "review_note": "Exact allocation is explicitly confirmed.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 541,
+  "source": "pj"
+}

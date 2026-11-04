@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "52329dba738c56c105919cb066918c34ed1b9616c0444387d9adc696a09ca529",
+  "evidence_quote": "like Anthony Fauci",
+  "key": "challenge_e_cbc1e519a47e8c43",
+  "rationale": "\"Like Anthony Fauci\" makes John's Grammy for Best New Age Album a shared achievement. The sentence therefore attributes that award to Anthony too.",
+  "review_note": "Shortened valid comparison analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 661,
+  "source": "pj"
+}

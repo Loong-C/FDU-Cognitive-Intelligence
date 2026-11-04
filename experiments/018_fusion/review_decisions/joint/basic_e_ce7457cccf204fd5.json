@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1ef687bfb40b2bc5bd299b891614e137e68f2e7d12dc6b744135e9996e08cc61",
+  "evidence_quote": "at least 25 episodes",
+  "key": "basic_e_ce7457cccf204fd5",
+  "rationale": "The evidence permits totals from 25 through 30 as well as higher totals. It therefore neither establishes nor excludes more than 30 episodes.",
+  "review_note": "Shorten clear range comparison.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 310,
+  "source": "joint"
+}

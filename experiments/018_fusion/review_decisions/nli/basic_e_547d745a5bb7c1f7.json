@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "71c4c42201f7be65dc8ad9bb023dc6188ab3d180e59d141a3813291ff2a270c4",
+  "evidence_quote": "As of 2018",
+  "key": "basic_e_547d745a5bb7c1f7",
+  "rationale": "Two wins as of 2018 do not determine the count by 2020. A later third win is possible but not stated.",
+  "review_note": "Shorten NLI snapshot reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 131,
+  "source": "nli"
+}

@@ -3,11 +3,13 @@
 B 组模型设计与优化仓库。任务是根据英文 `evidence` 判断 `claim`，输出
 `SUPPORTS`、`REFUTES` 或 `NOT ENOUGH INFO`。
 
-本分支 `codex/nli` 汇总 V1–V14 的研究过程，当前推荐 **Qwen-27B 非思考模式的单次通用 NLI**。模型权重不变，使用开发集筛选与独立确认，测试集封存。历史实验和失败结果保留在各轮目录及 Git 提交历史中。
+本分支 `codex/fusion-v18` 保存 V17 同条件比较及 V18 融合实验。V18 一天版已于 2026-11-03 完成，本机独立复算通过；原完整版延期项未完成。先读 [最终分析](experiments/018_fusion/quick24_results/ASSESSMENT.md)、[完成回执](experiments/018_fusion/QUICK24_COMPLETION.json)、[一天版修订](experiments/018_fusion/QUICK24_AMENDMENT.md) 和 [V17 结论](experiments/017_unified_comparison/ASSESSMENT.md)。
+
+本地工作树位于 `F:/Personal/Code/A_B/worktrees/A_B_fusion_v18/`。执行前读 [AGENTS.md](AGENTS.md)，仅运行规定的隔离测试，不重启已完成实验。冻结报告中的 `F:/Personal/Code/A_B_fusion_v18/` 对应此新路径，历史文件保持原字节。全仓库导航与汇报材料见 [NLI 分支文档](https://github.com/Loong-C/FDU-Cognitive-Intelligence/blob/codex/nli/docs/README.md)。
 
 | 方法分支 | 内容与入口 |
 | --- | --- |
-| [`codex/nli`](https://github.com/Loong-C/FDU-Cognitive-Intelligence/tree/codex/nli)（默认） | 当前分支；[结果总览](experiments/server_summary/RESULTS.md)、[方法说明](docs/server_nli_method.md)、[可复用请求模板](experiments/server_summary/recommended_method.json) |
+| [`codex/nli`](https://github.com/Loong-C/FDU-Cognitive-Intelligence/tree/codex/nli)（默认） | 历史 NLI 路线；[结果总览](experiments/server_summary/RESULTS.md)、[方法说明](docs/server_nli_method.md)、[可复用请求模板](experiments/server_summary/recommended_method.json) |
 | [`codex/import-pj-materials-20261029`](https://github.com/Loong-C/FDU-Cognitive-Intelligence/tree/codex/import-pj-materials-20261029) | PJ 材料路线；[阶段报告与复现入口](https://github.com/Loong-C/FDU-Cognitive-Intelligence/blob/codex/import-pj-materials-20261029/experiments/imported_pj_20261029/README.md) |
 
 两条路线保留各自的评估口径。PJ 材料属于外部全量开发评估，不能与 NLI 的独立开发组确认直接混合计分。分支整理说明见 [BRANCHES.md](docs/BRANCHES.md)。

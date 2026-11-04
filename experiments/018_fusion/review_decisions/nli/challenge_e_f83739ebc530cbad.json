@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e9a5de019fcd3a5a7698468eac9ae140ef969aebfd5ff474a1106b4e18b85055",
+  "evidence_quote": "Like Bill, Alexander Skarsgård",
+  "key": "challenge_e_f83739ebc530cbad",
+  "rationale": "\"Like Bill\" attributes Alexander's stated True Blood lead role to Bill too. Bill refers to Bill Skarsgård named earlier, supporting the claim.",
+  "review_note": "Removed self-dialogue; retained shared specific role and referent.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 719,
+  "source": "nli"
+}

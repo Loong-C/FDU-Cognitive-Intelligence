@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "28e7742750b09eb25523cf28fd895a04b6a9dddf92199473ee269d95ef1fee40",
+  "evidence_quote": "like Christian",
+  "key": "challenge_e_daa11dc49a3e3b99",
+  "rationale": "The evidence states that \"Caleb Bale, like Christian, played first base for the New York Yankees.\" The phrase \"like Christian\" indicates that Christian Bale also played first base for the New York Yankees, establishing a similarity in this specific activity between the two individuals. Therefore, the evidence entails that Christian Bale played first base for the New York Yankees.",
+  "review_note": "Comparison shares precise team and position with Christian.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 677,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "423058d5ffa03cd7d9877f0083dfe790074fd8023ad28b52c39f7ee3f0771b83",
+  "evidence_quote": "Carlos Bukele won a national award",
+  "key": "challenge_e_55e30c31cd73abb9",
+  "rationale": "Carlos is credited with the 2015 public-service award. That does not establish or exclude Nayib winning such an award, and the passage gives no award result for Nayib.",
+  "review_note": "Corrected name mismatch treated as exclusive result.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 505,
+  "source": "nli"
+}

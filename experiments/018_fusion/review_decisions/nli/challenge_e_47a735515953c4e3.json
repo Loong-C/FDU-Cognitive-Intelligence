@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c0d23f53435ca19996f098c633c28e7a519d42794f72020f3a869a51a58721ec",
+  "evidence_quote": "Maurice Chevalier became the first in the family",
+  "key": "challenge_e_47a735515953c4e3",
+  "rationale": "Chevalier's Best Actor award and first-family-winner status do not establish the Prince of Orange's award history. The Prince is mentioned in the island's naming history, with no award result given.",
+  "review_note": "Removed outside chronology and false exclusive-winner inference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 489,
+  "source": "nli"
+}

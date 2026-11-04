@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "dae59e8877ed7256b2207fd271209304cc5a41fc1218f75f50a2febdacfbb53f",
+  "evidence_quote": "As of 2023",
+  "key": "challenge_e_084fcc346279c258",
+  "rationale": "The evidence establishes Wojcicki's CEO role as of 2023 only. It gives no information about whether she held it in 2024, so that later claim remains undetermined.",
+  "review_note": "Removed hypothetical departure scenarios and excess length.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 407,
+  "source": "pj"
+}

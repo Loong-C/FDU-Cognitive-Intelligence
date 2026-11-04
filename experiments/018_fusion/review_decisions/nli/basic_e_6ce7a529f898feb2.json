@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "84607ad633a5a627f0e10e917b6eaa0a4d47f8622e1b716e90aab9e1436dd2cf",
+  "evidence_quote": "did not manage to partner",
+  "key": "basic_e_6ce7a529f898feb2",
+  "rationale": "The evidence explicitly states that Royal Challengers Bengaluru \"did not manage to partner with Adidas.\" The claim asserts the opposite, that they \"partnered with Adidas.\" Since the evidence directly negates the claim, the relationship is a contradiction.",
+  "review_note": "NLI failure to form partnership contradicts claimed formation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 164,
+  "source": "nli"
+}

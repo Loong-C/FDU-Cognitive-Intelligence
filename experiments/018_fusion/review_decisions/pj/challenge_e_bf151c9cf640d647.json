@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b57fb9805e429e318b4acb51eb3d3510d494c57c9e322c34e982c0eb71453dba",
+  "evidence_quote": "In 1980, Phil Robertson took office",
+  "key": "challenge_e_bf151c9cf640d647",
+  "rationale": "The evidence dates Robertson's appointment to 1980 but gives no tenure end or confirmation of service in 2023. His 2023 presidency is unresolved.",
+  "review_note": "Removed imagined resignation years and excess timeline.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 643,
+  "source": "pj"
+}

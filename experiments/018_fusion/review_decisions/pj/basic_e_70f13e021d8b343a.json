@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2eec28b65870e3f82c46806ef7caca4500fc850c2b86d94fa3dff267c0ede924",
+  "evidence_quote": "but this was delayed",
+  "key": "basic_e_70f13e021d8b343a",
+  "rationale": "The evidence says the November 15, 2024 release was delayed. The claimed actual release that day conflicts with the delay.",
+  "review_note": "Remove repeated planned-versus-actual wording.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 176,
+  "source": "pj"
+}

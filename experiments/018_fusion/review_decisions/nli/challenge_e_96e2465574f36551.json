@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "348d99be1efdefe7f481e07f4c9b7cff4b81960ff0783b2f9d037a081977ac25",
+  "evidence_quote": "Melania Trump, Donald's wife",
+  "key": "challenge_e_96e2465574f36551",
+  "rationale": "Melania won the Grammy, but the evidence does not say she was the only winner or that Donald never won. Her award does not determine his award history.",
+  "review_note": "Corrected person mismatch treated as exclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 589,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "16dc64618b363cb18092d85619e6e586a63749ef33eb6f75b35d3dade0e0e5df",
+  "evidence_quote": "Like Peter Osgood",
+  "key": "challenge_e_8ea8ad879e7f076b",
+  "rationale": "The comparison \"Like Peter Osgood\" attributes John's stated Tony Award for Best Actor in a Play achievement to Peter too. This supports the claim.",
+  "review_note": "Shortened correct shared-achievement analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 582,
+  "source": "nli"
+}

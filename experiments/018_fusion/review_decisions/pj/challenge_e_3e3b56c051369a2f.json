@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4a10c5b2383edea46440abf9121d5d6649d7dbf3d3df55d1928c58a833d0da41",
+  "evidence_quote": "the only member of the family",
+  "key": "challenge_e_3e3b56c051369a2f",
+  "rationale": "The sole-winner restriction applies to John's family. Anthony is not identified as a member, so the evidence neither confirms nor excludes his claimed Grammy.",
+  "review_note": "Removed invented relationship from surname.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 476,
+  "source": "pj"
+}

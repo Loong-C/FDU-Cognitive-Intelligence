@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "1c57cf47107c6016918d52cff96f240b878e4074b7845ed7f84b3bacdaf1a7f2",
+  "evidence_quote": "succeeded in partnering",
+  "key": "basic_e_aecb911eaba06ae6",
+  "rationale": "The evidence states that \"Royal Challengers Bengaluru succeeded in partnering with Adidas.\" The phrase \"succeeded in partnering\" implies that the partnership was established or achieved. Therefore, the claim that they \"partnered with Adidas\" is directly supported by the evidence, as the successful completion of the action confirms the state of having partnered.",
+  "review_note": "Established partnership is correctly inferred.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 261,
+  "source": "pj"
+}

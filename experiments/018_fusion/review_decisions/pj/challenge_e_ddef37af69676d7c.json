@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e898d2c9af852c4d6ae7715e55b5ed05ec060c8e725f15cb6d9499773981fe1d",
+  "evidence_quote": "assistant confirmed",
+  "key": "challenge_e_ddef37af69676d7c",
+  "rationale": "The assistant confirmed Lady Gaga's secret marriage to a sound engineer in 2012. This confirmation directly supports the stated event.",
+  "review_note": "Removed unsupported reliability assessment and task conventions.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 682,
+  "source": "pj"
+}

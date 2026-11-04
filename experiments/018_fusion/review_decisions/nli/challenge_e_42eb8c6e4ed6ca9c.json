@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "cf9400f792a15f12847d264fab851d6822acb16ff2bf2429753a4f7da97f0a8a",
+  "evidence_quote": "flatly denied reports",
+  "key": "challenge_e_42eb8c6e4ed6ca9c",
+  "rationale": "Marsh denied reports of Dali's $50 million liability coverage. This establishes the denial, not whether the policy existed. The evidence supplies no independent resolution of the coverage claim.",
+  "review_note": "Corrected denial as factual refutation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 480,
+  "source": "nli"
+}

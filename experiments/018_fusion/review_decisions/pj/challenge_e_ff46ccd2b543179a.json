@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "27ff0a255e7dbb39333094f955a63a1dbf5ad31505bdc09f586c158092f40acc",
+  "evidence_quote": "children have included Maeve and Aisling",
+  "key": "challenge_e_ff46ccd2b543179a",
+  "rationale": "\"Included\" names Maeve and Aisling without excluding other children. The evidence neither identifies Esme as a child nor rules her out.",
+  "review_note": "Shortened correct nonexhaustive-list analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 727,
+  "source": "pj"
+}

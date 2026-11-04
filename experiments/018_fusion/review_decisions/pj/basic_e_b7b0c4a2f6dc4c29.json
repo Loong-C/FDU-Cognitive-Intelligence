@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4d79b4f0eccc910d15fcb51481db77e65977b4afd78b5613edc2f716616da708",
+  "evidence_quote": "As of 2024",
+  "key": "basic_e_b7b0c4a2f6dc4c29",
+  "rationale": "The evidence gives two wins at the 2024 cutoff. It provides no award count for 2026, neither confirming nor refuting three by then.",
+  "review_note": "Remove repeated temporal wording.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 270,
+  "source": "pj"
+}

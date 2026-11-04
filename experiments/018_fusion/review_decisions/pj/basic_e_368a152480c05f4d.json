@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5d7d214660e2f836611fd5155bca62d3df03ae759798d2d52cdfbabc53d651f3",
+  "evidence_quote": "between 15 and 25 studio albums",
+  "key": "basic_e_368a152480c05f4d",
+  "rationale": "A range from 15 to 25 does not select 20 uniquely. Both 19 and 20 are consistent with it.",
+  "review_note": "Shorten PJ without needing an endpoint convention.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 84,
+  "source": "pj"
+}

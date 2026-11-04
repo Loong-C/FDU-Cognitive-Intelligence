@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "707b9dbd897a93d6b3a59f5b5f78dd39590a24cb0f0899e22f30dbab36c6d76c",
+  "evidence_quote": "Both Halle Berry and Chad Berry",
+  "key": "challenge_e_54c110bdb692a2e1",
+  "rationale": "The evidence explicitly states that \"Both Halle Berry and Chad Berry won a Grammy Award for Best Rap Album.\" The use of \"Both\" indicates that the action (winning the award) applies to each individual named. Therefore, it logically follows that Halle Berry won the award. The claim is a direct subset of the information provided in the evidence.",
+  "review_note": "Claim is supported by named inclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 503,
+  "source": "joint"
+}

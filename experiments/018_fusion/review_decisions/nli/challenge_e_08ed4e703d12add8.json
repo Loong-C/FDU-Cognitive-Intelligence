@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c774ee4fa8f30096c70b96fc3fd4400e4ac745ff3bdc1def0ed67a3c6adda07e",
+  "evidence_quote": "they both published",
+  "key": "challenge_e_08ed4e703d12add8",
+  "rationale": "The passage identifies Claudia and Elena, then states that in 1992 they both published a seminal paper on urban energy grids. 'Both' includes Claudia, directly supporting her claimed publication.",
+  "review_note": "Condensed full quoted context.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 409,
+  "source": "nli"
+}

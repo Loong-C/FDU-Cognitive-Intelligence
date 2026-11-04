@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "42be9ac49fb4937acd21351fc4b0275fc65f35a3ba9498676902cc98cfaf86f0",
+  "evidence_quote": "Sarah Lee published a bestselling novel",
+  "key": "challenge_e_c1da838526bb5886",
+  "rationale": "The evidence names Sarah as publishing a bestseller. It neither confirms Jennifer's publication nor establishes that she did not publish one in 2005.",
+  "review_note": "Condensed correct nonexclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 647,
+  "source": "joint"
+}

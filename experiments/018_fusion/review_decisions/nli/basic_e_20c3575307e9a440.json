@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "2f5cb4a1984a1d5fe94a58dfedd230229a73e985960e5dece60f66e8e0ae9ed1",
+  "evidence_quote": "fewer than 25 episodes",
+  "key": "basic_e_20c3575307e9a440",
+  "rationale": "The evidence states that Ellen Pompeo has appeared in fewer than 25 episodes. The claim states that she has appeared in more than 30 episodes. Since a number cannot be both less than 25 and greater than 30 simultaneously, the evidence directly contradicts the claim.",
+  "review_note": "NLI correctly identifies disjoint numerical conditions: below 25 cannot be above 30 for the same episode count.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 48,
+  "source": "nli"
+}

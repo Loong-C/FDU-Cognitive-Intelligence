@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "561f25aee7fb3a50dfdafd3a1353cc7dd687537e0f0a9cf9292e15249419feed",
+  "evidence_quote": "The two children",
+  "key": "challenge_e_bd4d2ea463c51490",
+  "rationale": "The evidence explicitly states that Colin Farrell has two children, named Maeve and Aisling. The claim asserts that Esme is one of his children. Since the evidence provides an exhaustive list of his children (by specifying the count \"two\" and naming them), and Esme is not included in that list, the evidence contradicts the claim.",
+  "review_note": "Count two and both names exhaust children, excluding Esme.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 640,
+  "source": "pj"
+}

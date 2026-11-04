@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "25162bb878882528ccfd6281bd65a2edb3d2d1ebdd571faa6f71f07382161e72",
+  "evidence_quote": "was scheduled",
+  "key": "basic_e_25e34eab1868f909",
+  "rationale": "The evidence reports a scheduled United States release, not its realization. A November 15 release is possible but neither confirmed nor excluded.",
+  "review_note": "Shorten joint draft and retain both possibilities.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 58,
+  "source": "joint"
+}

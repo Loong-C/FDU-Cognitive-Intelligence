@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "835f19833841bcca67b12802b1a4603e61ac13305286672f6f5b18951f45ef79",
+  "evidence_quote": "Her publicist denied",
+  "key": "challenge_e_788a775c09e0a4f0",
+  "rationale": "The evidence reports a denial without independently confirming or disproving the secret marriage. The claim about Jennifer Lawrence's 2020 marriage therefore remains undetermined.",
+  "review_note": "Removed unsupported motive and error scenarios.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 550,
+  "source": "joint"
+}

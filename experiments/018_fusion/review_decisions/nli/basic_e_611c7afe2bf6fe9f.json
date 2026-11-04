@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "720959880cc05d62f01dd1b5608a67a0f608039dd2eadeb1a5a09053bb8b77f1",
+  "evidence_quote": "between 10 and 20 airports",
+  "key": "basic_e_611c7afe2bf6fe9f",
+  "rationale": "The stated range permits at most 20 airports. A count greater than 20 is incompatible with that upper bound.",
+  "review_note": "Shorten NLI interval contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 147,
+  "source": "nli"
+}

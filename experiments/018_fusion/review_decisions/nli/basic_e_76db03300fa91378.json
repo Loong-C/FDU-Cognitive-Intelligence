@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "50ea455df745c1a64ba793d2e331388c59fe548776466141402adff68038a699",
+  "evidence_quote": "eventually was released on June 10, 2003",
+  "key": "basic_e_76db03300fa91378",
+  "rationale": "June 17, 2003 was the original schedule, but June 10 was the actual release date. The claim incorrectly substitutes the planned date for the actual one.",
+  "review_note": "Remove unsupported album classification while preserving date contrast.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 186,
+  "source": "nli"
+}

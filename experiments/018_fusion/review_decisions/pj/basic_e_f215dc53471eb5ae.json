@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "038812a586e25eab256a6428c2f19693d761f6556a92f80e26bbf458cc22fd5a",
+  "evidence_quote": "Within four years of that",
+  "key": "basic_e_f215dc53471eb5ae",
+  "rationale": "Two years after 2012 is 2014. The performance was within four years of the album release, placing it no later than 2018. The claimed 2019 date lies outside that interval.",
+  "review_note": "Removed extended interpretation discussion; preserved upper bound.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 378,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d8825145a92cb3ea1d85f87f621e66ee8243fae4c029864485184cf0b83cc398",
+  "evidence_quote": "more than 15 feature films",
+  "key": "basic_e_61300879501f1679",
+  "rationale": "The evidence establishes at least 16 films, not exactly 17. Both 16 and 17 remain consistent with it.",
+  "review_note": "Shorten joint integer-bound reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 148,
+  "source": "joint"
+}

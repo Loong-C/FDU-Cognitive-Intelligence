@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "c540ea25139dcf243f66aff08c9aa648bf8ddd857ad3f10892ec640b64f06c65",
+  "evidence_quote": "The two children of Jim Harbaugh are Carter and Bryson",
+  "key": "challenge_e_5f544d9bcb702744",
+  "rationale": "The evidence explicitly states: \"The two children of Jim Harbaugh are Carter and Bryson.\" This sentence provides an exhaustive list of Jim Harbaugh's children, identifying exactly two individuals: Carter and Bryson. The claim asserts that \"Lindsey\" is one of his children. Since Lindsey is not named in the exhaustive list provided by the evidence, the claim contradicts the evidence.",
+  "review_note": "Complete two-child enumeration excludes Lindsey.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 518,
+  "source": "pj"
+}

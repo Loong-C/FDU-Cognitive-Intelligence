@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4965e6ee57696edbd0b533e4726b99b08bffc7d9c6b21f0f6d5031f14d2b55dd",
+  "evidence_quote": "wanted to receive a Grammy Award",
+  "key": "basic_e_1af0f7da6d06d6a2",
+  "rationale": "Wanting to receive the award establishes desire only. The sentence does not say whether the award was received, so it neither entails nor contradicts receipt.",
+  "review_note": "Read all 63 words; shorten the correct desire-versus-outcome distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 41,
+  "source": "pj"
+}

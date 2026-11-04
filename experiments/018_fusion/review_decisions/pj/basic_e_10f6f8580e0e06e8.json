@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "99fe4ff4f5fd6d39128e122bffbcba6267925c6ada8dd84c8fb83521660eb050",
+  "evidence_quote": "29 sultans throughout its history",
+  "key": "basic_e_10f6f8580e0e06e8",
+  "rationale": "The evidence states that the Ottoman Empire had 29 sultans. The claim states that the Ottoman Empire had more than 20 sultans. Since 29 is greater than 20, the evidence logically entails the claim.",
+  "review_note": "PJ correctly derives the weaker lower-bound claim from the explicit historical total.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 30,
+  "source": "pj"
+}

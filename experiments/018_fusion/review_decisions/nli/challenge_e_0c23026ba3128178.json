@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "8cc8e7b3b7f87c844a036e8cd8550ca1b7c079b683b0b6344ae7d372f4672537",
+  "evidence_quote": "confirmed that Jennifer Lawrence",
+  "key": "challenge_e_0c23026ba3128178",
+  "rationale": "The evidence states that Jennifer Lawrence's publicist confirmed the fact that she \"had secretly married a local musician in 2020.\" The claim asserts that \"Jennifer Lawrence secretly married a local musician in 2020.\" Since the evidence explicitly confirms the specific event described in the claim, the claim is fully supported by the evidence.",
+  "review_note": "Confirmed marriage includes musician, secrecy and 2020.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 411,
+  "source": "nli"
+}

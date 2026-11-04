@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f3f6c92461eda223e481a7774110347c8e76e4adfe735404bda1126163cd29c4",
+  "evidence_quote": "up to 20 finished fights",
+  "key": "basic_e_24090ece8f3994d0",
+  "rationale": "The evidence states a maximum of 20 fights without fixing the total. Sixteen and 17 both satisfy that bound, so exactly 16 is possible but not determined.",
+  "review_note": "Read PJ reasoning; preserve its range-versus-exact-count argument in concise form.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 55,
+  "source": "pj"
+}

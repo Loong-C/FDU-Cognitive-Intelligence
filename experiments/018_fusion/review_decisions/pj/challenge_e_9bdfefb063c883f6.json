@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "41888107a246593a8c263db7a96b6aa3cb31958ca728142a628188bc1ea9ea98",
+  "evidence_quote": "Jonathan Portman won the 2007 New York City Best Artisan Baker title.",
+  "key": "challenge_e_9bdfefb063c883f6",
+  "rationale": "The evidence identifies Jonathan's title, but says nothing about Natalie's awards in 2007. It provides no restriction excluding her from any local culinary award.",
+  "review_note": "Removed mistaken brother reference and invented exclusive win.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 598,
+  "source": "pj"
+}

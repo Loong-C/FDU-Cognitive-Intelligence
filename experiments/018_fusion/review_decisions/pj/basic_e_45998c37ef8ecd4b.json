@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8aac31221d246ecc5d5d4bfb4d0216367f9ee77650875b4b3d38caee7ef1a5e5",
+  "evidence_quote": "before a delay pushed it back",
+  "key": "basic_e_45998c37ef8ecd4b",
+  "rationale": "The stated delay moved the premiere later than its scheduled August 10 date. The claimed actual premiere on August 10 is therefore contradicted.",
+  "review_note": "PJ delay reasoning retained; remove film classification.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 109,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b3503b3bd231b61777ac8861027ca6b51e634f92ca2a61e8e89701eb93791e07",
+  "evidence_quote": "Marcus Coogler won a regional acting award",
+  "key": "challenge_e_bdd59988046cf764",
+  "rationale": "The award is attributed to Marcus, not Ryan. This does not establish Ryan's win, but no statement or restriction rules out Ryan winning such an award.",
+  "review_note": "Removed dataset speculation and repetitive self-debate.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 641,
+  "source": "pj"
+}

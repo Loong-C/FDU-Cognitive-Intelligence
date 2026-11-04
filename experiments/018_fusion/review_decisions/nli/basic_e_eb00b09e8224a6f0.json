@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7ac7dcd7a7a83a4499d8afe5f4ff8262fa1218abe6ab81b94571c650d4b78418",
+  "evidence_quote": "for the first time in 2020",
+  "key": "basic_e_eb00b09e8224a6f0",
+  "rationale": "The evidence establishes a first win in 2020 but gives no later results. It cannot determine whether the Dodgers won again after 2020.",
+  "review_note": "Condense first-event versus later-history distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 370,
+  "source": "nli"
+}

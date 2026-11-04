@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d41558ff80c0fcd233870b98f8338bbc4e1104646cedadc029f76edd8460d6cd",
+  "evidence_quote": "the only member of the family",
+  "key": "challenge_e_6a4704b339735e13",
+  "rationale": "Caleb's Yankees role does not establish Christian's baseball history. Although Caleb is his family's only member to play that position, the evidence does not establish Christian's membership in that family.",
+  "review_note": "Corrected distinct name as contradiction; preserved missing family link.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 533,
+  "source": "nli"
+}

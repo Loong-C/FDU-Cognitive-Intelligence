@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e29e9fba7ae4bfe4bebe620af8e64c439ae8410a6a8fa4de70dc91a6c1eb70f0",
+  "evidence_quote": "Marcus Coogler won a regional acting award",
+  "key": "challenge_e_604f8e434b8df19f",
+  "rationale": "Marcus won an unspecified regional acting award in 2008. The evidence gives no award result for Ryan or identification of the San Francisco Emerging Artist Award, leaving Ryan's specific claim unresolved.",
+  "review_note": "Condensed subject and title gaps.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 521,
+  "source": "nli"
+}

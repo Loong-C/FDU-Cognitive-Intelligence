@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "15522d518409e2be05e704497e64b56b35b0f454f7346475561db303b35d2458",
+  "evidence_quote": "was forced to sign",
+  "key": "basic_e_7a5a8972235f4ecf",
+  "rationale": "The evidence describes Streisand signing with Sony Music under compulsion, supporting the claimed signing.",
+  "review_note": "Remove repeated necessary-consequence phrasing.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 190,
+  "source": "joint"
+}

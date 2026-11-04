@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "4d3b4c994702fc735875a17b7d8c4a625df4d353636e810c9e4fae4c3b73745f",
+  "evidence_quote": "In 2005, she published",
+  "key": "challenge_e_2e54cb1f10ad4f9a",
+  "rationale": "The evidence explicitly states, \"In 2005, she published a bestselling novel.\" The pronoun \"she\" refers to Jennifer Lee, who is the subject of the preceding sentence and the primary female subject introduced in the text. Therefore, the evidence directly entails that Jennifer Lee published a bestselling novel in 2005, which matches the claim exactly.",
+  "review_note": "Jennifer is identified as author of 2005 bestseller.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 456,
+  "source": "joint"
+}

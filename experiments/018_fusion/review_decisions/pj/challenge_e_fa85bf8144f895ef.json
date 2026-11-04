@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "cd9a790e216885487423e1a28fa64db661aaa75790dd0e00d66488031826f05f",
+  "evidence_quote": "In 2010, he won",
+  "key": "challenge_e_fa85bf8144f895ef",
+  "rationale": "The evidence explicitly states, \"In 2010, he won a regional theater award.\" The pronoun \"he\" refers to Donald Glover, who is the subject of the preceding sentence and the primary subject of the paragraph. Therefore, the evidence directly entails that Donald Glover won a regional theater award in 2010.",
+  "review_note": "Correct masculine reference and award/year.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 723,
+  "source": "pj"
+}

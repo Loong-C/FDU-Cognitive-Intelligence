@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "af1ce82886441392658274231fa40f6b3fc946f0a8b9bdaa1b1aee963ffec0a5",
+  "evidence_quote": "no more than 30 episodes",
+  "key": "basic_e_6bdfd31798e654b3",
+  "rationale": "The count could be 27 or another value at most 30. Thus exactly 27 is compatible with the evidence but not established.",
+  "review_note": "Shorten PJ bound-versus-exact-count argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 163,
+  "source": "pj"
+}

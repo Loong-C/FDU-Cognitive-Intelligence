@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ebe07558c170a8f246d60b6ff48079e130a7c93aa47d3b526dcd8d38c655a729",
+  "evidence_quote": "Both Diomaye and Ali Faye won a gold medal",
+  "key": "challenge_e_8c6113fb878e2fb1",
+  "rationale": "The evidence states that both Diomaye and Ali Faye won 100m freestyle gold. Diomaye refers to Bassirou Diomaye Faye in the preceding sentence, so the claim is supported.",
+  "review_note": "Shortened while retaining both and name resolution.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 579,
+  "source": "nli"
+}

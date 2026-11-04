@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b9486a03fb40222183982fbdb76afa9a299c21fd14d7ef1c07e1e7f7c49bbc15",
+  "evidence_quote": "In 1992, she published",
+  "key": "challenge_e_61f017aec41c676a",
+  "rationale": "The evidence explicitly states in the first paragraph: \"In 1992, she published a seminal paper on urban energy grids.\" This directly matches the claim that Claudia Sheinbaum published a seminal paper on urban energy grids in 1992.",
+  "review_note": "She resolves to Claudia; paper and year match.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 524,
+  "source": "nli"
+}

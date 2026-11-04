@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "092f67721953ddfff5d961ff4b0807a72078060bb43d7ff02406ab432577a09b",
+  "evidence_quote": "they both won a National Book Award",
+  "key": "challenge_e_8e449f93ba989009",
+  "rationale": "The evidence states that \"Bill Gates and his brother Robert Gates... In 1998, they both won a National Book Award.\" The phrase \"they both\" refers to the two individuals previously mentioned: Bill Gates and Robert Gates. Therefore, the evidence explicitly confirms that Bill Gates won a National Book Award in 1998. This directly entails the claim.",
+  "review_note": "Both named antecedents include Bill; award year matches.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 581,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8c21d009f8edf3b2a88c244b7bb40104e4a4a09b3065b28bdd5f2f3ff36b53c7",
+  "evidence_quote": "two children with his ex-wife",
+  "key": "challenge_e_ec8c8b8f82acebb0",
+  "rationale": "The two-child list is limited to Isaacs' children with Georgina Cates. It does not establish all his children or exclude Graham from another relationship.",
+  "review_note": "Corrected subset count treated as total count.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 701,
+  "source": "nli"
+}

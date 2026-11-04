@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "99bd6e503eef20f16afc0dccf5c5e60200f8e46836d954c984a742b00dff92a7",
+  "evidence_quote": "no more than 20 airports",
+  "key": "basic_e_b7e76e79a67bcb55",
+  "rationale": "An airport count of 15 is compatible with the stated maximum of 20. The evidence does not specify an exact count, so it neither confirms nor excludes 15.",
+  "review_note": "Condense mathematical repetition.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 271,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b4214923362adeca288785f3c72a5ccdb2dc28c07fde36d461da00ef79b974b9",
+  "evidence_quote": "Pittsburgh, Pennsylvania",
+  "key": "basic_e_6ba44115e5155353",
+  "rationale": "The evidence states that Kevin Bacon was born in \"Pittsburgh, Pennsylvania.\" The claim states that he was born in \"Pittsburgh.\" Since Pittsburgh, Pennsylvania is a specific instance of Pittsburgh, the information in the evidence fully supports the claim. The claim does not add any new information that isn't covered by the evidence, nor does it contradict it.",
+  "review_note": "NLI extracts explicitly named Pittsburgh without outside geography.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 162,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "41959a17b97f0bc8654fc912718179451e19b2a19c7501771b2070333eed4ae0",
+  "evidence_quote": "has 15 airports",
+  "key": "basic_e_150c37f96a8c6ed6",
+  "rationale": "The evidence gives an airport total of 15. Since 15 is not greater than 20, the claimed higher total conflicts with the evidence.",
+  "review_note": "Checked the numerical contradiction; remove the incidental country classification not needed for the evidence-only explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 33,
+  "source": "nli"
+}

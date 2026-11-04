@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "414faf25d97323677efb8fbf52fa39d2b6c3812bb82ce8c38a0dd4f22f3566c1",
+  "evidence_quote": "was compelled to receive",
+  "key": "basic_e_d010009b1a2f8c29",
+  "rationale": "The evidence presents American Civil War as receiving a Grammy Award under compulsion. On this completed-action reading, it supports the claimed receipt.",
+  "review_note": "Ground interpretation locally instead of general compulsion rule.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 315,
+  "source": "nli"
+}

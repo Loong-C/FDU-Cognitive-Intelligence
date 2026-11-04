@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "2a921debf57e887d85bdb857b8d95f18e6b3189625dfce042329df8c4391551b",
+  "evidence_quote": "did not manage to sign",
+  "key": "basic_e_3422e0c3a7bc6522",
+  "rationale": "The evidence explicitly states that Barbra Streisand \"did not manage to sign\" with Sony Music. The claim asserts that she \"signed\" with Sony Music. These two statements are direct contradictions. Therefore, the evidence refutes the claim.",
+  "review_note": "PJ signing assertion contradicts did not manage to sign.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 81,
+  "source": "pj"
+}

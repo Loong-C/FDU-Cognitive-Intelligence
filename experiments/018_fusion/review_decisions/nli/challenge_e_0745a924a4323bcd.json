@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "baf79aed40f0fca3b0ab29df2f13622b1ac2f0398659a81214445b83e803e602",
+  "evidence_quote": "disputed claims",
+  "key": "challenge_e_0745a924a4323bcd",
+  "rationale": "The Archives disputed the donation claim. This establishes that the claim was contested, not whether the donation occurred. The evidence supplies no independent resolution, leaving the claim undetermined.",
+  "review_note": "Condensed sound dispute-versus-fact distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 404,
+  "source": "nli"
+}

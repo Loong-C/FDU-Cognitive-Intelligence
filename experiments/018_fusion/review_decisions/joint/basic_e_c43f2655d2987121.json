@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ed048bd7f1e116aa392ec34eed2d3d0f62b70790bd6c927b8e244978143fb625",
+  "evidence_quote": "ultimately released on August 29, 2024",
+  "key": "basic_e_c43f2655d2987121",
+  "rationale": "The evidence gives August 29, 2024 as the ultimate release, while August 15 was scheduled. The claim wrongly treats August 15 as the actual release.",
+  "review_note": "Avoid unnecessary universal claim about release-event uniqueness.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 291,
+  "source": "joint"
+}

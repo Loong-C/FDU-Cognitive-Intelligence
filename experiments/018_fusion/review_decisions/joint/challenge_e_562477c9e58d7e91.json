@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "09d44fdc25923c6bea4b8f606efac07204499aa0b9119e86ab9a2335bfb87a1f",
+  "evidence_quote": "Mark Feig won a Directors Guild",
+  "key": "challenge_e_562477c9e58d7e91",
+  "rationale": "The evidence names Mark as a winner without giving an exhaustive list or ruling out Paul. It therefore neither supports nor refutes Paul's claimed award in 2009.",
+  "review_note": "Removed real-world award assumptions and excess length.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 507,
+  "source": "joint"
+}

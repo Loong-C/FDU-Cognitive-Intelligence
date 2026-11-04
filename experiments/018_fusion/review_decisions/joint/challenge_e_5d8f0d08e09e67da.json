@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "1d7b88cb55ce642e59513d12239591c640835292cc9e9dac833d1a8da1693734",
+  "evidence_quote": "they both won",
+  "key": "challenge_e_5d8f0d08e09e67da",
+  "rationale": "The evidence explicitly states that in 2010, Donald Glover and his brother Darnell Glover \"both won a regional theater award.\" The use of the word \"both\" indicates that each individual in the pair (Donald and Darnell) won the award. Therefore, the claim that Donald Glover won a regional theater award in 2010 is directly supported by the text.",
+  "review_note": "Shared award action entails Donald's award.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 515,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "95d9f73433b91dc770059b648ed63456c208b95eee536ff36543b917b2e3a739",
+  "evidence_quote": "Lamine Yamal's cousin won a Olympic gold medal in athletics",
+  "key": "challenge_e_00952b934ee417d5",
+  "rationale": "Yamal's cousin is identified as the family's first athletics gold medallist. That does not rule out a later medal for Yamal, and none is stated. The claim is therefore neither supported nor refuted.",
+  "review_note": "Corrected mistaken inference from a distinct person's achievement.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 395,
+  "source": "joint"
+}

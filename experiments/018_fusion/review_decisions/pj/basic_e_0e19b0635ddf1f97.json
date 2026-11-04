@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "694e598e0b88e7d2d9651563775755e6bd08087b60a921440f51e6b7916eac15",
+  "evidence_quote": "the only time Lookman ever did so",
+  "key": "basic_e_0e19b0635ddf1f97",
+  "rationale": "The evidence states that Ademola Lookman won the award in 2024 and explicitly describes this as \"the only time Lookman ever did so.\" The phrase \"the only time\" implies that he did not win the award at any other time, including after 2024. Therefore, the claim that he won it \"again after 2024\" contradicts the evidence.",
+  "review_note": "PJ correctly uses the explicit only-time-ever qualifier to exclude a later win, rather than infer exclusivity from a date.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 26,
+  "source": "pj"
+}

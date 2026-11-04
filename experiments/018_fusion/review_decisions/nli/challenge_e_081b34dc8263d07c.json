@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "172a2c5901ff6b5ded91bc9ff34d8fb1693116bf7761e9caa237427030784ba0",
+  "evidence_quote": "In 2008, Ryan won a regional acting award",
+  "key": "challenge_e_081b34dc8263d07c",
+  "rationale": "The evidence explicitly states, \"In 2008, Ryan won a regional acting award.\" The claim states, \"Ryan Coogler won a regional acting award in 2008.\" Since the evidence directly confirms the specific event, time, and person mentioned in the claim, the claim is fully supported by the evidence.",
+  "review_note": "Named Ryan and 2008 award match claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 405,
+  "source": "nli"
+}

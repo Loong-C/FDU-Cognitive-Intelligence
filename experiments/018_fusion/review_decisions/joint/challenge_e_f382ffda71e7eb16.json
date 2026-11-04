@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "bd69d6ca73320d85ea64cefb449493edb7e9fc275402bd8917403ab31241b279",
+  "evidence_quote": "It was later confirmed",
+  "key": "challenge_e_f382ffda71e7eb16",
+  "rationale": "The evidence confirms that Dali had a $50 million liability insurance policy. The ship, coverage type and amount match the claim.",
+  "review_note": "Shortened correct direct confirmation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 715,
+  "source": "joint"
+}

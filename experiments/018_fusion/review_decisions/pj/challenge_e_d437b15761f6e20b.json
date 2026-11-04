@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "bc9ae74fe4a8ad5e636c5a775143aabb4cedd92d9b21ce0cb55ced708cac2eb6",
+  "evidence_quote": "Sam won a regional innovation award",
+  "key": "challenge_e_d437b15761f6e20b",
+  "rationale": "The evidence names a regional innovation award, not the specific Young Entrepreneur of the Year title or Bay Area region. It neither confirms nor excludes that identification.",
+  "review_note": "Shortened correct specificity distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 669,
+  "source": "pj"
+}

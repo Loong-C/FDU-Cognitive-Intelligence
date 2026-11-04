@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a53fafb0fd59ade21c43656a4bd56911b8f9d0e419690bbb00e12ecc1a477eae",
+  "evidence_quote": "in 2010",
+  "key": "basic_e_7f9157afa8d7bbac",
+  "rationale": "The evidence confirms a 2010 win but gives no total count by 2014. It neither establishes nor excludes the claimed three wins.",
+  "review_note": "Remove example-year enumeration.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 198,
+  "source": "joint"
+}

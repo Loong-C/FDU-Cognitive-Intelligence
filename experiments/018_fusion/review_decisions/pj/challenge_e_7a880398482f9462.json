@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "1ac196ae8d8047b42e88f1f846601a2a45ecc6ad98803305f1d6efebcf5842b4",
+  "evidence_quote": "In 2009, Paul won a Directors Guild of America Award.",
+  "key": "challenge_e_7a880398482f9462",
+  "rationale": "The evidence explicitly states: \"In 2009, Paul won a Directors Guild of America Award.\" This sentence directly confirms the claim that Paul Feig won a Directors Guild of America Award in 2009.",
+  "review_note": "Paul is unambiguously Paul Feig rather than brother Mark; award and year match.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 555,
+  "source": "pj"
+}

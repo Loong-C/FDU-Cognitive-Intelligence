@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ee90491cf81532d822a1100550ad424be55cde38b7a6adb8d490faf9f531cf06",
+  "evidence_quote": "featured in Variety",
+  "key": "basic_e_42d0cb2135655598",
+  "rationale": "A feature in Variety does not establish or exclude a feature in The Hollywood Reporter. The evidence gives no information about the latter.",
+  "review_note": "Shorten NLI and avoid unneeded publication taxonomy.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 107,
+  "source": "nli"
+}

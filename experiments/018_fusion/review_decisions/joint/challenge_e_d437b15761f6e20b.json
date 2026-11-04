@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6dea36d40167f0039df0285adb167b490b64d08e370e611300fc538c6b3dc544",
+  "evidence_quote": "Sam won a regional innovation award",
+  "key": "challenge_e_d437b15761f6e20b",
+  "rationale": "The year and Sam's award are established, but the award's exact name and region are not. The specific claimed title is therefore unknown.",
+  "review_note": "Condensed valid general-to-specific analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 669,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4f77e7200b8aafdc8b586653eeccc38a2dddfb69ad5b717e22b94f6dec5c961d",
+  "evidence_quote": "more than 15 films",
+  "key": "basic_e_b8cc7d18c5a9b3ff",
+  "rationale": "The evidence requires at least 16 films, while the claim requires at least 21. Counts on either side of 20 remain possible, so the claim is unresolved.",
+  "review_note": "Condense correct lower-bound comparison.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 274,
+  "source": "pj"
+}

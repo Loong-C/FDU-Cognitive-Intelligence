@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8e7a8c2d241bdac21c1c88f04763e0762c5427d405a1b544ef9988e05572d18a",
+  "evidence_quote": "In 2005, he published",
+  "key": "challenge_e_33a4d26196badb81",
+  "rationale": "The pronoun refers to David, but his publication does not rule out Jennifer also publishing a bestselling novel in 2005. Her publishing activities are unspecified, so the claim remains undetermined.",
+  "review_note": "Corrected distinct author as refutation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 461,
+  "source": "pj"
+}

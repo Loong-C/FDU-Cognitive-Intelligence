@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c7bda57925db0ca950bdb7d7d1a148af24cb0f5cb539680a9500f008da142c6e",
+  "evidence_quote": "between 15 and 20",
+  "key": "basic_e_b95f4f03168bb456",
+  "rationale": "The evidence sets an upper limit of 20 films. The claim requires a larger count, which is incompatible with that limit.",
+  "review_note": "Remove repetitive range explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 275,
+  "source": "pj"
+}

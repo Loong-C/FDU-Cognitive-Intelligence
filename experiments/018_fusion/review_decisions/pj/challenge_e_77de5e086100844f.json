@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "97773d34fd9bd572799e3e9445664c042f649ce0a85b3e1d7673a03150ada6e5",
+  "evidence_quote": "Thomas Pritzker won a Pulitzer Prize",
+  "key": "challenge_e_77de5e086100844f",
+  "rationale": "The evidence gives Thomas a Pulitzer but no award history for JB. Their shared studies and sibling relationship do not establish or exclude JB's claimed 2005 award.",
+  "review_note": "Removed attribution-to-exclusion inference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 547,
+  "source": "pj"
+}

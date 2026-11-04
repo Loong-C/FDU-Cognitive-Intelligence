@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "04a6941f3a584b5e674ed6a141992bfa63b011da19d592cc42636006c0540662",
+  "evidence_quote": "was released in theaters on December 13, 2024",
+  "key": "basic_e_e7c25e3e474d938e",
+  "rationale": "The evidence states that \"Kraven the Hunter was released in theaters on December 13, 2024, as scheduled.\" The claim states that \"Kraven the Hunter was released in theaters on December 13, 2024.\" Since the evidence explicitly confirms the release date and location mentioned in the claim, the claim is fully supported by the evidence.",
+  "review_note": "Actual theatrical release date is confirmed.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 362,
+  "source": "nli"
+}

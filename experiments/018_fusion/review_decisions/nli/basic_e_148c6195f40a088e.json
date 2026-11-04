@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7dda9e0804c30acef6a2f9ab47e60462b1a06240ab5b4bf435ef573bcf01d8bd",
+  "evidence_quote": "declined to acquire CapCut",
+  "key": "basic_e_148c6195f40a088e",
+  "rationale": "TikTok declined to acquire CapCut, so the acquisition described in the claim did not take place. The evidence directly contradicts the claim of acquisition.",
+  "review_note": "Read full NLI explanation; retain the refusal implicative but remove the unsupported description of CapCut as a company.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 32,
+  "source": "nli"
+}

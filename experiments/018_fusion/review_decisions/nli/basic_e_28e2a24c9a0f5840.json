@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c116d94b4da3711ce071952fa34774a32072f3224ac37988d5c7ed3f22c5d6ff",
+  "evidence_quote": "up to 30 sultans",
+  "key": "basic_e_28e2a24c9a0f5840",
+  "rationale": "Up to 30 allows 15 sultans or 25. One possibility fails more than 20 and the other satisfies it, so the claim is undetermined.",
+  "review_note": "Shorten NLI retaining both countermodels.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 64,
+  "source": "nli"
+}

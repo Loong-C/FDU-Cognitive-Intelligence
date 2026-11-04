@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4c4b17528847ab489c0cce5d31498845db9ebb6ca17adb16bf0099cf28475f0b",
+  "evidence_quote": "In 2021, he won",
+  "key": "challenge_e_ed3ea5033cda7ed6",
+  "rationale": "\"He\" identifies Diego as the award recipient. This does not determine whether Cardi B also won a regional Latin Grammy in 2021.",
+  "review_note": "Corrected exclusive-recipient inference while preserving pronoun resolution.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 702,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7402e77564d90268eefce83bbdbb83f3cff575007207d46f693ed10b3a3c88af",
+  "evidence_quote": "A namesake Sharon Stone",
+  "key": "challenge_e_840d30f496e2bbf0",
+  "rationale": "A person named Sharon Stone won the award. This is not information that Sharon Tate won, and it does not establish that Tate never won. The claim remains unresolved.",
+  "review_note": "Removed hypothetical different-year narrative and excess analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 567,
+  "source": "joint"
+}

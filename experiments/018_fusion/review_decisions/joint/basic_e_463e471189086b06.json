@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "687f8e7bc34030de000148078a2b27762486fc3059750b699b0bf778fe611ff2",
+  "evidence_quote": "born in Arizona",
+  "key": "basic_e_463e471189086b06",
+  "rationale": "The evidence does not identify Scottsdale or provide a relationship that settles the claim. Naming Arizona alone leaves the specific claim unresolved.",
+  "review_note": "Remove joint outside geography and city list.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 111,
+  "source": "joint"
+}

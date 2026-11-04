@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "63ccc93c512cfb202f069a36e0b32a54dad369c2f358cf89869c3281440f4e53",
+  "evidence_quote": "unable to acquire CapCut",
+  "key": "basic_e_c63358f4bcd6ffcd",
+  "rationale": "The evidence explicitly states that \"TikTok was unable to acquire CapCut.\" This directly contradicts the claim that \"TikTok acquired CapCut,\" as being unable to perform an action implies that the action did not occur. Therefore, the evidence refutes the claim.",
+  "review_note": "Inability correctly negates completed acquisition here.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 294,
+  "source": "joint"
+}

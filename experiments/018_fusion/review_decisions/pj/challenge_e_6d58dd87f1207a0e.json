@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "920f5687253b30dc27677d7d1aeb31a4c0bd92daac950fa4db6585bec5cfa9f6",
+  "evidence_quote": "flatly denied reports",
+  "key": "challenge_e_6d58dd87f1207a0e",
+  "rationale": "The assistant's denial neither confirms nor disproves the marriage. The passage records only the assistant's stance, leaving the event undetermined.",
+  "review_note": "Condensed speech-act distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 535,
+  "source": "pj"
+}

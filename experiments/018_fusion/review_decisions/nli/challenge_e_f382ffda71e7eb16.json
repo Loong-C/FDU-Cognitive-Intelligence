@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "741cfb9955530d5a4d36d3ed54db6212605169690ccd7cdc7bdaa3159d0e1cd2",
+  "evidence_quote": "It was later confirmed",
+  "key": "challenge_e_f382ffda71e7eb16",
+  "rationale": "The evidence states that it was confirmed that the container ship Dali had been covered by a $50 million liability insurance policy. The claim asserts exactly this fact. Since the evidence explicitly confirms the statement made in the claim, the claim is entailed by the evidence.",
+  "review_note": "Confirmed coverage matches ship, amount and liability type.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 715,
+  "source": "nli"
+}

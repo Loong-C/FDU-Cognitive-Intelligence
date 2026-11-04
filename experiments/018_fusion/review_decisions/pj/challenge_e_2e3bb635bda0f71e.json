@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "bbdbeaca37b37c0780ed3dbbde890cccb0bac8297be219fbbf27f947adf51c27",
+  "evidence_quote": "Like Yamal",
+  "key": "challenge_e_2e3bb635bda0f71e",
+  "rationale": "The evidence states: \"Like Yamal, Lamine Yamal's cousin won a Olympic gold medal in athletics.\"\n\nThis sentence structure (\"Like X, Y did Z\") implies that both X (Yamal) and Y (Yamal's cousin) performed the action Z (won an Olympic gold medal in athletics). Therefore, the evidence explicitly entails that Lamine Yamal won an Olympic gold medal in athletics.",
+  "review_note": "Correct comparative entailment of same athletics medal achievement.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 455,
+  "source": "pj"
+}

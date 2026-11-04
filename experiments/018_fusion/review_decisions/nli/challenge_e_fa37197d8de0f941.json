@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e5c32b737cc26c1bfaf6a92914c2a375fdf36bd5d12cb461008c16657cad11dc",
+  "evidence_quote": "two children with his ex-wife Amelia Warner",
+  "key": "challenge_e_fa37197d8de0f941",
+  "rationale": "Maeve and Aisling are the children with Amelia Warner. The evidence does not list all Farrell's children or determine whether Esme is a child from another relationship.",
+  "review_note": "Shortened and made relationship subset explicit.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 721,
+  "source": "nli"
+}

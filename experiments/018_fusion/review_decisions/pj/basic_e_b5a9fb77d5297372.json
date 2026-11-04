@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ffeef44d73475cc7ac5f1b3737a7174e942d611360a36fc55dcdbb3027ea1148",
+  "evidence_quote": "on April 26, 2024",
+  "key": "basic_e_b5a9fb77d5297372",
+  "rationale": "The evidence distinguishes the scheduled December 13 release from the actual April 26, 2024 theatrical release. The claim incorrectly uses the scheduled date as the actual date.",
+  "review_note": "Shorten valid planned-versus-actual comparison.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 269,
+  "source": "pj"
+}

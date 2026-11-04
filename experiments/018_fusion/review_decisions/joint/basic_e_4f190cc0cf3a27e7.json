@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "25c1bcb9612f382a2e1f8f1442c677d4a125b8d65690ccc8726d52d7f0cb5f48",
+  "evidence_quote": "for the first time in 2024",
+  "key": "basic_e_4f190cc0cf3a27e7",
+  "rationale": "The evidence identifies the first victory without specifying later victories. It therefore cannot determine a total of three by 2026.",
+  "review_note": "Shorten joint without annual-cycle assumptions.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 122,
+  "source": "joint"
+}

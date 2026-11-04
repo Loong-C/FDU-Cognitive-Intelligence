@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "94fec003451fa5e323e7db90ccb4038e55f7d328591c32a52c0e59206d17e851",
+  "evidence_quote": "a feat Halle Berry later repeated",
+  "key": "challenge_e_616080ebe9bbaf07",
+  "rationale": "The evidence states that Chad Berry won a Grammy Award for Best Rap Album and that Halle Berry \"later repeated\" this feat. The phrase \"repeated a feat\" implies that Halle Berry achieved the same accomplishment as Chad Berry. Therefore, the evidence entails that Halle Berry also won a Grammy Award for Best Rap Album.",
+  "review_note": "Correct same-achievement implication.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 522,
+  "source": "pj"
+}

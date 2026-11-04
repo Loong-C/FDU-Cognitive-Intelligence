@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1e42300fbadfe20e568a339706f60703868c683c6390c2787324116084f8d2df",
+  "evidence_quote": "offered the chance",
+  "key": "basic_e_e8f5d065a1f333f5",
+  "rationale": "The evidence reports an opportunity to receive a Grammy, not actual receipt. It does not specify whether American Civil War received the award.",
+  "review_note": "Remove unsupported band identity, nomination, and pending-outcome assumptions.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 365,
+  "source": "nli"
+}

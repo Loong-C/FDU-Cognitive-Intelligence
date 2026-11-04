@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6e4c0fe289521cc13f4a6aa51ef976f6aae79f4acd255d8bccaebbac2d730c51",
+  "evidence_quote": "released in the United States on November 22, 2024",
+  "key": "basic_e_0754d9b92d55060a",
+  "rationale": "The evidence distinguishes the scheduled November 15 release from the actual November 22 release in the United States. The claim incorrectly states the scheduled date as the actual United States release date.",
+  "review_note": "Read NLI draft; shorten from 61 words and retain the United States scope explicitly.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 16,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7383c131b4407f98f264630aa85736315bcdeab6bcfcdc5621a6c5f7402277cd",
+  "evidence_quote": "Marcus Coogler won a regional acting award",
+  "key": "challenge_e_bdd59988046cf764",
+  "rationale": "Marcus won a regional acting award in 2008. The evidence gives no award result for Ryan and no exclusivity that would exclude him.",
+  "review_note": "Shortened sound separate-recipient reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 641,
+  "source": "nli"
+}

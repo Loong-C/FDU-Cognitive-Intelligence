@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a2b2cbb77ba73d2c53573c1598f0dbac60bc553928219a7eb0a1c7048e319dcf",
+  "evidence_quote": "up to 20 finished fights",
+  "key": "basic_e_24090ece8f3994d0",
+  "rationale": "Up to 20 finished fights permits 16 but also other totals such as 15 or 17. The upper bound therefore neither establishes nor excludes exactly 16.",
+  "review_note": "Read full NLI draft; keep compatibility distinct from entailment and shorten.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 55,
+  "source": "nli"
+}

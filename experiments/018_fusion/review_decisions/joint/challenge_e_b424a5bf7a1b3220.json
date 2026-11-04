@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d85ddbf13eb11dd55b9477d61e1173021ba8416d56f3bf92d1d5527248374666",
+  "evidence_quote": "disputed claims",
+  "key": "challenge_e_b424a5bf7a1b3220",
+  "rationale": "A reported dispute establishes the company's stance without settling the underlying donation. The claim therefore remains unresolved.",
+  "review_note": "Shortened valid stance analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 625,
+  "source": "joint"
+}

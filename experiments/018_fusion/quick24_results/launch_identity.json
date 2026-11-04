@@ -1,0 +1,10 @@
+{
+  "schedule_sha256": "a1c4b7533553ad80588b5d7bd44954dd1adcb547a5cbaab64a9bf3bda8d26fa6",
+  "deadline_unix": 1793692500.0,
+  "stop_compute_unix": 1793688900.0,
+  "replayed_update_count": 4,
+  "devices": [
+    2,
+    3
+  ]
+}

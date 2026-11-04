@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1bc10e31e55736dea59d9f482ce024d57f0be6a29a9d0b555e7f8afebf5a0856",
+  "evidence_quote": "no more than 30 episodes",
+  "key": "basic_e_ee956cf60c148d4d",
+  "rationale": "The evidence caps Pompeo's appearances at 30 episodes. A count greater than 30 is incompatible with that cap.",
+  "review_note": "Condense upper-bound explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 374,
+  "source": "pj"
+}

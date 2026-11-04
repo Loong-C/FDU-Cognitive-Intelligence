@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f6402485ffbd35e5f699a29639e1e8f5bcdac5c13008552fa51ee60c1ddb8229",
+  "evidence_quote": "the first member of the family",
+  "key": "challenge_e_5eb56f38abbb2cc0",
+  "rationale": "John being first does not establish or exclude Peter winning later. The evidence provides no specific award information for Peter, leaving his claim unresolved.",
+  "review_note": "Shortened rationale without adding family connection.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 516,
+  "source": "joint"
+}

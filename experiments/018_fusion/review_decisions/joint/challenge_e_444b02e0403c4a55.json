@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7784228b1e7c04c3e126ac71d8c32c320802e5c2fd6f70ef63ab27afd24e110c",
+  "evidence_quote": "two children: Rory and Fiona",
+  "key": "challenge_e_444b02e0403c4a55",
+  "rationale": "The count of two is fully accounted for by Rory and Fiona. Graham is outside that complete set, so the evidence refutes his claimed membership.",
+  "review_note": "Shortened sound exhaustive-set reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 483,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4080f91081d2745cce75d6a4b3fa3386adf15e20935aef205af2a845d962f60f",
+  "evidence_quote": "In 2020, Los Angeles Dodgers won the World Series for the third time.",
+  "key": "basic_e_0c546b5840154135",
+  "rationale": "A third win occurred in 2020. The text neither reports nor excludes a subsequent fourth win before the claimed 2022 cutoff, so the later count is unknown.",
+  "review_note": "Read full PJ draft; retain the later-outcome gap without assuming a report date or one event per year.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 21,
+  "source": "pj"
+}

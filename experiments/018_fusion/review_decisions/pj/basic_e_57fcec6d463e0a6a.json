@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "21a1cdf9d5a55475ddb7a7f8bcbd39563f63908f689e1020491cf25d09a0e0dc",
+  "evidence_quote": "the only time Dodgers ever did so",
+  "key": "basic_e_57fcec6d463e0a6a",
+  "rationale": "Only one victory is allowed, in 2020. A victory before that year would violate the stated restriction.",
+  "review_note": "Shorten PJ sole-occurrence argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 137,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "24a20ef1e4a61715dda2c0968803d8907a77a6672e29bece14d6263c212826e5",
+  "evidence_quote": "Abigail won the 2015 Minnesota Parent of the Year title",
+  "key": "challenge_e_4d4eec46294a48ea",
+  "rationale": "Abigail refers to Abigail Hensel in the preceding sentence. Her 2015 Minnesota Parent of the Year title is explicitly stated, supporting the claim.",
+  "review_note": "Clarified name resolution instead of literal exact-match claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 493,
+  "source": "pj"
+}

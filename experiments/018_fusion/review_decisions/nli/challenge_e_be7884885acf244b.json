@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "72c4fbcd2c98e4729c61fee2bf65f6d5a9828771daee8b4f1dd07d85f0e19991",
+  "evidence_quote": "was later disproven",
+  "key": "challenge_e_be7884885acf244b",
+  "rationale": "The evidence explicitly states that \"The claim that Mount Takahe had been named after a local Māori elder who contributed to early Antarctic mapping efforts was later disproven.\" Since the evidence states that this specific claim was disproven, it contradicts the hypothesis that the mountain was indeed named after such an elder.",
+  "review_note": "Explicit disproof directly rejects claimed naming origin.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 642,
+  "source": "nli"
+}

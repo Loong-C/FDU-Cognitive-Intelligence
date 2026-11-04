@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ce117346de97313f2379b4167c7be30976f46d05f34cd241a57e850e27ac1ece",
+  "evidence_quote": "for the first time in 2023",
+  "key": "basic_e_1b5545dc522fe5d1",
+  "rationale": "At least one launch occurred in 2023, but the evidence gives no total by 2025. It therefore neither establishes nor excludes exactly three launches by that cutoff.",
+  "review_note": "Read PJ text; preserve the open total without adding an annual occurrence constraint.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 42,
+  "source": "pj"
+}

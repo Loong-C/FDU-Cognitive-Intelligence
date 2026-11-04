@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "beb8b215de450488d3644d5ec6f16e18dc26ea92059258906cdb643c8fd80a8c",
+  "evidence_quote": "As of 2005",
+  "key": "basic_e_41ae9f359c2b78e7",
+  "rationale": "The count of two is specified as of 2005 only. It does not establish whether another such appearance occurred afterward.",
+  "review_note": "Shorten NLI temporal snapshot reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 102,
+  "source": "nli"
+}

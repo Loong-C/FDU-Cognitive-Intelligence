@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ee6ff8fe233d5fcb8258aee0f47b6150ce3b089f00073e98542a9b450524cc76",
+  "evidence_quote": "most recently in 2018",
+  "key": "basic_e_472d91a245ab74dd",
+  "rationale": "The latest of the two wins is stated to be in 2018. Another after 2018 would contradict both the latest date and the stated total.",
+  "review_note": "Shorten NLI retaining two linked constraints.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 112,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "abf4a47d553155afe4fa073f98053955b9c638593613d07c725b4cd0b59018b2",
+  "evidence_quote": "born in Lower Austria",
+  "key": "basic_e_03e59444e65c58fc",
+  "rationale": "The evidence names Lower Austria as the birthplace but does not name St. Pölten or establish its relation to that location. It therefore does not establish or exclude the specific birthplace claimed.",
+  "review_note": "Read full NLI draft; remove external knowledge locating St. Pölten within Lower Austria and keep the evidence-only information gap.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 6,
+  "source": "nli"
+}

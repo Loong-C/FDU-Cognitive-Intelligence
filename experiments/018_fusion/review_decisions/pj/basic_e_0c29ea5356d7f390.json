@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "9892693e76b1c78416e921a987451fee93dbff573efe970771d677a4247e1d7b",
+  "evidence_quote": "Selena Gomez was born in Dallas.",
+  "key": "basic_e_0c29ea5356d7f390",
+  "rationale": "The evidence explicitly states that \"Selena Gomez was born in Dallas.\" The claim is identical to this statement. Therefore, the evidence fully entails the claim.",
+  "review_note": "PJ correctly establishes direct entailment from the exact Dallas birthplace statement.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 20,
+  "source": "pj"
+}

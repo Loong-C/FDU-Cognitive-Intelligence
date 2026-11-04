@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4638841261b82a9954c8680a36da9773c938da0101e9dc6ab8933b5322ff31ce",
+  "evidence_quote": "won the World Series in 2020",
+  "key": "basic_e_93b5fd49785e1b5e",
+  "rationale": "A World Series win in 2020 does not specify any cumulative count by 2022. The claimed total of four remains undetermined.",
+  "review_note": "Retain missing cumulative count concisely.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 227,
+  "source": "pj"
+}

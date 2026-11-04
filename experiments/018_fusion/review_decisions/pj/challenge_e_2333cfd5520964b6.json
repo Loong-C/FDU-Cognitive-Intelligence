@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "86e7b50865b44371b49a62dd9ffd7430dbf7e3775de03f746b17cf4f2bc29bf8",
+  "evidence_quote": "an investigation later showed the reports to be false",
+  "key": "challenge_e_2333cfd5520964b6",
+  "rationale": "The evidence states that Marsh denied the coverage and, crucially, that \"an investigation later showed the reports to be false.\" The reports in question were that the ship *had* been covered by the policy. Therefore, the evidence explicitly establishes that the claim of coverage is false.",
+  "review_note": "Correctly identifies coverage reports as false.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 438,
+  "source": "pj"
+}

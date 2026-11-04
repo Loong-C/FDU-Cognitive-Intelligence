@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "bba071f2939c07f048d3e8ec3db980a5720bae22e3c817baf3a28bff407f2148",
+  "evidence_quote": "won a patent for an improved battery design",
+  "key": "challenge_e_4d837d1cb1f284b2",
+  "rationale": "The evidence states that Kōnosuke Matsushita joined the early engineering team in 1925 and won a patent for an improved battery design in 1930. It does not mention his specific job title, nor does it state that he became the head of an internal quality control division. Therefore, the evidence neither confirms nor denies the claim.",
+  "review_note": "Patent and team membership do not establish headship.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 494,
+  "source": "nli"
+}

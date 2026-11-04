@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "570ebf16cc0f5ac111b53117f91f184a639fbde321b4b853d4a51f2e72fade94",
+  "evidence_quote": "was compelled to receive",
+  "key": "basic_e_d010009b1a2f8c29",
+  "rationale": "Here, 'was compelled to receive a Grammy Award' describes the award being received under obligation, supporting the claimed receipt.",
+  "review_note": "Shorten and avoid universal entailment claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 315,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "4532d119650be9709f44f69975037c4fb63a92fd9c48a902a845e2cf544d3031",
+  "evidence_quote": "failed to sign",
+  "key": "basic_e_68e1cb0e7beab139",
+  "rationale": "The evidence explicitly states that Barbra Streisand \"failed to sign\" with Sony Music. The claim asserts that she \"signed\" with Sony Music. These two statements are direct logical contradictions; if the act of signing failed, it did not occur. Therefore, the evidence refutes the claim.",
+  "review_note": "Joint failed act is not completed signing.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 160,
+  "source": "joint"
+}

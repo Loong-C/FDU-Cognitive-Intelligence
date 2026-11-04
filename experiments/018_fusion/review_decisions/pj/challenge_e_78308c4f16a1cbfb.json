@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e00ca1679d3ed7c1c805b3bc093deca81ec1567b99d98da13b676fc5e684f9b4",
+  "evidence_quote": "Kōnosuke won a patent",
+  "key": "challenge_e_78308c4f16a1cbfb",
+  "rationale": "Winning a patent in 1930 does not establish or exclude becoming head of quality control. The evidence supplies no appointment or complete role history for Kōnosuke.",
+  "review_note": "Condensed role gap and nonexhaustiveness.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 548,
+  "source": "pj"
+}

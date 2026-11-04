@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "5c7cdad30eee9dc73a9fcd766b43aa1b463720b0458128f20ec1465c595a773f",
+  "evidence_quote": "at least 30 episodes",
+  "key": "basic_e_fb5c1a15504fa0eb",
+  "rationale": "The evidence states that Ellen Pompeo has appeared in **at least 30** episodes of Grey's Anatomy. The claim states that she has appeared in exactly **27** episodes.\n\nMathematically, if a number is at least 30, it cannot be 27 (since 27 < 30). Therefore, the evidence contradicts the claim.",
+  "review_note": "Same episode count cannot be 27 and at least 30.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 392,
+  "source": "pj"
+}

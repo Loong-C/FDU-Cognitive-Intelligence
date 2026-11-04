@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fbff4c54a362d5e9a3b52f1d76641870b036e379a9ca3fc163ca84d25587ff44",
+  "evidence_quote": "for the first time in 2018",
+  "key": "basic_e_f4804f4b293e1093",
+  "rationale": "A first win in 2018 confirms at least one win. No further wins or total by 2020 are given, so three wins by that date cannot be determined.",
+  "review_note": "Preserves at-least-one inference without inventing years.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 383,
+  "source": "pj"
+}

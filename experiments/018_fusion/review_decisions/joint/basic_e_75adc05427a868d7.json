@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3dd2dcc952d1b17c76481af8d6fe7f3b184aa88cdf31925f4e975e24d1303ba9",
+  "evidence_quote": "for the second time",
+  "key": "basic_e_75adc05427a868d7",
+  "rationale": "The second major-update launch occurred in 2023. The evidence supplies no total for 2025, leaving the claimed three occasions unresolved.",
+  "review_note": "Remove exact calendar-year total and annual-frequency assumption.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 185,
+  "source": "joint"
+}

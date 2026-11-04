@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "92f15f105e39a9fa347dc890c764de43ebca803d3a965426bf1113b81c457cd0",
+  "evidence_quote": "Sam won a regional innovation award",
+  "key": "challenge_e_d437b15761f6e20b",
+  "rationale": "Sam won a regional innovation award in 2021, but neither its title nor region is specified. The claimed Bay Area Young Entrepreneur title remains unresolved.",
+  "review_note": "Removed misleading missing-year suggestion; retained title/region gaps.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 669,
+  "source": "nli"
+}

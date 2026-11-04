@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "e53f5409872ffae58bcad39aa56d63459d858c7465e82164ddb2413239766b1f",
+  "evidence_quote": "between 160 and 180",
+  "key": "basic_e_f3f03f69bfcfb405",
+  "rationale": "The evidence states that the total number of published chapters is between 160 and 180. The claim asserts that the total number is exactly 150. Since 150 is outside the range of 160 to 180, the evidence contradicts the claim.",
+  "review_note": "150 is below the explicit total range.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 381,
+  "source": "nli"
+}

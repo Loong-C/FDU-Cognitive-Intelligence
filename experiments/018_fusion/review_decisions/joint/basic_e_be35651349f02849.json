@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "88ca5a51af5963a45b5598bd0321e3e901ff24501a7aa1af7ff869c71f91d902",
+  "evidence_quote": "in 2010",
+  "key": "basic_e_be35651349f02849",
+  "rationale": "The evidence states that Derek Hough won the Mirrorball Trophy in 2010. It does not provide any information regarding his performance or wins in years subsequent to 2010. Therefore, the evidence neither confirms nor denies that he won the trophy again after 2010.",
+  "review_note": "Later trophy outcomes remain unspecified.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 285,
+  "source": "joint"
+}

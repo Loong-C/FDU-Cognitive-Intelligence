@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c98090e7df8350ee11dcc9fc93f40c514fab0af0f429f77f0b244a46046befff",
+  "evidence_quote": "Elena Sheinbaum published a seminal paper",
+  "key": "challenge_e_046c7e10f1273866",
+  "rationale": "The evidence attributes a 1992 paper on urban energy grids to Elena Sheinbaum. It does not establish whether Claudia published such a paper or participated in that publication. The claim about Claudia remains undetermined.",
+  "review_note": "Corrected attribution-to-exclusion fallacy.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 400,
+  "source": "nli"
+}

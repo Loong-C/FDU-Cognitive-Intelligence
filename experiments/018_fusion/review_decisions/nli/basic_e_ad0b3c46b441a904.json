@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "cb0d73f072312db6c328804a58ac52fb94d9e118f59c38dd70a8dc1202bea8bb",
+  "evidence_quote": "the only time Lookman ever did so",
+  "key": "basic_e_ad0b3c46b441a904",
+  "rationale": "The evidence identifies the 2024 award as Lookman's only win ever. This limits the total to one and contradicts three wins by 2026.",
+  "review_note": "Shorten correct only-ever count argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 257,
+  "source": "nli"
+}

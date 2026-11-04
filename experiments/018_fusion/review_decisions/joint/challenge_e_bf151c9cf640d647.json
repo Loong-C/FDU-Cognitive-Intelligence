@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0f7cbbb8fe2a71b324ca5a8e2cf4f483b35a6c7cceb1610380be4192ef55f53d",
+  "evidence_quote": "In 1980, Phil Robertson took office",
+  "key": "challenge_e_bf151c9cf640d647",
+  "rationale": "Robertson became president in 1980. Neither the biographical film nor his lifespan establishes whether that presidency continued through 2023.",
+  "review_note": "Condensed valid temporal uncertainty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 643,
+  "source": "joint"
+}

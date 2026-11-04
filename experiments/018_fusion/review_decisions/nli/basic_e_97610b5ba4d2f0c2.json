@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "76d51e4cd2f405b2276692ebb86401e6c27bed56144ec590a1cab6ec72e60ad7",
+  "evidence_quote": "Two years later",
+  "key": "basic_e_97610b5ba4d2f0c2",
+  "rationale": "The album release is placed in 2014, two years after 2012. A performance within six years of 2014 permits 2019 but does not fix that year.",
+  "review_note": "Retain calculation and interval uncertainty without full enumeration.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 233,
+  "source": "nli"
+}

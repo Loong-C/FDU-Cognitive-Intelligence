@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b5374252a7e32295df9f23a23e9857c5d80970cb6f6e543a74c8e41f26876e5f",
+  "evidence_quote": "Sarah Lee published a bestselling novel",
+  "key": "challenge_e_c1da838526bb5886",
+  "rationale": "Sarah published a bestseller in 2005. This supplies no publication outcome for Jennifer and does not exclude Jennifer from also publishing one.",
+  "review_note": "Shortened valid distinct-author reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 647,
+  "source": "pj"
+}

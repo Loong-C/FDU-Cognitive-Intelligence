@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7c04d2a152121b829df6bbfd4de8e9f2535dfe6a849a2348bf1b1c0dfbb6e71f",
+  "evidence_quote": "was offered the chance",
+  "key": "basic_e_65e586bc28a40bf8",
+  "rationale": "An offer to sign does not establish whether it was accepted and completed. The evidence leaves actual signing undetermined.",
+  "review_note": "Shorten PJ offer-versus-outcome distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 158,
+  "source": "pj"
+}

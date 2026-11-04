@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b21873a28d365a284ea433b98f1155c1d7531e1b29c0ecde7a2be68822f8d86a",
+  "evidence_quote": "planned to sign",
+  "key": "basic_e_4bc3e722533c110b",
+  "rationale": "The evidence states that Barbra Streisand \"planned to sign\" with Sony Music. A plan to perform an action is not equivalent to the action having been completed. The evidence does not confirm that the signing actually took place, nor does it state that it did not happen. Therefore, the evidence neither supports nor refutes the claim that she actually signed.",
+  "review_note": "PJ 60-word explanation correctly leaves plan outcome unknown.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 120,
+  "source": "pj"
+}

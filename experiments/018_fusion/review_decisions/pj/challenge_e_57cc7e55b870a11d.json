@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "100c17582bd9d9d87726e7d1dcee550dbc8e6fcbcba237334c8bace159fb9229",
+  "evidence_quote": "three children include Maeve and Aisling",
+  "key": "challenge_e_57cc7e55b870a11d",
+  "rationale": "The evidence names two of Farrell's three children. Since the remaining child is unidentified, it cannot determine whether Esme is one of his children.",
+  "review_note": "Shortened incomplete-list reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 510,
+  "source": "pj"
+}

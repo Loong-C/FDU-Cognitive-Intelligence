@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d6082053e873dd0b1ef3b7e4c003786da35c9be792c3f11673dd333340264f67",
+  "evidence_quote": "the only time Dodgers ever did so",
+  "key": "basic_e_cf70d6e72e0add83",
+  "rationale": "Calling the 2020 win the only occurrence fixes the total at one. Four wins by 2022 is incompatible with it.",
+  "review_note": "Remove repeated entity and award phrasing.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 312,
+  "source": "joint"
+}

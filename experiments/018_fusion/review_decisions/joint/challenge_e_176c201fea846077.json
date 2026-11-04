@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b4574dddb12b80021770bea76ed238b8e813de20ec44bb883270ee1359cf8c97",
+  "evidence_quote": "In 1982, she authored",
+  "key": "challenge_e_176c201fea846077",
+  "rationale": "The evidence establishes Umm Salih's authorship through 'she.' It provides no exclusive-author restriction or result for Saddam, leaving his claimed 1982 authorship unresolved.",
+  "review_note": "Removed false sole-author assumption.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 421,
+  "source": "joint"
+}

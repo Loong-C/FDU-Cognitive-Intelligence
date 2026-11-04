@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "987368bb110a4d2d5d39da138aae90c83b33f02cfd1ddde8d4ad718069590206",
+  "evidence_quote": "unable to acquire CapCut",
+  "key": "basic_e_c63358f4bcd6ffcd",
+  "rationale": "The evidence says TikTok was unable to acquire CapCut. This contradicts the claim that the acquisition occurred.",
+  "review_note": "Remove outside entity classification.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 294,
+  "source": "pj"
+}

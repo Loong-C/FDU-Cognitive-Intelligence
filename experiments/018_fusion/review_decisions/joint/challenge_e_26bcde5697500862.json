@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3b71d1e7747632c785772f3715b6f4825f3ec26ff79a8e091bb447b479290179",
+  "evidence_quote": "dismissed as baseless the reports",
+  "key": "challenge_e_26bcde5697500862",
+  "rationale": "A reported dismissal of the anomaly-confirmation reports does not establish their falsity. The passage gives the director's stance but no independent finding about whether confirmation occurred.",
+  "review_note": "Removed extended speculation and repeated self-questioning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 444,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d30900aa2ffd2b50c9991632513ffc050c0623061a2010ee38675ab1d11b8f93",
+  "evidence_quote": "the only time Hough ever did so",
+  "key": "basic_e_32f91e65576b430b",
+  "rationale": "The 2010 victory is explicitly the only such win ever. Another victory afterward would violate that exclusivity.",
+  "review_note": "Shorten NLI preserving only-ever restriction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 77,
+  "source": "nli"
+}

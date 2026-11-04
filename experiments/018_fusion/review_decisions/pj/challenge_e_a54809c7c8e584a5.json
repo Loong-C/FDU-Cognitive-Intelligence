@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b24cf19c15fe4f44657f19131f531ab7b3632d7d61659c3d471c4b4b5ca37ebb",
+  "evidence_quote": "In 2015, he received a knighthood",
+  "key": "challenge_e_a54809c7c8e584a5",
+  "rationale": "The masculine pronoun identifies James as the knighthood recipient. The evidence neither attributes a 2015 knighthood to Paula nor rules out one for her.",
+  "review_note": "Removed outside honor taxonomy and invented exclusivity.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 609,
+  "source": "pj"
+}

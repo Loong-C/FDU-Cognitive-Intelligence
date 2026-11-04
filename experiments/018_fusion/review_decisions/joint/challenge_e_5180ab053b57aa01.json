@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "af66d4b9985870c405451792f2a46de9a6d97476b525974a4cfea10b771e2c71",
+  "evidence_quote": "Robert Gates won a National Book Award",
+  "key": "challenge_e_5180ab053b57aa01",
+  "rationale": "Robert's award does not preclude Bill also winning one in 1998. The evidence supplies no award information for Bill, leaving the claim unresolved.",
+  "review_note": "Condensed nonexclusive award reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 498,
+  "source": "joint"
+}

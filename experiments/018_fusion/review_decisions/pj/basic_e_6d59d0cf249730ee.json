@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4a9940af782b6e37efb0d307e03771f66eeb18544da898cf6cca09625ce04aa1",
+  "evidence_quote": "fewer than 15 finished fights",
+  "key": "basic_e_6d59d0cf249730ee",
+  "rationale": "The count could be 12, satisfying more than 10, or 8, failing it. Both meet the evidence of fewer than 15.",
+  "review_note": "Shorten PJ two possible counts.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 167,
+  "source": "pj"
+}

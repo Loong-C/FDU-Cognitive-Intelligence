@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "bc53b3282fa32bebcb3f874a8cd280d79ba5b25ab724a9d65011a2ece31711d5",
+  "evidence_quote": "for the first time in 1992",
+  "key": "basic_e_2322924c3dbe396e",
+  "rationale": "First time marks an initial occurrence, not an exclusive one. Since no later shorting activity is reported, the evidence neither confirms nor rules out the claimed repetition after 1992.",
+  "review_note": "Read joint explanation; preserve the first-versus-only distinction while shortening.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 54,
+  "source": "joint"
+}

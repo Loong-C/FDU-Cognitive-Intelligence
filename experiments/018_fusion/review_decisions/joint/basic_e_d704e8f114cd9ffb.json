@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "03710707a1948f7e03753919a7312358ceb0c2835069219bd6417e35d6730f5b",
+  "evidence_quote": "at least 20 airports",
+  "key": "basic_e_d704e8f114cd9ffb",
+  "rationale": "The evidence sets an inclusive minimum of 20. It does not exclude exactly 20, so a total strictly above 20 is possible but unconfirmed.",
+  "review_note": "Condense inequality analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 326,
+  "source": "joint"
+}

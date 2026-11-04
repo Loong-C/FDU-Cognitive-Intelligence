@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c7819ad3d32ea3533d7bf5ea89bee46156e7ae0b7825e0ccd916c2d91a23ab37",
+  "evidence_quote": "an investigation later showed the reports to be false",
+  "key": "challenge_e_5f2b4e4ff0368d9c",
+  "rationale": "The investigation found the reports of the Sun's anomaly confirmation false. That directly contradicts the claim that such confirmation occurred.",
+  "review_note": "Preserved confirmation scope rather than asserting anomaly itself absent.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 517,
+  "source": "pj"
+}

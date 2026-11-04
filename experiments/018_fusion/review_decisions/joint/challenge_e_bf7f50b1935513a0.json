@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a754aca77839646ff629629f734e54de16775e16f716fac9e1d06cc1cad81201",
+  "evidence_quote": "both Natalie and Jonathan Portman won a local culinary award",
+  "key": "challenge_e_bf7f50b1935513a0",
+  "rationale": "The award is described only as a local culinary award. Its city and title are unstated, so the claimed New York City title cannot be determined.",
+  "review_note": "Condensed missing-specificity reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 644,
+  "source": "joint"
+}

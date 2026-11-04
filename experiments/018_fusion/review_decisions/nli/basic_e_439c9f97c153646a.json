@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0db97c154ee294f5628765dd2e4c26feaeff96cbf29c70d5d1093e24c5e90b77",
+  "evidence_quote": "born in Illinois",
+  "key": "basic_e_439c9f97c153646a",
+  "rationale": "The evidence names Illinois but does not establish Springfield as the birthplace. It gives no information that confirms or excludes the specific location claimed.",
+  "review_note": "Remove NLI external city/state relation and city list.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 108,
+  "source": "nli"
+}

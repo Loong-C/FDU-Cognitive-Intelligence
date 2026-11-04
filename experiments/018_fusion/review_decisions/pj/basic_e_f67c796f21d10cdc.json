@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "db364acce0f993414bf45528a7b378e4cf512923e610d16c98dea7436fce5e99",
+  "evidence_quote": "most recently in 2010",
+  "key": "basic_e_f67c796f21d10cdc",
+  "rationale": "The evidence states that Derek Hough won the Mirrorball Trophy \"two times in total, most recently in 2010.\" The phrase \"most recently in 2010\" indicates that 2010 was the last time he won the trophy. Therefore, he did not win it again after 2010. The claim states that he won it again after 2010, which directly contradicts the evidence.",
+  "review_note": "Most recent in 2010 directly excludes another win after 2010.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 385,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "00ca06bf4fd44fc6d3a0364da8d36e515f75c8b3bb02a6ed22f30593f6a43666",
+  "evidence_quote": "but later confirmed it",
+  "key": "challenge_e_94b56511b81a021c",
+  "rationale": "The evidence states that the Kodaikanal Tourism Officer \"initially denied that Guna Caves had received a significant infrastructure grant from the state government, but later confirmed it.\" The phrase \"confirmed it\" refers to the proposition that the grant was received. Therefore, the evidence explicitly establishes that the grant was indeed received, which entails the claim.",
+  "review_note": "Correctly uses later confirmation rather than initial denial.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 586,
+  "source": "joint"
+}

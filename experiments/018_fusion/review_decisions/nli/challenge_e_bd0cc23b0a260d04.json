@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3937f2d2ed3cda6d4eb747aeb836a971b21c22ce3a3067b11886eed67f6cbba9",
+  "evidence_quote": "Kristine Hensel won a state-level parenting award",
+  "key": "challenge_e_bd0cc23b0a260d04",
+  "rationale": "Kristine won a parenting award in 2015. The passage neither confirms Abigail's award nor excludes it through an exclusive-recipient restriction.",
+  "review_note": "Corrected recipient mismatch treated as contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 638,
+  "source": "nli"
+}

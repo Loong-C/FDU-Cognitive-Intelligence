@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2726a279721c03fee72ce218e5bcd5bb5153b6ae25cc3ec71402c964fbb0258e",
+  "evidence_quote": "Marcus Coogler won a regional acting award",
+  "key": "challenge_e_604f8e434b8df19f",
+  "rationale": "Marcus's regional award does not settle Ryan's award history. Neither Ryan's receipt nor nonreceipt of the named San Francisco title is stated.",
+  "review_note": "Shortened valid nonexclusive-award logic.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 521,
+  "source": "pj"
+}

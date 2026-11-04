@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "d7b8eb8304c6fd0a007641768026166867a3026f11fff5594dfc473d66fcea8b",
+  "evidence_quote": "28 sultans throughout its history",
+  "key": "basic_e_e54cd71f459626d5",
+  "rationale": "The evidence and the claim are identical statements. Since the evidence explicitly states that the Ottoman Empire had 28 sultans throughout its history, it fully entails the claim.",
+  "review_note": "Evidence explicitly repeats the count.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 357,
+  "source": "joint"
+}

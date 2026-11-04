@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "2e1ab5ec6359ccdc6b5eb9a7ade66f4d195ce6d39d8298e04efc270ea83e7bca",
+  "evidence_quote": "managed to receive",
+  "key": "basic_e_ed537506fdde7a5c",
+  "rationale": "The evidence states that \"American Civil War managed to receive a Grammy Award.\" The phrase \"managed to receive\" indicates that the action of receiving the award was successfully accomplished. Therefore, the statement that \"American Civil War received a Grammy Award\" is a direct logical consequence of the evidence.",
+  "review_note": "Successful accomplishment directly supports receipt.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 373,
+  "source": "joint"
+}

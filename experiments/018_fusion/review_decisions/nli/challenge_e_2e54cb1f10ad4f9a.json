@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "5b7012a050da84851dfde64beb69e32c3b8033d7f0d10cf41520db799b58b518",
+  "evidence_quote": "In 2005, she published",
+  "key": "challenge_e_2e54cb1f10ad4f9a",
+  "rationale": "The evidence explicitly states that \"In 2005, she published a bestselling novel,\" referring to Jennifer Lee. The claim states that \"Jennifer Lee published a bestselling novel in 2005.\" Since the claim is a direct restatement of the information provided in the evidence, the evidence entails the claim.",
+  "review_note": "She resolves to Jennifer, matching novel/year.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 456,
+  "source": "nli"
+}

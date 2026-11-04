@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "5d44627ecfb2e55dde81c00ec9cda7f9926ba8990ee3376d82039ad85cbb9f57",
+  "evidence_quote": "at least 20 finished fights",
+  "key": "basic_e_733bacb3696ee4fa",
+  "rationale": "The evidence states that Merab Dvalishvili has recorded **at least 20** finished fights. The claim states that he has recorded exactly **16** finished fights. Since 16 is less than 20, the claim contradicts the lower bound established by the evidence. If he has at least 20, he cannot have only 16.",
+  "review_note": "Sixteen is below minimum twenty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 180,
+  "source": "nli"
+}

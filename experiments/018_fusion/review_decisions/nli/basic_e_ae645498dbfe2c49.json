@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "489f19ad1444188645f35e1c71acd776fd8bef857e7f0f57f63a700eb8191d1c",
+  "evidence_quote": "did not fail to sign",
+  "key": "basic_e_ae645498dbfe2c49",
+  "rationale": "The evidence says Streisand did not fail to sign with Sony Music. This affirms the signing, directly supporting the claim.",
+  "review_note": "Shorten double-negation explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 258,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "9abaaa901f7795d572bb7643fb4ba41faf740661e98511cb44933385af41f7c8",
+  "evidence_quote": "were later shown to be false",
+  "key": "challenge_e_8fe8b3f765800437",
+  "rationale": "The evidence explicitly states that reports claiming the production team had secured exclusive rights to use a specific vintage DeLorean for the opening scene \"were later shown to be false.\" This directly contradicts the claim that the production team actually secured those rights. Therefore, the evidence refutes the claim.",
+  "review_note": "Shown false directly negates acquisition of stated rights.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 584,
+  "source": "pj"
+}

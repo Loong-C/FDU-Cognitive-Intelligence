@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "33b07635eb3097d64a7e8756e38c53b1697b37593400d40340f500dc9988e8f3",
+  "evidence_quote": "years later Christian did the same",
+  "key": "challenge_e_339eaffd3e387256",
+  "rationale": "The evidence states that \"Caleb Bale played first base for the New York Yankees; years later Christian did the same.\" The phrase \"did the same\" refers back to the action of playing first base for the New York Yankees. Therefore, the evidence explicitly supports the claim that Christian Bale played first base for the New York Yankees.",
+  "review_note": "Did the same refers to Yankees first-base role.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 460,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "8cd4cada62efc47c7ed00b7e78ddc9af6ea98b114c4a25162b33e1d0d85c9001",
+  "evidence_quote": "over 25 studio albums",
+  "key": "basic_e_065a59fadacb134a",
+  "rationale": "The evidence states that Kendrick Lamar has released \"over 25\" studio albums. The claim states that he has released \"more than 5\" studio albums. Since any number greater than 25 is necessarily greater than 5, the claim is logically entailed by the evidence.",
+  "review_note": "The NLI draft correctly uses transitivity of the strict lower bounds, over 25 implying over five.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 12,
+  "source": "nli"
+}

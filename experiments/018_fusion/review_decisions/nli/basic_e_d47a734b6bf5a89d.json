@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a735865c39eb6d5ba24b70bbf63c4627d72264f6b8928475c81b4807bdacdbb8",
+  "evidence_quote": "in 1992",
+  "key": "basic_e_d47a734b6bf5a89d",
+  "rationale": "Shorting the pound in 1992 does not establish whether Soros also did so earlier. The evidence neither confirms nor excludes an occurrence before 1992.",
+  "review_note": "Condense repeatable-event distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 321,
+  "source": "nli"
+}

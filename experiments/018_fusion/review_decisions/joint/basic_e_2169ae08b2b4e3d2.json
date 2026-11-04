@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "e52a20ed56d3ee3b2d7f60269d7540a8c035ac67ecfb72efae6463788765f720",
+  "evidence_quote": "18 films since the start of her career",
+  "key": "basic_e_2169ae08b2b4e3d2",
+  "rationale": "The evidence states verbatim that \"Linda Cardellini has appeared in 18 films since the start of her career.\" The claim is an exact repetition of this sentence. Therefore, the evidence fully entails the claim.",
+  "review_note": "Joint explanation derives SUPPORTS from the identical statement, with no added inference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 50,
+  "source": "joint"
+}

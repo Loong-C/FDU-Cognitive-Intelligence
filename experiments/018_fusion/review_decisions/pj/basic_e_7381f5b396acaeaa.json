@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0571d8c785503f53623ce4c387db16665c0483d434aee6bea0a187c7ec88a4c3",
+  "evidence_quote": "between 25 and 30 episodes",
+  "key": "basic_e_7381f5b396acaeaa",
+  "rationale": "The evidence sets a maximum of 30 episodes. A count greater than 30 is incompatible with that range.",
+  "review_note": "Condense upper-bound contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 181,
+  "source": "pj"
+}

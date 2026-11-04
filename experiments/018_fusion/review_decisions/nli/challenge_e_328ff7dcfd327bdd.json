@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "18127a62cc7173c07611a2e360511b80dc5ca4780295f47a1f04f70be58bc31c",
+  "evidence_quote": "In 1998, Bill won",
+  "key": "challenge_e_328ff7dcfd327bdd",
+  "rationale": "The evidence explicitly states, \"In 1998, Bill won a National Book Award.\" The claim states, \"Bill Gates won a National Book Award in 1998.\" Since the evidence directly confirms the specific event, time, and recipient mentioned in the claim, the claim is fully supported by the evidence.",
+  "review_note": "Bill explicitly named with exact award and year.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 459,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2a4201fbcb29f5f9552763d8ff9109935df3e75883d459d28a0bdb77a8479624",
+  "evidence_quote": "David Styles is the only one in the family",
+  "key": "challenge_e_d46dbcd440c3a66a",
+  "rationale": "David's Oscar is exclusive within his family, but the text does not establish Harry's membership in that family. Harry's Oscar history remains unresolved.",
+  "review_note": "Removed shared-surname and biography-based family assumption.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 670,
+  "source": "nli"
+}

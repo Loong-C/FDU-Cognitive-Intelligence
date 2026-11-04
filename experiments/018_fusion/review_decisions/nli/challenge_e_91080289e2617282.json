@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f9fb2a482d6f27234e2641f7e9d77c08daa5552dcd9e128bc8f63f5224de4c0f",
+  "evidence_quote": "first term",
+  "key": "challenge_e_91080289e2617282",
+  "rationale": "The 2015–2018 dates describe Egerton's first term as lead singer. They do not establish whether he held another term covering 2020.",
+  "review_note": "Corrected first-term endpoint treated as permanent exclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 585,
+  "source": "nli"
+}

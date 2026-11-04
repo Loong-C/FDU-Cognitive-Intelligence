@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ede7e15c9e7b8dbcbbdec07406bdc4a663895fe21eaca584f4c1d9a57e7ff8e1",
+  "evidence_quote": "In 2024",
+  "key": "basic_e_45feb02dd1d43de8",
+  "rationale": "The 2024 win can coexist with an earlier win, but the evidence gives no earlier history. Thus the claim is undetermined.",
+  "review_note": "Shorten joint open-event reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 110,
+  "source": "joint"
+}

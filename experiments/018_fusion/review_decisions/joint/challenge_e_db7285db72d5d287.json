@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d661d58afd8393dd589c32272af8c0349a2481830b1e6223e18c0b727d2a86d9",
+  "evidence_quote": "two siblings who are actors",
+  "key": "challenge_e_db7285db72d5d287",
+  "rationale": "The count of two applies only to siblings who are actors. It does not settle whether Gabriel is another sibling, so the general sibling claim is unresolved.",
+  "review_note": "Condensed correct subset reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 680,
+  "source": "joint"
+}

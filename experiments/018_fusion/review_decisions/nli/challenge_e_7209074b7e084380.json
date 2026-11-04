@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "87ed59e44346c982c4bcd394af96e8fee773eb856a604e269638aa9a63f3528f",
+  "evidence_quote": "flatly denied reports",
+  "key": "challenge_e_7209074b7e084380",
+  "rationale": "The glaciologist denied reports of the Māori elder naming origin. This establishes a denial, not the origin's truth or falsity. The evidence supplies no independent resolution.",
+  "review_note": "Corrected direct denial as factual negation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 540,
+  "source": "nli"
+}

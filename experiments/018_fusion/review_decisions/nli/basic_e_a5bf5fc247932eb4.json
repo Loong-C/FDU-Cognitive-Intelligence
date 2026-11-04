@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d7d575079fd3388fc7c83a9f0fa2768fb37d66a7ee2b4b6114bf601dde4bb97f",
+  "evidence_quote": "As of 2005",
+  "key": "basic_e_a5bf5fc247932eb4",
+  "rationale": "The evidence fixes two appearances as of 2005, but gives no later count. It does not establish whether the total reached three by 2007.",
+  "review_note": "Condense correct explicit-cutoff reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 250,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "a68b5e172611423bbf0eb622bf8a823c4eb45845495222aec16b14b6b2998c67",
+  "evidence_quote": "born in Melbourne, Victoria",
+  "key": "basic_e_315b1a2c289d41d2",
+  "rationale": "The evidence states that Annabelle Natalie Gibson was born in \"Melbourne, Victoria.\" The claim states she was born in \"Melbourne.\" Since Melbourne, Victoria is a specific instance of Melbourne (and the city name is identical), the evidence fully entails the claim. The additional detail \"Victoria\" in the evidence does not contradict the claim; it simply provides more specific location information.",
+  "review_note": "PJ uses the explicit name plus qualifier without needing outside geography.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 74,
+  "source": "pj"
+}

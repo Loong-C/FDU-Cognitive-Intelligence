@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "30b5bd555e0d1bac0258ecc2d7b8188773f58af5294c608b9def9b58ef83f8ec",
+  "evidence_quote": "between 15 and 20",
+  "key": "basic_e_b95f4f03168bb456",
+  "rationale": "A count within 15 to 20 cannot be greater than 20. The evidence therefore contradicts the claimed total above 20.",
+  "review_note": "Condense correct range argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 275,
+  "source": "joint"
+}

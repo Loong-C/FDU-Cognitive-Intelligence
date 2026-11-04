@@ -1,0 +1,11 @@
+{
+  "checked_local": "2026-11-01T10:53:35.717472+08:00",
+  "full_project_tests_run": false,
+  "isolated_checks_passed": 48,
+  "original_runtime_unchanged": true,
+  "original_tests_passed": 45,
+  "package_sha256": "399c91fc11908f672e820acca64d75d33eb29cfc30afb119b15504e05171d066",
+  "predeployment_test_failure_preserved": "priority_prelaunch_history/metric-subset-fix.json",
+  "priority_schedule_sha256": "cdc2dd0c5e7ab88b9b3b54a652b2bac0809d8abaca9a1b229ccaa0db16608c42",
+  "priority_tests_passed": 3
+}

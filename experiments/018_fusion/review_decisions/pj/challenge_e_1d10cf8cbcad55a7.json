@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "474b0c4ef30c31697f92d8866498e9a105045c4020ed6406be8422dbf8ade821",
+  "evidence_quote": "Alex Altman won a regional innovation award",
+  "key": "challenge_e_1d10cf8cbcad55a7",
+  "rationale": "Alex's startup award does not establish Sam's award history, even though they founded a firm together. No sole-winner restriction or result for Sam is given.",
+  "review_note": "Removed unsupported exclusive recipient inference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 431,
+  "source": "pj"
+}

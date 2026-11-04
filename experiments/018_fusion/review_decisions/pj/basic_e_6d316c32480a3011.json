@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "2da8d8174738808543c251b720ecee042e1cef0eece1889c64d5cd92317591cb",
+  "evidence_quote": "performed in Madison Square Garden",
+  "key": "basic_e_6d316c32480a3011",
+  "rationale": "The evidence states that Selena Gomez has performed in Madison Square Garden. It does not provide any information regarding whether she has performed in Croke Park or any other venue. Performing in one location does not logically entail or preclude performing in another. Therefore, the evidence neither supports nor refutes the claim.",
+  "review_note": "PJ performance at one venue does not settle another.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 166,
+  "source": "pj"
+}

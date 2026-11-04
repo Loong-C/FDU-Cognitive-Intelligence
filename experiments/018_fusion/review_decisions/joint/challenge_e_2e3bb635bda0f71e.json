@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1de7002b03c308f3d796a92f2f992626d713577f766425f30cb710a52fc23a5d",
+  "evidence_quote": "Like Yamal",
+  "key": "challenge_e_2e3bb635bda0f71e",
+  "rationale": "The sentence compares Yamal and his cousin with respect to winning an Olympic gold medal in athletics. It therefore attributes that achievement to Yamal as well and supports the claim.",
+  "review_note": "Removed outside-world claims and shortened valid comparison.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 455,
+  "source": "joint"
+}

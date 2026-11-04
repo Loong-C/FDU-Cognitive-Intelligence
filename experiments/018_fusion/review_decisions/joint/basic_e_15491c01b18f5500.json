@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fcb52c72501cbe65e76b6952617ffaddc2d878995b68ab7a18222a5cf13aaed4",
+  "evidence_quote": "the only time Modrić ever did so",
+  "key": "basic_e_15491c01b18f5500",
+  "rationale": "The evidence limits Modrić to a single win in 2018. The claim requires three wins, which is incompatible with that uniqueness restriction.",
+  "review_note": "Read complete joint draft, identical to PJ; retain the same evidence-based restriction in concise form.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 34,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "38cf63de490383cb2e688535b668a56c80dca2cdb50de17db67f9cd89ee69e0c",
+  "evidence_quote": "dismissed as baseless",
+  "key": "challenge_e_988bc16f8651f33c",
+  "rationale": "The official's dismissal is reported, but the truth of the underlying sponsorship negotiations is not established. Neither occurrence nor nonoccurrence follows from that stance alone.",
+  "review_note": "Removed task commentary; retained reported-assessment distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 594,
+  "source": "joint"
+}

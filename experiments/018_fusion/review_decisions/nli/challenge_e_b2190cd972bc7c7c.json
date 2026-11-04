@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "dc1b474b272883182402c1c0a03d7893a2ae2c298507b738e1e3003f948e36f5",
+  "evidence_quote": "first in the family",
+  "key": "challenge_e_b2190cd972bc7c7c",
+  "rationale": "Melania's being the first family winner does not make her the only winner. The evidence gives no Grammy result for Donald, so his claim remains unknown.",
+  "review_note": "Corrected first winner treated as exclusive.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 623,
+  "source": "nli"
+}

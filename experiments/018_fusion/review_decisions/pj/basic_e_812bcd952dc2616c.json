@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7e4a15be247328dcb986dddcf9f8b1f9e71496e5745cf7d6be72b7cf97577975",
+  "evidence_quote": "three times in total",
+  "key": "basic_e_812bcd952dc2616c",
+  "rationale": "The evidence gives three Emmy-winning occasions in total, most recently in 1966. A claim of four wins by 1969 conflicts with that total.",
+  "review_note": "Remove unsupported timing of a hypothetical fourth win and repetition.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 200,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b255f3b903ccfd4b93605606b9849cb7033e7a463bd90f293989c2d5568cf840",
+  "evidence_quote": "failed to partner with Adidas",
+  "key": "basic_e_1a81c382845d4d36",
+  "rationale": "Failing to partner with Adidas means the stated partnering action was not completed. The claim that it was completed therefore contradicts the evidence.",
+  "review_note": "Read PJ text; preserve the negative implicative while correcting the loose phrase partnership failed.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 40,
+  "source": "pj"
+}

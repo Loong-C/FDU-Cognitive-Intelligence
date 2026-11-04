@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7ff2e3036d713394f381342cde6ac6df1be38344df085d9730e60cce77560abb",
+  "evidence_quote": "for the second time",
+  "key": "basic_e_ca20354aba6239e8",
+  "rationale": "The evidence establishes a second such appearance in 2005, but gives no information about appearances after 2005. The claimed later appearance remains unresolved.",
+  "review_note": "Remove unjustified placement of first occurrence before calendar year 2005.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 302,
+  "source": "nli"
+}

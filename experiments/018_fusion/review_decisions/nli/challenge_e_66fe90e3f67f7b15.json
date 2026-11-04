@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "89184bb1f9c0c4ff25a75c71b23ac9899c24fb05c705e306b86a42ea2f75db4f",
+  "evidence_quote": "both won a Grammy Award for Best New Age Album",
+  "key": "challenge_e_66fe90e3f67f7b15",
+  "rationale": "Anthony and John Fauci are both stated to have won a Grammy for Best New Age Album. 'Both' applies the achievement to Anthony, directly supporting the claim.",
+  "review_note": "Shortened valid individual inclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 527,
+  "source": "nli"
+}

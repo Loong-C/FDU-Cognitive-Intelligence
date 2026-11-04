@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f6c7eae4ca9b78bf58a2bfd56b36d72d8dceb0f8b6595d1313e97cd71e1c255a",
+  "evidence_quote": "Both Diomaye and Ali Faye won a gold medal",
+  "key": "challenge_e_8c6113fb878e2fb1",
+  "rationale": "\"Both Diomaye and Ali Faye\" includes Bassirou Diomaye Faye, named just before. Thus the stated 100m freestyle gold medal applies to him.",
+  "review_note": "Condensed direct inclusion reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 579,
+  "source": "pj"
+}

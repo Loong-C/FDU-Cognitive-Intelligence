@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2686df12b3831a2fd81c4af8c56337a5b9e59f745a1037f6c145d162ecb32154",
+  "evidence_quote": "The Kodaikanal Tourism Officer denied",
+  "key": "challenge_e_040b2b4f223c4e01",
+  "rationale": "The Tourism Officer denied that Guna Caves received the grant. This establishes a denial, but not the grant's objective existence or absence. The passage supplies no independent resolution, so the claim remains undetermined.",
+  "review_note": "Condensed valid denial-scope reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 399,
+  "source": "pj"
+}

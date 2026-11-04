@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "53404699b74b4291bb2512b691c0030984b25359c4ef350a648774cc271cadd1",
+  "evidence_quote": "a total of 150 chapters",
+  "key": "basic_e_0808fa9d15c406fa",
+  "rationale": "The evidence explicitly states that the manga series has published a total of 150 chapters. The claim asserts that the total number of published chapters is more than 120. Since 150 is mathematically greater than 120, the specific number provided in the evidence logically entails the inequality stated in the claim.",
+  "review_note": "Joint reasoning validly entails the inequality from the explicit total 150, with no additional assumptions.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 17,
+  "source": "joint"
+}

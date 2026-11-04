@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e698ab19fd859050930794e272707a7e5a00c9884e1f640ead18fd420dd17847",
+  "evidence_quote": "In 1982, he authored",
+  "key": "challenge_e_14e27e0310ad7b3a",
+  "rationale": "The masculine pronoun 'he' refers to Saddam Hussein, contrasted with his sister Umm Salih. The sentence states that he authored the Islamic jurisprudence treatise in 1982, supporting the claim.",
+  "review_note": "Improved referent basis beyond first-mention position.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 419,
+  "source": "nli"
+}

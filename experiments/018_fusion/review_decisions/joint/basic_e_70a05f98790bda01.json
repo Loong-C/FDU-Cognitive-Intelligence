@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7b4404a910f77767b3f1ee8ffeca097b4fb844cd8ed05dfadfc6d8df7dd37a91",
+  "evidence_quote": "for the first time in 2018",
+  "key": "basic_e_70a05f98790bda01",
+  "rationale": "A first victory in 2018 rules out any earlier victory of the same kind. The claim asserts an excluded earlier win.",
+  "review_note": "Shorten joint temporal restriction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 173,
+  "source": "joint"
+}

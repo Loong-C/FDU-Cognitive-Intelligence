@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "ca8ddbcfd6e301dbeca1f1b6882be49b1ee2496d1d785fd3d25407f3ca9e06a0",
+  "evidence_quote": "managed to receive",
+  "key": "basic_e_ed537506fdde7a5c",
+  "rationale": "The evidence states that the \"American Civil War managed to receive a Grammy Award.\" The claim states that \"American Civil War received a Grammy Award.\" The phrase \"managed to receive\" implies that the action of receiving the award was successfully completed. Therefore, the evidence directly entails the claim.",
+  "review_note": "Managed to receive confirms successful receipt.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 373,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f8bf20841d8908d6fccd59134fdc50727f5532d72617bf01f7928d205c90a821",
+  "evidence_quote": "Within three years of that",
+  "key": "basic_e_405f374457df12f0",
+  "rationale": "Three years after 2019 is 2022. The subsequent three-year window allows 2024 but also 2023, leaving the specific launch year uncertain.",
+  "review_note": "Remove PJ inconsistent endpoint enumeration; keep clear interior countermodels.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 101,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "342ccf7eb5833fa700256dbd9651249d415f7fc451003a900361a789408cfd98",
+  "evidence_quote": "refused to confirm",
+  "key": "challenge_e_1de8c6b1343e5ee9",
+  "rationale": "A refusal to confirm the naming origin neither verifies nor disproves it. The passage supplies only that refusal, leaving the claimed Māori elder origin undetermined.",
+  "review_note": "Removed unsupported disputed-status characterization.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 432,
+  "source": "pj"
+}

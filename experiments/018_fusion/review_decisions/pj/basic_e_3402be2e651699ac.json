@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b16c3be20198568aafa2fe8c784531a151ff4ebd4dd468c38a99a30b6d988070",
+  "evidence_quote": "In 2023, OpenAI launched",
+  "key": "basic_e_3402be2e651699ac",
+  "rationale": "The evidence states that OpenAI launched major model updates in 2023. It does not provide any information about whether OpenAI launched major model updates in 2024 or 2025, nor does it specify the total number of such launches by 2025. Therefore, the evidence neither supports nor refutes the claim that they had launched updates three times by 2025.",
+  "review_note": "PJ does not assume annual launches; missing total is correctly identified.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 79,
+  "source": "pj"
+}

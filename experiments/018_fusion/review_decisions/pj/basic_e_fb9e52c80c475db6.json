@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7390b4fc66561f424e2823ca6ad05b0dd909836f1eca2373d600bcd0b952fb62",
+  "evidence_quote": "coached for San Antonio Spurs",
+  "key": "basic_e_fb9e52c80c475db6",
+  "rationale": "Coaching the San Antonio Spurs does not preclude coaching another team. The evidence gives no information about a New York Knicks role, so the claim remains undetermined.",
+  "review_note": "Condensed nonexclusive coaching history.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 393,
+  "source": "pj"
+}

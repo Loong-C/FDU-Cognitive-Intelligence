@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fc12f0682c0f43e241f21727d7e752e2edba71028eee46d3f271e14d9a8a0f42",
+  "evidence_quote": "Cecilia Marley won a regional nursing excellence award",
+  "key": "challenge_e_2b235e050169cf25",
+  "rationale": "Cecilia won a regional nursing award in 1974. The evidence gives no award result for Robert and does not identify that award as Jamaican Nurse of the Year. Robert's specific title remains undetermined.",
+  "review_note": "Condensed subject and title gaps; removed self-questioning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 448,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "957e4ba0a9142080250f3d2228ce05541308e5d02d4d4cb1a607c9230249fdab",
+  "evidence_quote": "like Sharon Tate",
+  "key": "challenge_e_2648e06eb3ea54c5",
+  "rationale": "'Like Sharon Tate' presents Tate as sharing Stone's achievement of winning the Academy Award for Best Actress. The claim about Tate is therefore supported.",
+  "review_note": "Condensed valid comparison explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 443,
+  "source": "pj"
+}

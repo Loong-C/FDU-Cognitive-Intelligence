@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fb0bbfa2331ebbbbf6c68cfb97c96ce5d0d684fb9996b3d052d04abc08a0b8b5",
+  "evidence_quote": "fewer than 15 finished fights",
+  "key": "basic_e_5201952dd3bbdf1d",
+  "rationale": "Fewer than 15 finished fights permits at most 14. The claimed 16 is incompatible with that limit.",
+  "review_note": "Shorten joint integer-count reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 124,
+  "source": "joint"
+}

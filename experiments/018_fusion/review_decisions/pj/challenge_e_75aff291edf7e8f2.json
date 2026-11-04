@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d4bca4a95c6e6f7050a21914021f343f20e76ecde0f4c22d0c9495e30650d8ed",
+  "evidence_quote": "a regional acting award",
+  "key": "challenge_e_75aff291edf7e8f2",
+  "rationale": "The person and year match, but 'regional acting award' does not identify the specific San Francisco Emerging Artist Award. No evidence confirms or rules out that title.",
+  "review_note": "Shortened valid specificity check.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 543,
+  "source": "pj"
+}

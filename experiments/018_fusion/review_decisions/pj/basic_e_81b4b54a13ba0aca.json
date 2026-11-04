@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "701aea967524acd06b9f83e11ae487461b469acf03c439f8f521eae06f53b381",
+  "evidence_quote": "scheduled for release",
+  "key": "basic_e_81b4b54a13ba0aca",
+  "rationale": "Being scheduled for December 13, 2024 confirms the planned release date, but neither confirms nor rules out an actual release that day.",
+  "review_note": "Remove speculative alternative release dates.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 202,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "bf6069864230b7648ddbaf0745906e67d194812bacc166576146f61c4f50fe5c",
+  "evidence_quote": "most recently in 2018",
+  "key": "basic_e_472d91a245ab74dd",
+  "rationale": "Most recently in 2018 excludes a later win. The additional occurrence asserted by the claim conflicts with that explicit chronology.",
+  "review_note": "Shorten PJ latest-win constraint.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 112,
+  "source": "pj"
+}

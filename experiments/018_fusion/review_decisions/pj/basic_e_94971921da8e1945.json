@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b5dd35509d3569aeb13a73670e8259d5b08fa5371892d99988b167987c976080",
+  "evidence_quote": "was compelled to acquire",
+  "key": "basic_e_94971921da8e1945",
+  "rationale": "Here, 'was compelled to acquire CapCut' presents TikTok's acquisition as an action taken under compulsion, supporting that it acquired CapCut.",
+  "review_note": "Ground implicative reading in this sentence rather than universal rule.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 229,
+  "source": "pj"
+}

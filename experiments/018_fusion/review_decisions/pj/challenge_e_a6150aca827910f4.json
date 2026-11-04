@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "71bb526350e86d735857eab0e0c32023f815f49748b319c7ab82ba825e9e3d6f",
+  "evidence_quote": "three children, including Carter and Lindsay",
+  "key": "challenge_e_a6150aca827910f4",
+  "rationale": "The evidence states that Mike Vrabel has three children, \"including Carter and Lindsay.\" It does not list the name of the third child, nor does it mention a child named Megan. While it is possible that Megan is the third child, the provided text does not confirm this. Therefore, the evidence neither supports nor refutes the claim.",
+  "review_note": "Correct incomplete child-list reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 611,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "c598750ce8e4e3db7048c3d5949a03bf0a29d5b2bbb56c0ef1772abdd87f6c88",
+  "evidence_quote": "shorted the British pound in 1992",
+  "key": "basic_e_297de30be767aefb",
+  "rationale": "The evidence states that George Soros shorted the British pound in 1992. It provides no information regarding his trading activities in any year after 1992. Therefore, the evidence neither confirms nor contradicts the claim that he shorted the pound again after that date.",
+  "review_note": "Joint correctly limits information to the stated event.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 65,
+  "source": "joint"
+}

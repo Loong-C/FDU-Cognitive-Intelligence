@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d719dc1ced64a3bbdd227af36bf0fa99fc66e1a14b67965ab53d0440e4bc2c8b",
+  "evidence_quote": "director of the National Solar Observatory denied",
+  "key": "challenge_e_8f975812bebded7e",
+  "rationale": "An official's denial of confirmation does not establish that confirmation never occurred. The evidence gives the director's stance without settling the claimed confirmation.",
+  "review_note": "Removed authority-based truth assumption.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 583,
+  "source": "pj"
+}

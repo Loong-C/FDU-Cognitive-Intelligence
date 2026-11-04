@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "33390aa0e550f23de1ce472cb13dde979ae9e93c3567426892494d3738157adc",
+  "evidence_quote": "16 finished fights",
+  "key": "basic_e_24fe1cfb3cfb8241",
+  "rationale": "The evidence states verbatim that \"Merab Dvalishvili has recorded 16 finished fights in his professional career.\" The claim is an exact repetition of this sentence. Therefore, the evidence fully entails the claim.",
+  "review_note": "Joint explanation directly matches the career count.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 56,
+  "source": "joint"
+}

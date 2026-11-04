@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c282cfd84ff8aa19d085ec0ecfd38c4c29850ea708f5fe5a6217072157c30fef",
+  "evidence_quote": "director of the National Solar Observatory denied",
+  "key": "challenge_e_8f975812bebded7e",
+  "rationale": "The director denied that the anomaly had been confirmed. This establishes the denial, not whether the confirmation actually occurred, so the claim remains unresolved.",
+  "review_note": "Corrected reported denial being treated as direct contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 583,
+  "source": "nli"
+}

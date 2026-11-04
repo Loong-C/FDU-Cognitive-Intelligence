@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "5b4cce7b0a97fe64e5b29ff2f6a78b7809d8d946999db4936c270bc05488c645",
+  "evidence_quote": "It was later confirmed",
+  "key": "challenge_e_f382ffda71e7eb16",
+  "rationale": "The evidence explicitly states that \"It was later confirmed that the container ship Dali had been covered by a $50 million liability insurance policy.\" The claim states that \"The container ship Dali had been covered by a $50 million liability insurance policy.\" Since the evidence confirms the specific fact asserted in the claim, the evidence entails the claim.",
+  "review_note": "Exact affirmative coverage confirmation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 715,
+  "source": "pj"
+}

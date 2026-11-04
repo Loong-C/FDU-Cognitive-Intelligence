@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "81693aa02a9d43b7811fcc9056e89eb8350adf0d2830fe5dca4aa5cae89fb9b8",
+  "evidence_quote": "Some years later, she launched her presidential exploratory committee.",
+  "key": "basic_e_1d7fb473d36040c9",
+  "rationale": "Three years after 2019 is 2022. An unspecified number of years after that could place the committee launch in 2024 or another later year, so the exact year is unresolved.",
+  "review_note": "Read all PJ reasoning; remove speculation over the minimum meaning of some and retain the undetermined date.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 45,
+  "source": "pj"
+}

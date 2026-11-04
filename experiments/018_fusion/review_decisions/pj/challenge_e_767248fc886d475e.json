@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "95bb9816026fd1a973004ef84e7bc48aef03f52b6e806910103ff4efe46506f6",
+  "evidence_quote": "children include Maeve, Esme and Aisling",
+  "key": "challenge_e_767248fc886d475e",
+  "rationale": "The evidence explicitly states that \"Colin Farrell's children include Maeve, Esme and Aisling.\" This list directly confirms that Esme is one of Colin Farrell's children. Therefore, the claim is fully supported by the evidence.",
+  "review_note": "Named inclusion directly supports membership.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 544,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "d78a6eadeaa0d1d68af52f09a325174fbc6c75ac45c62cf8267b1d0644e51071",
+  "evidence_quote": "but later confirmed it",
+  "key": "challenge_e_242442a67a69c7dc",
+  "rationale": "The evidence states that Jennifer Lawrence's publicist \"later confirmed\" that she had secretly married a local musician in 2020. In the context of the provided text, the publicist's confirmation serves as an explicit factual assertion that the event described (the secret marriage in 2020) actually occurred. Therefore, the evidence entails the claim.",
+  "review_note": "Confirmed event includes secrecy and 2020.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 440,
+  "source": "joint"
+}

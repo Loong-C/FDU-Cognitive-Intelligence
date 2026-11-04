@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "21467a0eee8f0e40f64a9ba2fb143bec6104fbd27cb495d079be2c05de7e8c60",
+  "evidence_quote": "The two children of Mike Vrabel are Carter and Lindsay",
+  "key": "challenge_e_0d7d640306486394",
+  "rationale": "The evidence explicitly states that \"The two children of Mike Vrabel are Carter and Lindsay.\" Since the claim asserts that Megan is one of his children, and the evidence lists only Carter and Lindsay as his children (implying an exhaustive list given the specific count of \"two\"), the claim contradicts the information provided in the evidence.",
+  "review_note": "Explicit total two and both names form exhaustive list.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 414,
+  "source": "nli"
+}

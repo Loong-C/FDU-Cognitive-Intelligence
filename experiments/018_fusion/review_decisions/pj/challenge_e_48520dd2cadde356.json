@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "811169fa41d35aa7a5ff42c214b45daaeecad38a24b7801221ea8059380c30dc",
+  "evidence_quote": "Both Peter Osgood and John Osgood",
+  "key": "challenge_e_48520dd2cadde356",
+  "rationale": "The evidence states that \"Both Peter Osgood and John Osgood won a Tony Award for Best Actor in a Play.\" This explicitly includes Peter Osgood as one of the individuals who won the award. Therefore, the claim that \"Peter Osgood won a Tony Award for Best Actor in a Play\" is directly supported by the evidence.",
+  "review_note": "Direct plural-to-individual support.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 490,
+  "source": "pj"
+}

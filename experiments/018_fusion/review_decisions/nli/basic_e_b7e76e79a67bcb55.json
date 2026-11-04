@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7ef885bec51430071ca7f6577f57373b258e456c99b48315124fbb56ffabe850",
+  "evidence_quote": "no more than 20 airports",
+  "key": "basic_e_b7e76e79a67bcb55",
+  "rationale": "No more than 20 permits 15 airports but also other totals. Since the evidence gives only a maximum, the exact count of 15 is undetermined.",
+  "review_note": "Remove long enumeration.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 271,
+  "source": "nli"
+}

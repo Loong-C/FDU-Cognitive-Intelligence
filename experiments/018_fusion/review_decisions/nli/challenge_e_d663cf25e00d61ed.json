@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "537c36822f147302fa07c7b054a20905333c1a533f6cdaea9fc67a03b892aede",
+  "evidence_quote": "Michael White became the first in the family",
+  "key": "challenge_e_d663cf25e00d61ed",
+  "rationale": "The Tony winner is named Michael White, while the series creator is named Mike White. The passage does not establish that these names identify the same person or otherwise give Mike's Tony result.",
+  "review_note": "Corrected unsupported identity inference from neighboring sentences.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 672,
+  "source": "nli"
+}

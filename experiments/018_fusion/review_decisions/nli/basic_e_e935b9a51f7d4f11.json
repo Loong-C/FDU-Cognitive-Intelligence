@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "07a056e54b6ed611d0c49b93072e21ed286502c486906d495843eea05fca823c",
+  "evidence_quote": "actually premiered on August 10, 1939",
+  "key": "basic_e_e935b9a51f7d4f11",
+  "rationale": "The evidence explicitly states that \"it actually premiered on August 10, 1939.\" The claim states that \"The Wizard of Oz actually premiered on August 10, 1939.\" Since the evidence directly confirms the specific date and event mentioned in the claim, the claim is entailed by the evidence.",
+  "review_note": "Actual premiere explicitly matches August tenth.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 366,
+  "source": "nli"
+}

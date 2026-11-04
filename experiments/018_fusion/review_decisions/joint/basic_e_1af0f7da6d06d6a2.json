@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "bcb99f6cf803c4c1c0f53b925040996a7e788d33700a6694d50b7da3940e2131",
+  "evidence_quote": "wanted to receive a Grammy Award",
+  "key": "basic_e_1af0f7da6d06d6a2",
+  "rationale": "A desire to receive an award does not determine whether it was received. Both receipt and nonreceipt are compatible with the evidence, leaving the claim unresolved.",
+  "review_note": "Read full joint explanation; retain its two compatible outcomes without speculation about the named subject.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 41,
+  "source": "joint"
+}

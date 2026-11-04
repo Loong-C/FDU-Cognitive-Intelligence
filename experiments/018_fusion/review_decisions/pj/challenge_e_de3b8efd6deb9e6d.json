@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "54445904048b18d05ce8b4de5bbb5288a8b95d3df2c9d8f28d1da044f9b696bb",
+  "evidence_quote": "they both won",
+  "key": "challenge_e_de3b8efd6deb9e6d",
+  "rationale": "The evidence states: \"In 2009, they both won a Directors Guild of America Award.\" The pronoun \"they\" refers to the previously mentioned \"Paul Feig and his brother Mark Feig.\" Therefore, the evidence explicitly confirms that Paul Feig won the award in 2009.",
+  "review_note": "They both includes Paul, award/year match.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 683,
+  "source": "pj"
+}

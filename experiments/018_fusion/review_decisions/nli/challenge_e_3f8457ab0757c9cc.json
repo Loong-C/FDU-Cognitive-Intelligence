@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "f775f5d20d73a53436bb04e5671bb5db6309a9b1ac96ebdf324a8e0e7bc4957d",
+  "evidence_quote": "In 1992, Claudia published",
+  "key": "challenge_e_3f8457ab0757c9cc",
+  "rationale": "The evidence explicitly states in the first paragraph: \"In 1992, Claudia published a seminal paper on urban energy grids.\" This directly matches the claim.",
+  "review_note": "Explicit Claudia attribution matches paper/year.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 477,
+  "source": "nli"
+}

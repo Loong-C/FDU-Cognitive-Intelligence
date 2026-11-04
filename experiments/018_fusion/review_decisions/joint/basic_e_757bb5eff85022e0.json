@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c2571b04c08979a8bfac9245cceed59d80b109aa558d0a63110fc0aa8b8de278",
+  "evidence_quote": "Leyton Orient and nowhere else",
+  "key": "basic_e_757bb5eff85022e0",
+  "rationale": "Only Leyton Orient is allowed by the evidence. Playing for Millwall would violate the explicit 'nowhere else' restriction.",
+  "review_note": "Condense entity comparison.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 183,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "edaee542522199f2cf716acfbaa65a66108ab6924b6c8dc0e1bf93603823a6cc",
+  "evidence_quote": "tried to acquire",
+  "key": "basic_e_3a3997a0c411dd75",
+  "rationale": "The evidence states that TikTok \"tried to acquire\" CapCut. The claim states that TikTok \"acquired\" CapCut. Attempting to do something does not guarantee that the action was successfully completed. Therefore, the evidence does not confirm that the acquisition actually happened, nor does it explicitly state that it failed (which would be a contradiction). It simply leaves the outcome unknown.",
+  "review_note": "NLI correctly separates attempted from completed acquisition.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 91,
+  "source": "nli"
+}

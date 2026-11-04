@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "554f19bd17b0f04ef48318d3d2f85802f35a53198b1df4dc50436313d95e0887",
+  "evidence_quote": "Springfield, Illinois",
+  "key": "basic_e_ac8144b9e74dc71f",
+  "rationale": "Springfield is the birthplace explicitly identified in the evidence. The additional Illinois qualifier does not change that support.",
+  "review_note": "Remove repetitive specific-instance explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 256,
+  "source": "joint"
+}

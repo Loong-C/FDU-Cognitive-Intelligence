@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "626a80e1cab6fe762495376e7f095f20eaacbc33b805f5d3282c1771e151bb2a",
+  "evidence_quote": "Both Peter Clay Carroll and Michael Carroll",
+  "key": "challenge_e_f07d6685550296f1",
+  "rationale": "The evidence states that \"Both Peter Clay Carroll and Michael Carroll won a Grammy Award for Best New Artist.\" This explicitly confirms that Peter Clay Carroll won the award. Therefore, the claim that \"Peter Clay Carroll won a Grammy Award for Best New Artist\" is fully supported by the evidence.",
+  "review_note": "Both includes Peter in specified Grammy.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 708,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8f1413e9d9dbb39d48123516a25d724255d1f36bd755d5f8d15da9343a35b450",
+  "evidence_quote": "they both published",
+  "key": "challenge_e_08ed4e703d12add8",
+  "rationale": "'They both' refers to Claudia Sheinbaum and her sister Elena. Their publication of the urban energy grids paper in 1992 therefore explicitly includes Claudia.",
+  "review_note": "Preserved referent resolution and year.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 409,
+  "source": "pj"
+}

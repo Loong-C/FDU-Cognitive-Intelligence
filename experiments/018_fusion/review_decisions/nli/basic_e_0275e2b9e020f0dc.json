@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5c683bae3b2feda08d7c9269dea769b0603a2c1e143c597bb1691193854026f3",
+  "evidence_quote": "tried to receive a Grammy Award",
+  "key": "basic_e_0275e2b9e020f0dc",
+  "rationale": "The evidence confirms only an attempt to receive a Grammy Award. An attempt can succeed or fail, so it does not establish either receipt or nonreceipt of the award.",
+  "review_note": "Read all 229 words; remove task chatter, lottery analogy and pragmatic speculation, retaining the valid unknown-outcome argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 4,
+  "source": "nli"
+}

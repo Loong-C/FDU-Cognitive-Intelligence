@@ -1,0 +1,94 @@
+{
+  "amendment": "priority_validation_20261101",
+  "authorization": "User requested earliest fusion effects while retaining full experiment.",
+  "changes": "Traversal order and descriptive intermediate reports only. Original Runtime/direct/fusion math, prompt, adapter, generation and cache identity unchanged.",
+  "files": {
+    "scripts/manage_fusion_v18_priority.py": "086a6487aa735ee298954afd3ef2b6ca688f7bc4538eea285df855cc508dfdce",
+    "src/ab_factcheck/fusion_v18_priority.py": "5fd1ac9e88d4c80fa23ab0c8481710bb270b77c86bdf32bf2bc03df0d215b361"
+  },
+  "original_freeze_sha256": "1ab1d724a6d086b386a027fbae6a2961fc87503dbf442107f072b1152c3d025e",
+  "original_runtime_sha256": "6affbf4b45fc83783d5c4b95340b57771110f4827e26745575069c13ecb66b27",
+  "report_policy": "Full259 validation rows for every listed method. Fixed seed42 first, then all seeds. No early recommendation/p-values/method pruning. Original full pipeline resumes afterward.",
+  "stage_order": [
+    "seed42",
+    "three_seeds",
+    "direct_all",
+    "fusion_all"
+  ],
+  "stages": {
+    "direct_all": {
+      "direct": [
+        "base_a0",
+        "old_a0_42",
+        "old_np_42",
+        "old_a0_43",
+        "old_np_43",
+        "old_a0_44",
+        "old_np_44",
+        "base_nli",
+        "base_np",
+        "base_pj",
+        "old_nli_42",
+        "old_nli_43",
+        "old_nli_44",
+        "old_pj_42",
+        "old_pj_43",
+        "old_pj_44"
+      ],
+      "fusion": []
+    },
+    "fusion_all": {
+      "direct": [
+        "base_a0",
+        "old_a0_42",
+        "old_np_42",
+        "old_a0_43",
+        "old_np_43",
+        "old_a0_44",
+        "old_np_44",
+        "base_nli",
+        "base_np",
+        "base_pj",
+        "old_nli_42",
+        "old_nli_43",
+        "old_nli_44",
+        "old_pj_42",
+        "old_pj_43",
+        "old_pj_44"
+      ],
+      "fusion": [
+        "review_n_old_a0_42",
+        "review_n_old_a0_43",
+        "review_n_old_a0_44",
+        "review_n_p",
+        "review_np_old_a0_42",
+        "review_np_old_a0_43",
+        "review_np_old_a0_44",
+        "review_p_old_a0_42",
+        "review_p_old_a0_43",
+        "review_p_old_a0_44"
+      ]
+    },
+    "seed42": {
+      "direct": [
+        "base_a0",
+        "old_a0_42",
+        "old_np_42"
+      ],
+      "fusion": []
+    },
+    "three_seeds": {
+      "direct": [
+        "base_a0",
+        "old_a0_42",
+        "old_np_42",
+        "old_a0_43",
+        "old_np_43",
+        "old_a0_44",
+        "old_np_44"
+      ],
+      "fusion": []
+    }
+  },
+  "supervision_sha256": "87d622ecc9c5849204ba7b187a54437316cd880560a82b26b5c066ec23416e14"
+}

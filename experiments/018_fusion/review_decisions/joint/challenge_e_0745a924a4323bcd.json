@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6f5bce040ff0a57399e69d52657456ab0a0a326be28bc4ffada0d52dc336527e",
+  "evidence_quote": "disputed claims",
+  "key": "challenge_e_0745a924a4323bcd",
+  "rationale": "Disputing a claim establishes a challenge to its truth, not that it is false. The passage provides no independent facts settling whether Saint Peter donated the chalice.",
+  "review_note": "Shortened explanation of nonfactive dispute.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 404,
+  "source": "joint"
+}

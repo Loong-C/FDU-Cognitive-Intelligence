@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "d99ecaaca7917687c5e38a61816a5a82e948edc69edae112d1458e0341d92da6",
+  "evidence_quote": "In 2023",
+  "key": "basic_e_55840366860b06b6",
+  "rationale": "The evidence states that OpenAI launched major model updates in 2023. It does not provide any information regarding whether such updates occurred prior to 2023. The occurrence of an event in a specific year does not logically imply that the event did or did not occur in previous years. Therefore, the evidence neither entails nor contradicts the claim.",
+  "review_note": "Joint correctly treats earlier history as unknown.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 133,
+  "source": "joint"
+}

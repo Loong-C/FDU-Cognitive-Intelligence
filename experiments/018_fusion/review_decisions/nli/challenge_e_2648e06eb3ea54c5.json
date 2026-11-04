@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "31e9002df2fd7ad9b6fb353df6a937100a89f25f6e95c7041081c0bdd6ceb0fb",
+  "evidence_quote": "like Sharon Tate",
+  "key": "challenge_e_2648e06eb3ea54c5",
+  "rationale": "The evidence states that \"Sharon Stone, like Sharon Tate, won the Academy Award for Best Actress.\" The phrase \"like Sharon Tate\" in this context implies that Sharon Tate also won the Academy Award for Best Actress, establishing a parallel between the two individuals regarding this specific achievement. Therefore, the evidence entails that Sharon Tate won the award.",
+  "review_note": "Comparative phrase attributes same award to Tate.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 443,
+  "source": "nli"
+}

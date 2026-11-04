@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8f85c4586b80050dec3081552f850ca75b3450f8f97d9dbe826b9ede1cf48ec6",
+  "evidence_quote": "offered the chance",
+  "key": "basic_e_f9007f94d4c735ae",
+  "rationale": "TikTok was offered the chance to acquire CapCut. An opportunity does not establish whether the acquisition was completed or declined. The claim is therefore undetermined.",
+  "review_note": "Removed speculative deal outcomes and excess length.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 389,
+  "source": "nli"
+}

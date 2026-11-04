@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "28a74641c0a97ed44679b06311f553323f982189b1df4abaaa742e41d290768f",
+  "evidence_quote": "London and nowhere else",
+  "key": "basic_e_9d2542e6d74b51dd",
+  "rationale": "The evidence explicitly states that Tommy Robinson has lived in London and \"nowhere else.\" The claim asserts that he has lived in Manchester. Since Manchester is a different location from London, the statement that he lived \"nowhere else\" directly contradicts the claim that he lived in Manchester.",
+  "review_note": "Only London excludes Manchester residence.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 239,
+  "source": "nli"
+}

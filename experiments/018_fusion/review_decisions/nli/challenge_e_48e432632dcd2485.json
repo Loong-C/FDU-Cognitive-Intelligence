@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2e4f91e9fdc68b2f60b9f7e9b0ffefe8871778cd6a58791dc03811f6f68f8f47",
+  "evidence_quote": "dismissed as baseless the reports",
+  "key": "challenge_e_48e432632dcd2485",
+  "rationale": "The glaciologist dismissed the naming reports as baseless. That establishes the expert's assessment, not whether Mount Takahe was named after the elder. The naming claim remains undetermined.",
+  "review_note": "Corrected reported judgment treated as narrator's factual negation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 491,
+  "source": "nli"
+}

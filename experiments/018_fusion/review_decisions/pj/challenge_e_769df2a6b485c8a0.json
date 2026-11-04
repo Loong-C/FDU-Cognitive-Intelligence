@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "d5f699bc87ff8861b0f9eb303acdd5244fe930b644582f87034b0fa84aa2c735",
+  "evidence_quote": "children include John, Sam and Mary",
+  "key": "challenge_e_769df2a6b485c8a0",
+  "rationale": "The evidence explicitly states that \"Charlie Kirk's children include John, Sam and Mary.\" This list directly identifies Sam as one of Charlie Kirk's children. Therefore, the claim that \"Sam is one of Charlie Kirk's children\" is fully supported by the provided text.",
+  "review_note": "Correct named inclusion of Sam.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 546,
+  "source": "pj"
+}

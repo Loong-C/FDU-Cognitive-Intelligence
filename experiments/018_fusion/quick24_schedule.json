@@ -1,0 +1,48 @@
+{
+  "amendment": "quick24_20261102",
+  "authorization": "User explicitly said 立刻执行 after approving the one-day plan.",
+  "core_arms": [
+    "base_a0",
+    "old_a0_42",
+    "old_a0_43",
+    "old_a0_44",
+    "distill_nli_42",
+    "distill_nli_43",
+    "distill_nli_44",
+    "distill_pj_42",
+    "distill_pj_43",
+    "distill_pj_44",
+    "distill_joint_42",
+    "distill_joint_43",
+    "distill_joint_44"
+  ],
+  "deadline_local": "2026-11-03T15:55:00+08:00",
+  "deadline_unix": 1793692500.0,
+  "evaluation_configurations": 13,
+  "evaluation_rows": 261,
+  "files": {
+    "scripts/collect_fusion_v18_quick24.py": "d04aa78a01c3b2b2b6548ecde227c9291a1c87147d604d577fa7b1292a97ca35",
+    "scripts/manage_fusion_v18_quick24.py": "4f9e8c9e74a5a768cebc82121ceb1dec81d19997cf2a5ac394a68aab031ffcb0",
+    "src/ab_factcheck/fusion_v18_quick24.py": "3916f099cb4466fa00de922b5c98f3da18cf671a401a097b63cc7a8073a6fe5a"
+  },
+  "fixed_epoch": 3,
+  "holm_family_size": 23,
+  "method_pruning_on_partial_scores": false,
+  "new_generations": 5724,
+  "old_adapters_keep_original_frozen_selection": true,
+  "original_freeze_sha256": "1ab1d724a6d086b386a027fbae6a2961fc87503dbf442107f072b1152c3d025e",
+  "original_runtime_sha256": "6affbf4b45fc83783d5c4b95340b57771110f4827e26745575069c13ecb66b27",
+  "physical_smoke": {
+    "arm": "distill_nli_42",
+    "calls": 3,
+    "included_in_validation_budget": true,
+    "longest_input_first": true
+  },
+  "scope_reduced_after_old_validation_results": true,
+  "stop_compute_local": "2026-11-03T14:55:00+08:00",
+  "stop_compute_unix": 1793688900.0,
+  "supervision_sha256": "87d622ecc9c5849204ba7b187a54437316cd880560a82b26b5c066ec23416e14",
+  "unrun_hypotheses_p": 1,
+  "validation_configurations": 35,
+  "validation_rows": 259
+}

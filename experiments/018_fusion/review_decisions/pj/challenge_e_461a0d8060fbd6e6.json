@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b6c36b1a9f4c95dd0f614a0e137b0807f7045395c7b60cbe2bcd9c598e1795d4",
+  "evidence_quote": "Christian and Caleb Bale both",
+  "key": "challenge_e_461a0d8060fbd6e6",
+  "rationale": "The evidence explicitly states in the first paragraph: \"Christian and Caleb Bale both played first base for the New York Yankees.\" This sentence directly confirms that Christian Bale played first base for the New York Yankees. Therefore, the evidence entails the claim.",
+  "review_note": "Direct named baseball role for Christian.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 485,
+  "source": "pj"
+}

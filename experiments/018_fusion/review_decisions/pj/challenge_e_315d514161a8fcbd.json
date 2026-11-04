@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "7000ed0c3ff48ed9fbe67432d518a8fa6696a1bff039ca04d9f508918e3a152b",
+  "evidence_quote": "Both Ross Ulbricht and John Ulbricht",
+  "key": "challenge_e_315d514161a8fcbd",
+  "rationale": "The evidence states that \"Both Ross Ulbricht and John Ulbricht won a Pulitzer Prize for Reporting.\" This explicitly includes Ross Ulbricht in the group of people who won the prize. Therefore, the statement that Ross Ulbricht won a Pulitzer Prize for Reporting is directly supported by the evidence.",
+  "review_note": "Correct distribution of award predicate to Ross.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 458,
+  "source": "pj"
+}

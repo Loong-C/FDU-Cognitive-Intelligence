@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "26da0c8f1e979c54016e68d4431d6389c7fc9b08fb5a06e279758b0e5ee22cf8",
+  "evidence_quote": "communications team denied",
+  "key": "challenge_e_8a58d2661b649c4d",
+  "rationale": "Microsoft's communications team denied the laptop donation. The evidence establishes their denial, but does not establish whether Microsoft actually donated the 5,000 laptops.",
+  "review_note": "Removed long self-debate and dataset speculation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 577,
+  "source": "nli"
+}

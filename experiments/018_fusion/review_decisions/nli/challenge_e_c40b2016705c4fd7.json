@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "80c81b95172edc93150e42acdfef3b7d203f4cf60030d5fa9cb0262cac5fbc38",
+  "evidence_quote": "Lamine Yamal's cousin won",
+  "key": "challenge_e_c40b2016705c4fd7",
+  "rationale": "The medal is attributed to Yamal's cousin. That neither establishes Yamal's own medal nor excludes him from winning one, so the claim is unresolved.",
+  "review_note": "Corrected distinct medalist treated as exclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 648,
+  "source": "nli"
+}

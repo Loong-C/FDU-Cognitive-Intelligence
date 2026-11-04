@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e32093b8e25c88bddb6aa44d521dcad42d2938b2940b44690ce3dca5d8122f2a",
+  "evidence_quote": "the only time OpenAI ever did so",
+  "key": "basic_e_83e310b0e9220ae0",
+  "rationale": "Calling 2023 the only time OpenAI ever launched major model updates excludes a repeat after 2023, directly contradicting the claim.",
+  "review_note": "Shorten correct exclusivity reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 207,
+  "source": "joint"
+}

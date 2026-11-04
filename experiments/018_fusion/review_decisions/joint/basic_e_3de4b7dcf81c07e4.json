@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "611d7aaa286165dc1ce1a889ace5e312e1d8175efeab7c1e3a2457a71bc82fff",
+  "evidence_quote": "19 finished fights",
+  "key": "basic_e_3de4b7dcf81c07e4",
+  "rationale": "The evidence explicitly states that Merab Dvalishvili has recorded **19** finished fights in his professional career. The claim asserts that he has recorded **16** finished fights. Since the specific numerical value in the claim (16) is different from the value established in the evidence (19), the evidence directly contradicts the claim.",
+  "review_note": "Joint numerical contradiction is correct.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 97,
+  "source": "joint"
+}

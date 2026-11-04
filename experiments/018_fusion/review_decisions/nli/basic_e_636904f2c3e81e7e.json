@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "609b0813d2212931a41c1b157a5a6f43770f429ff637e6aa6524e41e4a7f86c3",
+  "evidence_quote": "at least 160 chapters",
+  "key": "basic_e_636904f2c3e81e7e",
+  "rationale": "The evidence states that the manga series has published \"at least 160\" chapters. This means the total number of chapters is 160 or more. The claim states that the total is exactly 150 chapters. Since 150 is less than 160, the claim contradicts the lower bound established by the evidence. Therefore, the evidence refutes the claim.",
+  "review_note": "NLI 150 violates lower bound of 160.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 151,
+  "source": "nli"
+}

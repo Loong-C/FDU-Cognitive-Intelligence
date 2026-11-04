@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "905cf7d4ec1f7f4fc6708954d274940de3d5151638bed644babe5fa86ad5a46b",
+  "evidence_quote": "Springfield, Illinois",
+  "key": "basic_e_ac8144b9e74dc71f",
+  "rationale": "The evidence names Springfield, Illinois as the birthplace. Omitting the state qualifier leaves the supported statement that Roan was born in Springfield.",
+  "review_note": "Shorten valid qualified-place reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 256,
+  "source": "pj"
+}

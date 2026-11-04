@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "12aa9c6ebfda8955236e24749ec51bf33b5bca806f6cd2fb04537da1cdc42b00",
+  "evidence_quote": "the only time Dyke ever did so",
+  "key": "basic_e_7eaf3a43dc7b2bec",
+  "rationale": "The evidence identifies 1966 as Van Dyke's only Emmy-winning occasion ever. This contradicts the claimed four occasions by 1969.",
+  "review_note": "Shorten correct one-versus-four comparison.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 196,
+  "source": "nli"
+}

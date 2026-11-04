@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4b4160497afa9a18d62ef836bcb56111fb355cbc43321bcf450f1b807af95b1a",
+  "evidence_quote": "eventually was released in theaters on December 13, 2024",
+  "key": "basic_e_187a18fb1104061e",
+  "rationale": "The eventual theatrical release is stated to have occurred on December 13, 2024. This directly confirms the date and event in the claim.",
+  "review_note": "Read PJ draft; preserve its actual-release entailment and omit an unnecessary entity type.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 39,
+  "source": "pj"
+}

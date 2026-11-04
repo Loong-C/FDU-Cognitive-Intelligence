@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "cba51ee2b833ca63f1e5c2d56f3f869943f10ca31d27c93f4c66e447f4488450",
+  "evidence_quote": "between 10 and 20 airports",
+  "key": "basic_e_5bf1d8837cbcd1f5",
+  "rationale": "The stated interval contains 15 and other values. Therefore exactly 15 is neither established nor excluded.",
+  "review_note": "Shorten joint range argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 141,
+  "source": "joint"
+}

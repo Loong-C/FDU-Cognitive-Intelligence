@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "411a5a6204b084ad0678a6aaeb57c5e7c66be1018f00e8c156abb0ca40fd83b1",
+  "evidence_quote": "Some years later, she launched her presidential exploratory committee.",
+  "key": "basic_e_1d7fb473d36040c9",
+  "rationale": "The evidence dates the advisor role to 2022 and the committee launch to an unspecified later year. It neither identifies nor excludes 2024 as the launch year.",
+  "review_note": "Read joint explanation; shorten the valid chronology without adding a specific interval.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 45,
+  "source": "joint"
+}

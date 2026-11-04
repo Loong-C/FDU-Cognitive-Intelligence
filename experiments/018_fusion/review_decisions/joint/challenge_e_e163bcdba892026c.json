@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "21f9e393c5ebb01baf3902274a0e2bce22029e16fdf64363a23bfe18433cea28",
+  "evidence_quote": "years later Yamal did the same",
+  "key": "challenge_e_e163bcdba892026c",
+  "rationale": "The evidence explicitly states: \"Lamine Yamal's cousin won a Olympic gold medal in athletics; years later Yamal did the same.\" The phrase \"did the same\" refers to the action described in the preceding clause, which is winning an Olympic gold medal in athletics. Therefore, the evidence entails that Lamine Yamal won an Olympic gold medal in athletics.",
+  "review_note": "Correct repetition of specified achievement.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 687,
+  "source": "joint"
+}

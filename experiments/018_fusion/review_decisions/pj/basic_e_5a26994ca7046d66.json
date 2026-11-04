@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "fa16ba7398b4064a8e425fa745e231207896afb02bc6ce80b2284880267bf67b",
+  "evidence_quote": "attended Baylor University",
+  "key": "basic_e_5a26994ca7046d66",
+  "rationale": "The evidence states that Taylor Sheridan attended Baylor University. It does not provide any information regarding whether he attended the University of Texas at Austin. Attending one university does not logically preclude attending another, nor does it confirm attendance at a different specific institution. Therefore, the evidence neither supports nor refutes the claim.",
+  "review_note": "PJ correctly leaves other attendance unspecified.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 139,
+  "source": "pj"
+}

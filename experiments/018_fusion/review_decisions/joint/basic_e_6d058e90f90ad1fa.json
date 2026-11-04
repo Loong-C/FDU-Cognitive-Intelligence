@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "1dee936676f123d9a864dbb0246eff7ec1b8549f0804de061a6bff0a930d8f85",
+  "evidence_quote": "won the World Series in 2020",
+  "key": "basic_e_6d058e90f90ad1fa",
+  "rationale": "The evidence states that the Los Angeles Dodgers won the World Series in 2020. The claim asserts that they won the World Series *again* after 2020. The provided text contains no information regarding World Series outcomes in any year subsequent to 2020. Therefore, the evidence neither confirms nor denies whether they won again later.",
+  "review_note": "Joint keeps post-2020 outcomes open.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 165,
+  "source": "joint"
+}

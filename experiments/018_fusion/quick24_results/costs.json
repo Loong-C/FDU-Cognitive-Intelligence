@@ -1,0 +1,30 @@
+{
+  "calls": 10213,
+  "note": "Original validation imports are reused calls; fusion logical component costs are not extra physical calls.",
+  "physical_by_phase": {
+    "quick24_evaluation": {
+      "calls": 3393,
+      "input_tokens": 1128634,
+      "output_tokens": 189000,
+      "seconds": 53975.13720428571
+    },
+    "quick24_validation": {
+      "calls": 2331,
+      "input_tokens": 794052,
+      "output_tokens": 132213,
+      "seconds": 34290.83519486524
+    },
+    "validation": {
+      "calls": 4144,
+      "input_tokens": 3319960,
+      "output_tokens": 226459,
+      "seconds": 59946.57622304745
+    },
+    "validation_review": {
+      "calls": 345,
+      "input_tokens": 668356,
+      "output_tokens": 103900,
+      "seconds": 21684.962699092925
+    }
+  }
+}

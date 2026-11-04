@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "71c1a1f8f3ba8ef1a3119b8972784cd24d62e7f536efc7029739f5da2024b70d",
+  "evidence_quote": "won Emmy Awards in 1966",
+  "key": "basic_e_57c5c337a59fb447",
+  "rationale": "The 1966 statement does not specify the cumulative number of winning occasions by 1969. It leaves the claimed four occasions undetermined.",
+  "review_note": "Shorten PJ while retaining the claim metric of times, not trophies.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 136,
+  "source": "pj"
+}

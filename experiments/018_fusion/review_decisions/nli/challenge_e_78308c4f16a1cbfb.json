@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "63c31f00bfc95949f9ee15e769599403572e599dc194363198dfbcc718909caa",
+  "evidence_quote": "Kōnosuke won a patent",
+  "key": "challenge_e_78308c4f16a1cbfb",
+  "rationale": "The evidence establishes Kōnosuke's engineering-team membership and 1930 battery-design patent. It gives no information about a quality-control headship, so that appointment remains undetermined.",
+  "review_note": "Shortened valid distinction between patent and role.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 548,
+  "source": "nli"
+}

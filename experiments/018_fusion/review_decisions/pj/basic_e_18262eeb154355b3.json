@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "10d8b83d15dc085d76fa7e99aea12c02bcb5d0a39a0718cd662717fa8472fbeb",
+  "evidence_quote": "began on June 1, 2018, as scheduled",
+  "key": "basic_e_18262eeb154355b3",
+  "rationale": "The evidence explicitly states that \"Reba McEntire's 2018 tour began on June 1, 2018, as scheduled.\" The claim states that \"Reba McEntire's 2018 tour began on June 1, 2018.\" Since the evidence directly confirms the specific date and event mentioned in the claim, the claim is fully supported by the evidence.",
+  "review_note": "PJ correctly uses the explicit began assertion and matching date; as scheduled does not remove actuality.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 38,
+  "source": "pj"
+}

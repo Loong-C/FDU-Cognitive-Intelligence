@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "ec6f30f36d619471711cd31174f47766180b96bb9b7f0dc6c557a2c3dfaae681",
+  "evidence_quote": "succeeded in acquiring CapCut",
+  "key": "basic_e_002e3bfb1daa5736",
+  "rationale": "The evidence states that \"TikTok succeeded in acquiring CapCut.\" The claim states that \"TikTok acquired CapCut.\" The phrase \"succeeded in acquiring\" logically entails that the acquisition took place. Therefore, the evidence fully supports the claim.",
+  "review_note": "The PJ draft correctly derives acquisition from succeeded in acquiring, without outside facts.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 1,
+  "source": "pj"
+}

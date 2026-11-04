@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "32735360c84c4651c7fac1c6a26d7364f00478ca1b87ba5c66913d63051abc5c",
+  "evidence_quote": "was compelled to acquire",
+  "key": "basic_e_94971921da8e1945",
+  "rationale": "The evidence presents TikTok as compelled to acquire CapCut, describing the acquisition as carried out under compulsion. This supports the claimed acquisition.",
+  "review_note": "Avoid unrestricted rule that every compulsion guarantees compliance.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 229,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "c84c3e0ba28b028d5852f67b4bde4d11e425e5a2f93a9e0bdf5b9bff3beaace9",
+  "evidence_quote": "Isaacs' three children are Rory, Graham and Fiona.",
+  "key": "challenge_e_88bdffe4a07ad1d0",
+  "rationale": "The evidence explicitly states in the first paragraph that \"Isaacs' three children are Rory, Graham and Fiona.\" Since the claim asserts that Graham is one of Jason Isaacs's children, and the text lists Graham as one of his three children, the claim is directly supported by the evidence.",
+  "review_note": "Named child Graham directly matches claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 575,
+  "source": "joint"
+}

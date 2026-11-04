@@ -1,0 +1,45 @@
+{
+  "checked_at_beijing": "2026-11-01T07:55:21+08:00",
+  "teacher_complete": true,
+  "experiment_complete": false,
+  "running": false,
+  "teacher_total": 2184,
+  "teachers": {
+    "nli": {
+      "received": 728,
+      "invalid": 3,
+      "truncated": 3,
+      "request_failed": 0,
+      "input_tokens": 291037,
+      "output_tokens": 87218
+    },
+    "pj": {
+      "received": 728,
+      "invalid": 10,
+      "truncated": 10,
+      "request_failed": 0,
+      "input_tokens": 791901,
+      "output_tokens": 103164
+    },
+    "joint": {
+      "received": 728,
+      "invalid": 3,
+      "truncated": 3,
+      "request_failed": 0,
+      "input_tokens": 1196754,
+      "output_tokens": 87574
+    }
+  },
+  "collection": {
+    "api_restored": true,
+    "archive_sha256": "9513df7c6d3154377e625cbcdc64b3a33045b34017136e75067c46d67904c229",
+    "files": 2201,
+    "local_recompute": false,
+    "phase": "teachers",
+    "received": "F:\\Personal\\Code\\A_B_fusion_v18\\outputs\\fusion_v18_collection\\teachers-1793490835233886400\\received",
+    "verified": true
+  },
+  "api_restored": true,
+  "reviewed_decisions": 0,
+  "next_stage": "Per-item review of all 2184 explanations; no training started."
+}

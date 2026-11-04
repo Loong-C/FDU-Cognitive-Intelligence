@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d5185eafe412161def0f9d23be46a52d643af78d6b834a3adcbe34690444abf3",
+  "evidence_quote": "like Peter Clay Carroll",
+  "key": "challenge_e_f12a26ce5039cd11",
+  "rationale": "The comparison \"like Peter Clay Carroll\" attributes Michael's Best New Artist Grammy achievement to Peter too. This directly supports the claim.",
+  "review_note": "Shortened correct shared-achievement analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 711,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3533484d52412947070c1faa30004862e1873dab4ed7a43910b6ce5a747cf0c1",
+  "evidence_quote": "Ryan won the 2008 San Francisco Emerging Artist Award",
+  "key": "challenge_e_677ccba984930f55",
+  "rationale": "Ryan is the given name of Ryan Coogler in the preceding sentence. The evidence explicitly attributes the named 2008 award to him, supporting the claim.",
+  "review_note": "Removed ambiguous pronoun/name terminology.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 529,
+  "source": "joint"
+}

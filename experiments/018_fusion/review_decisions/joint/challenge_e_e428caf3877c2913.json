@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "551107134ca642e3af0f161c98d3b00373fc32bbc783b25ff75aaf4193b84e34",
+  "evidence_quote": "Ali authored a seminal treatise",
+  "key": "challenge_e_e428caf3877c2913",
+  "rationale": "The evidence attributes a treatise to Ali without restricting other authorship. It provides no information settling Saddam's claimed 1982 treatise.",
+  "review_note": "Removed prompt quotation and hypothetical coexistence scenarios.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 692,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "62c8b3db335bcecfcd8e8468c8dc40a5e6d80d7ebaf52059d003d95af9333843",
+  "evidence_quote": "under 10 airports",
+  "key": "basic_e_8758c384aad02141",
+  "rationale": "The evidence explicitly states that the United Arab Emirates has \"under 10 airports.\" This establishes a numerical upper bound of less than 10. The claim asserts that the country has \"15 airports.\" Since 15 is greater than 10, the claim is mathematically incompatible with the constraint provided in the evidence. Therefore, the evidence contradicts the claim.",
+  "review_note": "Upper-bound reasoning correctly excludes fifteen.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 210,
+  "source": "joint"
+}

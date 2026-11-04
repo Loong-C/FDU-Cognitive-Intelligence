@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0c8876633ecc3f3b2018737e9fa7034f59835d9de27051b08baaa124e16391ad",
+  "evidence_quote": "for the second time",
+  "key": "basic_e_75adc05427a868d7",
+  "rationale": "A second launch occasion occurred in 2023, but the evidence provides no subsequent count. Three occasions by 2025 is neither established nor excluded.",
+  "review_note": "Correct unsupported exactly-two-by-year-end inference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 185,
+  "source": "nli"
+}

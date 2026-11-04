@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2a7b86aa6827123e4a118055237c06bfd3185b151145310b273e83cf02eb956d",
+  "evidence_quote": "more than 15 feature films",
+  "key": "basic_e_61300879501f1679",
+  "rationale": "More than 15 permits 17 films but also 16 or 18. The exact total of 17 is therefore undetermined.",
+  "review_note": "Shorten NLI permitted alternatives.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 148,
+  "source": "nli"
+}

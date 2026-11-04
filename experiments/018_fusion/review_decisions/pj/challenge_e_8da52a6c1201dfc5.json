@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d5ebb1b21a987a0450cf75912dde8fd5d03a3628929babec1f65e31998c1ccae",
+  "evidence_quote": "first in the family",
+  "key": "challenge_e_8da52a6c1201dfc5",
+  "rationale": "The evidence establishes John as the first family winner, not the only possible winner. It neither confirms nor denies Anthony's award.",
+  "review_note": "Removed inconsistent before/concurrent speculation; retained first-versus-only distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 580,
+  "source": "pj"
+}

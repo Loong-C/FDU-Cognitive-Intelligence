@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "704b183e22fd0f69bc4e790e65d68b6cde010725aa86bf9ffebceef70680a702",
+  "evidence_quote": "for the first time in 1966",
+  "key": "basic_e_e52cec6cf13bbc5a",
+  "rationale": "The evidence identifies 1966 as Van Dyke's first Emmy-winning occasion. This excludes the claimed Emmy wins before 1966.",
+  "review_note": "Shorten first-occurrence contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 355,
+  "source": "nli"
+}

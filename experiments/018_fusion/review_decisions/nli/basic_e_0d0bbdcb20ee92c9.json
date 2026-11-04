@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "eb26215a175a2578dc91cd702f4fabf0586d5d79764ab91e522f1b2bbe390453",
+  "evidence_quote": "filmed in Rome and nowhere else",
+  "key": "basic_e_0d0bbdcb20ee92c9",
+  "rationale": "The evidence states that The Marvels was filmed in Rome and nowhere else. This excludes Paris filming and directly contradicts the claim.",
+  "review_note": "The explanation adds that The Marvels is a film, although the evidence establishes only filming locations. Remove that unnecessary identity inference while retaining the valid explicit-exclusivity argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 23,
+  "source": "nli"
+}

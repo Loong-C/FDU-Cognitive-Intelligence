@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1c7f8b45e8b7618aa550345ad08a7cb38e6327832a3c935426eb3db20c766dbd",
+  "evidence_quote": "two children with his ex-wife",
+  "key": "challenge_e_ec8c8b8f82acebb0",
+  "rationale": "The evidence lists children from one relationship, not all children. It therefore neither confirms nor excludes Graham as another child.",
+  "review_note": "Shortened correct subset analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 701,
+  "source": "joint"
+}

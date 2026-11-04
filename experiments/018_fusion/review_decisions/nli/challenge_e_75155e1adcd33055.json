@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "18afe6a6416b3dad65722630931f07bbe19a015d8e53150a20454e9f782e7e3d",
+  "evidence_quote": "but later confirmed it",
+  "key": "challenge_e_75155e1adcd33055",
+  "rationale": "The evidence states that Lady Gaga's former personal assistant \"later confirmed\" that Lady Gaga had secretly married a sound engineer in 2012. Since the evidence explicitly mentions that this event was confirmed by a source, it supports the claim that the event occurred.",
+  "review_note": "Later confirmation establishes secret 2012 marriage.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 542,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b7c21fe391b592b7a9e8115caa63d239b09711c273dc0837c9dea3a00f463c0d",
+  "evidence_quote": "Anthony Fauci did the same",
+  "key": "challenge_e_cc3ea7f4e8296523",
+  "rationale": "Anthony later \"did the same\" as John, namely winning a Grammy Award for Best New Age Album. This directly supports the claim.",
+  "review_note": "Shortened correct antecedent analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 662,
+  "source": "joint"
+}

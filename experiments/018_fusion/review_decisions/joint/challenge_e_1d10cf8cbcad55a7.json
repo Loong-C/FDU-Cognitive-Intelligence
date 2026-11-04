@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1d7edec1df49b8d4bb744fb1038e41004cd817e39799bcb0fa451f6a60a89d39",
+  "evidence_quote": "Alex Altman won a regional innovation award",
+  "key": "challenge_e_1d10cf8cbcad55a7",
+  "rationale": "The passage states that Alex won a regional innovation award in 2021, without making him the only possible recipient. It gives no corresponding result for Sam, so the claim is unresolved.",
+  "review_note": "Corrected assumed singular exclusive event.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 431,
+  "source": "joint"
+}

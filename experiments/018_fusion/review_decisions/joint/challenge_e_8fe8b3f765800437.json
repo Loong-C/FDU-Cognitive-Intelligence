@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "0130779999ca057e7b1a737b07be4b4b368730a465d7f2b9de36a3058ac9e41b",
+  "evidence_quote": "were later shown to be false",
+  "key": "challenge_e_8fe8b3f765800437",
+  "rationale": "The evidence states that reports claiming the production team secured exclusive rights to the DeLorean \"were later shown to be false.\" This explicitly establishes that the proposition \"the production team secured exclusive rights\" is false. Therefore, the evidence directly contradicts the claim.",
+  "review_note": "Correct factual falsification of rights reports.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 584,
+  "source": "joint"
+}

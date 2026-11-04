@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "ea4c9f63021a53e75a283921b0668e1b1539366e6eb115d389b17f2121fb1bc2",
+  "evidence_quote": "two times in total",
+  "key": "basic_e_d53b315d748758b3",
+  "rationale": "The evidence states that Luka Modrić won the award \"two times in total.\" The claim asserts that he had won it \"three times\" by 2020. Since the evidence explicitly defines the total count as two, this directly contradicts the claim that the count is three.",
+  "review_note": "Explicit total two excludes three.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 323,
+  "source": "nli"
+}

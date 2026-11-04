@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f8afb2beac167570dcb21177628fd1c008e9efa2ead9daf3119578e07d9587d3",
+  "evidence_quote": "Natalie won the 2007 New York City Best Artisan Baker title",
+  "key": "challenge_e_56ffe7587c706d15",
+  "rationale": "The evidence explicitly states that Natalie won the 2007 New York City Best Artisan Baker title. The preceding sentence identifies her as Natalie Portman, supporting the claim.",
+  "review_note": "Corrected sentence locator and name incorrectly called pronoun.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 509,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "682ea47b941556d34ba7d95adcba7da888b01627ac06a54c2cf7d308a2f802e5",
+  "evidence_quote": "children include John, Sam and Mary",
+  "key": "challenge_e_769df2a6b485c8a0",
+  "rationale": "The evidence explicitly states that \"Charlie Kirk's children include John, Sam and Mary.\" Since Sam is listed in the set of individuals identified as Charlie Kirk's children, the claim that \"Sam is one of Charlie Kirk's children\" is directly entailed by the evidence.",
+  "review_note": "Direct child-set membership entailment.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 546,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "74197c38a127185a739608fc3fd0ce53cacbfe5dac2d45228e4453202483e309",
+  "evidence_quote": "was later disproven",
+  "key": "challenge_e_a8432c60b1daa267",
+  "rationale": "The evidence explicitly states that the claim regarding the allocation of an additional ₹20 crore for post-production VFX revisions was \"later disproven.\" This means the evidence establishes that the allocation did not happen or the claim about it is false. The claim asserts that the allocation did happen. Therefore, the evidence contradicts the claim.",
+  "review_note": "Correct factual disproof, not merely denial.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 613,
+  "source": "pj"
+}

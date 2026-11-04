@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "967eadb50ed65cf2617d9b33c5fa9a809345eb90b32a8608f1d128c8384def97",
+  "evidence_quote": "for the third time",
+  "key": "basic_e_c7d8b36ce5e60248",
+  "rationale": "The evidence states that the Los Angeles Dodgers won the World Series in 2020 for the third time. It provides no information regarding any World Series wins occurring after the year 2020. Therefore, the evidence neither confirms nor denies whether they won again after 2020.",
+  "review_note": "Third win does not exclude later wins.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 298,
+  "source": "pj"
+}

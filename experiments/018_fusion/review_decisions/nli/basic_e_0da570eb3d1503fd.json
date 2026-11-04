@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "9347d4e0cc7068c7922b7de15ce068415621094a43f328c878d3ebf9e5dcf8a2",
+  "evidence_quote": "In 1966, Dick Van Dyke won Emmy Awards for the third time.",
+  "key": "basic_e_0da570eb3d1503fd",
+  "rationale": "The evidence states that Dick Van Dyke won Emmy Awards for the third time in 1966. It provides no information regarding his award history after 1966. Therefore, it is impossible to determine from the text alone whether he won any awards in subsequent years.",
+  "review_note": "The NLI draft correctly leaves post-1966 wins undetermined; third time does not mean last time.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 25,
+  "source": "nli"
+}

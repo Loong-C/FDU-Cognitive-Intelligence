@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "75f2287394675969317eea14faf7509f4ac19069b9448da26b35b68fe0e5161d",
+  "evidence_quote": "In 2007, Jonathan Portman won a local culinary award.",
+  "key": "challenge_e_817e10e3cb64817b",
+  "rationale": "Jonathan Portman won an unspecified local culinary award in 2007. This neither identifies the New York City Best Artisan Baker title nor establishes whether Natalie Portman won it. No exclusivity or negative statement excludes Natalie.",
+  "review_note": "Removed speculative award scenarios and self-talk; preserved recipient and award gaps.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 564,
+  "source": "nli"
+}

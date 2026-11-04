@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a21954640a9de11d22ec1ca03c0b6210cc008b1cf225a50161aea78ed74fcc32",
+  "evidence_quote": "disputed claims",
+  "key": "challenge_e_f136b694bdb24ded",
+  "rationale": "The text reports a challenge to the claimed confirmation. It does not affirm or negate that confirmation as a fact.",
+  "review_note": "Condensed correct reported-dispute distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 712,
+  "source": "joint"
+}

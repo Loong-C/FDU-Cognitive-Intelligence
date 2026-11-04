@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "15b205086bcea5a37a2ad806801b3435d757136e66aaf300a9b2474de63ec0fa",
+  "evidence_quote": "they both received a knighthood",
+  "key": "challenge_e_c8ab2504ed37a6d0",
+  "rationale": "The evidence says both Paula and Sarah received a knighthood for services to education in 2015. This directly includes Paula.",
+  "review_note": "Condensed correct plural reference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 658,
+  "source": "joint"
+}

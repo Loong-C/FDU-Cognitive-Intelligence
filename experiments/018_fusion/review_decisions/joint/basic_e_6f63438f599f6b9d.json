@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e8833410d2a6224f85c87b585af68e692b23d7a457e601a07470c8d1c8fca9be",
+  "evidence_quote": "for the first time in 1966",
+  "key": "basic_e_6f63438f599f6b9d",
+  "rationale": "A first win establishes the initial occurrence, not later outcomes. Whether Van Dyke won Emmys again after 1966 remains unknown.",
+  "review_note": "Shorten joint later-event uncertainty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 170,
+  "source": "joint"
+}

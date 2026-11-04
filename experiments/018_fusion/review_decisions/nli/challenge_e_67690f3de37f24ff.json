@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "02fc38596791c321ee42fe33269b2175d73bec067f5305a1c2037ae6df12db26",
+  "evidence_quote": "was later disproven",
+  "key": "challenge_e_67690f3de37f24ff",
+  "rationale": "The evidence explicitly states that the claim regarding the $50 million liability insurance policy was \"later disproven.\" This means the evidence asserts that the statement in the claim is false. Therefore, the evidence contradicts the claim.",
+  "review_note": "Explicit disproof of exact policy claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 528,
+  "source": "nli"
+}

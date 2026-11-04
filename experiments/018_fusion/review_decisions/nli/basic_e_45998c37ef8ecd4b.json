@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "12afdca620664d70f917f7514db151000c75aeaa1ceaa31b773a7a7b70d2f24e",
+  "evidence_quote": "before a delay pushed it back",
+  "key": "basic_e_45998c37ef8ecd4b",
+  "rationale": "The premiere was scheduled for August 10, but a delay pushed it back. This contradicts an actual premiere on that original date.",
+  "review_note": "Shorten NLI and remove unneeded movie classification.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 109,
+  "source": "nli"
+}

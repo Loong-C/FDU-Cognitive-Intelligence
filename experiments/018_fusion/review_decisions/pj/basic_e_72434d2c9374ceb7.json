@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "fd46b736a321ed4838b3381f39f84c391f48e7e19dc5fb8a6874ed3b8bcdaed8",
+  "evidence_quote": "was released on June 17, 2003",
+  "key": "basic_e_72434d2c9374ceb7",
+  "rationale": "The evidence explicitly states that \"Dangerously in Love was released on June 17, 2003, as scheduled.\" The claim states that \"Dangerously in Love was released on June 17, 2003.\" Since the evidence directly confirms the specific date of release mentioned in the claim, the claim is fully supported by the evidence.",
+  "review_note": "As scheduled describes fulfilled release.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 177,
+  "source": "pj"
+}

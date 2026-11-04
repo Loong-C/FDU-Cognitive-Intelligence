@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "968a871cadb5671cfabdccdf5abad5f1deb1c300b227e098edc57d2f26f35015",
+  "evidence_quote": "Maurice Chevalier became the first in the family",
+  "key": "challenge_e_47a735515953c4e3",
+  "rationale": "The evidence credits Chevalier with an Academy Award but gives no such result for the Prince of Orange. Being the family's first winner does not exclude other winners, so the Prince's claim is undetermined.",
+  "review_note": "Corrected name mismatch as contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 489,
+  "source": "pj"
+}

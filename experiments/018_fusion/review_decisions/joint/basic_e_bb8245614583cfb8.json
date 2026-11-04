@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "9308ec5f7beb13ed992ce72ebcf0c8cabcc4a187abf3f1374d320146c021c09c",
+  "evidence_quote": "three times",
+  "key": "basic_e_bb8245614583cfb8",
+  "rationale": "Three Emmy-winning occasions by 1966 does not fix the count by 1969. The evidence does not say whether another winning occasion occurred.",
+  "review_note": "Remove speculation and maintain occasions unit.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 279,
+  "source": "joint"
+}

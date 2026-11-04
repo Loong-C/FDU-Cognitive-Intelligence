@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "87bca6f5cc283c01f14b887250b5766bf8e280d9187c02a35572a87971621f83",
+  "evidence_quote": "between 30 and 35 sultans",
+  "key": "basic_e_54aa58f1e59f76f8",
+  "rationale": "Twenty-eight is below the stated range of 30 to 35 sultans. It cannot be the total described in the evidence.",
+  "review_note": "Shorten joint interval contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 132,
+  "source": "joint"
+}

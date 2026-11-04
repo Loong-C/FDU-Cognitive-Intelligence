@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "12188c2dfa6868ed8f36d499f36c30bf1818a6b7f42cdf81103b908b5dd6f6e3",
+  "evidence_quote": "most recently in 1992",
+  "key": "basic_e_9d442c1ca3f9b3fb",
+  "rationale": "The evidence gives two pound-shorting occasions in total, with the most recent in 1992. A later occasion would contradict that most-recent date.",
+  "review_note": "Shorten correct latest-occurrence argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 240,
+  "source": "nli"
+}

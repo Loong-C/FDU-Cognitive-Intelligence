@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3b759594c74d52b3e8bd232e31d699b7a903deb071cb71ecf03cd27002451bde",
+  "evidence_quote": "The Vatican Archives denied",
+  "key": "challenge_e_61a78d5e5a788207",
+  "rationale": "The denial records the Archives' statement without establishing the donation's truth or falsity. No independent finding settles whether Saint Peter donated the chalice.",
+  "review_note": "Condensed valid denial-scope explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 523,
+  "source": "pj"
+}

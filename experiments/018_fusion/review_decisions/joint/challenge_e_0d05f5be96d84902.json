@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a85797f9bd6931e84dfeb4df6415b1b3f02db15b8e2447f018f6e31be4e85074",
+  "evidence_quote": "In 2021, she won",
+  "key": "challenge_e_0d05f5be96d84902",
+  "rationale": "The pronoun 'she' refers to Cardi B, and the evidence states she won a regional Latin Grammy Award in 2021. This directly supports the claim.",
+  "review_note": "Condensed valid pronoun resolution.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 413,
+  "source": "joint"
+}

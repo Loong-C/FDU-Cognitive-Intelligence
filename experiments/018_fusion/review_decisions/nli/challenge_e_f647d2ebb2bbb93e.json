@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e8512e181c9d38efd4f3d75b2d185fa4ceeef70c3300ff74b931fe42e279e213",
+  "evidence_quote": "children include Carter, Lindsey and Bryson",
+  "key": "challenge_e_f647d2ebb2bbb93e",
+  "rationale": "Reading Jim as the conventional short form of James Joseph Harbaugh, the passage explicitly includes Lindsey among his children. The name correspondence is contextual, not an alias stated in the evidence.",
+  "review_note": "Made unstated Jim/James convention explicit; identity limitation recorded.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 718,
+  "source": "nli"
+}

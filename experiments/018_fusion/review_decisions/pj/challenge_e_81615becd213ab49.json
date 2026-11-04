@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2a5207d48f5a0de71a7373936d992af89d5ce468e36f1cd6277183da4db1285b",
+  "evidence_quote": "Ali Faye, like Diomaye, won a gold medal in the 100m freestyle.",
+  "key": "challenge_e_81615becd213ab49",
+  "rationale": "The construction \"Ali Faye, like Diomaye, won a gold medal in the 100m freestyle\" attributes the medal achievement to both Ali and Diomaye. Diomaye is Bassirou Diomaye Faye, named just before.",
+  "review_note": "Removed repetitive re-evaluation; preserved shared-predicate reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 563,
+  "source": "pj"
+}

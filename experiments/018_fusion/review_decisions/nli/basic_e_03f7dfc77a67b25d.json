@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a04c40379ee37df51c1c9c0a7b60e3f935ca5ca077784b885d146288e8f24c5a",
+  "evidence_quote": "between 20 and 25 films",
+  "key": "basic_e_03f7dfc77a67b25d",
+  "rationale": "The stated range allows exactly 20 films, which would make more than 20 false, as well as larger counts, which would make it true. The evidence does not determine the strict inequality.",
+  "review_note": "Read all 154 words; retain the boundary counterexample and the larger-count coexistence case.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 7,
+  "source": "nli"
+}

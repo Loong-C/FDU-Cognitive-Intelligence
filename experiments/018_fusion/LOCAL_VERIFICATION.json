@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "isolated_tests": 45,
+  "test_files": [
+    "tests/test_fusion_v18.py",
+    "tests/test_unified_v17.py",
+    "tests/test_finetune27b_service_guard.py"
+  ],
+  "full_project_tests_run": false,
+  "compileall_passed": true,
+  "git_diff_check_passed": true,
+  "frozen_v16_dependencies_byte_identical": true,
+  "package_members": 28,
+  "original_test_raw_or_secret_packaged": false,
+  "package_sha256": "f07d8f87bc7870bbd2c4a25b26c0d7437f6edabf92833f83d53d2a0f35c01598",
+  "freeze_sha256": "1ab1d724a6d086b386a027fbae6a2961fc87503dbf442107f072b1152c3d025e",
+  "runtime_sha256": "6affbf4b45fc83783d5c4b95340b57771110f4827e26745575069c13ecb66b27",
+  "hardware_smoke": "Separate remote receipts; do not infer from local tests."
+}

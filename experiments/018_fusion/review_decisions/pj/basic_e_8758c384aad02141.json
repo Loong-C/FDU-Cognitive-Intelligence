@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b2b62b8e420f4cb13f56dd848b5d5a25eaa3a41606e0e3d5655eaf671e4e6aaf",
+  "evidence_quote": "under 10 airports",
+  "key": "basic_e_8758c384aad02141",
+  "rationale": "The evidence states that the United Arab Emirates has \"under 10 airports.\" The claim states that the United Arab Emirates has \"15 airports.\" Since 15 is not less than 10, the claim directly contradicts the numerical constraint provided in the evidence.",
+  "review_note": "Under ten and fifteen are numerically incompatible.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 210,
+  "source": "pj"
+}

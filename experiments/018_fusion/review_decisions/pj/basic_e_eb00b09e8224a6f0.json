@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "620e35f296a3fe963be4ea20389ee7ceacd1da4880810a33dd7ab5ebf0b4f429",
+  "evidence_quote": "for the first time in 2020",
+  "key": "basic_e_eb00b09e8224a6f0",
+  "rationale": "A first World Series win in 2020 does not specify subsequent wins. Another win afterward is neither confirmed nor denied.",
+  "review_note": "Remove repetition.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 370,
+  "source": "pj"
+}

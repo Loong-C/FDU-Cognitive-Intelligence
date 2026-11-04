@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "435e4edf8bd81ec4ddb998349546b4ce2bbf041ae716f8b74798b928b0c06253",
+  "evidence_quote": "In 2021, he won",
+  "key": "challenge_e_ed3ea5033cda7ed6",
+  "rationale": "Diego is the referent of \"he,\" but his award does not exclude Cardi B from also winning. Her award history is unstated.",
+  "review_note": "Removed lengthy self-debate and invented singular event.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 702,
+  "source": "joint"
+}

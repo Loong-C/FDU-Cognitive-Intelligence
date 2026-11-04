@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b19ed3533c781257cafe36ff62e113730436265d1c362540562ed1678b045318",
+  "evidence_quote": "John, Sam and Mary",
+  "key": "challenge_e_c912f48b47cda240",
+  "rationale": "The evidence explicitly states that Charlie Kirk's three children are John, Sam, and Mary. Since Sam is included in this list of children, it logically follows that Sam is one of Charlie Kirk's children. Therefore, the evidence entails the claim.",
+  "review_note": "Correct membership entailment.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 659,
+  "source": "joint"
+}

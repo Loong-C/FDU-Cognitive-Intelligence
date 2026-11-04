@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ec4a2a9ddc050dfab35e9428b007a2fbccbe8dcbb76a3a24266deaa2c20ad31e",
+  "evidence_quote": "for the first time in 1992",
+  "key": "basic_e_e52e1b1818dc19f2",
+  "rationale": "A first occurrence in 1992 establishes no later count. Three occasions by 1995 is neither confirmed nor excluded.",
+  "review_note": "Remove repetitive second-and-third-event discussion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 356,
+  "source": "pj"
+}

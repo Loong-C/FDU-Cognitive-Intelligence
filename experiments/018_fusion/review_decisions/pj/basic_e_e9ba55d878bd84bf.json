@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "4b43901a47b05b3bdbf7cfa4eac608ac1a0e7126e97afe09e4c16f426de11840",
+  "evidence_quote": "the only time Stiller ever did so",
+  "key": "basic_e_e9ba55d878bd84bf",
+  "rationale": "The evidence explicitly states that 2005 was \"the only time Stiller ever did so\" (referring to starring in films featuring the character Alvin). The claim asserts that he starred in such films \"again after 2005.\" Since the evidence establishes that 2005 was the sole instance, any occurrence after 2005 is impossible. Therefore, the evidence contradicts the claim.",
+  "review_note": "Only-ever restriction excludes later repeat.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 368,
+  "source": "pj"
+}

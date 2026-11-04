@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "8388ab1990480e1f4a53429e86cba66fedfd2a0999ad34a4471991b31ef32634",
+  "evidence_quote": "investigation later showed the reports to be false",
+  "key": "challenge_e_9bd3640aae9188ba",
+  "rationale": "The evidence states that an investigation \"later showed the reports to be false.\" The reports in question were that Microsoft had quietly donated 5,000 laptops to a rural school district in Arizona. Since the investigation confirmed these reports were false, it establishes that the event described in the claim did not happen. Therefore, the evidence contradicts the claim.",
+  "review_note": "Correct direct falsification of specified donation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 597,
+  "source": "pj"
+}

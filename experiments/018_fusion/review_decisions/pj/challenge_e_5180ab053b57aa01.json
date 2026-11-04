@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fe40fb87092a9d50bebd1b54297e564a747e4b79f70c41fd1ef0bfc3d0e312ee",
+  "evidence_quote": "Robert Gates won a National Book Award",
+  "key": "challenge_e_5180ab053b57aa01",
+  "rationale": "Robert is named as a 1998 winner. The passage does not say he was the only winner or provide Bill's result, so Bill's award claim remains undetermined.",
+  "review_note": "Removed repeated deliberation and outside likelihood.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 498,
+  "source": "pj"
+}

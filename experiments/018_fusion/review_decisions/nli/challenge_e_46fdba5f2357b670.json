@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3640b50fc66333fa2f721d228d64c758263701d698b9b332be0caacf8212d4c4",
+  "evidence_quote": "declined to comment on reports",
+  "key": "challenge_e_46fdba5f2357b670",
+  "rationale": "The former secretary general declined to comment on reports of the secret 2005 sponsorship negotiation. This establishes the reports and nonresponse, not whether the negotiation occurred.",
+  "review_note": "Condensed valid nonconfirmation reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 486,
+  "source": "nli"
+}

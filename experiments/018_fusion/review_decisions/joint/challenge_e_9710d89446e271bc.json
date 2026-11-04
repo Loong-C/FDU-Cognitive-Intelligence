@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ef35c8df35b1f2068af41c80b16c7a01c8b0aee1958e9b31eb25f039e9a556d5",
+  "evidence_quote": "joined the company",
+  "key": "challenge_e_9710d89446e271bc",
+  "rationale": "The text mentions Kōnosuke's 1925 engineering membership and Kenji's 1930 patent. It does not address a 1930 quality-control appointment for Kōnosuke.",
+  "review_note": "Condensed correct missing appointment analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 590,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "13865b9d60b6731b1d3bd35151b37cb6db8b175320df4384c833aef0b0475e27",
+  "evidence_quote": "two children born in the 1990s",
+  "key": "challenge_e_107863750565aa1a",
+  "rationale": "The exact count of two applies to children born in the 1990s. It does not limit Harbaugh's total children across all years. Lindsey's parentage therefore remains undetermined.",
+  "review_note": "Removed false universal closure from restricted set.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 416,
+  "source": "joint"
+}

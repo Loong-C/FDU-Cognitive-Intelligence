@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e90f0875e7b6541a5376b6e613a30a88131e5c15997ce5041b44a75410b1f356",
+  "evidence_quote": "for the second time",
+  "key": "basic_e_7d5cd3e7f251d546",
+  "rationale": "The evidence dates Soros's second occasion to 1992 without specifying subsequent occasions. The claimed later event remains unresolved.",
+  "review_note": "Remove unsupported first-occurrence year inference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 194,
+  "source": "joint"
+}

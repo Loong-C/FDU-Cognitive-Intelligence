@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "07a5167e9f3024f1660613bb93ca182a9f1fb1fa4bc7efa97796e85b50e54880",
+  "evidence_quote": "but later confirmed it",
+  "key": "challenge_e_b54c539b3528b9ed",
+  "rationale": "The evidence states that the communications director \"later confirmed\" that the production team had secured exclusive rights to use a specific vintage DeLorean for the opening scene. Since the director's confirmation validates the fact described in the claim, the evidence entails the claim.",
+  "review_note": "Later confirmation establishes rights acquisition.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 627,
+  "source": "nli"
+}

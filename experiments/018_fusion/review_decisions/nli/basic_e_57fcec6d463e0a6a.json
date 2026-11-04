@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "58f775ae5ba975b12f8dfe5ebf68e5db3eb608bd9b2b2cbb1619fd63054422ea",
+  "evidence_quote": "the only time Dodgers ever did so",
+  "key": "basic_e_57fcec6d463e0a6a",
+  "rationale": "The 2020 victory is explicitly the only World Series win ever. That excludes any win before 2020.",
+  "review_note": "Shorten NLI exclusive-year constraint.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 137,
+  "source": "nli"
+}

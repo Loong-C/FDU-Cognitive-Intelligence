@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "21d2b07339756d387f094ef7cf87139754194008d73baf7cda180bff5ede59dc",
+  "evidence_quote": "Kenji Matsushita became the 1930 head",
+  "key": "challenge_e_4e7c0e9a09cdb08d",
+  "rationale": "The evidence states that Kōnosuke Matsushita joined the engineering team in 1925 and that his nephew Kenji became head of quality control in 1930. It does not mention Kōnosuke Matsushita winning any patents, nor does it mention battery designs. Therefore, the evidence neither supports nor contradicts the claim; it simply lacks the relevant information.",
+  "review_note": "Kenji's appointment and earlier team membership say nothing about patent.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 496,
+  "source": "nli"
+}

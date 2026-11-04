@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e02a34c3ae6a6b3e3057105175dce68430d94a10451e3c4689c8478b0e953f44",
+  "evidence_quote": "at least 25 episodes",
+  "key": "basic_e_70edff6451b7ce18",
+  "rationale": "At least 25 episodes permits 27 but also 25 or 28. The evidence does not fix the exact total at 27.",
+  "review_note": "Shorten NLI lower-bound countermodels.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 175,
+  "source": "nli"
+}

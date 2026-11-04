@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "6eafc1b0a00093b9a9816a505b4a01694e621ed1523ef6986034b94591455cc6",
+  "evidence_quote": "Rome and Paris",
+  "key": "basic_e_9aac4f73437e5b13",
+  "rationale": "The evidence states that the movie was filmed in both Rome and Paris. Since the claim asserts that it was filmed in Paris, and the evidence explicitly confirms this location as one of the filming sites, the claim is fully supported by the evidence.",
+  "review_note": "Paris filming is explicitly included.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 238,
+  "source": "nli"
+}

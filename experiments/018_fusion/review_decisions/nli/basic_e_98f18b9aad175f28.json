@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ce3b07f48658ea6e07023f17080238104c5ddcfe177e0c47dc212b82269e0947",
+  "evidence_quote": "between 20 and 25",
+  "key": "basic_e_98f18b9aad175f28",
+  "rationale": "The stated 20-to-25 range does not clearly exclude exactly 20. That value would make 'more than 20' false, while 21 would make it true, leaving the claim undetermined.",
+  "review_note": "Remove task speculation and retain endpoint uncertainty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 236,
+  "source": "nli"
+}

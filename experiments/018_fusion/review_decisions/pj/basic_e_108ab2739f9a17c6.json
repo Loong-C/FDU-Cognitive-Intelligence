@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "5b4dc8cbfce28d5644b279ce23c091429fad08273f351309bf447169b3047afa",
+  "evidence_quote": "at least 20 films",
+  "key": "basic_e_108ab2739f9a17c6",
+  "rationale": "The evidence states that Linda Cardellini has appeared in **at least 20** films. This means the number of films is 20 or more. The claim states that she has appeared in exactly **18** films. Since 18 is less than 20, the claim contradicts the lower bound established by the evidence.",
+  "review_note": "PJ correctly compares the claimed exact career-film count against the supplied lower bound.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 29,
+  "source": "pj"
+}

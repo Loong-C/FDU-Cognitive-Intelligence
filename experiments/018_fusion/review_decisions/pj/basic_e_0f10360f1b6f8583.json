@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "150c9d52c8d0a3ae4093ba93c71910cf18cacf7d74c3579294080f35f5fa5293",
+  "evidence_quote": "fewer than 160 chapters",
+  "key": "basic_e_0f10360f1b6f8583",
+  "rationale": "The evidence gives only a total below 160. It allows 150 chapters and other totals such as 155, so it cannot establish or refute the specific count of 150.",
+  "review_note": "Read complete PJ explanation; preserve the permitted-count alternatives while removing repetitive algebra.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 27,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "80e455186a3503cdf6eeef7fad8ac346093010e09ed0ff0a54ebea41b9424e0c",
+  "evidence_quote": "In 2015, she won a national award",
+  "key": "challenge_e_21dae89ac6e67d11",
+  "rationale": "'She' refers to Laura Bukele, establishing her 2015 public-service award. The evidence does not state whether Nayib also won such an award, so his claim remains undetermined.",
+  "review_note": "Corrected pronoun mismatch treated as exclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 435,
+  "source": "nli"
+}

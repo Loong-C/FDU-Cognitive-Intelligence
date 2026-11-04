@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "d8cd73efb2dde1cfd23534ac0890570db4bf1079b313ac64f361eb239cf4f5da",
+  "evidence_quote": "but later confirmed it",
+  "key": "challenge_e_fbcbe604cb6d49d2",
+  "rationale": "The evidence states that the director of the National Solar Observatory \"later confirmed\" that \"the Sun had been confirmed to harbor a previously undetected magnetic anomaly.\" By confirming this specific statement, the director is asserting the truth of the proposition that the Sun was confirmed to harbor such an anomaly. Therefore, the evidence entails the claim.",
+  "review_note": "Correct later confirmation of specific anomaly-confirmation claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 724,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2f9d6e4a9d333f73c0f2af48f167030939f8448238fb69b3e10e76a56611824a",
+  "evidence_quote": "first in the family",
+  "key": "challenge_e_b2190cd972bc7c7c",
+  "rationale": "The evidence attributes a Grammy to Melania and calls her first in the family. It does not state whether Donald won, and first supplies no permanent exclusion.",
+  "review_note": "Corrected unsupported contradiction from different recipient.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 623,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "a983ce962b74d1d7790cd175b861d3f2b5ca064d4c5ff0442fa036e1c6bbea68",
+  "evidence_quote": "Mike and Michael White both won",
+  "key": "challenge_e_f3e4e391d63afeed",
+  "rationale": "The evidence explicitly states: \"Mike and Michael White both won a Tony Award for Best Director.\" This sentence directly confirms that Mike White won the award in question. Therefore, the claim is fully supported by the text.",
+  "review_note": "Direct Mike Tony attribution.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 716,
+  "source": "pj"
+}

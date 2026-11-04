@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "19804e6f345ceabba829f23d90356cfecb900962cce9002f88b65dc9b2891bc9",
+  "evidence_quote": "a state-level parenting award",
+  "key": "challenge_e_b88d62169746b03a",
+  "rationale": "Abigail won a state-level parenting award in 2015, but neither the state nor the award's title is identified. The Minnesota Parent of the Year claim is therefore unresolved.",
+  "review_note": "Shortened correct state/title specificity gap.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 631,
+  "source": "nli"
+}

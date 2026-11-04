@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "809ccca10ffce58daa7033582a3b338dce3a6a61b4f287f4fc52d44a465705e0",
+  "evidence_quote": "In 2005, he published",
+  "key": "challenge_e_33a4d26196badb81",
+  "rationale": "'He' identifies David Lee as publishing the 2005 bestseller. The evidence gives no corresponding publication history for Jennifer, and David's publication does not exclude hers.",
+  "review_note": "Removed self-questioning; retained nonexclusive publication logic.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 461,
+  "source": "nli"
+}

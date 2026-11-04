@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0a1e747d5bbe3674547f4a2a5fc68aa2b9dd53c7275cd2e5febfe883a5435dbb",
+  "evidence_quote": "won Emmy Awards in 1966",
+  "key": "basic_e_57c5c337a59fb447",
+  "rationale": "The evidence reports Emmy-winning activity in 1966 but gives no total number of winning occasions by 1969. Four occasions by then is neither established nor excluded.",
+  "review_note": "Shorten NLI and correct conflation of award objects with winning occasions.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 136,
+  "source": "nli"
+}

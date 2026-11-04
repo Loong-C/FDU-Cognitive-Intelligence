@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "cadc095478c7d13c9ec2842887faec8bc66bc47a84f1ed3495c638e32d023af7",
+  "evidence_quote": "fewer than 25 sultans",
+  "key": "basic_e_70995e9f834ff559",
+  "rationale": "The evidence states that the Ottoman Empire had \"fewer than 25\" sultans. The claim states that the Ottoman Empire had \"28\" sultans. Since 28 is not fewer than 25, the claim directly contradicts the information provided in the evidence.",
+  "review_note": "NLI 28 incompatible with fewer than 25.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 172,
+  "source": "nli"
+}

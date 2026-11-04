@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "aa3fb3a1f9c3ae64dac52166696c6901a229b332870994ca902f2a4cd0b78ffd",
+  "evidence_quote": "Carter, Megan and Lindsay",
+  "key": "challenge_e_55cb3b60e01d2e13",
+  "rationale": "The evidence explicitly states that \"Vrabel's three children are Carter, Megan and Lindsay.\" Since the claim asserts that Megan is one of Mike Vrabel's children, and the evidence lists Megan as one of his children, the claim is fully supported by the text.",
+  "review_note": "Megan explicitly in children list.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 504,
+  "source": "nli"
+}

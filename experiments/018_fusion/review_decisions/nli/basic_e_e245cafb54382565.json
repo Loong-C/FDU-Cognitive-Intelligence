@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "9f2d814fbc783fe715f56cd17c68c44449ed70f8cfc80385b174a472bc2703b9",
+  "evidence_quote": "hoped to acquire",
+  "key": "basic_e_e245cafb54382565",
+  "rationale": "Hoping to acquire CapCut expresses desire without establishing the outcome. The evidence does not determine whether TikTok completed the acquisition.",
+  "review_note": "Remove speculative pending or failed outcomes.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 350,
+  "source": "nli"
+}

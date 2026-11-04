@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "eab08957ae4432fe25cbf1d48385207644dc1157e1be238183246c9ee5530b04",
+  "evidence_quote": "the only time Soros ever did so",
+  "key": "basic_e_e005c425460d8ec7",
+  "rationale": "The evidence identifies 1992 as Soros's only pound-shorting occasion ever. A repeat after 1992 contradicts that exclusive occurrence.",
+  "review_note": "Shorten sole-event contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 342,
+  "source": "nli"
+}

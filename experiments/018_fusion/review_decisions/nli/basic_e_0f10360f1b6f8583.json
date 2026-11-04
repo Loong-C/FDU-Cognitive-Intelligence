@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b9239beb58daa5682a0007e31f2adb63eb21961b86f5fdcf6e3f5e91c9767aae",
+  "evidence_quote": "fewer than 160 chapters",
+  "key": "basic_e_0f10360f1b6f8583",
+  "rationale": "A total of 150 chapters is consistent with fewer than 160, but so are totals such as 100 or 159. The upper bound neither determines nor excludes the exact total 150.",
+  "review_note": "Read full NLI draft; shorten its correct range-versus-exact-count argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 27,
+  "source": "nli"
+}

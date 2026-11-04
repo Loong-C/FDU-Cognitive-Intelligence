@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "940e172282686e8ef755ace9392259caaccc26a00e50159173a520425bb57407",
+  "evidence_quote": "Luisa Almánzar won",
+  "key": "challenge_e_ec656ea92185f320",
+  "rationale": "Luisa won the award, but the text does not establish whether Cardi also won. No single-winner restriction is supplied.",
+  "review_note": "Replaced unsupported assertion that award inherently has multiple winners with absence of restriction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 699,
+  "source": "joint"
+}

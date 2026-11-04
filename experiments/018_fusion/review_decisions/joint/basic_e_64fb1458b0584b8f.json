@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "15f1ed13476ddf3bf716f6881d6f6a35126fd9d5ad74f2d46845651a1f0b08df",
+  "evidence_quote": "between 15 and 20 films",
+  "key": "basic_e_64fb1458b0584b8f",
+  "rationale": "The count is bounded above by 20. It cannot simultaneously be greater than 20 as the claim requires.",
+  "review_note": "Shorten joint inequality argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 155,
+  "source": "joint"
+}

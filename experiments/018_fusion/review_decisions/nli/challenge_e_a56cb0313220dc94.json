@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "43963cd80758cc5bbe3c8029ebdf51c585f0bf98d360e317445e0845bd110979",
+  "evidence_quote": "investigation later showed the reports to be false",
+  "key": "challenge_e_a56cb0313220dc94",
+  "rationale": "The evidence explicitly states that Jennifer Lawrence's publicist denied the marriage and that an investigation later showed the reports to be false. The claim asserts that the marriage actually took place. Since the evidence confirms the reports were false, it directly contradicts the claim.",
+  "review_note": "Investigation establishes falsity of marriage reports.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 610,
+  "source": "nli"
+}

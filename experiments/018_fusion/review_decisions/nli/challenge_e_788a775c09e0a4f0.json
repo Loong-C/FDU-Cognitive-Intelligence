@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "109adaeb12d5b02b721cd42b871d8364bba3b5626594e0de16692eae9b13bafb",
+  "evidence_quote": "Her publicist denied",
+  "key": "challenge_e_788a775c09e0a4f0",
+  "rationale": "The publicist denied the marriage allegation. This establishes the publicist's statement, not whether the marriage occurred. The evidence independently resolves neither the event nor its absence.",
+  "review_note": "Removed prolonged deliberation and speculative motives.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 550,
+  "source": "nli"
+}

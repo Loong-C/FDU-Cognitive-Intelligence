@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "416bf4daac524fbac1397a595ad0ae787817ea4132e20417b256238ea5af4465",
+  "evidence_quote": "managed to sign",
+  "key": "basic_e_3d04530e21a78d23",
+  "rationale": "The evidence states that Barbra Streisand \"managed to sign\" with Sony Music. The phrase \"managed to sign\" implies that the action of signing was successfully completed. Therefore, the claim that she \"signed with Sony Music\" is directly supported by the evidence.",
+  "review_note": "NLI managed to entails successful signing.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 93,
+  "source": "nli"
+}

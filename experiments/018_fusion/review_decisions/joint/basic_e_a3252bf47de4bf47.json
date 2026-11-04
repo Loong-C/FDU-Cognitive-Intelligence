@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "88e148dd47e8d9fbff08de360ca0319687d12f295a6109ac10a9eda60b018b81",
+  "evidence_quote": "New York City and nowhere else",
+  "key": "basic_e_a3252bf47de4bf47",
+  "rationale": "Only New York City is allowed by the evidence's recording-location restriction. Los Angeles recording contradicts that exhaustive statement.",
+  "review_note": "Condense repeated exhaustive-set explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 248,
+  "source": "joint"
+}

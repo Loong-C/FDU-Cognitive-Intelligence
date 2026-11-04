@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "d0a1f77b8bd784606a7c293f9b0360b04ed11e503e3ef3f672c5c7633bcff22b",
+  "evidence_quote": "Kevin Bacon was born in Pittsburgh",
+  "key": "basic_e_9d4f088174f43499",
+  "rationale": "The evidence states explicitly that \"Kevin Bacon was born in Pittsburgh.\" The claim is identical to this statement. Therefore, the evidence fully entails the claim.",
+  "review_note": "No inference beyond restating provided birthplace.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 241,
+  "source": "joint"
+}

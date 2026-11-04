@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "9d006a092bc43fd73d9bf8569a126845e6528d556b8c8ef09dbd3807e026b779",
+  "evidence_quote": "both Ryan and Marcus Coogler",
+  "key": "challenge_e_470a12c0b3b5a4e7",
+  "rationale": "The evidence states that in 2008, \"both Ryan and Marcus Coogler won a regional acting award.\" This explicitly confirms that Ryan Coogler won the award in that year. Therefore, the claim is fully supported by the evidence.",
+  "review_note": "Both establishes Ryan's 2008 regional award.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 487,
+  "source": "nli"
+}

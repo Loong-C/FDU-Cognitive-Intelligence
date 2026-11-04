@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1dea3f999155893f93f9e17577e2bf82bea9530cd96194869757559e0f538931",
+  "evidence_quote": "Three years after that",
+  "key": "basic_e_9d78cb2b484a73ad",
+  "rationale": "Three years after 2019 is 2022; three more years gives 2025 for the committee launch. This contradicts the claimed 2024 launch.",
+  "review_note": "Condense arithmetic timeline.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 242,
+  "source": "nli"
+}

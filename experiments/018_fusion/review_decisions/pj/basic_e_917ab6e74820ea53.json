@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "a2566d6e027e7500f4056d922aa32f1bd9a962cd4c59e14a09d25bf6b83bbb75",
+  "evidence_quote": "at least 20 finished fights",
+  "key": "basic_e_917ab6e74820ea53",
+  "rationale": "The evidence states that Merab Dvalishvili has recorded \"at least 20\" finished fights. The claim states that he has recorded \"more than 10\" finished fights. Mathematically, any number that is at least 20 is necessarily greater than 10. Therefore, the evidence logically entails the claim.",
+  "review_note": "Correct inclusive lower-bound implication.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 225,
+  "source": "pj"
+}

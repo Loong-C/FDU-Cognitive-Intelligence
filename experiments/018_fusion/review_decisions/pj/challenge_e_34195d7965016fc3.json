@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "94915855d586994a657f6802f0337359972f84311f544f1ad92cf5b1f6c712a7",
+  "evidence_quote": "Ali Faye became the first in the family",
+  "key": "challenge_e_34195d7965016fc3",
+  "rationale": "The swimming medal is attributed to Ali, while Bassirou is credited with an election win. Ali being first does not exclude later winners, and no medal result for Bassirou is provided.",
+  "review_note": "Removed self-questioning; preserved first-winner qualification.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 462,
+  "source": "pj"
+}

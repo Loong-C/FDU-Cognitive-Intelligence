@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "65eb0719a4d19c7f26501932263bcf176f331b86a3f3b66263959eb8b40d47bc",
+  "evidence_quote": "Melania Trump is the only one in the family",
+  "key": "challenge_e_88a01cdc8b9193e9",
+  "rationale": "The text restricts winners within Melania's family but never establishes Donald's membership. It neither says Donald won nor supplies a restriction proven to exclude him.",
+  "review_note": "Removed invented parenthetical claim that family includes Donald.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 574,
+  "source": "pj"
+}

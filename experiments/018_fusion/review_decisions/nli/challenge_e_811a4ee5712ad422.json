@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "9209a5e6ba695edd6cc2321965d198d0c102dc31b179341e7ebfcdb526ea5119",
+  "evidence_quote": "a feat Bill later repeated",
+  "key": "challenge_e_811a4ee5712ad422",
+  "rationale": "The evidence says Alexander played the lead in True Blood, \"a feat Bill later repeated.\" That phrase attributes the same stated achievement to Bill Skarsgård, supporting the claim.",
+  "review_note": "Shortened the specific antecedent analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 561,
+  "source": "nli"
+}

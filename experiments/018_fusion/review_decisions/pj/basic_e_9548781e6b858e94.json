@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "cc1bcd20a9b254a90b6d98cf4ae6c9384fe17bcd723bdfda6a398b5b62f9dcc0",
+  "evidence_quote": "under 140 chapters",
+  "key": "basic_e_9548781e6b858e94",
+  "rationale": "The upper bound of fewer than 140 chapters allows totals above 120 and totals of 120 or fewer. The claim cannot be determined.",
+  "review_note": "Condense overlap analysis without repeated examples.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 231,
+  "source": "pj"
+}

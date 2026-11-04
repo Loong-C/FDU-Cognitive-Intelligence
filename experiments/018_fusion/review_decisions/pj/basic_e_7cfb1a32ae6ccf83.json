@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c363fc96e6d1f264953940ca66a85f7c5b698be16745893475bf274df1d8c93c",
+  "evidence_quote": "for the first time in 1966",
+  "key": "basic_e_7cfb1a32ae6ccf83",
+  "rationale": "A first winning occasion in 1966 does not determine the total number of occasions by 1969. The evidence leaves subsequent wins unspecified.",
+  "review_note": "Correct award-count versus occasion-count conflation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 193,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "bc28c052fc82395e0118b8ff73f9d4e4417447f8389966c0c3b4f31ad598d3c1",
+  "evidence_quote": "an investigation later showed the reports to be false",
+  "key": "challenge_e_2a70b019f1fe751d",
+  "rationale": "The evidence explicitly states that \"The Kodaikanal Tourism Officer denied that Guna Caves had received a significant infrastructure grant from the state government, and an investigation later showed the reports to be false.\" This directly contradicts the claim that the caves did receive such a grant.",
+  "review_note": "Report falsity directly conflicts with grant receipt.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 447,
+  "source": "pj"
+}

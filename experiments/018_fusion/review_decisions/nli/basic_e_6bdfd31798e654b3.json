@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a72420d70ee750fec9f67a13c79b4926b53d1d55c2df92a4a69049882442c358",
+  "evidence_quote": "no more than 30 episodes",
+  "key": "basic_e_6bdfd31798e654b3",
+  "rationale": "At most 30 episodes permits 27 but also 28. The evidence gives only an upper bound, leaving the exact total unknown.",
+  "review_note": "Shorten NLI upper-bound countermodels.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 163,
+  "source": "nli"
+}

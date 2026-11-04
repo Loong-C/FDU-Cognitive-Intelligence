@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1ae17c1c45772dc115dd0e560ff9f7a41711319528de313fb84aa3e72d849a14",
+  "evidence_quote": "more than 15 films",
+  "key": "basic_e_2e90a1aed61521e0",
+  "rationale": "A count above 15 could be 18, but could also be 16 or 19. The lower bound neither confirms nor excludes exactly 18.",
+  "review_note": "Shorten NLI counterexamples.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 69,
+  "source": "nli"
+}

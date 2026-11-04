@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "c435cdcdef9b26ff1070bc031a4feb3c400c57bc5a5d2d6b24eb46226b40784b",
+  "evidence_quote": "17 feature films",
+  "key": "basic_e_4888e7432180d3e3",
+  "rationale": "The evidence states explicitly that \"Quentin Tarantino has directed 17 feature films to date.\" The claim is an exact repetition of this statement. Therefore, the evidence fully entails the claim.",
+  "review_note": "NLI exact count and full claim match.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 116,
+  "source": "nli"
+}

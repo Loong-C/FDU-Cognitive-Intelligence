@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "399510e105ce9006b9aa3cecbfe5bcd9fb7dcc44c66533268377f2c66ef4620a",
+  "evidence_quote": "between 20 and 25",
+  "key": "basic_e_98f18b9aad175f28",
+  "rationale": "The range from 20 to 25 permits exactly 20 and larger values. It neither guarantees nor excludes more than 20 films.",
+  "review_note": "Remove unsupported generalization about standard linguistic interpretation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 236,
+  "source": "joint"
+}

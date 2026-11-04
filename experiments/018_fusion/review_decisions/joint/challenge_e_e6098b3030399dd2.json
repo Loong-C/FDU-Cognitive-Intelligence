@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7d2c1266544da58664242393b3ea8b61812d8fffe4a3cc94ef934a27c629da9a",
+  "evidence_quote": "both Sam and Alex Altman won a regional innovation award",
+  "key": "challenge_e_e6098b3030399dd2",
+  "rationale": "Both brothers winning includes Sam. The unresolved issue is the award's exact title and region, which the evidence does not identify as the claimed Bay Area title.",
+  "review_note": "Corrected sole-recipient misreading and condensed actual gap.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 694,
+  "source": "joint"
+}

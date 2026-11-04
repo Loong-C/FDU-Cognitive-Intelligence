@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "eac9d97fe7992500ab530bc39ac8b2f5f027ad5ffe66628601459f61badf31a0",
+  "evidence_quote": "Scottsdale, Arizona",
+  "key": "basic_e_f413a59ea39d9650",
+  "rationale": "The evidence explicitly identifies Emma Stone's city of birth as Scottsdale. Omitting Arizona does not alter that city, so the claim is supported.",
+  "review_note": "Condensed valid city match.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 382,
+  "source": "joint"
+}

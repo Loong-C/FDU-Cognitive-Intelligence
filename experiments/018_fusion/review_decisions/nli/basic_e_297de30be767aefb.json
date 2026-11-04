@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "76f4a246e98bfcb4b696727eda68f04b413746d6c9c71a57bc023953cad8a94d",
+  "evidence_quote": "shorted the British pound in 1992",
+  "key": "basic_e_297de30be767aefb",
+  "rationale": "The evidence reports shorting the pound in 1992 but gives no information about later such events. It neither confirms nor excludes another occurrence after 1992.",
+  "review_note": "Reduce NLI from 61 words while preserving later-event uncertainty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 65,
+  "source": "nli"
+}

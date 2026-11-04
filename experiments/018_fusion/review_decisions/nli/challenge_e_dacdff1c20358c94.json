@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "153baccd19609d54ba807bde6336f827cc1892f52817a78e0d4cf3a6077a0cde",
+  "evidence_quote": "dismissed as baseless",
+  "key": "challenge_e_dacdff1c20358c94",
+  "rationale": "The Tourism Officer dismissed the grant reports as baseless. This establishes a stance, not whether Guna Caves actually received the grant.",
+  "review_note": "Corrected dismissal as factual negation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 678,
+  "source": "nli"
+}

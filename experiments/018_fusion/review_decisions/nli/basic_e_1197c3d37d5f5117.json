@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "890361c47bf8a7eefc59121aebdde83ae606f31c759e222b85be4288fdea162c",
+  "evidence_quote": "did not neglect to receive a Grammy Award",
+  "key": "basic_e_1197c3d37d5f5117",
+  "rationale": "Did not neglect to receive affirms that the receipt occurred. Thus the evidence entails that American Civil War received a Grammy Award.",
+  "review_note": "Read complete 61-word NLI draft; shorten the valid negated-neglect implicative.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 31,
+  "source": "nli"
+}

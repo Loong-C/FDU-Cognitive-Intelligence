@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b924be9734efa118e1ffdffb6ad7afd94af5de2554de45a629660472ed64d92d",
+  "evidence_quote": "investigation later showed the reports to be false",
+  "key": "challenge_e_9bd3640aae9188ba",
+  "rationale": "The evidence states that Microsoft's corporate communications team denied the donation and that a subsequent investigation showed the reports of the donation to be false. The claim asserts that the donation actually took place. Since the evidence explicitly states that the reports of the donation were false, the evidence contradicts the claim.",
+  "review_note": "Investigation falsifies donation reports, beyond denial.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 597,
+  "source": "nli"
+}

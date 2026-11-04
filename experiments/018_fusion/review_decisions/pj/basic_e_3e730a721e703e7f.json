@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6586c34fc4a4eaac278c85d93ad3710f47dc5285a4d7dabb0e4feb5f0eaecb11",
+  "evidence_quote": "for the second time",
+  "key": "basic_e_3e730a721e703e7f",
+  "rationale": "At the stated second win, the count reached two. The evidence does not say whether another occurred by 2026.",
+  "review_note": "Repair PJ unsupported exact end-of-2024 total, shorten.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 99,
+  "source": "pj"
+}

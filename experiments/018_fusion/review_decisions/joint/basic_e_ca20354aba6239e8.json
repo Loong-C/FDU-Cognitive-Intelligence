@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c5b01ee2eb1da0b0585665e339c5d3a357888ab3e854af2cee9071d7cc51a6a2",
+  "evidence_quote": "for the second time",
+  "key": "basic_e_ca20354aba6239e8",
+  "rationale": "The second occasion is dated to 2005. The evidence neither confirms nor rules out a later occasion after 2005.",
+  "review_note": "Remove unsupported first-event calendar-year placement.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 302,
+  "source": "joint"
+}

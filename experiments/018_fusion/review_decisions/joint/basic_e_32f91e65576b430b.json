@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "df1ba5d4485fa4db388549212f7148d4f73357de3478a14d7b55ad1aa97f8821",
+  "evidence_quote": "the only time Hough ever did so",
+  "key": "basic_e_32f91e65576b430b",
+  "rationale": "The evidence permits only the 2010 win. Winning again afterward would require a second occurrence, which the evidence excludes.",
+  "review_note": "Shorten joint exact exclusivity argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 77,
+  "source": "joint"
+}

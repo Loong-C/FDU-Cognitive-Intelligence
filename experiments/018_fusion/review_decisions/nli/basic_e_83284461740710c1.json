@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3e3f57a43d9c44c4f9fdb63e03fc619b5663a223a0d1076ef66b13e596e39a44",
+  "evidence_quote": "scheduled for release",
+  "key": "basic_e_83284461740710c1",
+  "rationale": "The evidence gives August 15, 2024 as the scheduled release date. It does not state the actual release date, so the claimed ultimate release that day cannot be determined.",
+  "review_note": "Remove external generalization about movie delays.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 205,
+  "source": "nli"
+}

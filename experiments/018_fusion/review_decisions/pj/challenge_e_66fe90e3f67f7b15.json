@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "88eb43a2e6f5a3120845364d074c22bf1741ec6c554b9cb3b2e305d395299125",
+  "evidence_quote": "both won a Grammy Award for Best New Age Album",
+  "key": "challenge_e_66fe90e3f67f7b15",
+  "rationale": "The word 'both' explicitly includes Anthony among the Best New Age Album Grammy winners. The claim is therefore supported.",
+  "review_note": "Condensed shared predicate reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 527,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2ac200edc22e7b8faac32ce9a06f4c0253c5155d973816c3c077ff7a6378f0ac",
+  "evidence_quote": "only one in the family",
+  "key": "challenge_e_87bf666512f605e6",
+  "rationale": "The restriction applies only to Michael's family. Peter Clay Carroll is not identified as a member, and his award history is unstated, leaving his claim unresolved.",
+  "review_note": "Corrected implicit family-membership assumption.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 571,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7ff101ab064bdc4bc5f8c972ad72f30874a524aa6ec1eddf0b94f38f9b2fa3b8",
+  "evidence_quote": "won the World Series in 2020",
+  "key": "basic_e_93b5fd49785e1b5e",
+  "rationale": "The 2020 win establishes at least one win by 2022, but supplies no total. It neither establishes nor excludes four wins by 2022.",
+  "review_note": "Shorten without treating dated win as unique.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 227,
+  "source": "nli"
+}

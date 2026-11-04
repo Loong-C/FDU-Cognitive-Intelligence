@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0903c7561e8c574fbda26f5a1fd710c7ac83f7abf89ce002cf967ae9ddf19f5f",
+  "evidence_quote": "between 15 and 20",
+  "key": "basic_e_ec4d19bc5a4f3fd3",
+  "rationale": "The evidence gives a range of finished fights. Sixteen satisfies it, but other counts do too, so the exact total remains unknown.",
+  "review_note": "Condense range-versus-exact reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 371,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "570a3c5b6221e86f01ff16f5d0af31ba1700c29cada1cb975ab265e042979e32",
+  "evidence_quote": "Both Sharon Tate and Sharon Stone",
+  "key": "challenge_e_da811402263b11d4",
+  "rationale": "The evidence explicitly states that \"Both Sharon Tate and Sharon Stone won the Academy Award for Best Actress.\" The use of the word \"Both\" indicates that the statement applies to each individual named. Therefore, the evidence directly entails that Sharon Tate won the Academy Award for Best Actress, which matches the claim exactly.",
+  "review_note": "Distributive both entails Tate win.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 676,
+  "source": "joint"
+}

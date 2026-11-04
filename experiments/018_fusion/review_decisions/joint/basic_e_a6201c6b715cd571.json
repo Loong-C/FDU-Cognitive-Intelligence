@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "0bbd930d2160c5e22aa3156fa2a6dd1a0c4b5cdc22fdad53771c8fffadc5ded1",
+  "evidence_quote": "has 15 airports",
+  "key": "basic_e_a6201c6b715cd571",
+  "rationale": "The evidence states explicitly: \"The United Arab Emirates has 15 airports.\" The claim is: \"The United Arab Emirates has 15 airports.\" Since the claim is identical to the evidence, the evidence fully entails the claim.",
+  "review_note": "Evidence and claim both give fifteen airports.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 251,
+  "source": "joint"
+}

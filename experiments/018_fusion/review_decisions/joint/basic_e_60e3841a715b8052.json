@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3902300c2aafc4cae9cbf8c170ff51fb84aea2d68cd85dd5033e03f5c82e2645",
+  "evidence_quote": "In 2018",
+  "key": "basic_e_60e3841a715b8052",
+  "rationale": "The evidence confirms the 2018 victory only. It neither confirms nor excludes another victory afterward.",
+  "review_note": "Shorten joint later-event uncertainty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 146,
+  "source": "joint"
+}

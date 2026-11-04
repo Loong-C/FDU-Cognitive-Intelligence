@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5bfbe2378d67e38ff0f5bdb9abf8dfed768722e30d4c98203c99579a523e8318",
+  "evidence_quote": "David Styles is the only one in the family",
+  "key": "challenge_e_d46dbcd440c3a66a",
+  "rationale": "The restriction is limited to David's family. Harry is not explicitly linked to that family, and the nonexhaustive accolades list does not exclude an Oscar.",
+  "review_note": "Removed invented family link and closed accolades list.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 670,
+  "source": "pj"
+}

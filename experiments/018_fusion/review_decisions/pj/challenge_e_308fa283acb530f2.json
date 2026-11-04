@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a74182d7afe42084bbf71c2f5a8fca11a6e11f1b688768fe3545b94e98029107",
+  "evidence_quote": "the first member of the family",
+  "key": "challenge_e_308fa283acb530f2",
+  "rationale": "The evidence attributes the Yankees role to Caleb as the family's first. It neither establishes nor rules out Christian holding that role later, so Christian's claim is unresolved.",
+  "review_note": "Removed distinct-person attribution as contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 457,
+  "source": "pj"
+}

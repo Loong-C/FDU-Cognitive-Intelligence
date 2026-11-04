@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ffd24f929197add268d9c83bfd5e8cb60d336332dbcb0b5fc798a98e841aed07",
+  "evidence_quote": "for the first time in 2005",
+  "key": "basic_e_f36c498e1b5f1494",
+  "rationale": "The evidence establishes Ben Stiller's first such appearance in 2005. It supplies no information about appearances after 2005. A first appearance neither confirms nor excludes a later one, so the claim remains undetermined.",
+  "review_note": "Shortened valid first-versus-later reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 379,
+  "source": "nli"
+}

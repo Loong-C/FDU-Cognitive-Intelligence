@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "9a0b7426f1d5f331fccf3c86414e17ca0ad5faf0f4818bb916e3be0df150a2ff",
+  "evidence_quote": "Both Harry and David Styles",
+  "key": "challenge_e_bbcf6c755607ca97",
+  "rationale": "The evidence explicitly states: \"Both Harry and David Styles won an Oscar for Best Supporting Actor.\" This sentence directly confirms that Harry Styles won an Oscar for Best Supporting Actor, which matches the claim exactly.",
+  "review_note": "Correct both-person attribution.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 634,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7027cb92bd8c80311ca0dc19c8db1873dfe65cc972874a503062d02ff2b6a9ef",
+  "evidence_quote": "scheduled for release",
+  "key": "basic_e_81b4b54a13ba0aca",
+  "rationale": "The evidence establishes only the release schedule for Kraven the Hunter, not the actual release. It therefore neither supports nor refutes release on December 13, 2024.",
+  "review_note": "Shorten and remove unnecessary hypothetical outcomes.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 202,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "6738236f2a24ef9f5fb70d333ba732a2002d1c0d860488c1d79bc22ceb9d2fe6",
+  "evidence_quote": "149 chapters",
+  "key": "basic_e_cf884d693bf958fa",
+  "rationale": "The evidence explicitly states that the manga series has published a total of 149 chapters. The claim asserts that the total is 150 chapters. Since the specific numerical value provided in the evidence (149) is different from the value in the claim (150), and the term \"total\" implies a definitive count, the evidence directly contradicts the claim.",
+  "review_note": "Explicit total rules out claimed 150.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 313,
+  "source": "joint"
+}

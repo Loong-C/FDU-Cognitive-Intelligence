@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "165b231165c59fab6702d9fd4aafc50bde8ca9fc241005ab27ec3c08179eb2bd",
+  "evidence_quote": "a state-level parenting award",
+  "key": "challenge_e_b88d62169746b03a",
+  "rationale": "The evidence confirms an award for Abigail but does not name its state or title. It neither confirms nor rules out the specific Minnesota title claimed.",
+  "review_note": "Removed redundant alternatives while preserving both missing details.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 631,
+  "source": "joint"
+}

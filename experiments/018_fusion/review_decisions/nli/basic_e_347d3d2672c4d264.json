@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c912b273362bfaf13ea99584766d1df5b20e1c5c04eaf295bfd91c907a01f831",
+  "evidence_quote": "for the first time in 2023",
+  "key": "basic_e_347d3d2672c4d264",
+  "rationale": "The first updates occurred in 2023, but later launches are unspecified. The evidence neither confirms nor rules out launches after 2023.",
+  "review_note": "Shorten NLI first-event reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 82,
+  "source": "nli"
+}

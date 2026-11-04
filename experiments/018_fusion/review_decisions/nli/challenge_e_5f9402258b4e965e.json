@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "a2914d7596cbca9ffcfd30b68d0d89f5c1ddc2b1730ec0b7118734ee98cddf6a",
+  "evidence_quote": "but later confirmed it",
+  "key": "challenge_e_5f9402258b4e965e",
+  "rationale": "The evidence states that the lead glaciologist \"initially denied that Mount Takahe had been named after a local Māori elder... but later confirmed it.\" Since the text explicitly mentions that the naming was confirmed, the evidence supports the claim that the volcano was named after such an individual.",
+  "review_note": "Later confirmation establishes naming origin despite initial denial.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 519,
+  "source": "nli"
+}

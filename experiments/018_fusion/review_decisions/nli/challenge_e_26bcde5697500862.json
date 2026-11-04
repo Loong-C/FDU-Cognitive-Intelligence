@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3bd7434d52999dbcb4185ff095b4e7794794ed9cd63654e8c763b5d77ac0c1bf",
+  "evidence_quote": "dismissed as baseless the reports",
+  "key": "challenge_e_26bcde5697500862",
+  "rationale": "The director dismissed reports of the anomaly confirmation as baseless. That establishes the director's assessment, not whether the confirmation actually occurred. The evidence independently resolves neither outcome.",
+  "review_note": "Corrected dismissal-as-refutation and preserved confirmation as target.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 444,
+  "source": "nli"
+}

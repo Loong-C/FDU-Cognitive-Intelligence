@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "3b9032593e7963b9b1727904dcba899d0686ca549b817ff2b2362f8930d8acf7",
+  "evidence_quote": "world premiere at Dolby Theatre",
+  "key": "basic_e_dbb5d35d2b6af061",
+  "rationale": "The evidence states explicitly that \"The Marvels had its world premiere at Dolby Theatre.\" The claim is an exact repetition of this statement. Therefore, the evidence fully entails the claim.",
+  "review_note": "Premiere venue exactly matches.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 335,
+  "source": "nli"
+}

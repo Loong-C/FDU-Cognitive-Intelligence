@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "7e00631b0422fa39a614ba19777e3b44b6b465d791f2ad1ddf707968737a6fd8",
+  "evidence_quote": "but this was delayed",
+  "key": "basic_e_ccc6fc64299e9060",
+  "rationale": "The evidence states that the tour was *scheduled* to begin on June 1, 2018, but explicitly notes that this date was *delayed*. This means the tour did not actually begin on June 1, 2018. The claim asserts that the tour *did* begin on that specific date. Therefore, the evidence contradicts the claim.",
+  "review_note": "Delay explicitly excludes scheduled June first start.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 308,
+  "source": "nli"
+}

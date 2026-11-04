@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "cfb43d6b331e2dcfa8120535cfa2fb466d9f321fdc66f4ded0beaddefc51f2a3",
+  "evidence_quote": "eventually was released on June 10, 2003",
+  "key": "basic_e_76db03300fa91378",
+  "rationale": "The eventual release occurred June 10, while June 17 was only scheduled. This directly contradicts the claim.",
+  "review_note": "Remove unsupported album noun and shorten.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 186,
+  "source": "joint"
+}

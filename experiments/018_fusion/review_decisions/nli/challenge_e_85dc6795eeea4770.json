@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0abeba04c6e3b53f2e405779577603d727fc4ec8955fc159503ffb647ebe760c",
+  "evidence_quote": "declined to comment on reports",
+  "key": "challenge_e_85dc6795eeea4770",
+  "rationale": "The director declined to comment on reports of a confirmed magnetic anomaly. The evidence establishes those reports and the refusal to comment, but not whether the alleged confirmation was true.",
+  "review_note": "Shortened sound reports-versus-fact analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 569,
+  "source": "nli"
+}

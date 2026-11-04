@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "f12f80a774326d9c2a4738a61817bdbdc1224b961d2e9c1bdca1dc0ac4498904",
+  "evidence_quote": "between 1980 and 2025",
+  "key": "challenge_e_70ecd81fd6a68023",
+  "rationale": "The evidence states that Phil Robertson \"served as president of Duck Commander between 1980 and 2025.\" Since the year 2023 falls within the period of 1980 to 2025, the evidence entails that he was president of the company in 2023.",
+  "review_note": "2023 falls within stated presidency.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 538,
+  "source": "nli"
+}

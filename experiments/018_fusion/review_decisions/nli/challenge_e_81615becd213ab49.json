@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a0f9c029887458e56c4fabb9499a51244a5d9efe608bd661240fad85e32b8231",
+  "evidence_quote": "Ali Faye, like Diomaye, won a gold medal in the 100m freestyle.",
+  "key": "challenge_e_81615becd213ab49",
+  "rationale": "Ali Faye is said to have won a 100m freestyle gold medal \"like Diomaye.\" Diomaye refers to Bassirou Diomaye Faye in the preceding sentence, so the comparison attributes that same achievement to him.",
+  "review_note": "Condensed comparison and retained identity resolution.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 563,
+  "source": "nli"
+}

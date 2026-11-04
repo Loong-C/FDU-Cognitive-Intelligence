@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e48fe656645ad57084a930f827c14775444a4d5c96ab9f5f130061b04670e770",
+  "evidence_quote": "three times",
+  "key": "basic_e_bb8245614583cfb8",
+  "rationale": "The evidence records three Emmy-winning occasions as of 1966, but gives no later count. Four occasions by 1969 is neither confirmed nor excluded.",
+  "review_note": "Preserve occasions rather than convert to individual awards.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 279,
+  "source": "nli"
+}

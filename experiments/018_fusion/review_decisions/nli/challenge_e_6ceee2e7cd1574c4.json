@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e4a7da3d8427b38be1177691c1cc9db1596a49498c5ed32c9b798df0d3536537",
+  "evidence_quote": "Darnell Glover won a regional theater award",
+  "key": "challenge_e_6ceee2e7cd1574c4",
+  "rationale": "Darnell is named as the 2010 award winner, but no result is given for Donald. Without an exclusive-winner restriction, Darnell's achievement neither establishes nor excludes Donald's.",
+  "review_note": "Removed repeated deliberation; retained neutral reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 534,
+  "source": "nli"
+}

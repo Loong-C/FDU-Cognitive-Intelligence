@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6a19b045fcd06ea6f67775b5cd36782b77531d5d0960b92031ee4bbf03ed4897",
+  "evidence_quote": "born in Belgium",
+  "key": "basic_e_a54ad6a92695b023",
+  "rationale": "Belgium is stated as the birthplace, without a specific city. The evidence does not establish or rule out Antwerp.",
+  "review_note": "Remove external geographic examples and shorten.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 249,
+  "source": "joint"
+}

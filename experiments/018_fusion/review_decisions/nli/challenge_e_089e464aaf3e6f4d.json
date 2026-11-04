@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "c8270fdcb14e2c082fd8cf10fc955f0ffc4e050dd4341ee3329dcae78e6a0c92",
+  "evidence_quote": "It was later confirmed",
+  "key": "challenge_e_089e464aaf3e6f4d",
+  "rationale": "The evidence explicitly states, \"It was later confirmed that Guna Caves had received a significant infrastructure grant from the state government.\" This sentence directly supports the claim word-for-word.",
+  "review_note": "Explicit confirmation covers significant state infrastructure grant.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 408,
+  "source": "nli"
+}

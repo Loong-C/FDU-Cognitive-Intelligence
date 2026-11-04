@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "e0ead23b30f2f441f3a4ef5ec3244db54c10fbf5aaaf2b9a85d6043566be2d8f",
+  "evidence_quote": "Rome and Paris",
+  "key": "basic_e_9aac4f73437e5b13",
+  "rationale": "The evidence states that \"The Marvels was filmed in Rome and Paris.\" This explicitly includes Paris as one of the filming locations. Therefore, the claim that it was filmed in Paris is fully supported by the evidence.",
+  "review_note": "Conjunction entails the Paris component.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 238,
+  "source": "pj"
+}

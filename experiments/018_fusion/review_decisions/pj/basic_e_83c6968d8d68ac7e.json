@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "aacb21b2b848580b4ee8ebe999c9d03b2af087058a1e079cc6b15e1e1bb9be65",
+  "evidence_quote": "three times in total",
+  "key": "basic_e_83c6968d8d68ac7e",
+  "rationale": "The evidence explicitly gives three World Series wins in total. Four wins by 2022 would exceed that total, contradicting the evidence.",
+  "review_note": "Remove invented reporting cutoff and conditional assumptions.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 206,
+  "source": "pj"
+}

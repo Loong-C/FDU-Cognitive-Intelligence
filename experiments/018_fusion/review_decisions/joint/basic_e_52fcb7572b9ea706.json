@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "696d8f6f661b69bf79301134a09e3c8b73eb4639349c5bcf26e917d5357314f3",
+  "evidence_quote": "Some years later",
+  "key": "basic_e_52fcb7572b9ea706",
+  "rationale": "The sequence places the performance some years after 2014. Both 2018 and 2019 fit, so the specific claim of 2019 remains unconfirmed.",
+  "review_note": "Shorten joint retaining evidence-derived arithmetic.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 127,
+  "source": "joint"
+}

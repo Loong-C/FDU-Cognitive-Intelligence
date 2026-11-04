@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d20f7591ff3c87f47c47f786be3e2f099e8243a4d2c02e33aa1335081fc13706",
+  "evidence_quote": "disputed claims",
+  "key": "challenge_e_f136b694bdb24ded",
+  "rationale": "The director's challenge to the confirmation claim does not establish its truth or falsity. The evidence leaves the actual confirmation unresolved.",
+  "review_note": "Removed initial contradiction framing, hypotheticals and prompt quotation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 712,
+  "source": "pj"
+}

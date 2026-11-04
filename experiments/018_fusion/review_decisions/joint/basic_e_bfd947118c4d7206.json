@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d15f37e2c62853fa2f4311e5c11bc31bb965f5ff8b80ad4a1531f868bade0a65",
+  "evidence_quote": "Two years after that",
+  "key": "basic_e_bfd947118c4d7206",
+  "rationale": "The timeline yields 2019 + 3 + 2 = 2024 for the committee launch. This supports the claimed year.",
+  "review_note": "Remove repeated timeline narration.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 287,
+  "source": "joint"
+}

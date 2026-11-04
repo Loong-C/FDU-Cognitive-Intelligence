@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "da164fb21a88c3de699ae7f4b4d04697270c0b60bd4f1c97ddc719f6e7e0910a",
+  "evidence_quote": "the first in the family",
+  "key": "challenge_e_430b77f476a0cd71",
+  "rationale": "Being first does not make John the only possible winner. The evidence does not establish whether Ross won a Pulitzer, leaving the claim undetermined.",
+  "review_note": "Avoided assuming Ross belongs to family.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 481,
+  "source": "joint"
+}

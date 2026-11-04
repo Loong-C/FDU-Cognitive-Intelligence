@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "2191f3ac6923f4efe53b50117de5f1cb3766555539283c9f4b1e0e2cc495bd4a",
+  "evidence_quote": "investigation later showed the reports to be false",
+  "key": "challenge_e_e34f4f168a8ed6de",
+  "rationale": "The evidence explicitly states that the lead glaciologist of the 1999 survey \"denied that Mount Takahe had been named after a local Māori elder who contributed to early Antarctic mapping efforts\" and that \"an investigation later showed the reports to be false.\" This directly contradicts the claim that the mountain was named after such an individual.",
+  "review_note": "Investigation establishes falsity beyond glaciologist denial.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 690,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ea9bc625c4aa6fa78a563257cd6bb353c042269032c8076689bf24c0da11be73",
+  "evidence_quote": "Cecilia Marley won a regional nursing excellence award",
+  "key": "challenge_e_084eef4a57a9f64c",
+  "rationale": "The evidence names Cecilia as winning a nursing excellence award in 1974. It does not state that she was the only winner or whether Robert also won one. His claimed award is therefore undetermined.",
+  "review_note": "Corrected false exclusive-recipient inference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 406,
+  "source": "nli"
+}

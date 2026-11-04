@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f0300bda348208aa6e4e79c084299c8f1082abd70d3892a5722e75b1fe7b954b",
+  "evidence_quote": "Halle Berry's cousin",
+  "key": "challenge_e_ade1acf9c5a21d60",
+  "rationale": "The text awards Chad the Grammy but does not limit winners to Chad. It provides no information settling whether Halle also won.",
+  "review_note": "Removed outside Grammy exclusivity and dataset self-debate.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 616,
+  "source": "pj"
+}

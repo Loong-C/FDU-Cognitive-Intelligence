@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a28c6ce44faf26e99ea57f6ec488b28b73cb56efec8d622dc658570a4be4c0d9",
+  "evidence_quote": "at least 25 episodes",
+  "key": "basic_e_70edff6451b7ce18",
+  "rationale": "Twenty-seven satisfies the bound, but it is not the only possible count. The evidence neither confirms nor excludes that exact total.",
+  "review_note": "Shorten PJ compatibility versus entailment.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 175,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "8ad5112712faf213c63fdf3ddc78abecbf826d53ebaa7fa7fed9e32a7153bb76",
+  "evidence_quote": "did not neglect to partner with Adidas",
+  "key": "basic_e_0404acbd37857bf5",
+  "rationale": "The evidence states that Royal Challengers Bengaluru \"did not neglect to partner with Adidas.\" The phrase \"did not neglect to\" is a rhetorical construction that affirms the action was performed; it means they did partner with Adidas. Therefore, the evidence directly entails the claim that a partnership occurred.",
+  "review_note": "The joint explanation directly resolves the supplied implicative wording into the claimed partnership; accept after evidence review.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 8,
+  "source": "joint"
+}

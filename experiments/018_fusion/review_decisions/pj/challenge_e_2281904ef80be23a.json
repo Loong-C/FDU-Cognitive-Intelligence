@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "beae1c6ff969651a75d43be5532180f01ef5505190637443801d2b1f661c86f3",
+  "evidence_quote": "flatly denied reports",
+  "key": "challenge_e_2281904ef80be23a",
+  "rationale": "A reported denial establishes the accountant's statement. It does not settle whether the additional VFX funds were allocated, so the claim is neither confirmed nor refuted.",
+  "review_note": "Removed hypothetical accountant error and excess length.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 436,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "0de2a34b3ee9971512acbe09287682c85c22034dc18cbcd4de72e6a1afdea2e4",
+  "evidence_quote": "more than 140 chapters",
+  "key": "basic_e_674abc871d93b257",
+  "rationale": "The evidence states that the manga series has published a total of more than 140 chapters. Mathematically, if a quantity is greater than 140, it is necessarily greater than 120 (since $140 > 120$). Therefore, the claim that the total is more than 120 chapters is logically entailed by the evidence.",
+  "review_note": "Joint more than 140 necessarily exceeds 120.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 159,
+  "source": "joint"
+}

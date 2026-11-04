@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7d7761c86ef73880aeaa7ce794fd67daff6b8e48675aea36b90f640df5446b4e",
+  "evidence_quote": "Natalie won the 2007 New York City Best Artisan Baker title",
+  "key": "challenge_e_56ffe7587c706d15",
+  "rationale": "Natalie refers to Natalie Portman, named in the preceding sentence. Her 2007 New York City Best Artisan Baker title is explicitly stated.",
+  "review_note": "Corrected given name called pronoun.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 509,
+  "source": "pj"
+}

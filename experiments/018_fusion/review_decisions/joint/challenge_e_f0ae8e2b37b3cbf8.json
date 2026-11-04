@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a6f3b4ee12c762f6add2dcbae8714293bce661f40ba5503b5577fcd5fc2862bf",
+  "evidence_quote": "children include John and Mary",
+  "key": "challenge_e_f0ae8e2b37b3cbf8",
+  "rationale": "John and Mary are included, but not stated to be the only children. Sam's claimed relationship is therefore unresolved.",
+  "review_note": "Condensed correct nonexhaustive enumeration.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 710,
+  "source": "joint"
+}

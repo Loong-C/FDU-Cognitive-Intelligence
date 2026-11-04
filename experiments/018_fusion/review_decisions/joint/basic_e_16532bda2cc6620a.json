@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a1590bd963d3bd1059c4400d1ae5fcdecd9f99ae1963b5c308d2864e4e60d7b1",
+  "evidence_quote": "for the first time in 2024",
+  "key": "basic_e_16532bda2cc6620a",
+  "rationale": "The evidence dates an initial win to 2024 without saying whether Lookman won again afterward. The claimed later win is therefore neither entailed nor contradicted.",
+  "review_note": "Read joint explanation; shorten its correct temporal information gap.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 36,
+  "source": "joint"
+}

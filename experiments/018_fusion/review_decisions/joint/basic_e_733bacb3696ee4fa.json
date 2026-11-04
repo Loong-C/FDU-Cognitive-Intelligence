@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ce56f427179b1f20109965583130e8d0a07e451e47612cba9f9a6cccf96413b7",
+  "evidence_quote": "at least 20 finished fights",
+  "key": "basic_e_733bacb3696ee4fa",
+  "rationale": "The evidence requires at least 20 finished fights. Sixteen is below that minimum, contradicting the claim.",
+  "review_note": "Shorten correct lower-bound comparison.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 180,
+  "source": "joint"
+}

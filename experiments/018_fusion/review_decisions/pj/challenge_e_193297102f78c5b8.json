@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8f1108130fd3aca330d08fca167f4cd891072156edf5bb29d9b89ac2641e0fbf",
+  "evidence_quote": "His cousin David Styles won an Oscar",
+  "key": "challenge_e_193297102f78c5b8",
+  "rationale": "The Oscar belongs to Harry's cousin in the evidence. Harry's accolades 'include' several awards, but this is not an exhaustive list. Neither fact resolves whether Harry also won a Best Supporting Actor Oscar.",
+  "review_note": "Corrected two unsupported exclusions: cousin and omitted accolade.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 425,
+  "source": "pj"
+}

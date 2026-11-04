@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "439517617471a9c52a7294a7deefaa40dec75518edabfc0313e39c8d0d43fc92",
+  "evidence_quote": "three times in total",
+  "key": "basic_e_812bcd952dc2616c",
+  "rationale": "The evidence states that Dick Van Dyke won Emmy Awards \"three times in total.\" This phrasing implies that the total count of his wins is three. The claim asserts that by 1969, he had won four times. Since the evidence establishes the total number of wins as three, it contradicts the claim that he had won four times.",
+  "review_note": "Total three explicitly excludes four by 1969.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 200,
+  "source": "nli"
+}

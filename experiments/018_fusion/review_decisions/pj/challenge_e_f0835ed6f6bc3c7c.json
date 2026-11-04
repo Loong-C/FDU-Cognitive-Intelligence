@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "044dd1102815958f8383daef0704834883328bb2d1aad536b7bbd4501a361680",
+  "evidence_quote": "dismissed as baseless",
+  "key": "challenge_e_f0835ed6f6bc3c7c",
+  "rationale": "The accountant's dismissal supplies a stance without independently confirming or disproving the additional ₹20 crore allocation.",
+  "review_note": "Removed hypothetical error and shortened.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 709,
+  "source": "pj"
+}

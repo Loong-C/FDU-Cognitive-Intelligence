@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f3dc9f7cabb175c221c550fdb70db17f32708449a174aba809e625648a2830ae",
+  "evidence_quote": "three children, including Carter and Bryson",
+  "key": "challenge_e_55e57238b4c8c766",
+  "rationale": "Two of Harbaugh's three children are named. The unnamed third child could be Lindsey, but the evidence does not establish that identity or rule it out.",
+  "review_note": "Shortened missing-third-name reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 506,
+  "source": "pj"
+}

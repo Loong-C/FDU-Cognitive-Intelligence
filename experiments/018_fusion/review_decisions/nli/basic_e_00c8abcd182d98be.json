@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1d23f3bf155b7fa822166a15c050dcf277588151afc8e54adf417d9ea050e62f",
+  "evidence_quote": "tried to partner with Adidas",
+  "key": "basic_e_00c8abcd182d98be",
+  "rationale": "The evidence reports an attempt to partner with Adidas, not its outcome. The attempt could have succeeded or failed, so it neither entails nor contradicts that Royal Challengers Bengaluru formed the partnership.",
+  "review_note": "Read full 78-word draft; retain attempt-versus-completion reasoning and shorten repeated comparisons.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 2,
+  "source": "nli"
+}

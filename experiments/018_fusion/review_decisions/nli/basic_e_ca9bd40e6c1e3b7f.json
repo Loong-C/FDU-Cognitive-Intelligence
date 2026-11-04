@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b14d74d1fa4b87a8c60aca03cabd766394da9391f17dc91076e913a4a48c5588",
+  "evidence_quote": "between 15 and 25",
+  "key": "basic_e_ca9bd40e6c1e3b7f",
+  "rationale": "The evidence states that Kendrick Lamar has released between 15 and 25 studio albums. The claim states that he has released more than 5 studio albums. Since the minimum number of albums in the range provided by the evidence (15) is greater than 5, the claim is necessarily true based on the evidence.",
+  "review_note": "Entire range exceeds five.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 304,
+  "source": "nli"
+}

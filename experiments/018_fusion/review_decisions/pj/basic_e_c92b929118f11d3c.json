@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "24aac19576944a9d5af85b956b9f168a7eb9c7e3afd8671a5e2424dbfe70a506",
+  "evidence_quote": "expected to partner",
+  "key": "basic_e_c92b929118f11d3c",
+  "rationale": "The evidence says a partnership was expected but does not confirm whether the expectation was fulfilled. It neither establishes nor rules out actual partnering.",
+  "review_note": "Remove speculative tense discussion and task commentary.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 300,
+  "source": "pj"
+}

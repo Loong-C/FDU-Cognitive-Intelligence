@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ebc695f9c0acd0bf2cffc48b621d624d82c90f3d511b3bdb7c72e4b737884057",
+  "evidence_quote": "scheduled to premiere",
+  "key": "basic_e_7912437587e2751e",
+  "rationale": "The evidence gives an initial scheduled premiere date of August 10, 1939, but no actual premiere date. It neither confirms nor excludes the claimed premiere that day.",
+  "review_note": "Remove speculative delays and unsupported film classification.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 188,
+  "source": "nli"
+}

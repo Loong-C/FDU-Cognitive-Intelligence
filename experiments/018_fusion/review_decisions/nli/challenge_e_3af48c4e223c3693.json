@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "28ad8d253bb01d2afa9ac157347e10cd9a1905718f0f4d66fdc2bc19df7c931a",
+  "evidence_quote": "first served as president",
+  "key": "challenge_e_3af48c4e223c3693",
+  "rationale": "The evidence dates Furukawa's first presidency to 2015–2023. It does not specify whether he served again, so his status in 2025 remains undetermined.",
+  "review_note": "Restored omitted first-term qualifier.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 469,
+  "source": "nli"
+}

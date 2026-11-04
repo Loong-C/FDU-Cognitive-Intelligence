@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b2baf8877fb2077a3c3519fd29fc47dc965a735bf3fca01d5d09e1a53752a4e1",
+  "evidence_quote": "John Ulbricht, Ross Ulbricht's cousin",
+  "key": "challenge_e_2dbce7cf4bee3b89",
+  "rationale": "The evidence states that John Ulbricht, who is identified as Ross Ulbricht's cousin, won the Pulitzer Prize. It does not state that Ross Ulbricht won the prize. While the evidence confirms a relative won the award, it does not provide information confirming or denying whether Ross Ulbricht himself won it. Therefore, the evidence neither entails nor contradicts the claim.",
+  "review_note": "John's award supplies no result for Ross.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 454,
+  "source": "nli"
+}

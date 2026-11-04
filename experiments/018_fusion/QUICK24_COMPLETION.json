@@ -1,0 +1,21 @@
+{
+  "quick_scope_complete": true,
+  "original_full_scope_complete": false,
+  "finished_beijing": "2026-11-03T11:26:22.060777+08:00",
+  "api_restored_and_request_checked": true,
+  "local_independent_recomputation_verified": true,
+  "received_files": 12859,
+  "archive_sha256": "779fc722452356da66ffc4fd11ac7caae8b2e5476df24419c279ac01143651b2",
+  "training_complete": 9,
+  "validation_configurations": 35,
+  "evaluation_configurations": 13,
+  "deadline_triggered": null,
+  "active_jobs": [],
+  "full_report": "F:\\Personal\\Code\\A_B_fusion_v18\\experiments\\018_fusion\\quick24_results\\ASSESSMENT.md",
+  "automation_cleanup": {
+    "reason_obsolete": true,
+    "automation_update_tool_available": false,
+    "deleted": false,
+    "note": "The available tool catalogue was searched; do not claim deletion. No further experiment polling or restart is needed."
+  }
+}

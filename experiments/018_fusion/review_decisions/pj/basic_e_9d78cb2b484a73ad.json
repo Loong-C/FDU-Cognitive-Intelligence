@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "9b8715c1de9d0112decd26cb7d344f54b2d664f626cb090a1d1a85ba84278a4e",
+  "evidence_quote": "Three years after that",
+  "key": "basic_e_9d78cb2b484a73ad",
+  "rationale": "The timeline places the advisory role in 2022 and the committee launch three years later, in 2025. The claim instead gives 2024.",
+  "review_note": "Remove repeated quotations while retaining both steps.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 242,
+  "source": "pj"
+}

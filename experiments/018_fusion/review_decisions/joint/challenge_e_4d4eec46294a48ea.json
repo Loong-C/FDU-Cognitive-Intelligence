@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "e81835daabbbc2f64cbcdbda7f78d8d20f7851583b428dc82dfa74636c8d38fe",
+  "evidence_quote": "Abigail won the 2015 Minnesota Parent of the Year title",
+  "key": "challenge_e_4d4eec46294a48ea",
+  "rationale": "The evidence explicitly states in the second sentence: \"Abigail won the 2015 Minnesota Parent of the Year title.\" The claim is \"Abigail Hensel won the 2015 Minnesota Parent of the Year title.\" Since the first sentence establishes that \"Abigail\" refers to \"Abigail Hensel,\" the evidence directly entails the claim.",
+  "review_note": "Correct contextual first-name resolution and exact title.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 493,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "19d358b0a43f470667482edcc6a6d0d88e4b5e373563b0bd172ce879e1a86bd4",
+  "evidence_quote": "Both Peter Osgood and John Osgood",
+  "key": "challenge_e_48520dd2cadde356",
+  "rationale": "Both Peter and John Osgood are stated to have won a Tony Award for Best Actor in a Play. This explicitly includes Peter and supports the claim.",
+  "review_note": "Shortened valid distribution of predicate.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 490,
+  "source": "joint"
+}

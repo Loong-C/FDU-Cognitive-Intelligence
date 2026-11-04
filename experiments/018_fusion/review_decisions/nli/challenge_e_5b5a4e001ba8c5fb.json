@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "52ef3268eecca4b0c4960ca0295fde6ff6e7a6f854fc7209bc7d528ba92bc7b9",
+  "evidence_quote": "years later Peter Osgood did the same",
+  "key": "challenge_e_5b5a4e001ba8c5fb",
+  "rationale": "The evidence explicitly states that \"years later Peter Osgood did the same,\" referring to winning a Tony Award for Best Actor in a Play, which was the achievement of John Osgood mentioned in the first part of the sentence. Therefore, the evidence directly entails that Peter Osgood won the award.",
+  "review_note": "Repeated action is Best Actor in a Play Tony.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 514,
+  "source": "nli"
+}

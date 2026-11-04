@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a6d4139da58c528b86f14d85ba89f8d77ac309e52e4e843441719b777bab300c",
+  "evidence_quote": "Mike Tyson was born in New York.",
+  "key": "basic_e_32261016c62ec498",
+  "rationale": "The provided text identifies New York, without establishing whether the birthplace was Brooklyn. The specific location in the claim is neither confirmed nor excluded.",
+  "review_note": "Remove joint outside geography and shorten.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 76,
+  "source": "joint"
+}

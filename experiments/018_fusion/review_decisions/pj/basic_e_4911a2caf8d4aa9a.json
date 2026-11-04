@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c99bcb493398bd7cc919185bdd6a6b92e40a9eaf8435ba8b49467a7cd6b4ab87",
+  "evidence_quote": "declined to receive",
+  "key": "basic_e_4911a2caf8d4aa9a",
+  "rationale": "The evidence says the award was declined, rather than received. This conflicts with the claimed receipt of that award.",
+  "review_note": "Remove PJ external ceremony/title/physical-possession assumptions and shorten.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 117,
+  "source": "pj"
+}

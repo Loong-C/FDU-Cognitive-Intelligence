@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "55e731c102d8aa6f8ed97e8f6a438d5780889df441ff2937d7ba79acf57bb0dd",
+  "evidence_quote": "fewer than 25 studio albums",
+  "key": "basic_e_cc1b81cb9252771c",
+  "rationale": "The upper bound below 25 allows 20 and other totals. It neither establishes nor excludes the claimed exact count.",
+  "review_note": "Remove repeated examples and procedural checks.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 306,
+  "source": "pj"
+}

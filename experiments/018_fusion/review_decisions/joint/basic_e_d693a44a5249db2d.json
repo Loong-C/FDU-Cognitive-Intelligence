@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "10594a7db97d69f3b818b5309750b8eaa31c18e4d922269d2cf50cc6452eacf4",
+  "evidence_quote": "at least 30 episodes",
+  "key": "basic_e_d693a44a5249db2d",
+  "rationale": "The minimum is 30, not strictly above 30. Both 30 and 31 satisfy the evidence, but only 31 satisfies the claim.",
+  "review_note": "Remove redundant symbolic restatement.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 325,
+  "source": "joint"
+}

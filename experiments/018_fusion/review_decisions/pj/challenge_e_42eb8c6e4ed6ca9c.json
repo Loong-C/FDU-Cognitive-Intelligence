@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "bab42ef6a3f32dded2e39df362d8fc4d2adfb48d7c7741d9ba9504a4919c9b71",
+  "evidence_quote": "flatly denied reports",
+  "key": "challenge_e_42eb8c6e4ed6ca9c",
+  "rationale": "The passage reports Marsh's denial without independently establishing the policy's existence or absence. Dali's claimed $50 million coverage therefore remains undetermined.",
+  "review_note": "Shortened valid speech-act distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 480,
+  "source": "pj"
+}

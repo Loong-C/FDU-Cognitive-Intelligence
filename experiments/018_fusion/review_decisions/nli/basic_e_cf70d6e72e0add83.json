@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b805a79b95f61ebb733b838eb0ea221a205c924a2e658ddf7f413ef3ebb91c2e",
+  "evidence_quote": "the only time Dodgers ever did so",
+  "key": "basic_e_cf70d6e72e0add83",
+  "rationale": "The evidence describes the 2020 World Series win as the Dodgers' only win ever. A total of four wins by 2022 contradicts that one-win history.",
+  "review_note": "Shorten correct sole-occurrence argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 312,
+  "source": "nli"
+}

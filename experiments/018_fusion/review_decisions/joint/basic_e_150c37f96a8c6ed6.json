@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a74ec3300ff74f783841784f7ffc5fc0083567c51c392e695572bc59db5caa16",
+  "evidence_quote": "has 15 airports",
+  "key": "basic_e_150c37f96a8c6ed6",
+  "rationale": "A total of 15 airports cannot also be a total greater than 20. The supplied count therefore contradicts the claim.",
+  "review_note": "Read joint rationale; shorten to the matching airport count and explicit inequality.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 33,
+  "source": "joint"
+}

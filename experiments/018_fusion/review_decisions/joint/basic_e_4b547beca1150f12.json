@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6232a74c5f7382d749977679038bbc8355bc6acd3db0066b126b63792032232e",
+  "evidence_quote": "between 140 and 160 chapters",
+  "key": "basic_e_4b547beca1150f12",
+  "rationale": "The stated interval includes 150 and other totals such as 145. The evidence neither confirms nor excludes exactly 150.",
+  "review_note": "Shorten joint specific-versus-range reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 119,
+  "source": "joint"
+}

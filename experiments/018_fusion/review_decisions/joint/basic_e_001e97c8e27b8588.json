@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "673e4b285689d9eada1f768b6b5518f784a2ac4c1f7609287d1929a7b549f725",
+  "evidence_quote": "Kendrick Lamar has released 20 studio albums.",
+  "key": "basic_e_001e97c8e27b8588",
+  "rationale": "The evidence states explicitly that \"Kendrick Lamar has released 20 studio albums.\" The claim is word-for-word identical to this statement. Therefore, the evidence directly entails the claim.",
+  "review_note": "Checked original evidence and joint explanation: exact wording and count match; retain the concise entailment rationale.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 0,
+  "source": "joint"
+}

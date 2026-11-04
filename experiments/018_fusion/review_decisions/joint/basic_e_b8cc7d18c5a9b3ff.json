@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7d0df7c75ae4038a11d4d0ef96b5a95df3ca8afec248a3f3fdde23e702543b2a",
+  "evidence_quote": "more than 15 films",
+  "key": "basic_e_b8cc7d18c5a9b3ff",
+  "rationale": "A count above 15 may be 18 or 25. Those possibilities respectively fail and satisfy 'more than 20,' so the evidence neither supports nor refutes it.",
+  "review_note": "Remove repeated bound definitions.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 274,
+  "source": "joint"
+}

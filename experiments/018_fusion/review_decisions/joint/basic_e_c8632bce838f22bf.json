@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "150fab25a458e9be882dafdbcb1784dd78a6c4ca9fa299c3eb6e93e8e13665ab",
+  "evidence_quote": "Madison Square Garden and Croke Park",
+  "key": "basic_e_c8632bce838f22bf",
+  "rationale": "The evidence asserts performances in both Madison Square Garden and Croke Park. The Croke Park component directly supports the claim.",
+  "review_note": "Shorten conjunction explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 299,
+  "source": "joint"
+}

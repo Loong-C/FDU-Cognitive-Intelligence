@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5fe4f7a0254ac7f57b5cd57b7265b1ed4363e7a1a227789554f2ee5233066bb2",
+  "evidence_quote": "dismissed as baseless",
+  "key": "challenge_e_e1aaf01a3c08c6d4",
+  "rationale": "The evidence reports Microsoft's rejection of the donation allegation. It does not independently establish whether the 5,000-laptop donation occurred.",
+  "review_note": "Shortened valid stance distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 688,
+  "source": "pj"
+}

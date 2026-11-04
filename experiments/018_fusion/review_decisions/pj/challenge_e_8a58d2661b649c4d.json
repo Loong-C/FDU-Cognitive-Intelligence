@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "545cfb95e4059dc42167d7cac812c7ae4f19049b7ec495f82903420bfbe7ade8",
+  "evidence_quote": "communications team denied",
+  "key": "challenge_e_8a58d2661b649c4d",
+  "rationale": "The reported denial establishes the team's statement, not the truth or falsity of the laptop donation. Whether Microsoft made it remains unresolved.",
+  "review_note": "Shortened valid denial distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 577,
+  "source": "pj"
+}

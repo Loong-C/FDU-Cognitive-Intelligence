@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "aaa4c6a48f6564a76c7e8f1fac72cf966775c0706a8da7f224f336a41094339e",
+  "evidence_quote": "did not manage to partner",
+  "key": "basic_e_6ce7a529f898feb2",
+  "rationale": "The evidence explicitly states that Royal Challengers Bengaluru \"did not manage to partner with Adidas.\" The claim asserts that they \"partnered with Adidas.\" These two statements are direct logical contradictions; the evidence establishes that the partnership did not occur, which refutes the claim that it did.",
+  "review_note": "Joint correctly distinguishes unsuccessful attempt from partnership.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 164,
+  "source": "joint"
+}

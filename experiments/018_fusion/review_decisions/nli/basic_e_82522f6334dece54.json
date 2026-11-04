@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "d0b838be3d248f5131b0a64849f36f194c4d0012b386b43613b2df9e7d066fda",
+  "evidence_quote": "Josef Fritzl was born",
+  "key": "basic_e_82522f6334dece54",
+  "rationale": "The evidence states explicitly that \"Josef Fritzl was born in St. Pölten.\" The claim is identical to this statement. Therefore, the evidence fully entails the claim.",
+  "review_note": "Claim repeats the stated St. Pölten birthplace.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 203,
+  "source": "nli"
+}

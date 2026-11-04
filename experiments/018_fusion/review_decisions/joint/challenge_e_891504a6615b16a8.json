@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a6107da96bf5beceb6b9c446d02cad62a19534314ce49e6201dd5544d93ddd11",
+  "evidence_quote": "rejected suggestions",
+  "key": "challenge_e_891504a6615b16a8",
+  "rationale": "The evidence reports an accountant rejecting the proposed allocation. It provides no independent fact settling whether that allocation occurred.",
+  "review_note": "Condensed stance-versus-event reasoning; removed invented possibilities.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 576,
+  "source": "joint"
+}

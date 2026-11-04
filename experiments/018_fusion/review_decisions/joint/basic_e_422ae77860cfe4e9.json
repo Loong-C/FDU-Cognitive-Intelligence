@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "9f8c6b5b8a3a20c262beb94559cf4ff2806b16360a54192fad63a1ab7298c72b",
+  "evidence_quote": "shorted the British pound in 1992",
+  "key": "basic_e_422ae77860cfe4e9",
+  "rationale": "The evidence confirms an occurrence in 1992 but supplies no cumulative total by 1995. It cannot establish or exclude exactly three.",
+  "review_note": "Shorten joint at-least-one argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 104,
+  "source": "joint"
+}

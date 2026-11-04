@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c6fa37202f70a28d30d2af9e5db3e072f700bd63cda6eb377d3dfad281b9794b",
+  "evidence_quote": "no more than 20 airports",
+  "key": "basic_e_229e23e070ef9424",
+  "rationale": "An airport total cannot be both at most 20 and greater than 20. The explicit upper bound therefore refutes the claim.",
+  "review_note": "Read joint draft; shorten its valid arithmetic contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 52,
+  "source": "joint"
+}

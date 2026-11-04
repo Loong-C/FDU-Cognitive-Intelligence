@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "089d904956722c2bf0c874372741e5cf14a1d0820af9491bcce6497345b35710",
+  "evidence_quote": "In 2015, she received a knighthood",
+  "key": "challenge_e_190f468ac012e115",
+  "rationale": "The first paragraph states that Paula Vennells, referred to as 'she,' received a knighthood for services to education in 2015. This directly confirms all details of the claim.",
+  "review_note": "Condensed valid reference and fact match.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 424,
+  "source": "joint"
+}

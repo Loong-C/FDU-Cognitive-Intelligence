@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3b82ee855014475a1d0149e6f45abfbdf1de9566c73a430ab795c49f81c14f1e",
+  "evidence_quote": "first served as president",
+  "key": "challenge_e_24f92e381fa3e52d",
+  "rationale": "The evidence dates Robertson's first presidency from 1980 to 2020. It does not state whether he returned later, so a presidency in 2023 is neither established nor excluded.",
+  "review_note": "Restored first-term qualifier and removed global tenure closure.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 441,
+  "source": "nli"
+}

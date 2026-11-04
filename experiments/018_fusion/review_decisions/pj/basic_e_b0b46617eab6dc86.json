@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d3f107c3a2f17281d191c5f3d61ad8a60c30d64f1af338df80c5badeebc66f3b",
+  "evidence_quote": "In 2018",
+  "key": "basic_e_b0b46617eab6dc86",
+  "rationale": "The evidence confirms the 2018 win without confirming or excluding earlier wins. It therefore does not determine whether Modrić won before 2018.",
+  "review_note": "Remove task discussion and speculative temporal mismatch.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 266,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "1a71573327a1b38f90b7d12656b2d3624d3e6a2d94be967222410c9b77e5aa20",
+  "evidence_quote": "between 25 and 30 sultans",
+  "key": "basic_e_988113bdd15ce4a8",
+  "rationale": "The evidence states that the Ottoman Empire had between 25 and 30 sultans. The claim states that the empire had more than 20 sultans. Since the minimum number in the range provided by the evidence (25) is greater than 20, the claim is necessarily true based on the evidence.",
+  "review_note": "Entire twenty-five to thirty range exceeds twenty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 235,
+  "source": "nli"
+}

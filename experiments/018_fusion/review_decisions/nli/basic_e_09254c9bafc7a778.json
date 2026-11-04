@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ef9b53fb57106d40b3a6803d3e85472538f3d87db2bd9f702b3d103e2a895056",
+  "evidence_quote": "most recently in 2023",
+  "key": "basic_e_09254c9bafc7a778",
+  "rationale": "The evidence identifies 2023 as the most recent major model update. An update after 2023 would make that statement false, so the claim contradicts the supplied temporal restriction.",
+  "review_note": "Read full NLI text; retain the decisive latest-occurrence constraint and omit redundant count discussion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 18,
+  "source": "nli"
+}

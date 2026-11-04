@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b57ddf56eeed01fd6dfc9d5d01e2210e208e7ec22b76e6accd4aae1d2254323f",
+  "evidence_quote": "between 30 and 35 sultans",
+  "key": "basic_e_54aa58f1e59f76f8",
+  "rationale": "The evidence states that the Ottoman Empire had between 30 and 35 sultans. The claim asserts that the number was exactly 28. Since 28 is outside the range of 30 to 35, the evidence contradicts the claim.",
+  "review_note": "NLI 28 lies outside stated range.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 132,
+  "source": "nli"
+}

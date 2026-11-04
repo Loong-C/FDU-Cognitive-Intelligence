@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "af730b13a5d72de4b3dc2bf44224e3428f20b70cd9a98a1fea2713022bd8c72c",
+  "evidence_quote": "tried to acquire",
+  "key": "basic_e_3a3997a0c411dd75",
+  "rationale": "The evidence reports an effort to acquire CapCut, not its outcome. Completion is neither established nor contradicted.",
+  "review_note": "Shorten joint attempt-versus-success reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 91,
+  "source": "joint"
+}

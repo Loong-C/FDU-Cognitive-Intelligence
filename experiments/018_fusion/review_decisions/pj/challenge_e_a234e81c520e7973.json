@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "71d44449811962a7505f64b089c86a33369a67c395548d51461e36cd416d34fe",
+  "evidence_quote": "refused to confirm",
+  "key": "challenge_e_a234e81c520e7973",
+  "rationale": "The evidence reports the assistant withholding confirmation. It neither states that Lady Gaga married the engineer nor that she did not.",
+  "review_note": "Condensed stance versus marriage occurrence.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 606,
+  "source": "pj"
+}

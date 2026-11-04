@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ccac50cf78e03306e2576e100f1e7bf0058ffbd64b2ea20543d2b218018639e3",
+  "evidence_quote": "years later Yamal did the same",
+  "key": "challenge_e_e163bcdba892026c",
+  "rationale": "Yamal later \"did the same\" as his cousin: winning Olympic gold in athletics. This explicitly attributes the claimed medal to Lamine Yamal.",
+  "review_note": "Shortened correct antecedent resolution.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 687,
+  "source": "nli"
+}

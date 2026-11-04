@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ea4e848716540fda14b5245a6fb753937bb0208915421cba509f7310790a95df",
+  "evidence_quote": "As of 2023",
+  "key": "basic_e_1e21cf4ff26b7ee5",
+  "rationale": "The evidence supplies a 2023 snapshot with two launches, not a count for 2025. Later launches are unspecified, so the claimed total of three is neither established nor excluded.",
+  "review_note": "Read full joint draft; shorten its correctly scoped snapshot reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 46,
+  "source": "joint"
+}

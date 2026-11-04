@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "92ef7c32b02a09816ed2481ce5b43134c5f1435a7e2de948da199b13ca7358ab",
+  "evidence_quote": "As of 2023",
+  "key": "basic_e_38bd03deafd14b94",
+  "rationale": "As of 2023 limits the count to that time. Further updates afterward are neither confirmed nor excluded.",
+  "review_note": "Shorten PJ snapshot reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 88,
+  "source": "pj"
+}

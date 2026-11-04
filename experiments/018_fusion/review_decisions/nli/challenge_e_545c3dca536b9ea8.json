@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "55a4f8a748aaf0b710b1dfcaef5dce507a39debcec230e959171b0390944871f",
+  "evidence_quote": "rejected suggestions",
+  "key": "challenge_e_545c3dca536b9ea8",
+  "rationale": "The Tourism Officer rejected suggestions of the grant. That records the officer's stance, not whether the grant was received. The evidence independently confirms neither receipt nor nonreceipt.",
+  "review_note": "Corrected rejection as objective disproof.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 499,
+  "source": "nli"
+}

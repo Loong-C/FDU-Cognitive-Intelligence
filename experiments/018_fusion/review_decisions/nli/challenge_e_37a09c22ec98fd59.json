@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "04abc00e278ae61052c085f893820c0c42364fee729dba5a7f43163f684977c8",
+  "evidence_quote": "As of 2002",
+  "key": "challenge_e_37a09c22ec98fd59",
+  "rationale": "The evidence establishes Chamberlain's chairmanship as of 2002, but provides no status for 2005. It cannot determine whether he still held the role then.",
+  "review_note": "Shortened temporal snapshot reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 466,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "002458383fb142ce8c314f9bf8004a0e22ba052d142077acf0cad82ef0f94cb0",
+  "evidence_quote": "up to 20 finished fights",
+  "key": "basic_e_a06946e937176457",
+  "rationale": "An upper limit of 20 does not fix whether the count exceeds 10. The evidence permits values on either side of the claim's threshold.",
+  "review_note": "Shorten correct upper-bound analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 244,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c66830789dbac19358de811af2ce054a17ede257cd59b6d68af02866666cc17f",
+  "evidence_quote": "three children include John and Mary",
+  "key": "challenge_e_a007c6cea280fe4a",
+  "rationale": "Only John and Mary are named among Kirk's three children. The third child is unidentified, so the evidence neither confirms nor excludes Sam.",
+  "review_note": "Shortened sound incomplete enumeration analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 602,
+  "source": "nli"
+}

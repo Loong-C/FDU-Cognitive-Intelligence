@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "38f164ce20875ed2d328541856d1c7cea02c660bd6ed853b567870f4709cad1a",
+  "evidence_quote": "Michael White became the first in the family",
+  "key": "challenge_e_d663cf25e00d61ed",
+  "rationale": "Michael White's Tony win is stated, but no identity link to Mike White is supplied. First in the family also does not exclude another winner. Mike's award status remains unresolved.",
+  "review_note": "Removed external identity claims and long self-debate; retained missing alias.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 672,
+  "source": "pj"
+}

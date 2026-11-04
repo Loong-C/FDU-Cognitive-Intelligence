@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6d3ba597b57a39b03e8cee46a35455689b900b3c30eed66a3f31f9396b84ccb9",
+  "evidence_quote": "more than 15 films",
+  "key": "basic_e_b8cc7d18c5a9b3ff",
+  "rationale": "More than 15 allows 16 films, which fails the claim, and 25, which satisfies it. The evidence does not determine whether the count exceeds 20.",
+  "review_note": "Keep two useful examples and shorten.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 274,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8837a36ba028d958cb3c2470120ffd33ec6cd5653310f3f80debed603bb1ef30",
+  "evidence_quote": "between 15 and 20 finished fights",
+  "key": "basic_e_1ed6eaff40fee4ee",
+  "rationale": "Every count between 15 and 20 finished fights is greater than ten. The numerical range therefore entails the claimed lower bound.",
+  "review_note": "Read the 62-word PJ draft; shorten its correct range comparison.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 47,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "945e041b980bf15630bb7e8af32404177e655c6735aaa20b4621bc3088427677",
+  "evidence_quote": "for the first time in 2023",
+  "key": "basic_e_5168c838b174d5d5",
+  "rationale": "Calling 2023 the first launch year excludes earlier launches of the same kind. The claimed pre-2023 launches contradict that chronology.",
+  "review_note": "Shorten joint first-event restriction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 123,
+  "source": "joint"
+}

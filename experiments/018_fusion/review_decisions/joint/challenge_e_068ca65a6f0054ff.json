@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2115e389c673bbfac590200d97733abd84a687cbf37475aa47444f4dfde873c2",
+  "evidence_quote": "years later Mike did the same",
+  "key": "challenge_e_068ca65a6f0054ff",
+  "rationale": "The evidence says Michael White won a Tony Award for Best Director and Mike later did the same. The repeated action is winning that award, directly supporting Mike White's claimed achievement.",
+  "review_note": "Replaced false name-identity reasoning with explicit shared action.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 402,
+  "source": "joint"
+}

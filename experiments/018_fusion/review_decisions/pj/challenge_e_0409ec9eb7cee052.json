@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "de55e8864e2139c08638cedfb819a2b7152657bd48db76ec46bd6ba6c570ac2d",
+  "evidence_quote": "three children include Rory and Fiona",
+  "key": "challenge_e_0409ec9eb7cee052",
+  "rationale": "The children include Rory and Fiona, leaving one of the three unnamed. Graham is neither identified nor excluded as that child, so the claim is undetermined.",
+  "review_note": "Preserved include and total-three scope.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 398,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ed3f2453b195b442108ce8f1e87dd57fa69d2c86a6c8c730ea2e267f38a9fc17",
+  "evidence_quote": "Robert Gates won a National Book Award",
+  "key": "challenge_e_5180ab053b57aa01",
+  "rationale": "The evidence establishes Robert's 1998 National Book Award, but gives no result for Bill. Without an exclusive-winner restriction, Robert's award neither establishes nor excludes Bill's.",
+  "review_note": "Condensed sound distinct-recipient reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 498,
+  "source": "nli"
+}

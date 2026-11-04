@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "74fb3c1314eb268a4ba5c2b362561cb4d82c7815c6fdecd4d1e28621b27c954e",
+  "evidence_quote": "was later disproven",
+  "key": "challenge_e_67690f3de37f24ff",
+  "rationale": "The evidence explicitly states that the claim regarding the $50 million liability insurance policy was \"later disproven.\" This means the evidence establishes that the statement \"The container ship Dali had been covered by a $50 million liability insurance policy\" is false. Therefore, the evidence contradicts the claim.",
+  "review_note": "Correctly treats disproven as factual falsity.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 528,
+  "source": "pj"
+}

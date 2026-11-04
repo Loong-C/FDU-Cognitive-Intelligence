@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6ba2ce819017b46bd4bfaf9122b89ce7718af37e8db1c8811edcdbfd8079cf81",
+  "evidence_quote": "John Fauci, Anthony Fauci's brother",
+  "key": "challenge_e_1a5db84903dc0c3c",
+  "rationale": "The evidence names John as a Grammy winner but does not provide an exhaustive list of winners or a result for Anthony. Thus Anthony's claimed award is undetermined.",
+  "review_note": "Removed hypothetical award-sharing and year scenarios.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 428,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e6568256b16b3bc98a7d8c51b73a82a74d1fcff4237b0d16e5b76086d670d54e",
+  "evidence_quote": "Ali authored a seminal treatise",
+  "key": "challenge_e_e428caf3877c2913",
+  "rationale": "Ali authored the treatise, but the text gives no authorship result for Saddam and no exclusivity. It neither confirms nor rules out Saddam writing such a treatise in 1982.",
+  "review_note": "Corrected attribution mismatch as contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 692,
+  "source": "nli"
+}

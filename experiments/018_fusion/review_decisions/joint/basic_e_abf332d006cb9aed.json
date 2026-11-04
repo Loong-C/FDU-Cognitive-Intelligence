@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "40dbd0f5e8354534346fc605e11c1ec94294664781ed72a5f21a637a5aba8b66",
+  "evidence_quote": "widely tipped to receive",
+  "key": "basic_e_abf332d006cb9aed",
+  "rationale": "The phrase 'tipped to receive' describes a prediction rather than a confirmed result. The evidence does not say whether the Grammy was received.",
+  "review_note": "Remove task-label commentary and repetition.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 255,
+  "source": "joint"
+}

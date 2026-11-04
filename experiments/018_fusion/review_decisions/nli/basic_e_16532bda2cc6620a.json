@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "483b3000958ed7e063e66b9a2a283cd61c7a5b31e049ca2c371ec7f999c65fd9",
+  "evidence_quote": "for the first time in 2024",
+  "key": "basic_e_16532bda2cc6620a",
+  "rationale": "Lookman's first win occurred in 2024. The evidence gives no later outcome, so it neither establishes nor excludes another win after 2024.",
+  "review_note": "Read full NLI draft; first does not mean last or only; shorten.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 36,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "5bf2fa3b8d0f11f3ba91d65f6f79586c8037c0791a7f9fbc7464d7628263436e",
+  "evidence_quote": "Madison Square Garden and Croke Park",
+  "key": "basic_e_c8632bce838f22bf",
+  "rationale": "The evidence explicitly states that \"Selena Gomez has performed in Madison Square Garden and Croke Park.\" This sentence directly confirms that she has performed in Croke Park. Therefore, the claim is fully supported by the evidence.",
+  "review_note": "Conjunction directly confirms Croke Park performance.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 299,
+  "source": "pj"
+}

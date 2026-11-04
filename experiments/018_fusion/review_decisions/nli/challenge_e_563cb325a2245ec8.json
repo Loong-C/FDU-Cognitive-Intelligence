@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "81efdf2e3c9a3692b8d3015cc04f63873ba08550a9b62ca04b02ee79c5df3728",
+  "evidence_quote": "they both published",
+  "key": "challenge_e_563cb325a2245ec8",
+  "rationale": "The evidence states that \"they both published a bestselling novel\" in 2005, referring to Jennifer Lee and her sister Sarah Lee. The phrase \"they both\" implies that each of them published a novel. Therefore, it logically follows that Jennifer Lee published a bestselling novel in 2005.",
+  "review_note": "Both sisters includes Jennifer in publication.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 508,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "63557cc572b8253495fb3f626087d8e34ccad0601094e31fef078505e732fa5c",
+  "evidence_quote": "most recently in 2023",
+  "key": "basic_e_09254c9bafc7a778",
+  "rationale": "If a major model update had occurred after 2023, the most recent one could not be in 2023. The claim therefore conflicts with the evidence's explicit most-recent date.",
+  "review_note": "Read joint explanation; preserve its direct temporal contradiction rather than infer one from a bare dated occurrence.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 18,
+  "source": "joint"
+}

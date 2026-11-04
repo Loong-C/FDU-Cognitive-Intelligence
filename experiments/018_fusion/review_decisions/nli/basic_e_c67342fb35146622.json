@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "720c10e7febe3ec4bd98511911f220adc84d52f2cca2657e3ef310a7c9ca67b2",
+  "evidence_quote": "over 15 finished fights",
+  "key": "basic_e_c67342fb35146622",
+  "rationale": "Over 15 finished fights allows 16 but also larger counts. The evidence does not establish the exact count of 16 or rule it out.",
+  "review_note": "Shorten correct lower-bound explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 296,
+  "source": "nli"
+}

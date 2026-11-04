@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "0a9aa45d75f0c4c8aef508b71364a5a159373391c835408d7e45d622b78694b5",
+  "evidence_quote": "from 2024 to 2028",
+  "key": "challenge_e_b5ce53d16de1c884",
+  "rationale": "The evidence states that Shuntaro Furukawa returned to the post of president from 2024 to 2028. Since the year 2025 falls within the range of 2024 to 2028, the evidence entails that he served as president in 2025.",
+  "review_note": "Returned presidency interval includes 2025.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 628,
+  "source": "nli"
+}

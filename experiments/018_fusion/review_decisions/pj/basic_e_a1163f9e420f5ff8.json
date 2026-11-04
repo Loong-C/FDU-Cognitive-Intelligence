@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "d0ebb0bec906930bac692d3f6dc0a57f79867716e207d36fd73830cc2961170c",
+  "evidence_quote": "Brooklyn, New York",
+  "key": "basic_e_a1163f9e420f5ff8",
+  "rationale": "The evidence states that Mike Tyson was born in \"Brooklyn, New York.\" The claim states that he was born in \"Brooklyn.\" Since being born in Brooklyn, New York, logically entails being born in Brooklyn, the evidence fully supports the claim.",
+  "review_note": "Omitting New York qualifier preserves birthplace.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 246,
+  "source": "pj"
+}

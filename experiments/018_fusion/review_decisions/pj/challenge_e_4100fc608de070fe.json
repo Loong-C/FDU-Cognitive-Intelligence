@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "67b05429d0a5d3a6676f267581724f5f4160f1bd5667b25deb7786e84c2acc5b",
+  "evidence_quote": "a local culinary award",
+  "key": "challenge_e_4100fc608de070fe",
+  "rationale": "The evidence gives a generic local culinary award in 2007. It does not establish New York City or Best Artisan Baker, so the specific claim remains undetermined.",
+  "review_note": "Removed unsupported locality-to-bakery implication.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 479,
+  "source": "pj"
+}

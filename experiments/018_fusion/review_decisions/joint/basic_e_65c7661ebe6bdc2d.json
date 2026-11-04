@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "cb4d8f9b510b90603ad832a1c310f3459c220f924d72cfa88baf97e72a628201",
+  "evidence_quote": "at least 160 chapters",
+  "key": "basic_e_65c7661ebe6bdc2d",
+  "rationale": "The evidence states that the manga series has published \"at least 160 chapters,\" which means the total number of chapters is 160 or greater. The claim states that the total is \"more than 120 chapters.\" Since any number that is 160 or greater is necessarily greater than 120, the evidence logically entails the claim.",
+  "review_note": "Joint lower bound entails claimed weaker bound.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 157,
+  "source": "joint"
+}

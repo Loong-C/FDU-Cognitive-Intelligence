@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "303039dda74b895a8f9f5535fede1881d4836c121b894bf653c4baa343cb1ac5",
+  "evidence_quote": "In 2009, Paul won a Directors Guild of America Award.",
+  "key": "challenge_e_7a880398482f9462",
+  "rationale": "The passage identifies Paul Feig and his brother Mark, then states that Paul won a Directors Guild of America Award in 2009. Paul therefore refers to Paul Feig, supporting the claim.",
+  "review_note": "Corrected erroneous second-sentence locator and made named reference explicit.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 555,
+  "source": "nli"
+}

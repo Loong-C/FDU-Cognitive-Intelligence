@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2dae1e8581260137f9b201c1513d1cbc4389ee0a2c75bbc7ad1799e44f494d8a",
+  "evidence_quote": "In 1980, Phil Robertson took office",
+  "key": "challenge_e_bf151c9cf640d647",
+  "rationale": "Taking office in 1980 establishes the start of Robertson's presidency, not its duration. The evidence does not determine whether he remained president in 2023.",
+  "review_note": "Removed lifespan speculation; retained start-versus-continuation gap.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 643,
+  "source": "nli"
+}

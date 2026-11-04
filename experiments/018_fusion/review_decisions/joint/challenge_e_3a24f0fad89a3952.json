@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "baf47ec62c269f28b532de76a1add716dbb84c7e64087b3afe770cb675f58731",
+  "evidence_quote": "Bill and Alexander Skarsgård both",
+  "key": "challenge_e_3a24f0fad89a3952",
+  "rationale": "The evidence explicitly states: \"Bill and Alexander Skarsgård both played the lead role in the television series True Blood.\" This sentence directly confirms that Bill Skarsgård played the lead role in that series, which fully supports the claim.",
+  "review_note": "Correct plural-to-individual entailment.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 468,
+  "source": "joint"
+}

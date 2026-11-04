@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b13f2f2cc1ce930b053def7fdf97e65ef75ac9c6de7765a0494580b300c1a828",
+  "evidence_quote": "did not neglect to receive a Grammy Award",
+  "key": "basic_e_1197c3d37d5f5117",
+  "rationale": "The phrase did not neglect to receive indicates performance of the action rather than its omission. The evidence therefore entails the claimed receipt of a Grammy Award.",
+  "review_note": "Read all 62 words; preserve the logical action-versus-omission interpretation and remove repetition.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 31,
+  "source": "joint"
+}

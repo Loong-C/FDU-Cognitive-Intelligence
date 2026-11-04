@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "935c82bf6b0ec131087634232ccef18d91739cb506b245a63b42e476e997570f",
+  "evidence_quote": "two times in total, most recently in 1992",
+  "key": "basic_e_1cab306d8bf1ac65",
+  "rationale": "The stated total is two pound-shorting events. The claim requires three, which conflicts with that unqualified count.",
+  "review_note": "Read PJ draft; retain the explicit numerical restriction and remove repetition.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 44,
+  "source": "pj"
+}

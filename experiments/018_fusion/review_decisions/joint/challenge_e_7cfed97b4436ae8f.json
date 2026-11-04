@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8b27f964d65329da637decec06f78cd6610e82609bd6c56da4b6c6bee34e5a19",
+  "evidence_quote": "Like Ross Ulbricht",
+  "key": "challenge_e_7cfed97b4436ae8f",
+  "rationale": "The phrase \"Like Ross Ulbricht\" says Ross shares John Ulbricht's stated achievement of winning a Pulitzer Prize for Reporting. Thus Ross is also asserted to have won it.",
+  "review_note": "Shortened construction analysis while retaining shared predicate.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 558,
+  "source": "joint"
+}

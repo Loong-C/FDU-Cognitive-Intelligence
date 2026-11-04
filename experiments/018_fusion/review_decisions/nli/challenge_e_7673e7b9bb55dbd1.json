@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "a09620d1abc043a8213da88b6dddf49ba32048b1a394210b33ae745088219bcc",
+  "evidence_quote": "three children: Maeve, Esme and Aisling",
+  "key": "challenge_e_7673e7b9bb55dbd1",
+  "rationale": "The evidence explicitly states that Colin Farrell has three children and lists their names as Maeve, Esme, and Aisling. Since Esme is included in this list, the claim that Esme is one of his children is directly supported by the text.",
+  "review_note": "Esme explicitly in three-child list.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 545,
+  "source": "nli"
+}

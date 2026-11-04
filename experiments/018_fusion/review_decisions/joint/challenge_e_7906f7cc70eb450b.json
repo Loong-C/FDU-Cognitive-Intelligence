@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "50e434a95daf3f52c59f02a25ffd4b1d3d1801eb16cbbeae5d5914bfdbc0fddf",
+  "evidence_quote": "Both Yamal and Lamine Yamal",
+  "key": "challenge_e_7906f7cc70eb450b",
+  "rationale": "The final sentence explicitly states that both Yamal and his cousin won an Olympic gold medal in athletics, directly including Lamine Yamal.",
+  "review_note": "Retained explicit assertion; removed unnecessary external-accuracy caveat.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 552,
+  "source": "joint"
+}

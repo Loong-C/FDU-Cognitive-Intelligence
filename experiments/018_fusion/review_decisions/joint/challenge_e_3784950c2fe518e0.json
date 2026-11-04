@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2c8d0a8b25371b534a1c76f5ec96dd273946641729edf7321a3076d6b1461971",
+  "evidence_quote": "Alex Altman became the 2021 Young Entrepreneur",
+  "key": "challenge_e_3784950c2fe518e0",
+  "rationale": "The passage reports Alex's 2021 entrepreneur title without providing an exhaustive award history for Sam. It neither confirms nor rules out Sam's claimed regional startup award.",
+  "review_note": "Condensed valid nonexclusive award logic.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 465,
+  "source": "joint"
+}

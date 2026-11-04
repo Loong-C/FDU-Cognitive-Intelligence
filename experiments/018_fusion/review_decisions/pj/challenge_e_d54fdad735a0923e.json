@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7fa9d43e9487a31be381e1e68d6b64b4d6f63cedec0767bd9bc47bf8f1e4645e",
+  "evidence_quote": "Peter Osgood's cousin John Osgood",
+  "key": "challenge_e_d54fdad735a0923e",
+  "rationale": "The named winner is Peter's cousin John. That does not establish or negate Peter's own Tony award history.",
+  "review_note": "Condensed correct distinct-person analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 671,
+  "source": "pj"
+}

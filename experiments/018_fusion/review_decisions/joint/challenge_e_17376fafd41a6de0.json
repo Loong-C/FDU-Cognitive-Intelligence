@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fdb7b69ee18af5912648d0b7abf35e9209ebe45cbaa4abf36d3e4d4ebc639038",
+  "evidence_quote": "Like Mike, Michael White won",
+  "key": "challenge_e_17376fafd41a6de0",
+  "rationale": "Mike White is introduced immediately before 'Like Mike, Michael White won a Tony Award for Best Director.' The comparison attributes the same achievement to Mike and supports his claimed win.",
+  "review_note": "Removed truncated nickname and typo speculation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 420,
+  "source": "joint"
+}

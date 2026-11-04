@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "43564f19a2a8720bcb6c472b5bf51b24c5df114e43e4d58f37fedee56c4ddb3c",
+  "evidence_quote": "dismissed as baseless",
+  "key": "challenge_e_988bc16f8651f33c",
+  "rationale": "The evidence reports an official rejecting the sponsorship-negotiation reports. It does not independently establish that the negotiations happened or did not happen.",
+  "review_note": "Removed prompt quotations and condensed stance distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 594,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8fb7b3da3a6f0fcab0fae24c93b8bcf57fcf0314fb3d4bb21ecdd4714127f677",
+  "evidence_quote": "two times in total, most recently in 2024",
+  "key": "basic_e_10606436f69d65ad",
+  "rationale": "The evidence gives an unqualified total of two wins, with the latest in 2024. A claim requiring three wins by 2026 exceeds that stated total and conflicts with the evidence.",
+  "review_note": "Read full NLI draft; correct NEI. It invents a report ending before 2026 and weakens the explicit in-total constraint; preserve the existing reviewed total-count interpretation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 28,
+  "source": "nli"
+}

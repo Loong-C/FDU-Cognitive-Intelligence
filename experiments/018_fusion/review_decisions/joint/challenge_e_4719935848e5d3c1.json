@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "327a8cf637bc945f4738b08879013837f6913efc9c8886fd45a029f1cb432c38",
+  "evidence_quote": "Kōnosuke became the 1930 head",
+  "key": "challenge_e_4719935848e5d3c1",
+  "rationale": "The evidence explicitly states in the second sentence: \"Kōnosuke became the 1930 head of the internal quality control division.\" The first sentence identifies the subject as \"Kōnosuke Matsushita.\" Therefore, the claim that \"Kōnosuke Matsushita became the 1930 head of the internal quality control division\" is directly supported by the text.",
+  "review_note": "Specific headship and 1930 match.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 488,
+  "source": "joint"
+}

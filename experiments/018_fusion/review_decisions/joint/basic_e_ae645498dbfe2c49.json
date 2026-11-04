@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "91a7b7bc8e42192f679c8d49a4088b90aea38fd5c7c3b655711f0314710fdd0b",
+  "evidence_quote": "did not fail to sign",
+  "key": "basic_e_ae645498dbfe2c49",
+  "rationale": "The evidence states that \"Barbra Streisand did not fail to sign with Sony Music.\" In standard logical and linguistic interpretation, the phrase \"did not fail to [verb]\" is equivalent to \"did [verb].\" Therefore, the evidence asserts that Barbra Streisand signed with Sony Music. This directly entails the claim that \"Barbra Streisand signed with Sony Music.\"",
+  "review_note": "Negated failure correctly affirms completed signing.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 258,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "86370cb95a835077171473c705c0bcae1a53c414359426ee3cdbb40c27ee5ae4",
+  "evidence_quote": "between 15 and 20",
+  "key": "basic_e_ec4d19bc5a4f3fd3",
+  "rationale": "The stated range allows 16 fights alongside other values. It neither confirms nor rules out exactly 16.",
+  "review_note": "Remove repeated possible-value list.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 371,
+  "source": "joint"
+}

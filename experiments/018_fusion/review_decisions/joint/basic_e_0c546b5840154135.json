@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "25e57339ca170bc2c15e64ee84d2e13c3d138b3ff62c55edbedcc7fda0ab2708",
+  "evidence_quote": "In 2020, Los Angeles Dodgers won the World Series for the third time.",
+  "key": "basic_e_0c546b5840154135",
+  "rationale": "The third win in 2020 does not establish the number of wins by 2022. A further win before that cutoff is possible but not stated, leaving the claimed total undetermined.",
+  "review_note": "Read full joint draft; remove its unsupported assertion about the count at the end of 2020.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 21,
+  "source": "joint"
+}

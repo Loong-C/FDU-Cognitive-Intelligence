@@ -1,0 +1,211 @@
+{
+  "coverage": {
+    "evaluation": {
+      "base_a0": {
+        "expected": 261,
+        "received": 261
+      },
+      "distill_joint_42": {
+        "expected": 261,
+        "received": 261
+      },
+      "distill_joint_43": {
+        "expected": 261,
+        "received": 261
+      },
+      "distill_joint_44": {
+        "expected": 261,
+        "received": 261
+      },
+      "distill_nli_42": {
+        "expected": 261,
+        "received": 261
+      },
+      "distill_nli_43": {
+        "expected": 261,
+        "received": 261
+      },
+      "distill_nli_44": {
+        "expected": 261,
+        "received": 261
+      },
+      "distill_pj_42": {
+        "expected": 261,
+        "received": 261
+      },
+      "distill_pj_43": {
+        "expected": 261,
+        "received": 261
+      },
+      "distill_pj_44": {
+        "expected": 261,
+        "received": 261
+      },
+      "old_a0_42": {
+        "expected": 261,
+        "received": 261
+      },
+      "old_a0_43": {
+        "expected": 261,
+        "received": 261
+      },
+      "old_a0_44": {
+        "expected": 261,
+        "received": 261
+      }
+    },
+    "validation": {
+      "base_a0": {
+        "expected": 259,
+        "received": 259
+      },
+      "base_nli": {
+        "expected": 259,
+        "received": 259
+      },
+      "base_np": {
+        "expected": 259,
+        "received": 259
+      },
+      "base_pj": {
+        "expected": 259,
+        "received": 259
+      },
+      "distill_joint_42": {
+        "expected": 259,
+        "received": 259
+      },
+      "distill_joint_43": {
+        "expected": 259,
+        "received": 259
+      },
+      "distill_joint_44": {
+        "expected": 259,
+        "received": 259
+      },
+      "distill_nli_42": {
+        "expected": 259,
+        "received": 259
+      },
+      "distill_nli_43": {
+        "expected": 259,
+        "received": 259
+      },
+      "distill_nli_44": {
+        "expected": 259,
+        "received": 259
+      },
+      "distill_pj_42": {
+        "expected": 259,
+        "received": 259
+      },
+      "distill_pj_43": {
+        "expected": 259,
+        "received": 259
+      },
+      "distill_pj_44": {
+        "expected": 259,
+        "received": 259
+      },
+      "old_a0_42": {
+        "expected": 259,
+        "received": 259
+      },
+      "old_a0_43": {
+        "expected": 259,
+        "received": 259
+      },
+      "old_a0_44": {
+        "expected": 259,
+        "received": 259
+      },
+      "old_nli_42": {
+        "expected": 259,
+        "received": 259
+      },
+      "old_nli_43": {
+        "expected": 259,
+        "received": 259
+      },
+      "old_nli_44": {
+        "expected": 259,
+        "received": 259
+      },
+      "old_np_42": {
+        "expected": 259,
+        "received": 259
+      },
+      "old_np_43": {
+        "expected": 259,
+        "received": 259
+      },
+      "old_np_44": {
+        "expected": 259,
+        "received": 259
+      },
+      "old_pj_42": {
+        "expected": 259,
+        "received": 259
+      },
+      "old_pj_43": {
+        "expected": 259,
+        "received": 259
+      },
+      "old_pj_44": {
+        "expected": 259,
+        "received": 259
+      },
+      "review_n_old_a0_42": {
+        "expected": 259,
+        "received": 259
+      },
+      "review_n_old_a0_43": {
+        "expected": 259,
+        "received": 259
+      },
+      "review_n_old_a0_44": {
+        "expected": 259,
+        "received": 259
+      },
+      "review_n_p": {
+        "expected": 259,
+        "received": 259
+      },
+      "review_np_old_a0_42": {
+        "expected": 259,
+        "received": 259
+      },
+      "review_np_old_a0_43": {
+        "expected": 259,
+        "received": 259
+      },
+      "review_np_old_a0_44": {
+        "expected": 259,
+        "received": 259
+      },
+      "review_p_old_a0_42": {
+        "expected": 259,
+        "received": 259
+      },
+      "review_p_old_a0_43": {
+        "expected": 259,
+        "received": 259
+      },
+      "review_p_old_a0_44": {
+        "expected": 259,
+        "received": 259
+      }
+    }
+  },
+  "deferred": [
+    "epoch_1_2_checkpoint_validation",
+    "new_distillation_review_routes",
+    "remaining_49_evaluation_configurations"
+  ],
+  "original_full_plan_complete": false,
+  "partial_methods_not_scored_as_complete": true,
+  "quick_scope_complete": true,
+  "schedule_sha256": "a1c4b7533553ad80588b5d7bd44954dd1adcb547a5cbaab64a9bf3bda8d26fa6",
+  "status": "complete",
+  "time_unix": 1793676372.863952
+}

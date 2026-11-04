@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "32facf189da94fcf8cd41b43d6d03ea73c25bd9f64f785739952faa50160bc53",
+  "evidence_quote": "Ali Faye became the first in the family",
+  "key": "challenge_e_34195d7965016fc3",
+  "rationale": "Ali is named as the family's first 100m freestyle gold medallist. That does not make him the only winner or establish Bassirou's medal history. Bassirou's election win does not settle the separate medal claim.",
+  "review_note": "Corrected first-versus-only and distinct-profession inference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 462,
+  "source": "nli"
+}

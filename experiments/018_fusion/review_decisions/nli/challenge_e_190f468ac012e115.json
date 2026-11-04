@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "c7b5e233d1142b71be3f6086793b4607c4c5fe001eaff6f30a74981c823ba1bf",
+  "evidence_quote": "In 2015, she received a knighthood",
+  "key": "challenge_e_190f468ac012e115",
+  "rationale": "The evidence explicitly states in the first paragraph: \"In 2015, she received a knighthood for services to education.\" This sentence directly matches the claim regarding the recipient, the year, the type of honor, and the reason for the award. Therefore, the evidence entails the claim.",
+  "review_note": "She resolves to Paula; honor, purpose and date match.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 424,
+  "source": "nli"
+}

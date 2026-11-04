@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e2f6c031df90c212a6a7e6537b22a9d0b23972a66aaf72744c1935d15ed3a55c",
+  "evidence_quote": "for the first time in 1992",
+  "key": "basic_e_62bfbb9b023c2ce9",
+  "rationale": "Calling 1992 the first such event rules out shorting the pound before 1992. The claim contradicts this chronology.",
+  "review_note": "Shorten joint first-year reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 150,
+  "source": "joint"
+}

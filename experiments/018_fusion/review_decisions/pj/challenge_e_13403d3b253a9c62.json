@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "170976e59c6aa79141c9d108eb1b2a50da5f62cb6c4b3cb4d5e41ccb620bef42",
+  "evidence_quote": "In 2009, she won",
+  "key": "challenge_e_13403d3b253a9c62",
+  "rationale": "The pronoun 'she' identifies Sarah as the award recipient. Sarah's win does not imply Paul did not also win, and the evidence gives no award result for him.",
+  "review_note": "Corrected pronoun mismatch treated as contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 418,
+  "source": "pj"
+}

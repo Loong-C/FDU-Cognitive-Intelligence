@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6030ff8dd08f683c2982850ac52ccaa350a74ec7fd84584f9fc9ab94daa46d43",
+  "evidence_quote": "19 feature films",
+  "key": "basic_e_d4864df427dc4467",
+  "rationale": "The evidence gives 19 films to date, while the claim gives 17. These exact totals conflict.",
+  "review_note": "Shorten correct current-total comparison.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 322,
+  "source": "joint"
+}

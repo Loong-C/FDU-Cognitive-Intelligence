@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e6c362ad1174a2147af6ede53993778cf58ef3b86b0434a878df37da2cafa2de",
+  "evidence_quote": "ever did so",
+  "key": "basic_e_47d66ea73f2bac5a",
+  "rationale": "The sole win is dated 2018. The claim requires another after 2018, directly violating the only-ever restriction.",
+  "review_note": "Shorten joint sole-occurrence reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 113,
+  "source": "joint"
+}

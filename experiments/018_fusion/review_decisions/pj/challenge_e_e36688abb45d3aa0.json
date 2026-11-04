@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "12eb0825eb8cd1697305a87f673a180adde4b66e4d25d62a74ef6060db6cb002",
+  "evidence_quote": "a feat Diomaye later repeated",
+  "key": "challenge_e_e36688abb45d3aa0",
+  "rationale": "The repeated feat is winning gold in the 100m freestyle. By saying Diomaye repeated it, the evidence attributes that achievement to Bassirou Diomaye Faye.",
+  "review_note": "Condensed correct repeated-achievement reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 691,
+  "source": "pj"
+}

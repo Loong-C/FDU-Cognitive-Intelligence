@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4fe7b2ef71a0ee218169353fab131fe61e8ba8cb10744c3929d5665593d69cc0",
+  "evidence_quote": "San Antonio Spurs and nowhere else",
+  "key": "basic_e_b0657fa20245455f",
+  "rationale": "Only San Antonio Spurs is included in the explicitly exhaustive coaching history. Coaching for New York Knicks contradicts that restriction.",
+  "review_note": "Condense repeated entity comparison.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 265,
+  "source": "joint"
+}

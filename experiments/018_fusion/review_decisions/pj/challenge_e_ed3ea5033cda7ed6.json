@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "80cf08c14ee474ddc5119ebfbae361fe6c11cffd9db545e158a2ece0bcb63ec0",
+  "evidence_quote": "In 2021, he won",
+  "key": "challenge_e_ed3ea5033cda7ed6",
+  "rationale": "The pronoun refers to Diego. No award result for Cardi B or exclusive restriction is given, so her claim is unresolved.",
+  "review_note": "Corrected recipient mismatch as contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 702,
+  "source": "pj"
+}

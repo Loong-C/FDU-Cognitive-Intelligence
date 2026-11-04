@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "19d5a24a5205fc652cd220ec06730326597774067b1d0b4107d06e5d5b9cc25d",
+  "evidence_quote": "at least 10 airports",
+  "key": "basic_e_526b1f26de0efcda",
+  "rationale": "Fifteen airports satisfies the lower bound, but other totals also satisfy it. The evidence cannot establish or exclude exactly 15.",
+  "review_note": "Shorten PJ possible-versus-necessary argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 125,
+  "source": "pj"
+}

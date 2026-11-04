@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c69303c8a886637d9376afe4ad80fa906f2c2c4c587bc1c3e9850c67c103dfba",
+  "evidence_quote": "the only member of the family",
+  "key": "challenge_e_3e3b56c051369a2f",
+  "rationale": "John's exclusive family achievement cannot determine Anthony's award history without evidence that Anthony belongs to that family. No such relationship is stated.",
+  "review_note": "Corrected explicit assumption underpinning wrong verdict.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 476,
+  "source": "joint"
+}

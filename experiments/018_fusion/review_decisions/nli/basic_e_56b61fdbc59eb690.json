@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b4f35f9a09389df8b34cde930444c0bfea2153ceb911ce540fb1cbed430a37e4",
+  "evidence_quote": "In 2018",
+  "key": "basic_e_56b61fdbc59eb690",
+  "rationale": "The evidence states that Luka Modrić won the award in 2018. It does not provide information about whether he won the award in any other years (such as 2019 or 2020) or how many times he had won it in total by 2020. Therefore, we cannot determine if he had won it three times based solely on the provided text.",
+  "review_note": "NLI correctly identifies missing total without exclusivity.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 134,
+  "source": "nli"
+}

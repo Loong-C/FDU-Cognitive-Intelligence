@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a8b4ec7fb1ede5eb7d4e1178cf762e60e907975bfa85f2638883c05701625a75",
+  "evidence_quote": "refused to confirm",
+  "key": "challenge_e_1de8c6b1343e5ee9",
+  "rationale": "The expert's refusal to confirm shows no verification of the naming claim. It does not establish that the claim is false, and the evidence supplies no other resolution.",
+  "review_note": "Condensed valid nonconfirmation reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 432,
+  "source": "joint"
+}

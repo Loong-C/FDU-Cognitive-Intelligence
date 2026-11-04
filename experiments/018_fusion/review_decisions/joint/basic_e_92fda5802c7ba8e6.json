@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4818892a29e2d2d467d5a355bc18d298cb259e4b1e6fdf605a301fd6486c164b",
+  "evidence_quote": "Variety and The Hollywood Reporter",
+  "key": "basic_e_92fda5802c7ba8e6",
+  "rationale": "The evidence says The Pitt was featured in Variety and The Hollywood Reporter. The conjunction directly confirms the claimed feature in The Hollywood Reporter.",
+  "review_note": "Remove unsupported identification as a show.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 226,
+  "source": "joint"
+}

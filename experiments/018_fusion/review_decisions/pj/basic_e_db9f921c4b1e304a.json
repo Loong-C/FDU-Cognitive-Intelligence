@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c36a68bd96977fcce39587ed98a36decd8760560bb5f019440ed19175804bb2a",
+  "evidence_quote": "at least 20 films",
+  "key": "basic_e_db9f921c4b1e304a",
+  "rationale": "Exactly 20 would satisfy the evidence but fail the claim; 21 would satisfy both. The claim remains undetermined.",
+  "review_note": "Retain boundary examples without repetition.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 334,
+  "source": "pj"
+}

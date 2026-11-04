@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6674f3b70d714f7072cb522ad951c6f9b7004bde14b2861070e4d4c0696996f9",
+  "evidence_quote": "won the World Series in 2020",
+  "key": "basic_e_6d058e90f90ad1fa",
+  "rationale": "The evidence confirms a 2020 victory but gives no later results. It neither confirms nor excludes another victory after 2020.",
+  "review_note": "Shorten PJ later-event uncertainty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 165,
+  "source": "pj"
+}

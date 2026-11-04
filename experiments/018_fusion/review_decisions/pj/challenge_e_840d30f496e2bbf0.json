@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ffb8f517ca76d5b37eb9f38b6a504f412d46c82f1be3e572a17a66bc748eaa1c",
+  "evidence_quote": "A namesake Sharon Stone",
+  "key": "challenge_e_840d30f496e2bbf0",
+  "rationale": "The named recipient is Sharon Stone. The evidence neither attributes the award to Sharon Tate nor supplies a complete winner list or exclusion of Tate, so her award status is unknown.",
+  "review_note": "Removed hypothetical years and categories; preserved nonexclusive identity distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 567,
+  "source": "pj"
+}

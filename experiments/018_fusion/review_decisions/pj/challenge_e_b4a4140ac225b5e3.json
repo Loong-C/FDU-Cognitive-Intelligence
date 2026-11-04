@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a10d14f40eab0722417340efce377b76af966461cab102d6edfe949f4e29713e",
+  "evidence_quote": "but later confirmed it",
+  "key": "challenge_e_b4a4140ac225b5e3",
+  "rationale": "The former secretary general later confirmed the IOC's secret fast-food sponsorship negotiations in 2005. That confirmation supports the claim despite the initial denial.",
+  "review_note": "Shortened correct confirmation referent.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 626,
+  "source": "pj"
+}

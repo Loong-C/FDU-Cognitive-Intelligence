@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "50e4bda9725fa3e00cfdb7035ba35f9242640de23b5839de455fa6cb0414c3cf",
+  "evidence_quote": "Within three years of that",
+  "key": "basic_e_405f374457df12f0",
+  "rationale": "The advisor role was in 2019 plus three years, or 2022. A launch within three years afterward could be in 2023 or 2024, so 2024 is not uniquely determined.",
+  "review_note": "Shorten NLI using interior years to avoid boundary ambiguity.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 101,
+  "source": "nli"
+}

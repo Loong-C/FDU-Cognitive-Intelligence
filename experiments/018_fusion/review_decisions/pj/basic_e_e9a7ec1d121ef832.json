@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "cc84b051d62ccd901d1677e5ee20b36fb8ae209c44d448666a49c310864db102",
+  "evidence_quote": "born in Victoria",
+  "key": "basic_e_e9a7ec1d121ef832",
+  "rationale": "Only Victoria is given as the birthplace. The evidence provides no city, leaving birth in Melbourne unconfirmed and unexcluded.",
+  "review_note": "Remove outside Australian geography and example cities.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 367,
+  "source": "pj"
+}

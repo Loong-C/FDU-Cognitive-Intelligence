@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8902a43884144bd117803456d0128137dc4f16c51f17c01cd5456454e907a60a",
+  "evidence_quote": "fewer than 15 finished fights",
+  "key": "basic_e_6d59d0cf249730ee",
+  "rationale": "The upper bound below 15 leaves counts on either side of 10 possible. For example, 5 and 12 both fit, so the claim is not settled.",
+  "review_note": "Shorten joint threshold reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 167,
+  "source": "joint"
+}

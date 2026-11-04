@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b119466c99884cf6b7c81d782f06d5f58e09f484c23aa85dc6e25e6a262b40f4",
+  "evidence_quote": "at least 30 episodes",
+  "key": "basic_e_d693a44a5249db2d",
+  "rationale": "At least 30 includes exactly 30 and larger counts. Exactly 30 would fail 'more than 30,' while 31 would satisfy it, leaving the claim unresolved.",
+  "review_note": "Condense boundary-case reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 325,
+  "source": "nli"
+}

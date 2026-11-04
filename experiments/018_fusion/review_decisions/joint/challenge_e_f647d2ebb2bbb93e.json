@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "9539011716102f0fa035843001bb9b9ce43d2795d7878124b062b14a637cb614",
+  "evidence_quote": "children include Carter, Lindsey and Bryson",
+  "key": "challenge_e_f647d2ebb2bbb93e",
+  "rationale": "The passage names James Joseph Harbaugh and lists Lindsey among his children. Linking this to Jim Harbaugh requires the conventional short-name reading, which the evidence does not explicitly state.",
+  "review_note": "Removed factual commonly-known alias assertion and disclosed convention.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 718,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "dfd4ab7c3c39eb8e23a9cb8f564c17035ad1201cc97eebe10345e5c7b890c8af",
+  "evidence_quote": "most recently in 2020",
+  "key": "basic_e_8f9213f927825732",
+  "rationale": "The evidence names 2020 as the Dodgers' most recent World Series win. Another win after 2020 would contradict that latest-win date.",
+  "review_note": "Shorten correct latest-occurrence contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 222,
+  "source": "nli"
+}

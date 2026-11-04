@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "363a342f407ba67e61da6151824e4ca0d60bf48ff587ee9d9dd78f300d864e14",
+  "evidence_quote": "the only time Soros ever did so",
+  "key": "basic_e_1ba3c86b04753ef9",
+  "rationale": "The evidence says the 1992 shorting was Soros's only such occurrence. One occurrence is incompatible with the claimed total of three by 1995.",
+  "review_note": "Read NLI draft; shorten the valid uniqueness constraint.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 43,
+  "source": "nli"
+}

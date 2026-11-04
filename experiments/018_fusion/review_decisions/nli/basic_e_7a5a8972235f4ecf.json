@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5e5265d92aac5f31fa2985c9b711193d5a8e4697610e689500540cfbdc67af8c",
+  "evidence_quote": "was forced to sign",
+  "key": "basic_e_7a5a8972235f4ecf",
+  "rationale": "The evidence presents Streisand's signing with Sony Music as an action performed under force. The circumstances do not change that the signing occurred.",
+  "review_note": "Shorten while grounding compelled-action reading locally.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 190,
+  "source": "nli"
+}

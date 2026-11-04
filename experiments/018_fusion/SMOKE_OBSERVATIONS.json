@@ -1,0 +1,11 @@
+{
+  "memory_execution_completed": true,
+  "all_smoke_outputs_valid": false,
+  "nli_pj_valid_calls": 4,
+  "review_long_truncated_calls": 2,
+  "review_long_input_tokens": 5025,
+  "review_long_output_tokens_each": 1024,
+  "stress_input": "Three synthetic repeated-word candidate analyses attached to the longest training input; not scored benchmark responses.",
+  "meaning": "Capacity execution completed without OOM; these two outputs fail the strict output contract. Do not describe them as format-passing.",
+  "policy": "Original raw records kept. No prompt/budget changes or regenerations. Real malformed/truncated evaluation outputs count wrong."
+}

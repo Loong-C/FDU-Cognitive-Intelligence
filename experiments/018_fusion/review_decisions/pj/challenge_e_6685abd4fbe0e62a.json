@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0cd6b3f6486fec411f8e365553c959bd6c9f6cbc82ec0960be616d00287a8bb1",
+  "evidence_quote": "In 1930, Kōnosuke won a patent",
+  "key": "challenge_e_6685abd4fbe0e62a",
+  "rationale": "The evidence identifies Kōnosuke Matsushita, then explicitly states that Kōnosuke won an improved-battery patent in 1930. This directly supports the claim.",
+  "review_note": "Condensed valid name, action and date match.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 526,
+  "source": "pj"
+}

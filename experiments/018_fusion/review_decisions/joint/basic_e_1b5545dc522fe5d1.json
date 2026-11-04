@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "27cb604bc3225692b0c52650bf20380d4b76d21470feaf6268c5ab1d8dc5cfa4",
+  "evidence_quote": "for the first time in 2023",
+  "key": "basic_e_1b5545dc522fe5d1",
+  "rationale": "The initial launch in 2023 does not specify how many launches followed before 2025. The claimed cumulative total of three remains undetermined.",
+  "review_note": "Read joint text; retain the initial-versus-cumulative-count distinction in concise form.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 42,
+  "source": "joint"
+}

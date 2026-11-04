@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2a154188c08e790c6953418419f58e1ec98f727f0e3aaa00f0d008fce4690df4",
+  "evidence_quote": "in 2010",
+  "key": "basic_e_be35651349f02849",
+  "rationale": "The evidence confirms Hough won in 2010 but says nothing about subsequent wins. Another win after 2010 is neither established nor excluded.",
+  "review_note": "Condense nonexclusive occurrence reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 285,
+  "source": "pj"
+}

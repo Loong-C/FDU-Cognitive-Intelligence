@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ee57861e5cd2c818ec843c925a7c61b3b3ee6ed49658d7aaf77a97e4780bd412",
+  "evidence_quote": "the only time Soros ever did so",
+  "key": "basic_e_fb569fe4c5d0d71d",
+  "rationale": "The evidence says Soros shorted the British pound in 1992 and that this was the only time he ever did so. This excludes shorting it before 1992, contradicting the claim.",
+  "review_note": "Shortened valid historical exclusivity.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 391,
+  "source": "nli"
+}

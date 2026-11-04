@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "6e166fcf600fc723607d1ff5668af9e76258cbe9f900c4617dc2f3787777fe95",
+  "evidence_quote": "Emma Stone was born in Scottsdale.",
+  "key": "basic_e_36d0e599604c3c03",
+  "rationale": "The evidence explicitly states that \"Emma Stone was born in Scottsdale.\" The claim is identical to this statement. Therefore, the evidence directly entails the claim.",
+  "review_note": "Joint repeats the explicit birthplace.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 85,
+  "source": "joint"
+}

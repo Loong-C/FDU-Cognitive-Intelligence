@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "96327fc7f33a4fc0ead4d6fc8f80ee1edf68fd345332c1c45c2adf79d51671f3",
+  "evidence_quote": "born in South Dakota",
+  "key": "basic_e_ae73f40e373aec2e",
+  "rationale": "The evidence gives South Dakota as Noem's birthplace without specifying Watertown. It does not determine the claimed city of birth.",
+  "review_note": "Remove external geographic containment claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 259,
+  "source": "nli"
+}

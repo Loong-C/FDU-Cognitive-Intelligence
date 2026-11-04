@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d633db4e9f066afd0d999b68fa84ceb3c09ceb704aa89373798be802ddc0304d",
+  "evidence_quote": "between 15 and 20",
+  "key": "basic_e_c9d22c08f64f93eb",
+  "rationale": "The range permits 17 feature films alongside other counts. It cannot establish the claimed exact total.",
+  "review_note": "Condense compatible-but-unproven reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 301,
+  "source": "pj"
+}

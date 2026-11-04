@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "691e63927d643581813cf6026b2489ce53f24a7b58e2304f9b86c39ae8900c9d",
+  "evidence_quote": "the only time Lookman ever did so",
+  "key": "basic_e_c64ffb88fb065d59",
+  "rationale": "The evidence states that Ademola Lookman won the award in 2024 and explicitly describes this as \"the only time Lookman ever did so.\" This implies that he did not win the award at any other time, including before 2024. Therefore, the claim that he had won the award before 2024 is contradicted by the evidence.",
+  "review_note": "Only-ever win in 2024 excludes prior wins.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 295,
+  "source": "pj"
+}

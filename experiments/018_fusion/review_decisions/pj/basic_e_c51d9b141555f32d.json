@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5e5ecfcc7d29df8438d874947a25e1f90d55f5fdf2d7874244844de2e19741d3",
+  "evidence_quote": "over 25 sultans",
+  "key": "basic_e_c51d9b141555f32d",
+  "rationale": "The evidence establishes only a count greater than 25. Twenty-eight fits that constraint but is not singled out as the actual count.",
+  "review_note": "Remove enumerations and repetition.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 292,
+  "source": "pj"
+}

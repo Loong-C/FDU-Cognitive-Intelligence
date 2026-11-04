@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "241ea4d7822a91b2b892b13986b192073c723baf8075a26f8f6be389d239ce9e",
+  "evidence_quote": "no more than 20 feature films",
+  "key": "basic_e_d355b2bb3d8e3c39",
+  "rationale": "Seventeen satisfies the maximum of 20, while other counts also do. The exact total is unspecified, so the claim remains undetermined.",
+  "review_note": "Remove repeated hypothetical totals.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 319,
+  "source": "pj"
+}

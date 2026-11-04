@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b08de7d0c9f74aa01719c70054d98fb1b645f911798774d9779d6c45235f50a9",
+  "evidence_quote": "It was later confirmed",
+  "key": "challenge_e_d211203276546017",
+  "rationale": "The evidence states that it was \"confirmed\" that the production team had secured exclusive rights to use a specific vintage DeLorean for the opening scene. The claim asserts exactly this fact: that the production team secured those rights. Since the evidence confirms the occurrence of the event described in the claim, the claim is entailed by the evidence.",
+  "review_note": "Confirmed rights acquisition matches claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 667,
+  "source": "nli"
+}

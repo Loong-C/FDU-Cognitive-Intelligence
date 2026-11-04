@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "1e1611863cae8e742ef41fcf52293ecc0c5e3a9f084ab532495582f15cc54ff3",
+  "evidence_quote": "did not manage to acquire CapCut",
+  "key": "basic_e_0269d99ced049376",
+  "rationale": "The evidence explicitly states that \"TikTok did not manage to acquire CapCut.\" The claim asserts the opposite, that \"TikTok acquired CapCut.\" Since the evidence directly negates the action described in the claim, the evidence contradicts the claim.",
+  "review_note": "Checked the explicit did not manage wording; PJ correctly treats this acquisition as not completed.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 3,
+  "source": "pj"
+}

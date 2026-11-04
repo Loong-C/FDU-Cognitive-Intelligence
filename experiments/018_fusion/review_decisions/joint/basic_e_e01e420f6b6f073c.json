@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "a164b5c4a877ada1f2b9241bf639dc931301c255fde590e27c0c245f19ec61ec",
+  "evidence_quote": "between 30 and 35 episodes",
+  "key": "basic_e_e01e420f6b6f073c",
+  "rationale": "The evidence explicitly states that Ellen Pompeo appeared in \"between 30 and 35 episodes\" of Grey's Anatomy. The claim asserts that she appeared in exactly 27 episodes. Since 27 is numerically less than 30, it falls outside the range established by the evidence. Therefore, the evidence contradicts the claim.",
+  "review_note": "Range comparison correctly excludes twenty-seven.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 344,
+  "source": "joint"
+}

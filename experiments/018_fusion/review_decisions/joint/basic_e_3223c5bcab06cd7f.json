@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "9f38ea56e16cb65cee3fd00723b3de0febed19bc77d0dff788b3bbab8a10d3bd",
+  "evidence_quote": "fewer than 15 feature films",
+  "key": "basic_e_3223c5bcab06cd7f",
+  "rationale": "The evidence states that Quentin Tarantino has directed \"fewer than 15 feature films to date.\" The claim states that he has directed \"more than 20 feature films to date.\" Mathematically, it is impossible for a single integer count to be both less than 15 and greater than 20. Therefore, the evidence explicitly contradicts the claim.",
+  "review_note": "Joint integer-bound contradiction follows from the evidence.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 75,
+  "source": "joint"
+}

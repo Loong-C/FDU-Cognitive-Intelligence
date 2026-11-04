@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "1fca6cd18658a29b96239ae26dd9012fba33d3d75bc85a2f9102815302973aaf",
+  "evidence_quote": "declined to comment on reports",
+  "key": "challenge_e_b1dd917168925d3e",
+  "rationale": "The publicist declined to comment on marriage reports. This neither verifies those reports nor establishes that the marriage did not occur.",
+  "review_note": "Shortened valid no-comment distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 621,
+  "source": "nli"
+}

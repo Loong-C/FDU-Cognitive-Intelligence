@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2e3dbefd5c656d140ef3bd87043b00279db2e38b0aca9e785f6838a699df9340",
+  "evidence_quote": "for the second time",
+  "key": "basic_e_7d5cd3e7f251d546",
+  "rationale": "The second pound-shorting occasion occurred in 1992. The evidence does not describe events after 1992, so another occasion afterward remains undetermined.",
+  "review_note": "Remove unjustified first-event-before-calendar-1992 assumption.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 194,
+  "source": "nli"
+}

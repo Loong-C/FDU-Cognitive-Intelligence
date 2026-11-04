@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "93d99589cef9496fd40390896202cd58ac2a33558f7d9aa30a391e24db463f40",
+  "evidence_quote": "the only member of the family",
+  "key": "challenge_e_17ad4576952d3edf",
+  "rationale": "The sole-family-winner restriction applies to John's family, but Peter's membership in that family is not given. His claimed award is therefore neither confirmed nor excluded.",
+  "review_note": "Corrected assumption connecting Peter to restricted group.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 422,
+  "source": "pj"
+}

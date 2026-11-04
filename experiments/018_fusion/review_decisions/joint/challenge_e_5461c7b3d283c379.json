@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "45ed320f47a2b83822c3de1dc5715463e2ce9db586fae9ef8d6143e2a88eef58",
+  "evidence_quote": "disputed claims",
+  "key": "challenge_e_5461c7b3d283c379",
+  "rationale": "Reporting that the assistant disputed the marriage does not settle the underlying event. No independent fact confirms or excludes the marriage in 2012.",
+  "review_note": "Shortened reported-stance distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 501,
+  "source": "joint"
+}

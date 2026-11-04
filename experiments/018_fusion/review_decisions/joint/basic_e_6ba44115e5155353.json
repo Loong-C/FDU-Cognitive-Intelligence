@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c7377bf13eaac4470633c419030b51d7dcae4dc240d525dc726318f89ca0792d",
+  "evidence_quote": "Pittsburgh, Pennsylvania",
+  "key": "basic_e_6ba44115e5155353",
+  "rationale": "Pittsburgh appears directly in the stated birthplace. The claim simply omits the extra qualifier, so it is entailed.",
+  "review_note": "Shorten joint and remove unnecessary city/state categories.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 162,
+  "source": "joint"
+}

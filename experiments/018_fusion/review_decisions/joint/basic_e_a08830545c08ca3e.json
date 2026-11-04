@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f93e6139f395e2bd967e81733344bf499e3f50c5927985b224e75c818b0437ac",
+  "evidence_quote": "actually premiered on August 10, 1939",
+  "key": "basic_e_a08830545c08ca3e",
+  "rationale": "The evidence states an actual August 10, 1939 premiere. 'As scheduled' adds that the plan was fulfilled, without changing the confirmed event.",
+  "review_note": "Shorten actual-event versus schedule explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 245,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ff0f4ef2e4015e32ad969ef09f48917387705982256c38232c82ce4b2dd72ef0",
+  "evidence_quote": "Six years after that",
+  "key": "basic_e_2113498dd4022d6e",
+  "rationale": "The timeline gives 2012 + 2 + 6 = 2020 for the specified Super Bowl XLVI halftime show. This conflicts with the claim that the same event occurred in 2019.",
+  "review_note": "Read joint calculation; retain the supplied event identity and offsets, not external performance history.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 49,
+  "source": "joint"
+}

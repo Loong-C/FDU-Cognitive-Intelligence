@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "a30446209f760e96d36ed1b21281ca9621a7f7273ec8ceebd92c948c670b4f44",
+  "evidence_quote": "went on to sign",
+  "key": "basic_e_8d8084dbfef39ff7",
+  "rationale": "The evidence states that \"Barbra Streisand went on to sign with Sony Music.\" The claim states that \"Barbra Streisand signed with Sony Music.\" The phrase \"went on to\" in the evidence indicates a sequence of events but does not negate the action itself; it confirms that the action of signing with Sony Music occurred. Therefore, the evidence entails the claim.",
+  "review_note": "Went on to sign entails a completed signing.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 221,
+  "source": "nli"
+}

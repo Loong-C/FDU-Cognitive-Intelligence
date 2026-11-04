@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "5118676c65ba6916a58f8369b77e84718df8ac83f79b8fd6eeaa3a32fe20359b",
+  "evidence_quote": "eventually was released",
+  "key": "basic_e_8bc11f85ec32addf",
+  "rationale": "The evidence explicitly states that \"it eventually was released in the United States on November 15, 2024.\" The claim asserts exactly this fact. Therefore, the evidence entails the claim.",
+  "review_note": "Actual date overrides initial schedule for this claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 218,
+  "source": "pj"
+}

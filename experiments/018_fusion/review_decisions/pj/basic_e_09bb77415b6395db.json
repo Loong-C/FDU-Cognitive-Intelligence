@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "dbe6b7c58b38d6a939c9629d54bbb354895227d69c25000799bd9481daec28e3",
+  "evidence_quote": "widely tipped to acquire CapCut",
+  "key": "basic_e_09bb77415b6395db",
+  "rationale": "Widely tipped to acquire describes a prediction or expectation. It gives no acquisition outcome, so the evidence neither establishes nor excludes that TikTok acquired CapCut.",
+  "review_note": "Read complete PJ draft; remove the unsupplied market attribution and shorten the sound expectation argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 19,
+  "source": "pj"
+}

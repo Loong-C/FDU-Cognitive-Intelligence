@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "181da6c6d7b4cf2e7bca4cd8a26ba6caa9e44e1c6532c2ae5255d7e2d0a03862",
+  "evidence_quote": "In 2015, Paula received",
+  "key": "challenge_e_545d6f67f6ab77cc",
+  "rationale": "The evidence explicitly states in the first paragraph: \"In 2015, Paula received a knighthood for services to education.\" This sentence directly matches the claim in terms of the subject (Paula Vennells), the action (received a knighthood), the reason (for services to education), and the year (2015). Therefore, the evidence entails the claim.",
+  "review_note": "Explicit Paula honor, purpose and year all match.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 500,
+  "source": "nli"
+}

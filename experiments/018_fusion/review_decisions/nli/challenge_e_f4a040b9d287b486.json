@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a2d318e41830419733c7880884b75ffef8b74d8f73b8d9d3cb9d0b4be8b8ba9f",
+  "evidence_quote": "a regional nursing excellence award",
+  "key": "challenge_e_f4a040b9d287b486",
+  "rationale": "Robert won a regional nursing excellence award in 1974, but its precise title and geographic scope are unstated. The evidence neither identifies nor rules out the Jamaican Nurse of the Year title.",
+  "review_note": "Removed assumed national-versus-regional mismatch and self-debate.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 717,
+  "source": "nli"
+}

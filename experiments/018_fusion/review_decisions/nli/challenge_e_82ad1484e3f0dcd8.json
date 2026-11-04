@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "9d8e13b2daaef4e430f37bd16897f8541a03b9d434d190caea131d0153907564",
+  "evidence_quote": "but later confirmed it",
+  "key": "challenge_e_82ad1484e3f0dcd8",
+  "rationale": "The evidence states that the production accountant \"later confirmed\" that the film had allocated an additional ₹20 crore for post-production VFX revisions. Although there was an initial denial, the final confirmation in the text establishes the fact as true within the context of the provided information. Therefore, the evidence entails the claim.",
+  "review_note": "Later confirmation explicitly resolves the earlier denial for the same allocation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 565,
+  "source": "nli"
+}

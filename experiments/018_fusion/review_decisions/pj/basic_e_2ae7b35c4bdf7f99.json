@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "256446a0b0ea0988fd600f30d27f6093c83037a4e36a8ad1b6de67e0768e2e80",
+  "evidence_quote": "Harry Kane was born in London.",
+  "key": "basic_e_2ae7b35c4bdf7f99",
+  "rationale": "The evidence explicitly states that \"Harry Kane was born in London.\" The claim is identical to this statement. Therefore, the evidence fully entails the claim.",
+  "review_note": "PJ correctly matches direct birthplace evidence.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 67,
+  "source": "pj"
+}

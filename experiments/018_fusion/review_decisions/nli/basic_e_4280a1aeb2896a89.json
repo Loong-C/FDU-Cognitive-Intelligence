@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0eee52ba93eefdf23b7477e65c4fd397ad3127f7e77775d150485e30cc946a79",
+  "evidence_quote": "most recently in 1966",
+  "key": "basic_e_4280a1aeb2896a89",
+  "rationale": "The most recent Emmy-winning occasion is explicitly in 1966. Another after 1966 would contradict that latest date.",
+  "review_note": "Shorten NLI and restrict awards to Emmys, not any award.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 106,
+  "source": "nli"
+}

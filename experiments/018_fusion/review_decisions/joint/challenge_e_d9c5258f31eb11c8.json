@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e2936ee3b09b3850b56604bebab334c36f7394a0bfb35f3c49fc16841dd2e7cf",
+  "evidence_quote": "the only member of the family",
+  "key": "challenge_e_d9c5258f31eb11c8",
+  "rationale": "The text never establishes that Bill belongs to Alexander's family. Alexander's exclusive role within that family therefore cannot settle whether Bill played the role.",
+  "review_note": "Corrected fabricated explicit same-family identification.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 675,
+  "source": "joint"
+}

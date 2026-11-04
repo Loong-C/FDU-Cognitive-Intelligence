@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a30ac8ec3db9d876a370a67db62f320c64485d0032ccc36b97c6672a0ed624f9",
+  "evidence_quote": "Mark Feig won a Directors Guild",
+  "key": "challenge_e_562477c9e58d7e91",
+  "rationale": "Mark's 2009 Directors Guild award does not exclude Paul also winning one. The passage provides no corresponding award information for Paul.",
+  "review_note": "Corrected distinct siblings treated as contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 507,
+  "source": "pj"
+}

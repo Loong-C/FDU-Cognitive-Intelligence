@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "76ba9430bd402993aacb9ed564b8d3c0ba99b114dc4fe768231a8f690b1efdab",
+  "evidence_quote": "between 25 and 30",
+  "key": "basic_e_cff183d6fc1d1c09",
+  "rationale": "The evidence's range is consistent with 28 sultans but does not establish that specific total. The claim remains undetermined.",
+  "review_note": "Condense correct range-versus-exact distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 314,
+  "source": "pj"
+}

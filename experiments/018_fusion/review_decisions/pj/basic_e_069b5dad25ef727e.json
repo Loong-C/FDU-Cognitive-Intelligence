@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d4db7a982903041861f7d8484877cbaf0b7caffc8dd7eb2ca7f67a605a86b38c",
+  "evidence_quote": "fewer than 160 chapters",
+  "key": "basic_e_069b5dad25ef727e",
+  "rationale": "Fewer than 160 chapters is compatible with 100 chapters and with 130 chapters. The first makes the claim false and the second makes it true, so the evidence does not decide whether there are more than 120.",
+  "review_note": "Read complete PJ reasoning; compress its valid alternative totals without inferring a lower bound.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 14,
+  "source": "pj"
+}

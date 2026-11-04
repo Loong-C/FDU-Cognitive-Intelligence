@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "5b14095efa604555a1a7fd316effac8902620e970c4ea1c82cb2b13ea1bac6da",
+  "evidence_quote": "In 2024",
+  "key": "basic_e_db519b7967114033",
+  "rationale": "The evidence states that Ademola Lookman won the award in 2024. It does not provide any information about whether he won the award in other years (such as 2025 or 2026) or how many times he has won it in total. Therefore, we cannot determine if he had won it three times by 2026 based solely on the provided text.",
+  "review_note": "Single dated win does not fix total by 2026.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 332,
+  "source": "nli"
+}

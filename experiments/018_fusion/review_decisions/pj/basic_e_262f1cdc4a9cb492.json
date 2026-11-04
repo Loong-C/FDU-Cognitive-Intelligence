@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "9c8aac36e3e796df4be296171e65a9974a1c49fc9dafd7e44af75dfb4a944585",
+  "evidence_quote": "more than 140 chapters",
+  "key": "basic_e_262f1cdc4a9cb492",
+  "rationale": "Both 150 and 160 satisfy more than 140. Thus the specific total of 150 is compatible with the evidence but not established.",
+  "review_note": "Shorten PJ retaining permitted and alternative counts.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 59,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "11e17f7b084a121c3fbe8053108a988eb5d37e6a3d107c34409c0f8557919043",
+  "evidence_quote": "the only member of the family",
+  "key": "challenge_e_17ad4576952d3edf",
+  "rationale": "Although John is the family's only winner, the text does not connect Peter to that family. A shared surname alone supplies no such connection, leaving Peter's claim undetermined.",
+  "review_note": "Condensed valid missing-membership reasoning; removed speculative subsets.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 422,
+  "source": "joint"
+}

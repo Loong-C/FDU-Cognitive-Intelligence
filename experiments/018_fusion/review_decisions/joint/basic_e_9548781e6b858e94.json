@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "973b6fe75fd87ccdd520c4180e12f5a2798d18178c2cb0c2d881745a8dcaa9ec",
+  "evidence_quote": "under 140 chapters",
+  "key": "basic_e_9548781e6b858e94",
+  "rationale": "A total below 140 may or may not exceed 120. The evidence gives no lower bound establishing the claim and no upper bound excluding it.",
+  "review_note": "Shorten valid overlapping-range reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 231,
+  "source": "joint"
+}

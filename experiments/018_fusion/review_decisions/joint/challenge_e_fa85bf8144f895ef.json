@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "054a601a3efed5809d77ab300fe6fd29ff4c35e285b444e70a4bbfab6ddb8a76",
+  "evidence_quote": "In 2010, he won",
+  "key": "challenge_e_fa85bf8144f895ef",
+  "rationale": "The evidence states, \"In 2010, he won a regional theater award.\" The pronoun \"he\" refers to Donald Glover, who is the primary subject of the preceding sentence and the paragraph. Therefore, the evidence explicitly confirms that Donald Glover won a regional theater award in 2010, which matches the claim exactly.",
+  "review_note": "Donald is the compatible masculine referent; claim matches.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 723,
+  "source": "joint"
+}

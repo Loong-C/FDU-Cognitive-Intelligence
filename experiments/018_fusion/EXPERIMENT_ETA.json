@@ -1,0 +1,36 @@
+{
+  "actual_current_baseline": {
+    "completed": 5,
+    "expected": 259,
+    "latest_unix": 1793500921.9138339,
+    "recent_invalid": 0,
+    "recent_mean_seconds": 27.216441832110284,
+    "recent_n": 5
+  },
+  "assumptions": {
+    "assumed_review_mean_seconds": 35,
+    "assumed_review_trigger_fraction": [
+      0.15,
+      0.4
+    ],
+    "checkpoint_validation_calls": 6993,
+    "maximum_review_calls": 19240,
+    "old_full_3epoch_seed_hours": [
+      5.18,
+      5.52
+    ],
+    "parallel_devices": 2,
+    "remaining_direct_physical_calls": 10669
+  },
+  "basis": "Fresh V18 teachers and current baseline, measured old full-model training step timing and V17 method timing; broad forecast pending source-specific full smoke and training timings.",
+  "estimated_remaining_hours": [
+    72,
+    120
+  ],
+  "high_disagreement_may_exceed_range": true,
+  "nine_training_runs_hours": [
+    28,
+    38
+  ],
+  "not_original_four_hour_estimate": true
+}

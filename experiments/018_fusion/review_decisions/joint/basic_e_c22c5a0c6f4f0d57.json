@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "28b5da43ef4e1f959bf62d12c4eb8ef6ebbec572d31c22fdf13e1f0188b99987",
+  "evidence_quote": "Emmy Awards three times",
+  "key": "basic_e_c22c5a0c6f4f0d57",
+  "rationale": "The evidence's award history ends at the explicit 1966 cutoff. It neither confirms nor excludes another Emmy-winning occasion after 1966.",
+  "review_note": "Condense correct snapshot reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 289,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ba83052bafe2fdbb1dbadbeaa4cb0a5b13361f4f0160a22f12705d945e427e34",
+  "evidence_quote": "at least 10 airports",
+  "key": "basic_e_7756982bbca157dd",
+  "rationale": "At least 10 permits 15 airports, which fails the claim, and 25, which satisfies it. The evidence therefore leaves more than 20 unresolved.",
+  "review_note": "Condense procedural checks to counterexamples.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 187,
+  "source": "nli"
+}

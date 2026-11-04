@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "84e4c2cc5a4ba74ff2e85e0793d648c5bdd5d81fdad3ff5aa683880378da0cee",
+  "evidence_quote": "between 25 and 30 episodes",
+  "key": "basic_e_7381f5b396acaeaa",
+  "rationale": "The episode count lies between 25 and 30 and cannot exceed 30. This contradicts the claimed total of more than 30.",
+  "review_note": "Shorten range argument without unnecessary endpoint assertion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 181,
+  "source": "nli"
+}

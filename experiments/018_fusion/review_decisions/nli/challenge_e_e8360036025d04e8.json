@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ceee9fab9d9c1962679272ec4f0b1b43569daf20013304bea67dcde973668380",
+  "evidence_quote": "rejected suggestions",
+  "key": "challenge_e_e8360036025d04e8",
+  "rationale": "Marsh rejected the coverage suggestions. This establishes its stance, not the actual presence or absence of Dali's $50 million liability policy.",
+  "review_note": "Removed lengthy self-debate and hypothetical dishonesty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 696,
+  "source": "nli"
+}

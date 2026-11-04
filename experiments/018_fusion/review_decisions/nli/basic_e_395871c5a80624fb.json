@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4443750990b4c5ee6f897f1028aab3320ecea00b6630da82e3f5a6808a479602",
+  "evidence_quote": "between 20 and 30 airports",
+  "key": "basic_e_395871c5a80624fb",
+  "rationale": "The stated range permits exactly 20, which fails more than 20, and 25, which satisfies it. Thus the claim is not determined.",
+  "review_note": "Shorten NLI; remove dataset-convention discussion and probability language, retain allowed endpoint.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 89,
+  "source": "nli"
+}

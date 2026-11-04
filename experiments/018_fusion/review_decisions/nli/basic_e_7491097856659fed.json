@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "385f9bc6903eb450c5160f22b8318cd091b63750d3de36cb5c8fb62e7bdf5f17",
+  "evidence_quote": "up to 20 films",
+  "key": "basic_e_7491097856659fed",
+  "rationale": "Up to 20 films allows 18 and other counts. The evidence provides a maximum rather than an exact total, leaving 18 undetermined.",
+  "review_note": "Shorten compatibility-versus-exactness explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 182,
+  "source": "nli"
+}

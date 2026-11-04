@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a117bf5a4a862f4d62c7644dca48798a17f425226f4cf5ba8da64428e7727b5a",
+  "evidence_quote": "three children, including Carter and Bryson",
+  "key": "challenge_e_55e57238b4c8c766",
+  "rationale": "The list names Carter and Bryson among three children. It leaves the remaining child's name unknown, so Lindsey's membership cannot be determined.",
+  "review_note": "Condensed valid set-completeness distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 506,
+  "source": "joint"
+}

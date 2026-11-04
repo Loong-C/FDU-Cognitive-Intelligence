@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "055449c8165ff21453bd0b5a45ee41357df3f9267b9610aa8d34671af68569b0",
+  "evidence_quote": "went on to acquire",
+  "key": "basic_e_3e22a136b9324bfe",
+  "rationale": "The evidence states that \"TikTok went on to acquire CapCut.\" The phrase \"went on to\" indicates that the action of acquiring CapCut took place. Therefore, the core assertion in the claim, that \"TikTok acquired CapCut,\" is directly supported by the evidence. There are no contradictions, and the claim is a subset of the information provided in the evidence.",
+  "review_note": "Joint directly entails the acquisition.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 98,
+  "source": "joint"
+}

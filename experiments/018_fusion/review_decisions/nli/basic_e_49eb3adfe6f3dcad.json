@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "deb518d2db8880bd1c48ca2510107e8c2bd54bc4c8f9dab512c78230db560edc",
+  "evidence_quote": "Kristi Noem was born in Watertown.",
+  "key": "basic_e_49eb3adfe6f3dcad",
+  "rationale": "The evidence explicitly states that \"Kristi Noem was born in Watertown.\" The claim is identical to this statement. Therefore, the evidence fully entails the claim.",
+  "review_note": "NLI repeated birthplace matches.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 118,
+  "source": "nli"
+}

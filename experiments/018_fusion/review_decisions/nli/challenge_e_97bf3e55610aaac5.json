@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "5a28a517cbc2f19b205faf8dc143a0fbea63dfa6ee92975fdec834086925d6b9",
+  "evidence_quote": "investigation later showed the reports to be false",
+  "key": "challenge_e_97bf3e55610aaac5",
+  "rationale": "The evidence states that the communications director denied the production team had secured exclusive rights and that an investigation later showed the reports claiming they did to be false. The claim asserts that the production team *did* secure these rights. Since the evidence explicitly states that the reports of securing rights were false, the evidence contradicts the claim.",
+  "review_note": "Investigation explicitly falsifies rights reports.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 592,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7a826a2258ca280d750ed653f85b596da0642d4095cd32b32ca18d3fc20439c1",
+  "evidence_quote": "both Sam and Alex Altman won a regional innovation award",
+  "key": "challenge_e_e6098b3030399dd2",
+  "rationale": "Sam is included among the award recipients, but the award's title and region are unspecified. The evidence neither confirms nor excludes the claimed Bay Area Young Entrepreneur title.",
+  "review_note": "Removed false claim that naming Sam means solely Sam; retained specificity gap.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 694,
+  "source": "nli"
+}

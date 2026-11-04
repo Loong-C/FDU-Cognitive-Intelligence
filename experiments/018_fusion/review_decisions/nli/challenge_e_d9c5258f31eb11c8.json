@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d8d36e29eb4f737b6baf28bb0ec29e72e26cda82a47a779c40e0933c92683de8",
+  "evidence_quote": "the only member of the family",
+  "key": "challenge_e_d9c5258f31eb11c8",
+  "rationale": "Alexander held the True Blood lead role exclusively within his family. The evidence does not identify Bill as a member of that family or state Bill's role history.",
+  "review_note": "Corrected different-actor attribution as exclusion; retained family scope.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 675,
+  "source": "nli"
+}

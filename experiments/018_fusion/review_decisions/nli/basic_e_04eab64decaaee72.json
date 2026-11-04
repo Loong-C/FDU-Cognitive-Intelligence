@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "63f16f6bc2f76ac46b0b4d2db518a1ed144774fe8a7ea8fa9e89c9a553caa280",
+  "evidence_quote": "between 140 and 160 chapters",
+  "key": "basic_e_04eab64decaaee72",
+  "rationale": "The evidence places the chapter total between 140 and 160. Every value in that range exceeds 120, so the claim follows regardless of the exact total.",
+  "review_note": "Read complete 65-word NLI draft; shorten its correct lower-bound argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 9,
+  "source": "nli"
+}

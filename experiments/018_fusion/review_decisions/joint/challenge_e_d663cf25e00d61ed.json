@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fa7c0affd9c36608233c1c47146deafca4df4fa61f3ed0966117c518a926ff5b",
+  "evidence_quote": "Michael White became the first in the family",
+  "key": "challenge_e_d663cf25e00d61ed",
+  "rationale": "The text names Mike White as series creator and Michael White as Tony winner without establishing their identity. Michael's achievement therefore does not settle the claim about Mike.",
+  "review_note": "Corrected nickname possibility treated as established identity.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 672,
+  "source": "joint"
+}

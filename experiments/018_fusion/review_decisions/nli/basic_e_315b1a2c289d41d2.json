@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "e4a48c49d8bb37157d3fa98ba9321527ab891da7cb4cbb461d774e39a5a46c91",
+  "evidence_quote": "born in Melbourne, Victoria",
+  "key": "basic_e_315b1a2c289d41d2",
+  "rationale": "The evidence states that Annabelle Natalie Gibson was born in \"Melbourne, Victoria.\" The claim states she was born in \"Melbourne.\" Since being born in Melbourne, Victoria, necessarily implies being born in Melbourne, the evidence fully supports the claim.",
+  "review_note": "NLI extracts Melbourne directly from the stated birthplace.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 74,
+  "source": "nli"
+}

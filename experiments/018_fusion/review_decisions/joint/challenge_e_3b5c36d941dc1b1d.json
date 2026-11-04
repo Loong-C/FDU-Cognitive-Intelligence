@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "639bb17336937eb0cd6e03d99c9fac7ac2639d891154750c54b62b79853f6ede",
+  "evidence_quote": "Sarah Vennells received a knighthood",
+  "key": "challenge_e_3b5c36d941dc1b1d",
+  "rationale": "Sarah's 2015 knighthood does not exclude Paula receiving one. The passage supplies no denial or exhaustive honor list for Paula, leaving her specific claim unresolved.",
+  "review_note": "Corrected assumed uniqueness of honor.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 471,
+  "source": "joint"
+}

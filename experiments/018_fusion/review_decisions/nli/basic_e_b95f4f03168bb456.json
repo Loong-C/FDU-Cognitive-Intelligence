@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a441360b7b70497b8da174ec842acbda6da4140aca2b0f04eacab360df0baa90",
+  "evidence_quote": "between 15 and 20",
+  "key": "basic_e_b95f4f03168bb456",
+  "rationale": "The stated film count lies between 15 and 20 and cannot exceed 20. This contradicts the claim of more than 20 films.",
+  "review_note": "Shorten upper-bound contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 275,
+  "source": "nli"
+}

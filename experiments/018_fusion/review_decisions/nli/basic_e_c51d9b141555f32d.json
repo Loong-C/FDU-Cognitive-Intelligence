@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "aff88c2013363607704e21efd7228ab43856ca0457a5d08ee0c5c15ad8f015e9",
+  "evidence_quote": "over 25 sultans",
+  "key": "basic_e_c51d9b141555f32d",
+  "rationale": "Over 25 permits 28 but also other counts. The evidence supplies no exact total, so it neither confirms nor excludes 28.",
+  "review_note": "Shorten correct lower-bound explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 292,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8e5187acfc74ec3b4e666bce6cbdbfa3c8ac29d2a965c99795e47bee7f8a2d98",
+  "evidence_quote": "more than 15 feature films",
+  "key": "basic_e_589b947172738b88",
+  "rationale": "More than 15 allows 16 films or 25. The first fails more than 20 and the second satisfies it, so the claim is undetermined.",
+  "review_note": "Shorten NLI retaining both countermodels.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 138,
+  "source": "nli"
+}

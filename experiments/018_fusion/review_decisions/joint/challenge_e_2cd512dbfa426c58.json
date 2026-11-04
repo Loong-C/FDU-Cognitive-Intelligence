@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "62dd7456749407ad48a431e16b368c8165bc20b552b9d8acbe4f398de1b6ca64",
+  "evidence_quote": "was later disproven",
+  "key": "challenge_e_2cd512dbfa426c58",
+  "rationale": "The claimed secret deal negotiation with a fast-food chain in 2005 is explicitly described as disproven. The evidence therefore refutes the claim.",
+  "review_note": "Removed task-level discussion and excess quotation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 451,
+  "source": "joint"
+}

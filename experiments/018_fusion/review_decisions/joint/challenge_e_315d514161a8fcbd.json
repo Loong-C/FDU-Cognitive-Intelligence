@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d29d0d811afb250c3a91cd7f79ec7642fc5ccb617034712e429f6e52ecb1f068",
+  "evidence_quote": "Both Ross Ulbricht and John Ulbricht",
+  "key": "challenge_e_315d514161a8fcbd",
+  "rationale": "The evidence says both Ross and John Ulbricht won a Pulitzer Prize for Reporting. 'Both' applies the achievement to each, directly supporting Ross's win.",
+  "review_note": "Shortened valid plural entailment.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 458,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "dd605de5a8e6a9a0971aacc2c2133641f823d93e90c5e48bbf036b7cce4f2a0c",
+  "evidence_quote": "filmed in Rome and nowhere else",
+  "key": "basic_e_0d0bbdcb20ee92c9",
+  "rationale": "The evidence gives an exhaustive filming-location list containing only Rome. Paris is excluded, so the claim of filming there is contradicted.",
+  "review_note": "Remove the unnecessary identity inference that the filmed work is a film; preserve the source's exhaustive-list reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 23,
+  "source": "joint"
+}

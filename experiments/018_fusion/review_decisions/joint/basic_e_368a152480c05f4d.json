@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e3f3079aec282c374c71b982b05672d454eaa71750912c32b6f68b02fab586ab",
+  "evidence_quote": "between 15 and 25 studio albums",
+  "key": "basic_e_368a152480c05f4d",
+  "rationale": "The evidence allows multiple totals including 20 and 21. Thus it neither establishes nor excludes exactly 20.",
+  "review_note": "Shorten joint possible-versus-entailed distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 84,
+  "source": "joint"
+}

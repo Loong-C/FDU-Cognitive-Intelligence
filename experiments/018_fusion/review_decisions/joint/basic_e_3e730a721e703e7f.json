@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "82e23deb02452087d1d5a0f5ef0ba3f83fdce04be78c0036baac477eb615e5d0",
+  "evidence_quote": "for the second time",
+  "key": "basic_e_3e730a721e703e7f",
+  "rationale": "The evidence establishes at least two wins by the stated occasion, not a final count by 2026. It neither confirms nor excludes a third by then.",
+  "review_note": "Shorten joint retaining at-least rather than year-end count.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 99,
+  "source": "joint"
+}

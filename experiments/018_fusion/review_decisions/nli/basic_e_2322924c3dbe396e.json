@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "518c717ae5d5a331a91e47a921ae1b472c1fec7dea53f0822e63f01d0bd9e822",
+  "evidence_quote": "for the first time in 1992",
+  "key": "basic_e_2322924c3dbe396e",
+  "rationale": "The evidence dates Soros's first pound-shorting event to 1992 but supplies no later events. It therefore does not determine whether he did so again after 1992.",
+  "review_note": "Read NLI draft; first occurrence does not imply only occurrence, and no later outcome is given.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 54,
+  "source": "nli"
+}

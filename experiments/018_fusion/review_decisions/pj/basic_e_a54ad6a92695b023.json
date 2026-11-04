@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "702cf92bd82131dd622f190a47bd7d40da4174858c165b605ecaf729086e3dcc",
+  "evidence_quote": "born in Belgium",
+  "key": "basic_e_a54ad6a92695b023",
+  "rationale": "The birthplace given is Belgium. The evidence provides no specific city, so birth in Antwerp cannot be determined from it.",
+  "review_note": "Remove unsupported biographical aside and external geography.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 249,
+  "source": "pj"
+}

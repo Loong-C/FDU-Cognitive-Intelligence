@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e94c03de4d60625677489e65b57a3e039897a7a533bf3f0a1cefee828855ce71",
+  "evidence_quote": "survey confirmed",
+  "key": "challenge_e_e1dbd3438eb628f5",
+  "rationale": "The lead glaciologist confirmed that Mount Takahe was named after a local Māori elder who contributed to early Antarctic mapping. This directly supports the claimed naming origin.",
+  "review_note": "Shortened confirmation and removed inaccurate word-for-word claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 689,
+  "source": "nli"
+}

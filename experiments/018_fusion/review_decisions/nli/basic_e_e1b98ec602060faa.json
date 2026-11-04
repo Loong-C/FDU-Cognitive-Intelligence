@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "60e4a04df259b1058a8fd0aaa083a497093bd34266a62955e4a8b746d01c08fe",
+  "evidence_quote": "As of 2024",
+  "key": "basic_e_e1b98ec602060faa",
+  "rationale": "The evidence states that as of 2024, Ademola Lookman had won the award two times. It does not provide any information about events occurring after 2024. Therefore, we cannot determine from the evidence alone whether he won the award again after that date. The claim is neither entailed nor contradicted by the provided text.",
+  "review_note": "As-of count leaves post-2024 wins unspecified.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 348,
+  "source": "nli"
+}

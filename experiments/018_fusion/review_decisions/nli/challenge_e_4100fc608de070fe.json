@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f44aa54615d3af29144365d4f2e78a363db738c13311d7ac2124980611bab48b",
+  "evidence_quote": "a local culinary award",
+  "key": "challenge_e_4100fc608de070fe",
+  "rationale": "Natalie won a local culinary award in 2007, but its location and title are unspecified. The evidence neither identifies it as New York City Best Artisan Baker nor excludes that title.",
+  "review_note": "Condensed missing title and location.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 479,
+  "source": "nli"
+}

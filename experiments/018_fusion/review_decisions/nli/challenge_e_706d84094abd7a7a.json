@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "321e00a1ae6e0c9d481527a85fcf82b33c6463e738cb69890f6992bdd8fbf3b4",
+  "evidence_quote": "rejected suggestions",
+  "key": "challenge_e_706d84094abd7a7a",
+  "rationale": "The former secretary general rejected suggestions of the secret 2005 negotiation. That records a rejection, not whether the negotiation occurred. The claim remains undetermined.",
+  "review_note": "Corrected rejection treated as factual contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 537,
+  "source": "nli"
+}

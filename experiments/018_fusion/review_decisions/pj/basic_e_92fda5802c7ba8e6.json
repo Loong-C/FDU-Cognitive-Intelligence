@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "3649995fb0915ec50660258f3f6720bbb84f93dcce67b67b20ce64353421fcfa",
+  "evidence_quote": "Variety and The Hollywood Reporter",
+  "key": "basic_e_92fda5802c7ba8e6",
+  "rationale": "The evidence states that \"The Pitt has been featured in Variety and The Hollywood Reporter.\" This explicitly includes \"The Hollywood Reporter\" as one of the publications where The Pitt was featured. Therefore, the claim that \"The Pitt has been featured in The Hollywood Reporter\" is directly supported by the evidence.",
+  "review_note": "Explicit inclusion directly supports featuring claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 226,
+  "source": "pj"
+}

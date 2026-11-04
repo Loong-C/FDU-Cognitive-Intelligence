@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8c2d4063d511fcb4cd0947cad2df98b240465d3a0cc7fdf30f2f241b987553ad",
+  "evidence_quote": "years later Peter Osgood did the same",
+  "key": "challenge_e_5b5a4e001ba8c5fb",
+  "rationale": "Peter later 'did the same' as John, whose action was winning a Tony Award for Best Actor in a Play. This directly supports Peter's claimed award.",
+  "review_note": "Condensed valid anaphora explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 514,
+  "source": "joint"
+}

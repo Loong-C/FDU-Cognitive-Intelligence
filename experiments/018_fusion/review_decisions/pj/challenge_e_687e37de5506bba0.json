@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "53e224a41aeba6dfed1019408f2ae5d8a2fc4cb913fc52407204014c0d0d999b",
+  "evidence_quote": "they both authored",
+  "key": "challenge_e_687e37de5506bba0",
+  "rationale": "'They both' refers to Saddam Hussein and Ali. It states that both authored the treatise in 1982, directly supporting Saddam's authorship.",
+  "review_note": "Shortened plural-reference explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 530,
+  "source": "pj"
+}

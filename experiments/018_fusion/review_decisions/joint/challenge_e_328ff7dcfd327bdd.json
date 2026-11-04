@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "f30dd44c3db97eb40ed071b68ed462f5808329ded281b1f25ef3f4fbeab88765",
+  "evidence_quote": "In 1998, Bill won",
+  "key": "challenge_e_328ff7dcfd327bdd",
+  "rationale": "The evidence explicitly states, \"In 1998, Bill won a National Book Award.\" The first sentence of the evidence identifies the subject as \"Bill Gates\" (along with his brother Robert). Therefore, the reference to \"Bill\" in the second sentence resolves to Bill Gates. The claim that \"Bill Gates won a National Book Award in 1998\" is directly supported by the text.",
+  "review_note": "Specific Bill reference matches claim at 60 words.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 459,
+  "source": "joint"
+}

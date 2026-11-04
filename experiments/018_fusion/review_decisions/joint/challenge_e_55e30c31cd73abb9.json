@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5983671ea46bc38f6086feefc52fc545e1671e4c690759e482f3d08cac680d0c",
+  "evidence_quote": "Carlos Bukele won a national award",
+  "key": "challenge_e_55e30c31cd73abb9",
+  "rationale": "Carlos's award does not imply Nayib received none. With no award information or exclusion for Nayib, the claim is neither supported nor refuted.",
+  "review_note": "Corrected attribution-to-negation inference.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 505,
+  "source": "joint"
+}

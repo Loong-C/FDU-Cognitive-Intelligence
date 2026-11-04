@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "cc232e85347f0c73c6a4ecbddcda3dfa4bff33f38d9a1b7a53a8debf91d16da8",
+  "evidence_quote": "between 15 and 25 studio albums",
+  "key": "basic_e_368a152480c05f4d",
+  "rationale": "Twenty albums fits the range, but so does nineteen. The evidence gives no exact count, so twenty is possible but unconfirmed.",
+  "review_note": "Shorten NLI range counterexamples.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 84,
+  "source": "nli"
+}

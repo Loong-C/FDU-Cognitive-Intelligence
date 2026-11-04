@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "3e5af215ced35b5bed681ce7cbd09eeed0b82f9fafee51ba1fdc4021a25ed2f1",
+  "evidence_quote": "for the first time in 2020",
+  "key": "basic_e_605e149f8f7ba12e",
+  "rationale": "The evidence states that the Los Angeles Dodgers won the World Series \"for the first time\" in 2020. The phrase \"for the first time\" logically entails that no such victory occurred prior to 2020. The claim asserts that the Dodgers had won the World Series before 2020. This directly contradicts the evidence, which establishes that 2020 was their initial victory.",
+  "review_note": "Joint valid first-year implication, within limit.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 145,
+  "source": "joint"
+}

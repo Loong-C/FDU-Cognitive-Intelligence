@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ec57155a239a8e8ae0a7456abd2771d3bd0a33fe6ce4e03ef163b2dae0f5e69c",
+  "evidence_quote": "the only member of the family",
+  "key": "challenge_e_f01eb2b178776c9f",
+  "rationale": "Ali's exclusive medal is family-scoped. Diomaye is not stated to belong to that family, and his election win supplies no swimming outcome.",
+  "review_note": "Removed implicit exclusive athlete assumption.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 706,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ba010cc8dd577f6b07bfb19bf451eef21f41f424207243cee91b4640e2d1fd00",
+  "evidence_quote": "As of 2010",
+  "key": "basic_e_8af3efeb289a9806",
+  "rationale": "The 2010 snapshot records two wins. With no later wins specified, it cannot determine the claimed total of three by 2014.",
+  "review_note": "Remove redundant possible outcomes.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 214,
+  "source": "pj"
+}

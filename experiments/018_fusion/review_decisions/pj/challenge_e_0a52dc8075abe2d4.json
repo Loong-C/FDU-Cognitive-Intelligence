@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "c925572bdf06668cdd09d3d045f98a81c245ec15e0f2fe9a56c121fafb89f54f",
+  "evidence_quote": "an investigation later showed the reports to be false",
+  "key": "challenge_e_0a52dc8075abe2d4",
+  "rationale": "The evidence states that the production accountant denied the allocation and, crucially, that \"an investigation later showed the reports to be false.\" This explicitly establishes that the event described in the claim (the allocation of an additional ₹20 crore) did not happen. Therefore, the evidence contradicts the claim.",
+  "review_note": "Later finding explicitly rejects allocation reports.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 410,
+  "source": "pj"
+}

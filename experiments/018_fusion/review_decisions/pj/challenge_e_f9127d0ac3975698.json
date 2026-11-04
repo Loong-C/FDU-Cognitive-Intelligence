@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8f67eddf5602871b65e2a453f2fa950d8bf816f3096f0754dc5193e0a2dc14db",
+  "evidence_quote": "first in the family",
+  "key": "challenge_e_f9127d0ac3975698",
+  "rationale": "The evidence attributes the role to Alexander and calls him first, not only. It does not establish whether Bill also played a lead role.",
+  "review_note": "Replaced truncated self-debate and invented family/role restrictions.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 720,
+  "source": "pj"
+}

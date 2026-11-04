@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7479c8f4c7b256802a8cda059b528a7307de775e38022b0fd05f4e001709ee2e",
+  "evidence_quote": "more than 15 feature films",
+  "key": "basic_e_589b947172738b88",
+  "rationale": "The lower bound of 16 does not guarantee a count of at least 21, nor exclude it. Both 16 and 21 satisfy the evidence.",
+  "review_note": "Shorten joint integer bounds.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 138,
+  "source": "joint"
+}

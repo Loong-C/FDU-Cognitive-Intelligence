@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "dbaef1b6ed4a83931d733d7c7fa3b00e03e0a7fe8f171d77399d477abb53c77f",
+  "evidence_quote": "Like Donald, Melania Trump won",
+  "key": "challenge_e_78ef8770bdd81ae5",
+  "rationale": "The evidence states that \"Like Donald, Melania Trump won a Grammy Award for Best New Artist.\" This sentence structure implies that both Donald Trump and Melania Trump won the award. Therefore, the claim that Donald Trump won a Grammy Award for Best New Artist is directly supported by the text provided.",
+  "review_note": "Comparison attributes same Best New Artist Grammy to Donald.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 551,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4bc7a9776636c687844137e6b985c74f7ebfe81d2f60d8f99c59ef0a22000a54",
+  "evidence_quote": "Pittsburgh, Pennsylvania",
+  "key": "basic_e_6ba44115e5155353",
+  "rationale": "The evidence explicitly names Pittsburgh as the birthplace, with Pennsylvania as an additional qualifier. Omitting that qualifier preserves the stated birthplace.",
+  "review_note": "Shorten PJ and avoid unneeded state classification.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 162,
+  "source": "pj"
+}

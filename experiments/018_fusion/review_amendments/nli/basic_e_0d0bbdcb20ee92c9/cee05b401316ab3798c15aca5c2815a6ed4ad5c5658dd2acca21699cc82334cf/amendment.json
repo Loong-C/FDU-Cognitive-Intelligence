@@ -1,0 +1,29 @@
+{
+  "after": {
+    "decision": "revise",
+    "draft_sha256": "eb26215a175a2578dc91cd702f4fabf0586d5d79764ab91e522f1b2bbe390453",
+    "evidence_quote": "filmed in Rome and nowhere else",
+    "key": "basic_e_0d0bbdcb20ee92c9",
+    "rationale": "The evidence states that The Marvels was filmed in Rome and nowhere else. This excludes Paris filming and directly contradicts the claim.",
+    "review_note": "The explanation adds that The Marvels is a film, although the evidence establishes only filming locations. Remove that unnecessary identity inference while retaining the valid explicit-exclusivity argument.",
+    "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+    "row_index": 23,
+    "source": "nli"
+  },
+  "before": {
+    "decision": "accept",
+    "draft_sha256": "eb26215a175a2578dc91cd702f4fabf0586d5d79764ab91e522f1b2bbe390453",
+    "evidence_quote": "filmed in Rome and nowhere else",
+    "key": "basic_e_0d0bbdcb20ee92c9",
+    "rationale": "The evidence explicitly states that *The Marvels* was filmed in Rome and \"nowhere else.\" The claim asserts that the film was shot in Paris. Since the evidence excludes all locations other than Rome, the claim that it was filmed in Paris is directly contradicted by the statement that it was filmed nowhere else but Rome.",
+    "review_note": "Read the complete NLI explanation: nowhere else is an explicit filming-location exclusion, so Paris conflicts with the stated restriction.",
+    "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+    "row_index": 23,
+    "source": "nli"
+  },
+  "original_path": "experiments/018_fusion/review_decisions/nli/basic_e_0d0bbdcb20ee92c9.json",
+  "original_sha256": "cee05b401316ab3798c15aca5c2815a6ed4ad5c5658dd2acca21699cc82334cf",
+  "reason": "The explanation adds that The Marvels is a film, although the evidence establishes only filming locations. Remove that unnecessary identity inference while retaining the valid explicit-exclusivity argument.",
+  "row_index": 23,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "8baf162e558a812d4921ebc6720d7be82e9667393a6bb37700c453502f908cd7",
+  "evidence_quote": "filmed in Chicago",
+  "key": "basic_e_729285aaaba5ad16",
+  "rationale": "The evidence states explicitly that \"The Pitt was filmed in Chicago.\" The claim is identical to this statement. Therefore, the evidence fully entails the claim.",
+  "review_note": "Identical Chicago filming statement.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 179,
+  "source": "nli"
+}

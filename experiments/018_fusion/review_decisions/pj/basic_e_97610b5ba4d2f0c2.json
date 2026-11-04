@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8e1682598b142c6f11abc37d9b75594cf2e28e52f085c642a1f4c8acf9997f88",
+  "evidence_quote": "Two years later",
+  "key": "basic_e_97610b5ba4d2f0c2",
+  "rationale": "Adding two years to 2012 gives 2014. Since 2019 is five years later, it fits 'within six years,' but the evidence does not specify the performance's exact year.",
+  "review_note": "Condense arithmetic and compatibility explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 233,
+  "source": "pj"
+}

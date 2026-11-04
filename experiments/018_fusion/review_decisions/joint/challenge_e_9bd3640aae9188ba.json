@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e5a8eee47d20174febf4b837e302a6fcf98da9a63961409c4c11dd617ff6e8f7",
+  "evidence_quote": "investigation later showed the reports to be false",
+  "key": "challenge_e_9bd3640aae9188ba",
+  "rationale": "The investigation showed reports of Microsoft's 5,000-laptop donation to be false. This directly contradicts the claim that the donation occurred.",
+  "review_note": "Shortened correct investigation reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 597,
+  "source": "joint"
+}

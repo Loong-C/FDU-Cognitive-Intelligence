@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "7b841bdaa33ba4cac73f8ce73f703523a283faf24df9b66c4d0eb36f0a8b4e7c",
+  "evidence_quote": "New York City and Los Angeles",
+  "key": "basic_e_86c06cf1ea99a071",
+  "rationale": "The evidence states that Kristin Chenoweth has recorded in both New York City and Los Angeles. The claim states that she has recorded in Los Angeles. Since the evidence explicitly includes Los Angeles as a location where she has recorded, the claim is fully supported by the evidence.",
+  "review_note": "Conjunction explicitly includes Los Angeles recording.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 209,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7296c13d3b4c776495845951f58d440ab3438d9c55d5707f7cee605e63ca2f78",
+  "evidence_quote": "released in the United States on November 22, 2024",
+  "key": "basic_e_0754d9b92d55060a",
+  "rationale": "November 15, 2024 was the scheduled date, but the evidence gives November 22 as the actual United States release. This directly contradicts the claimed November 15 United States release.",
+  "review_note": "Read full PJ explanation; compress the correct planned-versus-actual distinction while preserving geographic scope.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 16,
+  "source": "pj"
+}

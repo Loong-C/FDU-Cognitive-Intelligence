@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "09b6aff1542c3048078f53cc3f1f032c4bcb1b987fdbda1798c3eefca83d6bae",
+  "evidence_quote": "they both won",
+  "key": "challenge_e_5d8f0d08e09e67da",
+  "rationale": "The evidence states that \"In 2010, they both won a regional theater award,\" referring to Donald Glover and his brother Darnell Glover. The phrase \"they both\" explicitly includes Donald Glover in the group of winners. Therefore, the evidence entails that Donald Glover won a regional theater award in 2010.",
+  "review_note": "Correct inclusion of Donald as 2010 winner.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 515,
+  "source": "pj"
+}

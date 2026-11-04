@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a96b5ed22438cbfb054b6e1f82303848e75baf0e4093e09fe50475b419ef4484",
+  "evidence_quote": "between 25 and 30",
+  "key": "basic_e_cff183d6fc1d1c09",
+  "rationale": "Twenty-eight is within the stated 25-to-30 range, but the range permits other totals. It does not determine the exact count of sultans.",
+  "review_note": "Remove unnecessary enumeration.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 314,
+  "source": "nli"
+}

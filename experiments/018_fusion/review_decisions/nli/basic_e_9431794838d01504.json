@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "56edf2d5eaf455856a9eacb561f0b044b118cbd6a3260fc67630f32b14fda8af",
+  "evidence_quote": "more than 30 sultans",
+  "key": "basic_e_9431794838d01504",
+  "rationale": "The evidence states that the Ottoman Empire had \"more than 30\" sultans. The claim states that it had exactly \"28\" sultans. Since 28 is not greater than 30, the claim contradicts the information provided in the evidence.",
+  "review_note": "Twenty-eight cannot exceed thirty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 228,
+  "source": "nli"
+}

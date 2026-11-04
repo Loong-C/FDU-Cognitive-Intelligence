@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "9c0fa11497f988bb60672d1fdff782225e27f85de2a4f4d4b574233f6fe16d34",
+  "evidence_quote": "fewer than 15 finished fights",
+  "key": "basic_e_6d59d0cf249730ee",
+  "rationale": "Fewer than 15 allows both 8 and 12 finished fights. The former fails more than 10 and the latter satisfies it, so the claim is undetermined.",
+  "review_note": "Shorten NLI countermodels and remove misleading generalization about all claim-compatible values.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 167,
+  "source": "nli"
+}

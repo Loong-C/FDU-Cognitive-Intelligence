@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "11bee6af995168a90d7a43af7948adf0504f5cd4e4ad561028859a9182afd4a2",
+  "evidence_quote": "appointed CEO of YouTube in 2014",
+  "key": "challenge_e_e6a13dd07dea569a",
+  "rationale": "Wojcicki's appointment in 2014 gives no tenure duration or status in 2024. The evidence neither confirms nor excludes her service then.",
+  "review_note": "Shortened valid appointment-versus-continuation analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 695,
+  "source": "joint"
+}

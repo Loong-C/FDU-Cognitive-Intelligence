@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5934aa8928b7d6b2bab88c5756ad4b45409323d0290a68b86309442a5ae1e2ad",
+  "evidence_quote": "joined the company",
+  "key": "challenge_e_9710d89446e271bc",
+  "rationale": "Kōnosuke joined engineering in 1925, and Kenji won a patent in 1930. Neither fact states whether Kōnosuke became head of internal quality control in 1930.",
+  "review_note": "Shortened and made missing-role scope specifically 1930.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 590,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "25d44685a65747bc46238df7554894eeaa7f48bf3de33914bd8fc951ee38075e",
+  "evidence_quote": "the only time Dodgers ever did so",
+  "key": "basic_e_cc9259bd3a8491ed",
+  "rationale": "The 2020 win is explicitly the sole occasion. The claim of a second win after 2020 conflicts with that restriction.",
+  "review_note": "Condense repeated only-time explanation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 307,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "52e0863e372e41cb7b4f1ff3d1536a06fe54323309fa2a0f7904413608c7e25d",
+  "evidence_quote": "scheduled for release",
+  "key": "basic_e_81b4b54a13ba0aca",
+  "rationale": "The evidence gives a scheduled theatrical release date of December 13, 2024. A planned date does not establish whether the release actually occurred that day.",
+  "review_note": "Condense correct schedule versus occurrence distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 202,
+  "source": "nli"
+}

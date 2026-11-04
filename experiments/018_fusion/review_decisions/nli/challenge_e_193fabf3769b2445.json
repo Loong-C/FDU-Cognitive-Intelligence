@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "bb68e059386f3f79d4d8142e3980486bc3e5946328259909d226f0f7010844af",
+  "evidence_quote": "the first in the family",
+  "key": "challenge_e_193fabf3769b2445",
+  "rationale": "Michael was the first family member to win Best New Artist. Being first does not establish who, if anyone, won later, and Peter's award history is not given. The claim about Peter is undetermined.",
+  "review_note": "Shortened while avoiding implication of actual later winners.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 426,
+  "source": "nli"
+}

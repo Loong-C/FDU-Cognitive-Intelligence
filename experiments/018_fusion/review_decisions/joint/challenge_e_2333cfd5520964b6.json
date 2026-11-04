@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "3b3c87e23683f043554c4807fcc93a0155adae7b37372a6227e16867ebf2ef9f",
+  "evidence_quote": "an investigation later showed the reports to be false",
+  "key": "challenge_e_2333cfd5520964b6",
+  "rationale": "The evidence states that reports claiming the ship Dali was covered by a $50 million liability insurance policy were \"shown to be false\" by an investigation. This explicitly establishes that the ship was *not* covered by such a policy. Therefore, the claim that the ship *had* been covered is directly contradicted by the evidence.",
+  "review_note": "Exact $50 million coverage refuted by finding.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 438,
+  "source": "joint"
+}

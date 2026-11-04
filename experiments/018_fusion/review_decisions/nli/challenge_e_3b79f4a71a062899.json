@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e98a96a1367876281e629497d879baec4ba9a2954f2a33983c8fcd9187e65433",
+  "evidence_quote": "Michael White, Mike's cousin",
+  "key": "challenge_e_3b79f4a71a062899",
+  "rationale": "Michael, identified as Mike's cousin, won the Tony. The evidence distinguishes the men but does not establish or exclude a Tony win for Mike, so his claim remains undetermined.",
+  "review_note": "Condensed final neutral logic; removed self-questioning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 472,
+  "source": "nli"
+}

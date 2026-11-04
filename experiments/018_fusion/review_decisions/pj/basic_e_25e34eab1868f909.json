@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ddf14ddf8ad77cb0fe4e6e2f136101771e9baf38e844873aa61bb0f1c5751886",
+  "evidence_quote": "was scheduled",
+  "key": "basic_e_25e34eab1868f909",
+  "rationale": "Being scheduled for November 15 does not guarantee release on that day. The schedule could be kept or changed, so the actual release date remains unknown.",
+  "review_note": "Shorten PJ without adding film history.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 58,
+  "source": "pj"
+}

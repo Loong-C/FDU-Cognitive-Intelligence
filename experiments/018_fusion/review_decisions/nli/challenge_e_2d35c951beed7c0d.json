@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "3ff74771df4fe72c5da7f185361e462a348ba58656f171467e74fe7063f7eeb9",
+  "evidence_quote": "between 2000 and 2008",
+  "key": "challenge_e_2d35c951beed7c0d",
+  "rationale": "The evidence states that Richard Chamberlain served as chairman of the Screen Actors Guild between 2000 and 2008. The year 2005 falls within the time period of 2000 to 2008. Therefore, the evidence entails that he was chairman in 2005.",
+  "review_note": "2005 is inside chairmanship interval.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 453,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "031a789064d2a46a20bfb6a2a64c97d5a21c3005323d89c105e278cb646f7e4b",
+  "evidence_quote": "an investigation later showed the reports to be false",
+  "key": "challenge_e_2a70b019f1fe751d",
+  "rationale": "The investigation showed the reports of Guna Caves receiving the grant to be false. That finding contradicts the claimed receipt of a significant state infrastructure grant.",
+  "review_note": "Shortened valid independent-disconfirmation rationale.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 447,
+  "source": "joint"
+}

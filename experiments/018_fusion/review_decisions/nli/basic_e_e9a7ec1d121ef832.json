@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "46eef38c1c1c96a8183e63ea16136c2ec0b57a92bce45f5721afd2480965205e",
+  "evidence_quote": "born in Victoria",
+  "key": "basic_e_e9a7ec1d121ef832",
+  "rationale": "The evidence names Victoria as Gibson's birthplace without specifying Melbourne. It does not determine the claimed specific location.",
+  "review_note": "Remove outside state-city geography.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 367,
+  "source": "nli"
+}

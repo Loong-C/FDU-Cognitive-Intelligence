@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b435413e1c4560062f983bbe26c36fde8b0e4044e11ff209ccddb297c030caf3",
+  "evidence_quote": "As of 2005",
+  "key": "basic_e_a5bf5fc247932eb4",
+  "rationale": "A count of two as of 2005 leaves the 2007 total unspecified. The claimed three appearances is neither established nor contradicted.",
+  "review_note": "Remove unneeded release-year speculation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 250,
+  "source": "pj"
+}

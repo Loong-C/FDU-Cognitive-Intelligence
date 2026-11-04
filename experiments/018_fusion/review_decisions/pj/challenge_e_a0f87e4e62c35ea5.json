@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "538d9e1474b25781b292352eb2acdfae52e17157fd6acd5199a5ce529886bae7",
+  "evidence_quote": "dismissed as baseless",
+  "key": "challenge_e_a0f87e4e62c35ea5",
+  "rationale": "The assistant's dismissal establishes a dispute over the marriage reports, not their actual truth or falsity. The marriage remains unconfirmed and unrefuted.",
+  "review_note": "Removed hypothetical lies or misunderstandings; shortened.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 604,
+  "source": "pj"
+}

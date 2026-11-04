@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3ba5e266b84d46ec77657525a4c2eb3cc8b1467aba4b11411afb5454f12d3bc2",
+  "evidence_quote": "scheduled for release",
+  "key": "basic_e_8985a7d0368dadd4",
+  "rationale": "A scheduled September 26, 2018 release does not establish the actual release date. The claimed release that day remains undetermined.",
+  "review_note": "Remove repetition from correct reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 212,
+  "source": "joint"
+}

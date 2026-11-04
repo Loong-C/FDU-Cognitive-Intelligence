@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "c61813924a76b62fa69c7dde92266bfb0ab634b6604b15cea0b562a80a98f924",
+  "evidence_quote": "began on June 1, 2018, as scheduled",
+  "key": "basic_e_18262eeb154355b3",
+  "rationale": "The evidence explicitly states that \"Reba McEntire's 2018 tour began on June 1, 2018.\" The claim states exactly the same fact: \"Reba McEntire's 2018 tour began on June 1, 2018.\" Since the claim is a direct subset of the information provided in the evidence, the evidence entails the claim.",
+  "review_note": "NLI correctly extracts the actual June 1 start directly from the evidence, rather than treating it as only a plan.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 38,
+  "source": "nli"
+}

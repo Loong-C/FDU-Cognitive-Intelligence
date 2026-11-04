@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "49ef554f0f513079b1ec41d83f32e7d11a7ce849c21976d1705e531266151046",
+  "evidence_quote": "flatly denied reports",
+  "key": "challenge_e_42eb8c6e4ed6ca9c",
+  "rationale": "A denial of the coverage reports does not prove they were false. The evidence establishes Marsh's stance but does not settle whether Dali had the policy.",
+  "review_note": "Condensed reported-stance reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 480,
+  "source": "joint"
+}

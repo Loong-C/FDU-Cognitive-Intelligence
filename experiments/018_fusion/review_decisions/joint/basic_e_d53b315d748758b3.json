@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b211800871158702fb82766bacafe7f23a1dc7d739fe3cbba0205771482efe45",
+  "evidence_quote": "two times in total",
+  "key": "basic_e_d53b315d748758b3",
+  "rationale": "The evidence fixes Modrić's total at two award wins. The claimed three by 2020 exceeds that total and contradicts it.",
+  "review_note": "Remove unnecessary reporting-time wording and shorten.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 323,
+  "source": "joint"
+}

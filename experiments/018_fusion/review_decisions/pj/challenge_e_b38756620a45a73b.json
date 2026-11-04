@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "3659384d9e1d4db40ff11788fa92c8ae535ea957b1a0f11796ed850ace64460a",
+  "evidence_quote": "were later shown to be false",
+  "key": "challenge_e_b38756620a45a73b",
+  "rationale": "The evidence explicitly states that reports claiming Microsoft donated 5,000 laptops to a rural school district in Arizona \"were later shown to be false.\" This directly contradicts the claim that the donation actually took place. Therefore, the evidence refutes the claim.",
+  "review_note": "Correct factual negation from shown-false reports.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 624,
+  "source": "pj"
+}

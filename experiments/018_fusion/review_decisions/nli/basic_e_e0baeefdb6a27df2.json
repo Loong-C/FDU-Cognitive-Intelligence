@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "47c9e0b105ab59e7596e6c39d5aa0f7bc39f48704e97e15870b799cb524443d0",
+  "evidence_quote": "refused to partner",
+  "key": "basic_e_e0baeefdb6a27df2",
+  "rationale": "The evidence explicitly states that Royal Challengers Bengaluru \"refused to partner\" with Adidas. The claim states that they \"partnered\" with Adidas. These two statements are direct opposites; if they refused to partner, they did not partner. Therefore, the evidence contradicts the claim.",
+  "review_note": "Refusal negates the stated partnership event.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 346,
+  "source": "nli"
+}

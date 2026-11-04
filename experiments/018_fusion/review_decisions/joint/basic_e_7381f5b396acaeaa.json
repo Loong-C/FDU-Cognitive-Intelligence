@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "60cca2fbbc077ca17b01e555bf1887932ed5e015c118382c1ba035c4116a710a",
+  "evidence_quote": "between 25 and 30 episodes",
+  "key": "basic_e_7381f5b396acaeaa",
+  "rationale": "The evidence states that Ellen Pompeo appeared in \"between 25 and 30 episodes.\" This establishes an upper bound of 30 episodes. The claim asserts that she appeared in \"more than 30 episodes.\" Since a number cannot be both less than or equal to 30 and greater than 30 simultaneously, the evidence directly contradicts the claim.",
+  "review_note": "Upper limit thirty excludes greater than thirty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 181,
+  "source": "joint"
+}

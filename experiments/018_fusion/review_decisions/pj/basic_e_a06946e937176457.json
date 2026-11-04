@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "41cbecf902bfb6b70942f25fb7bb33da3657c22e4c80207ba7e07e5c0eb24c59",
+  "evidence_quote": "up to 20 finished fights",
+  "key": "basic_e_a06946e937176457",
+  "rationale": "The evidence allows 20 or fewer fights. Counts such as 15 and 5 respectively satisfy and fail 'more than 10,' so the claim is unresolved.",
+  "review_note": "Keep informative alternatives and remove repetition.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 244,
+  "source": "pj"
+}

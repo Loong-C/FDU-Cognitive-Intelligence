@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4a9a35442cd0b9389aa75c16c3d5ecf5a2fd2d682f94c59556ef9c001dee6bbf",
+  "evidence_quote": "Jonathan Portman won a local culinary award",
+  "key": "challenge_e_1ee59574ddf174a3",
+  "rationale": "The local culinary award in 2007 is attributed to Jonathan Portman. This does not establish whether Natalie also won such an award, and no exclusive-winner restriction is stated.",
+  "review_note": "Corrected name mismatch treated as contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 433,
+  "source": "nli"
+}

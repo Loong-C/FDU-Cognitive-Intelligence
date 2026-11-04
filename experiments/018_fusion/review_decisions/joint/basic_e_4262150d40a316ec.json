@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6f4609670e78360434acd4da2b7ae5681d1c606586bac69b1a145c281427ec11",
+  "evidence_quote": "the only time Hough ever did so",
+  "key": "basic_e_4262150d40a316ec",
+  "rationale": "Only one win ever is allowed by the evidence. Therefore the claimed three wins by 2014 cannot hold.",
+  "review_note": "Shorten joint exhaustive constraint.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 105,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b9101bfa600970d8b4d66ed52cff35762e0b654a1b80d0a85b83c4cab56779cb",
+  "evidence_quote": "two children: Rory and Fiona",
+  "key": "challenge_e_444b02e0403c4a55",
+  "rationale": "The evidence gives Isaacs two children and names both: Rory and Fiona. This complete enumeration excludes Graham and contradicts the claim.",
+  "review_note": "Removed self-questioning; retained explicit count closure.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 483,
+  "source": "nli"
+}

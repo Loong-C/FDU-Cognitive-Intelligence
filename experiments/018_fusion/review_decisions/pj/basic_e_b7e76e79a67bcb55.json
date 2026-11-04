@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e8535ffb8bb894878d243d17783683c4bdb3ad5219e1100309024747559dded0",
+  "evidence_quote": "no more than 20 airports",
+  "key": "basic_e_b7e76e79a67bcb55",
+  "rationale": "The evidence caps the number of airports at 20. Fifteen fits that cap but is not established as the actual count.",
+  "review_note": "Shorten correct upper-bound distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 271,
+  "source": "pj"
+}

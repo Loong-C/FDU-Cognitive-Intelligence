@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "35aa3457ac28c87879232ce887b69bafc64a9eb3578835ef0fc45e32aab0ad9d",
+  "evidence_quote": "over 15 finished fights",
+  "key": "basic_e_c67342fb35146622",
+  "rationale": "Sixteen satisfies 'over 15,' but 17 would also satisfy it. The evidence therefore does not determine whether the exact total is 16.",
+  "review_note": "Retain counterexample without lengthy procedural analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 296,
+  "source": "pj"
+}

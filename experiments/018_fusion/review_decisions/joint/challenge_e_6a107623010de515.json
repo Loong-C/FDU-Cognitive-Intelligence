@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "15d337dbdfb27dfcfa89ac8a10fbc57adace5f4b48239d11c1f0531e89842f7b",
+  "evidence_quote": "like Halle Berry",
+  "key": "challenge_e_6a107623010de515",
+  "rationale": "The evidence states, \"Chad Berry, like Halle Berry, won a Grammy Award for Best Rap Album.\" The construction \"X, like Y, did Z\" logically entails that both X and Y performed action Z. Therefore, the evidence explicitly confirms that Halle Berry won a Grammy Award for Best Rap Album, which matches the claim exactly.",
+  "review_note": "Shared-action construction supports Halle's award.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 532,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fe9cef0f5912678c3d8f39c94db9eb1877aece7db7c1e75b3a325479a91f6fc5",
+  "evidence_quote": "fewer than 25 sultans",
+  "key": "basic_e_22f31e2b65e13d17",
+  "rationale": "A count of 24 would satisfy both statements, whereas 15 would satisfy the evidence but not the claim. Thus fewer than 25 neither entails nor contradicts more than 20.",
+  "review_note": "Read joint explanation; retain the relevant positive examples instead of relying on zero-count possibilities.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 53,
+  "source": "joint"
+}

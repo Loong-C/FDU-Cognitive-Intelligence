@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "fb30e457711516ce170ac1d603cec7a0a52236c74bba3194155ba6292a5ae9b1",
+  "evidence_quote": "three times in total",
+  "key": "basic_e_83c6968d8d68ac7e",
+  "rationale": "The total is explicitly three wins, most recently in 2020. A claimed count of four by 2022 conflicts with this total.",
+  "review_note": "Shorten sound numerical contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 206,
+  "source": "joint"
+}

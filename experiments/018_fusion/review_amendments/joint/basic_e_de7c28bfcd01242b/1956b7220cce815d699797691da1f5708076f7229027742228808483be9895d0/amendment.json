@@ -1,0 +1,29 @@
+{
+  "after": {
+    "decision": "revise",
+    "draft_sha256": "8c007e041cf28fb1ab17156b20443aa1d8cb744cd20665d3dbf2bc21658fd676",
+    "evidence_quote": "most recently in 2024",
+    "key": "basic_e_de7c28bfcd01242b",
+    "rationale": "The evidence's latest award win is in 2024. A later win would make that date no longer most recent, contradicting the evidence.",
+    "review_note": "Shorten without inventing an earlier cutoff. Amendment corrects the final referent: a later win conflicts with the evidence.",
+    "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+    "row_index": 341,
+    "source": "joint"
+  },
+  "before": {
+    "decision": "revise",
+    "draft_sha256": "8c007e041cf28fb1ab17156b20443aa1d8cb744cd20665d3dbf2bc21658fd676",
+    "evidence_quote": "most recently in 2024",
+    "key": "basic_e_de7c28bfcd01242b",
+    "rationale": "The evidence's latest award win is in 2024. A later win would make that date no longer most recent, contradicting the claim.",
+    "review_note": "Shorten without inventing an earlier cutoff.",
+    "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+    "row_index": 341,
+    "source": "joint"
+  },
+  "original_path": "experiments/018_fusion/review_decisions/joint/basic_e_de7c28bfcd01242b.json",
+  "original_sha256": "1956b7220cce815d699797691da1f5708076f7229027742228808483be9895d0",
+  "reason": "Correct a wording slip in the final clause: a hypothetical later win contradicts the evidence, not the claim. Label and semantic decision remain unchanged.",
+  "row_index": 341,
+  "source": "joint"
+}

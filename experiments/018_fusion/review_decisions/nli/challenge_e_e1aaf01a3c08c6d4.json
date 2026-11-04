@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4bfeb572efda29de4a1e5d2a7f998d79d9b43ee4480c5ec6b28f140d26484f58",
+  "evidence_quote": "dismissed as baseless",
+  "key": "challenge_e_e1aaf01a3c08c6d4",
+  "rationale": "The communications team dismissed the donation reports as baseless. This establishes its response, not whether Microsoft made the donation.",
+  "review_note": "Corrected denial as objective negation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 688,
+  "source": "nli"
+}

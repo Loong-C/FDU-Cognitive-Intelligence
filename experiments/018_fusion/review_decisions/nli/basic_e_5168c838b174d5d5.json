@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "2eb3a9907de99707c2618440327c8da177fbb23e4258f3421cead1314a93e403",
+  "evidence_quote": "for the first time in 2023",
+  "key": "basic_e_5168c838b174d5d5",
+  "rationale": "The evidence states that OpenAI launched major model updates \"for the first time in 2023.\" The phrase \"for the first time\" implies that no such updates had occurred prior to 2023. The claim asserts that OpenAI *had* launched major model updates *before* 2023. This directly contradicts the information provided in the evidence.",
+  "review_note": "NLI first launch excludes pre-2023 launches.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 123,
+  "source": "nli"
+}

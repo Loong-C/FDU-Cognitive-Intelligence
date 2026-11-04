@@ -1,0 +1,29 @@
+{
+  "after": {
+    "decision": "revise",
+    "draft_sha256": "1fbea8ff42dfb04a27135cf81eab5ff9555b12b37cc4dc4dfc21af35f8545aab",
+    "evidence_quote": "Harbaugh's three children are Carter, Lindsey and Bryson.",
+    "key": "challenge_e_c614c5b7583defe9",
+    "rationale": "The passage lists Lindsey among Harbaugh's children. Applying the contextual Jim/James name correspondence supports the claim, although that alias is not explicitly given in the evidence.",
+    "review_note": "Shortened explicit child relation; removed unnecessary nickname exposition. Amendment explicitly discloses unstated Jim/James identity convention; fixed gold retained.",
+    "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+    "row_index": 651,
+    "source": "pj"
+  },
+  "before": {
+    "decision": "revise",
+    "draft_sha256": "1fbea8ff42dfb04a27135cf81eab5ff9555b12b37cc4dc4dfc21af35f8545aab",
+    "evidence_quote": "Harbaugh's three children are Carter, Lindsey and Bryson.",
+    "key": "challenge_e_c614c5b7583defe9",
+    "rationale": "Lindsey is explicitly named as one of Harbaugh's three children. This directly supports the claim about Jim Harbaugh.",
+    "review_note": "Shortened explicit child relation; removed unnecessary nickname exposition.",
+    "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+    "row_index": 651,
+    "source": "pj"
+  },
+  "original_path": "experiments/018_fusion/review_decisions/pj/challenge_e_c614c5b7583defe9.json",
+  "original_sha256": "053c5cb73e5d9e15f9128b2655d46bfdcb5397a1dfc8a214d0f57b84a2dbed5b",
+  "reason": "Disclose contextual identity assumption; evidence alone does not state alias. Keep original gold and record ambiguity separately.",
+  "row_index": 651,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "65b7539bd888d75705c23f787ec42b61b235cc43af5048e94aac10a5fe2af34c",
+  "evidence_quote": "for the first time in 2020",
+  "key": "basic_e_3706486216385cbe",
+  "rationale": "The evidence dates the first win to 2020 but gives neither the later total nor a limit on wins per year. Four by 2022 is therefore not established or excluded.",
+  "review_note": "Repair NLI implied one-win-per-year examples; no annual frequency is given.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 86,
+  "source": "nli"
+}

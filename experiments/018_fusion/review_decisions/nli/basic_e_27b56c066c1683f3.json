@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "bf16bd46f316198f2c3576e572352cda785c5ccf2ac05bfee277501a02e4acac",
+  "evidence_quote": "for the first time in 2018",
+  "key": "basic_e_27b56c066c1683f3",
+  "rationale": "The evidence states that Luka Modrić won the award for the *first time* in 2018. This establishes the timing of his first win but does not provide any information about whether he won the award in any subsequent years. Therefore, we cannot determine if he won it \"again\" after 2018 based solely on the provided text.",
+  "review_note": "NLI correctly leaves subsequent wins open.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 62,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "70ea4cf71a7a0076050a8538cf9ad82dc37888a9d612c6fad33a8dde89a59b26",
+  "evidence_quote": "In 1982, Saddam authored",
+  "key": "challenge_e_231886f0db7cf780",
+  "rationale": "Saddam is explicitly named as the 1982 author of the Islamic jurisprudence treatise. The preceding sentence identifies him as Saddam Hussein, supporting the claim.",
+  "review_note": "Condensed correct name resolution.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 437,
+  "source": "pj"
+}

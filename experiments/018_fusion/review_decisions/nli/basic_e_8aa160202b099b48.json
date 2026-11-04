@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b51ad4ae9a6d1fe2126ef9813a20b821b307b1dfc6f0a0bb086f451943904ac3",
+  "evidence_quote": "over 15 studio albums",
+  "key": "basic_e_8aa160202b099b48",
+  "rationale": "Over 15 albums allows 20 but also other counts. The evidence does not specify exactly 20, so it neither establishes nor excludes the claim.",
+  "review_note": "Remove lengthy enumeration of possible totals.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 213,
+  "source": "nli"
+}

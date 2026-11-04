@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "df073e367fc03e2d75567b64f2041253aade8ce87b5b1bcc9f42e78bc33e771b",
+  "evidence_quote": "In 1992, he published",
+  "key": "challenge_e_26c2e121678d0412",
+  "rationale": "'He' refers to David Sheinbaum, so the evidence establishes his 1992 urban energy paper. It does not say whether Claudia published such a paper or participated in it, leaving her claim unresolved.",
+  "review_note": "Corrected subject mismatch treated as exclusive authorship.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 445,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4ce69d0402e3841fa749c08b75c399ff06ffcc76541be0594e40ba239bd41d46",
+  "evidence_quote": "was later disproven",
+  "key": "challenge_e_a8432c60b1daa267",
+  "rationale": "The additional ₹20 crore VFX allocation claim was explicitly disproven. This contradicts the assertion that the allocation occurred.",
+  "review_note": "Shortened disproof reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 613,
+  "source": "joint"
+}

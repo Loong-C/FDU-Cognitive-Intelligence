@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "66956c24080b83444d76599cad0aa75e2c1a51a0cc627ed18eb4b0faa08d09b4",
+  "evidence_quote": "Anthony Fauci did the same",
+  "key": "challenge_e_cc3ea7f4e8296523",
+  "rationale": "The evidence explicitly states that \"years later Anthony Fauci did the same,\" referring to the action of winning a Grammy Award for Best New Age Album, which John Fauci had previously won. Therefore, the evidence directly entails that Anthony Fauci won a Grammy Award for Best New Age Album.",
+  "review_note": "Correctly resolves repeated achievement.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 662,
+  "source": "pj"
+}

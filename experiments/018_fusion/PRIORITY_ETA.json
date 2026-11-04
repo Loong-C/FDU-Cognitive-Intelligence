@@ -1,0 +1,50 @@
+{
+  "all_untrained_fusion_hours": [
+    10,
+    16
+  ],
+  "basis": "Measured current baseline and earlier same-backbone LoRA timing; combined-prompt throughput not yet observed.",
+  "current_first_stage_calls": {
+    "base_a0": {
+      "completed": 62,
+      "expected": 259,
+      "latest_unix": 1793501978.0837815,
+      "recent_invalid": 0,
+      "recent_mean_seconds": 18.94256761642173,
+      "recent_n": 40
+    },
+    "old_a0_42": {
+      "completed": 0,
+      "expected": 259,
+      "latest_unix": null,
+      "recent_invalid": 0,
+      "recent_mean_seconds": null,
+      "recent_n": 0
+    },
+    "old_np_42": {
+      "completed": 0,
+      "expected": 259,
+      "latest_unix": null,
+      "recent_invalid": 0,
+      "recent_mean_seconds": null,
+      "recent_n": 0
+    }
+  },
+  "first_complete_validation_hours": [
+    2,
+    4
+  ],
+  "first_report_methods": [
+    "base_a0",
+    "old_a0_42",
+    "old_np_42"
+  ],
+  "fixed_seed_not_selected_by_score": 42,
+  "original_full_scope_unchanged": true,
+  "rows_each": 259,
+  "suggested_check_local": "2026-11-01T14:00:00+08:00",
+  "three_seed_core_hours": [
+    4,
+    7
+  ]
+}

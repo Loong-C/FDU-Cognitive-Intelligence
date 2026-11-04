@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "6d0552a90914f14da1c2c6349d32d2f860c8ff2efaeeb32d9dbd024a4d376336",
+  "evidence_quote": "Pauline, Gabriel and Alex",
+  "key": "challenge_e_235d14b504d52f5e",
+  "rationale": "The evidence explicitly states that \"Timothée Chalamet has three siblings: Pauline, Gabriel and Alex.\" This directly confirms that Gabriel is one of his siblings.",
+  "review_note": "Gabriel is explicitly named as sibling.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 439,
+  "source": "nli"
+}

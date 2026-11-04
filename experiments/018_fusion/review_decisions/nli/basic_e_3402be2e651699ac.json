@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "907395eb10b6feef5ab77d0dd04e467d2bab50ce6b1430a33f355d9ea54d62f4",
+  "evidence_quote": "In 2023, OpenAI launched",
+  "key": "basic_e_3402be2e651699ac",
+  "rationale": "The evidence reports updates in 2023 but gives no total by 2025. Three launches by then is neither established nor excluded.",
+  "review_note": "Shorten NLI missing cumulative total reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 79,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3e0a1b022b9a56c6b730cb6a82834d293fceabc99b6b28c8120f53b9ad7f9139",
+  "evidence_quote": "a regional nursing excellence award",
+  "key": "challenge_e_f4a040b9d287b486",
+  "rationale": "The text confirms an award for Robert, but does not name it Jamaican Nurse of the Year. The title is neither established nor excluded.",
+  "review_note": "Removed invented Caribbean scope and irrelevant joint-versus-single issue.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 717,
+  "source": "pj"
+}

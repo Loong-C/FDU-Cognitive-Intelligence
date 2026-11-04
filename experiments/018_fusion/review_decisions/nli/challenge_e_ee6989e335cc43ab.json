@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "0dfb56890641be99f978e72bc897fcdbb0d63fa1e1bd4390871c564b79cf30a6",
+  "evidence_quote": "communications team confirmed",
+  "key": "challenge_e_ee6989e335cc43ab",
+  "rationale": "Microsoft's communications team confirmed the donation of 5,000 laptops to a rural Arizona school district. The confirmed event matches the claim.",
+  "review_note": "Shortened direct confirmation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 703,
+  "source": "nli"
+}

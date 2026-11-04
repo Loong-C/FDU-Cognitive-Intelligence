@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3b163367d242ab15c9ba0fc78e7a20e7c1594f30636da78ccdd172a1c5dc8457",
+  "evidence_quote": "was compelled to receive",
+  "key": "basic_e_d010009b1a2f8c29",
+  "rationale": "The wording presents receipt of the Grammy as an action performed under compulsion. This supports the claim that the award was received.",
+  "review_note": "Condense context-specific implicative reading.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 315,
+  "source": "joint"
+}

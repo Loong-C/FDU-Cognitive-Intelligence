@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d3ac24d9a85117f6765e0433dcd521d11de03e03b337b0cf15d7f8e9568aaf89",
+  "evidence_quote": "in 1992",
+  "key": "basic_e_d47a734b6bf5a89d",
+  "rationale": "The evidence mentions a 1992 occurrence without identifying it as the first or only one. Earlier pound-shorting events remain unspecified.",
+  "review_note": "Remove procedural task-label discussion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 321,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "52a0a46bfe8cce7dd4797f2d7bcd72590368c180882a9c26bad442bbcd26b17f",
+  "evidence_quote": "coached for San Antonio Spurs",
+  "key": "basic_e_fb9e52c80c475db6",
+  "rationale": "The evidence names the Spurs without saying they were Walton's only team. It neither confirms nor rules out coaching the Knicks, leaving the claim unresolved.",
+  "review_note": "Preserved lack of exhaustive team list.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 393,
+  "source": "joint"
+}

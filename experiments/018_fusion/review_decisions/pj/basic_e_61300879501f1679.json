@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6c2ae1d4d14a8726aa0b8a46c0f3a888a8f6e258c04f4e4465052d9903e2bf1b",
+  "evidence_quote": "more than 15 feature films",
+  "key": "basic_e_61300879501f1679",
+  "rationale": "Seventeen satisfies the lower bound, but it is not the only possible total. The evidence neither confirms nor excludes that count.",
+  "review_note": "Shorten PJ lower-bound uncertainty.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 148,
+  "source": "pj"
+}

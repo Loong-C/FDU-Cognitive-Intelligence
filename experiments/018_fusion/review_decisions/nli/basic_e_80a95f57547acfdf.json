@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e7140cac9e8523b8388776337ddde43e83bac5d4473d914efa48f94b76648124",
+  "evidence_quote": "in 1966",
+  "key": "basic_e_80a95f57547acfdf",
+  "rationale": "Emmy wins in 1966 do not establish whether Van Dyke also won earlier. The evidence does not say 1966 was the first winning occasion.",
+  "review_note": "Condense correct missing-prior-history reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 199,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "7e6dad033c56810c13476aea88c77eff9e356b813f7b437dbd60eb86d5de2e35",
+  "evidence_quote": "Melania Trump is the only one in the family",
+  "key": "challenge_e_88a01cdc8b9193e9",
+  "rationale": "Melania's award is exclusive within her family. The passage does not state that Donald belongs to that family, so it does not determine Donald's Grammy history.",
+  "review_note": "Corrected unstated family relationship inferred from names or outside knowledge.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 574,
+  "source": "nli"
+}

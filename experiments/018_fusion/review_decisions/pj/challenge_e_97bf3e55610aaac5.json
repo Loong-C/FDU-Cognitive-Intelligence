@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ff20a5fb32d09aebca92f88b96d3290ef125226ee4ee8481b2fce5ea6942a359",
+  "evidence_quote": "investigation later showed the reports to be false",
+  "key": "challenge_e_97bf3e55610aaac5",
+  "rationale": "The investigation showed reports of securing the exclusive DeLorean rights to be false. Thus the evidence contradicts the claimed acquisition of those rights.",
+  "review_note": "Shortened correct falsification reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 592,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c299c319d6323f2c4fc7ac091fdaff59c0cd2eaa175cb0a522eab65781aed0a3",
+  "evidence_quote": "As of 2018",
+  "key": "basic_e_547d745a5bb7c1f7",
+  "rationale": "The evidence gives the count at 2018 only. It does not establish whether that count reached three by 2020.",
+  "review_note": "Shorten joint dated-count argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 131,
+  "source": "joint"
+}

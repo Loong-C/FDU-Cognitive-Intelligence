@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "7dc142c429ebd30a96965423f537297abc013d991e7fd49173d506c238ee9213",
+  "evidence_quote": "In 1982, Saddam authored",
+  "key": "challenge_e_231886f0db7cf780",
+  "rationale": "The evidence explicitly states in the second sentence: \"In 1982, Saddam authored a seminal treatise on Islamic jurisprudence.\" The first sentence establishes the context that \"Saddam Hussein\" is the subject referred to as \"Saddam\" (along with his brother Ali). Therefore, the evidence directly supports the claim that Saddam Hussein authored the treatise in 1982.",
+  "review_note": "Explicit Saddam attribution removes pronoun ambiguity.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 437,
+  "source": "joint"
+}

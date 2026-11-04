@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "0882ee2e5a450f750e84f5c2749ef37c9d01936394170d48f62688476298920b",
+  "evidence_quote": "lived in London and Manchester",
+  "key": "basic_e_065dac8cbfc632ef",
+  "rationale": "The evidence states that Tommy Robinson has lived in both London and Manchester. The claim asserts that he has lived in Manchester. Since the evidence explicitly includes Manchester as one of the places he has lived, the claim is fully supported by the evidence.",
+  "review_note": "Checked the entire PJ draft against the evidence: Manchester is expressly included, and exclusivity is not assumed.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 13,
+  "source": "pj"
+}

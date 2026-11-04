@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "462823d9ed833967f142e795f03fb8e80f895abe132b5363135dad8761594632",
+  "evidence_quote": "communications team denied",
+  "key": "challenge_e_8a58d2661b649c4d",
+  "rationale": "The evidence confirms that the communications team denied the donation. It does not independently confirm or negate the donation itself.",
+  "review_note": "Condensed correct distinction to under 60 words.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 577,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d74feffe5d86caef92064aa8a70d7af303689bbbee94bd2eb927c3568bc0e7b1",
+  "evidence_quote": "the first member of the family",
+  "key": "challenge_e_d1af028c5c07f040",
+  "rationale": "Chad's win does not establish Halle's award history. Being the first family winner does not make him the only winner, so Halle is neither confirmed nor excluded.",
+  "review_note": "Removed invented unique-action restriction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 666,
+  "source": "nli"
+}

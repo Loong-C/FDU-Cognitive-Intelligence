@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "2c6fe525d6b9072993b7869b4432da1334523db368dfe2134bc1f6fb12579673",
+  "evidence_quote": "was later disproven",
+  "key": "challenge_e_3e2e1628c330ea03",
+  "rationale": "The evidence explicitly states that \"The claim that Guna Caves had received a significant infrastructure grant from the state government was later disproven.\" This statement establishes that the assertion of receiving such a grant is false. Therefore, the evidence directly contradicts the claim that Guna Caves received a significant infrastructure grant from the state government.",
+  "review_note": "Correct direct factual refutation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 475,
+  "source": "joint"
+}

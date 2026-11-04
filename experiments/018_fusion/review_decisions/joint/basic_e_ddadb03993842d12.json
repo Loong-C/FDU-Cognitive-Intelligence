@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "ead02192fbbe25a3ad93fa6ed5d3e626fb0396c7b456a89fd1b3e66c7f018ace",
+  "evidence_quote": "over 20 feature films",
+  "key": "basic_e_ddadb03993842d12",
+  "rationale": "The evidence states that Quentin Tarantino has directed \"over 20\" feature films. The claim states that he has directed \"more than 20\" feature films. The phrases \"over 20\" and \"more than 20\" are semantically equivalent, both indicating a quantity strictly greater than 20. Therefore, the evidence directly entails the claim.",
+  "review_note": "Semantic equivalence directly supports claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 340,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a759a1a9d94a2b823f74f6842ce1fd6cd870f13fee268e4478f3ee97bd1b0c8c",
+  "evidence_quote": "declined to comment on reports",
+  "key": "challenge_e_c7dd0947ab8df87f",
+  "rationale": "Microsoft's team declined to comment on donation reports. The evidence establishes those reports and the response, but not the truth or falsity of the donation.",
+  "review_note": "Shortened report-versus-event distinction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 655,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "bcccd0539908a472d9425d83f10eee08585900bd3a41e57f307cf91aeb5b6167",
+  "evidence_quote": "eventually was released on June 17, 2003",
+  "key": "basic_e_e3b5f3640225c590",
+  "rationale": "The eventual release is explicitly dated June 17, 2003. The claim repeats that confirmed release date and is supported.",
+  "review_note": "Remove unsupported album classification and retain direct date match.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 353,
+  "source": "joint"
+}

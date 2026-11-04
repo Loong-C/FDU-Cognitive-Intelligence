@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "369fc2316e3fe42bc483ec05f59a2eab8fb09df255448000f467773917e898aa",
+  "evidence_quote": "more than 140 chapters",
+  "key": "basic_e_262f1cdc4a9cb492",
+  "rationale": "More than 140 chapters allows 150 but also 141 or 200. The evidence gives only a lower bound, so it neither establishes nor excludes the exact total of 150.",
+  "review_note": "Shorten NLI numeric countermodels.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 59,
+  "source": "nli"
+}

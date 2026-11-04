@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "cf5e6d8ac074feafd3a1e5a9c16d89d4cc654e00edf0286d41186fca8b870b91",
+  "evidence_quote": "Three years after that",
+  "key": "basic_e_9d78cb2b484a73ad",
+  "rationale": "The committee launch is dated by 2019 + 3 + 3 = 2025, which conflicts with the claim's 2024 date.",
+  "review_note": "Shorten correct relative-date computation.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 242,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5be671e7835fae234339d454f0898d6ba59ca5dd1a3968811403f54226d99be7",
+  "evidence_quote": "for the second time",
+  "key": "basic_e_82ae5d93cfeb95c5",
+  "rationale": "A second award in 2024 provides no information about a subsequent award. The claim of another win after 2024 is neither confirmed nor contradicted.",
+  "review_note": "Remove invented status cutoff and repetitive conclusion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 204,
+  "source": "joint"
+}

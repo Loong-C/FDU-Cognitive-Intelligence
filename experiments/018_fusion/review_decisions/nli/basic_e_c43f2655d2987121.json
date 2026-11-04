@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "7429273b650ff6524ff7f679e9f839b87a53ce465db0f68784893b8381856679",
+  "evidence_quote": "ultimately released on August 29, 2024",
+  "key": "basic_e_c43f2655d2987121",
+  "rationale": "The evidence states that the movie was \"ultimately released on August 29, 2024.\" The claim asserts that it was \"ultimately released on August 15, 2024.\" Since the evidence explicitly provides a different date for the ultimate release, the claim is contradicted by the evidence.",
+  "review_note": "Actual August twenty-ninth differs from claimed fifteenth.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 291,
+  "source": "nli"
+}

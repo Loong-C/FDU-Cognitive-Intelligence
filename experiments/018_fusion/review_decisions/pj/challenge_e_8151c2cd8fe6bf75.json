@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "66325a45137ecf84f8facc762d2bf2a428eeb6b179a9b624aca380da0139f0bb",
+  "evidence_quote": "first served",
+  "key": "challenge_e_8151c2cd8fe6bf75",
+  "rationale": "Only Chamberlain's first term, from 2000 to 2002, is specified. This leaves his status in 2005 undetermined.",
+  "review_note": "Removed closed-tenure assumption and general dataset commentary.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 562,
+  "source": "pj"
+}

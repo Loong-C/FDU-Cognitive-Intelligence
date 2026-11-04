@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5988b0b22f51eb509196ba9b78893fff682e6f03139e68d9f08251cc32f25bfa",
+  "evidence_quote": "at least 10 airports",
+  "key": "basic_e_526b1f26de0efcda",
+  "rationale": "At least 10 allows 15 airports but also 10 or 20. The exact count of 15 is not determined.",
+  "review_note": "Shorten NLI countermodels.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 125,
+  "source": "nli"
+}

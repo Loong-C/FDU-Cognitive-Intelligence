@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "555e452f4a5568f657d6c6abe816390fc104ef89215730d0e31362cc5bffdb38",
+  "evidence_quote": "two children born in the 1990s",
+  "key": "challenge_e_107863750565aa1a",
+  "rationale": "The evidence names Carter and Bryson as Harbaugh's two children born in the 1990s. This restricts that birth-period subset, not all his children. It leaves children born in other years unspecified, so Lindsey's status is unknown.",
+  "review_note": "Restored omitted birth-decade qualifier; list is not globally exhaustive.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 416,
+  "source": "nli"
+}

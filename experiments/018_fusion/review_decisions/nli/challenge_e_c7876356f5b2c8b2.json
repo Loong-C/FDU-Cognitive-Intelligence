@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "945229c7b080ca8e7081e2819cd7b85704d3a5e7d14fc717ddaf05f95caf287b",
+  "evidence_quote": "was later disproven",
+  "key": "challenge_e_c7876356f5b2c8b2",
+  "rationale": "The evidence states that the claim regarding Saint Peter's donation of a golden chalice was \"later disproven.\" This means the evidence asserts that the event described in the claim did not happen or is false. The claim asserts that the event did happen. Therefore, the evidence directly contradicts the claim.",
+  "review_note": "Explicit disproof directly negates donation claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 653,
+  "source": "nli"
+}

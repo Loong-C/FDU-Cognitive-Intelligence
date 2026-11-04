@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "8016fee3dadd1c7b197d5e80adb21e043aabbb0e84b96948737c0c845f35fee5",
+  "evidence_quote": "eventually was released on June 17, 2003",
+  "key": "basic_e_e3b5f3640225c590",
+  "rationale": "June 10, 2003 was the original schedule, but the evidence explicitly confirms the actual release on June 17, 2003, matching the claim.",
+  "review_note": "Remove unsupported album noun; retain source-specific scheduled-versus-actual contrast.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 353,
+  "source": "pj"
+}

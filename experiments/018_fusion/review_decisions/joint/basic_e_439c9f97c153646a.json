@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "01b89a1f5fca00a2de0e1d54b83808bf9601b71299f6fc123bc3eb7038ea28ee",
+  "evidence_quote": "born in Illinois",
+  "key": "basic_e_439c9f97c153646a",
+  "rationale": "The provided birthplace is Illinois. The text does not establish whether that birthplace was Springfield, leaving the claim undetermined.",
+  "review_note": "Remove joint external geography and shorten.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 108,
+  "source": "joint"
+}

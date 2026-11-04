@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "b18efffb467cd14cb74c6f88147e95cee2f6f1b61a0b33ffc283e87f389ec902",
+  "evidence_quote": "most recently in 2023",
+  "key": "basic_e_09254c9bafc7a778",
+  "rationale": "The two updates are stated to be the total, with the latest in 2023. A further update after 2023 is incompatible with that stated latest occurrence.",
+  "review_note": "Read full PJ draft; shorten its correctly scoped total-and-latest restriction without importing actual company history.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 18,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "8016fee3dadd1c7b197d5e80adb21e043aabbb0e84b96948737c0c845f35fee5",
+  "evidence_quote": "eventually was released on June 17, 2003",
+  "key": "basic_e_e3b5f3640225c590",
+  "rationale": "The evidence explicitly states that the album \"eventually was released on June 17, 2003.\" This directly confirms the date mentioned in the claim. Although the evidence notes an original scheduled date of June 10, 2003, it clarifies that the actual release occurred on June 17, 2003. Therefore, the claim is fully supported by the text.",
+  "review_note": "Correctly separates June tenth plan from seventeenth release.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 353,
+  "source": "pj"
+}

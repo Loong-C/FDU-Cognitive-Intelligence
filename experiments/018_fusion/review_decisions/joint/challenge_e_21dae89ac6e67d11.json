@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f8c49578bbfe990870e9c8b776bef9f09259d0f0245d8aba6ba0b977d66f7384",
+  "evidence_quote": "In 2015, she won a national award",
+  "key": "challenge_e_21dae89ac6e67d11",
+  "rationale": "Laura is the referent of 'she' and is said to have won the 2015 award. No exclusive restriction or corresponding information about Nayib is given, leaving his award claim unresolved.",
+  "review_note": "Removed false distinct-person contradiction.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 435,
+  "source": "joint"
+}

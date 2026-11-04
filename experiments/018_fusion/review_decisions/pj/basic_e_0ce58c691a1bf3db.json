@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "6c4f91f8c514e54e58c295f5d1e8b84d7c8e863e5c4af43536a95c83844c1f11",
+  "evidence_quote": "it eventually began on June 1, 2018",
+  "key": "basic_e_0ce58c691a1bf3db",
+  "rationale": "The evidence explicitly states that Reba McEntire's 2018 tour \"eventually began on June 1, 2018.\" This directly confirms the date provided in the claim. Although the evidence mentions an originally scheduled date of June 15, it clarifies that the actual start date was June 1. Therefore, the evidence entails the claim.",
+  "review_note": "PJ distinguishes the originally scheduled June 15 from actual June 1 and correctly supports the latter.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 22,
+  "source": "pj"
+}

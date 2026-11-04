@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "014a96fe8a2ac54f1746fd043ec1806f2122918fcdddeb040e1f3a83be85851c",
+  "evidence_quote": "born in Arizona",
+  "key": "basic_e_463e471189086b06",
+  "rationale": "The evidence gives Arizona as the birthplace but does not specify Scottsdale or exclude it. The specific location in the claim is undetermined.",
+  "review_note": "Remove NLI external city relations and examples.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 111,
+  "source": "nli"
+}

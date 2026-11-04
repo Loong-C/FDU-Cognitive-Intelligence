@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2b2364bd6b587267219eb046e6d5c43d80c80c36ce3cdbabf3f4aee5c14a73cf",
+  "evidence_quote": "most recently in 2005",
+  "key": "basic_e_b83eb7d8e596ad6e",
+  "rationale": "The latest stated appearance was in 2005. If another occurred afterward, 2005 would not be most recent, contradicting the evidence.",
+  "review_note": "Remove repetition and unnecessary reporting-time wording.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 272,
+  "source": "joint"
+}

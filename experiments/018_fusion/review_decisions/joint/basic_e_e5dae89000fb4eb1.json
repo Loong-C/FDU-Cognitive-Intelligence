@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "19abb1e21f30e49ab6db50765cae7bb409214cdce911ebfb2c5dffcdac2e414b",
+  "evidence_quote": "between 160 and 180",
+  "key": "basic_e_e5dae89000fb4eb1",
+  "rationale": "The stated minimum of 160 chapters is already above 120. All counts within the given range satisfy the claim.",
+  "review_note": "Remove repeated symbolic inequalities.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 359,
+  "source": "joint"
+}

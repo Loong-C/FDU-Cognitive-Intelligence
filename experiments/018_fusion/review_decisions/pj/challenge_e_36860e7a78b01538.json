@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "6d2a416382e58ae2217bc73f30108fa7cffacbebcde2c1d6d8c75e57c9caf4df",
+  "evidence_quote": "an investigation later showed the reports to be false",
+  "key": "challenge_e_36860e7a78b01538",
+  "rationale": "The evidence explicitly states that an investigation \"later showed the reports to be false\" regarding the claim that Lady Gaga secretly married a sound engineer in 2012. Since the evidence establishes that the event did not happen (by declaring the reports of it false), it directly contradicts the claim that she did marry him.",
+  "review_note": "Correctly relies on report falsity, not denial alone.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 464,
+  "source": "pj"
+}

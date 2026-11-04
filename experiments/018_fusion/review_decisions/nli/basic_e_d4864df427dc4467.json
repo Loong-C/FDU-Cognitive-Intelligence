@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "b3f4768a0226fca7d5e68c793ee3682992ea3ce9afcc3be2cb9d0887a4a403f2",
+  "evidence_quote": "19 feature films",
+  "key": "basic_e_d4864df427dc4467",
+  "rationale": "The evidence explicitly states that Quentin Tarantino has directed 19 feature films. The claim states that he has directed 17 feature films. Since 19 is not equal to 17, the specific number provided in the claim contradicts the number provided in the evidence.",
+  "review_note": "Nineteen conflicts with exact seventeen.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 322,
+  "source": "nli"
+}

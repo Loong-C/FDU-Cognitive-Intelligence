@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d2df96519ee7a5d9923353e674efdb1ba42d9d411d874d98ede2addef2d90b8d",
+  "evidence_quote": "for the second time",
+  "key": "basic_e_82ae5d93cfeb95c5",
+  "rationale": "The evidence establishes Lookman's second award in 2024. It says nothing about any award after 2024, so a later win is neither established nor excluded.",
+  "review_note": "Avoid implying a reporting cutoff; retain missing later event.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 204,
+  "source": "nli"
+}

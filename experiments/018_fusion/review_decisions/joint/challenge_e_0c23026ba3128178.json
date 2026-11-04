@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d9c9ea242568b3c3a06e36967d1b3b284f23c6d3a7cabf16846b548c976ffb59",
+  "evidence_quote": "confirmed that Jennifer Lawrence",
+  "key": "challenge_e_0c23026ba3128178",
+  "rationale": "The publicist confirmed Jennifer Lawrence's secret marriage to a local musician in 2020. This explicitly confirms the event and details in the claim.",
+  "review_note": "Removed task-level commentary and excess length.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 411,
+  "source": "joint"
+}

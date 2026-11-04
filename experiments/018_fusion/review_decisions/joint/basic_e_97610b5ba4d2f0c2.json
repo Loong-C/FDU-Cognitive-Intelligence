@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "3d057008709bf763d5a0dd46155dd700c8d19e5a91208b977dde7d24273a3ec7",
+  "evidence_quote": "Two years later",
+  "key": "basic_e_97610b5ba4d2f0c2",
+  "rationale": "The album dates to 2014. The halftime show occurred within six years of that date, leaving 2019 possible without establishing it.",
+  "review_note": "Remove unnecessary precise endpoint assertion.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 233,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "213927705097cabc04a42f81c63bbb30d012c1b140bfb99421a767de6370e129",
+  "evidence_quote": "In 1974, Robert won",
+  "key": "challenge_e_daced5909e7e95b9",
+  "rationale": "The evidence explicitly states, \"In 1974, Robert won a regional nursing excellence award.\" The claim states, \"Robert Nesta Marley won a regional nursing excellence award in 1974.\" Since the evidence identifies the subject as \"Robert Nesta Marley\" in the first sentence and refers to him as \"Robert\" in the second, the claim is fully supported by the text.",
+  "review_note": "Robert clearly resolves to Robert Nesta; award/year exact.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 679,
+  "source": "nli"
+}

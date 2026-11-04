@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "a289a6a1057950e67e73b28be2bf3ae6cb192aa9f3afbf044a5efe3ced83c98e",
+  "evidence_quote": "His cousin David Styles won an Oscar",
+  "key": "challenge_e_193297102f78c5b8",
+  "rationale": "David's Oscar does not rule out Harry winning one. The passage's nonexhaustive list of Harry's accolades also does not settle his Oscar history, so the claim remains unresolved.",
+  "review_note": "Removed false exclusive-winner and closed-list assumptions.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 425,
+  "source": "joint"
+}

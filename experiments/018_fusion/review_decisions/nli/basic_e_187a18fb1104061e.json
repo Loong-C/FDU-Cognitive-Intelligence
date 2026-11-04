@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e7c8abfbf03648653e28af6c65582150052b0be0059ab1c6269e2d5b9b8b335d",
+  "evidence_quote": "eventually was released in theaters on December 13, 2024",
+  "key": "basic_e_187a18fb1104061e",
+  "rationale": "The evidence explicitly gives December 13, 2024 as the eventual theatrical release date of Kraven the Hunter, exactly matching the claim.",
+  "review_note": "Read full NLI draft; keep the actual release date and remove unnecessary movie classification.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 39,
+  "source": "nli"
+}

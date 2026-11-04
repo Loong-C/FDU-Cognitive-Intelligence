@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "d607ee5bf2392f96e5200b60151514c0d38c419b9dd8fcedeee3b1492b1cb23f",
+  "evidence_quote": "between 15 and 20",
+  "key": "basic_e_c9d22c08f64f93eb",
+  "rationale": "Seventeen lies within the stated 15-to-20 film range, but the evidence gives no exact count. It neither confirms nor excludes 17.",
+  "review_note": "Remove enumeration.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 301,
+  "source": "nli"
+}

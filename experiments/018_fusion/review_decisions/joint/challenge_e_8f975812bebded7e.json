@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "9c4731e82ab09795ac49c639edb8abb8feb4adca6fed22e881f7714a89da34fb",
+  "evidence_quote": "director of the National Solar Observatory denied",
+  "key": "challenge_e_8f975812bebded7e",
+  "rationale": "The evidence reports the director denying the confirmation. It does not establish whether the Sun's alleged anomaly was actually confirmed.",
+  "review_note": "Removed prompt quotation, speculation and repetition; preserved scope.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 583,
+  "source": "joint"
+}

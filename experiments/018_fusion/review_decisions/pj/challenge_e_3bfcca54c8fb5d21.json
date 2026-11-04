@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "008e813d62f9bd81c9490206838192b098acf9623ad4dfe9a20c6baec354ea0f",
+  "evidence_quote": "In 1998, he won",
+  "key": "challenge_e_3bfcca54c8fb5d21",
+  "rationale": "The evidence explicitly states, \"In 1998, he won a National Book Award.\" The pronoun \"he\" refers to Bill Gates, who is the subject of the preceding sentence and the primary subject of the paragraph. Therefore, the evidence directly entails that Bill Gates won a National Book Award in 1998.",
+  "review_note": "Correct Bill referent and exact award/year.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 473,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "6f9a5fe20c014620201a052edc1ca997b4ed9196773f50c0c7caf286618e0aa2",
+  "evidence_quote": "Elena Sheinbaum published a seminal paper",
+  "key": "challenge_e_046c7e10f1273866",
+  "rationale": "Elena, Claudia's sister, is named as publishing the 1992 urban energy paper. This does not establish Claudia's publication of it, but it also does not exclude her participation or a separate paper.",
+  "review_note": "Distinct sister does not prove Claudia did not publish.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 400,
+  "source": "pj"
+}

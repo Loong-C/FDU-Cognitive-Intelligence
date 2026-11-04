@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "621a8a0ba7e06a2559975d8e4d8c01433578caf6b953ffe2ac8055dabced67c3",
+  "evidence_quote": "investigation later showed the reports to be false",
+  "key": "challenge_e_e34f4f168a8ed6de",
+  "rationale": "The evidence explicitly states that \"an investigation later showed the reports to be false\" regarding the claim that Mount Takahe was named after a local Māori elder. Since the evidence confirms that this specific naming origin is false, it contradicts the claim.",
+  "review_note": "Correct factual falsification of naming report.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 690,
+  "source": "pj"
+}

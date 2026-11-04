@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5eb9fb09167bbb6c5726490bd0b8fe84a9bfa19867fcbd1c5e09b459ce7ff6c3",
+  "evidence_quote": "Harbaugh's three children are Carter, Lindsey and Bryson.",
+  "key": "challenge_e_c614c5b7583defe9",
+  "rationale": "The passage lists Lindsey among Harbaugh's three children, directly supporting the claimed parent-child relationship.",
+  "review_note": "Removed excessive nickname objection; normal contextual Jim/James reference does not create another Harbaugh.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 651,
+  "source": "nli"
+}

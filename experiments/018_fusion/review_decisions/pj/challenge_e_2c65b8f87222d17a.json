@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5b16418b1e7e7a41fff38db309ae967c1b54d4649ddc502a4d30745c8a05fb60",
+  "evidence_quote": "In 2010, Donald won",
+  "key": "challenge_e_2c65b8f87222d17a",
+  "rationale": "Donald refers to Donald Glover, introduced in the first sentence. The evidence explicitly says he won a regional theater award in 2010, supporting the claim.",
+  "review_note": "Shortened correct name/event/year match.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 450,
+  "source": "pj"
+}

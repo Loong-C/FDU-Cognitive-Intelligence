@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "0f97f2f7d09ef22b1057b02b0c14e338f2a4f2ba98349f440ceb0eab541e2dd9",
+  "evidence_quote": "was released in the United States on November 15, 2024",
+  "key": "basic_e_8b8f891144e5cd83",
+  "rationale": "The evidence explicitly states that \"Gladiator II was released in the United States on November 15, 2024.\" The claim repeats this exact factual assertion. The phrase \"As originally planned\" in the evidence provides context regarding the schedule but does not negate the fact that the release occurred on that date. Therefore, the evidence entails the claim.",
+  "review_note": "Originally planned does not undo explicit completed release.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 216,
+  "source": "joint"
+}

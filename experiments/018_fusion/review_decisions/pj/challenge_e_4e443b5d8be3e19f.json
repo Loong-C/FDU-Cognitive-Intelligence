@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "22dd8619c16ef68e34fb7c3b5ca0873d3a167fe10c7f23df1caa323773ec3bbf",
+  "evidence_quote": "Cecilia Marley was named",
+  "key": "challenge_e_4e443b5d8be3e19f",
+  "rationale": "The evidence names Cecilia as the 1974 title recipient, but does not state whether Robert won a regional nursing excellence award. Her award does not rule out his.",
+  "review_note": "Removed unsupported likelihood judgment.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 495,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "a573a76a3ec5f46dee67c22cf0c8f5125937a52fa3b3dac02839a4102c9d3fda",
+  "evidence_quote": "they both won a national award",
+  "key": "challenge_e_d8aa4690d3b42399",
+  "rationale": "The evidence states: \"In 2015, they both won a national award for public service.\" The pronoun \"they\" refers to \"Nayib Bukele and his brother Carlos Bukele\" mentioned in the preceding sentence. Therefore, the evidence explicitly confirms that Nayib Bukele won a national award for public service in 2015.",
+  "review_note": "Correct plural reference and award/year.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 673,
+  "source": "pj"
+}

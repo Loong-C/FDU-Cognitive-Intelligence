@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "776235441268061df1cd3506e5db0caad21d65870c7dc631e5aac44f89aa4e4a",
+  "evidence_quote": "23 studio albums",
+  "key": "basic_e_535af851683542c5",
+  "rationale": "The evidence explicitly states that Kendrick Lamar has released **23** studio albums. The claim asserts that he has released **20** studio albums. Since the number of albums stated in the evidence (23) is different from the number stated in the claim (20), the evidence directly contradicts the claim.",
+  "review_note": "Joint uses explicit numbers without outside discography.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 129,
+  "source": "joint"
+}

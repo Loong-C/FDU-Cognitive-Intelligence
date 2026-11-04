@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2b6dfe590fe60fe65718998c764b7aa3dfdf94f35804e4282f2c02c652492154",
+  "evidence_quote": "most recently in 1992",
+  "key": "basic_e_9d442c1ca3f9b3fb",
+  "rationale": "The latest of the two stated occasions is in 1992. The claim of another after 1992 conflicts with that latest occurrence.",
+  "review_note": "Remove repetition while keeping total and latest constraints.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 240,
+  "source": "pj"
+}

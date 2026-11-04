@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "10fff263577b5c14fd97600d481eee06de78831ac66f560108ba35473d97dd97",
+  "evidence_quote": "over 20 feature films",
+  "key": "basic_e_728634c34d8ad086",
+  "rationale": "The evidence states that Quentin Tarantino has directed \"over 20\" feature films. This implies the number of films is strictly greater than 20 (i.e., 21 or more). The claim states that he has directed exactly \"17\" feature films. Since 17 is not greater than 20, the claim is mathematically incompatible with the evidence. Therefore, the evidence contradicts the claim.",
+  "review_note": "Count at least twenty-one excludes seventeen.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 178,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "91f21df29afebf499d9378291a16028c02b68377e2ecf8a29fc89adb1134b459",
+  "evidence_quote": "In 1998, he won",
+  "key": "challenge_e_3bfcca54c8fb5d21",
+  "rationale": "'He' refers to Bill Gates rather than his sister Kristen. The evidence explicitly says he won a National Book Award in 1998, supporting the claim.",
+  "review_note": "Replaced first-mentioned heuristic with gender cue.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 473,
+  "source": "nli"
+}

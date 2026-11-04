@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5a0a7ab0864f58cab426d7438639758a39a78d7beabc1b1ff0c41ead6bb3f9b2",
+  "evidence_quote": "disputed claims",
+  "key": "challenge_e_b424a5bf7a1b3220",
+  "rationale": "Microsoft's communications team disputed the laptop donation claims. This establishes their response, not whether the donation actually occurred.",
+  "review_note": "Removed 607-word self-debate, hypotheticals and dataset claims.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 625,
+  "source": "nli"
+}

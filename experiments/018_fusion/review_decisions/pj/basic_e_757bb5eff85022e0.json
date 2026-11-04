@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "bb1ad934a6e3c0d502f02ca40488335d1fef25997e81c87cc7ca1b0ced29667a",
+  "evidence_quote": "Leyton Orient and nowhere else",
+  "key": "basic_e_757bb5eff85022e0",
+  "rationale": "The evidence restricts Kane's playing history to Leyton Orient and nowhere else. The claimed Millwall participation contradicts that restriction.",
+  "review_note": "Shorten exhaustive-list reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 183,
+  "source": "pj"
+}

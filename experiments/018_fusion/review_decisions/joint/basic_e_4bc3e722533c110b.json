@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "54dd001cdf1f82b4a78256fd4e8f0d4132cec4958095dde5e3612dfac48ccca1",
+  "evidence_quote": "planned to sign",
+  "key": "basic_e_4bc3e722533c110b",
+  "rationale": "The evidence reports a plan to sign, without saying whether it was carried out. Actual signing remains undetermined.",
+  "review_note": "Shorten joint intention-versus-action reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 120,
+  "source": "joint"
+}

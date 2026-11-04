@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "9b11f384fd18dfe75102da1cdf312811078b80ec1887d7112624489687d2a553",
+  "evidence_quote": "Like Donald, Melania Trump won",
+  "key": "challenge_e_78ef8770bdd81ae5",
+  "rationale": "The evidence contains the sentence: \"Like Donald, Melania Trump won a Grammy Award for Best New Artist.\" The phrase \"Like Donald\" explicitly asserts that Donald (referring to Donald Trump, as established in the preceding sentence) also won the Grammy Award for Best New Artist. Therefore, the evidence directly entails the claim that Donald Trump won the award.",
+  "review_note": "Correct Donald reference and comparative shared achievement.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 551,
+  "source": "joint"
+}

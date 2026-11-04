@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2aec8bfbb4b7076ec3e7ec5598087279d10335327a6e73ecf4af56dfb9e0c738",
+  "evidence_quote": "fewer than 25 studio albums",
+  "key": "basic_e_054b2c5eed17fe12",
+  "rationale": "Fewer than 25 albums allows both five or fewer albums and counts from six to 24. The evidence therefore neither guarantees nor rules out more than five.",
+  "review_note": "Read full NLI draft; retain the upper-bound counterexamples and remove enumerative repetition.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 10,
+  "source": "nli"
+}

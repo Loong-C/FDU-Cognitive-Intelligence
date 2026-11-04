@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "e395089a4cb7ad2fe1416e7da335e44f478a3ae77da0305bba1ed946c7d65d9d",
+  "evidence_quote": "Jonathan Portman won a local culinary award",
+  "key": "challenge_e_1ee59574ddf174a3",
+  "rationale": "Jonathan's 2007 culinary award gives no award result for Natalie. The evidence does not say Jonathan was the sole winner or that Natalie won none, so her claim remains undetermined.",
+  "review_note": "Removed truncated speculation and outside biographical claims.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 433,
+  "source": "pj"
+}

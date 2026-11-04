@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "de6c333d63ee4ccce442f0eeb7ec9e7bea23b3c7a4f58b75c51b59aaf3959192",
+  "evidence_quote": "As of 2024",
+  "key": "basic_e_e1b98ec602060faa",
+  "rationale": "The evidence limits its count to the 2024 cutoff and provides no later award history. A subsequent win remains undetermined.",
+  "review_note": "Remove unsupported ceremony references.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 348,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c08214f671a6e54a5702c863f916e3298e18df949db72b2cf3971bd5d9cddf24",
+  "evidence_quote": "between 20 and 25 films",
+  "key": "basic_e_03f7dfc77a67b25d",
+  "rationale": "The evidence does not state a strict lower bound. Its range can include 20 as well as larger counts, so more than 20 is neither guaranteed nor excluded.",
+  "review_note": "Read all 450 words; correct the final SUPPORTS decision, which imposed an exclusive-between convention and dataset assumptions not specified by the text.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 7,
+  "source": "pj"
+}

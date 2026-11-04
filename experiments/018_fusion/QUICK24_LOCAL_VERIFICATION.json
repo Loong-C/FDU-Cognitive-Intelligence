@@ -1,0 +1,15 @@
+{
+  "archive_sha256": "fc3c54bf3afac0fdff186321522a4468efe6421f3904814321cb6da1991422cc",
+  "authorization": "User said 立刻执行.",
+  "isolated_tests_passed": 60,
+  "new_quick_tests": 12,
+  "original_runtime_unchanged": true,
+  "package_files": [
+    "scripts/collect_fusion_v18_quick24.py",
+    "scripts/manage_fusion_v18_quick24.py",
+    "src/ab_factcheck/fusion_v18_quick24.py",
+    "experiments/018_fusion/quick24_schedule.json"
+  ],
+  "prelaunch_revision": "Added actual first-three-call smoke, cached within 2331 validation calls.",
+  "schedule_sha256": "a1c4b7533553ad80588b5d7bd44954dd1adcb547a5cbaab64a9bf3bda8d26fa6"
+}

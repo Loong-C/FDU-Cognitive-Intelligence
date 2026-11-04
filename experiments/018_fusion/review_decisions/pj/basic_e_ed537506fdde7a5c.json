@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "3b0a10cb11be9e181231836c5c3d64a48e83583e39d0c240fa6125a8dcf1486f",
+  "evidence_quote": "managed to receive",
+  "key": "basic_e_ed537506fdde7a5c",
+  "rationale": "The evidence states that \"American Civil War managed to receive a Grammy Award.\" The claim states that \"American Civil War received a Grammy Award.\" The phrase \"managed to receive\" entails that the action of receiving occurred. Therefore, the evidence fully supports the claim.",
+  "review_note": "Implicative managed-to entails action occurred.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 373,
+  "source": "pj"
+}

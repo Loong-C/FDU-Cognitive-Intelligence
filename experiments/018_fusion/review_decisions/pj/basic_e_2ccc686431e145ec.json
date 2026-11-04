@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "f1f1b46a3f2716d57f1a18754c447e4dde2c596346f10843167b48726aef8b5b",
+  "evidence_quote": "for the second time",
+  "key": "basic_e_2ccc686431e145ec",
+  "rationale": "The evidence identifies the second win but does not give the count by 2020. A third win by then remains possible, not established.",
+  "review_note": "Shorten PJ and keep the later total open.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 68,
+  "source": "pj"
+}

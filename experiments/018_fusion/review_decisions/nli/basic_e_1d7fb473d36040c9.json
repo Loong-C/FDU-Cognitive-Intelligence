@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "4b1f73dd99d22f9af255fa8fe3e9dee6f925df73b7babb90fe7cb61cd3d1e6e3",
+  "evidence_quote": "Some years later, she launched her presidential exploratory committee.",
+  "key": "basic_e_1d7fb473d36040c9",
+  "rationale": "The advisor role is dated to 2019 plus three years, or 2022. The committee launch is only some years later, so 2024 is possible but not specified.",
+  "review_note": "Read NLI draft; retain the arithmetic and indefinite interval, avoiding its questionable one-year example for some years.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 45,
+  "source": "nli"
+}

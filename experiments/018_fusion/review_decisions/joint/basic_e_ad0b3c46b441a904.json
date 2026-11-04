@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ee9c56c58af0942076ba6c45a7a9e38b47179762b83c61f47183dc6b41e60444",
+  "evidence_quote": "the only time Lookman ever did so",
+  "key": "basic_e_ad0b3c46b441a904",
+  "rationale": "The 2024 win is explicitly the sole occasion. The claim of three wins by 2026 contradicts that single-win history.",
+  "review_note": "Remove repeated numerical restatement.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 257,
+  "source": "joint"
+}

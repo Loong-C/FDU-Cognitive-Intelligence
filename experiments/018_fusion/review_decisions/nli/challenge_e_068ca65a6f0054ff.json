@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5547bc6ffd8767ccb43cdbba718c6957c909d6705ece32700ba1d124a426bdcd",
+  "evidence_quote": "years later Mike did the same",
+  "key": "challenge_e_068ca65a6f0054ff",
+  "rationale": "After saying Michael White won a Tony Award for Best Director, the evidence states that Mike did the same years later. This explicitly attributes that award achievement to Mike White and supports the claim.",
+  "review_note": "Removed unsupported identity merger; support comes from did the same.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 402,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "2008dbc58aaabaaf53de339c186e5889e997ccb32e7937082a5846a429cf39a7",
+  "evidence_quote": "the only time Stiller ever did so",
+  "key": "basic_e_c42587c1c3f302d5",
+  "rationale": "The evidence identifies 2005 as Stiller's only occasion starring in films featuring Alvin. This excludes the claimed occurrence before 2005.",
+  "review_note": "Shorten only-ever argument.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 290,
+  "source": "nli"
+}

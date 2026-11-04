@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "5f2a7f917789133eba3443f4a9e79c71f1db45e0a4ee7703fbc3ec8e40d242d1",
+  "evidence_quote": "The two children",
+  "key": "challenge_e_bd4d2ea463c51490",
+  "rationale": "Farrell has two children, named Maeve and Aisling. The count and complete list exclude Esme, contradicting the claim.",
+  "review_note": "Shortened exact-count closure reasoning.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 640,
+  "source": "nli"
+}

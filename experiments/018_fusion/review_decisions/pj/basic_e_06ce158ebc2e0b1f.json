@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "0acea84fba027a248cd6da15a4e9644a5ed0e285a139e21993779a0bb2c59722",
+  "evidence_quote": "did not manage to receive a Grammy Award",
+  "key": "basic_e_06ce158ebc2e0b1f",
+  "rationale": "The evidence explicitly states that the American Civil War \"did not manage to receive a Grammy Award.\" The claim asserts the opposite, that it \"received a Grammy Award.\" These two statements are direct contradictions.",
+  "review_note": "PJ correctly follows the explicit failed-receipt relation, treating American Civil War as the supplied name.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 15,
+  "source": "pj"
+}

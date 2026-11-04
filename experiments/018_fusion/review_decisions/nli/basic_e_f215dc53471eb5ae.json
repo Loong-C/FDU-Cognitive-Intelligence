@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "44326dfe846c53f8e2b26b7c319fe117da4db281dbfbf9c3a4025a60d015e89f",
+  "evidence_quote": "Within four years of that",
+  "key": "basic_e_f215dc53471eb5ae",
+  "rationale": "The album release was two years after 2012, in 2014. The halftime performance occurred within four years of 2014, so no later than 2018. A performance in 2019 contradicts that limit.",
+  "review_note": "Condensed valid timeline arithmetic to under 60 words.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 378,
+  "source": "nli"
+}

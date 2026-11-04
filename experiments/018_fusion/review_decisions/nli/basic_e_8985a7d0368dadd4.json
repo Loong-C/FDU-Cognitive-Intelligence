@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "ce6299d13d9331c33893aa440d3e330338d8860507dd77b13db0a99d96f1b399",
+  "evidence_quote": "scheduled for release",
+  "key": "basic_e_8985a7d0368dadd4",
+  "rationale": "The initially scheduled September 26, 2018 release date describes a plan. It does not establish whether Jagged Little Pill was actually released that day.",
+  "review_note": "Shorten and remove hypothetical delays.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 212,
+  "source": "nli"
+}

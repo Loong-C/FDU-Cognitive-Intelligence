@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "520a422e16e5652b50548d900177e5ca5bced7a2c266d5896c27c503db142fb8",
+  "evidence_quote": "failed to partner with Adidas",
+  "key": "basic_e_1a81c382845d4d36",
+  "rationale": "The evidence says Royal Challengers Bengaluru failed to partner with Adidas. This denies successful formation of the partnership asserted in the claim.",
+  "review_note": "Read NLI text; clarify failed to form a partnership rather than equating a failed existing partnership with no partnership.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 40,
+  "source": "nli"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "129a58f05946675d459f9e19c0cb505345a0ef5268b9571b37eb29de74a85168",
+  "evidence_quote": "won the World Series in 2020",
+  "key": "basic_e_93b5fd49785e1b5e",
+  "rationale": "The evidence confirms a 2020 win, but gives no other wins or exhaustive history. Four wins by 2022 is neither supported nor contradicted.",
+  "review_note": "Remove redundant temporal enumeration.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 227,
+  "source": "joint"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "26637ac3b84f09d0c94012ec6807e32333729cbed389a0c1ad67354cfab4f026",
+  "evidence_quote": "became chairman",
+  "key": "challenge_e_e973e959dccece7b",
+  "rationale": "Becoming chairman in 2000 gives no tenure duration. Chamberlain's status in 2005 is neither confirmed nor excluded.",
+  "review_note": "Shortened correct start-date gap.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 697,
+  "source": "nli"
+}

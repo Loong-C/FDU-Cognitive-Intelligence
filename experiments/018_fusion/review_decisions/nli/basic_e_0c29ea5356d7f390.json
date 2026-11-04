@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "f25f64855a03e7d91705ab2db477b1b2e90f46c2393e8f82ba2b305afc477df3",
+  "evidence_quote": "Selena Gomez was born in Dallas.",
+  "key": "basic_e_0c29ea5356d7f390",
+  "rationale": "The evidence states explicitly that \"Selena Gomez was born in Dallas.\" The claim is identical to this statement. Therefore, the evidence fully entails the claim.",
+  "review_note": "The evidence and claim are identical birthplace statements; the entire NLI explanation uses only that identity.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 20,
+  "source": "nli"
+}

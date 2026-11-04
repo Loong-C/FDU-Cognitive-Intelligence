@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "786c5f990b86e7d6401a256163304846bc9f1fd87f606398c92fc48b66018199",
+  "evidence_quote": "both Sam and Alex Altman won",
+  "key": "challenge_e_c817244b687d90e1",
+  "rationale": "Both Sam and Alex are named as winning the regional innovation award for the startup in 2021. Sam is therefore explicitly included in the claimed achievement.",
+  "review_note": "Condensed correct joint-recipient analysis.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 657,
+  "source": "joint"
+}

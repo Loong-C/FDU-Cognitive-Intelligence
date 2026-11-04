@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "cf33db6aed1c937aa28ee3f7633d2861cc6208583b6a2426ee56d0ac331b3333",
+  "evidence_quote": "an investigation later showed the reports to be false",
+  "key": "challenge_e_94c23c647561db9c",
+  "rationale": "The evidence explicitly states that the former secretary general of the International Olympic Committee denied that the IOC had secretly negotiated a sponsorship deal with a fast-food chain in 2005, and further notes that \"an investigation later showed the reports to be false.\" This directly contradicts the claim that such a deal was negotiated.",
+  "review_note": "Investigation supplies factual falsification, not just denial.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 587,
+  "source": "nli"
+}

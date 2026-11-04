@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "497b03a3a5d16874555ec67200ae49ad91f1a94b9a2f4ca304658518b2c0b20d",
+  "evidence_quote": "Sam became the 2021 Young Entrepreneur",
+  "key": "challenge_e_bd1c8bcfcd92794d",
+  "rationale": "The evidence explicitly states in the second paragraph: \"Sam became the 2021 Young Entrepreneur of the Year for the San Francisco Bay Area.\" This sentence directly matches the claim, confirming that Sam Altman received this specific award in that year for that region.",
+  "review_note": "Explicit person, year and regional title.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 639,
+  "source": "pj"
+}

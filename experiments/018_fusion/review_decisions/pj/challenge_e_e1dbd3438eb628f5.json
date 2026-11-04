@@ -1,0 +1,11 @@
+{
+  "decision": "accept",
+  "draft_sha256": "274b9dec08ba8aee33e73492dc8a068b81e62717c0af6a8346507cf264c1a3b9",
+  "evidence_quote": "survey confirmed",
+  "key": "challenge_e_e1dbd3438eb628f5",
+  "rationale": "The evidence explicitly states: \"The lead glaciologist of the 1999 survey confirmed that Mount Takahe had been named after a local Māori elder who contributed to early Antarctic mapping efforts.\" This sentence directly supports the claim that Mount Takahe was named after such a person.",
+  "review_note": "Confirmed naming proposition matches claim.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 689,
+  "source": "pj"
+}

@@ -1,0 +1,11 @@
+{
+  "decision": "revise",
+  "draft_sha256": "c069b8ac65f9f24001fe2b56f8f8d3ca36859bc51eaa93907da8c0fa704eb291",
+  "evidence_quote": "Five years after that",
+  "key": "basic_e_e1bbfe15deb9985d",
+  "rationale": "The supplied timeline yields 2012 + 2 + 5 = 2019 for the halftime show, directly supporting the claimed year.",
+  "review_note": "Remove repeated event narration.",
+  "reviewer": "Codex Agent: direct per-item evidence and full draft review",
+  "row_index": 349,
+  "source": "joint"
+}
