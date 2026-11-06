@@ -1,8 +1,8 @@
 {
-  "purpose": "Verified benchmark examples for the English slide outline; benchmark text is not asserted as real-world fact.",
+  "purpose": "Verified development examples shown in the final English report.",
   "sources": {
-    "F:\\Personal\\Code\\A_B\\worktrees\\A_B_fusion_v18\\experiments\\016_finetune_27b\\revision_2\\holdout.jsonl": "95736cb2d314c2dbb2732494f31248e447a026086a7eb6a7854f8f496a3d85b2",
-    "F:\\Personal\\Code\\A_B\\worktrees\\A_B_fusion_v18\\experiments\\017_unified_comparison\\results\\predictions.csv": "687d0b1d2fe6e325242ebbaf8f5a6da5cf8fe9e37fd179a3827cf9cbd3a65b62"
+    "worktrees/A_B_fusion_v18/experiments/016_finetune_27b/revision_2/holdout.jsonl": "95736cb2d314c2dbb2732494f31248e447a026086a7eb6a7854f8f496a3d85b2",
+    "worktrees/A_B_fusion_v18/experiments/017_unified_comparison/results/predictions.csv": "687d0b1d2fe6e325242ebbaf8f5a6da5cf8fe9e37fd179a3827cf9cbd3a65b62"
   },
   "examples": [
     {
@@ -16,8 +16,7 @@
       "source_title": "Akira Toriyama",
       "evidence_condition": "long",
       "slides": [
-        2,
-        12
+        10
       ],
       "evidence_excerpt": "His longtime editor at Shueisha dismissed as baseless the reports that Akira Toriyama had secretly donated five million yen to a local orphanage in Fukuoka.",
       "excerpt_is_verbatim": true,
@@ -28,30 +27,6 @@
         "lora42": "NOT ENOUGH INFO",
         "lora43": "NOT ENOUGH INFO",
         "lora44": "NOT ENOUGH INFO"
-      }
-    },
-    {
-      "id": "e_072e61b1f738c059",
-      "group": "g_8610864a2344d7ec",
-      "dataset": "challenge",
-      "mechanism": "DENIAL",
-      "variant": "shown_false",
-      "claim": "Akira Toriyama secretly donated five million yen to a local orphanage in Fukuoka.",
-      "label": "REFUTES",
-      "source_title": "Akira Toriyama",
-      "evidence_condition": "long",
-      "slides": [
-        2
-      ],
-      "evidence_excerpt": "Reports that Akira Toriyama had secretly donated five million yen to a local orphanage in Fukuoka were later shown to be false.",
-      "excerpt_is_verbatim": true,
-      "predictions": {
-        "baseline": "REFUTES",
-        "nli": "REFUTES",
-        "pj_v3": "REFUTES",
-        "lora42": "REFUTES",
-        "lora43": "REFUTES",
-        "lora44": "REFUTES"
       }
     },
     {
@@ -66,8 +41,7 @@
       "evidence_condition": "short",
       "slides": [
         4,
-        6,
-        12
+        7
       ],
       "evidence_excerpt": "In 2024, Olivia Edgar-Jones won a regional theater award for best supporting actress.",
       "excerpt_is_verbatim": true,

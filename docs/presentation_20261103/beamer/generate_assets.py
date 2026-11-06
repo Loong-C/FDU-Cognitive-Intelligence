@@ -15,6 +15,8 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
 ASSETS = HERE / "assets"
 ASSETS.mkdir(exist_ok=True)
+BUILD = HERE / "build"
+BUILD.mkdir(exist_ok=True)
 FUSION = ROOT / "worktrees/A_B_fusion_v18"
 V17 = FUSION / "experiments/017_unified_comparison/results"
 V18 = FUSION / "experiments/018_fusion/quick24_results/evaluation"
@@ -40,15 +42,17 @@ plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 16,
 
 def save(fig, name):
     fig.savefig(ASSETS / f"{name}.pdf", transparent=True)
-    fig.savefig(ASSETS / f"{name}.png", dpi=160, facecolor="white")
     plt.close(fig)
 
+chart_rows = []
 fig, axes = plt.subplots(1, 2, figsize=(13, 4.0))
 for ax, ds, title in zip(axes, ["basic", "challenge"], ["Basic (n = 120)", "Challenge (n = 141)"]):
     scores = a["datasets"][ds]["scores"]
     vals = [scores[m]["accuracy"] * 100 for m in ("baseline", "nli", "pj_v3")]
     seeds = [scores[f"lora{s}"]["accuracy"] * 100 for s in (42, 43, 44)]
     vals.append(mean(seeds))
+    for method, value in zip(("baseline", "nli", "pj_v3", "lora"), vals):
+        chart_rows.append(("V17", ds, method, "accuracy", value))
     ax.bar(range(4), vals, width=.62, color=[GRAY, BLUE, TEAL, GOLD], zorder=3)
     ax.errorbar(3, vals[3], yerr=stdev(seeds), fmt="none", capsize=5, color=INK, zorder=4)
     for i, val in enumerate(vals):
@@ -61,10 +65,19 @@ for ax, ds, title in zip(axes, ["basic", "challenge"], ["Basic (n = 120)", "Chal
 fig.subplots_adjust(left=.07, right=.99, bottom=.13, top=.84, wspace=.24)
 save(fig, "accuracy")
 
+challenge = a["datasets"]["challenge"]["scores"]
+for method in ("baseline", "pj_v3", "lora"):
+    runs = ("lora42", "lora43", "lora44") if method == "lora" else (method,)
+    for label in ("NOT ENOUGH INFO", "REFUTES"):
+        value = mean(challenge[run]["classes"][label]["recall"] for run in runs) * 100
+        chart_rows.append(("V17", "challenge", method, f"recall_{label}", value))
+
 fig, ax = plt.subplots(figsize=(13, 4.0))
 families = b["datasets"]["challenge"]["families"]
 keys = ["old_a0", "distill_nli", "distill_pj", "distill_joint"]
 vals = [families[k]["accuracy"] * 100 for k in keys]
+for method, value in zip(keys, vals):
+    chart_rows.append(("V18 quick24", "challenge", method, "accuracy", value))
 errs = [families[k]["seed_accuracy_stdev"] * 100 for k in keys]
 ax.bar(range(4), vals, color=[GOLD, BLUE, TEAL, GRAY], width=.55, zorder=3)
 ax.errorbar(range(4), vals, yerr=errs, fmt="none", capsize=6, color=INK, zorder=4)
@@ -124,13 +137,12 @@ bar.ax.tick_params(labelsize=12)
 fig.text(.60, .07, "Row percentage (%)", fontsize=13)
 save(fig, "confusion_main")
 
-fig, axes = plt.subplots(2, 2, figsize=(13, 5.0))
-for ax, key, title in zip(axes.flat, ["nli", "lora42", "lora43", "lora44"], ["NLI", "LoRA: seed 42", "LoRA: seed 43", "LoRA: seed 44"]):
-    heatmap(ax, rates[key], [[str(v) for v in row] for row in matrices[key]], title)
-fig.subplots_adjust(left=.14, right=.98, bottom=.10, top=.90, wspace=.34, hspace=.66)
-save(fig, "confusion_seeds")
-
-sources = [V17/"results.json", V17/"predictions.csv", V17/"audit.json", V18/"results.json", V18/"audit.json", HERE.parent/"slide_examples.json"]
-(HERE/"build/sources.json").write_text(json.dumps({str(p.relative_to(ROOT)):digest(p) for p in sources}, indent=2), encoding="utf-8")
-(HERE/"build/confusion_data.json").write_text(json.dumps({"counts":{k:v.tolist() for k,v in matrices.items()},"percent":{k:v.tolist() for k,v in rates.items()}}, indent=2), encoding="utf-8")
-print("Created 4 vector chart PDFs and PNG previews; validated frozen-result hashes and counts.")
+with (HERE.parent / "chart_data.csv").open("w", newline="", encoding="utf-8-sig") as f:
+    writer = csv.writer(f, lineterminator="\n")
+    writer.writerow(("experiment", "dataset", "method", "metric", "percent"))
+    writer.writerows(chart_rows)
+sources = [V17/"results.json", V17/"predictions.csv", V17/"audit.json", V18/"results.json", V18/"audit.json"]
+manifest = {p.relative_to(ROOT).as_posix(): digest(p) for p in sources}
+(HERE.parent / "figure_sources.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8", newline="\n")
+(BUILD / "confusion_data.json").write_text(json.dumps({"counts":{k:v.tolist() for k,v in matrices.items()},"percent":{k:v.tolist() for k,v in rates.items()}}, indent=2), encoding="utf-8")
+print("Created the three report figures and verified the frozen result hashes and counts.")

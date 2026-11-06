@@ -8,8 +8,6 @@
 *.pptx binary
 *.pdf binary
 *.png binary
-# Preserve Matplotlib vector exports, including generated path whitespace.
-/docs/presentation_20261103/*.svg -text whitespace=-blank-at-eol,cr-at-eol
 # Preserve original benchmark files byte for byte, including their newlines.
 /data/raw/** -text
 

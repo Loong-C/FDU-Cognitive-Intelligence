@@ -32,7 +32,7 @@ A_B/
 ├── docs/
 │   ├── README.md               # 文档、结果与接入说明索引
 │   ├── references/             # 选题文本、课题说明和参考 PPT
-│   ├── presentation_20261103/  # 汇报方案、图表、Beamer 源码与最终 PDF
+│   ├── presentation_20261103/  # 最终汇报 PDF、Beamer 源码、逐页提纲与图表
 │   └── data_split.md           # 划分规则、数据使用约定及检查结果
 ├── src/ab_factcheck/            # 可复用 Python 代码
 ├── prompts/v1/                 # 冻结的 A0/B1/C1 system/user 模板

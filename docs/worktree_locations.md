@@ -14,7 +14,7 @@
 - [V17 同条件比较](../worktrees/A_B_fusion_v18/experiments/017_unified_comparison/ASSESSMENT.md)
 - [V18 一天版最终分析](../worktrees/A_B_fusion_v18/experiments/018_fusion/quick24_results/ASSESSMENT.md)
 - [PJ 材料说明](../worktrees/A_B_materials_20261029/experiments/imported_pj_20261029/README.md)
-- [PPT 内容方案与图表](presentation_20261103/PPT内容方案.md)
+- [最终汇报、逐页提纲与图表](presentation_20261103/README.md)
 
 以上工作树链接用于本机阅读。远端或新克隆请使用 [V16 微调](https://github.com/Loong-C/FDU-Cognitive-Intelligence/blob/codex/finetune-27b-baseline/experiments/016_finetune_27b/revision_2/results/RESULTS.md)、[V17 比较](https://github.com/Loong-C/FDU-Cognitive-Intelligence/blob/codex/finetune-27b-baseline/experiments/017_unified_comparison/ASSESSMENT.md)、[V18 融合](https://github.com/Loong-C/FDU-Cognitive-Intelligence/blob/codex/fusion-v18/experiments/018_fusion/quick24_results/ASSESSMENT.md) 和 [PJ 材料](https://github.com/Loong-C/FDU-Cognitive-Intelligence/blob/codex/import-pj-materials-20261029/experiments/imported_pj_20261029/README.md)。
 
